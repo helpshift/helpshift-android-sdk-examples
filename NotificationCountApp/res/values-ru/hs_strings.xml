@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift English strings -->
+  <string name="hs_help_header">Справка</string>
+  <string name="hs_question_header">Вопрос</string>
+  <string name="hs_report_issue_header">Сообщить о новой проблеме</string>
+  <string name="hs_add_profile_header">Представиться</string>
+  <string name="hs_inbox_header">Входящая почта</string>
+  <string name="hs_faq_header">Вопрос-ответ</string>
+  <string name="hs_issues_header">Мои проблемы</string>
+  <string name="hs_submit_issue_btn">Подать</string>
+  <string name="hs_submit_profile_btn">Отправить</string>
+  <string name="hs_send_msg_btn">Отправить</string>
+  <string name="hs_like_btn">ДА</string>
+  <string name="hs_dislike_btn">НЕТ</string>
+  <string name="hs_report_issue_btn">Сообщить о новой проблеме</string>
+  <string name="hs_change_btn">Изменить</string>
+  <string name="hs_done_btn">Готово</string>
+  <string name="hs_attach_btn">OK, прикрепить</string>
+  <string name="hs_review_btn">OK, дать отзыв</string>
+  <string name="hs_unsolved_btn">Нет, не решено</string>
+  <string name="hs_solved_btn">Да, решено!</string>
+  <string name="hs_review_dialog_positive_btn">Оценить и дать отзыв</string>
+  <string name="hs_review_dialog_neutral_btn">Напомнить позже</string>
+  <string name="hs_review_dialog_negative_btn">Больше не спрашивать</string>
+  <string name="hs_question_like_msg">Было полезно?</string>
+  <string name="hs_rsc_progress_msg">Отправка скриншота.</string>
+  <string name="hs_ca_msg">Мы рады помочь.</string>
+  <string name="hs_cr_msg">
+    Жаль об этом слышать. Не могли бы вы рассказать немного подробнее о проблеме, с которой
+    столкнулись?
+  </string>
+  <string name="hs_issue_filed_msg">
+    Спасибо за сообщение о проблеме. Мы его получили и свяжемся с вами.
+  </string>
+  <string name="hs_review_dialog_msg">
+    Будьте добры, уделите минуту обзору нашего приложения. Это не займёт больше минуты. Спасибо
+    за поддержку!
+  </string>
+  <string name="hs_network_unavailable_msg">Сеть недоступна.</string>
+  <string name="hs_found_useful_msg">Вы нашли это полезным.</string>
+  <string name="hs_found_unuseful_msg">Вы не нашли это полезным.</string>
+  <string name="hs_fetching_issues_msg">Выборка вопросов...</string>
+  <string name="hs_search_hint">Опишите проблему</string>
+  <string name="hs_section_hint">Нажать, чтобы показать все разделы</string>
+  <string name="hs_issue_hint">Нажать, чтобы показать все проблемы</string>
+  <string name="hs_username_hint">Ваше имя</string>
+  <string name="hs_email_hint">Адрес вашей эл.почты (необязательный)</string>
+  <string name="hs_chat_hint">Введите сообщение</string>
+  <string name="hs_device_info">Прикрепите информацию об устройстве</string>
+  <string name="hs_empty_section">Извините! В данном разделе вопросы недоступны</string>
+  <string name="hs_search_footer">Не нашли того, чего искали?</string>
+  <string name="hs_issue_detail_error">Пожалуйста, опишите проблему</string>
+  <string name="hs_username_blank_error">Требуется имя пользователя</string>
+  <string name="hs_invalid_email_error">Введите действительный адрес эл.почты.</string>
+  <string name="hs_invalid_description_error">Неверное описание</string>
+  <string name="hs_privacy_policy">
+    Мы попросим ваши реквизиты только при первом сообщении о проблеме. Подробности читайте в
+    %1$s нашей политике конфиденциальности %2$s
+  </string>
+  <string name="hs_dt_wait">Пожалуйста, подождите</string>
+  <string name="hs_dm_loading">Идёт загрузка...</string>
+  <string name="hs_dm_report_issue_loading">Отчёт о проблеме...</string>
+  <string name="hs_dm_video_loading">Идёт загрузка видео...</string>
+  <plurals name="hs_no_of_sections">
+    <item quantity="one">+%d Раздел</item>
+    <item quantity="other">+%d Разделы</item>
+  </plurals>
+  <plurals name="hs_no_of_issues">
+    <item quantity="one">+%d Проблема</item>
+    <item quantity="other">+%d Проблемы</item>
+  </plurals>
+  <plurals name="hs_no_of_questions">
+    <item quantity="one">+%d вопрос</item>
+    <item quantity="other">+%d Вопросы</item>
+  </plurals>
+  <string name="hs_faqs_search_footer">Не часто задаваемые вопросы найдены.</string>
+</resources>

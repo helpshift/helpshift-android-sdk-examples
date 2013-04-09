@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.example.notificationcountapp"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="NotificationCountActivity"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+          package="com.example.notificationcountapp"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-sdk android:minSdkVersion="8"
+            android:targetSdkVersion="17" />
+
+  <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+    <activity android:name="NotificationCountActivity"
+              android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.helpshift.HelpshiftActivity"
+              android:configChanges="orientation|screenSize"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSAddIssue"
+              android:theme="@style/HSThemeLight"/>
+    <activity android:name="com.helpshift.HSAddProfile"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSMessages"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSQuestionsList"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSQuestion"
+              android:hardwareAccelerated="true"
+              android:configChanges="orientation|screenSize"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSSection"
+              android:hardwareAccelerated="true"
+              android:configChanges="orientation|screenSize"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSInbox"
+              android:hardwareAccelerated="true"
+              android:configChanges="orientation|screenSize"
+              android:theme="@style/HSThemeLight" />
+    <activity android:name="com.helpshift.HSFaqs"
+              android:hardwareAccelerated="true"
+              android:configChanges="orientation|screenSize"
+              android:theme="@style/HSThemeLight" />
+  </application>
 </manifest>

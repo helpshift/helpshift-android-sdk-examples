@@ -88,5 +88,16 @@
     -->
     <!-- version-tag: 1 -->
     <import file="${sdk.dir}/tools/ant/build.xml" />
+    <target name="-post-compile">
+      <path id="helpshift-classpath">
+        <fileset dir="./libs/">
+          <include name="Helpshift.jar"/>
+        </fileset>
+      </path>
 
+      <java classname="com.helpshift.HSPostCompileCheck" failonerror="true">
+        <classpath refid="helpshift-classpath"/>
+        <arg value="com.example.notificationcountapp"/>
+      </java>
+    </target>
 </project>
