@@ -6,12 +6,15 @@ import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import com.google.android.gcm.GCMRegistrar;
+
 import com.helpshift.Helpshift;
 import com.helpshift.Log;
 
 public class GCMActivity extends Activity {
 
-  String TAG = "GCMAppDebug";
+  protected final static String TAG = "GCMAppDebug";
+  protected final static String senderId = "YOUR_SENDER_ID";
   Helpshift hs;
   Button helpButton;
 
@@ -24,10 +27,15 @@ public class GCMActivity extends Activity {
     // You initialize the library by calling hs.install(APPLICATION_CONTEXT, API_KEY, DOMAIN,
     // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
     // hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
-    hs.install(this,
-               "518c9d6472a68a2ab99a42c26567e24f",
-               "test.helpshift.com",
-               "test_platform_20121108053758969-8f405d202ca65d5");
+
+    GCMRegistrar.checkDevice(this);
+    GCMRegistrar.checkManifest(this);
+    final String regId = GCMRegistrar.getRegistrationId(this);
+    if (regId.equals("")) {
+      GCMRegistrar.register(this, senderId);
+    } else {
+      Log.d(TAG, "Already registered: " + regId.toString());
+    }
 
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
