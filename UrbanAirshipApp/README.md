@@ -1,13 +1,13 @@
-Readme for NotificationCountApp
+Readme for UrbanAirshipApp
 ==============================
 
-Run the following inside the /NotificationCountApp folder.
+Run the following inside the /UrbanAirshipApp folder.
 
 ```
 android update project -t android-17 -p .
 ```
 
-In NotificationCountActivity.java initialize the library by calling
+In UrbanAirshipActivity.java initialize the library by calling
 ```
 hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 ```
