@@ -13,7 +13,7 @@ hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>
 ```
 in your activity's onCreate(BundlesavedInstanceState)
 
-In MyApplication uncomment the following and add the appropriate values for gcmsender,
+In MyApplication.java uncomment the following and add the appropriate values for gcmsender,
 developmentAppKey and productionAppKey.
 ```
   AirshipConfigOptions options = AirshipConfigOptions.loadDefaultOptions(this);
