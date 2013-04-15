@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                style="?hs_activityBgStyleRef"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+  <TextView
+      android:id="@+id/hs_activityHeaderText"
+      style="?hs_activityHeaderStyleRef"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center"
+      android:paddingBottom="@dimen/hs_header_bottom_padding"
+      android:paddingTop="@dimen/hs_header_top_padding"
+      android:text="TextView"
+      android:textSize="@dimen/hs_header_font_size" />
+
+  <RelativeLayout
+      style="?hs_editBoxStyleRef"
+      android:id="@+id/relativeLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/hs_messagesFooter"
+      android:gravity="center"
+      android:paddingLeft="10sp"
+      android:paddingRight="10sp"
+      android:paddingTop="5sp" >
+
+    <Button
+        android:id="@+id/hs_sendMessageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@string/hs_section_item_text_font"
+        android:gravity="center"
+        android:text="@string/hs_send_msg_btn" />
+
+    <EditText
+        android:id="@+id/hs_messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hs_sendMessageBtn"
+        android:layout_toLeftOf="@+id/hs_sendMessageBtn"
+        android:ems="10"
+        android:hint="@string/hs_chat_hint"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine"
+        android:maxLines="@integer/hs_chat_max_lines" />
+
+  </RelativeLayout>
+
+  <TextView
+      style="?hs_stubStyleRef"
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/relativeLayout1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:textSize="2sp" />
+
+  <ListView
+      style="?hs_listStyleRef"
+      android:id="@+id/hs_messagesList"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_above="@+id/textView1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/hs_activityHeaderText"
+      android:scrollingCache="false"
+      android:transcriptMode="alwaysScroll" >
+
+  </ListView>
+
+  <LinearLayout
+      android:id="@+id/hs_messagesFooter"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="vertical" >
+
+  </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift English strings -->
+  <string name="hs_help_header">Guida</string>
+  <string name="hs_question_header">Domanda</string>
+  <string name="hs_report_issue_header">Segnala un nuovo problema</string>
+  <string name="hs_add_profile_header">Presentati</string>
+  <string name="hs_inbox_header">Posta in arrivo</string>
+  <string name="hs_faq_header">FAQ</string>
+  <string name="hs_issues_header">I miei problemi</string>
+  <string name="hs_submit_issue_btn">Invia</string>
+  <string name="hs_submit_profile_btn">Invia</string>
+  <string name="hs_send_msg_btn">Invia</string>
+  <string name="hs_like_btn">SÌ</string>
+  <string name="hs_dislike_btn">NO</string>
+  <string name="hs_report_issue_btn">Segnala un nuovo problema</string>
+  <string name="hs_change_btn">Modifica</string>
+  <string name="hs_done_btn">Fine</string>
+  <string name="hs_attach_btn">Ok, allega</string>
+  <string name="hs_review_btn">Ok, recensisci</string>
+  <string name="hs_unsolved_btn">No, non risolto</string>
+  <string name="hs_solved_btn">Sì, risolto!</string>
+  <string name="hs_review_dialog_positive_btn">Valuta e recensisci</string>
+  <string name="hs_review_dialog_neutral_btn">Ricordamelo più tardi</string>
+  <string name="hs_review_dialog_negative_btn">Non chiedermelo più</string>
+  <string name="hs_question_like_msg">È stato utile?</string>
+  <string name="hs_rsc_progress_msg">Invio schermata</string>
+  <string name="hs_ca_msg">Siamo felici di aiutare</string>
+  <string name="hs_cr_msg">
+    Siamo molto spiacenti. Puoi fornirci maggiori informazioni sul problema che hai
+    riscontrato?
+  </string>
+  <string name="hs_issue_filed_msg">
+    Grazie per aver segnalato questo problema. Ti risponderemo presto.
+  </string>
+  <string name="hs_review_dialog_msg">
+    Ti va di dedicare qualche istante per recensire la nostra app? Non richiederà più di un
+    minuto. Grazie per il tuo sostegno!
+  </string>
+  <string name="hs_network_unavailable_msg">Rete non disponibile.</string>
+  <string name="hs_found_useful_msg">Questo ti é stato utile.</string>
+  <string name="hs_found_unuseful_msg">Questo non ti é stato utile.</string>
+  <string name="hs_fetching_issues_msg">Recupero problemi...</string>
+  <string name="hs_search_hint">Descrivi il tuo problema</string>
+  <string name="hs_section_hint">Tocca per mostrare tutte le sezioni</string>
+  <string name="hs_issue_hint">Tocca per mostrare tutti i problemi</string>
+  <string name="hs_username_hint">Il tuo nome</string>
+  <string name="hs_email_hint">Il tuo indirizzo e-mail (optional)</string>
+  <string name="hs_chat_hint">Digita il tuo messaggio</string>
+  <string name="hs_device_info">Allega info dispositivo</string>
+  <string name="hs_empty_section">Spiacenti! Nessuna domanda disponibile in questa sezione</string>
+  <string name="hs_search_footer">Non riesci a trovare quel che stai cercando?</string>
+  <string name="hs_issue_detail_error">Descrivi il tuo problema</string>
+  <string name="hs_username_blank_error">Nome utente obbligatorio</string>
+  <string name="hs_invalid_email_error">Fornisci un indirizzo e-mail valido.</string>
+  <string name="hs_invalid_description_error">Descrizione non valido</string>
+  <string name="hs_privacy_policy">
+    Chiederemo i tuoi dati solo alla tua prima segnalazione di un problema. Per ulteriori
+    informazioni leggi la nostra %1$s informativa sulla privacy %2$s
+  </string>
+  <string name="hs_dt_wait">Attendere</string>
+  <string name="hs_dm_loading">Caricamento in corso...</string>
+  <string name="hs_dm_report_issue_loading">Segnalazione problema in corso...</string>
+  <string name="hs_dm_video_loading">Caricamento video in corso...</string>
+  <plurals name="hs_no_of_sections">
+    <item quantity="one">+%d Sezione</item>
+    <item quantity="other">+%d Sezioni</item>
+  </plurals>
+  <plurals name="hs_no_of_issues">
+    <item quantity="one">+%d Issue</item>
+    <item quantity="other">+%d Issues</item>
+  </plurals>
+  <plurals name="hs_no_of_questions">
+    <item quantity="one">+%d Domanda</item>
+    <item quantity="other">+%d Domande</item>
+  </plurals>
+  <string name="hs_faqs_search_footer">Nessun trovato FAQ.</string>
+</resources>
