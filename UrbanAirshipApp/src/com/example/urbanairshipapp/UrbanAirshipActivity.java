@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
+
 import com.helpshift.Helpshift;
 import com.helpshift.Log;
 
+import com.urbanairship.push.PushManager;
+
 public class UrbanAirshipActivity extends Activity {
-  String TAG = "UrbanAirshipAppDebug";
+  protected final static String TAG = "UrbanAirshipAppDebug";
   Helpshift hs;
   Button helpButton;
 
