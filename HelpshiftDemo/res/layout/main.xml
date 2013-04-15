@@ -9,4 +9,29 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Help"/>
+  <Button
+      android:id="@+id/reportIssueButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Report Issue"/>
+  <Button
+      android:id="@+id/inboxButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Inbox"/>
+  <Button
+      android:id="@+id/faqsButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="All FAQs"/>
+  <Button
+      android:id="@+id/faqSectionButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Single FAQ Section"/>
+  <Button
+      android:id="@+id/singleFaqButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Single FAQ"/>
 </LinearLayout>

@@ -14,6 +14,11 @@ public class HelpshiftDemoActivity extends Activity {
   String TAG = "HelpshiftDemoDebug";
   Helpshift hs;
   Button helpButton;
+  Button reportIssueButton;
+  Button inboxButton;
+  Button faqsButton;
+  Button faqSectionButton;
+  Button singleFaqButton;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -30,6 +35,46 @@ public class HelpshiftDemoActivity extends Activity {
         @Override
         public void onClick(View view) {
           hs.showSupport(HelpshiftDemoActivity.this);
+        }
+      });
+
+    reportIssueButton = (Button) findViewById(R.id.reportIssueButton);
+    reportIssueButton.setOnClickListener(new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          hs.showReportIssue(HelpshiftDemoActivity.this);
+        }
+      });
+
+    inboxButton = (Button) findViewById(R.id.inboxButton);
+    inboxButton.setOnClickListener(new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          hs.showInbox(HelpshiftDemoActivity.this);
+        }
+      });
+
+    faqsButton = (Button) findViewById(R.id.faqsButton);
+    faqsButton.setOnClickListener(new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          hs.showFaqs(HelpshiftDemoActivity.this);
+        }
+      });
+
+    faqSectionButton = (Button) findViewById(R.id.faqSectionButton);
+    faqSectionButton.setOnClickListener(new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          hs.showSection(HelpshiftDemoActivity.this, "SECTION_PUBLISH_ID");
+        }
+      });
+
+    singleFaqButton = (Button) findViewById(R.id.singleFaqButton);
+    singleFaqButton.setOnClickListener(new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          hs.showQuestion(HelpshiftDemoActivity.this, "QUESTION_PUBLISH_ID");
         }
       });
   }
