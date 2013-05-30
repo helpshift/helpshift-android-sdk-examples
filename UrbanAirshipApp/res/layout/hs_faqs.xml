@@ -8,7 +8,7 @@
     android:focusableInTouchMode="true" >
 
   <TextView
-      android:id="@+id/hs_sectionHeader"
+      android:id="@+id/hs_faqsHeader"
       style="?hs_activityHeaderStyleRef"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
       android:layout_height="wrap_content"
       android:layout_alignParentLeft="true"
       android:layout_alignParentRight="true"
-      android:layout_below="@+id/hs_sectionHeader"
+      android:layout_below="@+id/hs_faqsHeader"
       android:paddingBottom="8sp"
       android:paddingLeft="15sp"
       android:paddingRight="15sp"
@@ -79,7 +79,7 @@
       android:id="@+id/hs_mainList"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_above="@+id/hs_sectionFooter"
+      android:layout_above="@+id/hs_faqsFooter"
       android:layout_alignParentLeft="true"
       android:layout_below="@+id/textView2"
       android:divider="@null"
@@ -93,7 +93,7 @@
       android:id="@+id/hs_searchList"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_above="@+id/hs_sectionFooter"
+      android:layout_above="@+id/hs_faqsFooter"
       android:layout_alignParentLeft="true"
       android:layout_below="@+id/textView2"
       android:divider="@null"
