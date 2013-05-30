@@ -68,6 +68,18 @@
               android:configChanges="orientation|screenSize"
               android:theme="@style/HSThemeLight" />
 
+    <receiver android:name="com.helpshift.HelpshiftConnReceiver">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+
+    <service
+        android:name="com.helpshift.HSRetryService"
+        android:label="Helpshift Service"
+        >
+    </service>
+
     <!-- REQUIRED for Urban Airship GCM-->
     <receiver android:name="com.urbanairship.CoreReceiver" />
     <receiver android:name="com.urbanairship.push.GCMPushReceiver"

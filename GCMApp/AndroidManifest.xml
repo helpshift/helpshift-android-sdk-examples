@@ -4,6 +4,7 @@
           android:versionCode="1"
           android:versionName="1.0">
 
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
   <permission android:name="com.example.gcmapp.permission.C2D_MESSAGE"
@@ -56,6 +57,18 @@
               android:hardwareAccelerated="true"
               android:configChanges="orientation|screenSize"
               android:theme="@style/HSThemeLight" />
+
+    <receiver android:name="com.helpshift.HelpshiftConnReceiver">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+
+    <service
+        android:name="com.helpshift.HSRetryService"
+        android:label="Helpshift Service"
+        >
+    </service>
 
     <service android:name=".GCMIntentService" />
 

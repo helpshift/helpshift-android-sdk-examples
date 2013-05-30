@@ -5,6 +5,7 @@
           android:versionName="1.0">
 
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-sdk android:minSdkVersion="8"
             android:targetSdkVersion="17" />
@@ -46,6 +47,18 @@
               android:theme="@style/HSThemeLight" />
     <service android:name="com.helpshift.HSService"
              android:label="Helpshift Service" >
+    </service>
+
+    <receiver android:name="com.helpshift.HelpshiftConnReceiver">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+
+    <service
+        android:name="com.helpshift.HSRetryService"
+        android:label="Helpshift Service"
+        >
     </service>
   </application>
 </manifest>
