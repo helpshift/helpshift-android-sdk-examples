@@ -44,5 +44,8 @@
               android:hardwareAccelerated="true"
               android:configChanges="orientation|screenSize"
               android:theme="@style/HSThemeLight" />
+    <service android:name="com.helpshift.HSService"
+             android:label="Helpshift Service" >
+    </service>
   </application>
 </manifest>
