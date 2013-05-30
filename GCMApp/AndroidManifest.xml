@@ -71,6 +71,7 @@
     <receiver android:name="GCMIntentReceiver" >
       <intent-filter>
         <action android:name="HS_TOKEN_SEND" />
+        <action android:name="HS_ON_MESSAGE" />
       </intent-filter>
     </receiver>
   </application>

@@ -59,8 +59,11 @@ public class GCMIntentService extends GCMBaseIntentService {
       hs = new Helpshift(context);
     }
 
-    if(!hs.isForeground()) {
-      generateNotification(context, intent);
+    if(intent.getExtras().getString("origin").equals("helpshift")) {
+      Intent i = new Intent();
+      i.setAction("HS_ON_MESSAGE");
+      i.putExtras(intent);
+      sendBroadcast(i);
     }
   }
 
