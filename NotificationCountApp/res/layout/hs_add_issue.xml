@@ -30,6 +30,7 @@
 
     <EditText
         android:id="@+id/hs_issueDetail"
+        android:hint="@string/hs_search_hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -46,18 +47,6 @@
         android:layout_alignRight="@+id/hs_issueDetail"
         android:layout_below="@+id/hs_issueDetail"
         android:text="@string/hs_submit_issue_btn" />
-
-    <CheckBox
-        android:id="@+id/hs_deviceInfoCheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/hs_submitIssueBtn"
-        android:layout_alignLeft="@+id/hs_issueDetail"
-        android:layout_alignTop="@+id/hs_submitIssueBtn"
-        android:layout_toLeftOf="@+id/hs_submitIssueBtn"
-        android:gravity="center_vertical"
-        android:text="@string/hs_device_info" />
-
   </RelativeLayout>
 
   <LinearLayout

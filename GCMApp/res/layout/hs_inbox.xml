@@ -30,7 +30,8 @@
       android:layout_alignParentLeft="true"
       android:layout_below="@+id/hs_inboxHeader"
       android:divider="@null"
-      android:scrollbarStyle="outsideOverlay" >
+      android:scrollbarStyle="outsideOverlay"
+      android:scrollingCache="false">
 
   </ListView>
 
