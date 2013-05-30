@@ -23,6 +23,9 @@ public class IntentReceiver extends BroadcastReceiver {
     String action = intent.getAction();
 
     if (action.equals(PushManager.ACTION_PUSH_RECEIVED)) {
+      if(intent.getExtras().getString("origin").equals("helpshift")) {
+        hs.handlePush(intent);
+      }
 
       int id = intent.getIntExtra(PushManager.EXTRA_NOTIFICATION_ID, 0);
 

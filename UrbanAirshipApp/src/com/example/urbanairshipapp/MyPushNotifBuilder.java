@@ -16,16 +16,9 @@ public class MyPushNotifBuilder extends BasicPushNotificationBuilder {
   private Helpshift hs = null;
 
   public Notification buildNotification(String alert, Map<String, String> extras) {
-
-    Context c = UAirship.shared().getApplicationContext();
-    if (hs == null){
-      hs = new Helpshift(c);
-    }
-
-    if(!hs.isForeground()) {
-      return super.buildNotification(alert, extras);
-    } else {
+    if(extras.get("origin").equals("helpshift")) {
       return null;
     }
+    return super.buildNotification(alert, extras);
   }
 }
