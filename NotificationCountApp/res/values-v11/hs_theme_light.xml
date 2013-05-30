@@ -19,6 +19,7 @@
     <item name="hs_editBoxStyleRef">@style/hs_lightEditBoxStyle</item>
     <item name="hs_messagesTextColorRef">@color/hs_light_messages_text</item>
     <item name="hs_webviewTextColorRef">@color/hs_light_webview_text</item>
+    <item name="hs_webviewBgColorRef">@color/hs_light_webview_bg</item>
   </style>
 
   <style name="hs_lightActivityHeaderStyle">

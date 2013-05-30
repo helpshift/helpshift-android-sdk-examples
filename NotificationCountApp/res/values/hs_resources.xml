@@ -16,6 +16,7 @@
   <color name="hs_light_edit_box_bg">#DDDDDD</color>
   <color name="hs_light_messages_text">#535353</color>
   <color name="hs_light_webview_text">@color/hs_light_section_item_text</color>
+  <color name="hs_light_webview_bg">@color/hs_light_activity_bg</color>
 
   <!-- Dark theme colors -->
   <color name="hs_dark_header_background_color">#222222</color>
@@ -32,6 +33,7 @@
   <color name="hs_dark_edit_box_bg">#676767</color>
   <color name="hs_dark_messages_text">#535353</color>
   <color name="hs_dark_webview_text">@color/hs_dark_section_item_text</color>
+  <color name="hs_dark_webview_bg">@color/hs_dark_activity_bg</color>
 
   <!-- Other colors -->
   <color name="hs_like_yes_text">#0099CB</color>
@@ -76,4 +78,5 @@
   <attr name="hs_editBoxStyleRef" format="reference"/>
   <attr name="hs_messagesTextColorRef" format="reference"/>
   <attr name="hs_webviewTextColorRef" format="reference"/>
+  <attr name="hs_webviewBgColorRef" format="reference"/>
 </resources>
