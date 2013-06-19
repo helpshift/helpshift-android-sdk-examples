@@ -30,45 +30,6 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name="com.helpshift.HelpshiftActivity"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSAddIssue"
-              android:theme="@style/HSThemeLight"/>
-    <activity android:name="com.helpshift.HSAddProfile"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSMessages"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSQuestionsList"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSQuestion"
-              android:hardwareAccelerated="true"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSSection"
-              android:hardwareAccelerated="true"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSInbox"
-              android:hardwareAccelerated="true"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/HSThemeLight" />
-    <activity android:name="com.helpshift.HSFaqs"
-              android:hardwareAccelerated="true"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/HSThemeLight" />
-
-    <receiver android:name="com.helpshift.HelpshiftConnReceiver">
-      <intent-filter>
-        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
-      </intent-filter>
-    </receiver>
-
-    <service
-        android:name="com.helpshift.HSRetryService"
-        android:label="Helpshift Service"
-        >
-    </service>
 
     <service android:name=".GCMIntentService" />
 
