@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                style="?hs_activityBgStyleRef">
+
+  <TextView
+      android:id="@+id/hs_activityHeaderText"
+      style="?hs_activityHeaderStyleRef"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center"
+      android:paddingBottom="@dimen/hs_header_bottom_padding"
+      android:paddingTop="@dimen/hs_header_top_padding"
+      android:text="@string/hs_add_profile_header"
+      android:textSize="@dimen/hs_header_font_size" />
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/hs_activityHeaderText"
+      android:layout_above="@+id/hs_addProfileFooter"
+      android:padding="@dimen/hs_content_wrapper_padding" >
+
+    <EditText
+        android:id="@+id/hs_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/hs_username_hint"
+        android:inputType="none|textPersonName" >
+      <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/hs_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hs_username"
+        android:ems="10"
+        android:hint="@string/hs_email_hint"
+        android:inputType="none|textEmailAddress" />
+
+    <Button
+        android:id="@+id/hs_submitProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hs_email"
+        android:text="@string/hs_submit_profile_btn" />
+
+    <TextView
+        android:id="@+id/hs_privacyPolicyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hs_submitProfileBtn"
+        android:text="@string/hs_privacy_policy" />
+
+  </RelativeLayout>
+
+  <LinearLayout
+        android:id="@+id/hs_addProfileFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

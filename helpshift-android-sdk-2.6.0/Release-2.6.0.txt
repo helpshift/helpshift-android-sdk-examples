@@ -1,0 +1,109 @@
+Helpshift SDK 2.3.0 Release Notes (for Android)
+-----------------------------------------------
+
+Helpshift is an embedded support desk for native apps. (http://helpshift.com)
+Helpshift SDK for Android is required for having Helpshift support running on native apps.
+
+Requirements:
+App must be running on any version between android-8 to android-17 (Android 2.2 to 4.2).
+
+Documentation for Installation and Usage Instructions:
+http://www.helpshift.com/docs/android/
+
+New features:
+2.6.0 Release Date: June 19, 2013
+      * Bug fix for link rendering in question view
+      * Seperate strings resources for search box and report issue hint
+      * Add full screen support for Helpshift activities
+      * Move Helpshift SDK to Android Library Project format
+2.5.0 Release Date: May 29, 2013
+      * Retry mechanism for failed messages.
+      * New API to handle GCM and Urban Airship push.
+      * Add Portuguese(BR) and Simplified Chinese strings.
+      * Bug fix related to in-app notification disable flag
+2.4.0 Release Date: May 15, 2013
+      * In-app notifications
+      * Enhanced API for GCM Push
+      * Bug and UI fixes
+2.3.0 Release Date: May 02, 2013
+      * Fixed notification poller
+      * Tablet support
+2.2.0 Release Date: April 17, 2013
+      * Optional flags for reporting issue.
+      * UI fixes.
+2.1.2 Release Date: April 15, 2013
+      * Bug fixes
+2.1.1 Release Date: April 05, 2013
+      * Bug fixes
+2.1.0 Release Date: April 03, 2013
+      * Added translations for German, Spanish, Russian, Italian and French
+      * Decomposed view for all FAQ sections
+      * Improved FAQ display
+2.0.1 Release Date: March 26, 2013
+      * Minor bug fix
+2.0.0 Release Date: March 20, 2013
+      * Skinning for activities
+      * Decomposed views for section, question and inbox
+      * Added support for GCM push.
+      * Added support for Metadata.
+      * Linkable urls and phone numbers in messages.
+      * Chat messages are now copyable.
+      * Review request fix.
+      * UI fixes.
+      * Minor enhancements and bug fixes
+1.5.2 Release Date: February 08, 2013
+      * Support UTF-8 text in reporting issue.
+1.5.1 Release Date: February 06, 2013
+      * Performance improvments.
+      * Debug log limit can now be modified from admin dashboard.
+1.5.0 Release Date: January 30, 2013
+      * Search performance improvements
+      * FAQ performance improvements
+      * Minor enhancements and bug fixes
+1.4.2 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.1 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.0 Release Date: December 31, 2012
+      * Add functions to SDK to poll for notification count
+      * Add function to SDK to show "Report Issue" Activity
+      * Minor enhancements and bug fixes
+1.3.1 Release Date: December 27, 2012
+      * Minor bug fix
+1.3.0 Release Date: December 27, 2012
+      * Urban Airship integration support
+      * Improved FAQ caching
+      * Improved support for specifying user id
+      * Minor Enhancements and Bug Fixes
+1.2.6 Release Date: December 22, 2012
+      * Bug fixes
+1.2.5 Release Date: December 14, 2012
+      * Minor Enhancements
+1.2.4 Release Date: December 13, 2012
+      * Bug fixes
+1.2.3 Release Date: December 12, 2012
+      * Performance improvements
+      * Bug fixes
+1.2.2 Release Date: December 10, 2012
+      * Bug fixes
+1.2.1 Release Date: December 06, 2012
+      * Bug fixes
+1.2.0 Release Date: December 05, 2012
+      * Updated doc
+      * Configurable Review Popup
+      * Configurable Skip of Profile Form
+1.1.0 Release Date: December 03, 2012
+      * Reduction in SDK jar size.
+      * Stability/Bug Fixes
+1.0.1 Release Date: November 19, 2012
+      * Stability/Bug Fixes
+      * Updated doc
+1.0.0 Release Date: November 7, 2012
+      * Basic library implementation
+      * Notification count api
+      * Screenshots in issues
+      * Review requests from issues
+      * Skinning support
+      * Breadcrumbs api
+      * Extra device info
+      * Funnel implementation

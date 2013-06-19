@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hs_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    style="?hs_activityBgStyleRef"
+    android:focusableInTouchMode="true" >
+
+  <TextView
+      android:id="@+id/hs_inboxHeader"
+      style="?hs_activityHeaderStyleRef"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center"
+      android:paddingBottom="@dimen/hs_header_bottom_padding"
+      android:paddingTop="@dimen/hs_header_top_padding"
+      android:text="@string/hs_inbox_header"
+      android:textSize="@dimen/hs_header_font_size" />
+
+  <ListView
+      style="?hs_listStyleRef"
+      android:id="@+id/hs_mainList"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/hs_inboxFooter"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/hs_inboxHeader"
+      android:divider="@null"
+      android:scrollbarStyle="outsideOverlay"
+      android:scrollingCache="false">
+
+  </ListView>
+
+  <LinearLayout
+      android:id="@+id/hs_inboxFooter"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="vertical" >
+
+  </LinearLayout>
+
+</RelativeLayout>
