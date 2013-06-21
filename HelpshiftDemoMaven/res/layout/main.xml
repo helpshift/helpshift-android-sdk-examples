@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              >
+  <Button
+      android:id="@+id/helpButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Help"/>
+  <Button
+      android:id="@+id/reportIssueButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Report Issue"/>
+  <Button
+      android:id="@+id/inboxButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Inbox"/>
+  <Button
+      android:id="@+id/faqsButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="All FAQs"/>
+  <Button
+      android:id="@+id/faqSectionButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Single FAQ Section"/>
+  <Button
+      android:id="@+id/singleFaqButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Single FAQ"/>
+</LinearLayout>
