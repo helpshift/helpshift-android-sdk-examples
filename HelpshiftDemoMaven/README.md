@@ -1,7 +1,7 @@
-Readme for HelpshiftDemo
+Readme for HelpshiftDemoMaven
 ==============================
 
-Run the following inside the /HelpshiftDemo folder.
+Run the following inside the /HelpshiftDemoMaven folder.
 
 In HelpshiftDemoActivity.java initialize the library by calling
 ```

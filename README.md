@@ -10,5 +10,5 @@ Examples for integrating the Helpshift android SDK in your app.
 3) UrbanAirshipApp - implement Urban Airship in your app along with
 helpshift support.
 
-4) NotificationCountApp - show notification count when replies are sent
-to the user.
+4) HelpshiftDemoMaven - helpshift demo project with maven instead of
+using ant for building
