@@ -11,6 +11,8 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+2.6.2 Release Date: August 05, 2013
+      * Explicitly close HSRetryService after every retry. (used for resending failed messages)"
 2.6.1 Release Date: July 29, 2013
       * Better error handling for install call
 2.6.0 Release Date: June 19, 2013
