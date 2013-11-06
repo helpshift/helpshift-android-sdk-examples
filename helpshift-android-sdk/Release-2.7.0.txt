@@ -11,8 +11,18 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+2.7.0 Release Date: September 02, 2013
+      * UI fixes for list view dividers
+      * API retry for mark question helpful/unhelpful and setDeviceToken
+      * Cleanup of unused resources
+      * Screenshot sending size limited to 1.25 MB
+      * Add config for custom notification icon
+      * Notification text now customizable in hs_strings.xml
+      * Add RTL support for FAQ
+      * Add URL truncation for conversation messages
+      * Bug fixes
 2.6.2 Release Date: August 05, 2013
-      * Explicitly close HSRetryService after every retry. (used for resending failed messages)"
+      * Explicitly close HSRetryService after every retry. (used for resending failed messages)
 2.6.1 Release Date: July 29, 2013
       * Better error handling for install call
 2.6.0 Release Date: June 19, 2013

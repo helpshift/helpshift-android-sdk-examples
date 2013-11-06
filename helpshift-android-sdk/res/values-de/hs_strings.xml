@@ -55,6 +55,7 @@
   <string name="hs_username_blank_error">Geben Sie Ihren Benutzernamen an</string>
   <string name="hs_invalid_email_error">Bitte geben Sie eine gültige E-Mail-Adresse an.</string>
   <string name="hs_invalid_description_error">Ungültige Beschreibung</string>
+  <string name="hs_screenshot_limit_error">Screenshot Größe sollte nicht mehr als %.2f MB</string>
   <string name="hs_privacy_policy">
     Wir werden Sie lediglich bei der ersten Fehlermeldung nach Ihren Angaben fragen. Nähere
     Informationen finden Sie in unseren Datenschutzbestimmungen unter %1$s privacy policy %2$s
@@ -75,5 +76,10 @@
     <item quantity="one">+%d Frage</item>
     <item quantity="other">+%d Fragen</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Neue Nachricht aus dem Support</item>
+    <item quantity="other">%d neue Nachrichten aus dem Support</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">Keine FAQs gefunden.</string>
 </resources>

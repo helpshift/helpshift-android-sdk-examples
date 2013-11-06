@@ -20,6 +20,7 @@
     <item name="hs_messagesTextColorRef">@color/hs_light_messages_text</item>
     <item name="hs_webviewTextColorRef">@color/hs_light_webview_text</item>
     <item name="hs_webviewBgColorRef">@color/hs_light_webview_bg</item>
+    <item name="hs_listSelectorDrawableRef">@drawable/hs_light_list_selector</item>
   </style>
 
   <style name="hs_lightActivityHeaderStyle">

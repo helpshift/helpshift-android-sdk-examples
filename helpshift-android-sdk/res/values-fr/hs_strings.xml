@@ -56,6 +56,7 @@
   <string name="hs_username_blank_error">Nom d\'utilisateur requis</string>
   <string name="hs_invalid_email_error">Veuillez donner une adresse courriel valide.</string>
   <string name="hs_invalid_description_error">Description non valide</string>
+  <string name="hs_screenshot_limit_error">Taille d\'écran ne doit pas dépasser %.2f Mo</string>
   <string name="hs_privacy_policy">
     Vos informations ne serons nécessaires qu\'au moment de signaler votre premier
     problème. Pour plus de détails, référez-vous à notre politique %1$s de
@@ -77,5 +78,10 @@
     <item quantity="one">+%d Question</item>
     <item quantity="other">+%d Questions</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Nouveau message de soutien</item>
+    <item quantity="other">%d nouveaux messages de soutien</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">Pas FAQ trouvé.</string>
 </resources>

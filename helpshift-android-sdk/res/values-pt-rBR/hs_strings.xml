@@ -54,8 +54,9 @@
   <string name="hs_username_blank_error">Nome de usuário é necessário</string>
   <string name="hs_invalid_email_error">Por favor, forneça um endereço de e-mail válido.</string>
   <string name="hs_invalid_description_error">Entrada inválida</string>
+  <string name="hs_screenshot_limit_error">Capturas de tela tamanho não deve exceder %.2f MB</string>
   <string name="hs_privacy_policy">
-	Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
+    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
   </string>
   <string name="hs_dt_wait">Por favor, aguarde</string>
   <string name="hs_dm_loading">Carregando...</string>
@@ -73,5 +74,10 @@
     <item quantity="one">+%d Pergunta</item>
     <item quantity="other">+%d Perguntas</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Nova mensagem de apoio</item>
+    <item quantity="other">%d novas mensagens de apoio</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">Nenhuma Pergunta Frequente encontrada nesta seção</string>
 </resources>

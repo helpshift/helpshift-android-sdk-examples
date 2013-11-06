@@ -56,6 +56,7 @@
   <string name="hs_username_blank_error">Username is required</string>
   <string name="hs_invalid_email_error">Enter valid email</string>
   <string name="hs_invalid_description_error">Invalid description</string>
+  <string name="hs_screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
   <string name="hs_privacy_policy">
     We will only ask for your details when you report your first
     issue. For more details read our %1$s privacy policy %2$s
@@ -76,5 +77,10 @@
     <item quantity="one">+%d Question</item>
     <item quantity="other">+%d Questions</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">New message from Support</item>
+    <item quantity="other">%d new messages from Support</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">No FAQs found.</string>
 </resources>

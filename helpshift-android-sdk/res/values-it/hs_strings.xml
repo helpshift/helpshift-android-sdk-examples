@@ -55,6 +55,7 @@
   <string name="hs_username_blank_error">Nome utente obbligatorio</string>
   <string name="hs_invalid_email_error">Fornisci un indirizzo e-mail valido.</string>
   <string name="hs_invalid_description_error">Descrizione non valido</string>
+  <string name="hs_screenshot_limit_error">Dimensioni screenshot non deve superare i %.2f MB</string>
   <string name="hs_privacy_policy">
     Chiederemo i tuoi dati solo alla tua prima segnalazione di un problema. Per ulteriori
     informazioni leggi la nostra %1$s informativa sulla privacy %2$s
@@ -75,5 +76,10 @@
     <item quantity="one">+%d Domanda</item>
     <item quantity="other">+%d Domande</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Nuovo messaggio da supporto</item>
+    <item quantity="other">%d nuovi messaggi dal supporto</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">Nessun trovato FAQ.</string>
 </resources>

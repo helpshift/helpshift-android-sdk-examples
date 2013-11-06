@@ -55,6 +55,7 @@
   <string name="hs_username_blank_error">Требуется имя пользователя</string>
   <string name="hs_invalid_email_error">Введите действительный адрес эл.почты.</string>
   <string name="hs_invalid_description_error">Неверное описание</string>
+  <string name="hs_screenshot_limit_error">Скриншот размер не должен превышать %.2f MB</string>
   <string name="hs_privacy_policy">
     Мы попросим ваши реквизиты только при первом сообщении о проблеме. Подробности читайте в
     %1$s нашей политике конфиденциальности %2$s
@@ -75,5 +76,10 @@
     <item quantity="one">+%d вопрос</item>
     <item quantity="other">+%d Вопросы</item>
   </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Новое сообщение от службы поддержки</item>
+    <item quantity="other">%d новых сообщениях от поддержки</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
   <string name="hs_faqs_search_footer">Не часто задаваемые вопросы найдены.</string>
 </resources>
