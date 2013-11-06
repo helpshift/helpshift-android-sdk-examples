@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    >
+
+  <TextView
+      android:id="@android:id/text1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:gravity="center_vertical"
+      android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"
+      android:paddingBottom="@dimen/hs__listPreferredItemPaddingBottom"
+      android:minHeight="?attr/listPreferredItemHeightSmall"
+      android:layout_alignParentLeft="true"
+      android:layout_toLeftOf="@android:id/text2"
+      />
+
+  <TextView
+      android:id="@android:id/text2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMediumInverse"
+      android:gravity="center_vertical"
+      android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+      android:paddingRight="?attr/listPreferredItemPaddingRight"
+      android:layout_marginLeft="@dimen/hs__marginLeft"
+      android:background="@drawable/hs__notification_badge"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      />
+
+</RelativeLayout>

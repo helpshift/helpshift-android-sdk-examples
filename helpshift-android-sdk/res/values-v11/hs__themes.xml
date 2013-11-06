@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Helpshift"
+         parent="@style/Theme.Helpshift.Base">
+
+    <item name="hs__actionBarTabTextStyle">?android:attr/actionBarTabTextStyle</item>
+    <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
+  </style>
+</resources>

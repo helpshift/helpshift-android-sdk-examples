@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_above="@+id/hs__addProfileFooter"
+      android:padding="@dimen/hs__content_wrapper_padding" >
+
+    <EditText
+        android:id="@+id/hs__username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/hs__username_hint"
+        android:inputType="none|textPersonName" >
+      <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/hs__email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hs__username"
+        android:ems="10"
+        android:hint="@string/hs__email_hint"
+        android:inputType="none|textEmailAddress" />
+
+    <TextView
+        android:id="@+id/hs__privacyPolicyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hs__email"
+        android:paddingTop="@dimen/hs__content_wrapper_padding"
+        android:text="@string/hs__privacy_policy" />
+
+  </RelativeLayout>
+
+  <LinearLayout
+        android:id="@+id/hs__addProfileFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true">
+
+  <RelativeLayout
+      android:id="@+id/hs__questionContent"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+      <LinearLayout
+          android:id="@+id/hs__webViewParent"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:paddingLeft="@dimen/hs__content_wrapper_padding"
+          android:paddingRight="@dimen/hs__content_wrapper_padding"
+          >
+
+        <TextView
+            android:id="@+id/hs__questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/hs__question_text_padding"
+            android:paddingBottom="@dimen/hs__question_text_padding"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+      </LinearLayout>
+    </ScrollView>
+
+  </RelativeLayout>
+
+  <FrameLayout
+      android:id="@+id/hs__customViewContainer"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@android:color/black"
+      android:visibility="gone" >
+
+  </FrameLayout>
+</FrameLayout>

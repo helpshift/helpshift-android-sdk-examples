@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
+    android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.80"
+      >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hs__chat_bubble_admin"
+        >
+
+      <TextView
+          android:id="@android:id/text1"
+          android:textColor="@color/hs__messages_text_color"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:autoLink="all"
+          android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
+          android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+          android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+          android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
+          />
+    </LinearLayout>
+    <TextView
+        android:id="@android:id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/hs__msg_timestamp_padding"
+        android:textSize="@dimen/hs__textSizeSmall"
+        android:alpha="@dimen/hs__msg_timestamp_alpha"
+        android:paddingTop="3dp"
+        />
+
+  </LinearLayout>
+
+  <View
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.20"
+      />
+</LinearLayout>

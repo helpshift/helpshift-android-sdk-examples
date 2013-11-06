@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="hs__listPreferredItemPaddingTop">12dp</dimen>
+  <dimen name="hs__listPreferredItemPaddingBottom">12dp</dimen>
+  <dimen name="hs__marginLeft">8dp</dimen>
+  <dimen name="hs__button_padding_right">17dp</dimen>
+
+  <dimen name="hs__msgPreferredItemPaddingTop">10dp</dimen>
+  <dimen name="hs__msgPreferredItemPaddingBottom">11dp</dimen>
+  <dimen name="hs__msgPreferredItemPaddingRight">12dp</dimen>
+  <dimen name="hs__msgPreferredItemPaddingLeft">12dp</dimen>
+  <dimen name="hs__msgActionButtonPadding">8dp</dimen>
+
+  <dimen name="hs__textSizeSmall">10sp</dimen>
+
+  <dimen name="hs__content_wrapper_top_padding">30dp</dimen>
+  <dimen name="hs__content_wrapper_padding">10dp</dimen>
+  <dimen name="hs__question_text_padding">10dp</dimen>
+
+  <dimen name="hs__msg_timestamp_padding">13dp</dimen>
+  <item name="hs__msg_timestamp_alpha" format="float" type="dimen">0.5</item>
+</resources>

@@ -1,6 +1,8 @@
 helpshift-android-sdk-examples
 ==============================
 
+**Version 2.8.0 onwards the SDK implements the Action Bar UI and depends on the <a href="http://developer.android.com/tools/support-library/features.html#v7" target="_blank">v7 appcompat library</a>**
+
 Examples for integrating the Helpshift android SDK in your app.
 
 1) HelpshiftDemo - show different support screens in your app.
