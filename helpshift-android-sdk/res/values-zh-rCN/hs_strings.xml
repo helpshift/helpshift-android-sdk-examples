@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift English strings -->
+  <string name="hs_help_header">帮助</string>
+  <string name="hs_question_header">问题</string>
+  <string name="hs_report_issue_header">报告新问题</string>
+  <string name="hs_add_profile_header">自我介绍</string>
+  <string name="hs_inbox_header">收件箱</string>
+  <string name="hs_faq_header">常见问题</string>
+  <string name="hs_issues_header">我的问题</string>
+  <string name="hs_submit_issue_btn">提交</string>
+  <string name="hs_submit_profile_btn">发送</string>
+  <string name="hs_send_msg_btn">发送</string>
+  <string name="hs_like_btn">是</string>
+  <string name="hs_dislike_btn">否</string>
+  <string name="hs_report_issue_btn">报告新问题</string>
+  <string name="hs_change_btn">更改</string>
+  <string name="hs_done_btn">完成</string>
+  <string name="hs_attach_btn">好，附加</string>
+  <string name="hs_review_btn">好，评价</string>
+  <string name="hs_unsolved_btn">不，未解决</string>
+  <string name="hs_solved_btn">是，已解决！</string>
+  <string name="hs_review_dialog_positive_btn">评分并评价</string>
+  <string name="hs_review_dialog_neutral_btn">稍后提醒我</string>
+  <string name="hs_review_dialog_negative_btn">不要再问我</string>
+  <string name="hs_question_like_msg">这有帮助吗？</string>
+  <string name="hs_rsc_progress_msg">正在发送屏幕截图。</string>
+  <string name="hs_ca_msg">我们很乐意帮忙</string>
+  <string name="hs_cr_msg">
+    听到这个消息很抱歉。可以向我们详细说明你面临的问题吗？
+  </string>
+  <string name="hs_issue_filed_msg">
+    感谢你报告这个问题。我们已经收到报告并将给你回复。
+  </string>
+  <string name="hs_review_dialog_msg">
+    你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！
+  </string>
+  <string name="hs_network_unavailable_msg">网络不可用</string>
+  <string name="hs_found_useful_msg">你发现这有帮助。</string>
+  <string name="hs_found_unuseful_msg">你发现这无帮助。</string>
+  <string name="hs_fetching_issues_msg">正在载入你的问题…</string>
+  <string name="hs_search_hint">描述你的问题</string>
+  <string name="hs_add_issue_hint">描述你的问题</string>
+  <string name="hs_section_hint">点击可显示所有部分</string>
+  <string name="hs_issue_hint">点击可显示所有问题</string>
+  <string name="hs_username_hint">你的名字</string>
+  <string name="hs_email_hint">你的电子邮件地址（可选</string>
+  <string name="hs_chat_hint">输入你的消息</string>
+  <string name="hs_device_info">附加设备信息</string>
+  <string name="hs_empty_section">抱歉！此部分无可用问题</string>
+  <string name="hs_search_footer">无法找到你在寻找的内容？</string>
+  <string name="hs_issue_detail_error">请描述你的问题</string>
+  <string name="hs_username_blank_error">用户名必填</string>
+  <string name="hs_invalid_email_error">请提供有效电子邮件地址。</string>
+  <string name="hs_invalid_description_error">无效输入</string>
+  <string name="hs_screenshot_limit_error">截图的大小不应该超过%.2f MB</string>
+  <string name="hs_privacy_policy">
+    我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s
+  </string>
+  <string name="hs_dt_wait">请等待</string>
+  <string name="hs_dm_loading">载入中…</string>
+  <string name="hs_dm_report_issue_loading">正在报告问题…</string>
+  <string name="hs_dm_video_loading">正在载入视频…</string>
+  <plurals name="hs_no_of_sections">
+    <item quantity="one">+%d 部分</item>
+    <item quantity="other">+%d 部分</item>
+  </plurals>
+  <plurals name="hs_no_of_issues">
+    <item quantity="one">+%d 问题</item>
+    <item quantity="other">+%d 问题</item>
+  </plurals>
+  <plurals name="hs_no_of_questions">
+    <item quantity="one">+%d 问题</item>
+    <item quantity="other">+%d 问题</item>
+  </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">新的消息支持</item>
+    <item quantity="other">%d 新的消息支持</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
+  <string name="hs_faqs_search_footer">此部分未找到常见问题解答</string>
+</resources>

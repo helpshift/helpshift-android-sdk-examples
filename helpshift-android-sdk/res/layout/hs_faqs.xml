@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hs_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?hs_activityBgStyleRef"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+  <TextView
+      android:id="@+id/hs_faqsHeader"
+      style="?hs_activityHeaderStyleRef"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center"
+      android:paddingBottom="@dimen/hs_header_bottom_padding"
+      android:paddingTop="@dimen/hs_header_top_padding"
+      android:text="@string/hs_help_header"
+      android:textSize="@dimen/hs_header_font_size" />
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/hs_faqsHeader"
+      android:paddingBottom="8sp"
+      android:paddingLeft="15sp"
+      android:paddingRight="15sp"
+      android:paddingTop="5sp" >
+
+    <EditText
+        android:id="@+id/hs_searchBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/hs_action_search"
+        android:ellipsize="end"
+        android:ems="10"
+        android:hint="@string/hs_search_hint"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:paddingBottom="5sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="40sp"
+        android:paddingTop="10sp"
+        android:singleLine="true" >
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/hs_searchClearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hs_searchBox"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:src="@drawable/hs_navigation_cancel" />
+  </RelativeLayout>
+
+  <TextView
+      style="?hs_stubStyleRef"
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/relativeLayout1"
+      android:textSize="1sp" />
+
+  <ListView
+      style="?hs_listStyleRef"
+      android:id="@+id/hs_mainList"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/hs_faqsFooter"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/textView2"
+      android:divider="@null"
+      android:scrollbarStyle="outsideOverlay"
+      android:scrollingCache="false" >
+
+  </ListView>
+
+  <ListView
+      style="?hs_listStyleRef"
+      android:id="@+id/hs_searchList"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/hs_faqsFooter"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/textView2"
+      android:divider="@null"
+      android:scrollbarStyle="outsideOverlay"
+      android:scrollingCache="false" >
+
+  </ListView>
+
+  <LinearLayout
+      android:id="@+id/hs_faqsFooter"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_alignParentBottom="true">
+  </LinearLayout>
+
+</RelativeLayout>

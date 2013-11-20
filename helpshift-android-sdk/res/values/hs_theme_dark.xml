@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift Dark Theme -->
+  <style name="HSThemeDark" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar">
+
+    <!-- Attributes -->
+    <item name="hs_sectionHeaderBgStyleRef">@style/hs_darkSectionHeaderBgStyle</item>
+    <item name="hs_sectionHeaderTextStyleRef">@style/hs_darkSectionHeaderTextStyle</item>
+    <item name="hs_sectionHeaderDividerStyleRef">@style/hs_darkSectionHeaderDividerStyle</item>
+    <item name="hs_sectionItemTextStyleRef">@style/hs_darkSectionItemTextStyle</item>
+    <item name="hs_sectionItemDividerStyleRef">@style/hs_darkSectionItemDividerStyle</item>
+    <item name="hs_sectionFooterTextStyleRef">@style/hs_darkSectionFooterTextStyle</item>
+    <item name="hs_searchFooterButtonStyleRef">@style/hs_darkSearchFooterButtonStyle</item>
+    <item name="hs_messagesTextStyleRef">@style/hs_darkMessagesTextStyle</item>
+    <item name="hs_activityHeaderStyleRef">@style/hs_darkActivityHeaderStyle</item>
+    <item name="hs_activityBgStyleRef">@style/hs_darkActivityBgStyle</item>
+    <item name="hs_listStyleRef">@style/hs_darkListStyle</item>
+    <item name="hs_stubStyleRef">@style/hs_darkStubStyle</item>
+    <item name="hs_editBoxStyleRef">@style/hs_darkEditBoxStyle</item>
+    <item name="hs_messagesTextColorRef">@color/hs_dark_messages_text</item>
+    <item name="hs_webviewTextColorRef">@color/hs_dark_webview_text</item>
+    <item name="hs_webviewBgColorRef">@color/hs_dark_webview_bg</item>
+    <item name="hs_listSelectorDrawableRef">@drawable/hs_dark_list_selector</item>
+  </style>
+
+  <style name="hs_darkActivityHeaderStyle">
+    <item name="android:background">@color/hs_dark_header_background_color</item>
+    <item name="android:textColor">@color/hs_dark_header_font_color</item>
+  </style>
+
+  <style name="hs_darkActivityBgStyle">
+    <item name="android:background">@color/hs_dark_activity_bg</item>
+  </style>
+
+  <style name="hs_darkListStyle">
+    <item name="android:background">@color/hs_dark_list_bg</item>
+  </style>
+
+  <style name="hs_darkStubStyle">
+    <item name="android:background">@color/hs_dark_horizontal_stub_bg</item>
+  </style>
+
+  <style name="hs_darkEditBoxStyle">
+    <item name="android:background">@color/hs_dark_edit_box_bg</item>
+  </style>
+
+  <!-- View Styles -->
+  <!-- Section Header -->
+  <style name="hs_darkSectionHeaderBgStyle">
+    <item name="android:background">@color/hs_dark_section_header_bg</item>
+  </style>
+
+  <style name="hs_darkSectionHeaderTextStyle">
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/hs_dark_section_header_text</item>
+    <item name="android:textSize">@dimen/hs_section_header_text_size</item>
+    <item name="android:paddingLeft">15dip</item>
+    <item name="android:paddingTop">12dip</item>
+    <item name="android:paddingRight">15dip</item>
+    <item name="android:paddingBottom">6dip</item>
+    <item name="android:fontFamily">@string/hs_section_header_text_font</item>
+  </style>
+
+  <style name="hs_darkSectionHeaderDividerStyle">
+    <item name="android:background">@color/hs_dark_section_header_divider</item>
+  </style>
+
+  <!-- Section Item -->
+  <style name="hs_darkSectionItemTextStyle">
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/hs_dark_section_item_text</item>
+    <item name="android:textSize">@dimen/hs_section_item_text_size</item>
+    <item name="android:paddingLeft">15dip</item>
+    <item name="android:paddingTop">12dip</item>
+    <item name="android:paddingRight">15dip</item>
+    <item name="android:paddingBottom">6dip</item>
+    <item name="android:fontFamily">@string/hs_section_item_text_font</item>
+  </style>
+
+  <style name="hs_darkSectionItemDividerStyle">
+    <item name="android:background">@color/hs_dark_section_item_divider</item>
+  </style>
+
+  <!-- Section Footer -->
+  <style name="hs_darkSectionFooterTextStyle">
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/hs_dark_section_footer_text</item>
+    <item name="android:textSize">@dimen/hs_section_footer_text_size</item>
+    <item name="android:paddingLeft">15dip</item>
+    <item name="android:paddingTop">12dip</item>
+    <item name="android:paddingRight">15dip</item>
+    <item name="android:paddingBottom">6dip</item>
+    <item name="android:fontFamily">@string/hs_section_footer_text_font</item>
+  </style>
+
+  <style name="hs_darkSearchFooterButtonStyle" parent="@android:style/Widget.Button">
+    <item name="android:text">@string/hs_report_issue_btn</item>
+  </style>
+
+  <style name="hs_darkMessagesTextStyle">
+    <item name="android:fontFamily">@string/hs_section_item_text_font</item>
+    <item name="android:textColor">@color/hs_dark_section_item_text</item>
+  </style>
+</resources>

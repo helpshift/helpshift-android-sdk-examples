@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift English strings -->
+  <string name="hs_help_header">Help</string>
+  <string name="hs_question_header">Question</string>
+  <string name="hs_report_issue_header">Report a new Issue</string>
+  <string name="hs_add_profile_header">Introduce yourself</string>
+  <string name="hs_inbox_header">Inbox</string>
+  <string name="hs_faq_header">FAQ</string>
+  <string name="hs_issues_header">MY ISSUES</string>
+  <string name="hs_submit_issue_btn">Submit</string>
+  <string name="hs_submit_profile_btn">Send</string>
+  <string name="hs_send_msg_btn">Send</string>
+  <string name="hs_like_btn">YES</string>
+  <string name="hs_dislike_btn">NO</string>
+  <string name="hs_report_issue_btn">Report a new Issue</string>
+  <string name="hs_change_btn">Change</string>
+  <string name="hs_done_btn">Done</string>
+  <string name="hs_attach_btn">Ok, attach</string>
+  <string name="hs_review_btn">Ok, review</string>
+  <string name="hs_unsolved_btn">No, unsolved</string>
+  <string name="hs_solved_btn">Yes, solved!</string>
+  <string name="hs_review_dialog_positive_btn">Rate and Review</string>
+  <string name="hs_review_dialog_neutral_btn">Remind me later</string>
+  <string name="hs_review_dialog_negative_btn">Never ask me again</string>
+  <string name="hs_question_like_msg">Was this helpful?</string>
+  <string name="hs_rsc_progress_msg">Sending screenshot.</string>
+  <string name="hs_ca_msg">We\'re happy to help you!</string>
+  <string name="hs_cr_msg">
+    Sorry to hear that. Could you please tell us a little bit more about
+    the problem you are facing?
+  </string>
+  <string name="hs_issue_filed_msg">
+    Thank you for reporting this issue. We have received it and will get
+    back to you.
+  </string>
+  <string name="hs_review_dialog_msg">
+    Would you mind taking a moment to review our app? It won\'t take more than a minute. Thanks
+    for your support!
+  </string>
+  <string name="hs_network_unavailable_msg">Network not available.</string>
+  <string name="hs_found_useful_msg">You found this helpful.</string>
+  <string name="hs_found_unuseful_msg">You didn\'t find this helpful.</string>
+  <string name="hs_fetching_issues_msg">Fetching issues...</string>
+  <string name="hs_search_hint">Describe your problem</string>
+  <string name="hs_add_issue_hint">Describe your problem</string>
+  <string name="hs_section_hint">Tap to show all sections</string>
+  <string name="hs_issue_hint">Tap to show all issues</string>
+  <string name="hs_username_hint">Your Name</string>
+  <string name="hs_email_hint">Your email address (optional)</string>
+  <string name="hs_chat_hint">Type your message</string>
+  <string name="hs_device_info">Attach device information</string>
+  <string name="hs_empty_section">Sorry! No questions available in this section.</string>
+  <string name="hs_search_footer">Can\'t find what you were looking for?</string>
+  <string name="hs_issue_detail_error">Please describe your problem</string>
+  <string name="hs_username_blank_error">Username is required</string>
+  <string name="hs_invalid_email_error">Enter valid email</string>
+  <string name="hs_invalid_description_error">Invalid description</string>
+  <string name="hs_screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
+  <string name="hs_privacy_policy">
+    We will only ask for your details when you report your first
+    issue. For more details read our %1$s privacy policy %2$s
+  </string>
+  <string name="hs_dt_wait">Please Wait</string>
+  <string name="hs_dm_loading">Loading...</string>
+  <string name="hs_dm_report_issue_loading">Reporting issue...</string>
+  <string name="hs_dm_video_loading">Loading Video...</string>
+  <plurals name="hs_no_of_sections">
+    <item quantity="one">+%d Section</item>
+    <item quantity="other">+%d Sections</item>
+  </plurals>
+  <plurals name="hs_no_of_issues">
+    <item quantity="one">+%d Issue</item>
+    <item quantity="other">+%d Issues</item>
+  </plurals>
+  <plurals name="hs_no_of_questions">
+    <item quantity="one">+%d Question</item>
+    <item quantity="other">+%d Questions</item>
+  </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">New message from Support</item>
+    <item quantity="other">%d new messages from Support</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
+  <string name="hs_faqs_search_footer">No FAQs found.</string>
+</resources>

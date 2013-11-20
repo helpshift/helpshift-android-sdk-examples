@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift English strings -->
+  <string name="hs_help_header">Ajuda</string>
+  <string name="hs_question_header">Pergunta</string>
+  <string name="hs_report_issue_header">Reportar um novo problema</string>
+  <string name="hs_add_profile_header">Apresente-se</string>
+  <string name="hs_inbox_header">Caixa de entrada</string>
+  <string name="hs_faq_header">Perguntas Frequentes</string>
+  <string name="hs_issues_header">Meus Problemas</string>
+  <string name="hs_submit_issue_btn">Enviar</string>
+  <string name="hs_submit_profile_btn">Enviar</string>
+  <string name="hs_send_msg_btn">Enviar</string>
+  <string name="hs_like_btn">SIM</string>
+  <string name="hs_dislike_btn">NÃO</string>
+  <string name="hs_report_issue_btn">Reportar um novo problema</string>
+  <string name="hs_change_btn">Mudar</string>
+  <string name="hs_done_btn">Concluído</string>
+  <string name="hs_attach_btn">OK, anexar</string>
+  <string name="hs_review_btn">OK, rever</string>
+  <string name="hs_unsolved_btn">Não, não resolvido</string>
+  <string name="hs_solved_btn">Sim, resolvido!</string>
+  <string name="hs_review_dialog_positive_btn">Avaliar e Comentar</string>
+  <string name="hs_review_dialog_neutral_btn">Lembrar-me mais tarde</string>
+  <string name="hs_review_dialog_negative_btn">Nunca me pergunte novamente</string>
+  <string name="hs_question_like_msg">Isto foi útil?</string>
+  <string name="hs_rsc_progress_msg">Enviando captura de tela.</string>
+  <string name="hs_ca_msg">Estamos felizes em ajudar</string>
+  <string name="hs_cr_msg">
+    Triste por ouvir isso. Você poderia nos contar um pouco mais sobre o problema que você está enfrentando?
+  </string>
+  <string name="hs_issue_filed_msg">
+    Obrigado por comunicar este problema. Nós o recebemos e retornaremos para você.
+  </string>
+  <string name="hs_review_dialog_msg">
+    Você se importaria em dedicar um instante para avaliar o nosso app? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!
+    for your support!
+  </string>
+  <string name="hs_network_unavailable_msg">Rede não disponível.</string>
+  <string name="hs_found_useful_msg">Você achou isto útil.</string>
+  <string name="hs_found_unuseful_msg">Você não achou isto útil.</string>
+  <string name="hs_fetching_issues_msg">Carregando seus problemas...</string>
+  <string name="hs_search_hint">Descreva o seu problema</string>
+  <string name="hs_add_issue_hint">Descreva o seu problema</string>
+  <string name="hs_section_hint">Toque para mostrar todas as seções</string>
+  <string name="hs_issue_hint">Toque para mostrar todos os problemas</string>
+  <string name="hs_username_hint">Seu nome</string>
+  <string name="hs_email_hint">Seu endereço de e-mail</string>
+  <string name="hs_chat_hint">Digite sua mensagem</string>
+  <string name="hs_device_info">Anexar informações de dispositivo</string>
+  <string name="hs_empty_section">Desculpe! Não há perguntas disponíveis nesta seção</string>
+  <string name="hs_search_footer">Não consegue encontrar o que estava procurando?</string>
+  <string name="hs_issue_detail_error">Por favor, descreva seu problema</string>
+  <string name="hs_username_blank_error">Nome de usuário é necessário</string>
+  <string name="hs_invalid_email_error">Por favor, forneça um endereço de e-mail válido.</string>
+  <string name="hs_invalid_description_error">Entrada inválida</string>
+  <string name="hs_screenshot_limit_error">Capturas de tela tamanho não deve exceder %.2f MB</string>
+  <string name="hs_privacy_policy">
+    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
+  </string>
+  <string name="hs_dt_wait">Por favor, aguarde</string>
+  <string name="hs_dm_loading">Carregando...</string>
+  <string name="hs_dm_report_issue_loading">Relatando o problema...</string>
+  <string name="hs_dm_video_loading">Carregando vídeo...</string>
+  <plurals name="hs_no_of_sections">
+    <item quantity="one">+%d Seção</item>
+    <item quantity="other">+%d Seções</item>
+  </plurals>
+  <plurals name="hs_no_of_issues">
+    <item quantity="one">+%d Problema</item>
+    <item quantity="other">+%d Problemas</item>
+  </plurals>
+  <plurals name="hs_no_of_questions">
+    <item quantity="one">+%d Pergunta</item>
+    <item quantity="other">+%d Perguntas</item>
+  </plurals>
+  <plurals name="hs_notification_content_title">
+    <item quantity="one">Nova mensagem de apoio</item>
+    <item quantity="other">%d novas mensagens de apoio</item>
+  </plurals>
+  <string name="hs_notification_content_text">RE:</string>
+  <string name="hs_faqs_search_footer">Nenhuma Pergunta Frequente encontrada nesta seção</string>
+</resources>
