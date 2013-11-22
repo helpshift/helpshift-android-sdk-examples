@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+  <FrameLayout android:id="@+id/hs__fullscreen_custom_content"
+               android:visibility="gone"
+               android:background="@android:color/black"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center"
+               />
+
+  <FrameLayout android:id="@+id/hs__webview_main_content"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               />
+
+</FrameLayout>

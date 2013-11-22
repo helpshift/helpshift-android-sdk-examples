@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/hs__messagesFooter"
+      >
+
+    <EditText
+        android:id="@+id/hs__messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/hs__sendMessageBtn"
+        android:hint="@string/hs__chat_hint"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine"
+        android:maxLines="@integer/hs__chat_max_lines"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingBottom="16dp"
+        android:autoText="true"
+        android:layout_alignBaseline="@+id/hs__sendMessageBtn"
+        />
+
+    <ImageButton
+        android:id="@+id/hs__sendMessageBtn"
+        android:background="?attr/hs__selectableItemBackground"
+        android:src="@drawable/hs__send"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        />
+
+  </RelativeLayout>
+
+  <View
+      android:background="@color/hs__light_horizontal_stub_bg"
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="1dp"
+      android:layout_above="@+id/relativeLayout1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:alpha="0.5"
+      />
+
+  <ListView
+      android:id="@+id/hs__messagesList"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_above="@+id/textView1"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:scrollingCache="false"
+      android:transcriptMode="alwaysScroll" >
+
+  </ListView>
+
+  <LinearLayout
+      android:id="@+id/hs__messagesFooter"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="vertical" >
+
+  </LinearLayout>
+
+</RelativeLayout>

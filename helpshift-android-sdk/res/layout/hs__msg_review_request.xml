@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
+    android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.80"
+      >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hs__chat_bubble_admin"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+      <TextView
+          android:id="@android:id/text1"
+          android:textColor="@color/hs__messages_text_color"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
+          android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+          android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+          android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
+          />
+
+      <ProgressBar
+          android:id="@android:id/progress"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          style="?android:attr/progressBarStyle"
+          android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
+          />
+
+      <View
+          android:id="@android:id/custom"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/darker_gray"
+          android:alpha="0.5"/>
+
+      <ImageButton
+          android:id="@android:id/button1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/hs__selectableItemBackground"
+          android:src="@drawable/hs__action_review"
+          android:paddingTop="@dimen/hs__msgActionButtonPadding"
+          android:paddingBottom="@dimen/hs__msgActionButtonPadding"
+          />
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <View
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.20"
+      />
+</LinearLayout>

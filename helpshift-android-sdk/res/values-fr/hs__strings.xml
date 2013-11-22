@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift French strings -->
+  <string name="hs__help_header">Aide</string>
+  <string name="hs__question_header">Question</string>
+  <string name="hs__report_issue_header">Signaler un problème</string>
+  <string name="hs__add_profile_header">Présentez-vous</string>
+  <string name="hs__inbox_header">Boîte de réception</string>
+  <string name="hs__faq_header">FAQ</string>
+  <string name="hs__issues_header">Mes problèmes</string>
+  <string name="hs__submit_issue_btn">Soumettez</string>
+  <string name="hs__submit_profile_btn">Envoyez</string>
+  <string name="hs__send_msg_btn">Envoyez</string>
+  <string name="hs__mark_helpful_toast">Question a été indiqué comme utile</string>
+  <string name="hs__mark_unhelpful_toast">Question a été marquée ne m\'a pas aidé</string>
+  <string name="hs__report_issue_btn">Signalez un nouveau  problème</string>
+  <string name="hs__change_btn">Changez</string>
+  <string name="hs__done_btn">Complété</string>
+  <string name="hs__attach_btn">Ok, attachez</string>
+  <string name="hs__review_btn">Ok, révisez</string>
+  <string name="hs__unsolved_btn">Non, non résolu</string>
+  <string name="hs__solved_btn">Oui, résolu !</string>
+  <string name="hs__review_dialog_positive_btn">Évaluez et classifiez</string>
+  <string name="hs__review_dialog_neutral_btn">Me le redemander plus tard</string>
+  <string name="hs__review_dialog_negative_btn">Ne plus me le demander</string>
+  <string name="hs__question_like_msg">Cela vous a-t-il été utile ?</string>
+  <string name="hs__rsc_progress_msg">Envoi de la capture d\'écran.</string>
+  <string name="hs__ca_msg">Nous sommes heureux de pouvoir vous aider</string>
+  <string name="hs__cr_msg">
+    Nous sommes désolés. Pourriez-vous nous en dire un peu plus au sujet du problème que vous
+    avez rencontré ?
+  </string>
+  <string name="hs__issue_filed_msg">
+    Merci d\'avoir signalé ce problème. Nous avons bien reçu votre rapport et nous ferons le
+    suivi nécessaire avec vous.
+  </string>
+  <string name="hs__review_dialog_msg">
+    Acceptez-vous de prendre un instant pour évaluer votre app ?  Cela ne prendra qu\'une
+    minute. Merci pour votre support.
+  </string>
+  <string name="hs__network_unavailable_msg">Réseau non disponible.</string>
+  <string name="hs__faq_helpful_msg">Utile</string>
+  <string name="hs__faq_unhelpful_msg">Inutile</string>
+  <string name="hs__fetching_issues_msg">Obtention de questions...</string>
+  <string name="hs__search_hint">Décrivez votre problème</string>
+  <string name="hs__add_issue_hint">Décrivez votre problème</string>
+  <string name="hs__section_hint">Tapez pour afficher toutes les sections</string>
+  <string name="hs__issue_hint">Tapez pour afficher tous les problèmes</string>
+  <string name="hs__username_hint">Votre nom</string>
+  <string name="hs__email_hint">Votre adresse courriel (facultatif)</string>
+  <string name="hs__chat_hint">Entrez votre message</string>
+  <string name="hs__device_info">Joignez les informations de l\'appareil</string>
+  <string name="hs__empty_section">Désolé ! Aucune question n\'est répertoriée dans cette section</string>
+  <string name="hs__search_footer">Vous n\'avez pas pu trouver ce que vous cherchiez ?</string>
+  <string name="hs__issue_detail_error">Veuillez décrire le problème.</string>
+  <string name="hs__username_blank_error">S\'il vous plaît entrer un nom valide</string>
+  <string name="hs__invalid_email_error">S\'il vous plaît entrer une adresse email valide</string>
+  <string name="hs__invalid_description_error">Description non valide</string>
+  <string name="hs__screenshot_limit_error">Taille d\'écran ne doit pas dépasser %.2f Mo</string>
+  <string name="hs__privacy_policy">
+    Vos informations ne serons nécessaires qu\'au moment de signaler votre premier
+    problème. Pour plus de détails, référez-vous à notre politique %1$s de
+    confidentialité. %2$s
+  </string>
+  <string name="hs__dt_wait">Veuillez patienter</string>
+  <string name="hs__dm_loading">Chargement...</string>
+  <string name="hs__dm_report_issue_loading">Signalement d\'un problème…</string>
+  <string name="hs__dm_video_loading">Chargement de la vidéo ...</string>
+  <string name="hs__empty_issues_string">Aucun problème signalé</string>
+  <string name="hs__report_issue_instruction">Appuyez sur l\'icône en haut à signaler un nouveau problème</string>
+
+  <plurals name="hs__no_of_sections">
+    <item quantity="one">+%d Section</item>
+    <item quantity="other">+%d Sections</item>
+  </plurals>
+  <plurals name="hs__no_of_issues">
+    <item quantity="one">+%d Problème</item>
+    <item quantity="other">+%d Problèmes</item>
+  </plurals>
+  <plurals name="hs__no_of_questions">
+    <item quantity="one">+%d Question</item>
+    <item quantity="other">+%d Questions</item>
+  </plurals>
+  <plurals name="hs__notification_content_title">
+    <item quantity="one">Nouveau message de soutien</item>
+    <item quantity="other">%d nouveaux messages de soutien</item>
+  </plurals>
+  <string name="hs__notification_content_text">RE:</string>
+  <string name="hs__faqs_search_footer">Pas FAQ trouvé.</string>
+</resources>

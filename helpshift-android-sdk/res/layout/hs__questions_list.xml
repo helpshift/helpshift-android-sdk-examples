@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+  <android.support.v4.view.ViewPager
+      android:id="@+id/hs__sections_pager"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@+id/hs__helpshiftActivityFooter">
+
+    <android.support.v4.view.PagerTabStrip
+        android:id="@+id/hs__pager_tab_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/hs__actionBarStackedColor"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:textAppearance="?attr/hs__actionBarTabTextStyle"
+        android:paddingBottom="8dp"/>
+  </android.support.v4.view.ViewPager>
+
+  <ImageView
+      android:id="@+id/hs__helpshiftActivityFooter"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</RelativeLayout>
