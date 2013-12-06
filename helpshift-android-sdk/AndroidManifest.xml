@@ -26,7 +26,8 @@
               android:configChanges="orientation|screenSize"
               android:theme="@style/Theme.Helpshift" />
     <activity android:name="com.helpshift.HSQuestionsList"
-              android:theme="@style/Theme.Helpshift" />
+              android:theme="@style/Theme.Helpshift"
+              android:configChanges="orientation|screenSize"/>
     <activity android:name="com.helpshift.HSQuestion"
               android:label="@string/hs__question_header"
               android:hardwareAccelerated="true"

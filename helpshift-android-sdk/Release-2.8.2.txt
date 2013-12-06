@@ -1,4 +1,4 @@
-Helpshift SDK 2.8.1 Release Notes (for Android)
+Helpshift SDK 2.8.2 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,9 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+2.8.2 Release Date: December 06, 2013
+      * Add support for Kindle devices
+      * Remove proguard shrinking and obfuscation for Helpshift jar
 2.8.1 Release Date: November 20, 2013
       * Fix critical validation for setUsername, setEmail API
 2.8.0 Release Date: November 05, 2013
