@@ -21,7 +21,6 @@ public class GCMIntentService extends GCMBaseIntentService {
 
   private final static String TAG = GCMActivity.TAG;
   private final static String senderId = GCMActivity.senderId;
-  private Helpshift hs = null;
 
   public GCMIntentService() {
     super(senderId);
@@ -55,9 +54,6 @@ public class GCMIntentService extends GCMBaseIntentService {
   @Override
   protected void onMessage(Context context, Intent intent) {
     Log.d(TAG, "onMessage() Extras: " + intent.getExtras().toString());
-    if(hs == null) {
-      hs = new Helpshift(context);
-    }
 
     if(intent.getExtras().getString("origin").equals("helpshift")) {
       Intent i = new Intent();
@@ -69,11 +65,6 @@ public class GCMIntentService extends GCMBaseIntentService {
 
   private void generateNotification(Context context, Intent i) {
     PendingIntent intent = null;
-    hs = new Helpshift(context);
-    if(i.getExtras().getString("origin").equals("helpshift")) {
-      intent = hs.getPendingIntentOnPush(context, i);
-    }
-
     int icon = R.drawable.ic_launcher;
     Bundle extras = i.getExtras();
     String message = extras.getString("alert");

@@ -15,7 +15,6 @@ public class GCMActivity extends Activity {
 
   protected final static String TAG = "GCMAppDebug";
   protected final static String senderId = "YOUR_SENDER_ID";
-  Helpshift hs;
   Button helpButton;
 
   @Override
@@ -23,10 +22,9 @@ public class GCMActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    hs = new Helpshift(GCMActivity.this);
-    // You initialize the library by calling hs.install(APPLICATION_CONTEXT, API_KEY, DOMAIN,
+    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
+    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     GCMRegistrar.checkDevice(this);
     GCMRegistrar.checkManifest(this);
@@ -41,7 +39,7 @@ public class GCMActivity extends Activity {
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showSupport(GCMActivity.this);
+          Helpshift.showFAQs(GCMActivity.this);
         }
       });
   }

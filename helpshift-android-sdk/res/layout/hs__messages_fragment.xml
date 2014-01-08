@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+  <ListView
+      android:id="@+id/hs__messagesList"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_above="@+id/hs__confirmation"
+      android:scrollingCache="false"
+      android:transcriptMode="alwaysScroll" />
+
+  <LinearLayout
+      android:id="@+id/hs__confirmation"
+      android:layout_above="@+id/hs__new_conversation"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:gravity="center" >
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/hs__confirmation_msg"
+        android:id="@android:id/text1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
+        android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+        android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+        android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight" />
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop" />
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+      <View
+          android:id="@android:id/custom"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/darker_gray"
+          android:alpha="0.5"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:text="@string/hs__unsolved_btn"
+            android:id="@android:id/button2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__selectableItemBackground"
+            android:src="@drawable/hs__action_no"
+            android:paddingTop="@dimen/hs__msgActionButtonPadding"
+            android:paddingBottom="@dimen/hs__msgActionButtonPadding" />
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="1dp"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.5" />
+
+        <ImageButton
+            android:text="@string/hs__solved_btn"
+            android:id="@android:id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__selectableItemBackground"
+            android:src="@drawable/hs__action_yes"
+            android:paddingTop="@dimen/hs__msgActionButtonPadding"
+            android:paddingBottom="@dimen/hs__msgActionButtonPadding" />
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/hs__new_conversation"
+      android:layout_above="@+id/textView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="gone"
+      android:layout_alignParentBottom="true"
+      android:gravity="center" >
+
+    <View
+        android:background="@color/hs__light_horizontal_stub_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:alpha="0.5" />
+
+    <TextView
+        android:text="@string/hs__conversation_end_msg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="32dp"/>
+
+    <Button
+        android:text="@string/hs__new_conversation_btn"
+        android:id="@+id/hs__new_conversation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/hs__report_issue"
+        android:layout_marginBottom="32dp"/>
+  </LinearLayout>
+
+  <View
+      android:background="@color/hs__light_horizontal_stub_bg"
+      android:id="@+id/textView1"
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:layout_above="@+id/relativeLayout1"
+      android:alpha="0.5" />
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true" >
+
+    <EditText
+        android:id="@+id/hs__messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/hs__sendMessageBtn"
+        android:hint="@string/hs__chat_hint"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine"
+        android:maxLines="@integer/hs__chat_max_lines"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:paddingBottom="16dp"
+        android:autoText="true"
+        android:layout_alignBaseline="@+id/hs__sendMessageBtn" />
+
+    <ImageButton
+        android:id="@+id/hs__sendMessageBtn"
+        android:background="?attr/hs__selectableItemBackground"
+        android:src="@drawable/hs__send"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+  </RelativeLayout>
+</RelativeLayout>

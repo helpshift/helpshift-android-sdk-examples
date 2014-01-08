@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:helpshift="http://schemas.android.com/apk/res-auto">
-  <item android:id="@+id/hs__action_report_issue"
-        android:icon="@drawable/hs__chat_new"
-        android:title="@string/hs__report_issue_header"
+  <item android:id="@+id/hs__action_add_conversation"
+        android:icon="@drawable/hs__send"
+        android:title="@string/hs__submit_conversation_btn"
         helpshift:showAsAction="ifRoom"/>
 </menu>

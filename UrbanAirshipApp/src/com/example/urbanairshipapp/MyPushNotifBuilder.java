@@ -13,8 +13,6 @@ import com.urbanairship.push.BasicPushNotificationBuilder;
 
 public class MyPushNotifBuilder extends BasicPushNotificationBuilder {
 
-  private Helpshift hs = null;
-
   public Notification buildNotification(String alert, Map<String, String> extras) {
     if(extras.get("origin").equals("helpshift")) {
       return null;

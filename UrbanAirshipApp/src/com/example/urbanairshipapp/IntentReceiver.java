@@ -12,19 +12,14 @@ import com.urbanairship.push.PushManager;
 
 public class IntentReceiver extends BroadcastReceiver {
   private static final String TAG = UrbanAirshipActivity.TAG;
-  private Helpshift hs = null;
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    if (hs == null){
-      hs = new Helpshift(UAirship.shared().getApplicationContext());
-    }
-
     String action = intent.getAction();
 
     if (action.equals(PushManager.ACTION_PUSH_RECEIVED)) {
       if(intent.getExtras().getString("origin").equals("helpshift")) {
-        hs.handlePush(intent);
+        Helpshift.handlePush(context, intent);
       }
 
       int id = intent.getIntExtra(PushManager.EXTRA_NOTIFICATION_ID, 0);
@@ -32,15 +27,8 @@ public class IntentReceiver extends BroadcastReceiver {
       Log.i(TAG, "Received push notification. Alert: "
             + intent.getStringExtra(PushManager.EXTRA_ALERT)
             + " [NotificationID="+id+"]");
-
-    } else if (action.equals(PushManager.ACTION_NOTIFICATION_OPENED)) {
-
-      if(intent.getExtras().getString("origin").equals("helpshift")) {
-        hs.showSupportOnPush(intent);
-      }
-
     } else if (action.equals(PushManager.ACTION_REGISTRATION_FINISHED)) {
-      hs.setDeviceToken(PushManager.shared().getAPID());
+      Helpshift.registerDeviceToken(context, PushManager.shared().getAPID());
       Log.i(TAG, "Registration complete. APID:" +
             intent.getStringExtra(PushManager.EXTRA_APID) +
             ". Valid: " +

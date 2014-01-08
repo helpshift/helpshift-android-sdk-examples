@@ -12,7 +12,6 @@ import com.helpshift.Log;
 public class PGActivity extends Activity {
 
   String TAG = "HelpshiftDemoDebug";
-  Helpshift hs;
   Button helpButton;
   Button reportIssueButton;
   Button inboxButton;
@@ -25,16 +24,15 @@ public class PGActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    hs = new Helpshift(PGActivity.this);
-    // You initialize the library by calling hs.install(APPLICATION_CONTEXT, API_KEY, DOMAIN,
+    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
+    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showSupport(PGActivity.this);
+          Helpshift.showFAQs(PGActivity.this);
         }
       });
 
@@ -42,23 +40,7 @@ public class PGActivity extends Activity {
     reportIssueButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showReportIssue(PGActivity.this);
-        }
-      });
-
-    inboxButton = (Button) findViewById(R.id.inboxButton);
-    inboxButton.setOnClickListener(new OnClickListener() {
-        @Override
-        public void onClick(View view) {
-          hs.showInbox(PGActivity.this);
-        }
-      });
-
-    faqsButton = (Button) findViewById(R.id.faqsButton);
-    faqsButton.setOnClickListener(new OnClickListener() {
-        @Override
-        public void onClick(View view) {
-          hs.showFaqs(PGActivity.this);
+          Helpshift.showConversation(PGActivity.this);
         }
       });
 
@@ -66,7 +48,7 @@ public class PGActivity extends Activity {
     faqSectionButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showSection(PGActivity.this, "SECTION_PUBLISH_ID");
+          Helpshift.showFAQSection(PGActivity.this, "SECTION_PUBLISH_ID");
         }
       });
 
@@ -74,7 +56,7 @@ public class PGActivity extends Activity {
     singleFaqButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showQuestion(PGActivity.this, "QUESTION_PUBLISH_ID");
+          Helpshift.showSingleFAQ(PGActivity.this, "QUESTION_PUBLISH_ID");
         }
       });
   }

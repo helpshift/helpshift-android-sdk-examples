@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:helpshift="http://schemas.android.com/apk/res-auto" >
+  <item android:id="@+id/hs__action_report_issue"
+        android:title="@string/hs__new_conversation_header"
+        android:orderInCategory="1"
+        helpshift:showAsAction="always"
+        helpshift:actionLayout="@layout/hs__badge_layout"/>
+</menu>

@@ -9,22 +9,10 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
   <application>
-    <activity android:name="com.helpshift.HelpshiftActivity"
-              android:label="@string/hs__help_header"
-              android:configChanges="orientation|screenSize"
-              android:windowSoftInputMode="adjustPan"
-              android:theme="@style/Theme.Helpshift" />
-    <activity android:name="com.helpshift.HSAddIssue"
-              android:label="@string/hs__report_issue_header"
+    <activity android:name="com.helpshift.HSConversation"
+              android:label="@string/hs__conversation_header"
               android:configChanges="orientation|screenSize"
               android:theme="@style/Theme.Helpshift"/>
-    <activity android:name="com.helpshift.HSAddProfile"
-              android:label="@string/hs__add_profile_header"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/Theme.Helpshift" />
-    <activity android:name="com.helpshift.HSMessages"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/Theme.Helpshift" />
     <activity android:name="com.helpshift.HSQuestionsList"
               android:theme="@style/Theme.Helpshift"
               android:configChanges="orientation|screenSize"/>
@@ -38,17 +26,16 @@
               android:configChanges="orientation|screenSize"
               android:windowSoftInputMode="adjustPan"
               android:theme="@style/Theme.Helpshift" />
-    <activity android:name="com.helpshift.HSInbox"
-              android:label="@string/hs__inbox_header"
-              android:hardwareAccelerated="true"
-              android:configChanges="orientation|screenSize"
-              android:theme="@style/Theme.Helpshift" />
     <activity android:name="com.helpshift.HSFaqs"
               android:label="@string/hs__help_header"
               android:hardwareAccelerated="true"
               android:configChanges="orientation|screenSize"
               android:windowSoftInputMode="adjustPan"
               android:theme="@style/Theme.Helpshift" />
+    <activity android:name="com.helpshift.HSReview"
+              android:configChanges="orientation|screenSize"
+              android:launchMode= "singleTask"
+              android:theme="@style/Theme.Helpshift.Translucent" />
 
     <service
         android:name="com.helpshift.HSService"

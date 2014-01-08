@@ -10,38 +10,44 @@
       android:layout_width="fill_parent"
       android:layout_height="fill_parent">
 
+    <LinearLayout
+        android:id="@+id/hs__webViewParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/hs__contactUsContainer"
+        android:paddingLeft="@dimen/hs__content_wrapper_padding"/>
 
-    <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/hs__contactUsContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true" >
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center">
 
-      <LinearLayout
-          android:id="@+id/hs__webViewParent"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:orientation="vertical"
-          android:paddingLeft="@dimen/hs__content_wrapper_padding"
-          android:paddingRight="@dimen/hs__content_wrapper_padding"
-          >
+      <View
+          android:background="@color/hs__light_horizontal_stub_bg"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:alpha="0.5" />
 
-        <TextView
-            android:id="@+id/hs__questionText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/hs__question_text_padding"
-            android:paddingBottom="@dimen/hs__question_text_padding"
-            android:text="TextView"
-            android:textStyle="bold"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
+      <TextView
+          android:text="@string/hs__question_unhelpful_message"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="12dp"/>
 
-      </LinearLayout>
-    </ScrollView>
+      <Button
+          android:text="@string/hs__contact_us_btn"
+          android:id="@+id/hs__contact_us_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/hs__report_issue"
+          android:layout_marginBottom="16dp"/>
 
+    </LinearLayout>
   </RelativeLayout>
 
   <FrameLayout

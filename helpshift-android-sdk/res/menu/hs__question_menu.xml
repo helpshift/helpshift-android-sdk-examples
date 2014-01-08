@@ -3,9 +3,9 @@
   <item android:id="@+id/hs__action_faq_helpful"
         android:icon="@drawable/hs__faq_helpful"
         android:title="@string/hs__faq_helpful_msg"
-        helpshift:showAsAction="ifRoom"/>
+        helpshift:showAsAction="always"/>
   <item android:id="@+id/hs__action_faq_unhelpful"
         android:icon="@drawable/hs__faq_unhelpful"
         android:title="@string/hs__faq_unhelpful_msg"
-        helpshift:showAsAction="ifRoom"/>
+        helpshift:showAsAction="always"/>
 </menu>

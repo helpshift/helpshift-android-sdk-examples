@@ -12,7 +12,6 @@ import com.helpshift.Log;
 public class HelpshiftDemoActivity extends Activity {
 
   String TAG = "HelpshiftDemoDebug";
-  Helpshift hs;
   Button helpButton;
   Button reportIssueButton;
   Button inboxButton;
@@ -25,16 +24,15 @@ public class HelpshiftDemoActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    hs = new Helpshift(HelpshiftDemoActivity.this);
-    // You initialize the library by calling hs.install(APPLICATION_CONTEXT, API_KEY, DOMAIN,
+    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // hs.install(this, "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
+    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showSupport(HelpshiftDemoActivity.this);
+          Helpshift.showFAQs(HelpshiftDemoActivity.this);
         }
       });
 
@@ -42,23 +40,7 @@ public class HelpshiftDemoActivity extends Activity {
     reportIssueButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showReportIssue(HelpshiftDemoActivity.this);
-        }
-      });
-
-    inboxButton = (Button) findViewById(R.id.inboxButton);
-    inboxButton.setOnClickListener(new OnClickListener() {
-        @Override
-        public void onClick(View view) {
-          hs.showInbox(HelpshiftDemoActivity.this);
-        }
-      });
-
-    faqsButton = (Button) findViewById(R.id.faqsButton);
-    faqsButton.setOnClickListener(new OnClickListener() {
-        @Override
-        public void onClick(View view) {
-          hs.showFaqs(HelpshiftDemoActivity.this);
+          Helpshift.showConversation(HelpshiftDemoActivity.this);
         }
       });
 
@@ -66,7 +48,7 @@ public class HelpshiftDemoActivity extends Activity {
     faqSectionButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showSection(HelpshiftDemoActivity.this, "SECTION_PUBLISH_ID");
+          Helpshift.showFAQSection(HelpshiftDemoActivity.this, "SECTION_PUBLISH_ID");
         }
       });
 
@@ -74,7 +56,7 @@ public class HelpshiftDemoActivity extends Activity {
     singleFaqButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          hs.showQuestion(HelpshiftDemoActivity.this, "QUESTION_PUBLISH_ID");
+          Helpshift.showSingleFAQ(HelpshiftDemoActivity.this, "QUESTION_PUBLISH_ID");
         }
       });
   }

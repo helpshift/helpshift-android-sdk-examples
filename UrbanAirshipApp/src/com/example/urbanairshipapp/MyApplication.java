@@ -18,10 +18,10 @@ public class MyApplication extends Application {
     // called airshipconfig.properties
     // and place it in your "assets" folder
     // AirshipConfigOptions options = AirshipConfigOptions.loadDefaultOptions(this);
-    // options.gcmSender = Your Google API Project Number (allows multiple senders separated by commas)
-    // options.transport = gcm
-    // options.developmentAppKey = "Your development app key";
-    // options.productionAppKey = "Your production app key";
+    // options.gcmSender = "Your Google API Project Number (allows multiple senders separated by commas)";
+    // options.transport = "gcm";
+    // options.developmentAppKey = "Your Development App Key";
+    // options.developmentAppSecret = "Your Development App Secret";
     // options.inProduction = false; //determines which app key to use
     // UAirship.takeOff(this, options);
 

@@ -3,6 +3,7 @@
   <!-- Change these two color properties to theme the Helpshift SDK according to your app -->
   <color name="hs__actionBarStackedColor">#000000</color>
   <color name="hs__actionBarTabIndicatorColor">#33b5e5</color>
+  <color name="hs__notificationIconColor">#FF4444</color>
 
   <color name="hs__confirmationAcceptedTextColor">#669900</color>
   <color name="hs__confirmationRejectedTextColor">#cc0000</color>
