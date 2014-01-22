@@ -1,4 +1,4 @@
-Helpshift SDK 3.0.0 Release Notes (for Android)
+Helpshift SDK 3.0.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,9 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.0.1 Release Date: January 22, 2014
+      * Fix gotoConversationAfterContactUs flag typo
+      * Deprecate HSIssueTagsKey and replace with HSTagsKey
 3.0.0 Release Date: January 09, 2014
       * Multiple issues and inbox is no longer supported
       * The conversation interface has been unified into a single channel
