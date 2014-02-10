@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift Korean strings -->
+  <string name="hs__help_header">도움말</string>
+  <string name="hs__question_header">질문</string>
+  <string name="hs__conversation_header">대화</string>
+  <string name="hs__new_conversation_header">새로운 대화</string>
+  <string name="hs__faq_header">FAQ</string>
+  <string name="hs__submit_conversation_btn">제출</string>
+  <string name="hs__send_msg_btn">전송</string>
+  <string name="hs__mark_helpful_toast">질문이 도움이 되었다고 표시되었습니다</string>
+  <string name="hs__mark_unhelpful_toast">질문이 도움이 되지 않았다고 표시되었습니다</string>
+  <string name="hs__new_conversation_btn">새로운 대화 시작</string>
+  <string name="hs__contact_us_btn">연락처</string>
+  <string name="hs__change_btn">변경</string>
+  <string name="hs__done_btn">완료</string>
+  <string name="hs__attach_btn">예, 첨부</string>
+  <string name="hs__review_btn">확인, 다시보기</string>
+  <string name="hs__unsolved_btn">아니오, 해결되지 않았습니다.</string>
+  <string name="hs__solved_btn">예, 해결되었습니다!</string>
+  <string name="hs__review_dialog_positive_btn">점수와 평가를 해주세요</string>
+  <string name="hs__review_dialog_neutral_btn">나중에 다시 보기</string>
+  <string name="hs__review_dialog_negative_btn">다시 묻지 않기</string>
+  <string name="hs__rsc_progress_msg">스크린샷 전송 중.</string>
+  <string name="hs__ca_msg">기꺼이 도와드리겠습니다!</string>
+  <string name="hs__cr_msg">다른 도움이 필요한 일이 있으십니까?</string>
+  <string name="hs__conversation_started_message">
+    메시지가 수신되었습니다. 연락해주셔서 감사합니다!
+  </string>
+  <string name="hs__review_dialog_msg">
+    저희 앱을 평가하는데 시간을 내주시지 않으시겠습니까? 1분 넘게 걸리지 않을 것입니다. 당신의 도움에 감사드립니다!
+  </string>
+  <string name="hs__question_unhelpful_message">이 내용은 유용하지 않았습니다.</string>
+  <string name="hs__network_unavailable_msg">네트워크 이용불가능.</string>
+  <string name="hs__faq_helpful_msg">도움이 됨</string>
+  <string name="hs__faq_unhelpful_msg">도움이 되지 않음</string>
+  <string name="hs__confirmation_msg">메시지를 보내주셔서 감사합니다! 모든 질문에 답이 되었습니까?</string>
+  <string name="hs__conversation_end_msg">위의 대화를 종료하셨습니다.</string>
+  <string name="hs__search_hint">문제를 설명해주세요</string>
+  <string name="hs__search_title">수색</string>
+  <string name="hs__new_conversation_hint">무슨 생각을 하고 계세요?</string>
+  <string name="hs__username_hint">이름</string>
+  <string name="hs__email_hint">이메일(선택사항)</string>
+  <string name="hs__email_required_hint">이메일</string>
+  <string name="hs__chat_hint">당신의 메세지를 입력하세요</string>
+  <string name="hs__empty_section">죄송합니다! 이 섹션에서 질문은 불가능합니다.</string>
+  <string name="hs__search_footer">찾고 계신 내용이 없나요?</string>
+  <string name="hs__conversation_detail_error">당신의 문제를 설명해주세요</string>
+  <string name="hs__username_blank_error">유효한 이름을 입력해주세요</string>
+  <string name="hs__invalid_email_error">유효한 이메일을 입력해주세요</string>
+  <string name="hs__invalid_description_error">무효한 설명</string>
+  <string name="hs__screenshot_sent_msg">스크린샷 전송됨</string>
+  <string name="hs__screenshot_limit_error">스크린샷 사이즈는 %.2f MB를 넘을 수 없습니다</string>
+  <string name="hs__privacy_policy">
+    당신의 정보는 당신이 처음 문제를 신고할 때만 묻습니다. 더 자세한 내용은 저희 %1$s 개인정보보호정책 %2$s을 읽어주세요.
+  </string>
+  <string name="hs__sending_msg">보내는 중...</string>
+  <string name="hs__screenshot_upload_error_msg">스크린샷을 업로드하는 중 오류</string>
+  <string name="hs__data_not_found_msg">데이터 발견 못함</string>
+  <string name="hs__network_error_msg">이런! 무언가 오류가 생겼습니다</string>
+  <string name="hs__dm_video_loading">동영상 로딩 중...</string>
+  <plurals name="hs__notification_content_title">
+    <item quantity="one">지원팀이 보낸 새 메시지</item>
+    <item quantity="other">%d 개의 지원팀의 새 메시지</item>
+  </plurals>
+  <string name="hs__notification_content_text">답:</string>
+  <string name="hs__faqs_search_footer">FAQ를 찾을 수 없음.</string>
+
+  <string name="hs__review_accepted_message">리뷰 요청 수락함</string>
+  <string name="hs__review_title">앱 평가</string>
+  <string name="hs__review_message">
+    저희 앱이 마음에 드신다면 시간을 내서 평가를 해주세요
+  </string>
+  <string name="hs__rate_button">평가</string>
+  <string name="hs__feedback_button">피드백 전송</string>
+  <string name="hs__review_close_button">닫기</string>
+</resources>

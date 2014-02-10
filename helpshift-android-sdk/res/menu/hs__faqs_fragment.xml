@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:helpshift="http://schemas.android.com/apk/res-auto" >
   <item android:id="@+id/hs__action_search"
-        android:title="Search"
+        android:title="@string/hs__search_title"
         android:icon="@drawable/hs__action_search"
         helpshift:actionViewClass="android.support.v7.widget.SearchView"
         android:orderInCategory="0"

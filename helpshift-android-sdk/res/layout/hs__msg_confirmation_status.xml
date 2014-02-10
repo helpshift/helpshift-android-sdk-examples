@@ -9,15 +9,6 @@
     android:orientation="vertical"
     >
 
-  <TextView
-      android:id="@android:id/message"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-      android:gravity="center"
-      android:textColor="@color/hs__confirmationAcceptedTextColor"
-      />
-
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

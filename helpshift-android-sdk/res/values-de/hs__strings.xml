@@ -23,9 +23,7 @@
   <string name="hs__review_dialog_negative_btn">Nicht wieder fragen</string>
   <string name="hs__rsc_progress_msg">Screenshot wird gesendet.</string>
   <string name="hs__ca_msg">Wir helfen Ihnen gern</string>
-  <string name="hs__cr_msg">
-    Das tut uns leid. Bitte geben Sie uns ein paar Details zu Ihrem Problem.
-  </string>
+  <string name="hs__cr_msg">Womit können wir Ihnen sonst noch helfen?</string>
   <string name="hs__conversation_started_message">
     Ihre Nachricht ist eingegangen. Danke, dass Sie uns kontaktieren!
   </string>
@@ -41,6 +39,7 @@
   <string name="hs__conversation_end_msg">Sie haben die obige Unterhaltung beendet.</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">Beschreiben Sie Ihr Problem</string>
+  <string name="hs__search_title">Suchen</string>
   <string name="hs__new_conversation_hint">Was möchten Sie uns mitteilen?</string>
   <string name="hs__username_hint">Name</string>
   <string name="hs__email_hint">E-Mail (optional)</string>
@@ -52,11 +51,16 @@
   <string name="hs__username_blank_error">Bitte geben Sie einen gültigen Namen</string>
   <string name="hs__invalid_email_error">Bitte geben Sie eine gültige E-Mail-Adresse an.</string>
   <string name="hs__invalid_description_error">Ungültige Beschreibung</string>
+  <string name="hs__screenshot_sent_msg">Screenshot gesendet</string>
   <string name="hs__screenshot_limit_error">Screenshot Größe sollte nicht mehr als %.2f MB</string>
   <string name="hs__privacy_policy">
     Wir werden Sie lediglich bei der ersten Fehlermeldung nach Ihren Angaben fragen. Nähere
     Informationen finden Sie in unseren Datenschutzbestimmungen unter %1$s privacy policy %2$s
   </string>
+  <string name="hs__sending_msg">Wird gesendet...</string>
+  <string name="hs__screenshot_upload_error_msg">Fehler beim Hochladen des Screenshots</string>
+  <string name="hs__data_not_found_msg">Daten nicht gefunden</string>
+  <string name="hs__network_error_msg">Huch! Da ist was schief gelaufen</string>
   <string name="hs__dm_video_loading">Video wird geladen...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Neue Nachricht aus dem Support</item>
@@ -65,6 +69,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">Keine FAQs gefunden.</string>
 
+  <string name="hs__review_accepted_message">Akzeptierte Bewertungsanfrage</string>
   <string name="hs__review_title">Bewerten Sie unsere App</string>
   <string name="hs__review_message">
     Wenn Ihnen unsere App gefällt, nehmen Sie sich bitte einen Moment Zeit, um sie im App Store zu bewerten.

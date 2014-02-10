@@ -23,9 +23,7 @@
   <string name="hs__review_dialog_negative_btn">不要再问我</string>
   <string name="hs__rsc_progress_msg">正在发送屏幕截图。</string>
   <string name="hs__ca_msg">我们很乐意帮忙</string>
-  <string name="hs__cr_msg">
-    听到这个消息很抱歉。可以向我们详细说明你面临的问题吗？
-  </string>
+  <string name="hs__cr_msg">我们还有什么可以帮到您？</string>
   <string name="hs__conversation_started_message">
     你的信息已收到。感谢联系我们！
   </string>
@@ -40,6 +38,7 @@
   <string name="hs__conversation_end_msg">你已结束了上面的会话。</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">描述你的问题</string>
+  <string name="hs__search_title">搜索</string>
   <string name="hs__new_conversation_hint">有什么问题或反馈吗?</string>
   <string name="hs__username_hint">姓名</string>
   <string name="hs__email_hint">电子邮件(可选)</string>
@@ -51,10 +50,15 @@
   <string name="hs__username_blank_error">请输入一个有效的名称</string>
   <string name="hs__invalid_email_error">请输入一个有效的电子邮件地址</string>
   <string name="hs__invalid_description_error">无效输入</string>
+  <string name="hs__screenshot_sent_msg">已发送屏幕截图</string>
   <string name="hs__screenshot_limit_error">截图的大小不应该超过%.2f MB</string>
   <string name="hs__privacy_policy">
     我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s
   </string>
+  <string name="hs__sending_msg">正在发送...</string>
+  <string name="hs__screenshot_upload_error_msg">屏幕截图上传错误</string>
+  <string name="hs__data_not_found_msg">数据未找到</string>
+  <string name="hs__network_error_msg">啊呀！出现错误了</string>
   <string name="hs__dm_video_loading">正在载入视频…</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">新的消息支持</item>
@@ -63,6 +67,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">此部分未找到常见问题解答</string>
 
+  <string name="hs__review_accepted_message">已接受评价请求</string>
   <string name="hs__review_title">给应用评分</string>
   <string name="hs__review_message">
     如果你喜欢我们的应用，请花点时间在App Store给它评个分

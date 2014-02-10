@@ -23,10 +23,7 @@
   <string name="hs__review_dialog_negative_btn">Never ask me again</string>
   <string name="hs__rsc_progress_msg">Sending screenshot.</string>
   <string name="hs__ca_msg">We\'re happy to help you!</string>
-  <string name="hs__cr_msg">
-    Sorry to hear that. Could you please tell us a little bit more about
-    the problem you are facing?
-  </string>
+  <string name="hs__cr_msg">What else can we help you with?</string>
   <string name="hs__conversation_started_message">
     Your message has been received. Thanks for contacting us!
   </string>
@@ -42,6 +39,7 @@
   <string name="hs__conversation_end_msg">You ended the conversation above.</string>
   <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string>
   <string name="hs__search_hint">Describe your problem</string>
+  <string name="hs__search_title">Search</string>
   <string name="hs__new_conversation_hint">What\'s on your mind?</string>
   <string name="hs__username_hint">Name</string>
   <string name="hs__email_hint">Email (optional)</string>
@@ -53,11 +51,16 @@
   <string name="hs__username_blank_error">Please enter a valid name</string>
   <string name="hs__invalid_email_error">Please enter a valid email</string>
   <string name="hs__invalid_description_error">Invalid description</string>
+  <string name="hs__screenshot_sent_msg">Screenshot sent</string>
   <string name="hs__screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
   <string name="hs__privacy_policy">
     We will only ask for your details when you report your first
     issue. For more details read our %1$s privacy policy %2$s
   </string>
+  <string name="hs__sending_msg">Sending...</string>
+  <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
+  <string name="hs__data_not_found_msg">Data not found</string>
+  <string name="hs__network_error_msg">Oops! Something went wrong</string>
   <string name="hs__dm_video_loading">Loading Video...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">New message from Support</item>
@@ -66,6 +69,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">No FAQs found.</string>
 
+  <string name="hs__review_accepted_message">Accepted review request</string>
   <string name="hs__review_title">Rate Our App</string>
   <string name="hs__review_message">
     If you love our app, please take a moment to rate it

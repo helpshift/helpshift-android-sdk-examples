@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Helpshift Turkish strings -->
+  <string name="hs__help_header">Yardım</string>
+  <string name="hs__question_header">Soru</string>
+  <string name="hs__conversation_header">Sohbet</string>
+  <string name="hs__new_conversation_header">Yeni Sohbet</string>
+  <string name="hs__faq_header">Sıkça Sorulan Sorular</string>
+  <string name="hs__submit_conversation_btn">Gönder</string>
+  <string name="hs__send_msg_btn">Gönder</string>
+  <string name="hs__mark_helpful_toast">Soru Faydalı olarak işaretlendi.</string>
+  <string name="hs__mark_unhelpful_toast">Soru Faydalı değil olarak işaretlendi.</string>
+  <string name="hs__new_conversation_btn">YENİ BİR SOHBET BAŞLAT</string>
+  <string name="hs__contact_us_btn">BİZE ULAŞIN</string>
+  <string name="hs__change_btn">Değiştir</string>
+  <string name="hs__done_btn">Tamam</string>
+  <string name="hs__attach_btn">Tamam, ekle</string>
+  <string name="hs__review_btn">Peki, incele</string>
+  <string name="hs__unsolved_btn">Hayır, çözülmedi</string>
+  <string name="hs__solved_btn">Evet, çözüldü!</string>
+  <string name="hs__review_dialog_positive_btn">Puanla ve Yorum Yaz</string>
+  <string name="hs__review_dialog_neutral_btn">Sonra hatırlat</string>
+  <string name="hs__review_dialog_negative_btn">Bir daha sorma</string>
+  <string name="hs__rsc_progress_msg">Ekran görüntüsü gönderiliyor...</string>
+  <string name="hs__ca_msg">Yardımcı olmaktan memnuniyet duyacağız!</string>
+  <string name="hs__cr_msg">Size başka nasıl yardımcı olabiliriz?</string>
+  <string name="hs__conversation_started_message">
+    Mesajınız alındı. Bize ulaştığınız için teşekkür ederiz!
+  </string>
+  <string name="hs__review_dialog_msg">
+    Uygulamamızı değerlendirmek için biraz vaktinizi ayırır mısınız? Bir dakikadan fazla sürmez. Desteğiniz
+    için teşekkürler!
+  </string>
+  <string name="hs__question_unhelpful_message">Bu bilgiyi faydalı bulmadınız.</string>
+  <string name="hs__network_unavailable_msg">Ağa erişilemiyor.</string>
+  <string name="hs__faq_helpful_msg">Faydalı</string>
+  <string name="hs__faq_unhelpful_msg">Faydalı değil</string>
+  <string name="hs__confirmation_msg">Mesaj gönderdiğiniz için teşekkür ederiz! Tüm sorularınız cevaplandı mı?</string>
+  <string name="hs__conversation_end_msg">Yukarıdaki sohbeti sonlandırdınız.</string>
+  <string name="hs__search_hint">Sorununuzu açıklayın</string>
+  <string name="hs__search_title">Aramak</string>
+  <string name="hs__new_conversation_hint">Bize ne danışmak istiyorsunuz?</string>
+  <string name="hs__username_hint">Adınız</string>
+  <string name="hs__email_hint">E-posta (isteğe bağlı)</string>
+  <string name="hs__email_required_hint">E-posta</string>
+  <string name="hs__chat_hint">Mesajınızı yazın</string>
+  <string name="hs__empty_section">Üzgünüz! Bu bölümde mevcut soru bulunmamaktadır.</string>
+  <string name="hs__search_footer">Aradığınızı bulamadınız mı?</string>
+  <string name="hs__conversation_detail_error">Lütfen sorununuzu açıklayın.</string>
+  <string name="hs__username_blank_error">Lütfen adınızı girin</string>
+  <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi girin</string>
+  <string name="hs__invalid_description_error">Geçersiz açıklama</string>
+  <string name="hs__screenshot_sent_msg">Ekran görüntüsü gönderildi</string>
+  <string name="hs__screenshot_limit_error">Ekran görüntüsü %.2f MB boyutunu aşmamalıdır</string>
+  <string name="hs__privacy_policy">
+    Sizden yalnızca ilk sorununuzu bildirdiğinizde bilgilerinizi isteriz.
+    Daha fazla bilgi için %1$s gizlilik politikamızı %2$s okuyun.
+  </string>
+  <string name="hs__sending_msg">Gönderiliyor...</string>
+  <string name="hs__screenshot_upload_error_msg">Ekran görüntüsünü yüklemede hata</string>
+  <string name="hs__data_not_found_msg">Veri bulunamadı</string>
+  <string name="hs__network_error_msg">Hop! Birşeyler yanlış gitti</string>
+  <string name="hs__dm_video_loading">Video Yükleniyor...</string>
+  <plurals name="hs__notification_content_title">
+    <item quantity="one">Destek\'ten yeni mesajınız var</item>
+    <item quantity="other">%d Destek\'ten yeni mesajlarınız var</item>
+  </plurals>
+  <string name="hs__notification_content_text">Yanıt:</string>
+  <string name="hs__faqs_search_footer">Hiçbir soru bulunamadı.</string>
+
+  <string name="hs__review_accepted_message">Değerlendirme isteği kabul edildi</string>
+  <string name="hs__review_title">Uygulamamıza puan verin</string>
+  <string name="hs__review_message">
+    Uygulamamızı sevdiyseniz, lütfen oylamak için bir dakikanızı ayırın
+  </string>
+  <string name="hs__rate_button">Puan Ver</string>
+  <string name="hs__feedback_button">Geri Bildirim Gönder</string>
+  <string name="hs__review_close_button">Kapat</string>
+</resources>

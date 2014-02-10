@@ -23,10 +23,7 @@
   <string name="hs__review_dialog_negative_btn">Ne plus me le demander</string>
   <string name="hs__rsc_progress_msg">Envoi de la capture d\'écran.</string>
   <string name="hs__ca_msg">Nous sommes heureux de pouvoir vous aider</string>
-  <string name="hs__cr_msg">
-    Nous sommes désolés. Pourriez-vous nous en dire un peu plus au sujet du problème que vous
-    avez rencontré ?
-  </string>
+  <string name="hs__cr_msg">Pouvons-nous vous aider pour autre chose ?</string>
   <string name="hs__conversation_started_message">
     Votre message a bien été reçu. Merci de nous avoir contactés !
   </string>
@@ -42,6 +39,7 @@
   <string name="hs__conversation_end_msg">Vous avez mis fin à la conversation ci-dessus.</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">Décrivez votre problème</string>
+  <string name="hs__search_title">Recherche</string>
   <string name="hs__new_conversation_hint">À quoi pensez-vous ?</string>
   <string name="hs__username_hint">Nom</string>
   <string name="hs__email_hint">E-mail (facultatif)</string>
@@ -53,12 +51,17 @@
   <string name="hs__username_blank_error">S\'il vous plaît entrer un nom valide</string>
   <string name="hs__invalid_email_error">S\'il vous plaît entrer une adresse email valide</string>
   <string name="hs__invalid_description_error">Description non valide</string>
+  <string name="hs__screenshot_sent_msg">La capture d\'écran a été envoyée</string>
   <string name="hs__screenshot_limit_error">Taille d\'écran ne doit pas dépasser %.2f Mo</string>
   <string name="hs__privacy_policy">
     Vos informations ne serons nécessaires qu\'au moment de signaler votre premier
     problème. Pour plus de détails, référez-vous à notre politique %1$s de
     confidentialité. %2$s
   </string>
+  <string name="hs__sending_msg">Envoi...</string>
+  <string name="hs__screenshot_upload_error_msg">Erreur pendant le téléchargement de la capture d\'écran</string>
+  <string name="hs__data_not_found_msg">Données introuvables</string>
+  <string name="hs__network_error_msg">Oups ! Une erreur s\'est produite</string>
   <string name="hs__dm_video_loading">Chargement de la vidéo ...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nouveau message de soutien</item>
@@ -67,6 +70,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">Pas FAQ trouvé.</string>
 
+  <string name="hs__review_accepted_message">Demande de révision acceptée</string>
   <string name="hs__review_title">Donner une note à l\'app</string>
   <string name="hs__review_message">
     Si vous aimez notre app, veuillez prendre un moment pour la noter dans l\'App Store

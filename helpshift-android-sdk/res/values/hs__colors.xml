@@ -10,4 +10,5 @@
   <color name="hs__light_horizontal_stub_bg">#B1B1B1</color>
   <color name="hs__msg_user_chat_bubble_separator">#0099cc</color>
   <color name="hs__messages_text_color">#000000</color>
+  <color name="hs__send_reply_icon_color">#0099CC</color>
 </resources>
