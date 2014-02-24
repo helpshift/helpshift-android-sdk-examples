@@ -1,4 +1,4 @@
-Helpshift SDK 3.1.0 Release Notes (for Android)
+Helpshift SDK 3.1.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,10 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.1.1 Release Date: February 24, 2014
+      * Fix review reminder popup mechanism
+      * Fix do not show empty FAQ sections in FAQs pager
+      * Bug fixes
 3.1.0 Release Date: February 10, 2014
       * Add support for custom metadata in API config
       * Reduce jar size by removing unused classes via proguard
