@@ -26,7 +26,7 @@
 
   <!-- MODIFICATION REQUIRED - Replace "com.urbanairship.push.sample" with your package name -->
   <permission android:name="com.example.urbanairshipapp.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-  <uses-permission android:name="com.urbanairship.push.sample.permission.C2D_MESSAGE" />
+  <uses-permission android:name="com.example.urbanairshipapp.permission.C2D_MESSAGE" />
   <!-- The two elements above ensure that only this application can receive the messages and registration result -->
   <!--  END Urban Airship Required Permissions -->
 
