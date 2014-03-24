@@ -6,4 +6,8 @@
     <item name="hs__actionBarTabTextStyle">?android:attr/actionBarTabTextStyle</item>
     <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
   </style>
+
+  <style name="Theme.Helpshift.Light.DarkActionBar"
+         parent="@android:style/Theme.Holo.Light.DarkActionBar">
+  </style>
 </resources>

@@ -31,6 +31,10 @@
     Acceptez-vous de prendre un instant pour évaluer votre app ?  Cela ne prendra qu\'une
     minute. Merci pour votre support.
   </string>
+  <string name="hs__mark_yes_no_question">Cela vous a-t-il été utile?</string>
+  <string name="hs__mark_yes">OUI</string>
+  <string name="hs__mark_no">NON</string>
+  <string name="hs__question_helpful_message">Notre aide vous a-t-elle été utile.</string>
   <string name="hs__question_unhelpful_message">Notre aide ne vous a pas été utile.</string>
   <string name="hs__network_unavailable_msg">Réseau non disponible.</string>
   <string name="hs__faq_helpful_msg">Utile</string>
@@ -62,6 +66,7 @@
   <string name="hs__screenshot_upload_error_msg">Erreur pendant le téléchargement de la capture d\'écran</string>
   <string name="hs__data_not_found_msg">Données introuvables</string>
   <string name="hs__network_error_msg">Oups ! Une erreur s\'est produite</string>
+  <string name="hs__sending_fail_msg">Pas envoyé. Touchez pour réessayer</string>
   <string name="hs__dm_video_loading">Chargement de la vidéo ...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nouveau message de soutien</item>
@@ -70,6 +75,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">Pas FAQ trouvé.</string>
 
+  <string name="hs__review_request_message">Voulez-vous évaluer l\'appli?</string>
   <string name="hs__review_accepted_message">Demande de révision acceptée</string>
   <string name="hs__review_title">Donner une note à l\'app</string>
   <string name="hs__review_message">

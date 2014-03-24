@@ -31,6 +31,10 @@
     Would you mind taking a moment to review our app? It won\'t take more than a minute. Thanks
     for your support!
   </string>
+  <string name="hs__mark_yes_no_question">Was this helpful?</string>
+  <string name="hs__mark_yes">YES</string>
+  <string name="hs__mark_no">NO</string>
+  <string name="hs__question_helpful_message">You found this helpful.</string>
   <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>
   <string name="hs__network_unavailable_msg">Network not available.</string>
   <string name="hs__faq_helpful_msg">Helpful</string>
@@ -61,6 +65,7 @@
   <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
   <string name="hs__data_not_found_msg">Data not found</string>
   <string name="hs__network_error_msg">Oops! Something went wrong</string>
+  <string name="hs__sending_fail_msg">Not delivered. Tap to retry.</string>
   <string name="hs__dm_video_loading">Loading Video...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">New message from Support</item>
@@ -69,6 +74,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">No FAQs found.</string>
 
+  <string name="hs__review_request_message">Would you like to review the app?</string>
   <string name="hs__review_accepted_message">Accepted review request</string>
   <string name="hs__review_title">Rate Our App</string>
   <string name="hs__review_message">

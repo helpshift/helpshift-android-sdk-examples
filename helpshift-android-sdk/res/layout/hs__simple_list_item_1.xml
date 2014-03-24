@@ -6,9 +6,9 @@
     android:layout_height="wrap_content"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:gravity="center_vertical"
-    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
-    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+    android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
     android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"
     android:paddingBottom="@dimen/hs__listPreferredItemPaddingBottom"
-    android:minHeight="?attr/listPreferredItemHeightSmall"
+    android:minHeight="@dimen/hs__listPreferredItemHeightSmall"
     />

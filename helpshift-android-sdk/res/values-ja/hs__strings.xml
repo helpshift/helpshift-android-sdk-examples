@@ -30,6 +30,10 @@
   <string name="hs__review_dialog_msg">
     アプリを評価していただけませんか？時間は1分もかかりません。よろしくお願いします!
   </string>
+  <string name="hs__mark_yes_no_question">お役に立ちましたか?</string>
+  <string name="hs__mark_yes">はい</string>
+  <string name="hs__mark_no">いいえ</string>
+  <string name="hs__question_helpful_message">役に立ちました。</string>
   <string name="hs__question_unhelpful_message">役に立ちませんでした。</string>
   <string name="hs__network_unavailable_msg">ネットワークが利用できません</string>
   <string name="hs__faq_helpful_msg">役に立った</string>
@@ -58,6 +62,7 @@
   <string name="hs__screenshot_upload_error_msg">スクリーンショットのアップロードエラー</string>
   <string name="hs__data_not_found_msg">データが見つかりません。</string>
   <string name="hs__network_error_msg">おっと! 何か問題が起きたようです。</string>
+  <string name="hs__sending_fail_msg">メッセージが届きませんでした。タップすると再送信します。</string>
   <string name="hs__dm_video_loading">動画のロード中...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">サポートからの新規メッセージ</item>
@@ -66,6 +71,8 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">よくある質問が見つかりませんでした</string>
 
+  <string name="hs__review_request_message">このアプリにレビューをつけますか？</string>
+  <string name="hs__review_accepted_message">レビューリクエストを受け取りました</string>
   <string name="hs__review_title">アプリを評価</string>
   <string name="hs__review_message">
     私達のアプリが気に入ったなら、評価をお願いします

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+      class="com.helpshift.widget.SimpleSearchView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="5dp">
+
+    <EditText
+        android:id="@+id/hs__search_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hs__search_hint"
+        android:paddingRight="40dp"
+        android:visibility="gone"
+        android:textColor="@color/hs__actionBarTextColorPrimary"
+        android:singleLine="true" />
+
+    <ImageButton
+        style="@style/HSActionBarCompatItemBase"
+        android:id="@+id/hs__search_query_clear"
+        android:src="@drawable/hs__action_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/hs__actionbar_compat_item"
+        android:visibility="gone" />
+  </FrameLayout>
+
+  <ImageButton
+      style="@style/HSActionBarCompatItemBase"
+      android:id="@+id/hs__search_button"
+      android:src="@drawable/hs__action_search"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="8dip"
+      android:paddingLeft="8dip"
+      android:layout_gravity="center"
+      android:adjustViewBounds="true"
+      android:paddingTop="@dimen/hs__actionbar_compat_icon_vertical_padding"
+      android:paddingBottom="@dimen/hs__actionbar_compat_icon_vertical_padding"
+      android:scaleType="fitCenter" />
+</view>

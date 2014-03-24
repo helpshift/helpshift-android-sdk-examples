@@ -40,3 +40,36 @@ To set the Helpshift SDK to inherit from your app theme styles -
   <color name="hs__actionBarStackedColor">#007298</color>
   <color name="hs__actionBarTabIndicatorColor">#33b5e5</color>
  ```
+
+##Additionally for 3.2.0 and above
+
+*  Inside helpshift-android-sdk/res/values/hs\_\_colors.xml change the following colors to match your app theme colors
+
+ ```xml
+  <color name="hs__actionBarTextColorPrimary">#F3F3F3</color>
+  <color name="hs__actionBarTextColorSecondary">#000000</color>
+ ```
+
+
+*  Inside helpshift-android-sdk/res/values/hs\_\_themes.xml you can change the following -
+
+  1. hs__selectableItemBackground - Your Selectable Menu Item background style
+  ```xml
+    <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_item</item>
+  ```
+
+  1. HSActionBarCompat (android:background) - Your ActionBar background drawable or color
+  ```xml
+    <style name="HSActionBarCompat">
+      <!-- Action Bar background -->
+      <item name="android:background">#222222</item>
+    </style>
+  ```
+* If you are using themes which inherit from either AppCompat or ActionBarSherlock; add reference to these libs inside helpshift-android-sdk/project.properties
+  ```
+  android.library.reference.1=../appcompat
+  ```
+  OR
+  ```
+  android.library.reference.1=../actionbarsherlock
+  ```

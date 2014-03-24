@@ -31,6 +31,10 @@
     Uygulamamızı değerlendirmek için biraz vaktinizi ayırır mısınız? Bir dakikadan fazla sürmez. Desteğiniz
     için teşekkürler!
   </string>
+  <string name="hs__mark_yes_no_question">Bu bilgi faydalı oldu mu?</string>
+  <string name="hs__mark_yes">EVET</string>
+  <string name="hs__mark_no">HAYIR</string>
+  <string name="hs__question_helpful_message">Bu bilgiyi faydalı buldunuz.</string>
   <string name="hs__question_unhelpful_message">Bu bilgiyi faydalı bulmadınız.</string>
   <string name="hs__network_unavailable_msg">Ağa erişilemiyor.</string>
   <string name="hs__faq_helpful_msg">Faydalı</string>
@@ -60,6 +64,7 @@
   <string name="hs__screenshot_upload_error_msg">Ekran görüntüsünü yüklemede hata</string>
   <string name="hs__data_not_found_msg">Veri bulunamadı</string>
   <string name="hs__network_error_msg">Hop! Birşeyler yanlış gitti</string>
+  <string name="hs__sending_fail_msg">Gönderilmedi.Tekrar denemek için tıkla</string>
   <string name="hs__dm_video_loading">Video Yükleniyor...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Destek\'ten yeni mesajınız var</item>
@@ -68,6 +73,7 @@
   <string name="hs__notification_content_text">Yanıt:</string>
   <string name="hs__faqs_search_footer">Hiçbir soru bulunamadı.</string>
 
+  <string name="hs__review_request_message">Uygulamayı incelemek ister misiniz?</string>
   <string name="hs__review_accepted_message">Değerlendirme isteği kabul edildi</string>
   <string name="hs__review_title">Uygulamamıza puan verin</string>
   <string name="hs__review_message">

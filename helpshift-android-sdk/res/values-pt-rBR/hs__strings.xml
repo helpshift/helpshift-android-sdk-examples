@@ -31,6 +31,10 @@
     Você se importaria em dedicar um instante para avaliar o nosso app? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!
     for your support!
   </string>
+  <string name="hs__mark_yes_no_question">Isto foi útil?</string>
+  <string name="hs__mark_yes">SIM</string>
+  <string name="hs__mark_no">NÃO</string>
+  <string name="hs__question_helpful_message">Você achou isto útil.</string>
   <string name="hs__question_unhelpful_message">Você não achou isto útil.</string>
   <string name="hs__network_unavailable_msg">Rede não disponível.</string>
   <string name="hs__faq_helpful_msg">Útil</string>
@@ -60,6 +64,7 @@
   <string name="hs__screenshot_upload_error_msg">Erro ao carregar a captura de tela</string>
   <string name="hs__data_not_found_msg">Dados não encontrados</string>
   <string name="hs__network_error_msg">Ocorreu um problema</string>
+  <string name="hs__sending_fail_msg">Não foi entregue. Toque para regressar atrás</string>
   <string name="hs__dm_video_loading">Carregando vídeo...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nova mensagem de apoio</item>
@@ -68,6 +73,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">Nenhuma Pergunta Frequente encontrada nesta seção</string>
 
+  <string name="hs__review_request_message">Gostaria de rever a aplicação?</string>
   <string name="hs__review_accepted_message">Aceitou pedido de revisão</string>
   <string name="hs__review_title">Avalie nosso App</string>
   <string name="hs__review_message">

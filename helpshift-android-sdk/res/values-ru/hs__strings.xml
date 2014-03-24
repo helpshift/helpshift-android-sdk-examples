@@ -31,6 +31,10 @@
     Не могли бы Вы уделить минутку внимания для просмотра нашего приложения? Это \займет у Вас не более минуты. Спасибо Вам
     за Вашу поддержку!
   </string>
+  <string name="hs__mark_yes_no_question">Это было полезно?</string>
+  <string name="hs__mark_yes">ДА</string>
+  <string name="hs__mark_no">НЕТ</string>
+  <string name="hs__question_helpful_message">Вы считаете это полезным.</string>
   <string name="hs__question_unhelpful_message">Вы не считаете это полезным.</string>
   <string name="hs__network_unavailable_msg">Сеть не доступна.</string>
   <string name="hs__faq_helpful_msg">Полезный</string>
@@ -60,6 +64,7 @@
   <string name="hs__screenshot_upload_error_msg">Ошибка загрузки скриншота</string>
   <string name="hs__data_not_found_msg">Данные не найдены</string>
   <string name="hs__network_error_msg">Ой! что-то пошло не так</string>
+  <string name="hs__sending_fail_msg">Не доставлено. Нажмите для повтора</string>
   <string name="hs__dm_video_loading">Загрузка видео...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Новое сообщение от поддержки</item>
@@ -68,6 +73,7 @@
   <string name="hs__notification_content_text">Заново:</string>
   <string name="hs__faqs_search_footer">Не найдено ни одного ответа.</string>
 
+  <string name="hs__review_request_message">Не хотели бы вы оставить отзыв о приложении?</string>
   <string name="hs__review_accepted_message">Принять запрос на оценку</string>
   <string name="hs__review_title">Оцените наше приложение</string>
   <string name="hs__review_message">

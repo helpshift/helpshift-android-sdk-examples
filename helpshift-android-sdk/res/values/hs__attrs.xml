@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <attr name="hs__actionBarTabTextStyle" format="reference"/>
-  <attr name="hs__selectableItemBackground" format="reference"/>
+  <declare-styleable name="Theme.Helpshift">
+    <attr name="hs__actionbarCompatTitleStyle" format="reference" />
+    <attr name="hs__actionbarCompatItemBaseStyle" format="reference" />
+    <attr name="hs__actionBarTabTextStyle" format="reference"/>
+    <attr name="hs__selectableItemBackground" format="reference"/>
+    <attr name="hs__actionbarCompatProgressIndicatorStyle" format="reference"/>
+  </declare-styleable>
 </resources>

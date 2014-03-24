@@ -1,9 +1,8 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:helpshift="http://schemas.android.com/apk/res-auto" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
   <item android:id="@+id/hs__action_search"
         android:title="@string/hs__search_title"
         android:icon="@drawable/hs__action_search"
-        helpshift:actionViewClass="android.support.v7.widget.SearchView"
+        android:actionViewClass="android.widget.SearchView"
         android:orderInCategory="0"
-        helpshift:showAsAction="always|collapseActionView" />
+        android:showAsAction="always|collapseActionView" />
 </menu>

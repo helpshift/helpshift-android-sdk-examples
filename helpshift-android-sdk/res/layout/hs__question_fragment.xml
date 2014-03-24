@@ -24,29 +24,100 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="gone"
-        android:gravity="center">
+        android:layout_gravity="bottom">
 
       <View
           android:background="@color/hs__light_horizontal_stub_bg"
           android:layout_width="fill_parent"
           android:layout_height="1dp"
-          android:alpha="0.5" />
+          android:alpha="0.5"/>
 
-      <TextView
-          android:text="@string/hs__question_unhelpful_message"
-          android:layout_width="wrap_content"
+      <RelativeLayout
+          android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:paddingTop="12dp"/>
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:background="@color/hs__question_footer_color"
+          android:splitMotionEvents="false">
 
-      <Button
-          android:text="@string/hs__contact_us_btn"
-          android:id="@+id/hs__contact_us_btn"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:drawableLeft="@drawable/hs__report_issue"
-          android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/hs__action_faq_helpful"
+            android:text="@string/hs__mark_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/hs__confirmationAcceptedTextColor"
+            android:layout_toLeftOf="@+id/hs__action_faq_unhelpful"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
+        <Button
+            android:id="@+id/hs__action_faq_unhelpful"
+            android:text="@string/hs__mark_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/hs__confirmationRejectedTextColor"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/hs__question"
+            android:text="@string/hs__mark_yes_no_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="8dp"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/hs__unhelpful_text"
+            android:text="@string/hs__question_unhelpful_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/hs__contact_us_btn"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/hs__contact_us_btn"
+            android:text="@string/hs__contact_us_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:text="@string/hs__question_helpful_message"
+            android:id="@+id/hs__helpful_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+      </RelativeLayout>
     </LinearLayout>
   </RelativeLayout>
 

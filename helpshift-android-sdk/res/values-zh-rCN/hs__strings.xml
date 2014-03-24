@@ -30,6 +30,10 @@
   <string name="hs__review_dialog_msg">
     你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！
   </string>
+  <string name="hs__mark_yes_no_question">这有帮助吗？</string>
+  <string name="hs__mark_yes">是</string>
+  <string name="hs__mark_no">否</string>
+  <string name="hs__question_helpful_message">你发现这有帮助。</string>
   <string name="hs__question_unhelpful_message">你发现这无帮助。</string>
   <string name="hs__network_unavailable_msg">网络不可用</string>
   <string name="hs__faq_helpful_msg">有帮助</string>
@@ -59,6 +63,7 @@
   <string name="hs__screenshot_upload_error_msg">屏幕截图上传错误</string>
   <string name="hs__data_not_found_msg">数据未找到</string>
   <string name="hs__network_error_msg">啊呀！出现错误了</string>
+  <string name="hs__sending_fail_msg">未送达。点按来重试</string>
   <string name="hs__dm_video_loading">正在载入视频…</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">新的消息支持</item>
@@ -67,6 +72,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">此部分未找到常见问题解答</string>
 
+  <string name="hs__review_request_message">您要评价本应用吗？</string>
   <string name="hs__review_accepted_message">已接受评价请求</string>
   <string name="hs__review_title">给应用评分</string>
   <string name="hs__review_message">

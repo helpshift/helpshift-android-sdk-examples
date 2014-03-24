@@ -31,6 +31,10 @@
     Könnten Sie sich bitte einen Augenblick Zeit nehmen und unsere App bewerten? Es wird nicht
     mehr als eine Minute dauern. Vielen Dank für Ihre Unterstützung!
   </string>
+  <string name="hs__mark_yes_no_question">War dies hilfreich?</string>
+  <string name="hs__mark_yes">JA</string>
+  <string name="hs__mark_no">NEIN</string>
+  <string name="hs__question_helpful_message">Sie fanden dies hilfreich.</string>
   <string name="hs__question_unhelpful_message">Sie fanden dies nicht hilfreich.</string>
   <string name="hs__network_unavailable_msg">Netzwerk nicht verfügbar.</string>
   <string name="hs__faq_helpful_msg">Hilfreich</string>
@@ -61,6 +65,7 @@
   <string name="hs__screenshot_upload_error_msg">Fehler beim Hochladen des Screenshots</string>
   <string name="hs__data_not_found_msg">Daten nicht gefunden</string>
   <string name="hs__network_error_msg">Huch! Da ist was schief gelaufen</string>
+  <string name="hs__sending_fail_msg">Nicht zugestellt. Tippen Sie, um es erneut zu versuchen</string>
   <string name="hs__dm_video_loading">Video wird geladen...</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Neue Nachricht aus dem Support</item>
@@ -69,6 +74,7 @@
   <string name="hs__notification_content_text">RE:</string>
   <string name="hs__faqs_search_footer">Keine FAQs gefunden.</string>
 
+  <string name="hs__review_request_message">Möchten Sie die App bewerten?</string>
   <string name="hs__review_accepted_message">Akzeptierte Bewertungsanfrage</string>
   <string name="hs__review_title">Bewerten Sie unsere App</string>
   <string name="hs__review_message">

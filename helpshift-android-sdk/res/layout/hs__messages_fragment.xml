@@ -110,6 +110,7 @@
         android:alpha="0.5" />
 
     <TextView
+        android:gravity="center"
         android:text="@string/hs__conversation_end_msg"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"

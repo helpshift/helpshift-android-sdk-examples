@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.Helpshift.Base"
-         parent="@style/Theme.AppCompat.Light.DarkActionBar">
+         parent="@style/Theme.Helpshift.Light.DarkActionBar">
   </style>
 
   <style name="Theme.Helpshift.Translucent"
