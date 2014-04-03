@@ -57,6 +57,9 @@
   <string name="hs__invalid_description_error">Description non valide</string>
   <string name="hs__screenshot_sent_msg">La capture d\'écran a été envoyée</string>
   <string name="hs__screenshot_limit_error">Taille d\'écran ne doit pas dépasser %.2f Mo</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Erreur de fixation d\'écran. S\'il vous plaît choisir une image disponible localement sur le périphérique.
+  </string>
   <string name="hs__privacy_policy">
     Vos informations ne serons nécessaires qu\'au moment de signaler votre premier
     problème. Pour plus de détails, référez-vous à notre politique %1$s de

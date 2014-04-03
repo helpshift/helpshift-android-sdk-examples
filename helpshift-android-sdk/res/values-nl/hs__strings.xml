@@ -55,6 +55,9 @@
   <string name="hs__invalid_description_error">Ongeldige omschrijving</string>
   <string name="hs__screenshot_sent_msg">Screenshot verzonden</string>
   <string name="hs__screenshot_limit_error">De schermprint mag niet groter dan %.2f MB zijn.</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Fout bevestigen screenshot. Kies een afbeelding die lokaal beschikbaar zijn op het apparaat.
+  </string>
   <string name="hs__privacy_policy">
     We zullen alleen om je gegevens vragen wanneer je je eerste issue rapporteert.
     Voor meer informatie raadpleeg ons %1$s privaybeleid %2$s.

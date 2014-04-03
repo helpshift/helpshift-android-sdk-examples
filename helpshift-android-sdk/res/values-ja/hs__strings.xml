@@ -54,6 +54,9 @@
   <string name="hs__invalid_email_error">有効なeメールアドレスを入力してください</string>
   <string name="hs__invalid_description_error">有効でない説明</string>
   <string name="hs__screenshot_limit_error">%.2f MB以上のサイズのスクリーンショットは使用できません</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    スクリーンショットを添付エラーが発生しました。デバイス上でローカルに利用可能な画像を選択してください。
+  </string>
   <string name="hs__privacy_policy">
     最初に質問をする時のみあなたに関する詳しい情報の提示をお願いすることになります。
     詳細については %1$s プライバシーポリシー %2$s を参照ください

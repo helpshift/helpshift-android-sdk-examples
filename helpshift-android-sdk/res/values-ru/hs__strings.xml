@@ -57,6 +57,9 @@
   <string name="hs__invalid_description_error">Неверное описание</string>
   <string name="hs__screenshot_sent_msg">Скриншот отправлен</string>
   <string name="hs__screenshot_limit_error">Размер картинки не должен превышать %.2f Мегабайта</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Ошибка присоединения скриншот. Пожалуйста, выберите изображение доступный локально на устройстве.
+  </string>
   <string name="hs__privacy_policy">
     Мы спросим о Вашей личной информации после того, как Вы сообщите нам свою проблему. Для более подробной информации прочтите нашу %1$s политику конфиденциальности %2$s
   </string>

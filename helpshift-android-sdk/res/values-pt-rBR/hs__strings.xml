@@ -57,6 +57,9 @@
   <string name="hs__invalid_description_error">Entrada inválida</string>
   <string name="hs__screenshot_sent_msg">Captura de tela enviada</string>
   <string name="hs__screenshot_limit_error">Capturas de tela tamanho não deve exceder %.2f MB</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Erro anexando screenshot. Por favor escolha uma imagem disponível localmente no dispositivo.
+  </string>
   <string name="hs__privacy_policy">
     Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
   </string>

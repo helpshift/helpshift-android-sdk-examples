@@ -55,6 +55,9 @@
   <string name="hs__invalid_description_error">무효한 설명</string>
   <string name="hs__screenshot_sent_msg">스크린샷 전송됨</string>
   <string name="hs__screenshot_limit_error">스크린샷 사이즈는 %.2f MB를 넘을 수 없습니다</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    스크린 샷을 첨부 오류가 발생했습니다. 장치에 로컬로 사용할 이미지를 선택하십시오.
+  </string>
   <string name="hs__privacy_policy">
     당신의 정보는 당신이 처음 문제를 신고할 때만 묻습니다. 더 자세한 내용은 저희 %1$s 개인정보보호정책 %2$s을 읽어주세요.
   </string>

@@ -56,6 +56,9 @@
   <string name="hs__invalid_description_error">无效输入</string>
   <string name="hs__screenshot_sent_msg">已发送屏幕截图</string>
   <string name="hs__screenshot_limit_error">截图的大小不应该超过%.2f MB</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    错误附加截图。请选择在设备上可用的图像在本地。
+  </string>
   <string name="hs__privacy_policy">
     我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s
   </string>

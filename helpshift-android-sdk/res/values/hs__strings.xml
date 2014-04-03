@@ -57,6 +57,9 @@
   <string name="hs__invalid_description_error">Invalid description</string>
   <string name="hs__screenshot_sent_msg">Screenshot sent</string>
   <string name="hs__screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Error attaching screenshot. Please choose an image available locally on the device.
+  </string>
   <string name="hs__privacy_policy">
     We will only ask for your details when you report your first
     issue. For more details read our %1$s privacy policy %2$s

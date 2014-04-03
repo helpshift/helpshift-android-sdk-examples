@@ -57,6 +57,9 @@
   <string name="hs__invalid_description_error">Descrizione non valido</string>
   <string name="hs__screenshot_sent_msg">Schermata inviata</string>
   <string name="hs__screenshot_limit_error">Dimensioni screenshot non deve superare i %.2f MB</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Errore allegando screenshot. Scegliere un immagine disponibile localmente sul dispositivo.
+  </string>
   <string name="hs__privacy_policy">
     Chiederemo i tuoi dati solo alla tua prima segnalazione di un problema. Per ulteriori
     informazioni leggi la nostra %1$s informativa sulla privacy %2$s

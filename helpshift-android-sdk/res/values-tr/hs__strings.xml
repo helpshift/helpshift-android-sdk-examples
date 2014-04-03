@@ -56,6 +56,9 @@
   <string name="hs__invalid_description_error">Geçersiz açıklama</string>
   <string name="hs__screenshot_sent_msg">Ekran görüntüsü gönderildi</string>
   <string name="hs__screenshot_limit_error">Ekran görüntüsü %.2f MB boyutunu aşmamalıdır</string>
+  <string name="hs__screenshot_cloud_attach_error">
+    Ekran bağlama hatası.Cihazda mevcut yerel bir resim seçiniz.
+  </string>
   <string name="hs__privacy_policy">
     Sizden yalnızca ilk sorununuzu bildirdiğinizde bilgilerinizi isteriz.
     Daha fazla bilgi için %1$s gizlilik politikamızı %2$s okuyun.
