@@ -21,6 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
+import com.helpshift.Helpshift;
 
 /**
  * This {@code WakefulBroadcastReceiver} takes care of creating and managing a
@@ -35,6 +36,9 @@ public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
+    if(intent.getExtras().getString("origin").equals("helpshift")) {
+      Helpshift.handlePush(context, intent);
+    }
     // Explicitly specify that GcmIntentService will handle the intent.
     ComponentName comp = new ComponentName(context.getPackageName(),
                                            GcmIntentService.class.getName());

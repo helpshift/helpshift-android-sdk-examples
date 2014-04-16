@@ -83,6 +83,8 @@ public class DemoActivity extends Activity {
 
       if (regid.isEmpty()) {
         registerInBackground();
+      } else {
+        Helpshift.registerDeviceToken(context, regid);
       }
     } else {
       Log.i(TAG, "No valid Google Play Services APK found.");
