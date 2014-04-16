@@ -33,6 +33,8 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import com.helpshift.Helpshift;
+
 /**
  * Main UI for the demo app.
  */
@@ -64,6 +66,10 @@ public class DemoActivity extends Activity {
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+
+    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
+    // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
+    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     setContentView(R.layout.main);
     mDisplay = (TextView) findViewById(R.id.display);
@@ -226,6 +232,8 @@ public class DemoActivity extends Activity {
       }.execute(null, null, null);
     } else if (view == findViewById(R.id.clear)) {
       mDisplay.setText("");
+    } else if (view == findViewById(R.id.help)) {
+      Helpshift.showFAQs(DemoActivity.this);
     }
   }
 
