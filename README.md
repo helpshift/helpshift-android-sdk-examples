@@ -1,11 +1,8 @@
 # Helpshift Android SDK Samples
 
-This repository contains a collection example projects for Helpshift Android SDK v3.2.1
+This repository contains a collection example projects for **Helpshift Android SDK v3.2.1**.
 
-**Version 3.2.0 onwards the SDK no longer has the v7 appcompat dependency and only needs the android-support-v4.jar added to the build path. For more information refer to the <a href="https://developers.helpshift.com/android/getting-started/" target="_blank">Getting Started Docs</a>**
-
-**Version 2.8.0 onwards the SDK implements the Action Bar UI and depends on the <a href="http://developer.android.com/tools/support-library/features.html#v7" target="_blank">v7 appcompat library</a>**
-
+(See samples for older verisons [here](#samples-for-older-releases))
 
 ## Requirements
 
@@ -20,7 +17,8 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 * **HSThemeApp**: app to demo theme inheritance over Helpshift SDK's UI
 * **GCMApp**: demonstrates Helpshift support notifications via Google Cloud Messaging
 * **UrbanAirshipApp**: demonstrates Helpshift support notifications via Urban Airship
-* **PGApp**: demo app to check SDK compatibility with Proguard active
+* **GcmClient**: app to demo use of Google Play Services. This is a port of [GCMClient project](https://code.google.com/p/gcm/) from Gradle to Ant build system.
+* **PGApp**: demo app to check SDK compatibility when Proguard is active
 
 **Note:** `/helpshift-android-sdk` and `/appcompat` are required for example projects to function correctly.
 
@@ -33,11 +31,16 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 ## Samples for Older Releases
 
 * [Release v3.2.0](../../tree/3.2.0)
+    **Version 3.2.0 onwards the SDK no longer has the v7 appcompat dependency and only needs the android-support-v4.jar added to the build path. For more information refer to the <a href="https://developers.helpshift.com/android/getting-started/" target="_blank">Getting Started Docs</a>**
 * [Release v3.1.1](../../tree/3.1.1)
 * [Release v3.1.0](../../tree/3.1.0)
 * [Release v3.0.1](../../tree/3.0.1)
 * [Release v3.0.0](../../tree/3.0.0)
 * [Release v2.8.2](../../tree/2.8.2)
+* [Release v2.8.1](../../tree/2.8.1)
+* [Release v2.8.0](../../tree/2.8.0)
+    **Version 2.8.0 onwards the SDK implements the Action Bar UI and depends on the <a href="http://developer.android.com/tools/support-library/features.html#v7" target="_blank">v7 appcompat library</a>**
+
 
 ## License
 
