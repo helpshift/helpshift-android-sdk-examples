@@ -26,7 +26,7 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 * Documentation: [https://developers.helpshift.com/android/getting-started/](https://developers.helpshift.com/ios/getting-started/)
 * API Reference: [https://www.helpshift.com/docs/api/android/v3.x/reference/com/helpshift/Helpshift.html](https://www.helpshift.com/docs/api/android/v3.x/reference/com/helpshift/Helpshift.html)
 * Release Notes: [https://developers.helpshift.com/android/release-notes/](https://developers.helpshift.com/android/release-notes/)
-* Release Notes: [https://developers.helpshift.com/android/upgrade-2x/](https://developers.helpshift.com/android/upgrade-2x/)
+* Upgrading from v2.x: [https://developers.helpshift.com/android/upgrade-2x/](https://developers.helpshift.com/android/upgrade-2x/)
 
 ## Samples for Older Releases
 
