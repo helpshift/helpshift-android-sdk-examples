@@ -40,7 +40,7 @@
   <string name="hs__faq_helpful_msg">Полезный</string>
   <string name="hs__faq_unhelpful_msg">Бесполезный</string>
   <string name="hs__confirmation_msg">Спасибо за обращение. Мы смогли Вам помочь?</string>
-  <string name="hs__conversation_end_msg">Вы завершили диалог.</string>
+  <string name="hs__conversation_end_msg">Разговор завершен.</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">Найти решение</string>
   <string name="hs__search_title">искать</string>

@@ -39,7 +39,7 @@
   <string name="hs__faq_helpful_msg">有帮助</string>
   <string name="hs__faq_unhelpful_msg">没有帮助</string>
   <string name="hs__confirmation_msg">感谢来信！我们回答了你的所有问题了吗?</string>
-  <string name="hs__conversation_end_msg">你已结束了上面的会话。</string>
+  <string name="hs__conversation_end_msg">此会话已结束。</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">描述你的问题</string>
   <string name="hs__search_title">搜索</string>
