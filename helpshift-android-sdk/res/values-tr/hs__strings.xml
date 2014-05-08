@@ -40,7 +40,7 @@
   <string name="hs__faq_helpful_msg">Faydalı</string>
   <string name="hs__faq_unhelpful_msg">Faydalı değil</string>
   <string name="hs__confirmation_msg">Mesaj gönderdiğiniz için teşekkür ederiz! Tüm sorularınız cevaplandı mı?</string>
-  <string name="hs__conversation_end_msg">Yukarıdaki sohbeti sonlandırdınız.</string>
+  <string name="hs__conversation_end_msg">Bu konuşma sona erdi.</string>
   <string name="hs__search_hint">Sorununuzu açıklayın</string>
   <string name="hs__search_title">Aramak</string>
   <string name="hs__new_conversation_hint">Bize ne danışmak istiyorsunuz?</string>

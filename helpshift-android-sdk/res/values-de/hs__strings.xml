@@ -40,7 +40,7 @@
   <string name="hs__faq_helpful_msg">Hilfreich</string>
   <string name="hs__faq_unhelpful_msg">Nicht Hilfreich</string>
   <string name="hs__confirmation_msg">Danke für Ihre Nachricht! Konnten wir all Ihre Fragen beantworten?</string>
-  <string name="hs__conversation_end_msg">Sie haben die obige Unterhaltung beendet.</string>
+  <string name="hs__conversation_end_msg">Dieses Gespräch ist beendet.</string>
   <!-- <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string> -->
   <string name="hs__search_hint">Beschreiben Sie Ihr Problem</string>
   <string name="hs__search_title">Suchen</string>

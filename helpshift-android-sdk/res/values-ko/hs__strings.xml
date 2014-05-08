@@ -39,7 +39,7 @@
   <string name="hs__faq_helpful_msg">도움이 됨</string>
   <string name="hs__faq_unhelpful_msg">도움이 되지 않음</string>
   <string name="hs__confirmation_msg">메시지를 보내주셔서 감사합니다! 모든 질문에 답이 되었습니까?</string>
-  <string name="hs__conversation_end_msg">위의 대화를 종료하셨습니다.</string>
+  <string name="hs__conversation_end_msg">이 대화는 종료되었습니다.</string>
   <string name="hs__search_hint">문제를 설명해주세요</string>
   <string name="hs__search_title">수색</string>
   <string name="hs__new_conversation_hint">무슨 생각을 하고 계세요?</string>
