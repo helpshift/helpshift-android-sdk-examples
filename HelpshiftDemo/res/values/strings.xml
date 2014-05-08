@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HelpshiftDemoActivity</string>
+    <string name="app_name">Helpshift Demo</string>
+    <string name="help_api">This is a typical Help button in your app. It uses the
+    Helpshift.showFAQs API to demonstrate integration of FAQs.</string>
+    <string name="contact_us_api">This demonstrates use of Helpshift.showConversation API to
+    start a conversation with your customers. This is a typical contact/feedback
+    button in your app.</string>
+    <string name="section_api">This uses Helpshift.showFAQSection API to present a single FAQ
+    section. To run this, replace SECTION_PUBLISH_ID with a valid publish-id from
+    your agent dashboard, in HelpshiftDemoActivity.java</string>
+    <string name="question_api">This uses Helpshift.showSingleFAQ API to present a single FAQ.
+    To run this, replace QUESTION_PUBLISH_ID with a valid publish-id from
+    your agent dashboard, in HelpshiftDemoActivity.java</string>
 </resources>

@@ -1,27 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              >
-  <Button
-      android:id="@+id/helpButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Help"/>
-  <Button
-      android:id="@+id/reportIssueButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Contact Us"/>
-  <Button
-      android:id="@+id/faqSectionButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Single FAQ Section"/>
-  <Button
-      android:id="@+id/singleFaqButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Single FAQ"/>
-</LinearLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/help_api"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/contact_us_api"/>
+
+   <Button
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/reportIssueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/section_api"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/faqSectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ Section"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/question_api"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/singleFaqButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"/>
+
+  </LinearLayout>
+</ScrollView>
