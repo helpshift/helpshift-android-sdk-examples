@@ -20,3 +20,7 @@ local.properties
 .project
 target/
 .DS_STORE
+
+# Gradle
+.gradle
+build/

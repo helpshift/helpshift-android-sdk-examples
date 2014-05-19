@@ -14,6 +14,7 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 
 * **[HelpshiftDemo](HelpshiftDemo)**: demonstrates different support screens in your app
 * **[HelpshiftDemoMaven](HelpshiftDemoMaven)**: HelpshiftDemo project using maven instead of Ant
+* **[HelpshiftDemoGradle](HelpshiftDemoGradle)**: HelpshiftDemo project using Gradle instead of Ant
 * **[HSThemeApp](HSThemeApp)**: app to demo theme inheritance on Helpshift SDK's UI
 * **[GCMApp](GCMApp)**: demonstrates Helpshift support notifications via Google Cloud Messaging
 * **[UrbanAirshipApp](UrbanAirshipApp)**: demonstrates Helpshift support notifications via Urban Airship
