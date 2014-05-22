@@ -1,6 +1,6 @@
 # Helpshift Android SDK Samples
 
-This repository contains a collection of example projects for **Helpshift Android SDK v3.3.0**.
+This repository contains a collection of example projects for **Helpshift Android SDK v3.3.1**.
 
 (See samples for older versions [here](#samples-for-older-releases))
 
