@@ -86,4 +86,11 @@
   <string name="hs__rate_button">Calificar</string>
   <string name="hs__feedback_button">Enviar comentarios</string>
   <string name="hs__review_close_button">Cerrar</string>
+  <string name="hs__attach_screenshot_btn">Adjuntar captura de pantalla</string>
+
+  <string name="hs__faqs_updating">Actualizando FAQ</string>
+  <string name="hs__faqs_uptodate">FAQ actualizadas</string>
+  <string name="hs__faqs_updation_failure">Error al actualizar Preguntas frecuentes</string>
+
+
 </resources>

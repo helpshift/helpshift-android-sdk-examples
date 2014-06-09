@@ -1,16 +1,24 @@
-Helpshift SDK 3.3.1 Release Notes (for Android)
+Helpshift SDK 3.4.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
 Helpshift SDK for Android is required for having Helpshift support running on native apps.
 
 Requirements:
-App must be running on any version between android-8 to android-17 (Android 2.2 to 4.2).
+App must be running on any version between android-8 to android-19 (Android 2.2 to 4.4.3).
 
 Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.4.0 Release Date: June 09, 2014
+      * Optimized FAQ updates. Changes to FAQs in the admin are now updated and shown as soon as the SDK is opened.
+      * Users can now directly attach screenshots while submitting new conversation or during an ongoing conversation.
+      * New options for "enableContactUs" flag for ticket avoidance: ALWAYS, AFTER_VIEWING_FAQS and NEVER
+      * "setNameAndEmail" API can now clear name and email if null is passed for both.
+      * Automatic app rating reminder is now available alongside the manual app rating API.
+      * Bug fixes
+      * UI fixes
 3.3.1 Release Date: May 22, 2014
       * Refactor internationalized search code.
 3.3.0 Release Date: May 07, 2014

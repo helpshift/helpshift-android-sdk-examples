@@ -85,4 +85,11 @@
   <string name="hs__rate_button">Оценить</string>
   <string name="hs__feedback_button">Отправить отзыв</string>
   <string name="hs__review_close_button">Закрыть</string>
+  <string name="hs__attach_screenshot_btn">Прикрепите Скриншот</string>
+
+  <string name="hs__faqs_updating">Обновление ЧаВо</string>
+  <string name="hs__faqs_uptodate">ЧаВо обновлены</string>
+  <string name="hs__faqs_updation_failure">Не удалось обновить ЧАВО</string>
+
+
 </resources>

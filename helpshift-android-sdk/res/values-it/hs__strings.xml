@@ -86,4 +86,11 @@
   <string name="hs__rate_button">Valuta</string>
   <string name="hs__feedback_button">Invia Feedback</string>
   <string name="hs__review_close_button">Chiudi</string>
+  <string name="hs__attach_screenshot_btn">Allega Screenshot</string>
+
+  <string name="hs__faqs_updating">Aggiornamento FAQ</string>
+  <string name="hs__faqs_uptodate">FAQ aggiornate</string>
+  <string name="hs__faqs_updation_failure">Aggiornamento FAQ non riuscito</string>
+
+
 </resources>

@@ -83,4 +83,11 @@
   <string name="hs__rate_button">評価</string>
   <string name="hs__feedback_button">フィードバック送信</string>
   <string name="hs__review_close_button">終了</string>
+  <string name="hs__attach_screenshot_btn">スクリーンショットに添付し</string>
+
+  <string name="hs__faqs_updating">よくある質問を更新しています</string>
+  <string name="hs__faqs_uptodate">よくある質問が更新されました</string>
+  <string name="hs__faqs_updation_failure">「よくある質問」をアップデートできませんでした</string>
+
+
 </resources>

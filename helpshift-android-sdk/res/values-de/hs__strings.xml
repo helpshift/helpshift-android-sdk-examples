@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <!-- Helpshift English strings -->
+  <!-- Helpshift German strings -->
   <string name="hs__help_header">Hilfe</string>
   <string name="hs__question_header">Frage</string>
   <string name="hs__conversation_header">Unterhaltung</string>
@@ -86,4 +86,10 @@
   <string name="hs__rate_button">Bewerten</string>
   <string name="hs__feedback_button">Feedback senden</string>
   <string name="hs__review_close_button">Schließen</string>
+  <string name="hs__attach_screenshot_btn">Befestigen Screenshot</string>
+
+  <string name="hs__faqs_updating">FAQs werden aktualisiert</string>
+  <string name="hs__faqs_uptodate">FAQs aktualisiert</string>
+  <string name="hs__faqs_updation_failure">Die FAQs konnten nicht aktualisiert werden</string>
+
 </resources>
