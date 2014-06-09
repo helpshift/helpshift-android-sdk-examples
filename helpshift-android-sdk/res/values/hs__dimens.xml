@@ -14,6 +14,8 @@
   <dimen name="hs__msgActionButtonPadding">8dp</dimen>
 
   <dimen name="hs__textSizeSmall">10sp</dimen>
+  <dimen name="hs__faqs_sync_status_height">18sp</dimen>
+
   <dimen name="hs__listPreferredItemHeightSmall">48dp</dimen>
 
   <dimen name="hs__content_wrapper_top_padding">30dp</dimen>

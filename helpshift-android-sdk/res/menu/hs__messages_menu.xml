@@ -3,8 +3,4 @@
         android:icon="@drawable/hs__attach_screenshot"
         android:title="@string/hs__attach_screenshot_btn"
         android:showAsAction="always"/>
-  <item android:id="@+id/hs__action_add_conversation"
-        android:icon="@drawable/hs__send"
-        android:title="@string/hs__submit_conversation_btn"
-        android:showAsAction="always"/>
 </menu>

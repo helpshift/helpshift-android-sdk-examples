@@ -1,51 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:helpshift="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:padding="@dimen/hs__content_wrapper_padding" >
 
-  <RelativeLayout
+  <EditText
+      android:id="@+id/hs__conversationDetail"
+      android:hint="@string/hs__new_conversation_hint"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:lines="@integer/hs__conversation_detail_lines"
+      android:layout_toLeftOf="@+id/hs__screenshot"
+      android:layout_alignParentTop="true"
+      android:gravity="top"
+      />
+
+  <ImageView
+      android:id="@+id/hs__screenshot"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_alignParentBottom="true"
-      android:layout_alignParentLeft="true"
+      android:scaleType="centerCrop"
+      android:background="@color/hs__light_horizontal_stub_bg"
+      android:padding="1dp"
+      android:cropToPadding="true"
       android:layout_alignParentTop="true"
-      android:padding="@dimen/hs__content_wrapper_padding" >
+      android:layout_toLeftOf="@android:id/button2"
+      android:visibility="gone"
+      android:layout_marginLeft="@dimen/hs__content_wrapper_padding"
+      />
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+  <ImageButton
+      android:text="@string/hs__change_btn"
+      android:id="@android:id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/hs__light_horizontal_stub_bg"
+      android:src="@drawable/hs__screenshot_clear"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:visibility="gone"
+      />
 
-      <EditText
-          android:id="@+id/hs__conversationDetail"
-          android:hint="@string/hs__new_conversation_hint"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:ems="10"
-          android:lines="@integer/hs__conversation_detail_lines"
-          android:gravity="top"
-          />
+  <EditText
+      android:id="@+id/hs__username"
+      android:hint="@string/hs__username_hint"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_below="@id/hs__conversationDetail"
+      />
 
-      <EditText
-          android:id="@+id/hs__username"
-          android:hint="@string/hs__username_hint"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:ems="10"
-          />
-
-      <EditText
-          android:id="@+id/hs__email"
-          android:hint="@string/hs__email_hint"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:ems="10"
-          android:inputType="textEmailAddress"
-          />
-
-    </LinearLayout>
-  </RelativeLayout>
+  <EditText
+      android:id="@+id/hs__email"
+      android:hint="@string/hs__email_hint"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textEmailAddress"
+      android:layout_below="@+id/hs__username"
+      />
 </RelativeLayout>

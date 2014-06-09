@@ -34,7 +34,6 @@
               android:theme="@style/Theme.Helpshift" />
     <activity android:name="com.helpshift.HSReview"
               android:configChanges="orientation|screenSize"
-              android:launchMode= "singleTask"
               android:theme="@style/Theme.Helpshift.Translucent" />
     <service
         android:name="com.helpshift.HSService"

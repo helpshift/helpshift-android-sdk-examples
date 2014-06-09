@@ -86,4 +86,10 @@
   <string name="hs__rate_button">Rate</string>
   <string name="hs__feedback_button">Send Feedback</string>
   <string name="hs__review_close_button">Close</string>
+  <string name="hs__attach_screenshot_btn">Attach Screenshot</string>
+
+  <string name="hs__faqs_updating">Updating FAQs...</string>
+  <string name="hs__faqs_uptodate">FAQs up-to-date</string>
+  <string name="hs__faqs_updation_failure">Failed to update FAQs</string>
+
 </resources>

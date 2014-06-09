@@ -87,4 +87,10 @@
   <string name="hs__rate_button">Donner une note</string>
   <string name="hs__feedback_button">Envoyer un commentaire</string>
   <string name="hs__review_close_button">Fermez</string>
+  <string name="hs__attach_screenshot_btn">Fixez une capture d\'écran</string>
+
+  <string name="hs__faqs_updating">Mise à jour de la FAQ</string>
+  <string name="hs__faqs_uptodate">FAQ à jour</string>
+  <string name="hs__faqs_updation_failure">Échec de la mise à jour de la FAQ</string>
+
 </resources>

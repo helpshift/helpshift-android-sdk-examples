@@ -85,4 +85,11 @@
   <string name="hs__rate_button">Avaliar</string>
   <string name="hs__feedback_button">Enviar Comentário</string>
   <string name="hs__review_close_button">Fec har</string>
+  <string name="hs__attach_screenshot_btn">Anexar tela capturada</string>
+
+  <string name="hs__faqs_updating">Atualizando Perguntas Frequentes</string>
+  <string name="hs__faqs_uptodate">Perguntas Frequentes atualizadas</string>
+  <string name="hs__faqs_updation_failure">Erro ao atualizar as FAQ</string>
+
+
 </resources>

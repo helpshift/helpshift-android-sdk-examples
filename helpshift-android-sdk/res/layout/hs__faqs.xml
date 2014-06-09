@@ -6,9 +6,46 @@
                 android:focusable="true"
                 android:focusableInTouchMode="true" >
 
+  <RelativeLayout android:id="@+id/hs__faqs_fragment_sync_status"
+                  android:layout_alignParentTop="true"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/hs__msgPreferredItemPaddingRight"
+                  android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
+                  android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+                  android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/hs__faqs_fragment_sync_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_centerVertical="true"
+        />
+
+    <ProgressBar
+        android:id="@+id/hs__faqs_fragment_sync_status_spinner"
+        android:layout_alignParentRight="true"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/hs__faqs_fragment_sync_status_icon"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hs__faqs_sync_status_height"
+        android:visibility="gone"
+        android:src="@drawable/hs__faqs_updated"/>
+
+  </RelativeLayout>
+
   <fragment android:name="com.helpshift.HSFaqsFragment"
             android:id="@+id/hs__faqs_fragment"
             android:layout_above="@+id/hs__helpshiftActivityFooter"
+            android:layout_below="@+id/hs__faqs_fragment_sync_status"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 

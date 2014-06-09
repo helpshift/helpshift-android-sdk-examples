@@ -85,4 +85,10 @@
   <string name="hs__rate_button">Puan Ver</string>
   <string name="hs__feedback_button">Geri Bildirim Gönder</string>
   <string name="hs__review_close_button">Kapat</string>
+  <string name="hs__attach_screenshot_btn">görüntüsü iliştirmek</string>
+
+  <string name="hs__faqs_updating">SSS güncelleniyor</string>
+  <string name="hs__faqs_uptodate">SSS güncellendi</string>
+  <string name="hs__faqs_updation_failure">SSS\'ler güncellenmedi</string>
+
 </resources>
