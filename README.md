@@ -31,7 +31,7 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 
 ## Samples for Older Releases
 
-* [Release v3.3.1](../../tree/3.4.0)
+* [Release v3.4.0](../../tree/3.4.0)
 * [Release v3.3.1](../../tree/3.3.1)
 * [Release v3.3.0](../../tree/3.3.0)
 * [Release v3.2.1](../../tree/3.2.1)
