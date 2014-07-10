@@ -1,6 +1,6 @@
 # Helpshift Android SDK Samples
 
-This repository contains a collection of example projects for **Helpshift Android SDK v3.4.1**.
+This repository contains a collection of example projects for **Helpshift Android SDK v3.4.2**.
 
 (See samples for older versions [here](#samples-for-older-releases))
 
@@ -31,6 +31,7 @@ Each one of the sub-directories apart from `appcompat` and `helpshift-android-sd
 
 ## Samples for Older Releases
 
+* [Release v3.4.1](../../tree/3.4.1)
 * [Release v3.4.0](../../tree/3.4.0)
 * [Release v3.3.1](../../tree/3.3.1)
 * [Release v3.3.0](../../tree/3.3.0)

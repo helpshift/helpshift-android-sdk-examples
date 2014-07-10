@@ -67,6 +67,7 @@
   <string name="hs__network_error_msg">おっと! 何か問題が起きたようです。</string>
   <string name="hs__sending_fail_msg">メッセージが届きませんでした。タップすると再送信します。</string>
   <string name="hs__dm_video_loading">動画のロード中...</string>
+  <string name="hs__default_notification_content_title">応援</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">サポートからの新規メッセージ</item>
     <item quantity="other">%d サポートからの新規メッセージ</item>

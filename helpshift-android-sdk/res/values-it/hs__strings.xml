@@ -70,6 +70,7 @@
   <string name="hs__network_error_msg">Ops! Si è verificato un errore</string>
   <string name="hs__sending_fail_msg">Recapito non avvenuto. Tocca per riprovare</string>
   <string name="hs__dm_video_loading">Caricamento video in corso...</string>
+  <string name="hs__default_notification_content_title">Aiutare</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nuovo messaggio da supporto</item>
     <item quantity="other">%d nuovi messaggi dal supporto</item>

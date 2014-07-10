@@ -71,6 +71,7 @@
   <string name="hs__network_error_msg">Oups ! Une erreur s\'est produite</string>
   <string name="hs__sending_fail_msg">Pas envoyé. Touchez pour réessayer</string>
   <string name="hs__dm_video_loading">Chargement de la vidéo ...</string>
+  <string name="hs__default_notification_content_title">Aider</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nouveau message de soutien</item>
     <item quantity="other">%d nouveaux messages de soutien</item>

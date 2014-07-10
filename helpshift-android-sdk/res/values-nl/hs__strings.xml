@@ -68,6 +68,7 @@
   <string name="hs__network_error_msg">Oeps! Er ging iets mis...</string>
   <string name="hs__sending_fail_msg">Niet aangekomen. Tik op het scherm om het nogmaals te proberen.</string>
   <string name="hs__dm_video_loading">Video laden...</string>
+  <string name="hs__default_notification_content_title">Steunen</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nieuw bericht van Support</item>
     <item quantity="other">%d nieuwe berichten van Support</item>

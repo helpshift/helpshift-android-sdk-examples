@@ -69,6 +69,7 @@
   <string name="hs__network_error_msg">Ой! что-то пошло не так</string>
   <string name="hs__sending_fail_msg">Не доставлено. Нажмите для повтора</string>
   <string name="hs__dm_video_loading">Загрузка видео...</string>
+  <string name="hs__default_notification_content_title">помогать</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Новое сообщение от поддержки</item>
     <item quantity="other">%d новых сообщений от поддержки</item>

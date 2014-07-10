@@ -70,6 +70,7 @@
   <string name="hs__network_error_msg">¡Ups! Algo ha fallado</string>
   <string name="hs__sending_fail_msg">No se ha enviado. Pulsar para volver a intentar</string>
   <string name="hs__dm_video_loading">Cargando video...</string>
+  <string name="hs__default_notification_content_title">Ayudar</string>
   <plurals name="hs__notification_content_title">
     <item quantity="one">Nuevo mensaje de apoyo</item>
     <item quantity="other">%d nuevos mensajes de apoyo</item>
