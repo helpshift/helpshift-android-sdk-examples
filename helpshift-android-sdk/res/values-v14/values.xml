@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-v14/hs__themes.xml -->
+    <eat-comment />
+
+    <style name="Theme.Helpshift" parent="@style/Theme.Helpshift.Base">
+        <item name="hs__actionBarTabTextStyle">?android:attr/actionBarTabTextStyle</item>
+        <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Theme.Helpshift.Light.DarkActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar"></style>
+
+</resources>

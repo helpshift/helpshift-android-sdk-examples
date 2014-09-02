@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-pt-rBR/hs__strings.xml -->
+    <eat-comment />
+
+    <plurals name="hs__notification_content_title">
+        <item quantity="one">Nova mensagem de apoio</item>
+        <item quantity="other">%d novas mensagens de apoio</item>
+    </plurals>
+
+    <string name="hs__attach_btn">OK, anexar</string>
+    <string name="hs__attach_screenshot_btn">Anexar tela capturada</string>
+    <string name="hs__ca_msg">Estamos felizes em ajudar</string>
+    <string name="hs__change_btn">Mudar</string>
+    <string name="hs__chat_hint">Digite sua mensagem</string>
+    <string name="hs__confirmation_footer_msg">Obrigado por nos contactar!</string>
+    <string name="hs__confirmation_msg">Respondemos a todas as suas questões?</string>
+    <string name="hs__contact_us_btn">CONTATE-NOS</string>
+    <string name="hs__conversation_detail_error">Por favor, descreva seu problema</string>
+    <string name="hs__conversation_end_msg">Esta conversa terminou.</string>
+    <string name="hs__conversation_header">Conversa</string>
+    <string name="hs__conversation_started_message">    Sua mensagem foi recebida. Obrigado por contatar-nos!</string>
+    <string name="hs__cr_msg">Em que mais o poderemos ajudar?</string>
+    <string name="hs__csat_additonal_feedback_message">Mais algum comentário? (opcional)</string>
+    <string name="hs__csat_dislike_message">Detestei</string>
+    <string name="hs__csat_like_message">Adorei</string>
+    <string name="hs__csat_message">Qual é a sua opinião sobre o nosso serviço de apoio ao cliente?</string>
+    <string name="hs__csat_option_message">Ou</string>
+    <string name="hs__csat_submit_toast">Obrigado por nos avaliar</string>
+    <string name="hs__data_not_found_msg">Dados não encontrados</string>
+    <string name="hs__default_notification_content_title">Ajudar</string>
+    <string name="hs__dm_video_loading">Carregando vídeo...</string>
+    <string name="hs__done_btn">Concluído</string>
+    <string name="hs__email_hint">E-mail (opcional)</string>
+    <string name="hs__email_required_hint">E-mail</string>
+    <string name="hs__empty_section">Desculpe! Não há perguntas disponíveis nesta seção</string>
+    <string name="hs__faq_header">Perguntas Frequentes</string>
+    <string name="hs__faq_helpful_msg">Útil</string>
+    <string name="hs__faq_unhelpful_msg">Não foi útil</string>
+    <string name="hs__faqs_search_footer">Nenhuma Pergunta Frequente encontrada nesta seção</string>
+    <string name="hs__faqs_updating">Atualizando Perguntas Frequentes</string>
+    <string name="hs__faqs_updation_failure">Erro ao atualizar as FAQ</string>
+    <string name="hs__faqs_uptodate">Perguntas Frequentes atualizadas</string>
+    <string name="hs__feedback_button">Enviar Comentário</string>
+    <string name="hs__help_header">Ajuda</string>
+    <string name="hs__invalid_description_error">Entrada inválida</string>
+    <string name="hs__invalid_email_error">Por favor, forneça um endereço de e-mail válido.</string>
+    <string name="hs__mark_helpful_toast">Questão foi marcada como útil</string>
+    <string name="hs__mark_no">NÃO</string>
+    <string name="hs__mark_unhelpful_toast">Questão foi marcada como Não foi útil</string>
+    <string name="hs__mark_yes">SIM</string>
+    <string name="hs__mark_yes_no_question">Isto foi útil?</string>
+    <string name="hs__network_error_msg">Ocorreu um problema</string>
+    <string name="hs__network_unavailable_msg">Rede não disponível.</string>
+    <string name="hs__new_conversation_btn">INICIAR UMA NOVA CONVERSA</string>
+    <string name="hs__new_conversation_header">Nova Conversa</string>
+    <string name="hs__new_conversation_hint">No que você está pensando?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s</string>
+    <string name="hs__question_header">Pergunta</string>
+    <string name="hs__question_helpful_message">Você achou isto útil.</string>
+    <string name="hs__question_unhelpful_message">Você não achou isto útil.</string>
+    <string name="hs__rate_button">Avaliar</string>
+    <string name="hs__review_accepted_message">Aceitou pedido de revisão</string>
+    <string name="hs__review_btn">OK, rever</string>
+    <string name="hs__review_close_button">Fec har</string>
+    <string name="hs__review_dialog_msg">    Você se importaria em dedicar um instante para avaliar o nosso app? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!
+    for your support!</string>
+    <string name="hs__review_dialog_negative_btn">Nunca me pergunte novamente</string>
+    <string name="hs__review_dialog_neutral_btn">Lembrar-me mais tarde</string>
+    <string name="hs__review_dialog_positive_btn">Avaliar e Comentar</string>
+    <string name="hs__review_message">    Se você adora nosso app, por favor, disponibilize um momento para avaliá-lo na App Store</string>
+    <string name="hs__review_request_message">Gostaria de rever a aplicação?</string>
+    <string name="hs__review_title">Avalie nosso App</string>
+    <string name="hs__rsc_progress_msg">Enviando captura de tela.</string>
+    <string name="hs__screenshot_add">Juntar</string>
+    <string name="hs__screenshot_cloud_attach_error">    Erro anexando screenshot. Por favor escolha uma imagem disponível localmente no dispositivo.</string>
+    <string name="hs__screenshot_limit_error">Capturas de tela tamanho não deve exceder %.2f MB</string>
+    <string name="hs__screenshot_remove">Retirar</string>
+    <string name="hs__screenshot_sent_msg">Captura de tela enviada</string>
+    <string name="hs__screenshot_upload_error_msg">Erro ao carregar a captura de tela</string>
+    <string name="hs__search_footer">Não consegue encontrar o que estava procurando?</string>
+    <string name="hs__search_hint">Descreva o seu problema</string>
+    <string name="hs__search_title">Procurar</string>
+    <string name="hs__send_msg_btn">Enviar</string>
+    <string name="hs__sending_fail_msg">Não foi entregue. Toque para regressar atrás</string>
+    <string name="hs__sending_msg">Enviando...</string>
+    <string name="hs__solved_btn">Sim, resolvido!</string>
+    <string name="hs__submit_conversation_btn">Enviar</string>
+    <string name="hs__unsolved_btn">Não, não resolvido</string>
+    <string name="hs__username_blank_error">Por favor insira um nome válido</string>
+    <string name="hs__username_hint">Nome</string>
+
+</resources>

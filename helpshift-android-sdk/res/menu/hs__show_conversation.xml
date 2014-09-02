@@ -5,3 +5,4 @@
         android:showAsAction="always"
         android:actionLayout="@layout/hs__badge_layout"/>
 </menu>
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/menu/hs__show_conversation.xml -->

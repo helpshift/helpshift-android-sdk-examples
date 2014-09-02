@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__colors.xml -->
+    <eat-comment />
+
+    <color name="hs__actionBarBackgroundColor">#222222</color>
+    <color name="hs__actionBarStackedColor">#000000</color>
+    <color name="hs__actionBarTabIndicatorColor">#33b5e5</color>
+    <color name="hs__actionBarTextColorPrimary">#F3F3F3</color>
+    <color name="hs__actionBarTextColorSecondary">#000000</color>
+    <color name="hs__confirmationAcceptedTextColor">#669900</color>
+    <color name="hs__confirmationRejectedTextColor">#cc0000</color>
+    <color name="hs__light_horizontal_stub_bg">#B1B1B1</color>
+    <color name="hs__messages_text_color">#000000</color>
+    <color name="hs__msg_user_chat_bubble_separator">#0099cc</color>
+    <color name="hs__notificationIconColor">#FF4444</color>
+    <color name="hs__question_footer_color">#D6D6DB</color>
+    <color name="hs__send_reply_icon_color">#0099CC</color>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Theme.Helpshift">
+        <attr name="hs__actionbarCompatTitleStyle" format="reference" />
+        <attr name="hs__actionbarCompatItemBaseStyle" format="reference" />
+        <attr name="hs__actionBarTabTextStyle" format="reference" />
+        <attr name="hs__selectableItemBackground" format="reference" />
+        <attr name="hs__actionbarCompatProgressIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__dimens.xml -->
+    <eat-comment />
+
+    <dimen name="hs__actionbar_compat_button_home_width">56dp</dimen>
+    <dimen name="hs__actionbar_compat_button_width">48dp</dimen>
+    <dimen name="hs__actionbar_compat_height">48dp</dimen>
+    <dimen name="hs__actionbar_compat_icon_vertical_padding">8dip</dimen>
+    <dimen name="hs__button_padding_right">17dp</dimen>
+    <dimen name="hs__content_wrapper_padding">10dp</dimen>
+    <dimen name="hs__content_wrapper_top_padding">30dp</dimen>
+    <dimen name="hs__faqs_sync_status_height">18sp</dimen>
+    <dimen name="hs__listPreferredItemHeightSmall">48dp</dimen>
+    <dimen name="hs__listPreferredItemPaddingBottom">12dp</dimen>
+    <dimen name="hs__listPreferredItemPaddingLeft">6dip</dimen>
+    <dimen name="hs__listPreferredItemPaddingRight">6dip</dimen>
+    <dimen name="hs__listPreferredItemPaddingTop">12dp</dimen>
+    <dimen name="hs__marginLeft">8dp</dimen>
+    <dimen name="hs__msgActionButtonPadding">8dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingBottom">11dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingLeft">12dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingRight">12dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingTop">10dp</dimen>
+
+    <item name="hs__msg_timestamp_alpha" format="float" type="dimen">0.5</item>
+
+    <dimen name="hs__msg_timestamp_padding">13dp</dimen>
+    <dimen name="hs__question_text_padding">10dp</dimen>
+    <dimen name="hs__textSizeSmall">10sp</dimen>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__ids.xml -->
+    <eat-comment />
+
+    <item name="hs__actionbar_compat_item_refresh_progress" type="id"/>
+    <item name="hs__actionbar_compat_title" type="id"/>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__integers.xml -->
+    <eat-comment />
+
+    <integer name="hs__chat_max_lines">3</integer>
+    <integer name="hs__conversation_detail_lines">5</integer>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__strings.xml -->
+    <eat-comment />
+
+    <plurals name="hs__notification_content_title">
+        <item quantity="one">New message from Support</item>
+        <item quantity="other">%d new messages from Support</item>
+    </plurals>
+
+    <string name="hs__attach_btn">Ok, attach</string>
+    <string name="hs__attach_screenshot_btn">Attach Screenshot</string>
+    <string name="hs__ca_msg">We\'re happy to help you!</string>
+    <string name="hs__change_btn">Change</string>
+    <string name="hs__chat_hint">Type your message</string>
+    <string name="hs__confirmation_footer_msg">Thanks for messaging us!</string>
+    <string name="hs__confirmation_msg">Did we answer all your questions?</string>
+    <string name="hs__contact_us_btn">CONTACT US</string>
+    <string name="hs__conversation_detail_error">Please describe your problem</string>
+    <string name="hs__conversation_end_msg">This conversation has ended.</string>
+    <string name="hs__conversation_header">Conversation</string>
+    <string name="hs__conversation_started_message">    Your message has been received. Thanks for contacting us!</string>
+    <string name="hs__cr_msg">What else can we help you with?</string>
+    <string name="hs__csat_additonal_feedback_message">Any other feedback (optional)</string>
+    <string name="hs__csat_dislike_message">Hated It!</string>
+    <string name="hs__csat_like_message">Loved It!</string>
+    <string name="hs__csat_message">What\'s your feedback about our customer support?</string>
+    <string name="hs__csat_option_message">or</string>
+    <string name="hs__csat_submit_toast">Thanks for rating us.</string>
+    <string name="hs__data_not_found_msg">Data not found</string>
+    <string name="hs__default_notification_content_title">Support</string>
+    <string name="hs__dm_video_loading">Loading Video...</string>
+    <string name="hs__done_btn">Done</string>
+    <string name="hs__email_hint">Email (optional)</string>
+    <string name="hs__email_required_hint">Email</string>
+    <string name="hs__empty_section">Sorry! No questions available in this section.</string>
+    <string name="hs__faq_header">FAQ</string>
+    <string name="hs__faq_helpful_msg">Helpful</string>
+    <string name="hs__faq_unhelpful_msg">Not Helpful</string>
+    <string name="hs__faqs_search_footer">No FAQs found.</string>
+    <string name="hs__faqs_updating">Updating FAQs...</string>
+    <string name="hs__faqs_updation_failure">Failed to update FAQs</string>
+    <string name="hs__faqs_uptodate">FAQs up-to-date</string>
+    <string name="hs__feedback_button">Send Feedback</string>
+    <string name="hs__help_header">Help</string>
+    <string name="hs__invalid_description_error">Invalid description</string>
+    <string name="hs__invalid_email_error">Please enter a valid email</string>
+    <string name="hs__mark_helpful_toast">Question has been marked as Helpful</string>
+    <string name="hs__mark_no">NO</string>
+    <string name="hs__mark_unhelpful_toast">Question has been marked as Not Helpful</string>
+    <string name="hs__mark_yes">YES</string>
+    <string name="hs__mark_yes_no_question">Was this helpful?</string>
+    <string name="hs__network_error_msg">Oops! Something went wrong</string>
+    <string name="hs__network_unavailable_msg">Network not available.</string>
+    <string name="hs__new_conversation_btn">START A NEW CONVERSATION</string>
+    <string name="hs__new_conversation_header">New Conversation</string>
+    <string name="hs__new_conversation_hint">What\'s on your mind?</string>
+    <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">    We will only ask for your details when you report your first
+    issue. For more details read our %1$s privacy policy %2$s</string>
+    <string name="hs__question_header">Question</string>
+    <string name="hs__question_helpful_message">You found this helpful.</string>
+    <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>
+    <string name="hs__rate_button">Rate</string>
+    <string name="hs__review_accepted_message">Accepted review request</string>
+    <string name="hs__review_btn">Ok, review</string>
+    <string name="hs__review_close_button">Close</string>
+    <string name="hs__review_dialog_msg">    Would you mind taking a moment to review our app? It won\'t take more than a minute. Thanks
+    for your support!</string>
+    <string name="hs__review_dialog_negative_btn">Never ask me again</string>
+    <string name="hs__review_dialog_neutral_btn">Remind me later</string>
+    <string name="hs__review_dialog_positive_btn">Rate and Review</string>
+    <string name="hs__review_message">    If you love our app, please take a moment to rate it</string>
+    <string name="hs__review_request_message">Would you like to review the app?</string>
+    <string name="hs__review_title">Rate Our App</string>
+    <string name="hs__rsc_progress_msg">Sending screenshot.</string>
+    <string name="hs__screenshot_add">Add</string>
+    <string name="hs__screenshot_cloud_attach_error">    Error attaching screenshot. Please choose an image available locally on the device.</string>
+    <string name="hs__screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
+    <string name="hs__screenshot_remove">Remove</string>
+    <string name="hs__screenshot_sent_msg">Screenshot sent</string>
+    <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
+    <string name="hs__search_footer">Can\'t find what you were looking for?</string>
+    <string name="hs__search_hint">Describe your problem</string>
+    <string name="hs__search_title">Search</string>
+    <string name="hs__send_msg_btn">Send</string>
+    <string name="hs__sending_fail_msg">Not delivered. Tap to retry.</string>
+    <string name="hs__sending_msg">Sending...</string>
+    <string name="hs__solved_btn">Yes, solved!</string>
+    <string name="hs__submit_conversation_btn">Submit</string>
+    <string name="hs__unsolved_btn">No, unsolved</string>
+    <string name="hs__username_blank_error">Please enter a valid name</string>
+    <string name="hs__username_hint">Name</string>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <eat-comment />
+
+    <style name="HSActionBarCompat">
+
+        <!-- Action Bar background -->
+        <item name="android:background">@color/hs__actionBarBackgroundColor</item>
+    </style>
+
+    <style name="HSActionBarCompatItemBase">
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/hs__selectableItemBackground</item>
+    </style>
+
+    <style name="HSActionBarCompatProgressIndicator" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="HSActionBarCompatTitle" parent="HSActionBarCompatTitleBase">
+        <item name="android:textColor">@color/hs__actionBarTextColorPrimary</item>
+    </style>
+
+    <style name="HSActionBarCompatTitleBase">
+        <item name="android:id">@id/hs__actionbar_compat_title</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="HSActionBarThemedContext">
+
+        <!-- Action Bar text color primary and secondary colors -->
+        <item name="android:textColorPrimary">@color/hs__actionBarTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/hs__actionBarTextColorSecondary</item>
+    </style>
+
+    <style name="HSDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="HSEditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/hs__edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Theme.Helpshift" parent="@style/Theme.Helpshift.Base">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">@dimen/hs__actionbar_compat_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompat</item>
+        <item name="android:windowContentOverlay">@drawable/hs__actionbar_shadow</item>
+        <item name="android:editTextStyle">@style/HSEditTextAppTheme</item>
+
+        <!-- Action Bar Menu Item Selectable item background -->
+        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_item</item>
+        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle</item>
+        <item name="hs__actionbarCompatItemBaseStyle">@style/HSActionBarCompatItemBase</item>
+        <item name="hs__actionBarTabTextStyle">@style/Widget.Helpshift.Base.ActionBar.TabText</item>
+        <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
+    </style>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes_base.xml -->
+    <eat-comment />
+
+    <style name="Theme.Helpshift.Base" parent="@style/Theme.Helpshift.Light.DarkActionBar"></style>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <eat-comment />
+
+    <style name="Theme.Helpshift.Light.DarkActionBar" parent="@android:style/Theme.Light"></style>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes_base.xml -->
+    <eat-comment />
+
+    <style name="Theme.Helpshift.Translucent" parent="@style/Theme.Helpshift.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <eat-comment />
+
+    <style name="Widget.Helpshift.Base.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+</resources>

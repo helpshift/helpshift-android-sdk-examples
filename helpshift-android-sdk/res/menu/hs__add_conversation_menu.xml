@@ -8,3 +8,4 @@
         android:title="@string/hs__submit_conversation_btn"
         android:showAsAction="always"/>
 </menu>
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/menu/hs__add_conversation_menu.xml -->

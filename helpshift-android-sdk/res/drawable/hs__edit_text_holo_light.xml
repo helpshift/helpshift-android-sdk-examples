@@ -8,3 +8,4 @@
     <item android:state_focused="true" android:drawable="@drawable/hs__textfield_disabled_focused_holo_light" />
     <item android:drawable="@drawable/hs__textfield_disabled_holo_light" />
 </selector>
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/drawable/hs__edit_text_holo_light.xml -->

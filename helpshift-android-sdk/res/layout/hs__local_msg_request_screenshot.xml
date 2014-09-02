@@ -37,7 +37,11 @@
           android:gravity="center"
           >
 
-        <ImageView
+        <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+          <ImageView
             android:id="@android:id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,14 +51,16 @@
             android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
             />
 
-        <ProgressBar
+          <ProgressBar
             android:id="@android:id/progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            style="?android:attr/progressBarStyleSmall"
+            style="?android:attr/progressBarStyleLarge"
             android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
+            android:layout_centerInParent="true"
             />
+        </RelativeLayout>
 
         <View
             android:id="@android:id/custom"
@@ -105,3 +111,4 @@
     </LinearLayout>
   </LinearLayout>
 </LinearLayout>
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__local_msg_request_screenshot.xml -->

@@ -12,3 +12,4 @@
     android:paddingBottom="@dimen/hs__listPreferredItemPaddingBottom"
     android:minHeight="@dimen/hs__listPreferredItemHeightSmall"
     />
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__simple_list_item_1.xml -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@android:color/background_light" >
+
+  <RatingBar
+    android:id="@+id/ratingBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:stepSize="1.0"
+    android:focusable="false"
+    android:layout_marginTop="10dp"
+    />
+
+  <TextView
+    android:id="@+id/like_status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ratingBar"
+    android:layout_centerHorizontal="true"
+    />
+
+  <EditText
+    android:id="@+id/additional_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/like_status"
+    android:hint="@string/hs__csat_additonal_feedback_message"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="12dp"
+    android:minLines="2"
+    android:maxLines="4"
+    />
+
+  <View
+    style="@style/HSDivider"
+    android:id="@+id/divider"
+    android:layout_below="@+id/additional_feedback"
+    />
+
+  <Button
+    android:id="@+id/submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/hs__selectableItemBackground"
+    android:layout_below="@+id/divider"
+    android:text="@string/hs__submit_conversation_btn"
+    android:layout_centerHorizontal="true"
+    android:height="@dimen/hs__actionbar_compat_height"
+    />
+</RelativeLayout><!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__csat_dialog.xml -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+  android:paddingBottom="15dp"
+  /><!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__messages_list_footer.xml -->

@@ -1,4 +1,4 @@
-Helpshift SDK 3.4.2 Release Notes (for Android)
+Helpshift SDK 3.5.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,16 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.5.0 Release Date: September 02, 2014
+      * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
+      * Agent names will now be visible in an ongoing conversation.
+      * Added a API option, "conversationPrefillText", for prefilling new conversation description.
+      * Added a API option, "hideNameAndEmail", for conditionally hiding name and email fields when starting a new conversation.
+      * UX improvements for attaching screenshot.
+      * Removed FAQ sync status.
+      * Added support for deep-links in FAQs.
+      * Bug fixes.
+      * UI fixes.
 3.4.2 Release Date: July 10, 2014
       * Remove external dependency for apache commons codec.
       * Persist and use the most recent version of custom meta-data.
@@ -185,27 +195,3 @@ New features:
       * Breadcrumbs api
       * Extra device info
       * Funnel implementation
-3.4.2 Release Date: July 10, 2014
-Add null checks for resetting both name and email
-Improve parameter handling for setNameAndEmail API
-FIX conversation menu visibility based on ContactUsFilter.
-FIX showConversationMenu visibility onResume.
-Remove apache commons codec submodule.
-Rename and use common codec files to remove dependency
-Add null checks for custom-meta data
-Trim the search Query before using
-Add isEmpty check for profile-id instead of a null check
-Store the UUID only if it is non-empty
-FIX Recycle TypedArray after all operations are done.
-Add translations for hs__default_notification_content_title.
-Migrate to using Java UUIDs for uniquely indentifying app installations
-Refactor the reportActionEvents code to remove hyper-usage of params !
-Add util method to convert JSONObject to HashMap
-Do not retry API calls for errors in the 4xx and 5xx family of codes
-Save the most up-to-date meta-data and send it if we dont have current data
-Add app name to notifications #4207
-Remove 3 character limit for search event.
-Persist the requireEmail flag value across all API calls
-Update the cocos2d diff for 3.4.0
-Update the AndroidManifest for unity
-Update the Unity diff

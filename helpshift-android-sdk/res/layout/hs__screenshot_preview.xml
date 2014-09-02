@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
+    android:id="@+id/screenshotPreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/horizontal_divider"/>
+
+  <View
+    style="@style/HSDivider"
+    android:id="@+id/horizontal_divider"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_above="@+id/button_containers"
+    />
+
+  <LinearLayout
+    android:id="@+id/button_containers"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+
+    <Button
+      android:id="@+id/change"
+      android:text="@string/hs__change_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:background="?attr/hs__selectableItemBackground"
+      />
+
+    <View
+      style="@style/HSDivider"
+      android:layout_width="1dp"
+      android:layout_height="match_parent"
+      />
+
+    <Button
+      android:id="@+id/send"
+      android:text="@string/hs__send_msg_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.5"
+      android:background="?attr/hs__selectableItemBackground"
+      />
+  </LinearLayout>
+</merge><!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__screenshot_preview.xml -->

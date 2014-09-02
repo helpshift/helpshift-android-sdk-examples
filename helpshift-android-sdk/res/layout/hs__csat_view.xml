@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <TextView
+    android:id="@+id/csat_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="25dp"
+    android:paddingBottom="21dp"
+    android:gravity="center_horizontal"
+    android:text="@string/hs__csat_message"
+    />
+
+  <RatingBar
+    android:id="@+id/ratingBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/csat_message"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="6dp"
+    android:stepSize="1.0"
+    />
+
+  <TextView
+    android:id="@+id/csat_dislike_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ratingBar"
+    android:layout_alignLeft="@+id/ratingBar"
+    android:text="@string/hs__csat_dislike_message"
+    />
+
+  <TextView
+    android:id="@+id/csat_like_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ratingBar"
+    android:layout_alignRight="@+id/ratingBar"
+    android:text="@string/hs__csat_like_message"
+    />
+
+  <RelativeLayout
+    android:id="@+id/divider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/csat_dislike_msg"
+    >
+
+    <View
+      style="@style/HSDivider"
+      android:layout_toLeftOf="@+id/option_text"
+      android:layout_centerVertical="true"
+      android:layout_marginRight="3dp"
+      />
+
+    <TextView
+      android:id="@+id/option_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/hs__csat_option_message"
+      android:paddingBottom="3dp"
+      android:layout_centerHorizontal="true"
+      android:includeFontPadding="false"
+      />
+
+    <View
+      style="@style/HSDivider"
+      android:layout_toRightOf="@+id/option_text"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="3dp"
+      />
+  </RelativeLayout>
+</merge><!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__csat_view.xml -->

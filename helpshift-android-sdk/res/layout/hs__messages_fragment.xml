@@ -109,14 +109,11 @@
         android:layout_height="1dp"
         android:alpha="0.5" />
 
-    <TextView
-        android:gravity="center"
-        android:text="@string/hs__conversation_end_msg"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="8dp"
-        android:paddingTop="32dp"/>
+    <ViewStub
+      android:id="@+id/csat_view_stub"
+      android:layout="@layout/hs__csat_holder"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
 
     <Button
         android:text="@string/hs__new_conversation_btn"
@@ -124,7 +121,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/hs__report_issue"
-        android:layout_marginBottom="32dp"/>
+        />
   </LinearLayout>
 
   <View
@@ -167,3 +164,4 @@
         android:paddingRight="8dp" />
   </RelativeLayout>
 </RelativeLayout>
+<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__messages_fragment.xml -->
