@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__colors.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__booleans.xml -->
+    <eat-comment />
+
+    <bool name="limit_to_single_line">false</bool>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__colors.xml -->
     <eat-comment />
 
     <color name="hs__actionBarBackgroundColor">#222222</color>
@@ -17,7 +21,7 @@
     <color name="hs__notificationIconColor">#FF4444</color>
     <color name="hs__question_footer_color">#D6D6DB</color>
     <color name="hs__send_reply_icon_color">#0099CC</color>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__attrs.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="Theme.Helpshift">
@@ -27,7 +31,7 @@
         <attr name="hs__selectableItemBackground" format="reference" />
         <attr name="hs__actionbarCompatProgressIndicatorStyle" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__dimens.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__dimens.xml -->
     <eat-comment />
 
     <dimen name="hs__actionbar_compat_button_home_width">56dp</dimen>
@@ -55,17 +59,17 @@
     <dimen name="hs__msg_timestamp_padding">13dp</dimen>
     <dimen name="hs__question_text_padding">10dp</dimen>
     <dimen name="hs__textSizeSmall">10sp</dimen>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__ids.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__ids.xml -->
     <eat-comment />
 
     <item name="hs__actionbar_compat_item_refresh_progress" type="id"/>
     <item name="hs__actionbar_compat_title" type="id"/>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__integers.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__integers.xml -->
     <eat-comment />
 
     <integer name="hs__chat_max_lines">3</integer>
     <integer name="hs__conversation_detail_lines">5</integer>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__strings.xml -->
     <eat-comment />
 
     <plurals name="hs__notification_content_title">
@@ -148,7 +152,10 @@
     <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
     <string name="hs__search_footer">Can\'t find what you were looking for?</string>
     <string name="hs__search_hint">Describe your problem</string>
+    <string name="hs__search_result_message">Questions that may already have your answer</string>
+    <string name="hs__search_result_title">Suggestions</string>
     <string name="hs__search_title">Search</string>
+    <string name="hs__send_anyway">SEND ANYWAY</string>
     <string name="hs__send_msg_btn">Send</string>
     <string name="hs__sending_fail_msg">Not delivered. Tap to retry.</string>
     <string name="hs__sending_msg">Sending...</string>
@@ -157,7 +164,7 @@
     <string name="hs__unsolved_btn">No, unsolved</string>
     <string name="hs__username_blank_error">Please enter a valid name</string>
     <string name="hs__username_hint">Name</string>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
     <eat-comment />
 
     <style name="HSActionBarCompat">
@@ -221,15 +228,15 @@
         <item name="hs__actionBarTabTextStyle">@style/Widget.Helpshift.Base.ActionBar.TabText</item>
         <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
     </style>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes_base.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes_base.xml -->
     <eat-comment />
 
     <style name="Theme.Helpshift.Base" parent="@style/Theme.Helpshift.Light.DarkActionBar"></style>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
     <eat-comment />
 
     <style name="Theme.Helpshift.Light.DarkActionBar" parent="@android:style/Theme.Light"></style>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes_base.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes_base.xml -->
     <eat-comment />
 
     <style name="Theme.Helpshift.Translucent" parent="@style/Theme.Helpshift.Base">
@@ -240,7 +247,7 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values/hs__themes.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
     <eat-comment />
 
     <style name="Widget.Helpshift.Base.ActionBar.TabText" parent="">

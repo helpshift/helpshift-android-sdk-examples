@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-nl/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-nl/hs__strings.xml -->
     <eat-comment />
 
     <plurals name="hs__notification_content_title">
@@ -82,7 +82,10 @@
     <string name="hs__screenshot_upload_error_msg">Fout tijdens het uploaden van de schermprint</string>
     <string name="hs__search_footer">Kun je niet vinden wat je zoekt?</string>
     <string name="hs__search_hint">Beschrijf je probleem</string>
+    <string name="hs__search_result_message">Vragen die uw antwoord al kunnen hebben</string>
+    <string name="hs__search_result_title">Suggesties</string>
     <string name="hs__search_title">Zoeken</string>
+    <string name="hs__send_anyway">TOCH STUREN</string>
     <string name="hs__send_msg_btn">Verzenden</string>
     <string name="hs__sending_fail_msg">Niet aangekomen. Tik op het scherm om het nogmaals te proberen.</string>
     <string name="hs__sending_msg">Versturen...</string>

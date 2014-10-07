@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-land/hs__booleans.xml -->
+    <eat-comment />
+
+    <bool name="limit_to_single_line">true</bool>
+
+</resources>
