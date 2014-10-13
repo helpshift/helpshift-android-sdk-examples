@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-ko/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-ko/hs__strings.xml -->
     <eat-comment />
 
     <plurals name="hs__notification_content_title">
@@ -81,7 +81,10 @@
     <string name="hs__screenshot_upload_error_msg">스크린샷을 업로드하는 중 오류</string>
     <string name="hs__search_footer">찾고 계신 내용이 없나요?</string>
     <string name="hs__search_hint">문제를 설명해주세요</string>
+    <string name="hs__search_result_message">이미 답이 있을 수도 있는 질문</string>
+    <string name="hs__search_result_title">제안</string>
     <string name="hs__search_title">수색</string>
+    <string name="hs__send_anyway">그래도 보내기</string>
     <string name="hs__send_msg_btn">전송</string>
     <string name="hs__sending_fail_msg">전달되지 않음. 눌러서 재시도하기</string>
     <string name="hs__sending_msg">보내는 중...</string>

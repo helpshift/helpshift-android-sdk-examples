@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/hs__action_done"
+        android:title="@string/hs__done_btn"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/hs__search_on_conversation_done"
+        />
+</menu>
+<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/menu/hs__search_on_conversation.xml -->

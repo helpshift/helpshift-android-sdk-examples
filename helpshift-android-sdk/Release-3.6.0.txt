@@ -1,4 +1,4 @@
-Helpshift SDK 3.5.0 Release Notes (for Android)
+Helpshift SDK 3.6.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,11 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.6.0 Release Date: October 07, 2014
+      * Added an API option "showSearchOnNewConversation", which will enhance ticket avoidance by providing him list of FAQs that may relate to the issue that he is having.
+      * Added an API option "enableFullPrivacy", which when set enables full privacy controls for the SDK including - not having an attach screenshot button, not sending personally identifiable information in meta-data etc.
+      * Bug fixes
+      * UI fixes
 3.5.0 Release Date: September 02, 2014
       * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
       * Agent names will now be visible in an ongoing conversation.

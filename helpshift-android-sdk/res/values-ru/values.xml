@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-ru/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-ru/hs__strings.xml -->
     <eat-comment />
 
     <plurals name="hs__notification_content_title">
@@ -82,7 +82,10 @@
     <string name="hs__screenshot_upload_error_msg">Ошибка загрузки скриншота</string>
     <string name="hs__search_footer">Не нашли нужного ответа?</string>
     <string name="hs__search_hint">Найти решение</string>
+    <string name="hs__search_result_message">Вопросы, на которые уже может быть ответ для вас</string>
+    <string name="hs__search_result_title">Предложения</string>
     <string name="hs__search_title">искать</string>
+    <string name="hs__send_anyway">ВСЕ РАВНО ОТПРАВИТЬ</string>
     <string name="hs__send_msg_btn">Отправить</string>
     <string name="hs__sending_fail_msg">Не доставлено. Нажмите для повтора</string>
     <string name="hs__sending_msg">Отправка...</string>

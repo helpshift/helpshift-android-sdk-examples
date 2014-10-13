@@ -48,6 +48,9 @@
         <activity
             android:name="com.helpshift.ScreenshotPreviewActivity"
             android:theme="@style/Theme.Helpshift" />
+        <activity
+            android:name="com.helpshift.SearchResultActivity"
+            android:theme="@style/Theme.Helpshift" />
 
         <service
             android:name="com.helpshift.HSService"

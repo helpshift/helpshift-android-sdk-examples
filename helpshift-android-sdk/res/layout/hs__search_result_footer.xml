@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <Button
+      android:id="@+id/send_anyway_button"
+      android:text="@string/hs__send_anyway"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="15dp"
+      android:paddingRight="15dp"
+      android:paddingLeft="15dp"
+      android:layout_alignParentTop="true"
+      />
+
+  <View
+      android:layout_below="@+id/send_anyway_button"
+      android:layout_width="match_parent"
+      android:layout_height="15dp"/>
+</RelativeLayout>
+<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__search_result_footer.xml -->

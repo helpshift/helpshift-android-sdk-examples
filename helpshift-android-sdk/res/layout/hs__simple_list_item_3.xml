@@ -2,6 +2,8 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/text1"
+    android:singleLine="@bool/limit_to_single_line"
+    android:ellipsize="end"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:textAppearance="?android:attr/textAppearanceMedium"
@@ -12,4 +14,4 @@
     android:paddingBottom="@dimen/hs__listPreferredItemPaddingBottom"
     android:minHeight="@dimen/hs__listPreferredItemHeightSmall"
     />
-<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__simple_list_item_1.xml -->
+<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__simple_list_item_3.xml -->

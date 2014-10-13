@@ -62,4 +62,4 @@
       android:layout_below="@+id/hs__username"
       />
 </RelativeLayout>
-<!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/layout/hs__new_conversation_fragment.xml -->
+<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__new_conversation_fragment.xml -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/danielvictor/Work/r2d2/HelpshiftLib/res/values-fr/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-fr/hs__strings.xml -->
     <eat-comment />
 
     <plurals name="hs__notification_content_title">
@@ -84,7 +84,10 @@
     <string name="hs__screenshot_upload_error_msg">Erreur pendant le téléchargement de la capture d\'écran</string>
     <string name="hs__search_footer">Vous n\'avez pas pu trouver ce que vous cherchiez ?</string>
     <string name="hs__search_hint">Décrivez votre problème</string>
+    <string name="hs__search_result_message">Questions/réponses relatives à la vôtre</string>
+    <string name="hs__search_result_title">Suggestions</string>
     <string name="hs__search_title">Recherche</string>
+    <string name="hs__send_anyway">ENVOYER QUAND MÊME</string>
     <string name="hs__send_msg_btn">Envoyez</string>
     <string name="hs__sending_fail_msg">Pas envoyé. Touchez pour réessayer</string>
     <string name="hs__sending_msg">Envoi...</string>
