@@ -8,6 +8,6 @@
     android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
     android:gravity="center"
     android:autoLink="all"
-    android:textColor="@color/hs__confirmationAcceptedTextColor"
+    android:textColor="?attr/hs__faqHelpfulButtonTextColor"
     />
 <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__msg_review_accepted.xml -->

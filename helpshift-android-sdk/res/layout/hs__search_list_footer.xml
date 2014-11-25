@@ -13,12 +13,12 @@
       android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"/>
 
   <Button
-      android:text="@string/hs__contact_us_btn"
+      style="?attr/hs__contactUsButtonStyle"
       android:id="@+id/report_issue"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:text="@string/hs__contact_us_btn"
       android:drawableLeft="@drawable/hs__report_issue"
-      android:layout_marginBottom="@dimen/hs__listPreferredItemPaddingBottom"/>
+      android:layout_marginBottom="@dimen/hs__listPreferredItemPaddingBottom"
+      />
 
 </LinearLayout>
 <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__search_list_footer.xml -->

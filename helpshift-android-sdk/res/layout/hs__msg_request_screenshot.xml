@@ -22,11 +22,11 @@
         >
 
       <LinearLayout
-        android:id="@+id/admin_message"
+          android:id="@+id/admin_message"
           android:orientation="vertical"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:background="@drawable/hs__chat_bubble_admin"
+          android:background="?attr/hs__chatBubbleAdminBackground"
           android:gravity="center"
           >
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:autoLink="all"
-            android:textColor="@color/hs__messages_text_color"
+            android:textColor="?attr/hs__messagesTextColor"
             android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
             android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
             android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
@@ -47,10 +47,11 @@
             android:id="@android:id/custom"
             android:layout_width="fill_parent"
             android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
+            android:background="?attr/hs__chatBubbleSeparatorColor"
             android:alpha="0.5"/>
 
         <ImageButton
+            android:contentDescription="@string/hs__attach_screenshot_btn"
             android:id="@android:id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,10 +91,11 @@
         >
 
       <LinearLayout
+          android:id="@+id/user_message"
           android:orientation="vertical"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:background="@drawable/hs__chat_bubble_user"
+          android:background="?attr/hs__chatBubbleUserBackground"
           android:gravity="center"
           >
 
@@ -126,7 +128,7 @@
             android:id="@+id/button_separator"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/hs__msg_user_chat_bubble_separator"
+            android:background="?attr/hs__chatBubbleSeparatorColor"
             android:alpha="0.4"/>
 
         <LinearLayout
@@ -150,7 +152,7 @@
           <View
               android:layout_height="fill_parent"
               android:layout_width="1dp"
-              android:background="@color/hs__msg_user_chat_bubble_separator"
+              android:background="?attr/hs__chatBubbleSeparatorColor"
               android:alpha="0.4"/>
 
           <ImageButton

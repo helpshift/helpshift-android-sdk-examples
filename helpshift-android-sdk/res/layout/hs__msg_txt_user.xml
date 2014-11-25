@@ -22,10 +22,11 @@
       android:gravity="right"
       >
     <LinearLayout
+        android:id="@+id/user_message"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/hs__chat_bubble_user"
+        android:background="?attr/hs__chatBubbleUserBackground"
         android:gravity="center"
         >
 
@@ -33,7 +34,7 @@
           android:id="@android:id/text1"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:textColor="@color/hs__messages_text_color"
+          android:textColor="?attr/hs__messagesTextColor"
           android:textAppearance="?android:attr/textAppearanceMedium"
           android:autoLink="all"
           android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"

@@ -22,7 +22,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:scaleType="centerCrop"
-      android:background="@color/hs__light_horizontal_stub_bg"
+      android:background="@android:color/darker_gray"
       android:padding="1dp"
       android:cropToPadding="true"
       android:layout_alignParentTop="true"
@@ -32,11 +32,12 @@
       />
 
   <ImageButton
+      android:contentDescription="@string/hs__remove_screenshot_btn"
       android:text="@string/hs__change_btn"
       android:id="@android:id/button2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:background="@color/hs__light_horizontal_stub_bg"
+      android:background="@android:color/darker_gray"
       android:src="@drawable/hs__screenshot_clear"
       android:layout_alignParentRight="true"
       android:layout_alignParentTop="true"

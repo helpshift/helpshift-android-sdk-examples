@@ -12,14 +12,9 @@
       android:layout_above="@+id/hs__helpshiftActivityFooter">
 
     <android.support.v4.view.PagerTabStrip
+        style="?attr/hs__faqsPagerTabStripStyle"
         android:id="@+id/hs__pager_tab_strip"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:background="@color/hs__actionBarStackedColor"
-        android:textColor="?android:attr/textColorPrimaryInverse"
-        android:textAppearance="?attr/hs__actionBarTabTextStyle"
-        android:paddingBottom="8dp"/>
+        />
   </android.support.v4.view.ViewPager>
 
   <ImageView

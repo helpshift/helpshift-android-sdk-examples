@@ -36,9 +36,10 @@
         >
 
       <LinearLayout
+          android:id="@+id/user_message"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:background="@drawable/hs__chat_bubble_user"
+          android:background="?attr/hs__chatBubbleUserBackground"
           >
 
         <ProgressBar

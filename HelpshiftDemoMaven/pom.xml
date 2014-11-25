@@ -16,13 +16,13 @@
       <dependency>
         <groupId>com.helpshift</groupId>
         <artifactId>android-lib</artifactId>
-        <version>3.6.0</version>
+        <version>3.7.0</version>
         <type>apklib</type>
       </dependency>
       <dependency>
         <groupId>android.support</groupId>
         <artifactId>compatibility-v4</artifactId>
-        <version>19</version>
+        <version>21</version>
       </dependency>
     </dependencies>
         <build>
@@ -45,7 +45,7 @@
             <configuration>
               <sdk>
                 <!-- platform or api level (api level 16 = platform 4.1)-->
-                <platform>17</platform>
+                <platform>21</platform>
               </sdk>
               <mergeManifests>true</mergeManifests>
             </configuration>

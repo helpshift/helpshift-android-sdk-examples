@@ -6,10 +6,9 @@
     >
 
   <Button
+      style="?attr/hs__contactUsButtonStyle"
       android:id="@+id/send_anyway_button"
       android:text="@string/hs__send_anyway"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
       android:layout_centerHorizontal="true"
       android:layout_marginTop="15dp"
       android:paddingRight="15dp"

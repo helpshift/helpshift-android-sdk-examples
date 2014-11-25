@@ -27,7 +27,7 @@
         android:layout_gravity="bottom">
 
       <View
-          android:background="@color/hs__light_horizontal_stub_bg"
+          android:background="?attr/hs__faqFooterSeparatorColor"
           android:layout_width="fill_parent"
           android:layout_height="1dp"
           android:alpha="0.5"/>
@@ -37,10 +37,11 @@
           android:layout_height="wrap_content"
           android:paddingLeft="8dp"
           android:paddingRight="8dp"
-          android:background="@color/hs__question_footer_color"
+          android:background="?attr/hs__faqsFooterBackgroundColor"
           android:splitMotionEvents="false">
 
         <Button
+            style="?attr/hs__faqHelpfulButtonStyle"
             android:id="@+id/hs__action_faq_helpful"
             android:text="@string/hs__mark_yes"
             android:layout_width="wrap_content"
@@ -49,11 +50,12 @@
             android:paddingRight="10dp"
             android:visibility="gone"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/hs__confirmationAcceptedTextColor"
+            android:textColor="?attr/hs__faqHelpfulButtonTextColor"
             android:layout_toLeftOf="@+id/hs__action_faq_unhelpful"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <Button
+            style="?attr/hs__faqUnhelpfulButtonStyle"
             android:id="@+id/hs__action_faq_unhelpful"
             android:text="@string/hs__mark_no"
             android:layout_width="wrap_content"
@@ -64,7 +66,7 @@
             android:paddingRight="10dp"
             android:visibility="gone"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/hs__confirmationRejectedTextColor"
+            android:textColor="?attr/hs__faqUnhelpfulButtonTextColor"
             android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <TextView
@@ -93,6 +95,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <Button
+            style="?attr/hs__contactUsButtonStyle"
             android:id="@+id/hs__contact_us_btn"
             android:text="@string/hs__contact_us_btn"
             android:layout_width="wrap_content"

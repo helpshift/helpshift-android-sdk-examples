@@ -15,15 +15,16 @@
       >
 
     <LinearLayout
+        android:id="@+id/admin_message"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.80"
-        android:background="@drawable/hs__chat_bubble_admin"
+        android:background="?attr/hs__chatBubbleAdminBackground"
         >
 
       <TextView
           android:id="@android:id/text1"
-          android:textColor="@color/hs__messages_text_color"
+          android:textColor="?attr/hs__messagesTextColor"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:textAppearance="?android:attr/textAppearanceMedium"

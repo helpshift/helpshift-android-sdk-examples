@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
   <item android:id="@+id/hs__attach_screenshot"
-        android:icon="@drawable/hs__attach_screenshot"
+        android:icon="?attr/hs__attachScreenshotActionButtonIcon"
         android:title="@string/hs__attach_screenshot_btn"
         android:showAsAction="always"/>
 </menu>

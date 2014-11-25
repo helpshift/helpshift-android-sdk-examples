@@ -6,12 +6,13 @@
               android:clickable="true" >
 
   <TextView
+      android:contentDescription="@string/hs__new_conversation_header"
       android:layout_margin="8dp"
       android:id="@+id/hs__conversation_icon"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:gravity="center"
-      android:background="@drawable/hs__chat_new"/>
+      android:background="?attr/hs__conversationActionButtonIcon"/>
 
   <TextView
       android:layout_marginRight="8dp"
@@ -22,9 +23,9 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:gravity="center"
-      android:background="@drawable/hs__chat_notif"
+      android:background="?attr/hs__conversationNotificationActionButtonIcon"
       android:textStyle="bold"
-      android:textColor="@android:color/white"
+      android:textColor="?attr/hs__actionButtonNotificationTextColor"
       android:textSize="16sp"/>
 </LinearLayout>
 <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/layout/hs__badge_layout.xml -->

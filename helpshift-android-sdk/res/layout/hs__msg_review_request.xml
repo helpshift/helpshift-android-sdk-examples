@@ -15,16 +15,17 @@
       >
 
     <LinearLayout
+        android:id="@+id/admin_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/hs__chat_bubble_admin"
+        android:background="?attr/hs__chatBubbleAdminBackground"
         android:orientation="vertical"
         android:gravity="center"
         >
 
       <TextView
           android:id="@android:id/text1"
-          android:textColor="@color/hs__messages_text_color"
+          android:textColor="?attr/hs__messagesTextColor"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:textAppearance="?android:attr/textAppearanceMedium"
@@ -47,10 +48,11 @@
           android:id="@android:id/custom"
           android:layout_width="fill_parent"
           android:layout_height="1dp"
-          android:background="@android:color/darker_gray"
+          android:background="?attr/hs__chatBubbleSeparatorColor"
           android:alpha="0.5"/>
 
       <ImageButton
+          android:contentDescription="@string/hs__review_title"
           android:id="@android:id/button1"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"

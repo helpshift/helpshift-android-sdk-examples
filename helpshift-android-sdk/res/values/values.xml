@@ -1,43 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__booleans.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/booleans.xml -->
     <eat-comment />
 
     <bool name="limit_to_single_line">false</bool>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__colors.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/colors.xml -->
     <eat-comment />
 
-    <color name="hs__actionBarBackgroundColor">#222222</color>
-    <color name="hs__actionBarStackedColor">#000000</color>
-    <color name="hs__actionBarTabIndicatorColor">#33b5e5</color>
-    <color name="hs__actionBarTextColorPrimary">#F3F3F3</color>
-    <color name="hs__actionBarTextColorSecondary">#000000</color>
-    <color name="hs__confirmationAcceptedTextColor">#669900</color>
-    <color name="hs__confirmationRejectedTextColor">#cc0000</color>
-    <color name="hs__light_horizontal_stub_bg">#B1B1B1</color>
-    <color name="hs__messages_text_color">#000000</color>
-    <color name="hs__msg_user_chat_bubble_separator">#0099cc</color>
-    <color name="hs__notificationIconColor">#FF4444</color>
-    <color name="hs__question_footer_color">#D6D6DB</color>
-    <color name="hs__send_reply_icon_color">#0099CC</color>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__attrs.xml -->
+    <color name="hs__accept_button_icon_dark">#ff669900</color>
+    <color name="hs__accept_button_icon_light">#ff669900</color>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/colors_compat.xml -->
     <eat-comment />
 
-    <declare-styleable name="Theme.Helpshift">
+    <color name="hs__actionbar_compat_background_dark">#ff2d2d2d</color>
+    <color name="hs__actionbar_compat_background_light">#fff3f3f3</color>
+    <color name="hs__actionbar_compat_background_light_dark_actionbar">#ff222222</color>
+    <color name="hs__actionbar_compat_text_primary_dark">#fff3f3f3</color>
+    <color name="hs__actionbar_compat_text_primary_light">#ff000000</color>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="hs__actionbutton_icon_dark">#ffffffff</color>
+    <color name="hs__actionbutton_icon_light">#ff000000</color>
+    <color name="hs__actionbutton_notification_icon_dark">#ffff4444</color>
+    <color name="hs__actionbutton_notification_icon_light">#ffff4444</color>
+    <color name="hs__actionbutton_notification_text_dark">#ffffffff</color>
+    <color name="hs__actionbutton_notification_text_light">#ffffffff</color>
+    <color name="hs__admin_chat_bubble_dark">#ffffffff</color>
+    <color name="hs__admin_chat_bubble_light">#ffffffff</color>
+    <color name="hs__attach_screenshot_button_icon_dark">#ff0099cc</color>
+    <color name="hs__attach_screenshot_button_icon_light">#ff0099cc</color>
+    <color name="hs__button_compound_drawable_icon_dark">#ffffffff</color>
+    <color name="hs__button_compound_drawable_icon_light">#ff000000</color>
+    <color name="hs__chat_bubble_separator_dark">#ff0099cc</color>
+    <color name="hs__chat_bubble_separator_light">#ff0099cc</color>
+    <color name="hs__csat_dialog_background_color_dark">#ff000000</color>
+    <color name="hs__csat_dialog_background_color_light">#ffffffff</color>
+    <color name="hs__faq_footer_separator_dark">#ffb1b1b1</color>
+    <color name="hs__faq_footer_separator_light">#ffb1b1b1</color>
+    <color name="hs__messages_text_dark">#ff000000</color>
+    <color name="hs__messages_text_light">#ff000000</color>
+    <color name="hs__question_footer_background_dark">#ff000000</color>
+    <color name="hs__question_footer_background_light">#ffd6d6db</color>
+    <color name="hs__question_helpful_button_text_dark">#ff669900</color>
+    <color name="hs__question_helpful_button_text_light">#ff669900</color>
+    <color name="hs__question_unhelpful_button_text_dark">#ffcc0000</color>
+    <color name="hs__question_unhelpful_button_text_light">#ffcc0000</color>
+    <color name="hs__questions_pagertabstrip_background_dark">#ff000000</color>
+    <color name="hs__questions_pagertabstrip_background_light">#fff3f3f3</color>
+    <color name="hs__questions_pagertabstrip_indicator_dark">#ff33b5e5</color>
+    <color name="hs__questions_pagertabstrip_indicator_light">#ff33b5e5</color>
+    <color name="hs__questions_pagertabstrip_text_dark">#ffffffff</color>
+    <color name="hs__questions_pagertabstrip_text_light">#ff000000</color>
+    <color name="hs__reject_button_icon_dark">#ffff4444</color>
+    <color name="hs__reject_button_icon_light">#ffff4444</color>
+    <color name="hs__review_button_icon_dark">#ffffbb33</color>
+    <color name="hs__review_button_icon_light">#ffffbb33</color>
+    <color name="hs__send_message_button_active_icon_dark">#ff0099cc</color>
+    <color name="hs__send_message_button_active_icon_light">#ff0099cc</color>
+    <color name="hs__send_message_button_icon_dark">#ffffffff</color>
+    <color name="hs__send_message_button_icon_light">#ff000000</color>
+    <color name="hs__separator_dark">#80b1b1b1</color>
+    <color name="hs__separator_light">#80b1b1b1</color>
+    <color name="hs__user_chat_bubble_dark">#ffa8dff4</color>
+    <color name="hs__user_chat_bubble_light">#ffa8dff4</color>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="HelpshiftTheme.Activity">
+
+        <!-- Colors -->
+        <attr name="hs__faqsPagerTabStripIndicatorColor" format="color" />
+        <attr name="hs__faqsFooterBackgroundColor" format="reference" />
+        <attr name="hs__messagesTextColor" format="color" />
+        <attr name="hs__contentSeparatorColor" format="color" />
+        <attr name="hs__faqFooterSeparatorColor" format="color" />
+        <attr name="hs__chatBubbleSeparatorColor" format="color" />
+        <attr name="hs__actionButtonIconColor" format="color" />
+        <attr name="hs__actionButtonNotificationIconColor" format="color" />
+        <attr name="hs__actionButtonNotificationTextColor" format="color" />
+        <attr name="hs__buttonCompoundDrawableIconColor" format="color" />
+        <attr name="hs__sendMessageButtonIconColor" format="color" />
+        <attr name="hs__sendMessageButtonActiveIconColor" format="color" />
+        <attr name="hs__acceptButtonIconColor" format="color" />
+        <attr name="hs__rejectButtonIconColor" format="color" />
+        <attr name="hs__faqHelpfulButtonTextColor" format="color" />
+        <attr name="hs__faqUnhelpfulButtonTextColor" format="color" />
+        <attr name="hs__attachScreenshotButtonIconColor" format="color" />
+        <attr name="hs__reviewButtonIconColor" format="color" />
+        <attr name="hs__adminChatBubbleColor" format="color" />
+        <attr name="hs__userChatBubbleColor" format="color" />
+        <attr name="hs__csatDialogBackgroundColor" format="color" />
+
+        <!-- Drawables -->
+        <attr name="hs__attachScreenshotActionButtonIcon" format="reference" />
+        <attr name="hs__searchActionButtonIcon" format="reference" />
+        <attr name="hs__conversationActionButtonIcon" format="reference" />
+        <attr name="hs__conversationNotificationActionButtonIcon" format="reference" />
+        <attr name="hs__startConversationActionButtonIcon" format="reference" />
+        <attr name="hs__searchOnNewConversationDoneActionButtonIcon" format="reference" />
+        <attr name="hs__chatBubbleAdminBackground" format="reference" />
+        <attr name="hs__chatBubbleUserBackground" format="reference" />
+
+        <!-- Styles -->
+        <attr name="hs__selectableItemBackground" format="reference" />
+        <attr name="hs__faqsPagerTabStripStyle" format="reference" />
+        <attr name="hs__faqsListItemStyle" format="reference" />
+        <attr name="hs__contactUsButtonStyle" format="reference" />
+        <attr name="hs__faqHelpfulButtonStyle" format="reference" />
+        <attr name="hs__faqUnhelpfulButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/attrs_compat.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Theme.HelpshiftCompat">
         <attr name="hs__actionbarCompatTitleStyle" format="reference" />
         <attr name="hs__actionbarCompatItemBaseStyle" format="reference" />
-        <attr name="hs__actionBarTabTextStyle" format="reference" />
-        <attr name="hs__selectableItemBackground" format="reference" />
         <attr name="hs__actionbarCompatProgressIndicatorStyle" format="reference" />
+        <attr name="hs__actionBarCompatTextColorPrimary" format="color" />
     </declare-styleable>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__dimens.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/dimens_compat.xml -->
     <eat-comment />
 
     <dimen name="hs__actionbar_compat_button_home_width">56dp</dimen>
     <dimen name="hs__actionbar_compat_button_width">48dp</dimen>
     <dimen name="hs__actionbar_compat_height">48dp</dimen>
     <dimen name="hs__actionbar_compat_icon_vertical_padding">8dip</dimen>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
     <dimen name="hs__button_padding_right">17dp</dimen>
     <dimen name="hs__content_wrapper_padding">10dp</dimen>
     <dimen name="hs__content_wrapper_top_padding">30dp</dimen>
@@ -59,19 +156,23 @@
     <dimen name="hs__msg_timestamp_padding">13dp</dimen>
     <dimen name="hs__question_text_padding">10dp</dimen>
     <dimen name="hs__textSizeSmall">10sp</dimen>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__ids.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/ids_compat.xml -->
     <eat-comment />
 
     <item name="hs__actionbar_compat_item_refresh_progress" type="id"/>
     <item name="hs__actionbar_compat_title" type="id"/>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__integers.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/integers.xml -->
     <eat-comment />
 
     <integer name="hs__chat_max_lines">3</integer>
     <integer name="hs__conversation_detail_lines">5</integer>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__strings.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <plurals name="hs__csat_rating_value">
+        <item quantity="one">You rated the service with 1 star.</item>
+        <item quantity="other">You rated the service with %d stars.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
         <item quantity="one">New message from Support</item>
         <item quantity="other">%d new messages from Support</item>
@@ -95,6 +196,7 @@
     <string name="hs__csat_like_message">Loved It!</string>
     <string name="hs__csat_message">What\'s your feedback about our customer support?</string>
     <string name="hs__csat_option_message">or</string>
+    <string name="hs__csat_ratingbar">Please rate our service.</string>
     <string name="hs__csat_submit_toast">Thanks for rating us.</string>
     <string name="hs__data_not_found_msg">Data not found</string>
     <string name="hs__default_notification_content_title">Support</string>
@@ -132,6 +234,7 @@
     <string name="hs__question_helpful_message">You found this helpful.</string>
     <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>
     <string name="hs__rate_button">Rate</string>
+    <string name="hs__remove_screenshot_btn">Remove Screenshot</string>
     <string name="hs__review_accepted_message">Accepted review request</string>
     <string name="hs__review_btn">Ok, review</string>
     <string name="hs__review_close_button">Close</string>
@@ -164,29 +267,33 @@
     <string name="hs__unsolved_btn">No, unsolved</string>
     <string name="hs__username_blank_error">Please enter a valid name</string>
     <string name="hs__username_hint">Name</string>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/styles_compat.xml -->
     <eat-comment />
 
-    <style name="HSActionBarCompat">
+    <style name="HSActionBarCompatBackground" />
 
-        <!-- Action Bar background -->
-        <item name="android:background">@color/hs__actionBarBackgroundColor</item>
+    <style name="HSActionBarCompatBackground.Dark">
+        <item name="android:background">@color/hs__actionbar_compat_background_dark</item>
+    </style>
+
+    <style name="HSActionBarCompatBackground.Light">
+        <item name="android:background">@color/hs__actionbar_compat_background_light</item>
+    </style>
+
+    <style name="HSActionBarCompatBackground.LightDarkActionBar">
+        <item name="android:background">@color/hs__actionbar_compat_background_light_dark_actionbar</item>
     </style>
 
     <style name="HSActionBarCompatItemBase">
         <item name="android:scaleType">center</item>
-        <item name="android:background">?attr/hs__selectableItemBackground</item>
+        <item name="android:background">@drawable/hs__actionbar_compat_selectable_item_background</item>
     </style>
 
     <style name="HSActionBarCompatProgressIndicator" parent="android:style/Widget.ProgressBar.Large">
         <item name="android:indeterminate">true</item>
     </style>
 
-    <style name="HSActionBarCompatTitle" parent="HSActionBarCompatTitleBase">
-        <item name="android:textColor">@color/hs__actionBarTextColorPrimary</item>
-    </style>
-
-    <style name="HSActionBarCompatTitleBase">
+    <style name="HSActionBarCompatTitle">
         <item name="android:id">@id/hs__actionbar_compat_title</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">18sp</item>
@@ -196,50 +303,164 @@
         <item name="android:ellipsize">marquee</item>
     </style>
 
-    <style name="HSActionBarThemedContext">
-
-        <!-- Action Bar text color primary and secondary colors -->
-        <item name="android:textColorPrimary">@color/hs__actionBarTextColorPrimary</item>
-        <item name="android:textColorSecondary">@color/hs__actionBarTextColorSecondary</item>
+    <style name="HSActionBarCompatTitle.Dark">
+        <item name="android:textColor">@color/hs__actionbar_compat_text_primary_dark</item>
     </style>
+
+    <style name="HSActionBarCompatTitle.Light">
+        <item name="android:textColor">@color/hs__actionbar_compat_text_primary_light</item>
+    </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/styles.xml -->
+    <eat-comment />
 
     <style name="HSDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
-        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:background">?attr/hs__contentSeparatorColor</item>
     </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/styles_compat.xml -->
+    <eat-comment />
 
-    <style name="HSEditTextAppTheme" parent="android:Widget.EditText">
-        <item name="android:background">@drawable/hs__edit_text_holo_light</item>
+    <style name="HSEditTextCompat" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/hs__edit_text_compat_background</item>
         <item name="android:textColor">#000000</item>
     </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/styles.xml -->
+    <eat-comment />
 
-    <style name="Theme.Helpshift" parent="@style/Theme.Helpshift.Base">
+    <style name="Helpshift" />
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/themes_compat.xml -->
+    <eat-comment />
+
+    <style name="Helpshift.Compat.Theme.Dark" parent="@android:style/Theme">
+
+        <!-- Required for ActionBar compat -->
         <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompatBackground.Dark</item>
         <item name="android:windowTitleSize">@dimen/hs__actionbar_compat_height</item>
-        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompat</item>
-        <item name="android:windowContentOverlay">@drawable/hs__actionbar_shadow</item>
-        <item name="android:editTextStyle">@style/HSEditTextAppTheme</item>
+        <item name="android:windowContentOverlay">@drawable/hs__actionbar_compat_shadow</item>
+        <item name="android:editTextStyle">@style/HSEditTextCompat</item>
 
-        <!-- Action Bar Menu Item Selectable item background -->
-        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_item</item>
-        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle</item>
+        <!-- ActionBar compat specific styles -->
+        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle.Dark</item>
         <item name="hs__actionbarCompatItemBaseStyle">@style/HSActionBarCompatItemBase</item>
-        <item name="hs__actionBarTabTextStyle">@style/Widget.Helpshift.Base.ActionBar.TabText</item>
         <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
+        <item name="hs__actionBarCompatTextColorPrimary">@color/hs__actionbar_compat_text_primary_dark</item>
     </style>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes_base.xml -->
+
+    <style name="Helpshift.Compat.Theme.Light" parent="@android:style/Theme.Light">
+
+        <!-- Required for ActionBar compat -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompatBackground.Light</item>
+        <item name="android:windowTitleSize">@dimen/hs__actionbar_compat_height</item>
+        <item name="android:windowContentOverlay">@drawable/hs__actionbar_compat_shadow</item>
+        <item name="android:editTextStyle">@style/HSEditTextCompat</item>
+
+        <!-- ActionBar compat specific styles -->
+        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle.Light</item>
+        <item name="hs__actionbarCompatItemBaseStyle">@style/HSActionBarCompatItemBase</item>
+        <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
+        <item name="hs__actionBarCompatTextColorPrimary">@color/hs__actionbar_compat_text_primary_light</item>
+    </style>
+
+    <style name="Helpshift.Compat.Theme.Light.DarkActionBar" parent="@android:style/Theme.Light">
+
+        <!-- Required for ActionBar compat -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompatBackground.LightDarkActionBar</item>
+        <item name="android:windowTitleSize">@dimen/hs__actionbar_compat_height</item>
+        <item name="android:windowContentOverlay">@drawable/hs__actionbar_compat_shadow</item>
+        <item name="android:editTextStyle">@style/HSEditTextCompat</item>
+
+        <!-- ActionBar compat specific styles -->
+        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle.Dark</item>
+        <item name="hs__actionbarCompatItemBaseStyle">@style/HSActionBarCompatItemBase</item>
+        <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
+        <item name="hs__actionBarCompatTextColorPrimary">@color/hs__actionbar_compat_text_primary_dark</item>
+    </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/styles.xml -->
     <eat-comment />
 
-    <style name="Theme.Helpshift.Base" parent="@style/Theme.Helpshift.Light.DarkActionBar"></style>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
+    <style name="Helpshift.Style" />
+
+    <style name="Helpshift.Style.ContactUsButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Helpshift.Style.FaqHelpfulButton"></style>
+
+    <style name="Helpshift.Style.FaqUnhelpfulButton"></style>
+
+    <style name="Helpshift.Style.FaqsListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
+        <item name="android:paddingTop">@dimen/hs__listPreferredItemPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
+        <item name="android:minHeight">@dimen/hs__listPreferredItemHeightSmall</item>
+    </style>
+
+    <style name="Helpshift.Style.QuestionsPagerTabStrip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/themes_common.xml -->
     <eat-comment />
 
-    <style name="Theme.Helpshift.Light.DarkActionBar" parent="@android:style/Theme.Light"></style>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes_base.xml -->
+    <style name="Helpshift.Theme.Activity" parent="Helpshift.Theme.Base" />
+
+    <style name="Helpshift.Theme.Base" parent="Helpshift.Theme.Light.DarkActionBar" />
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/themes.xml -->
     <eat-comment />
 
-    <style name="Theme.Helpshift.Translucent" parent="@style/Theme.Helpshift.Base">
+    <style name="Helpshift.Theme.Dark" parent="Helpshift.Compat.Theme.Dark">
+        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_selectable_item_background</item>
+        <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.QuestionsPagerTabStrip</item>
+        <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__questions_pagertabstrip_indicator_dark</item>
+        <item name="hs__actionButtonIconColor">@color/hs__actionbutton_icon_dark</item>
+        <item name="hs__actionButtonNotificationIconColor">@color/hs__actionbutton_notification_icon_dark</item>
+        <item name="hs__actionButtonNotificationTextColor">@color/hs__actionbutton_notification_text_dark</item>
+        <item name="hs__buttonCompoundDrawableIconColor">@color/hs__button_compound_drawable_icon_dark</item>
+        <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_dark</item>
+        <item name="hs__sendMessageButtonActiveIconColor">@color/hs__send_message_button_active_icon_dark</item>
+        <item name="hs__attachScreenshotActionButtonIcon">@drawable/hs__attach_screenshot_action_button</item>
+        <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
+        <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
+        <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_dark</item>
+        <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_dark</item>
+        <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_dark</item>
+        <item name="hs__faqHelpfulButtonTextColor">@color/hs__question_helpful_button_text_dark</item>
+        <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__question_unhelpful_button_text_dark</item>
+        <item name="hs__messagesTextColor">@color/hs__messages_text_dark</item>
+        <item name="hs__contentSeparatorColor">@color/hs__separator_dark</item>
+        <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_dark</item>
+        <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_dark</item>
+        <item name="hs__attachScreenshotButtonIconColor">@color/hs__attach_screenshot_button_icon_dark</item>
+        <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_dark</item>
+        <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
+        <item name="hs__conversationActionButtonIcon">@drawable/hs__chat_new</item>
+        <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
+        <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
+        <item name="hs__searchOnNewConversationDoneActionButtonIcon">@drawable/hs__search_on_conversation_done</item>
+        <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_dark</item>
+        <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_dark</item>
+        <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
+        <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
+        <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
+        <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
+        <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_dark</item>
+    </style>
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/themes_common.xml -->
+    <eat-comment />
+
+    <style name="Helpshift.Theme.Dialog" parent="Helpshift.Theme.Base">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -247,16 +468,83 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/hs__themes.xml -->
+    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values/themes.xml -->
     <eat-comment />
 
-    <style name="Widget.Helpshift.Base.ActionBar.TabText" parent="">
-        <item name="android:textAppearance">@null</item>
-        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:maxLines">2</item>
+    <style name="Helpshift.Theme.Light" parent="Helpshift.Compat.Theme.Light">
+        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_selectable_item_background</item>
+        <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.QuestionsPagerTabStrip</item>
+        <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__questions_pagertabstrip_indicator_light</item>
+        <item name="hs__actionButtonIconColor">@color/hs__actionbutton_icon_light</item>
+        <item name="hs__actionButtonNotificationIconColor">@color/hs__actionbutton_notification_icon_light</item>
+        <item name="hs__actionButtonNotificationTextColor">@color/hs__actionbutton_notification_text_light</item>
+        <item name="hs__buttonCompoundDrawableIconColor">@color/hs__button_compound_drawable_icon_light</item>
+        <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_light</item>
+        <item name="hs__sendMessageButtonActiveIconColor">@color/hs__send_message_button_active_icon_light</item>
+        <item name="hs__attachScreenshotActionButtonIcon">@drawable/hs__attach_screenshot_action_button</item>
+        <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
+        <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
+        <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_light</item>
+        <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_light</item>
+        <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_light</item>
+        <item name="hs__faqHelpfulButtonTextColor">@color/hs__question_helpful_button_text_light</item>
+        <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__question_unhelpful_button_text_light</item>
+        <item name="hs__messagesTextColor">@color/hs__messages_text_light</item>
+        <item name="hs__contentSeparatorColor">@color/hs__separator_light</item>
+        <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_light</item>
+        <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_light</item>
+        <item name="hs__attachScreenshotButtonIconColor">@color/hs__attach_screenshot_button_icon_light</item>
+        <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_light</item>
+        <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
+        <item name="hs__conversationActionButtonIcon">@drawable/hs__chat_new</item>
+        <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
+        <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
+        <item name="hs__searchOnNewConversationDoneActionButtonIcon">@drawable/hs__search_on_conversation_done</item>
+        <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_light</item>
+        <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_light</item>
+        <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
+        <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
+        <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
+        <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
+        <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
+    </style>
+
+    <style name="Helpshift.Theme.Light.DarkActionBar" parent="Helpshift.Compat.Theme.Light.DarkActionBar">
+        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_selectable_item_background</item>
+        <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.QuestionsPagerTabStrip</item>
+        <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__questions_pagertabstrip_indicator_dark</item>
+        <item name="hs__actionButtonIconColor">@color/hs__actionbutton_icon_dark</item>
+        <item name="hs__actionButtonNotificationIconColor">@color/hs__actionbutton_notification_icon_dark</item>
+        <item name="hs__actionButtonNotificationTextColor">@color/hs__actionbutton_notification_text_dark</item>
+        <item name="hs__buttonCompoundDrawableIconColor">@color/hs__button_compound_drawable_icon_light</item>
+        <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_light</item>
+        <item name="hs__sendMessageButtonActiveIconColor">@color/hs__send_message_button_active_icon_light</item>
+        <item name="hs__attachScreenshotActionButtonIcon">@drawable/hs__attach_screenshot_action_button</item>
+        <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
+        <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
+        <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_light</item>
+        <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_light</item>
+        <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_light</item>
+        <item name="hs__faqHelpfulButtonTextColor">@color/hs__question_helpful_button_text_light</item>
+        <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__question_unhelpful_button_text_light</item>
+        <item name="hs__messagesTextColor">@color/hs__messages_text_light</item>
+        <item name="hs__contentSeparatorColor">@color/hs__separator_light</item>
+        <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_light</item>
+        <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_light</item>
+        <item name="hs__attachScreenshotButtonIconColor">@color/hs__attach_screenshot_button_icon_light</item>
+        <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_light</item>
+        <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
+        <item name="hs__conversationActionButtonIcon">@drawable/hs__chat_new</item>
+        <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
+        <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
+        <item name="hs__searchOnNewConversationDoneActionButtonIcon">@drawable/hs__search_on_conversation_done</item>
+        <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_light</item>
+        <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_light</item>
+        <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
+        <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
+        <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
+        <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
+        <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
     </style>
 
 </resources>

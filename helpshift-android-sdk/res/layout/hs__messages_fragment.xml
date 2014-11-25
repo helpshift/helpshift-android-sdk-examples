@@ -55,14 +55,16 @@
           android:id="@android:id/custom"
           android:layout_width="fill_parent"
           android:layout_height="1dp"
-          android:background="@android:color/darker_gray"
-          android:alpha="0.5"/>
+          android:background="?attr/hs__contentSeparatorColor"
+          />
 
       <LinearLayout
           android:layout_width="match_parent"
-          android:layout_height="wrap_content" >
+          android:layout_height="wrap_content"
+          android:splitMotionEvents="false" >
 
         <ImageButton
+            android:contentDescription="@string/hs__unsolved_btn"
             android:text="@string/hs__unsolved_btn"
             android:id="@android:id/button2"
             android:layout_width="0dp"
@@ -76,10 +78,11 @@
         <View
             android:layout_height="fill_parent"
             android:layout_width="1dp"
-            android:background="@android:color/darker_gray"
-            android:alpha="0.5" />
+            android:background="?attr/hs__contentSeparatorColor"
+            />
 
         <ImageButton
+            android:contentDescription="@string/hs__solved_btn"
             android:text="@string/hs__solved_btn"
             android:id="@android:id/button1"
             android:layout_width="0dp"
@@ -104,10 +107,10 @@
       android:gravity="center" >
 
     <View
-        android:background="@color/hs__light_horizontal_stub_bg"
+        android:background="?attr/hs__contentSeparatorColor"
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:alpha="0.5" />
+        />
 
     <ViewStub
       android:id="@+id/csat_view_stub"
@@ -116,21 +119,20 @@
       android:layout_height="wrap_content" />
 
     <Button
+        style="?attr/hs__contactUsButtonStyle"
         android:text="@string/hs__new_conversation_btn"
         android:id="@+id/hs__new_conversation_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:drawableLeft="@drawable/hs__report_issue"
         />
   </LinearLayout>
 
   <View
-      android:background="@color/hs__light_horizontal_stub_bg"
+      android:background="?attr/hs__contentSeparatorColor"
       android:id="@+id/textView1"
       android:layout_width="fill_parent"
       android:layout_height="1dp"
       android:layout_above="@+id/relativeLayout1"
-      android:alpha="0.5" />
+      />
 
   <RelativeLayout
       android:id="@+id/relativeLayout1"
@@ -154,6 +156,7 @@
         android:layout_alignBaseline="@+id/hs__sendMessageBtn" />
 
     <ImageButton
+        android:contentDescription="@string/hs__send_msg_btn"
         android:id="@+id/hs__sendMessageBtn"
         android:background="?attr/hs__selectableItemBackground"
         android:src="@drawable/hs__send"

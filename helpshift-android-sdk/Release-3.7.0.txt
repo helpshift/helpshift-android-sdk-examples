@@ -1,4 +1,4 @@
-Helpshift SDK 3.6.0 Release Notes (for Android)
+Helpshift SDK 3.7.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,13 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.7.0 Release Date: November 25, 2014
+      * Update the theming capabilities for the SDK.
+      * Add accessibility labels for all the SDK actions.
+      * Add Helpshift delegate for tracking begin and end sessions.
+      * Remove BuildConfig.class from Helpshift.jar to avoid conflict.
+      * Bug fixes
+      * UI fixes
 3.6.0 Release Date: October 07, 2014
       * Added an API option "showSearchOnNewConversation", which will enhance ticket avoidance by providing him list of FAQs that may relate to the issue that he is having.
       * Added an API option "enableFullPrivacy", which when set enables full privacy controls for the SDK including - not having an attach screenshot button, not sending personally identifiable information in meta-data etc.

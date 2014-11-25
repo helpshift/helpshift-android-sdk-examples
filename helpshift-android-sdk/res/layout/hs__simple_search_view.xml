@@ -16,7 +16,7 @@
         android:hint="@string/hs__search_hint"
         android:paddingRight="40dp"
         android:visibility="gone"
-        android:textColor="@color/hs__actionBarTextColorPrimary"
+        android:textColor="?attr/hs__actionBarCompatTextColorPrimary"
         android:singleLine="true" />
 
     <ImageButton
@@ -27,14 +27,14 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:layout_gravity="right|center_vertical"
-        android:background="@drawable/hs__actionbar_compat_item"
+        android:background="@drawable/hs__actionbar_compat_selectable_item_background"
         android:visibility="gone" />
   </FrameLayout>
 
   <ImageButton
       style="@style/HSActionBarCompatItemBase"
       android:id="@+id/hs__search_button"
-      android:src="@drawable/hs__action_search"
+      android:src="?attr/hs__searchActionButtonIcon"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:paddingRight="8dip"

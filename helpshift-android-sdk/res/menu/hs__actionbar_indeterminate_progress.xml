@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@android:id/progress"
+        android:actionLayout="@layout/hs__actionbar_indeterminate_progress"
+        android:visible="false"
+        android:enabled="false"
+        android:showAsAction="always"
+        android:title=""/>
+
+</menu><!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/menu/hs__actionbar_indeterminate_progress.xml -->
