@@ -16,13 +16,13 @@
       <dependency>
         <groupId>com.helpshift</groupId>
         <artifactId>android-lib</artifactId>
-        <version>3.7.0</version>
+        <version>3.7.1</version>
         <type>apklib</type>
       </dependency>
       <dependency>
         <groupId>android.support</groupId>
         <artifactId>compatibility-v4</artifactId>
-        <version>21</version>
+        <version>20.0.0</version>
       </dependency>
     </dependencies>
         <build>

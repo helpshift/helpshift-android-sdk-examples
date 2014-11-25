@@ -47,9 +47,11 @@
             android:theme="@style/Helpshift.Theme.Dialog" />
         <activity
             android:name="com.helpshift.ScreenshotPreviewActivity"
+            android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Activity" />
         <activity
             android:name="com.helpshift.SearchResultActivity"
+            android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Activity" />
 
         <service
