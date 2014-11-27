@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="custom_theme_color">#ffd7dadd</color>
+  <color name="custom_action_bar_background">#ff708aec</color>
+  <color name="actionBarTextColor">#ffffffff</color>
+  <color name="hs__questions_pagertabstrip_background_light">#ffd7dadd</color>
+  <color name="hs__questions_pagertabstrip_text_light">#ff020303</color>
+  <color name="hs__questions_pagertabstrip_indicator_light">#ff50b3ec</color>
+  <color name="hs__actionbutton_icon_light">#ff8a030e</color>
+  <color name="hs__actionbutton_notification_icon_light">#ff8a030e</color>
+  <color name="hs__actionbutton_notification_text_light">#ffffffff</color>
+  <color name="hs__button_compound_drawable_icon_light">#ff5070ec</color>
+  <color name="hs__send_message_button_icon_light">#ff88888d</color>
+  <color name="hs__send_message_button_active_icon_light">#ff5070ec</color>
+  <color name="hs__question_footer_background_light">#ffa9b1ec</color>
+  <color name="hs__accept_button_icon_light">#ff14560e</color>
+  <color name="hs__reject_button_icon_light">#fffb0c0f</color>
+  <color name="hs__question_helpful_button_text_light">#ff14560e</color>
+  <color name="hs__question_unhelpful_button_text_light">#fffb0c0f</color>
+  <color name="hs__messages_text_light">#ff020303</color>
+  <color name="hs__separator_light">#ff94969c</color>
+  <color name="hs__faq_footer_separator_light">#ff141671</color>
+  <color name="hs__chat_bubble_separator_light">#ff6e6f71</color>
+  <color name="hs__attach_screenshot_button_icon_light">#ff5675d6</color>
+  <color name="hs__review_button_icon_light">#ff5675d6</color>
+  <color name="hs__admin_chat_bubble_light">#ffc3f0ff</color>
+  <color name="hs__user_chat_bubble_light">#ffeaf5be</color>
+  <color name="hs__csat_dialog_background_color_light">#ffd7dadd</color>
+
+</resources>
