@@ -3,5 +3,3 @@
 /.idea
 .DS_Store
 /build
-settings.gradle
-gradle.properties
