@@ -15,10 +15,10 @@ public class DemoActivity extends ActionBarActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_demo);
     Helpshift.install(getApplication(),
-        "518c9d6472a68a2ab99a42c26567e24f",
-        "test.helpshift.com",
-        "test_platform_20121108053758969-8f405d202ca65d5");
-    android.util.Log.d("daniel", Helpshift.libraryVersion + " - is the version for gradle");
+        "<your api key>",
+        "<your domain>",
+        "<your app id>");
+    android.util.Log.d("Helpshift", Helpshift.libraryVersion + " - is the version for gradle");
 
     Button helpButton = (Button) findViewById(R.id.help);
     helpButton.setOnClickListener(new View.OnClickListener() {
