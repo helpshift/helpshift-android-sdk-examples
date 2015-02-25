@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-sl/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Ocenjeno vam storitve z 1 zvezdico.</item>
+    <item quantity="other">Ocenjeno vam storitve z %d zvezd.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Novo sporočilo od Podpora</item>
+    <item quantity="other">% d novih sporočil od Podpora</item>
+  </plurals>
+    <string name="hs__attach_btn">Ok, priložite</string>
+    <string name="hs__attach_screenshot_btn">priložite Screenshot</string>
+    <string name="hs__ca_msg">Mi\'srečni, da vam pomaga</string>
+    <string name="hs__change_btn">Spremeni</string>
+    <string name="hs__chat_hint">Vnesite sporočilo</string>
+    <string name="hs__confirmation_footer_msg">Hvala za nas sporočil!</string>
+    <string name="hs__confirmation_msg">Ali bomo odgovorili na vsa vaša vprašanja?</string>
+    <string name="hs__contact_us_btn">KONTAKT</string>
+    <string name="hs__conversation_detail_error">Prosimo, opišite vaš problem</string>
+    <string name="hs__conversation_end_msg">Ta pogovor se je končal.</string>
+    <string name="hs__conversation_header">pogovor</string>
+    <string name="hs__conversation_started_message">
+    Vaše sporočilo je bilo prejeto. Hvala za obrnete na nas!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Ne morejo doseči podporo</string>
+    <string name="hs__cr_msg">Kaj vam lahko pomagamo?</string>
+    <string name="hs__csat_additonal_feedback_message">Katera koli druga povratna (neobvezno)</string>
+    <string name="hs__csat_dislike_message">It sovražil!</string>
+    <string name="hs__csat_like_message">Jo ljubil!</string>
+    <string name="hs__csat_message"> Kaj\'s vaše povratne informacije o našem podporo strankam?</string>
+    <string name="hs__csat_option_message">ali</string>
+    <string name="hs__csat_ratingbar">Prosimo, da ocenite naše storitve.</string>
+    <string name="hs__csat_submit_toast">Hvala za nas rating.</string>
+    <string name="hs__data_not_found_msg">Podatkov ni bilo mogoče najti</string>
+    <string name="hs__default_notification_content_title">Podpora</string>
+    <string name="hs__dm_video_loading">Vstavljanje Video…</string>
+    <string name="hs__done_btn">Končano</string>
+    <string name="hs__email_hint">E-pošta (neobvezno)</string>
+    <string name="hs__email_required_hint">E-pošta</string>
+    <string name="hs__empty_section">Žal nam je! Ni vprašanja, ki so na voljo v tem poglavju</string>
+    <string name="hs__faq_header">Pogosta vprašanja</string>
+    <string name="hs__faq_helpful_msg">pomoč</string>
+    <string name="hs__faq_unhelpful_msg">ne zaležejo</string>
+    <string name="hs__faqs_search_footer">Ni najdenih Pogosta vprašanja</string>
+    <string name="hs__faqs_updating">Posodabljanje Pogosta vprašanja…</string>
+    <string name="hs__faqs_updation_failure">Ni uspelo posodobiti Pogosta vprašanja</string>
+    <string name="hs__faqs_uptodate">Pogosta vprašanja up-to-datum</string>
+    <string name="hs__feedback_button">komentar</string>
+    <string name="hs__help_header">Pomaga</string>
+    <string name="hs__invalid_description_error">Neveljaven opis</string>
+    <string name="hs__invalid_email_error">Vnesite veljaven e-mail:</string>
+    <string name="hs__mark_helpful_toast">Vprašanje je bilo označeno kot Koristen</string>
+    <string name="hs__mark_no">NO</string>
+    <string name="hs__mark_unhelpful_toast">Vprašanje je bilo označeno kot ne zaležejo</string>
+    <string name="hs__mark_yes">DA</string>
+    <string name="hs__mark_yes_no_question">Je bilo to v pomoč</string>
+    <string name="hs__network_error_msg">Ups! Nekaj je šlo narobe</string>
+    <string name="hs__network_unavailable_msg">Omrežje ni na voljo.</string>
+    <string name="hs__new_conversation_btn">Začeti nov pogovo</string>
+    <string name="hs__new_conversation_header">New Pogovor</string>
+    <string name="hs__new_conversation_hint">Kaj\'s na pamet?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">
+    Bomo samo vprašati za vaše podatke, ko boste prijavili svojo prvo vprašanje.
+    Za več podrobnosti preberite naša %1$S politika zasebnosti %2$S
+  </string>
+    <string name="hs__question_header">Vprašanje</string>
+    <string name="hs__question_helpful_message">Ste našli to koristno.</string>
+    <string name="hs__question_unhelpful_message">Nistep\'t našli to koristno.</string>
+    <string name="hs__rate_button">stopnja</string>
+    <string name="hs__remove_screenshot_btn">Odstrani Screenshot</string>
+    <string name="hs__review_accepted_message">Accepted zahtevek za pregled</string>
+    <string name="hs__review_btn">Ok, pregledati</string>
+    <string name="hs__review_close_button">Zapri</string>
+    <string name="hs__review_dialog_msg">
+    Bi vas motilo, pri čemer si trenutek, da preberete naša app? Je zmagal\'t trajalo več kot minuto. Hvala za vašo podporo
+  </string>
+    <string name="hs__review_dialog_negative_btn">Nikoli me še enkrat vprašati</string>
+    <string name="hs__review_dialog_neutral_btn">Spomni me pozneje</string>
+    <string name="hs__review_dialog_positive_btn">Oceni in Review</string>
+    <string name="hs__review_message">
+    Če imate radi našo aplikacijo, si vzemite trenutek, da ga oceniti
+  </string>
+    <string name="hs__review_request_message">Bi radi, da pregleda aplikacijo?</string>
+    <string name="hs__review_title">Stopnja Naša App</string>
+    <string name="hs__rsc_progress_msg">pošiljanje screenshot</string>
+    <string name="hs__screenshot_add">Dodaj</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Napaka pritrditev zaslona. Prosimo, da izberete sliko, ki je na voljo lokalno na napravi
+  </string>
+    <string name="hs__screenshot_limit_error">Velikost zaslona naj ne presega %.2f MB</string>
+    <string name="hs__screenshot_remove">odstrani</string>
+    <string name="hs__screenshot_sent_msg">Screenshot poslano</string>
+    <string name="hs__screenshot_upload_error_msg">Napaka pri prenosu screenshot</string>
+    <string name="hs__search_footer">Lahko\'t našli tisto kar ste iskali?</string>
+    <string name="hs__search_hint">Opišite svojo težavo</string>
+    <string name="hs__search_result_message">Vprašanja, ki morda že imajo svoj odgovor</string>
+    <string name="hs__search_result_title">Predlogi</string>
+    <string name="hs__search_title">Iskanje</string>
+    <string name="hs__send_anyway">vseeno poslati</string>
+    <string name="hs__send_msg_btn">Pošlji</string>
+    <string name="hs__sending_fail_msg">Ni podal. Dotaknite se, da poskusite znova.</string>
+    <string name="hs__sending_msg">Pošiljanje…</string>
+    <string name="hs__solved_btn">Da, rešen!</string>
+    <string name="hs__submit_conversation_btn">predloži</string>
+    <string name="hs__unsolved_btn">Ne, nerešeni</string>
+    <string name="hs__username_blank_error">Vnesite veljavno ime</string>
+    <string name="hs__username_hint">Name</string>
+</resources>

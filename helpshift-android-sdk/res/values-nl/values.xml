@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-nl/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">Nieuw bericht van Support</item>
-        <item quantity="other">%d nieuwe berichten van Support</item>
-    </plurals>
-
+    <item quantity="one">Nieuw bericht van Support</item>
+    <item quantity="other">%d nieuwe berichten van Support</item>
+  </plurals>
     <string name="hs__attach_btn">Ok, toevoegen</string>
     <string name="hs__attach_screenshot_btn">Bevestig Screenshot</string>
     <string name="hs__ca_msg">"We helpen je graag!</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">Omschrijf je probleem alsjeblieft.</string>
     <string name="hs__conversation_end_msg">Deze conversatie is beëindigt.</string>
     <string name="hs__conversation_header">Conversatie</string>
-    <string name="hs__conversation_started_message">    Je bericht is ontvangen. Dank voor het contact opnemen met ons!</string>
+    <string name="hs__conversation_started_message">
+    Je bericht is ontvangen. Dank voor het contact opnemen met ons!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Kan ondersteuning niet bereiken</string>
     <string name="hs__cr_msg">Waarmee kunnen we je nog meer helpen?</string>
     <string name="hs__csat_additonal_feedback_message">Enige andere feedback? (Optioneel)</string>
     <string name="hs__csat_dislike_message">Vreselijk</string>
@@ -42,7 +42,7 @@
     <string name="hs__faqs_updating">Actualisering FAQ´s</string>
     <string name="hs__faqs_updation_failure">Updaten veel gestelde vragen niet geslaagd</string>
     <string name="hs__faqs_uptodate">FAQ´s geactualiseerd</string>
-    <string name="hs__feedback_button">Feedback verzenden</string>
+    <string name="hs__feedback_button">Feedback</string>
     <string name="hs__help_header">Help</string>
     <string name="hs__invalid_description_error">Ongeldige omschrijving</string>
     <string name="hs__invalid_email_error">Geef alsjeblieft een geldige email in.</string>
@@ -57,8 +57,10 @@
     <string name="hs__new_conversation_header">Nieuw Gesprek</string>
     <string name="hs__new_conversation_hint">Wat is het probleem?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">    We zullen alleen om je gegevens vragen wanneer je je eerste issue rapporteert.
-    Voor meer informatie raadpleeg ons %1$s privaybeleid %2$s.</string>
+    <string name="hs__privacy_policy">
+    We zullen alleen om je gegevens vragen wanneer je je eerste issue rapporteert.
+    Voor meer informatie raadpleeg ons %1$s privaybeleid %2$s.
+  </string>
     <string name="hs__question_header">Vraag</string>
     <string name="hs__question_helpful_message">Je vond dit nuttig.</string>
     <string name="hs__question_unhelpful_message">Je vond dit niet nuttig.</string>
@@ -66,16 +68,22 @@
     <string name="hs__review_accepted_message">Voorbeeld verzoek geaccepteerd</string>
     <string name="hs__review_btn">OK, beoordelen</string>
     <string name="hs__review_close_button">Sluiten</string>
-    <string name="hs__review_dialog_msg">    Zou je onze app willen beoordelen? Het duurt maar even. Bedankt voor je steun!</string>
+    <string name="hs__review_dialog_msg">
+    Zou je onze app willen beoordelen? Het duurt maar even. Bedankt voor je steun!
+  </string>
     <string name="hs__review_dialog_negative_btn">Vraag het me nooit meer</string>
     <string name="hs__review_dialog_neutral_btn">Herinner me er later aan</string>
     <string name="hs__review_dialog_positive_btn">Waarderen en beoordelen</string>
-    <string name="hs__review_message">    Als je van onze app houdt, beoordeel onze app dan even</string>
+    <string name="hs__review_message">
+    Als je van onze app houdt, beoordeel onze app dan even
+  </string>
     <string name="hs__review_request_message">Wil je de app beoordelen?</string>
     <string name="hs__review_title">Beoordeel onze App</string>
     <string name="hs__rsc_progress_msg">Screenshot aan het zenden.</string>
     <string name="hs__screenshot_add">Toevoegen</string>
-    <string name="hs__screenshot_cloud_attach_error">    Fout bevestigen screenshot. Kies een afbeelding die lokaal beschikbaar zijn op het apparaat.</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Fout bevestigen screenshot. Kies een afbeelding die lokaal beschikbaar zijn op het apparaat.
+  </string>
     <string name="hs__screenshot_limit_error">De schermprint mag niet groter dan %.2f MB zijn.</string>
     <string name="hs__screenshot_remove">Verwijder</string>
     <string name="hs__screenshot_sent_msg">Screenshot verzonden</string>
@@ -94,5 +102,4 @@
     <string name="hs__unsolved_btn">Nee, niet opgelost</string>
     <string name="hs__username_blank_error">Geef alsjeblieft een geldige naam in.</string>
     <string name="hs__username_hint">Naam</string>
-
 </resources>

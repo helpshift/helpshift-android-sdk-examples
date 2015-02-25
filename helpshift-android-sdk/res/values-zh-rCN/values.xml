@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-zh-rCN/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">新的消息支持</item>
-        <item quantity="other">%d 新的消息支持</item>
-    </plurals>
-
+    <item quantity="one">新的消息支持</item>
+    <item quantity="other">%d 新的消息支持</item>
+  </plurals>
     <string name="hs__attach_btn">好，附加</string>
     <string name="hs__attach_screenshot_btn">附上截图</string>
     <string name="hs__ca_msg">我们很乐意帮忙</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">请描述你的问题</string>
     <string name="hs__conversation_end_msg">此会话已结束。</string>
     <string name="hs__conversation_header">会话</string>
-    <string name="hs__conversation_started_message">    你的信息已收到。感谢联系我们！</string>
+    <string name="hs__conversation_started_message">
+    你的信息已收到。感谢联系我们！
+  </string>
+    <string name="hs__could_not_reach_support_msg">无法联系支持人员</string>
     <string name="hs__cr_msg">我们还有什么可以帮到您？</string>
     <string name="hs__csat_additonal_feedback_message">有其他反馈吗？（可选）</string>
     <string name="hs__csat_dislike_message">很不满意</string>
@@ -57,7 +57,9 @@
     <string name="hs__new_conversation_header">新会话</string>
     <string name="hs__new_conversation_hint">有什么问题或反馈吗?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">    我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s</string>
+    <string name="hs__privacy_policy">
+    我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s
+  </string>
     <string name="hs__question_header">问题</string>
     <string name="hs__question_helpful_message">你发现这有帮助。</string>
     <string name="hs__question_unhelpful_message">你发现这无帮助。</string>
@@ -65,16 +67,22 @@
     <string name="hs__review_accepted_message">已接受评价请求</string>
     <string name="hs__review_btn">好，评价</string>
     <string name="hs__review_close_button">关闭</string>
-    <string name="hs__review_dialog_msg">    你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！</string>
+    <string name="hs__review_dialog_msg">
+    你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！
+  </string>
     <string name="hs__review_dialog_negative_btn">不要再问我</string>
     <string name="hs__review_dialog_neutral_btn">稍后提醒我</string>
     <string name="hs__review_dialog_positive_btn">评分并评价</string>
-    <string name="hs__review_message">    如果你喜欢我们的应用，请花点时间在App Store给它评个分</string>
+    <string name="hs__review_message">
+    如果你喜欢我们的应用，请花点时间在App Store给它评个分
+  </string>
     <string name="hs__review_request_message">您要评价本应用吗？</string>
     <string name="hs__review_title">给应用评分</string>
     <string name="hs__rsc_progress_msg">正在发送屏幕截图。</string>
     <string name="hs__screenshot_add">附带</string>
-    <string name="hs__screenshot_cloud_attach_error">    错误附加截图。请选择在设备上可用的图像在本地。</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    错误附加截图。请选择在设备上可用的图像在本地。
+  </string>
     <string name="hs__screenshot_limit_error">截图的大小不应该超过%.2f MB</string>
     <string name="hs__screenshot_remove">辙</string>
     <string name="hs__screenshot_sent_msg">已发送屏幕截图</string>
@@ -93,5 +101,4 @@
     <string name="hs__unsolved_btn">不，未解决</string>
     <string name="hs__username_blank_error">请输入一个有效的名称</string>
     <string name="hs__username_hint">姓名</string>
-
 </resources>

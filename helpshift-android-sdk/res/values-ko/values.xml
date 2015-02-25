@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-ko/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">지원팀이 보낸 새 메시지</item>
-        <item quantity="other">%d 개의 지원팀의 새 메시지</item>
-    </plurals>
-
+    <item quantity="one">지원팀이 보낸 새 메시지</item>
+    <item quantity="other">%d 개의 지원팀의 새 메시지</item>
+  </plurals>
     <string name="hs__attach_btn">예, 첨부</string>
     <string name="hs__attach_screenshot_btn">스크린 샷 첨부하기</string>
     <string name="hs__ca_msg">기꺼이 도와드리겠습니다!</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">당신의 문제를 설명해주세요</string>
     <string name="hs__conversation_end_msg">이 대화는 종료되었습니다.</string>
     <string name="hs__conversation_header">대화</string>
-    <string name="hs__conversation_started_message">    메시지가 수신되었습니다. 연락해주셔서 감사합니다!</string>
+    <string name="hs__conversation_started_message">
+    메시지가 수신되었습니다. 연락해주셔서 감사합니다!
+  </string>
+    <string name="hs__could_not_reach_support_msg">고객 지원에 접속할 수 없습니다</string>
     <string name="hs__cr_msg">다른 도움이 필요한 일이 있으십니까?</string>
     <string name="hs__csat_additonal_feedback_message">다른 의견이 있으신가요? (선택사항)</string>
     <string name="hs__csat_dislike_message">엉망이었어요</string>
@@ -57,7 +57,9 @@
     <string name="hs__new_conversation_header">새로운 대화</string>
     <string name="hs__new_conversation_hint">무슨 생각을 하고 계세요?</string>
     <string name="hs__notification_content_text">답:</string>
-    <string name="hs__privacy_policy">    당신의 정보는 당신이 처음 문제를 신고할 때만 묻습니다. 더 자세한 내용은 저희 %1$s 개인정보보호정책 %2$s을 읽어주세요.</string>
+    <string name="hs__privacy_policy">
+    당신의 정보는 당신이 처음 문제를 신고할 때만 묻습니다. 더 자세한 내용은 저희 %1$s 개인정보보호정책 %2$s을 읽어주세요.
+  </string>
     <string name="hs__question_header">질문</string>
     <string name="hs__question_helpful_message">이 내용은 유용했습니다.</string>
     <string name="hs__question_unhelpful_message">이 내용은 유용하지 않았습니다.</string>
@@ -65,16 +67,22 @@
     <string name="hs__review_accepted_message">리뷰 요청 수락함</string>
     <string name="hs__review_btn">확인, 다시보기</string>
     <string name="hs__review_close_button">닫기</string>
-    <string name="hs__review_dialog_msg">    저희 앱을 평가하는데 시간을 내주시지 않으시겠습니까? 1분 넘게 걸리지 않을 것입니다. 당신의 도움에 감사드립니다!</string>
+    <string name="hs__review_dialog_msg">
+    저희 앱을 평가하는데 시간을 내주시지 않으시겠습니까? 1분 넘게 걸리지 않을 것입니다. 당신의 도움에 감사드립니다!
+  </string>
     <string name="hs__review_dialog_negative_btn">다시 묻지 않기</string>
     <string name="hs__review_dialog_neutral_btn">나중에 다시 보기</string>
     <string name="hs__review_dialog_positive_btn">점수와 평가를 해주세요</string>
-    <string name="hs__review_message">    저희 앱이 마음에 드신다면 시간을 내서 평가를 해주세요</string>
+    <string name="hs__review_message">
+    저희 앱이 마음에 드신다면 시간을 내서 평가를 해주세요
+  </string>
     <string name="hs__review_request_message">앱의 리뷰를 작성하시겠습니까?</string>
     <string name="hs__review_title">앱 평가</string>
     <string name="hs__rsc_progress_msg">스크린샷 전송 중.</string>
     <string name="hs__screenshot_add">부언하다</string>
-    <string name="hs__screenshot_cloud_attach_error">    스크린 샷을 첨부 오류가 발생했습니다. 장치에 로컬로 사용할 이미지를 선택하십시오.</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    스크린 샷을 첨부 오류가 발생했습니다. 장치에 로컬로 사용할 이미지를 선택하십시오.
+  </string>
     <string name="hs__screenshot_limit_error">스크린샷 사이즈는 %.2f MB를 넘을 수 없습니다</string>
     <string name="hs__screenshot_remove">제거하다</string>
     <string name="hs__screenshot_sent_msg">스크린샷 전송됨</string>
@@ -93,5 +101,4 @@
     <string name="hs__unsolved_btn">아니오, 해결되지 않았습니다.</string>
     <string name="hs__username_blank_error">유효한 이름을 입력해주세요</string>
     <string name="hs__username_hint">이름</string>
-
 </resources>

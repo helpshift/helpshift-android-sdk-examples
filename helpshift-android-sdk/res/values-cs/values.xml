@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Naši službu jste ohodnotili 1 hvězdičkou.</item>
+    <item quantity="other">Naši službu jste ohodnotili %d hvězdičkami.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Nová zpráva od podpory</item>
+    <item quantity="other">%d nové zprávy od podpory</item>
+  </plurals>
+    <string name="hs__attach_btn">Ok, přiložit</string>
+    <string name="hs__attach_screenshot_btn">Přiložit snímek</string>
+    <string name="hs__ca_msg">Rádi Vám pomůžeme!</string>
+    <string name="hs__change_btn">Změnit</string>
+    <string name="hs__chat_hint">Napište zprávu</string>
+    <string name="hs__confirmation_footer_msg">Děkujeme, že jste nám napsali!</string>
+    <string name="hs__confirmation_msg">Zodpověděli jsme všechny Vaše dotazy?</string>
+    <string name="hs__contact_us_btn">KONTAKTUJTE NÁS</string>
+    <string name="hs__conversation_detail_error">Popište prosím svůj problém</string>
+    <string name="hs__conversation_end_msg">Tento rozhovor skončil.</string>
+    <string name="hs__conversation_header">Rozhovor</string>
+    <string name="hs__conversation_started_message">
+    Vaši zprávu jsme obdrželi. Děkujeme, že jste se na nás obrátili!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Nepodařilo se kontaktovat podporu</string>
+    <string name="hs__cr_msg">S čím Vám ještě můžeme pomoci?</string>
+    <string name="hs__csat_additonal_feedback_message">Další zpětná vazba (volitelná)</string>
+    <string name="hs__csat_dislike_message">Nelíbila se mi!</string>
+    <string name="hs__csat_like_message">Líbila se mi!</string>
+    <string name="hs__csat_message">Jak hodnotíte naši zákaznickou podporu?</string>
+    <string name="hs__csat_option_message">nebo</string>
+    <string name="hs__csat_ratingbar">Ohodnoťte prosím naši službu.</string>
+    <string name="hs__csat_submit_toast">Děkujeme za hodnocení.</string>
+    <string name="hs__data_not_found_msg">Data nenalezena</string>
+    <string name="hs__default_notification_content_title">Podpora</string>
+    <string name="hs__dm_video_loading">Nahrávám video…</string>
+    <string name="hs__done_btn">Hotovo</string>
+    <string name="hs__email_hint">E-mail (volitelné)</string>
+    <string name="hs__email_required_hint">E-mail</string>
+    <string name="hs__empty_section">Je nám líto! V této sekci nejsou žádné otázky.</string>
+    <string name="hs__faq_header">FAQ</string>
+    <string name="hs__faq_helpful_msg">Užitečné</string>
+    <string name="hs__faq_unhelpful_msg">Neužitečné</string>
+    <string name="hs__faqs_search_footer">Žádné časté dotazy nenalezeny.</string>
+    <string name="hs__faqs_updating">Aktualizace častých dotazů…</string>
+    <string name="hs__faqs_updation_failure">Nepodařilo se aktualizovat časté dotazy</string>
+    <string name="hs__faqs_uptodate">Časté dotazy aktuální</string>
+    <string name="hs__feedback_button">Zpětná vazba</string>
+    <string name="hs__help_header">Pomoc</string>
+    <string name="hs__invalid_description_error">Neplatný popis</string>
+    <string name="hs__invalid_email_error">Zadejte prosím platný e-mail</string>
+    <string name="hs__mark_helpful_toast">Otázka byla označena za užitečnou</string>
+    <string name="hs__mark_no">NE</string>
+    <string name="hs__mark_unhelpful_toast">Otázka byla označena za neužitečnou</string>
+    <string name="hs__mark_yes">ANO</string>
+    <string name="hs__mark_yes_no_question">Pomohlo to?</string>
+    <string name="hs__network_error_msg">Ouvej! Něco se nezdařilo</string>
+    <string name="hs__network_unavailable_msg">Síť není dostupná</string>
+    <string name="hs__new_conversation_btn">ZAČÍT NOVÝ ROZHOVOR</string>
+    <string name="hs__new_conversation_header">Nový rozhovor</string>
+    <string name="hs__new_conversation_hint">Co si přejete sdělit?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">
+    Budeme po Vás požadovat podrobné údaje pouze při hlášení prvního problému. Pro více informací si přečtěte o %1$s ochraně soukromí %2$s
+  </string>
+    <string name="hs__question_header">Otázka</string>
+    <string name="hs__question_helpful_message">Pokládáte za užitečné.</string>
+    <string name="hs__question_unhelpful_message">Nepokládáte za užitečné.</string>
+    <string name="hs__rate_button">Ohodnotit</string>
+    <string name="hs__remove_screenshot_btn">Odstranit snímek</string>
+    <string name="hs__review_accepted_message">Přijat požadavek na ohodnocení</string>
+    <string name="hs__review_btn">Ok, ověřit</string>
+    <string name="hs__review_close_button">Zavřít</string>
+    <string name="hs__review_dialog_msg">
+    Můžeme Vás poprosit o chvilku na ohodnocení naší aplikace? Nezabere to déle než minutu. Děkujeme za Vaši přízeň!
+  </string>
+    <string name="hs__review_dialog_negative_btn">Již se znovu neptat</string>
+    <string name="hs__review_dialog_neutral_btn">Připomenout později</string>
+    <string name="hs__review_dialog_positive_btn">Ohodnotit a ověřit</string>
+    <string name="hs__review_message">
+    Pokud se Vám naše aplikace líbila, prosíme ohodnoťte ji
+  </string>
+    <string name="hs__review_request_message">Chtěli byste ohodnotit tuto aplikaci?</string>
+    <string name="hs__review_title">Ohodnoťte tuto aplikaci</string>
+    <string name="hs__rsc_progress_msg">Odesílám snímek.</string>
+    <string name="hs__screenshot_add">Přidat</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Chyba při přidávání snímku. Zvolte prosím obrázek umístěný v tomto zařízení.
+  </string>
+    <string name="hs__screenshot_limit_error">Velikost snímku nesmí překročit %.2f MB</string>
+    <string name="hs__screenshot_remove">Odstranit</string>
+    <string name="hs__screenshot_sent_msg">Snímek odeslán</string>
+    <string name="hs__screenshot_upload_error_msg">Chyba při nahrávání snímku</string>
+    <string name="hs__search_footer">Nemůžete najít, co hledáte?</string>
+    <string name="hs__search_hint">Popište svůj problém</string>
+    <string name="hs__search_result_message">Otázky, které již možná mají Vaši odpověď</string>
+    <string name="hs__search_result_title">Návrhy</string>
+    <string name="hs__search_title">Hledat</string>
+    <string name="hs__send_anyway">PŘESTO POSLAT</string>
+    <string name="hs__send_msg_btn">Poslat</string>
+    <string name="hs__sending_fail_msg">Nedoručeno. Klepněte sem a zkuste to znovu.</string>
+    <string name="hs__sending_msg">Odesílám…</string>
+    <string name="hs__solved_btn">Ano, vyřešeno!</string>
+    <string name="hs__submit_conversation_btn">Podat</string>
+    <string name="hs__unsolved_btn">Ne, nevyřešeno</string>
+    <string name="hs__username_blank_error">Zadejte prosím platné jméno</string>
+    <string name="hs__username_hint">Jméno</string>
+</resources>

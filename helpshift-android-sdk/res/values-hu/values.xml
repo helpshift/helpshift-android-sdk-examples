@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-hu/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">A szolgáltatásunkat 1 csillagra értékelte.</item>
+    <item quantity="other">A szolgáltatásunkat %d csillagra értékelte.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Új üzenet az Ügyfélszolgálattól</item>
+    <item quantity="other">%d új üzenet az Ügyfélszolgálattól</item>
+  </plurals>
+    <string name="hs__attach_btn">Ok, csatolja</string>
+    <string name="hs__attach_screenshot_btn">Képernyőkép Csatolása</string>
+    <string name="hs__ca_msg">Szívesen segítünk!</string>
+    <string name="hs__change_btn">Módosítás</string>
+    <string name="hs__chat_hint">Írja le az üzenetét</string>
+    <string name="hs__confirmation_footer_msg">Köszönjük, hogy üzent nekünk!</string>
+    <string name="hs__confirmation_msg">Megválaszoltuk minden kérdését?</string>
+    <string name="hs__contact_us_btn">KAPCSOLAT</string>
+    <string name="hs__conversation_detail_error">Kérjük, írja le a problémáját</string>
+    <string name="hs__conversation_end_msg">Ez a beszélgetés befejeződött.</string>
+    <string name="hs__conversation_header">Beszélgetés</string>
+    <string name="hs__conversation_started_message">
+    Megkaptuk az üzenetét. Köszönjük, hogy kapcsolatba lépett velünk!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Az ügyfélszolgálat nem elérhető</string>
+    <string name="hs__cr_msg">Miben segíthetünk még?</string>
+    <string name="hs__csat_additonal_feedback_message">Egyéb visszajelzés (opcionális)</string>
+    <string name="hs__csat_dislike_message">Utáltam!</string>
+    <string name="hs__csat_like_message">Imádtam!</string>
+    <string name="hs__csat_message">Mi a visszajelzése az ügyfélszolgálatunkról?</string>
+    <string name="hs__csat_option_message">vagy</string>
+    <string name="hs__csat_ratingbar">Kérjük, értékelje a szolgáltatásunkat.</string>
+    <string name="hs__csat_submit_toast">Köszönjük az értékelését.</string>
+    <string name="hs__data_not_found_msg">Az adat nem található</string>
+    <string name="hs__default_notification_content_title">Ügyfélszolgálat</string>
+    <string name="hs__dm_video_loading">Videó Betöltése…</string>
+    <string name="hs__done_btn">Kész</string>
+    <string name="hs__email_hint">E-mail (opcionális)</string>
+    <string name="hs__email_required_hint">E-mail</string>
+    <string name="hs__empty_section">Sajnáljuk! Nincs elérhető kérdés ebben a szekcióban.</string>
+    <string name="hs__faq_header">GYIK</string>
+    <string name="hs__faq_helpful_msg">Hasznos</string>
+    <string name="hs__faq_unhelpful_msg">Nem Hasznos</string>
+    <string name="hs__faqs_search_footer">Nem található GYIK.</string>
+    <string name="hs__faqs_updating">GYIK frissítése…</string>
+    <string name="hs__faqs_updation_failure">GYIK frissítése sikertelen</string>
+    <string name="hs__faqs_uptodate">GYIK naprakész</string>
+    <string name="hs__feedback_button">Visszajelzés</string>
+    <string name="hs__help_header">Segítség</string>
+    <string name="hs__invalid_description_error">Érvénytelen leírás</string>
+    <string name="hs__invalid_email_error">Adjon meg egy érvényes e-mail címet</string>
+    <string name="hs__mark_helpful_toast">Hasznosnak jelölt kérdés</string>
+    <string name="hs__mark_no">NEM</string>
+    <string name="hs__mark_unhelpful_toast">Nem Hasznosnak jelölt kérdés</string>
+    <string name="hs__mark_yes">IGEN</string>
+    <string name="hs__mark_yes_no_question">Hasznos volt az információ?</string>
+    <string name="hs__network_error_msg">Hoppá! Valami rosszul sült el</string>
+    <string name="hs__network_unavailable_msg">A hálózat nem elérhető.</string>
+    <string name="hs__new_conversation_btn">ÚJ BESZÉLGETÉS INDÍTÁSA</string>
+    <string name="hs__new_conversation_header">Új beszélgetés</string>
+    <string name="hs__new_conversation_hint">Mi jár a fejében?</string>
+    <string name="hs__notification_content_text">V:</string>
+    <string name="hs__privacy_policy">
+    Csak az első probléma jelentésekor kérjük az adatait. További részletekért olvassa el %1$s az adatvédelmi politikánkat %2$s
+  </string>
+    <string name="hs__question_header">Kérdés</string>
+    <string name="hs__question_helpful_message">Hasznosnak találta.</string>
+    <string name="hs__question_unhelpful_message">Nem találta hasznosnak.</string>
+    <string name="hs__rate_button">Értékel</string>
+    <string name="hs__remove_screenshot_btn">Képernyőkép Eltávolítása</string>
+    <string name="hs__review_accepted_message">Értékelési kérelem elfogadva</string>
+    <string name="hs__review_btn">Ok, véleményezze</string>
+    <string name="hs__review_close_button">Bezárás</string>
+    <string name="hs__review_dialog_msg">
+    Szánna rá egy percet, hogy véleményezze az alkalmazásunkat? Nem vesz igénybe több, mint egy percet. Köszönjük a támogatását!
+  </string>
+    <string name="hs__review_dialog_negative_btn">Never ask me again</string>
+    <string name="hs__review_dialog_neutral_btn">Emlékeztessen később</string>
+    <string name="hs__review_dialog_positive_btn">Értékelje és Véleményezze</string>
+    <string name="hs__review_message">
+    Ha tetszik az alkalmazásunk, szánjon egy kis időt rá, hogy értékelje
+  </string>
+    <string name="hs__review_request_message">Szeretné értékelni az alkalmazást?</string>
+    <string name="hs__review_title">Értékelje az Alkalmazásunkat</string>
+    <string name="hs__rsc_progress_msg">Képernyőkép küldése.</string>
+    <string name="hs__screenshot_add">Hozzáadás</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Hiba a képernyőkép csatolása közben. Kérjük, válasszon egy képet, amely helyileg elérhető a készüléken.
+  </string>
+    <string name="hs__screenshot_limit_error">A képernyőkép nem lehet nagyobb, mint %.2f MB</string>
+    <string name="hs__screenshot_remove">Eltávolítás</string>
+    <string name="hs__screenshot_sent_msg">Képernyőkép elküldve</string>
+    <string name="hs__screenshot_upload_error_msg">Hiba a képernyőkép feltöltése közben</string>
+    <string name="hs__search_footer">Nem találja amit keres?</string>
+    <string name="hs__search_hint">Írja le a problémáját</string>
+    <string name="hs__search_result_message">Kérdések, amelyek esetleg megválaszolják a kérdését</string>
+    <string name="hs__search_result_title">Javaslatok</string>
+    <string name="hs__search_title">Keresés</string>
+    <string name="hs__send_anyway">KÜLDÉS MINDENKÉPPEN</string>
+    <string name="hs__send_msg_btn">Küldés</string>
+    <string name="hs__sending_fail_msg">Nincs elküldve. Érintse újra az elküldéshez.</string>
+    <string name="hs__sending_msg">Küldés…</string>
+    <string name="hs__solved_btn">Igen, megoldott!</string>
+    <string name="hs__submit_conversation_btn">Elküldés</string>
+    <string name="hs__unsolved_btn">Nem, megoldatlan</string>
+    <string name="hs__username_blank_error">Kérjük, adjon meg egy érvényes nevet</string>
+    <string name="hs__username_hint">Név</string>
+</resources>

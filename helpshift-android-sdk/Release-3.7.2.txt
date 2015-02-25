@@ -1,16 +1,22 @@
-Helpshift SDK 3.7.1 Release Notes (for Android)
+Helpshift SDK 3.7.2 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
 Helpshift SDK for Android is required for having Helpshift support running on native apps.
 
 Requirements:
-App must be running on any version between android-8 to android-20 (Android 2.2 to Android 5.0).
+App must be running on any version between android-8 to android-21 (Android 2.2 to Android 5.0).
 
 Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.7.2 Release Date: February 24, 2015
+      * Add support for sound, vibration and light in notification.
+      * FIX Do not allow movie files to be attached in conversations.
+      * FIX Add compatibility for Honeycomb ActionBar.
+      * Add string translations for Traditional Chinese, Slovenian, Hungarian, Czech, Indonesian, Vietnamese, Thai languages.
+      * FIX Use HttpUrlConnection to fix conflict with OkHTTP library.
 3.7.1 Release Date: December 04, 2014
       * Bug fixes for the Session delegates code
       * Bug fixes

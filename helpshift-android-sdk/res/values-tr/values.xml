@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-tr/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">Destek\'ten yeni mesajınız var</item>
-        <item quantity="other">%d Destek\'ten yeni mesajlarınız var</item>
-    </plurals>
-
+    <item quantity="one">Destek\'ten yeni mesajınız var</item>
+    <item quantity="other">%d Destek\'ten yeni mesajlarınız var</item>
+  </plurals>
     <string name="hs__attach_btn">Tamam, ekle</string>
     <string name="hs__attach_screenshot_btn">görüntüsü iliştirmek</string>
     <string name="hs__ca_msg">Yardımcı olmaktan memnuniyet duyacağız!</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">Lütfen sorununuzu açıklayın.</string>
     <string name="hs__conversation_end_msg">Bu konuşma sona erdi.</string>
     <string name="hs__conversation_header">Sohbet</string>
-    <string name="hs__conversation_started_message">    Mesajınız alındı. Bize ulaştığınız için teşekkür ederiz!</string>
+    <string name="hs__conversation_started_message">
+    Mesajınız alındı. Bize ulaştığınız için teşekkür ederiz!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Desteğe ulaşılamadı</string>
     <string name="hs__cr_msg">Size başka nasıl yardımcı olabiliriz?</string>
     <string name="hs__csat_additonal_feedback_message">Başka bir geribildirim? (isteğe bağlı)</string>
     <string name="hs__csat_dislike_message">Hiç beğenmedim</string>
@@ -42,7 +42,7 @@
     <string name="hs__faqs_updating">SSS güncelleniyor</string>
     <string name="hs__faqs_updation_failure">SSS\'ler güncellenmedi</string>
     <string name="hs__faqs_uptodate">SSS güncellendi</string>
-    <string name="hs__feedback_button">Geri Bildirim Gönder</string>
+    <string name="hs__feedback_button">Geri Besleme</string>
     <string name="hs__help_header">Yardım</string>
     <string name="hs__invalid_description_error">Geçersiz açıklama</string>
     <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi girin</string>
@@ -57,8 +57,10 @@
     <string name="hs__new_conversation_header">Yeni Sohbet</string>
     <string name="hs__new_conversation_hint">Bize ne danışmak istiyorsunuz?</string>
     <string name="hs__notification_content_text">Yanıt:</string>
-    <string name="hs__privacy_policy">    Sizden yalnızca ilk sorununuzu bildirdiğinizde bilgilerinizi isteriz.
-    Daha fazla bilgi için %1$s gizlilik politikamızı %2$s okuyun.</string>
+    <string name="hs__privacy_policy">
+    Sizden yalnızca ilk sorununuzu bildirdiğinizde bilgilerinizi isteriz.
+    Daha fazla bilgi için %1$s gizlilik politikamızı %2$s okuyun.
+  </string>
     <string name="hs__question_header">Soru</string>
     <string name="hs__question_helpful_message">Bu bilgiyi faydalı buldunuz.</string>
     <string name="hs__question_unhelpful_message">Bu bilgiyi faydalı bulmadınız.</string>
@@ -66,17 +68,23 @@
     <string name="hs__review_accepted_message">Değerlendirme isteği kabul edildi</string>
     <string name="hs__review_btn">Peki, incele</string>
     <string name="hs__review_close_button">Kapat</string>
-    <string name="hs__review_dialog_msg">    Uygulamamızı değerlendirmek için biraz vaktinizi ayırır mısınız? Bir dakikadan fazla sürmez. Desteğiniz
-    için teşekkürler!</string>
+    <string name="hs__review_dialog_msg">
+    Uygulamamızı değerlendirmek için biraz vaktinizi ayırır mısınız? Bir dakikadan fazla sürmez. Desteğiniz
+    için teşekkürler!
+  </string>
     <string name="hs__review_dialog_negative_btn">Bir daha sorma</string>
     <string name="hs__review_dialog_neutral_btn">Sonra hatırlat</string>
     <string name="hs__review_dialog_positive_btn">Puanla ve Yorum Yaz</string>
-    <string name="hs__review_message">    Uygulamamızı sevdiyseniz, lütfen oylamak için bir dakikanızı ayırın</string>
+    <string name="hs__review_message">
+    Uygulamamızı sevdiyseniz, lütfen oylamak için bir dakikanızı ayırın
+  </string>
     <string name="hs__review_request_message">Uygulamayı incelemek ister misiniz?</string>
     <string name="hs__review_title">Uygulamamıza puan verin</string>
     <string name="hs__rsc_progress_msg">Ekran görüntüsü gönderiliyor...</string>
     <string name="hs__screenshot_add">Ekle</string>
-    <string name="hs__screenshot_cloud_attach_error">    Ekran bağlama hatası.Cihazda mevcut yerel bir resim seçiniz.</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Ekran bağlama hatası.Cihazda mevcut yerel bir resim seçiniz.
+  </string>
     <string name="hs__screenshot_limit_error">Ekran görüntüsü %.2f MB boyutunu aşmamalıdır</string>
     <string name="hs__screenshot_remove">Kaldır</string>
     <string name="hs__screenshot_sent_msg">Ekran görüntüsü gönderildi</string>
@@ -95,5 +103,4 @@
     <string name="hs__unsolved_btn">Hayır, çözülmedi</string>
     <string name="hs__username_blank_error">Lütfen adınızı girin</string>
     <string name="hs__username_hint">Adınız</string>
-
 </resources>

@@ -7,4 +7,4 @@
         android:state_focused="true" />
   <item android:drawable="@android:color/transparent" />
 </selector>
-<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/drawable/hs__actionbar_compat_selectable_item_background.xml -->
+<!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/drawable/hs__actionbar_compat_selectable_item_background.xml -->

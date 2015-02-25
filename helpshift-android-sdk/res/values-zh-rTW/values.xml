@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+      <item quantity="one">您將服務評分為 1 顆星。</item>
+      <item quantity="other">您將服務評分為 %d 顆星。</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+      <item quantity="one">來自客服的一則新訊息</item>
+      <item quantity="other">來自客服的 %d 則新訊息</item>
+  </plurals>
+    <string name="hs__attach_btn">好，附上檔案</string>
+    <string name="hs__attach_screenshot_btn">附上畫面截圖</string>
+    <string name="hs__ca_msg">我們很樂意為您提供協助！</string>
+    <string name="hs__change_btn">變更</string>
+    <string name="hs__chat_hint">輸入您的訊息</string>
+    <string name="hs__confirmation_footer_msg">感謝您傳送訊息給我們！</string>
+    <string name="hs__confirmation_msg">我們回答您所有的問題了嗎？</string>
+    <string name="hs__contact_us_btn">聯絡我們</string>
+    <string name="hs__conversation_detail_error">請敘述您的問題</string>
+    <string name="hs__conversation_end_msg">對話已結束。</string>
+    <string name="hs__conversation_header">對話</string>
+    <string name="hs__conversation_started_message">
+    已經收到您的訊息了。感謝您和我們聯絡！
+  </string>
+    <string name="hs__could_not_reach_support_msg">無法聯絡客服</string>
+    <string name="hs__cr_msg">您還需要其他協助嗎？</string>
+    <string name="hs__csat_additonal_feedback_message">還有其它意見嗎（選填）</string>
+    <string name="hs__csat_dislike_message">很不滿意！</string>
+    <string name="hs__csat_like_message">很滿意！</string>
+    <string name="hs__csat_message">您對我們的客服有什麼意見呢？</string>
+    <string name="hs__csat_option_message">或者</string>
+    <string name="hs__csat_ratingbar">請為我們的服務評分。</string>
+    <string name="hs__csat_submit_toast">感謝您為我們評分。</string>
+    <string name="hs__data_not_found_msg">找不到資料</string>
+    <string name="hs__default_notification_content_title">客服</string>
+    <string name="hs__dm_video_loading">載入影片中…</string>
+    <string name="hs__done_btn">完成</string>
+    <string name="hs__email_hint">電子郵件（選填）</string>
+    <string name="hs__email_required_hint">電子郵件</string>
+    <string name="hs__empty_section">抱歉！這個區段裡沒有問題。</string>
+    <string name="hs__faq_header">常見問題</string>
+    <string name="hs__faq_helpful_msg">有幫助</string>
+    <string name="hs__faq_unhelpful_msg">沒有幫助</string>
+    <string name="hs__faqs_search_footer">找不到常見問題。</string>
+    <string name="hs__faqs_updating">更新常見問題中…</string>
+    <string name="hs__faqs_updation_failure">更新常見問題失敗</string>
+    <string name="hs__faqs_uptodate">常見問題已更新</string>
+    <string name="hs__feedback_button">傳送意見回饋</string>
+    <string name="hs__help_header">協助</string>
+    <string name="hs__invalid_description_error">無效的敘述</string>
+    <string name="hs__invalid_email_error">請輸入一個有效電子郵件</string>
+    <string name="hs__mark_helpful_toast">問題已標示為有幫助</string>
+    <string name="hs__mark_no">沒有</string>
+    <string name="hs__mark_unhelpful_toast">問題已標示為沒有幫助</string>
+    <string name="hs__mark_yes">有</string>
+    <string name="hs__mark_yes_no_question">這有幫助嗎？</string>
+    <string name="hs__network_error_msg">哎呀！出了點問題</string>
+    <string name="hs__network_unavailable_msg">沒有網路。</string>
+    <string name="hs__new_conversation_btn">開始一段新對話</string>
+    <string name="hs__new_conversation_header">新對話</string>
+    <string name="hs__new_conversation_hint">您在想什麼？</string>
+    <string name="hs__new_conversation_msg">輕觸以下圖示來開始一段新對話</string>
+    <string name="hs__notification_content_text">回覆：</string>
+    <string name="hs__privacy_policy">
+    我們只會在您第一次報告問題時請您提供詳細資料。詳情請參閱我們的 %1$s 隱私政策 %2$s
+  </string>
+    <string name="hs__question_header">問題</string>
+    <string name="hs__question_helpful_message">您覺得這有幫助。</string>
+    <string name="hs__question_unhelpful_message">您覺得這沒有幫助。</string>
+    <string name="hs__rate_button">評分</string>
+    <string name="hs__remove_screenshot_btn">移除畫面截圖</string>
+    <string name="hs__review_accepted_message">已接受評論請求</string>
+    <string name="hs__review_btn">好，評論</string>
+    <string name="hs__review_close_button">關閉</string>
+    <string name="hs__review_dialog_msg">
+    您介意花點時間評論我們的應用程式嗎？這不會超過一分鐘。感謝您的支持！
+  </string>
+    <string name="hs__review_dialog_negative_btn">不要再問我</string>
+    <string name="hs__review_dialog_neutral_btn">待會提醒我</string>
+    <string name="hs__review_dialog_positive_btn">評分和評論</string>
+    <string name="hs__review_message">
+    如果您喜歡我們的應用程式，請花點時間來評分
+  </string>
+    <string name="hs__review_request_message">您想評論這個應用程式嗎？</string>
+    <string name="hs__review_title">為我們的應用程式評分</string>
+    <string name="hs__rsc_progress_msg">正在傳送畫面截圖。</string>
+    <string name="hs__screenshot_add">新增</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    附上畫面截圖時出現錯誤。請選擇存於本裝置中的影像。
+  </string>
+    <string name="hs__screenshot_limit_error">畫面截圖不應超過 %.2f MB</string>
+    <string name="hs__screenshot_remove">移除</string>
+    <string name="hs__screenshot_sent_msg">截圖已送出</string>
+    <string name="hs__screenshot_upload_error_msg">上傳截圖時發生錯誤</string>
+    <string name="hs__search_footer">找不到您要尋找的資訊嗎？</string>
+    <string name="hs__search_hint">敘述您的問題</string>
+    <string name="hs__search_result_message">可能已為您提供解答的問題</string>
+    <string name="hs__search_result_title">建議</string>
+    <string name="hs__search_title">搜尋</string>
+    <string name="hs__send_anyway">仍要送出</string>
+    <string name="hs__send_msg_btn">傳送</string>
+    <string name="hs__sending_fail_msg">沒有送出，請輕觸重試。</string>
+    <string name="hs__sending_msg">正在傳送…</string>
+    <string name="hs__solved_btn">是的，解決了！</string>
+    <string name="hs__submit_conversation_btn">提交</string>
+    <string name="hs__unsolved_btn">不，沒有解決</string>
+    <string name="hs__username_blank_error">請輸入一個有效名稱</string>
+    <string name="hs__username_hint">名稱</string>
+</resources>

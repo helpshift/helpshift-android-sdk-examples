@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-ja/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">サポートからの新規メッセージ</item>
-        <item quantity="other">%d サポートからの新規メッセージ</item>
-    </plurals>
-
+    <item quantity="one">サポートからの新規メッセージ</item>
+    <item quantity="other">%d サポートからの新規メッセージ</item>
+  </plurals>
     <string name="hs__attach_btn">OK、添付</string>
     <string name="hs__attach_screenshot_btn">スクリーンショットに添付し</string>
     <string name="hs__ca_msg">当社は喜んでユーザーの皆様をサポートします!</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">あなたの問題について説明してください</string>
     <string name="hs__conversation_end_msg">この会話は終了しました。</string>
     <string name="hs__conversation_header">会話</string>
-    <string name="hs__conversation_started_message">    メッセージを受け取りました。ご連絡ありがとうございます！</string>
+    <string name="hs__conversation_started_message">
+    メッセージを受け取りました。ご連絡ありがとうございます！
+  </string>
+    <string name="hs__could_not_reach_support_msg">サポートに繋がりません</string>
     <string name="hs__cr_msg">他に役に立てることはありますか?</string>
     <string name="hs__csat_additonal_feedback_message">その他のご意見はありますか? (任意)</string>
     <string name="hs__csat_dislike_message">非常に悪かった</string>
@@ -57,8 +57,10 @@
     <string name="hs__new_conversation_header">新しい会話</string>
     <string name="hs__new_conversation_hint">何を考えていますか?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">    最初に質問をする時のみあなたに関する詳しい情報の提示をお願いすることになります。
-    詳細については %1$s プライバシーポリシー %2$s を参照ください</string>
+    <string name="hs__privacy_policy">
+    最初に質問をする時のみあなたに関する詳しい情報の提示をお願いすることになります。
+    詳細については %1$s プライバシーポリシー %2$s を参照ください
+  </string>
     <string name="hs__question_header">質問</string>
     <string name="hs__question_helpful_message">役に立ちました。</string>
     <string name="hs__question_unhelpful_message">役に立ちませんでした。</string>
@@ -66,16 +68,22 @@
     <string name="hs__review_accepted_message">レビューリクエストを受け取りました</string>
     <string name="hs__review_btn">はい、評価します</string>
     <string name="hs__review_close_button">終了</string>
-    <string name="hs__review_dialog_msg">    アプリを評価していただけませんか？時間は1分もかかりません。よろしくお願いします!</string>
+    <string name="hs__review_dialog_msg">
+    アプリを評価していただけませんか？時間は1分もかかりません。よろしくお願いします!
+  </string>
     <string name="hs__review_dialog_negative_btn">2度と尋ねないでください</string>
     <string name="hs__review_dialog_neutral_btn">後でまた通知する</string>
     <string name="hs__review_dialog_positive_btn">レートと評価</string>
-    <string name="hs__review_message">    私達のアプリが気に入ったなら、評価をお願いします</string>
+    <string name="hs__review_message">
+    私達のアプリが気に入ったなら、評価をお願いします
+  </string>
     <string name="hs__review_request_message">このアプリにレビューをつけますか？</string>
     <string name="hs__review_title">アプリを評価</string>
     <string name="hs__rsc_progress_msg">スクリーンショット送信中.</string>
     <string name="hs__screenshot_add">副える</string>
-    <string name="hs__screenshot_cloud_attach_error">    スクリーンショットを添付エラーが発生しました。デバイス上でローカルに利用可能な画像を選択してください。</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    スクリーンショットを添付エラーが発生しました。デバイス上でローカルに利用可能な画像を選択してください。
+  </string>
     <string name="hs__screenshot_limit_error">%.2f MB以上のサイズのスクリーンショットは使用できません</string>
     <string name="hs__screenshot_remove">除く</string>
     <string name="hs__screenshot_upload_error_msg">スクリーンショットのアップロードエラー</string>
@@ -93,5 +101,4 @@
     <string name="hs__unsolved_btn">いいえ、解決しませんでした</string>
     <string name="hs__username_blank_error">有効な名前を入力してください</string>
     <string name="hs__username_hint">氏名</string>
-
 </resources>

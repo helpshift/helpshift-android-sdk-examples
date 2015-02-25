@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-pt-rBR/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-pt-rBR/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">Nova mensagem de apoio</item>
-        <item quantity="other">%d novas mensagens de apoio</item>
-    </plurals>
-
+    <item quantity="one">Nova mensagem de apoio</item>
+    <item quantity="other">%d novas mensagens de apoio</item>
+  </plurals>
     <string name="hs__attach_btn">OK, anexar</string>
     <string name="hs__attach_screenshot_btn">Anexar tela capturada</string>
     <string name="hs__ca_msg">Estamos felizes em ajudar</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">Por favor, descreva seu problema</string>
     <string name="hs__conversation_end_msg">Esta conversa terminou.</string>
     <string name="hs__conversation_header">Conversa</string>
-    <string name="hs__conversation_started_message">    Sua mensagem foi recebida. Obrigado por contatar-nos!</string>
+    <string name="hs__conversation_started_message">
+    Sua mensagem foi recebida. Obrigado por contatar-nos!
+  </string>
+    <string name="hs__could_not_reach_support_msg">Não foi possível contatar o suporte</string>
     <string name="hs__cr_msg">Em que mais o poderemos ajudar?</string>
     <string name="hs__csat_additonal_feedback_message">Mais algum comentário? (opcional)</string>
     <string name="hs__csat_dislike_message">Detestei</string>
@@ -42,7 +42,7 @@
     <string name="hs__faqs_updating">Atualizando Perguntas Frequentes</string>
     <string name="hs__faqs_updation_failure">Erro ao atualizar as FAQ</string>
     <string name="hs__faqs_uptodate">Perguntas Frequentes atualizadas</string>
-    <string name="hs__feedback_button">Enviar Comentário</string>
+    <string name="hs__feedback_button">Comentário</string>
     <string name="hs__help_header">Ajuda</string>
     <string name="hs__invalid_description_error">Entrada inválida</string>
     <string name="hs__invalid_email_error">Por favor, forneça um endereço de e-mail válido.</string>
@@ -57,7 +57,9 @@
     <string name="hs__new_conversation_header">Nova Conversa</string>
     <string name="hs__new_conversation_hint">No que você está pensando?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s</string>
+    <string name="hs__privacy_policy">
+    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
+  </string>
     <string name="hs__question_header">Pergunta</string>
     <string name="hs__question_helpful_message">Você achou isto útil.</string>
     <string name="hs__question_unhelpful_message">Você não achou isto útil.</string>
@@ -65,17 +67,23 @@
     <string name="hs__review_accepted_message">Aceitou pedido de revisão</string>
     <string name="hs__review_btn">OK, rever</string>
     <string name="hs__review_close_button">Fec har</string>
-    <string name="hs__review_dialog_msg">    Você se importaria em dedicar um instante para avaliar o nosso app? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!
-    for your support!</string>
+    <string name="hs__review_dialog_msg">
+    Você se importaria em dedicar um instante para avaliar o nosso app? Não vai demorar mais de um minuto. Obrigado pelo seu apoio!
+    for your support!
+  </string>
     <string name="hs__review_dialog_negative_btn">Nunca me pergunte novamente</string>
     <string name="hs__review_dialog_neutral_btn">Lembrar-me mais tarde</string>
     <string name="hs__review_dialog_positive_btn">Avaliar e Comentar</string>
-    <string name="hs__review_message">    Se você adora nosso app, por favor, disponibilize um momento para avaliá-lo na App Store</string>
+    <string name="hs__review_message">
+    Se você adora nosso app, por favor, disponibilize um momento para avaliá-lo na App Store
+  </string>
     <string name="hs__review_request_message">Gostaria de rever a aplicação?</string>
     <string name="hs__review_title">Avalie nosso App</string>
     <string name="hs__rsc_progress_msg">Enviando captura de tela.</string>
     <string name="hs__screenshot_add">Juntar</string>
-    <string name="hs__screenshot_cloud_attach_error">    Erro anexando screenshot. Por favor escolha uma imagem disponível localmente no dispositivo.</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Erro anexando screenshot. Por favor escolha uma imagem disponível localmente no dispositivo.
+  </string>
     <string name="hs__screenshot_limit_error">Capturas de tela tamanho não deve exceder %.2f MB</string>
     <string name="hs__screenshot_remove">Retirar</string>
     <string name="hs__screenshot_sent_msg">Captura de tela enviada</string>
@@ -94,5 +102,4 @@
     <string name="hs__unsolved_btn">Não, não resolvido</string>
     <string name="hs__username_blank_error">Por favor insira um nome válido</string>
     <string name="hs__username_hint">Nome</string>
-
 </resources>

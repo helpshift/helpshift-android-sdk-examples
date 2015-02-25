@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/values-it/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
     <plurals name="hs__notification_content_title">
-        <item quantity="one">Nuovo messaggio da supporto</item>
-        <item quantity="other">%d nuovi messaggi dal supporto</item>
-    </plurals>
-
+    <item quantity="one">Nuovo messaggio da supporto</item>
+    <item quantity="other">%d nuovi messaggi dal supporto</item>
+  </plurals>
     <string name="hs__attach_btn">Ok, allega</string>
     <string name="hs__attach_screenshot_btn">Allega Screenshot</string>
     <string name="hs__ca_msg">Siamo felici di aiutare</string>
@@ -20,7 +17,10 @@
     <string name="hs__conversation_detail_error">Descrivi il tuo problema</string>
     <string name="hs__conversation_end_msg">Questa conversazione è terminata.</string>
     <string name="hs__conversation_header">Conversazione</string>
-    <string name="hs__conversation_started_message">    Il tuo messaggio è stato ricevuto. Grazie per averci contattato!</string>
+    <string name="hs__conversation_started_message">
+    Il tuo messaggio è stato ricevuto. Grazie per averci contattato!
+  </string>
+    <string name="hs__could_not_reach_support_msg">non in grado di raggiungere il supporto</string>
     <string name="hs__cr_msg">In cos\'altro possiamo esserti di aiuto?</string>
     <string name="hs__csat_additonal_feedback_message">Altri commenti? (facoltativo)</string>
     <string name="hs__csat_dislike_message">L\'ho odiato</string>
@@ -57,8 +57,10 @@
     <string name="hs__new_conversation_header">Nuova conversazione</string>
     <string name="hs__new_conversation_hint">A cosa stai pensando?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">    Chiederemo i tuoi dati solo alla tua prima segnalazione di un problema. Per ulteriori
-    informazioni leggi la nostra %1$s informativa sulla privacy %2$s</string>
+    <string name="hs__privacy_policy">
+    Chiederemo i tuoi dati solo alla tua prima segnalazione di un problema. Per ulteriori
+    informazioni leggi la nostra %1$s informativa sulla privacy %2$s
+  </string>
     <string name="hs__question_header">Domanda</string>
     <string name="hs__question_helpful_message">Questo ti è stato utile.</string>
     <string name="hs__question_unhelpful_message">Questo non ti è stato utile.</string>
@@ -66,17 +68,23 @@
     <string name="hs__review_accepted_message">Richiesta di recensione accettata</string>
     <string name="hs__review_btn">Ok, recensisci</string>
     <string name="hs__review_close_button">Chiudi</string>
-    <string name="hs__review_dialog_msg">    Ti va di dedicare qualche istante per recensire la nostra app? Non richiederà più di un
-    minuto. Grazie per il tuo sostegno!</string>
+    <string name="hs__review_dialog_msg">
+    Ti va di dedicare qualche istante per recensire la nostra app? Non richiederà più di un
+    minuto. Grazie per il tuo sostegno!
+  </string>
     <string name="hs__review_dialog_negative_btn">Non chiedermelo più</string>
     <string name="hs__review_dialog_neutral_btn">Ricordamelo più tardi</string>
     <string name="hs__review_dialog_positive_btn">Valuta e recensisci</string>
-    <string name="hs__review_message">    Se ti piace la nostra app, per favore dedicale un momento per valutarla nell\'App Store</string>
+    <string name="hs__review_message">
+    Se ti piace la nostra app, per favore dedicale un momento per valutarla nell\'App Store
+  </string>
     <string name="hs__review_request_message">Vuoi recensire l\'app?</string>
     <string name="hs__review_title">Valuta la nostra App</string>
     <string name="hs__rsc_progress_msg">Invio schermata</string>
     <string name="hs__screenshot_add">Aggiungere</string>
-    <string name="hs__screenshot_cloud_attach_error">    Errore allegando screenshot. Scegliere un immagine disponibile localmente sul dispositivo.</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Errore allegando screenshot. Scegliere un immagine disponibile localmente sul dispositivo.
+  </string>
     <string name="hs__screenshot_limit_error">Dimensioni screenshot non deve superare i %.2f MB</string>
     <string name="hs__screenshot_remove">Rimuovere</string>
     <string name="hs__screenshot_sent_msg">Schermata inviata</string>
@@ -95,5 +103,4 @@
     <string name="hs__unsolved_btn">No, non risolto</string>
     <string name="hs__username_blank_error">Inserisci un nome valido</string>
     <string name="hs__username_hint">Nome</string>
-
 </resources>
