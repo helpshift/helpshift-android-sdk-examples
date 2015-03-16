@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Megkaptuk az üzenetét. Köszönjük, hogy kapcsolatba lépett velünk!
   </string>
+    <string name="hs__could_not_open_attachment_msg">Nincs alkalmazás, amely ezt a művelet végre tudja hajtani</string>
     <string name="hs__could_not_reach_support_msg">Az ügyfélszolgálat nem elérhető</string>
     <string name="hs__cr_msg">Miben segíthetünk még?</string>
     <string name="hs__csat_additonal_feedback_message">Egyéb visszajelzés (opcionális)</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">GYIK frissítése sikertelen</string>
     <string name="hs__faqs_uptodate">GYIK naprakész</string>
     <string name="hs__feedback_button">Visszajelzés</string>
+    <string name="hs__file_not_found_msg">Fájl nem található</string>
+    <string name="hs__file_type_audio">Hang</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office doc</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Fájl</string>
+    <string name="hs__file_type_video">Videó</string>
     <string name="hs__help_header">Segítség</string>
     <string name="hs__invalid_description_error">Érvénytelen leírás</string>
     <string name="hs__invalid_email_error">Adjon meg egy érvényes e-mail címet</string>

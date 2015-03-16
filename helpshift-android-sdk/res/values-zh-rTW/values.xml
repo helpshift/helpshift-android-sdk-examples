@@ -3,12 +3,12 @@
     <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-zh-rTW/strings.xml -->
     <eat-comment/>
     <plurals name="hs__csat_rating_value">
-      <item quantity="one">您將服務評分為 1 顆星。</item>
-      <item quantity="other">您將服務評分為 %d 顆星。</item>
+    <item quantity="one">您將服務評分為 1 顆星。</item>
+    <item quantity="other">您將服務評分為 %d 顆星。</item>
   </plurals>
     <plurals name="hs__notification_content_title">
-      <item quantity="one">來自客服的一則新訊息</item>
-      <item quantity="other">來自客服的 %d 則新訊息</item>
+    <item quantity="one">來自客服的一則新訊息</item>
+    <item quantity="other">來自客服的 %d 則新訊息</item>
   </plurals>
     <string name="hs__attach_btn">好，附上檔案</string>
     <string name="hs__attach_screenshot_btn">附上畫面截圖</string>
@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     已經收到您的訊息了。感謝您和我們聯絡！
   </string>
+    <string name="hs__could_not_open_attachment_msg">沒有應用程式可以執行此操作</string>
     <string name="hs__could_not_reach_support_msg">無法聯絡客服</string>
     <string name="hs__cr_msg">您還需要其他協助嗎？</string>
     <string name="hs__csat_additonal_feedback_message">還有其它意見嗎（選填）</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">更新常見問題失敗</string>
     <string name="hs__faqs_uptodate">常見問題已更新</string>
     <string name="hs__feedback_button">傳送意見回饋</string>
+    <string name="hs__file_not_found_msg">找不到檔案</string>
+    <string name="hs__file_type_audio">音效</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office 文件</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">檔案</string>
+    <string name="hs__file_type_video">影片</string>
     <string name="hs__help_header">協助</string>
     <string name="hs__invalid_description_error">無效的敘述</string>
     <string name="hs__invalid_email_error">請輸入一個有效電子郵件</string>
@@ -61,7 +71,6 @@
     <string name="hs__new_conversation_btn">開始一段新對話</string>
     <string name="hs__new_conversation_header">新對話</string>
     <string name="hs__new_conversation_hint">您在想什麼？</string>
-    <string name="hs__new_conversation_msg">輕觸以下圖示來開始一段新對話</string>
     <string name="hs__notification_content_text">回覆：</string>
     <string name="hs__privacy_policy">
     我們只會在您第一次報告問題時請您提供詳細資料。詳情請參閱我們的 %1$s 隱私政策 %2$s

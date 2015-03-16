@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Vaši zprávu jsme obdrželi. Děkujeme, že jste se na nás obrátili!
   </string>
+    <string name="hs__could_not_open_attachment_msg">Žádná aplikace není schopna této akce.</string>
     <string name="hs__could_not_reach_support_msg">Nepodařilo se kontaktovat podporu</string>
     <string name="hs__cr_msg">S čím Vám ještě můžeme pomoci?</string>
     <string name="hs__csat_additonal_feedback_message">Další zpětná vazba (volitelná)</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">Nepodařilo se aktualizovat časté dotazy</string>
     <string name="hs__faqs_uptodate">Časté dotazy aktuální</string>
     <string name="hs__feedback_button">Zpětná vazba</string>
+    <string name="hs__file_not_found_msg">Soubor nenalezen</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office doc</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Soubor</string>
+    <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Pomoc</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Zadejte prosím platný e-mail</string>

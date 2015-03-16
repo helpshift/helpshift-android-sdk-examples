@@ -2,6 +2,10 @@
 <resources>
     <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Вы оценили наш сервис 1 звездой</item>
+    <item quantity="other">Вы оценили наш сервис %d звездами</item>
+  </plurals>
     <plurals name="hs__notification_content_title">
     <item quantity="one">Новое сообщение от поддержки</item>
     <item quantity="other">%d новых сообщений от поддержки</item>
@@ -20,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Ваше сообщение получено. Спасибо за обращение к нам.
   </string>
+    <string name="hs__could_not_open_attachment_msg">Нет ни одного подходящего приложения</string>
     <string name="hs__could_not_reach_support_msg">Невозможно связаться со Службой поддержки</string>
     <string name="hs__cr_msg">Чем еще мы можем Вам помочь?</string>
     <string name="hs__csat_additonal_feedback_message">Иной отзыв? (по желанию)</string>
@@ -27,10 +32,11 @@
     <string name="hs__csat_like_message">Замечательно</string>
     <string name="hs__csat_message">Каков ваш отзыв о нашей клиентской поддержке?</string>
     <string name="hs__csat_option_message">Или</string>
+    <string name="hs__csat_ratingbar">Пожалуйста, оцените наш сервис</string>
     <string name="hs__csat_submit_toast">Спасибо за оценку</string>
     <string name="hs__data_not_found_msg">Данные не найдены</string>
     <string name="hs__default_notification_content_title">помогать</string>
-    <string name="hs__dm_video_loading">Загрузка видео...</string>
+    <string name="hs__dm_video_loading">Загрузка видео…</string>
     <string name="hs__done_btn">Сделано</string>
     <string name="hs__email_hint">Эл. почта (необязательно)</string>
     <string name="hs__email_required_hint">Эл. почта</string>
@@ -43,6 +49,15 @@
     <string name="hs__faqs_updation_failure">Не удалось обновить ЧАВО</string>
     <string name="hs__faqs_uptodate">ЧаВо обновлены</string>
     <string name="hs__feedback_button">Комментарий</string>
+    <string name="hs__file_not_found_msg">Файл не найден</string>
+    <string name="hs__file_type_audio">Аудио</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Документ Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Файл</string>
+    <string name="hs__file_type_video">Видео</string>
     <string name="hs__help_header">Справка</string>
     <string name="hs__invalid_description_error">Неверное описание</string>
     <string name="hs__invalid_email_error">Введите пожалуйста действительный адрес электронной почты</string>
@@ -64,6 +79,7 @@
     <string name="hs__question_helpful_message">Вы считаете это полезным.</string>
     <string name="hs__question_unhelpful_message">Вы не считаете это полезным.</string>
     <string name="hs__rate_button">Оценить</string>
+    <string name="hs__remove_screenshot_btn">Удалить скриншот</string>
     <string name="hs__review_accepted_message">Принять запрос на оценку</string>
     <string name="hs__review_btn">Хорошо, обсудить</string>
     <string name="hs__review_close_button">близко</string>
@@ -96,7 +112,7 @@
     <string name="hs__send_anyway">ВСЕ РАВНО ОТПРАВИТЬ</string>
     <string name="hs__send_msg_btn">Отправить</string>
     <string name="hs__sending_fail_msg">Не доставлено. Нажмите для повтора</string>
-    <string name="hs__sending_msg">Отправка...</string>
+    <string name="hs__sending_msg">Отправка…</string>
     <string name="hs__solved_btn">Да, завершено!</string>
     <string name="hs__submit_conversation_btn">Отправить</string>
     <string name="hs__unsolved_btn">Нет, не завершено</string>

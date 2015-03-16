@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-sw600dp/screen.xml -->
+    <eat-comment/>
+    <item format="float" name="hs__tablet_dialog_horizontal_scale" type="dimen">0.8</item>
+    <item format="float" name="hs__tablet_dialog_vertical_scale" type="dimen">0.8</item>
+    <string name="hs__screen_type">7-inch-tablet</string>
+    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-sw600dp/themes_base.xml -->
+    <eat-comment/>
+    <style name="Helpshift.Theme.Base" parent="@style/Helpshift.Theme.Light.DarkActionBar">
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowCloseOnTouchOutside">true</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+</resources>

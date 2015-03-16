@@ -1,4 +1,4 @@
-Helpshift SDK 3.7.2 Release Notes (for Android)
+Helpshift SDK 3.8.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,15 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.8.0 Release Date: March 16, 2015
+      * Add ability to handle and open admin side attachments.
+      * Add ability to allow multiple users of the app to have isolated Helpshift conversations.
+      * Fix truncation of URLs in conversation view.
+      * Add delegates to track conversation related updates.
+      * Add ability to support follow-up for closed conversations.
+      * Add API config option for showing Helpshift screens in dialog mode for tablets.
+      * Bug fixes.
+      * UI fixes.
 3.7.2 Release Date: February 24, 2015
       * Add support for sound, vibration and light in notification.
       * FIX Do not allow movie files to be attached in conversations.

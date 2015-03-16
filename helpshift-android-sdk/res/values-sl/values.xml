@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Vaše sporočilo je bilo prejeto. Hvala za obrnete na nas!
   </string>
+    <string name="hs__could_not_open_attachment_msg">Ni aplikacije lahko to dejanje</string>
     <string name="hs__could_not_reach_support_msg">Ne morejo doseči podporo</string>
     <string name="hs__cr_msg">Kaj vam lahko pomagamo?</string>
     <string name="hs__csat_additonal_feedback_message">Katera koli druga povratna (neobvezno)</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">Ni uspelo posodobiti Pogosta vprašanja</string>
     <string name="hs__faqs_uptodate">Pogosta vprašanja up-to-datum</string>
     <string name="hs__feedback_button">komentar</string>
+    <string name="hs__file_not_found_msg">Datoteke ni mogoče najti</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office doc</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">File</string>
+    <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Pomaga</string>
     <string name="hs__invalid_description_error">Neveljaven opis</string>
     <string name="hs__invalid_email_error">Vnesite veljaven e-mail:</string>

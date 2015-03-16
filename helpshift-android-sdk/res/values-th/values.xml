@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     ได้รับข้อความของคุณแล้ว ขอบคุณที่ติดต่อเรา!
   </string>
+    <string name="hs__could_not_open_attachment_msg">ไม่มีแอพใดดำเนินการนี้ได้</string>
     <string name="hs__could_not_reach_support_msg">ไม่สามารถติดต่อฝ่ายสนับสนุนได้</string>
     <string name="hs__cr_msg">มีสิ่งอื่นให้เราช่วยอีกหรือไม่</string>
     <string name="hs__csat_additonal_feedback_message">มีคำติชมอื่นๆ หรือไม่ (ตัวเลือก)</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">ไม่สามารถอัพเดทคำถามที่พบบ่อยได้</string>
     <string name="hs__faqs_uptodate">คำถามที่พบบ่อยมีข้อมูลอัพเดทแล้ว</string>
     <string name="hs__feedback_button">ส่งคำติชม</string>
+    <string name="hs__file_not_found_msg">ไม่พบไฟล์</string>
+    <string name="hs__file_type_audio">เสียง</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">เอกสาร Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">ไฟล์</string>
+    <string name="hs__file_type_video">วิดีโอ</string>
     <string name="hs__help_header">ช่วยเหลือ</string>
     <string name="hs__invalid_description_error">คำบรรยายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">กรุณาใส่อีเมลที่ถูกต้อง</string>

@@ -24,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Pesan Anda sudah diterima. Terima kasih telah menghubungi kami!
   </string>
+    <string name="hs__could_not_open_attachment_msg">Tidak ada aplikasi yang dapat melakukan hal ini</string>
     <string name="hs__could_not_reach_support_msg">Tidak dapat menghubungi dukungan pelanggan</string>
     <string name="hs__cr_msg">Apa lagi yang dapat kami bantu?</string>
     <string name="hs__csat_additonal_feedback_message">Ada komentar lain? (opsional)</string>
@@ -48,6 +49,15 @@
     <string name="hs__faqs_updation_failure">Gagal memperbarui FAQ</string>
     <string name="hs__faqs_uptodate">FAQ telah diperbarui</string>
     <string name="hs__feedback_button">Umpan Balik</string>
+    <string name="hs__file_not_found_msg">File tak ditemukan</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">dok Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">File</string>
+    <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Bantuan</string>
     <string name="hs__invalid_description_error">Deskripsi salah</string>
     <string name="hs__invalid_email_error">Harap masukkan surel yang benar</string>

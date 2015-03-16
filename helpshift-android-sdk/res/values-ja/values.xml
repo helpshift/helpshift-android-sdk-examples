@@ -2,6 +2,10 @@
 <resources>
     <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-ja/strings.xml -->
     <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">「サービスを1つ星で評価しました」、</item>
+    <item quantity="other">「サービスを%d つ星で評価しました」、</item>
+  </plurals>
     <plurals name="hs__notification_content_title">
     <item quantity="one">サポートからの新規メッセージ</item>
     <item quantity="other">%d サポートからの新規メッセージ</item>
@@ -20,6 +24,7 @@
     <string name="hs__conversation_started_message">
     メッセージを受け取りました。ご連絡ありがとうございます！
   </string>
+    <string name="hs__could_not_open_attachment_msg">このアクションを実行できるアプリはありません</string>
     <string name="hs__could_not_reach_support_msg">サポートに繋がりません</string>
     <string name="hs__cr_msg">他に役に立てることはありますか?</string>
     <string name="hs__csat_additonal_feedback_message">その他のご意見はありますか? (任意)</string>
@@ -27,10 +32,11 @@
     <string name="hs__csat_like_message">非常に良かった</string>
     <string name="hs__csat_message">弊社のカスタマーサポートに関するご意見をお聞かせください。</string>
     <string name="hs__csat_option_message">又は</string>
+    <string name="hs__csat_ratingbar">「我々のサービスを評価してください」、</string>
     <string name="hs__csat_submit_toast">ご評価ありがとうございます</string>
     <string name="hs__data_not_found_msg">データが見つかりません。</string>
     <string name="hs__default_notification_content_title">応援</string>
-    <string name="hs__dm_video_loading">動画のロード中...</string>
+    <string name="hs__dm_video_loading">動画のロード中…</string>
     <string name="hs__done_btn">完了</string>
     <string name="hs__email_hint">メール（任意）</string>
     <string name="hs__email_required_hint">メール</string>
@@ -43,6 +49,15 @@
     <string name="hs__faqs_updation_failure">「よくある質問」をアップデートできませんでした</string>
     <string name="hs__faqs_uptodate">よくある質問が更新されました</string>
     <string name="hs__feedback_button">フィードバック送信</string>
+    <string name="hs__file_not_found_msg">ファイルが見つかりません</string>
+    <string name="hs__file_type_audio">オーディオ</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office文書</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">テキスト</string>
+    <string name="hs__file_type_unknown">ファイル</string>
+    <string name="hs__file_type_video">ビデオ</string>
     <string name="hs__help_header">ヘルプ</string>
     <string name="hs__invalid_description_error">有効でない説明</string>
     <string name="hs__invalid_email_error">有効なeメールアドレスを入力してください</string>
@@ -65,6 +80,7 @@
     <string name="hs__question_helpful_message">役に立ちました。</string>
     <string name="hs__question_unhelpful_message">役に立ちませんでした。</string>
     <string name="hs__rate_button">評価</string>
+    <string name="hs__remove_screenshot_btn">「スクリーンショットを削除」</string>
     <string name="hs__review_accepted_message">レビューリクエストを受け取りました</string>
     <string name="hs__review_btn">はい、評価します</string>
     <string name="hs__review_close_button">終了</string>
@@ -86,6 +102,7 @@
   </string>
     <string name="hs__screenshot_limit_error">%.2f MB以上のサイズのスクリーンショットは使用できません</string>
     <string name="hs__screenshot_remove">除く</string>
+    <string name="hs__screenshot_sent_msg">スクリーンショットが送信されました</string>
     <string name="hs__screenshot_upload_error_msg">スクリーンショットのアップロードエラー</string>
     <string name="hs__search_footer">お探しのものが見つかりませんか?</string>
     <string name="hs__search_hint">問題を説明してください</string>
@@ -95,7 +112,7 @@
     <string name="hs__send_anyway">それでも送信</string>
     <string name="hs__send_msg_btn">送信</string>
     <string name="hs__sending_fail_msg">メッセージが届きませんでした。タップすると再送信します。</string>
-    <string name="hs__sending_msg">送信中...</string>
+    <string name="hs__sending_msg">送信中…</string>
     <string name="hs__solved_btn">はい、解決しました!</string>
     <string name="hs__submit_conversation_btn">投稿する</string>
     <string name="hs__unsolved_btn">いいえ、解決しませんでした</string>

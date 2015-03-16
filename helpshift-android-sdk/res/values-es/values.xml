@@ -2,6 +2,10 @@
 <resources>
     <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-es/strings.xml -->
     <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Has valorado el servicio con 1 estrella</item>
+    <item quantity="other">Has valorado el servicio con %d estrellas</item>
+  </plurals>
     <plurals name="hs__notification_content_title">
     <item quantity="one">Nuevo mensaje de apoyo</item>
     <item quantity="other">%d nuevos mensajes de apoyo</item>
@@ -20,6 +24,7 @@
     <string name="hs__conversation_started_message">
     Hemos recibido tu mensaje. Gracias por contactarnos.
   </string>
+    <string name="hs__could_not_open_attachment_msg">Ninguna aplicación puede realizar esta acción</string>
     <string name="hs__could_not_reach_support_msg">Imposible contactar con soporte técnico</string>
     <string name="hs__cr_msg">¿En qué más podemos ayudarte?</string>
     <string name="hs__csat_additonal_feedback_message">¿Algún otro comentario? (opcional)</string>
@@ -27,10 +32,11 @@
     <string name="hs__csat_like_message">Me encantó</string>
     <string name="hs__csat_message">¿Qué tienes que decir sobre nuestra atención al cliente?</string>
     <string name="hs__csat_option_message">O</string>
+    <string name="hs__csat_ratingbar">Por favor, valora nuestro servicio</string>
     <string name="hs__csat_submit_toast">Gracias por su valoración</string>
     <string name="hs__data_not_found_msg">Datos no encontrados</string>
     <string name="hs__default_notification_content_title">Ayudar</string>
-    <string name="hs__dm_video_loading">Cargando video...</string>
+    <string name="hs__dm_video_loading">Cargando video…</string>
     <string name="hs__done_btn">Aceptar</string>
     <string name="hs__email_hint">Email (opcional)</string>
     <string name="hs__email_required_hint">Email</string>
@@ -43,6 +49,15 @@
     <string name="hs__faqs_updation_failure">Error al actualizar Preguntas frecuentes</string>
     <string name="hs__faqs_uptodate">FAQ actualizadas</string>
     <string name="hs__feedback_button">Feedback</string>
+    <string name="hs__file_not_found_msg">No se ha encontrado el archivo</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Documento de Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Archivo</string>
+    <string name="hs__file_type_video">Vídeo</string>
     <string name="hs__help_header">Ayuda</string>
     <string name="hs__invalid_description_error">Descripción no válido</string>
     <string name="hs__invalid_email_error">Por favor, introduzca un email válido</string>
@@ -65,6 +80,7 @@
     <string name="hs__question_helpful_message">Le resultó útil.</string>
     <string name="hs__question_unhelpful_message">No le resultó útil.</string>
     <string name="hs__rate_button">Calificar</string>
+    <string name="hs__remove_screenshot_btn">Eliminar captura de pantalla</string>
     <string name="hs__review_accepted_message">Solicitud de revisión aceptada</string>
     <string name="hs__review_btn">Sí, revisar</string>
     <string name="hs__review_close_button">Cerrar</string>
@@ -97,7 +113,7 @@
     <string name="hs__send_anyway">ENVIAR EN CUALQUIER CASO</string>
     <string name="hs__send_msg_btn">Enviar</string>
     <string name="hs__sending_fail_msg">No se ha enviado. Pulsar para volver a intentar</string>
-    <string name="hs__sending_msg">Enviando...</string>
+    <string name="hs__sending_msg">Enviando…</string>
     <string name="hs__solved_btn">Sí, solucionado</string>
     <string name="hs__submit_conversation_btn">Enviar</string>
     <string name="hs__unsolved_btn">No, sin solucionar</string>
