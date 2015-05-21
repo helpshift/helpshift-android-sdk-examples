@@ -1,4 +1,4 @@
-Helpshift SDK 3.8.0 Release Notes (for Android)
+Helpshift SDK 3.9.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,15 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.9.0 Release Date: May 21, 2015
+      * Add API to set the SDK locale.
+      * FIX custom notification sound doesn't work if custom icon is not set.
+      * Add capability to toggle agent name visibility from admin dashboard.
+      * Add capability to highlight matching term in FAQ search.
+      * Add support for tags based searching in FAQ search.
+      * Implement fuzzy string matching for FAQ search.
+      * Add delegate for informing the developer of the unread messages
+      count whenever Helpshift receives a new notification.
 3.8.0 Release Date: March 16, 2015
       * Add ability to handle and open admin side attachments.
       * Add ability to allow multiple users of the app to have isolated Helpshift conversations.

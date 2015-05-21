@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-v14/themes.xml -->
+    <!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/values-v14/themes.xml -->
     <eat-comment/>
     <style name="Helpshift.Theme.Dark" parent="@android:style/Theme.Holo">
     <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
@@ -40,6 +40,7 @@
     <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_dark</item>
     <item name="hs__downloadAttachmentButtonIconColor">@color/hs__download_attachment_button_icon_dark</item>
     <item name="hs__launchAttachmentButtonIconColor">@color/hs__launch_attachment_button_icon_dark</item>
+    <item name="hs__searchHighlightColor">@color/hs__search_highlight_color_dark</item>
   </style>
     <style name="Helpshift.Theme.Light" parent="@android:style/Theme.Holo.Light">
     <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
@@ -79,6 +80,7 @@
     <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
     <item name="hs__downloadAttachmentButtonIconColor">@color/hs__download_attachment_button_icon_light</item>
     <item name="hs__launchAttachmentButtonIconColor">@color/hs__launch_attachment_button_icon_light</item>
+    <item name="hs__searchHighlightColor">@color/hs__search_highlight_color_light</item>
   </style>
     <style name="Helpshift.Theme.Light.DarkActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
     <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>
@@ -118,5 +120,6 @@
     <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
     <item name="hs__downloadAttachmentButtonIconColor">@color/hs__download_attachment_button_icon_light</item>
     <item name="hs__launchAttachmentButtonIconColor">@color/hs__launch_attachment_button_icon_light</item>
+    <item name="hs__searchHighlightColor">@color/hs__search_highlight_color_light</item>
   </style>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/values-zh-rCN/strings.xml -->
+    <!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/values-zh-rCN/strings.xml -->
     <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">您给我们的服务打了 1 颗星</item>
@@ -90,7 +90,7 @@
     <string name="hs__review_dialog_neutral_btn">稍后提醒我</string>
     <string name="hs__review_dialog_positive_btn">评分并评价</string>
     <string name="hs__review_message">
-    如果你喜欢我们的应用，请花点时间在App Store给它评个分
+    如果你喜欢我们的应用程序，请花点时间评分
   </string>
     <string name="hs__review_request_message">您要评价本应用吗？</string>
     <string name="hs__review_title">给应用评分</string>

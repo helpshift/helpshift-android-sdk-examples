@@ -6,4 +6,4 @@
     android:singleLine="@bool/limit_to_single_line"
     android:ellipsize="end"
     />
-<!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/layout/hs__simple_list_item_3.xml -->
+<!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/layout/hs__simple_list_item_3.xml -->

@@ -16,7 +16,6 @@
         <activity
             android:name="com.helpshift.HSConversation"
             android:configChanges="orientation|screenSize|locale|layoutDirection"
-            android:label="@string/hs__conversation_header"
             android:theme="@style/Helpshift.Theme.Activity" />
         <activity
             android:name="com.helpshift.HSQuestionsList"
@@ -26,7 +25,6 @@
             android:name="com.helpshift.HSQuestion"
             android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
-            android:label="@string/hs__question_header"
             android:theme="@style/Helpshift.Theme.Activity" />
         <activity
             android:name="com.helpshift.HSSection"
@@ -38,7 +36,6 @@
             android:name="com.helpshift.HSFaqs"
             android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
-            android:label="@string/hs__help_header"
             android:theme="@style/Helpshift.Theme.Activity"
             android:windowSoftInputMode="adjustPan" />
         <activity

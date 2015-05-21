@@ -19,4 +19,4 @@
              android:layout_marginTop="@dimen/hs__actionbar_compat_icon_vertical_padding"
              android:layout_marginBottom="@dimen/hs__actionbar_compat_icon_vertical_padding"
              android:scaleType="fitCenter" />
-</view><!-- From: file:/Users/danielvictor/Work/r2d2/Helpshift/src/main/res/layout/hs__actionbar_compat_home.xml -->
+</view><!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/layout/hs__actionbar_compat_home.xml -->
