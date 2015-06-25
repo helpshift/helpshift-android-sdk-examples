@@ -8,4 +8,4 @@
   <item android:state_focused="true" android:drawable="@drawable/hs__text_field_compat_disabled_focused" />
   <item android:drawable="@drawable/hs__text_field_compat_disabled" />
 </selector>
-<!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/drawable/hs__edit_text_compat_background.xml -->
+<!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/drawable/hs__edit_text_compat_background.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/danielvictor/work/android/r2d2/Helpshift/src/main/res/values-th/strings.xml -->
+    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-th/strings.xml -->
     <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">คุณได้ให้คะแนนบริการนี้ 1 ดาว</item>
