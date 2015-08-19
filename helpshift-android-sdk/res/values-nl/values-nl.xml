@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Bedankt voor het beoordelen</string>
     <string name="hs__data_not_found_msg">Gegevens niet gevonden</string>
     <string name="hs__default_notification_content_title">Steunen</string>
+    <string name="hs__description_invalid_length_error">
+    Gelieve verder beschrijven zodat wij beter kunnen helpen
+  </string>
     <string name="hs__dm_video_loading">Video laden…</string>
     <string name="hs__done_btn">Klaar</string>
     <string name="hs__email_hint">Email (optioneel)</string>
@@ -72,10 +75,6 @@
     <string name="hs__new_conversation_header">Nieuw Gesprek</string>
     <string name="hs__new_conversation_hint">Wat is het probleem?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    We zullen alleen om je gegevens vragen wanneer je je eerste issue rapporteert.
-    Voor meer informatie raadpleeg ons %1$s privaybeleid %2$s.
-  </string>
     <string name="hs__question_header">Vraag</string>
     <string name="hs__question_helpful_message">Je vond dit nuttig.</string>
     <string name="hs__question_unhelpful_message">Je vond dit niet nuttig.</string>

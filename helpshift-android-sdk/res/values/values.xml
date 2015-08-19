@@ -107,6 +107,7 @@
     <eat-comment/>
     <integer name="hs__chat_max_lines">3</integer>
     <integer name="hs__conversation_detail_lines">5</integer>
+    <integer name="hs__issue_description_min_chars">1</integer>
     <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values/strings.xml -->
     <eat-comment/>
     <plurals name="hs__csat_rating_value">
@@ -143,6 +144,9 @@
     <string name="hs__csat_submit_toast">Thanks for rating us.</string>
     <string name="hs__data_not_found_msg">Data not found</string>
     <string name="hs__default_notification_content_title">Support</string>
+    <string name="hs__description_invalid_length_error">
+    Please describe further so that we can help better
+  </string>
     <string name="hs__dm_video_loading">Loading Video…</string>
     <string name="hs__done_btn">Done</string>
     <string name="hs__email_hint">Email (optional)</string>
@@ -179,10 +183,6 @@
     <string name="hs__new_conversation_header">New Conversation</string>
     <string name="hs__new_conversation_hint">What\'s on your mind?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    We will only ask for your details when you report your first
-    issue. For more details read our %1$s privacy policy %2$s
-  </string>
     <string name="hs__question_header">Question</string>
     <string name="hs__question_helpful_message">You found this helpful.</string>
     <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>

@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Xin cảm ơn bạn đã đánh giá chúng tôi.</string>
     <string name="hs__data_not_found_msg">Không tìm thấy dữ liệu</string>
     <string name="hs__default_notification_content_title">Hỗ trợ</string>
+    <string name="hs__description_invalid_length_error">
+    Vui lòng mô tả thêm để chúng tôi có thể trợ giúp tốt hơn
+  </string>
     <string name="hs__dm_video_loading">Đang tải Video…</string>
     <string name="hs__done_btn">Hoàn tất</string>
     <string name="hs__email_hint">Email (không bắt buộc)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">Cuộc trò chuyện mới</string>
     <string name="hs__new_conversation_hint">Bạn đang nghĩ gì vậy?</string>
     <string name="hs__notification_content_text">HỒI ÂM:</string>
-    <string name="hs__privacy_policy">
-    Chúng tôi sẽ chỉ hỏi chi tiết của bạn khi bạn báo cáo vấn đề đầu tiên. Để biết thêm chi tiết hãy đọc %1$s chính sách bảo mật %2$s của chúng tôi
-  </string>
     <string name="hs__question_header">Câu hỏi</string>
     <string name="hs__question_helpful_message">Bạn thấy câu trả lời này có giúp ích.</string>
     <string name="hs__question_unhelpful_message">Bạn thấy câu trả lời này không giúp ích.</string>

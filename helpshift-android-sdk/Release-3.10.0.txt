@@ -1,5 +1,5 @@
-Helpshift SDK 3.9.1 Release Notes (for Android)
------------------------------------------------
+Helpshift SDK 3.10.0 Release Notes (for Android)
+------------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
 Helpshift SDK for Android is required for having Helpshift support running on native apps.
@@ -11,7 +11,11 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
-3.9.1 Release Date: June 25, 2015
+3.10.0 Release Date: August 19, 2015
+      * Improved ticket deflection.
+      * Reduce empty gibberish tickets.
+      * Added translations for Arabic and Polish.
+      * Bug fixes.3.9.1 Release Date: June 25, 2015
       * FIX Edge case bug where screenshot could not be rendered after an automation reply
       * FIX Attach Screenshot crash on OnePlus One device
 3.9.0 Release Date: May 21, 2015

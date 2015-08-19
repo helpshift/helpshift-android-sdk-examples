@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Obrigado por nos avaliar</string>
     <string name="hs__data_not_found_msg">Dados não encontrados</string>
     <string name="hs__default_notification_content_title">Ajudar</string>
+    <string name="hs__description_invalid_length_error">
+    Descreva com mais detalhes para podermos ajudar melhor
+  </string>
     <string name="hs__dm_video_loading">Carregando vídeo…</string>
     <string name="hs__done_btn">Concluído</string>
     <string name="hs__email_hint">E-mail (opcional)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">Nova Conversa</string>
     <string name="hs__new_conversation_hint">No que você está pensando?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Pediremos seus dados apenas quando você relatar seu primeiro problema. Para mais detalhes, leia nossa política de %1$s privacidade %2$s
-  </string>
     <string name="hs__question_header">Pergunta</string>
     <string name="hs__question_helpful_message">Você achou isto útil.</string>
     <string name="hs__question_unhelpful_message">Você não achou isto útil.</string>

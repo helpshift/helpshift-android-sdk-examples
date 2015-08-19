@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">ご評価ありがとうございます</string>
     <string name="hs__data_not_found_msg">データが見つかりません。</string>
     <string name="hs__default_notification_content_title">応援</string>
+    <string name="hs__description_invalid_length_error">
+    詳しく書いて頂ければ、適切にお手伝いできます。
+  </string>
     <string name="hs__dm_video_loading">動画のロード中…</string>
     <string name="hs__done_btn">完了</string>
     <string name="hs__email_hint">メール（任意）</string>
@@ -72,10 +75,6 @@
     <string name="hs__new_conversation_header">新しい会話</string>
     <string name="hs__new_conversation_hint">何を考えていますか?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    最初に質問をする時のみあなたに関する詳しい情報の提示をお願いすることになります。
-    詳細については %1$s プライバシーポリシー %2$s を参照ください
-  </string>
     <string name="hs__question_header">質問</string>
     <string name="hs__question_helpful_message">役に立ちました。</string>
     <string name="hs__question_unhelpful_message">役に立ちませんでした。</string>

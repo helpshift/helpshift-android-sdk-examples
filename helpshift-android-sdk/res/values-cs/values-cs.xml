@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Děkujeme za hodnocení.</string>
     <string name="hs__data_not_found_msg">Data nenalezena</string>
     <string name="hs__default_notification_content_title">Podpora</string>
+    <string name="hs__description_invalid_length_error">
+    Popište problém podrobněji, abychom vám mohli lépe pomoci
+  </string>
     <string name="hs__dm_video_loading">Nahrávám video…</string>
     <string name="hs__done_btn">Hotovo</string>
     <string name="hs__email_hint">E-mail (volitelné)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">Nový rozhovor</string>
     <string name="hs__new_conversation_hint">Co si přejete sdělit?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Budeme po Vás požadovat podrobné údaje pouze při hlášení prvního problému. Pro více informací si přečtěte o %1$s ochraně soukromí %2$s
-  </string>
     <string name="hs__question_header">Otázka</string>
     <string name="hs__question_helpful_message">Pokládáte za užitečné.</string>
     <string name="hs__question_unhelpful_message">Nepokládáte za užitečné.</string>

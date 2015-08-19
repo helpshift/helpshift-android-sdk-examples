@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Bizi derecelendirdiğiniz için teşekkür ederiz</string>
     <string name="hs__data_not_found_msg">Veri bulunamadı</string>
     <string name="hs__default_notification_content_title">Yardım etmek</string>
+    <string name="hs__description_invalid_length_error">
+    Daha iyi yardımcı olabilmemiz için lütfen daha ayrıntılı tarif edin
+  </string>
     <string name="hs__dm_video_loading">Video Yükleniyor…</string>
     <string name="hs__done_btn">Tamam</string>
     <string name="hs__email_hint">E-posta (isteğe bağlı)</string>
@@ -72,10 +75,6 @@
     <string name="hs__new_conversation_header">Yeni Sohbet</string>
     <string name="hs__new_conversation_hint">Bize ne danışmak istiyorsunuz?</string>
     <string name="hs__notification_content_text">Yanıt:</string>
-    <string name="hs__privacy_policy">
-    Sizden yalnızca ilk sorununuzu bildirdiğinizde bilgilerinizi isteriz.
-    Daha fazla bilgi için %1$s gizlilik politikamızı %2$s okuyun.
-  </string>
     <string name="hs__question_header">Soru</string>
     <string name="hs__question_helpful_message">Bu bilgiyi faydalı buldunuz.</string>
     <string name="hs__question_unhelpful_message">Bu bilgiyi faydalı bulmadınız.</string>

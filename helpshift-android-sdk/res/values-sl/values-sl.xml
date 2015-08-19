@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Hvala za nas rating.</string>
     <string name="hs__data_not_found_msg">Podatkov ni bilo mogoče najti</string>
     <string name="hs__default_notification_content_title">Podpora</string>
+    <string name="hs__description_invalid_length_error">
+    Opišite, nadalje, tako da bomo lahko pomagali bolje
+  </string>
     <string name="hs__dm_video_loading">Vstavljanje Video…</string>
     <string name="hs__done_btn">Končano</string>
     <string name="hs__email_hint">E-pošta (neobvezno)</string>
@@ -72,10 +75,6 @@
     <string name="hs__new_conversation_header">New Pogovor</string>
     <string name="hs__new_conversation_hint">Kaj\'s na pamet?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Bomo samo vprašati za vaše podatke, ko boste prijavili svojo prvo vprašanje.
-    Za več podrobnosti preberite naša %1$S politika zasebnosti %2$S
-  </string>
     <string name="hs__question_header">Vprašanje</string>
     <string name="hs__question_helpful_message">Ste našli to koristno.</string>
     <string name="hs__question_unhelpful_message">Nistep\'t našli to koristno.</string>

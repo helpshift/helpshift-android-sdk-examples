@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Köszönjük az értékelését.</string>
     <string name="hs__data_not_found_msg">Az adat nem található</string>
     <string name="hs__default_notification_content_title">Ügyfélszolgálat</string>
+    <string name="hs__description_invalid_length_error">
+    A jobb segítségnyújtás érdekében, kérjük, írja le pontosabban"
+  </string>
     <string name="hs__dm_video_loading">Videó Betöltése…</string>
     <string name="hs__done_btn">Kész</string>
     <string name="hs__email_hint">E-mail (opcionális)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">Új beszélgetés</string>
     <string name="hs__new_conversation_hint">Mi jár a fejében?</string>
     <string name="hs__notification_content_text">V:</string>
-    <string name="hs__privacy_policy">
-    Csak az első probléma jelentésekor kérjük az adatait. További részletekért olvassa el %1$s az adatvédelmi politikánkat %2$s
-  </string>
     <string name="hs__question_header">Kérdés</string>
     <string name="hs__question_helpful_message">Hasznosnak találta.</string>
     <string name="hs__question_unhelpful_message">Nem találta hasznosnak.</string>

@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Merci d\'avoir donné votre avis</string>
     <string name="hs__data_not_found_msg">Données introuvables</string>
     <string name="hs__default_notification_content_title">Aider</string>
+    <string name="hs__description_invalid_length_error">
+    Veuillez donner plus de détails pour mieux vous aider
+  </string>
     <string name="hs__dm_video_loading">Chargement de la vidéo …</string>
     <string name="hs__done_btn">Complété</string>
     <string name="hs__email_hint">E-mail (facultatif)</string>
@@ -72,11 +75,6 @@
     <string name="hs__new_conversation_header">Nouvelle conversation</string>
     <string name="hs__new_conversation_hint">À quoi pensez-vous ?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Vos informations ne serons nécessaires qu\'au moment de signaler votre premier
-    problème. Pour plus de détails, référez-vous à notre politique %1$s de
-    confidentialité. %2$s
-  </string>
     <string name="hs__question_header">Question</string>
     <string name="hs__question_helpful_message">Notre aide vous a-t-elle été utile.</string>
     <string name="hs__question_unhelpful_message">Notre aide ne vous a pas été utile.</string>

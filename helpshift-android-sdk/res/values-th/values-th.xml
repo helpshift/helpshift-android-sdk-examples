@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">ขอบคุณที่ให้คะแนนเรา</string>
     <string name="hs__data_not_found_msg">ไม่พบข้อมูล</string>
     <string name="hs__default_notification_content_title">ช่วยเหลือ</string>
+    <string name="hs__description_invalid_length_error">
+    กรุณาอธิบายเพิ่มเติมเพื่อให้เราช่วยเหลือคุณได้ดียิ่งขึ้น
+  </string>
     <string name="hs__dm_video_loading">กำลังโหลดวิดีโอ…</string>
     <string name="hs__done_btn">เรียบร้อย</string>
     <string name="hs__email_hint">อีเมล (ตัวเลือก)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">การสนทนาใหม่</string>
     <string name="hs__new_conversation_hint">คุณคิดอะไรอยู่</string>
     <string name="hs__notification_content_text">ตอบกลับ</string>
-    <string name="hs__privacy_policy">
-    เราจะขอข้อมูลของคุณเฉพาะในครั้งแรกที่คุณรายงานปัญหาเข้ามาเท่านั้น อ่านข้อมูลเพิ่มเติมได้ที่ %1$s นโยบายความเป็นส่วนตัว %2$s
-  </string>
     <string name="hs__question_header">คำถาม</string>
     <string name="hs__question_helpful_message">มีประโยชน์สำหรับคุณ</string>
     <string name="hs__question_unhelpful_message">ไม่มีประโยชน์สำหรับคุณ</string>

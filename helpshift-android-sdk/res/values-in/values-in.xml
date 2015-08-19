@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Terima kasih telah memberi kami peringkat.</string>
     <string name="hs__data_not_found_msg">Data tak ditemukan</string>
     <string name="hs__default_notification_content_title">Bantuan</string>
+    <string name="hs__description_invalid_length_error">
+    Mohon jelaskan lebih lanjut agar kami dapat membantu lebih baik"
+  </string>
     <string name="hs__dm_video_loading">Memuat Video…</string>
     <string name="hs__done_btn">Selesai</string>
     <string name="hs__email_hint">Email (opsional)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">Percakapan Baru</string>
     <string name="hs__new_conversation_hint">Apa yang Anda pikirkan?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Kami hanya menanyakan rincian Anda pada pelaporan pertama. Untuk info lebih lanjut bacalah %1$s kebijakan privasi %2$s kami
-  </string>
     <string name="hs__question_header">Pertanyaan</string>
     <string name="hs__question_helpful_message">Ini membantu Anda.</string>
     <string name="hs__question_unhelpful_message">Ini tidak membantu Anda.</string>

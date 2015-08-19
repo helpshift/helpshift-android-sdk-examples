@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">Danke für Ihre Bewertung</string>
     <string name="hs__data_not_found_msg">Daten nicht gefunden</string>
     <string name="hs__default_notification_content_title">Unterstützung</string>
+    <string name="hs__description_invalid_length_error">
+    Bitte genauer beschreiben, damit wir Ihnen besser helfen können
+  </string>
     <string name="hs__dm_video_loading">Video wird geladen…</string>
     <string name="hs__done_btn">Fertig</string>
     <string name="hs__email_hint">E-Mail (optional)</string>
@@ -72,10 +75,6 @@
     <string name="hs__new_conversation_header">Neue Unterhaltung</string>
     <string name="hs__new_conversation_hint">Was möchten Sie uns mitteilen?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    Wir werden Sie lediglich bei der ersten Fehlermeldung nach Ihren Angaben fragen. Nähere
-    Informationen finden Sie in unseren Datenschutzbestimmungen unter %1$s privacy policy %2$s
-  </string>
     <string name="hs__question_header">Frage</string>
     <string name="hs__question_helpful_message">Sie fanden dies hilfreich.</string>
     <string name="hs__question_unhelpful_message">Sie fanden dies nicht hilfreich.</string>

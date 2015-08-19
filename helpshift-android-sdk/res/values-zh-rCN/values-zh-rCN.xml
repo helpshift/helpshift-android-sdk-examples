@@ -36,6 +36,9 @@
     <string name="hs__csat_submit_toast">感谢您为我们评级</string>
     <string name="hs__data_not_found_msg">数据未找到</string>
     <string name="hs__default_notification_content_title">扶助</string>
+    <string name="hs__description_invalid_length_error">
+    请给出更多描述，以便我们提供更好的帮助
+  </string>
     <string name="hs__dm_video_loading">正在载入视频…</string>
     <string name="hs__done_btn">完成</string>
     <string name="hs__email_hint">电子邮件(可选)</string>
@@ -72,9 +75,6 @@
     <string name="hs__new_conversation_header">新会话</string>
     <string name="hs__new_conversation_hint">有什么问题或反馈吗?</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__privacy_policy">
-    我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s
-  </string>
     <string name="hs__question_header">问题</string>
     <string name="hs__question_helpful_message">你发现这有帮助。</string>
     <string name="hs__question_unhelpful_message">你发现这无帮助。</string>
