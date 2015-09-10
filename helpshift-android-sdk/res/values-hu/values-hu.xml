@@ -10,7 +10,6 @@
     <item quantity="one">Új üzenet az Ügyfélszolgálattól</item>
     <item quantity="other">%d új üzenet az Ügyfélszolgálattól</item>
   </plurals>
-    <string name="hs__attach_btn">Ok, csatolja</string>
     <string name="hs__attach_screenshot_btn">Képernyőkép Csatolása</string>
     <string name="hs__ca_msg">Szívesen segítünk!</string>
     <string name="hs__change_btn">Módosítás</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">E-mail</string>
     <string name="hs__empty_section">Sajnáljuk! Nincs elérhető kérdés ebben a szekcióban.</string>
     <string name="hs__faq_header">GYIK</string>
-    <string name="hs__faq_helpful_msg">Hasznos</string>
-    <string name="hs__faq_unhelpful_msg">Nem Hasznos</string>
     <string name="hs__faqs_search_footer">Nem található GYIK.</string>
-    <string name="hs__faqs_updating">GYIK frissítése…</string>
-    <string name="hs__faqs_updation_failure">GYIK frissítése sikertelen</string>
-    <string name="hs__faqs_uptodate">GYIK naprakész</string>
     <string name="hs__feedback_button">Visszajelzés</string>
     <string name="hs__file_not_found_msg">Fájl nem található</string>
     <string name="hs__file_type_audio">Hang</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">A hálózat nem elérhető.</string>
     <string name="hs__new_conversation_btn">ÚJ BESZÉLGETÉS INDÍTÁSA</string>
     <string name="hs__new_conversation_header">Új beszélgetés</string>
-    <string name="hs__new_conversation_hint">Mi jár a fejében?</string>
+    <string name="hs__new_conversation_hint">Miben segíthetünk?</string>
     <string name="hs__notification_content_text">V:</string>
     <string name="hs__question_header">Kérdés</string>
     <string name="hs__question_helpful_message">Hasznosnak találta.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">Értékel</string>
     <string name="hs__remove_screenshot_btn">Képernyőkép Eltávolítása</string>
     <string name="hs__review_accepted_message">Értékelési kérelem elfogadva</string>
-    <string name="hs__review_btn">Ok, véleményezze</string>
     <string name="hs__review_close_button">Bezárás</string>
-    <string name="hs__review_dialog_msg">
-    Szánna rá egy percet, hogy véleményezze az alkalmazásunkat? Nem vesz igénybe több, mint egy percet. Köszönjük a támogatását!
-  </string>
-    <string name="hs__review_dialog_negative_btn">Never ask me again</string>
-    <string name="hs__review_dialog_neutral_btn">Emlékeztessen később</string>
-    <string name="hs__review_dialog_positive_btn">Értékelje és Véleményezze</string>
     <string name="hs__review_message">
     Ha tetszik az alkalmazásunk, szánjon egy kis időt rá, hogy értékelje
   </string>
     <string name="hs__review_request_message">Szeretné értékelni az alkalmazást?</string>
     <string name="hs__review_title">Értékelje az Alkalmazásunkat</string>
-    <string name="hs__rsc_progress_msg">Képernyőkép küldése.</string>
     <string name="hs__screenshot_add">Hozzáadás</string>
     <string name="hs__screenshot_cloud_attach_error">
     Hiba a képernyőkép csatolása közben. Kérjük, válasszon egy képet, amely helyileg elérhető a készüléken.

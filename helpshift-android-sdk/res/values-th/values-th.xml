@@ -10,7 +10,6 @@
     <item quantity="one">ข้อความใหม่จากฝ่ายช่วยเหลือ</item>
     <item quantity="other">%d ข้อความใหม่จากฝ่ายช่วยเหลือ</item>
   </plurals>
-    <string name="hs__attach_btn">ตกลง แนบไปด้วย</string>
     <string name="hs__attach_screenshot_btn">แนบภาพหน้าจอ</string>
     <string name="hs__ca_msg">เรายินดีช่วยเหลือคุณ!</string>
     <string name="hs__change_btn">เปลี่ยน</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">อีเมล</string>
     <string name="hs__empty_section">ขออภัย ไม่มีคำถามในส่วนนี้</string>
     <string name="hs__faq_header">คำถามที่พบบ่อย</string>
-    <string name="hs__faq_helpful_msg">มีประโยชน์</string>
-    <string name="hs__faq_unhelpful_msg">ไม่มีประโยชน์</string>
     <string name="hs__faqs_search_footer">ไม่พบคำถามที่พบบ่อย</string>
-    <string name="hs__faqs_updating">กำลังอัพเดทคำถามที่พบบ่อย…</string>
-    <string name="hs__faqs_updation_failure">ไม่สามารถอัพเดทคำถามที่พบบ่อยได้</string>
-    <string name="hs__faqs_uptodate">คำถามที่พบบ่อยมีข้อมูลอัพเดทแล้ว</string>
     <string name="hs__feedback_button">ส่งคำติชม</string>
     <string name="hs__file_not_found_msg">ไม่พบไฟล์</string>
     <string name="hs__file_type_audio">เสียง</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">เครือข่ายไม่พร้อมใช้งาน</string>
     <string name="hs__new_conversation_btn">เริ่มการสนทนาใหม่</string>
     <string name="hs__new_conversation_header">การสนทนาใหม่</string>
-    <string name="hs__new_conversation_hint">คุณคิดอะไรอยู่</string>
+    <string name="hs__new_conversation_hint">มีอะไรให้เราช่วยบ้าง่</string>
     <string name="hs__notification_content_text">ตอบกลับ</string>
     <string name="hs__question_header">คำถาม</string>
     <string name="hs__question_helpful_message">มีประโยชน์สำหรับคุณ</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">ให้คะแนน</string>
     <string name="hs__remove_screenshot_btn">ลบภาพหน้าจอ</string>
     <string name="hs__review_accepted_message">ตอบรับคำขอให้รีวิว</string>
-    <string name="hs__review_btn">ตกลง ตรวจสอบ</string>
     <string name="hs__review_close_button">ปิด</string>
-    <string name="hs__review_dialog_msg">
-    คุณสามารถสละเวลาวิจารณ์แอพของเราได้หรือไม่ ขั้นตอนนี้จะใช้เวลาไม่เกิน 1 นาทีเท่านั้น
-  </string>
-    <string name="hs__review_dialog_negative_btn">ไม่ต้องถามฉันอีก</string>
-    <string name="hs__review_dialog_neutral_btn">เตือนฉันในภายหลัง</string>
-    <string name="hs__review_dialog_positive_btn">ให้คะแนนและตรวจสอบ</string>
     <string name="hs__review_message">
     หากคุณชอบแอพนี้ กรุณาสละเวลาให้คะแนนเรา
   </string>
     <string name="hs__review_request_message">คุณอยากจะรีวิวแอพนี้ไหม</string>
     <string name="hs__review_title">ให้คะแนนแอพของเรา</string>
-    <string name="hs__rsc_progress_msg">ส่งภาพหน้าจอ</string>
     <string name="hs__screenshot_add">เพิ่ม</string>
     <string name="hs__screenshot_cloud_attach_error">
     มีปัญหาในการแนบภาพหน้าจอ กรุณาเลือกภาพที่อยู่ในอุปกรณ์ของคุณ

@@ -10,7 +10,6 @@
     <item quantity="one">サポートからの新規メッセージ</item>
     <item quantity="other">%d サポートからの新規メッセージ</item>
   </plurals>
-    <string name="hs__attach_btn">OK、添付</string>
     <string name="hs__attach_screenshot_btn">スクリーンショットに添付し</string>
     <string name="hs__ca_msg">当社は喜んでユーザーの皆様をサポートします!</string>
     <string name="hs__change_btn">変更</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">メール</string>
     <string name="hs__empty_section">申し訳ありません!このセクションでできる質問はありません</string>
     <string name="hs__faq_header">よくある質問</string>
-    <string name="hs__faq_helpful_msg">役に立った</string>
-    <string name="hs__faq_unhelpful_msg">役に立たなかった</string>
     <string name="hs__faqs_search_footer">よくある質問が見つかりませんでした</string>
-    <string name="hs__faqs_updating">よくある質問を更新しています</string>
-    <string name="hs__faqs_updation_failure">「よくある質問」をアップデートできませんでした</string>
-    <string name="hs__faqs_uptodate">よくある質問が更新されました</string>
     <string name="hs__feedback_button">フィードバック送信</string>
     <string name="hs__file_not_found_msg">ファイルが見つかりません</string>
     <string name="hs__file_type_audio">オーディオ</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">ネットワークが利用できません</string>
     <string name="hs__new_conversation_btn">新しい会話を始める</string>
     <string name="hs__new_conversation_header">新しい会話</string>
-    <string name="hs__new_conversation_hint">何を考えていますか?</string>
+    <string name="hs__new_conversation_hint">何かお困りですか?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">質問</string>
     <string name="hs__question_helpful_message">役に立ちました。</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">評価</string>
     <string name="hs__remove_screenshot_btn">「スクリーンショットを削除」</string>
     <string name="hs__review_accepted_message">レビューリクエストを受け取りました</string>
-    <string name="hs__review_btn">はい、評価します</string>
     <string name="hs__review_close_button">終了</string>
-    <string name="hs__review_dialog_msg">
-    アプリを評価していただけませんか？時間は1分もかかりません。よろしくお願いします!
-  </string>
-    <string name="hs__review_dialog_negative_btn">2度と尋ねないでください</string>
-    <string name="hs__review_dialog_neutral_btn">後でまた通知する</string>
-    <string name="hs__review_dialog_positive_btn">レートと評価</string>
     <string name="hs__review_message">
     私達のアプリが気に入ったなら、評価をお願いします
   </string>
     <string name="hs__review_request_message">このアプリにレビューをつけますか？</string>
     <string name="hs__review_title">アプリを評価</string>
-    <string name="hs__rsc_progress_msg">スクリーンショット送信中.</string>
     <string name="hs__screenshot_add">副える</string>
     <string name="hs__screenshot_cloud_attach_error">
     スクリーンショットを添付エラーが発生しました。デバイス上でローカルに利用可能な画像を選択してください。

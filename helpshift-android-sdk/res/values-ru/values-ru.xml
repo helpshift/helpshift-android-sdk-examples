@@ -10,7 +10,6 @@
     <item quantity="one">Новое сообщение от поддержки</item>
     <item quantity="other">%d новых сообщений от поддержки</item>
   </plurals>
-    <string name="hs__attach_btn">OK, прикрепить</string>
     <string name="hs__attach_screenshot_btn">Прикрепите Скриншот</string>
     <string name="hs__ca_msg">Мы рады вам помочь!</string>
     <string name="hs__change_btn">Изменить</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">Эл. почта</string>
     <string name="hs__empty_section">Извините! В этом разделе вопросы недоступны.</string>
     <string name="hs__faq_header">Вопрос-ответ</string>
-    <string name="hs__faq_helpful_msg">Полезный</string>
-    <string name="hs__faq_unhelpful_msg">Бесполезный</string>
     <string name="hs__faqs_search_footer">Не найдено ни одного ответа.</string>
-    <string name="hs__faqs_updating">Обновление ЧаВо</string>
-    <string name="hs__faqs_updation_failure">Не удалось обновить ЧАВО</string>
-    <string name="hs__faqs_uptodate">ЧаВо обновлены</string>
     <string name="hs__feedback_button">Комментарий</string>
     <string name="hs__file_not_found_msg">Файл не найден</string>
     <string name="hs__file_type_audio">Аудио</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Сеть не доступна.</string>
     <string name="hs__new_conversation_btn">НАЧАТЬ НОВЫЙ ДИАЛОГ</string>
     <string name="hs__new_conversation_header">Новый диалог</string>
-    <string name="hs__new_conversation_hint">О чем вы хотите спросить?</string>
+    <string name="hs__new_conversation_hint">Чем мы можем помочь?</string>
     <string name="hs__notification_content_text">Заново:</string>
     <string name="hs__question_header">Вопрос</string>
     <string name="hs__question_helpful_message">Вы считаете это полезным.</string>
@@ -81,21 +75,12 @@
     <string name="hs__rate_button">Оценить</string>
     <string name="hs__remove_screenshot_btn">Удалить скриншот</string>
     <string name="hs__review_accepted_message">Принять запрос на оценку</string>
-    <string name="hs__review_btn">Хорошо, обсудить</string>
     <string name="hs__review_close_button">близко</string>
-    <string name="hs__review_dialog_msg">
-    Не могли бы Вы уделить минутку внимания для просмотра нашего приложения? Это \займет у Вас не более минуты. Спасибо Вам
-    за Вашу поддержку!
-  </string>
-    <string name="hs__review_dialog_negative_btn">Никогда не спрашивать снова</string>
-    <string name="hs__review_dialog_neutral_btn">Напомнить позже</string>
-    <string name="hs__review_dialog_positive_btn">Оценить и обсудить</string>
     <string name="hs__review_message">
     Если Вам понравилось наше приложение, уделите пожалуйста пару минут, чтобы оценить его
   </string>
     <string name="hs__review_request_message">Не хотели бы вы оставить отзыв о приложении?</string>
     <string name="hs__review_title">Оцените наше приложение</string>
-    <string name="hs__rsc_progress_msg">Идёт отправка скриншота.</string>
     <string name="hs__screenshot_add">Добавить</string>
     <string name="hs__screenshot_cloud_attach_error">
     Ошибка присоединения скриншот. Пожалуйста, выберите изображение доступный локально на устройстве.

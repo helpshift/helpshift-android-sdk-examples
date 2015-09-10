@@ -10,7 +10,6 @@
     <item quantity="one">Nová zpráva od podpory</item>
     <item quantity="other">%d nové zprávy od podpory</item>
   </plurals>
-    <string name="hs__attach_btn">Ok, přiložit</string>
     <string name="hs__attach_screenshot_btn">Přiložit snímek</string>
     <string name="hs__ca_msg">Rádi Vám pomůžeme!</string>
     <string name="hs__change_btn">Změnit</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">E-mail</string>
     <string name="hs__empty_section">Je nám líto! V této sekci nejsou žádné otázky.</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faq_helpful_msg">Užitečné</string>
-    <string name="hs__faq_unhelpful_msg">Neužitečné</string>
     <string name="hs__faqs_search_footer">Žádné časté dotazy nenalezeny.</string>
-    <string name="hs__faqs_updating">Aktualizace častých dotazů…</string>
-    <string name="hs__faqs_updation_failure">Nepodařilo se aktualizovat časté dotazy</string>
-    <string name="hs__faqs_uptodate">Časté dotazy aktuální</string>
     <string name="hs__feedback_button">Zpětná vazba</string>
     <string name="hs__file_not_found_msg">Soubor nenalezen</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Síť není dostupná</string>
     <string name="hs__new_conversation_btn">ZAČÍT NOVÝ ROZHOVOR</string>
     <string name="hs__new_conversation_header">Nový rozhovor</string>
-    <string name="hs__new_conversation_hint">Co si přejete sdělit?</string>
+    <string name="hs__new_conversation_hint">Jak vám můžeme pomoci?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Otázka</string>
     <string name="hs__question_helpful_message">Pokládáte za užitečné.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">Ohodnotit</string>
     <string name="hs__remove_screenshot_btn">Odstranit snímek</string>
     <string name="hs__review_accepted_message">Přijat požadavek na ohodnocení</string>
-    <string name="hs__review_btn">Ok, ověřit</string>
     <string name="hs__review_close_button">Zavřít</string>
-    <string name="hs__review_dialog_msg">
-    Můžeme Vás poprosit o chvilku na ohodnocení naší aplikace? Nezabere to déle než minutu. Děkujeme za Vaši přízeň!
-  </string>
-    <string name="hs__review_dialog_negative_btn">Již se znovu neptat</string>
-    <string name="hs__review_dialog_neutral_btn">Připomenout později</string>
-    <string name="hs__review_dialog_positive_btn">Ohodnotit a ověřit</string>
     <string name="hs__review_message">
     Pokud se Vám naše aplikace líbila, prosíme ohodnoťte ji
   </string>
     <string name="hs__review_request_message">Chtěli byste ohodnotit tuto aplikaci?</string>
     <string name="hs__review_title">Ohodnoťte tuto aplikaci</string>
-    <string name="hs__rsc_progress_msg">Odesílám snímek.</string>
     <string name="hs__screenshot_add">Přidat</string>
     <string name="hs__screenshot_cloud_attach_error">
     Chyba při přidávání snímku. Zvolte prosím obrázek umístěný v tomto zařízení.

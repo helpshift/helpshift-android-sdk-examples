@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-ca/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Ha valorat el servei amb 1 estrella.</item>
+    <item quantity="other">Ha valorat el servei amb %d estrelles.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Nou missatge de Suport</item>
+    <item quantity="other">%d nous missatges de Suport</item>
+  </plurals>
+    <string name="hs__attach_screenshot_btn">Adjuntar captura de pantalla</string>
+    <string name="hs__ca_msg">Estem encantats d\'ajudar-lo!</string>
+    <string name="hs__change_btn">Canviar</string>
+    <string name="hs__chat_hint">Escrigui el seu missatge</string>
+    <string name="hs__confirmation_footer_msg">Gràcies pel seu missatge!</string>
+    <string name="hs__confirmation_msg">Hem respost a totes les seves preguntes?</string>
+    <string name="hs__contact_us_btn">CONTACTI\'NS</string>
+    <string name="hs__conversation_detail_error">Si us plau, descrigui el seu problema</string>
+    <string name="hs__conversation_end_msg">Aquesta conversa ha finalitzat.</string>
+    <string name="hs__conversation_header">Conversa</string>
+    <string name="hs__conversation_started_message">
+    S\'ha rebut el seu missatge. Gràcies per contactar amb nosaltres!
+  </string>
+    <string name="hs__could_not_open_attachment_msg">No hi ha aplicacions que puguin realitzar aquesta acció.</string>
+    <string name="hs__could_not_reach_support_msg">No es pot contactar amb suport</string>
+    <string name="hs__cr_msg">Podem ajudar-lo amb alguna altra cosa?</string>
+    <string name="hs__csat_additonal_feedback_message">Algun altre comentari (opcional)</string>
+    <string name="hs__csat_dislike_message">No m\'ha agradat!</string>
+    <string name="hs__csat_like_message">M\'ha encantat!</string>
+    <string name="hs__csat_message">Quina és la seva opinió sobre el nostre suport al client?</string>
+    <string name="hs__csat_option_message">o</string>
+    <string name="hs__csat_ratingbar">Si us plau, valori el nostre servei.</string>
+    <string name="hs__csat_submit_toast">Gràcies per la seva valoració.</string>
+    <string name="hs__data_not_found_msg">No s\’han trobat les dades</string>
+    <string name="hs__default_notification_content_title">Suport</string>
+    <string name="hs__description_invalid_length_error">
+    Si us plau, descrigui-ho amb més detall perquè puguem ajudar-lo millor
+  </string>
+    <string name="hs__dm_video_loading">Carregant vídeo…</string>
+    <string name="hs__done_btn">Fet</string>
+    <string name="hs__email_hint">Correu electrònic (opcional)</string>
+    <string name="hs__email_required_hint">Correu electrònic</string>
+    <string name="hs__empty_section">Ho sentim! No hi ha preguntes disponibles en aquesta secció.</string>
+    <string name="hs__faq_header">Preguntes Freqüents</string>
+    <string name="hs__faqs_search_footer">No s\'han trobat Preguntes Freqüents.</string>
+    <string name="hs__feedback_button">Comentaris</string>
+    <string name="hs__file_not_found_msg">Arxiu no trobat</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Doc d\'Office</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Arxiu</string>
+    <string name="hs__file_type_video">Video</string>
+    <string name="hs__help_header">Ajuda</string>
+    <string name="hs__invalid_description_error">Descripció no vàlida</string>
+    <string name="hs__invalid_email_error">Si us plau, introdueixi un correu electrònic vàlid</string>
+    <string name="hs__mark_helpful_toast">La pregunta s\'ha marcat com a Útil</string>
+    <string name="hs__mark_no">NO</string>
+    <string name="hs__mark_unhelpful_toast">La pregunta s\'ha marcat com a No Útil</string>
+    <string name="hs__mark_yes">SÍ</string>
+    <string name="hs__mark_yes_no_question">Ha estat útil?</string>
+    <string name="hs__network_error_msg">Ui! Alguna cosa ha anat malament</string>
+    <string name="hs__network_unavailable_msg">Xarxa no disponible.</string>
+    <string name="hs__new_conversation_btn">INICIAR UNA NOVA CONVERSA</string>
+    <string name="hs__new_conversation_header">Nova Conversa</string>
+    <string name="hs__new_conversation_hint">Com podem ajudar-lo?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__question_header">Pregunta</string>
+    <string name="hs__question_helpful_message">Ha trobat això útil.</string>
+    <string name="hs__question_unhelpful_message">No ha trobat això útil.</string>
+    <string name="hs__rate_button">Valorar</string>
+    <string name="hs__remove_screenshot_btn">Eliminar captura de pantalla</string>
+    <string name="hs__review_accepted_message">Sol·licitud d\'opinió acceptada</string>
+    <string name="hs__review_close_button">Tancar</string>
+    <string name="hs__review_message">
+    Si li agrada la nostra aplicació, si us plau prengui un moment per valorar-la
+  </string>
+    <string name="hs__review_request_message">Li agradaria enviar una opinió sobre l\'aplicació?</string>
+    <string name="hs__review_title">Valori la nostra aplicació</string>
+    <string name="hs__screenshot_add">Afegir</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Error en adjuntar la captura de pantalla. Si us plau, esculli una imatge disponible localment en el dispositiu.
+  </string>
+    <string name="hs__screenshot_limit_error">La mida de la captura pantalla no pot excedir de %.2f MB</string>
+    <string name="hs__screenshot_remove">Eliminar</string>
+    <string name="hs__screenshot_sent_msg">Captura de pantalla enviada</string>
+    <string name="hs__screenshot_upload_error_msg">Error carregant la captura de pantalla</string>
+    <string name="hs__search_footer">No pot trobar el que estava buscant?</string>
+    <string name="hs__search_hint">Descrigui el seu problema</string>
+    <string name="hs__search_result_message">Preguntes que podrien contenir ja la seva resposta</string>
+    <string name="hs__search_result_title">Suggeriments</string>
+    <string name="hs__search_title">Cercar</string>
+    <string name="hs__send_anyway">ENVIAR DE TOTES MANERES</string>
+    <string name="hs__send_msg_btn">Enviar</string>
+    <string name="hs__sending_fail_msg">No lliurat. Toqui per tornar-ho a intentar.</string>
+    <string name="hs__sending_msg">Enviant…</string>
+    <string name="hs__solved_btn">Sí, resolt!</string>
+    <string name="hs__submit_conversation_btn">Enviar</string>
+    <string name="hs__unsolved_btn">No, no resolt</string>
+    <string name="hs__username_blank_error">Si us plau, introdueixi un nom vàlid</string>
+    <string name="hs__username_hint">Nom</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-ro/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Aţi evaluat serviciul cu 1 stea.</item>
+    <item quantity="other">Aţi evaluat serviciul cu %d stele.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Mesaj nou de la Asistenţă clienţi</item>
+    <item quantity="other">%d mesaje noi de la Asistenţă clienţi</item>
+  </plurals>
+    <string name="hs__attach_screenshot_btn">Ataşare captură ecran</string>
+    <string name="hs__ca_msg">Ne bucurăm să vă ajutăm!</string>
+    <string name="hs__change_btn">Modificare</string>
+    <string name="hs__chat_hint">Tastaţi mesajul</string>
+    <string name="hs__confirmation_footer_msg">Vă mulţumim pentru mesaj!</string>
+    <string name="hs__confirmation_msg">V-am răspuns la toate întrebările?</string>
+    <string name="hs__contact_us_btn">CONTACTAŢI-NE</string>
+    <string name="hs__conversation_detail_error">Descrieţi problema</string>
+    <string name="hs__conversation_end_msg">Conversaţia s-a încheiat.</string>
+    <string name="hs__conversation_header">Conversaţie</string>
+    <string name="hs__conversation_started_message">
+    Am primit mesajul dvs. Vă mulţumim că ne-aţi contactat!
+  </string>
+    <string name="hs__could_not_open_attachment_msg">Nu aveți aplicaţii care să poată efectua această acţiune.</string>
+    <string name="hs__could_not_reach_support_msg">Imposibil de contactat asistenţa</string>
+    <string name="hs__cr_msg">Cu ce vă mai putem fi de ajutor?</string>
+    <string name="hs__csat_additonal_feedback_message">Orice alt feedback (opţional)</string>
+    <string name="hs__csat_dislike_message">Nu-mi place!</string>
+    <string name="hs__csat_like_message">Îmi place!</string>
+    <string name="hs__csat_message">Ce părere aveţi de serviciul nostru de asistenţă clienţi?</string>
+    <string name="hs__csat_option_message">sau</string>
+    <string name="hs__csat_ratingbar">Vă rugăm să ne evaluaţi serviciul.</string>
+    <string name="hs__csat_submit_toast">Vă mulţumim pentru evaluare.</string>
+    <string name="hs__data_not_found_msg">Datele nu au fost găsite</string>
+    <string name="hs__default_notification_content_title">Asistenţă</string>
+    <string name="hs__description_invalid_length_error">
+    Vă rugăm să daţi cât mai multe detalii pentru a vă putea ajuta
+  </string>
+    <string name="hs__dm_video_loading">Încărcare video…</string>
+    <string name="hs__done_btn">Terminat</string>
+    <string name="hs__email_hint">E-mail (opţional)</string>
+    <string name="hs__email_required_hint">E-mail</string>
+    <string name="hs__empty_section">Ne pare rău! Nu există întrebări disponibile în această secţiune.</string>
+    <string name="hs__faq_header">Întrebări frecvente</string>
+    <string name="hs__faqs_search_footer">Nu au fost găsite întrebări frecvente.</string>
+    <string name="hs__feedback_button">Feedback</string>
+    <string name="hs__file_not_found_msg">Fişierul nu a fost găsit</string>
+    <string name="hs__file_type_audio">Audio</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office doc</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Fişier</string>
+    <string name="hs__file_type_video">Video</string>
+    <string name="hs__help_header">Ajutor</string>
+    <string name="hs__invalid_description_error">Descriere incorectă</string>
+    <string name="hs__invalid_email_error">Introduceţi un e-mail corect</string>
+    <string name="hs__mark_helpful_toast">Întrebarea a fost marcată ca fiind utilă</string>
+    <string name="hs__mark_no">NU</string>
+    <string name="hs__mark_unhelpful_toast">Întrebarea a fost marcată ca nefiind utilă</string>
+    <string name="hs__mark_yes">DA</string>
+    <string name="hs__mark_yes_no_question">V-a fost de ajutor?</string>
+    <string name="hs__network_error_msg">Ups! Ceva nu a funcţionat corect</string>
+    <string name="hs__network_unavailable_msg">Reţea indisponibilă.</string>
+    <string name="hs__new_conversation_btn">ÎNCEPE O CONVERSAŢIE NOUĂ</string>
+    <string name="hs__new_conversation_header">Conversaţie nouă</string>
+    <string name="hs__new_conversation_hint">Cum vă putem ajuta?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__question_header">Întrebare</string>
+    <string name="hs__question_helpful_message">V-a fost de ajutor.</string>
+    <string name="hs__question_unhelpful_message">Nu v-a fost\de ajutor.</string>
+    <string name="hs__rate_button">Evaluare</string>
+    <string name="hs__remove_screenshot_btn">Eliminare captură ecran</string>
+    <string name="hs__review_accepted_message">Cerere de recenzare acceptată</string>
+    <string name="hs__review_close_button">Închidere</string>
+    <string name="hs__review_message">
+    Dacă vă place aplicaţia noastră, vă rugăm să o evaluaţi
+  </string>
+    <string name="hs__review_request_message">Aţi dori să recenzaţi aplicaţia?</string>
+    <string name="hs__review_title">Evaluaţi aplicaţia</string>
+    <string name="hs__screenshot_add">Adăugare</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Eroare la ataşarea capturii de ecran. Alegeţi o imagine disponibilă local pe dispozitiv.
+  </string>
+    <string name="hs__screenshot_limit_error">Dimensiunea capturii de ecran nu trebuie să depăşească %.2f MB</string>
+    <string name="hs__screenshot_remove">Eliminare</string>
+    <string name="hs__screenshot_sent_msg">Captură ecran trimisă</string>
+    <string name="hs__screenshot_upload_error_msg">Eroare la încărcarea capturii de ecran</string>
+    <string name="hs__search_footer">Nu găsiţi ce căutaţi?</string>
+    <string name="hs__search_hint">Descrieţi problema dvs.</string>
+    <string name="hs__search_result_message">Întrebări care ar putea avea deja răspuns</string>
+    <string name="hs__search_result_title">Sugestii</string>
+    <string name="hs__search_title">Căutare</string>
+    <string name="hs__send_anyway">TRIMITE ORICUM</string>
+    <string name="hs__send_msg_btn">Trimite</string>
+    <string name="hs__sending_fail_msg">Livrare eșuată. Atingeţi pentru a reîncerca.</string>
+    <string name="hs__sending_msg">Se trimite…</string>
+    <string name="hs__solved_btn">Da, rezolvat!</string>
+    <string name="hs__submit_conversation_btn">Remite</string>
+    <string name="hs__unsolved_btn">Nu, nerezolvat</string>
+    <string name="hs__username_blank_error">Introduceţi un nume corect</string>
+    <string name="hs__username_hint">Nume</string>
+</resources>

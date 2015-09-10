@@ -10,7 +10,6 @@
     <item quantity="one">Nieuw bericht van Support</item>
     <item quantity="other">%d nieuwe berichten van Support</item>
   </plurals>
-    <string name="hs__attach_btn">Ok, toevoegen</string>
     <string name="hs__attach_screenshot_btn">Bevestig Screenshot</string>
     <string name="hs__ca_msg">"We helpen je graag!</string>
     <string name="hs__change_btn">Wijzigen</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Sorry! Geen vragen beschikbaar in dit gedeelte.</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faq_helpful_msg">Behulpzaam</string>
-    <string name="hs__faq_unhelpful_msg">Niet behulpzaam</string>
     <string name="hs__faqs_search_footer">Geen Veelgestelde Vragen gevonden</string>
-    <string name="hs__faqs_updating">Actualisering FAQ´s</string>
-    <string name="hs__faqs_updation_failure">Updaten veel gestelde vragen niet geslaagd</string>
-    <string name="hs__faqs_uptodate">FAQ´s geactualiseerd</string>
     <string name="hs__feedback_button">Feedback</string>
     <string name="hs__file_not_found_msg">Bestand niet gevonden</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Netwerk niet beschikbaar.</string>
     <string name="hs__new_conversation_btn">BEGIN EEN NIEUW GESPREK</string>
     <string name="hs__new_conversation_header">Nieuw Gesprek</string>
-    <string name="hs__new_conversation_hint">Wat is het probleem?</string>
+    <string name="hs__new_conversation_hint">Hoe kunnen wij helpen?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Vraag</string>
     <string name="hs__question_helpful_message">Je vond dit nuttig.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">Beoordelen</string>
     <string name="hs__remove_screenshot_btn">Verwijder schermafdruk</string>
     <string name="hs__review_accepted_message">Voorbeeld verzoek geaccepteerd</string>
-    <string name="hs__review_btn">OK, beoordelen</string>
     <string name="hs__review_close_button">Sluiten</string>
-    <string name="hs__review_dialog_msg">
-    Zou je onze app willen beoordelen? Het duurt maar even. Bedankt voor je steun!
-  </string>
-    <string name="hs__review_dialog_negative_btn">Vraag het me nooit meer</string>
-    <string name="hs__review_dialog_neutral_btn">Herinner me er later aan</string>
-    <string name="hs__review_dialog_positive_btn">Waarderen en beoordelen</string>
     <string name="hs__review_message">
     Als je van onze app houdt, beoordeel onze app dan even
   </string>
     <string name="hs__review_request_message">Wil je de app beoordelen?</string>
     <string name="hs__review_title">Beoordeel onze App</string>
-    <string name="hs__rsc_progress_msg">Screenshot aan het zenden.</string>
     <string name="hs__screenshot_add">Toevoegen</string>
     <string name="hs__screenshot_cloud_attach_error">
     Fout bevestigen screenshot. Kies een afbeelding die lokaal beschikbaar zijn op het apparaat.

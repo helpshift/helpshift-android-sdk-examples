@@ -10,7 +10,6 @@
     <item quantity="one">지원팀이 보낸 새 메시지</item>
     <item quantity="other">%d 개의 지원팀의 새 메시지</item>
   </plurals>
-    <string name="hs__attach_btn">예, 첨부</string>
     <string name="hs__attach_screenshot_btn">스크린 샷 첨부하기</string>
     <string name="hs__ca_msg">기꺼이 도와드리겠습니다!</string>
     <string name="hs__change_btn">변경</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">이메일</string>
     <string name="hs__empty_section">죄송합니다! 이 섹션에서 질문은 불가능합니다.</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faq_helpful_msg">도움이 됨</string>
-    <string name="hs__faq_unhelpful_msg">도움이 되지 않음</string>
     <string name="hs__faqs_search_footer">FAQ를 찾을 수 없음.</string>
-    <string name="hs__faqs_updating">자주 묻는 질문을 업데이트 중</string>
-    <string name="hs__faqs_updation_failure">FAQ 업데이트 실패</string>
-    <string name="hs__faqs_uptodate">자주 묻는 질문이 최신 상태입니다</string>
     <string name="hs__feedback_button">피드백 전송</string>
     <string name="hs__file_not_found_msg">파일이 없습니다</string>
     <string name="hs__file_type_audio">오디오</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">네트워크 이용불가능.</string>
     <string name="hs__new_conversation_btn">새로운 대화 시작</string>
     <string name="hs__new_conversation_header">새로운 대화</string>
-    <string name="hs__new_conversation_hint">무슨 생각을 하고 계세요?</string>
+    <string name="hs__new_conversation_hint">무엇을 도와 드릴까요?</string>
     <string name="hs__notification_content_text">답:</string>
     <string name="hs__question_header">질문</string>
     <string name="hs__question_helpful_message">이 내용은 유용했습니다.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">평가</string>
     <string name="hs__remove_screenshot_btn">스크린샷 제거</string>
     <string name="hs__review_accepted_message">리뷰 요청 수락함</string>
-    <string name="hs__review_btn">확인, 다시보기</string>
     <string name="hs__review_close_button">닫기</string>
-    <string name="hs__review_dialog_msg">
-    저희 앱을 평가하는데 시간을 내주시지 않으시겠습니까? 1분 넘게 걸리지 않을 것입니다. 당신의 도움에 감사드립니다!
-  </string>
-    <string name="hs__review_dialog_negative_btn">다시 묻지 않기</string>
-    <string name="hs__review_dialog_neutral_btn">나중에 다시 보기</string>
-    <string name="hs__review_dialog_positive_btn">점수와 평가를 해주세요</string>
     <string name="hs__review_message">
     저희 앱이 마음에 드신다면 시간을 내서 평가를 해주세요
   </string>
     <string name="hs__review_request_message">앱의 리뷰를 작성하시겠습니까?</string>
     <string name="hs__review_title">앱 평가</string>
-    <string name="hs__rsc_progress_msg">스크린샷 전송 중.</string>
     <string name="hs__screenshot_add">부언하다</string>
     <string name="hs__screenshot_cloud_attach_error">
     스크린 샷을 첨부 오류가 발생했습니다. 장치에 로컬로 사용할 이미지를 선택하십시오.

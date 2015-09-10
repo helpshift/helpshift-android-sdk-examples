@@ -10,7 +10,6 @@
     <item quantity="one">Pesan baru dari Dukungan</item>
     <item quantity="other">%d pesan baru dari Dukungan</item>
   </plurals>
-    <string name="hs__attach_btn">Oke, lampirkan</string>
     <string name="hs__attach_screenshot_btn">Lampirkan screenshot</string>
     <string name="hs__ca_msg">Kami senang membantu Anda!</string>
     <string name="hs__change_btn">Ganti</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Maaf! Tak ada pertanyaan tersedia pada bagian ini</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faq_helpful_msg">Membantu</string>
-    <string name="hs__faq_unhelpful_msg">Tidak Membantu</string>
     <string name="hs__faqs_search_footer">FAQ tidak ditemukan.</string>
-    <string name="hs__faqs_updating">Memperbarui FAQ…</string>
-    <string name="hs__faqs_updation_failure">Gagal memperbarui FAQ</string>
-    <string name="hs__faqs_uptodate">FAQ telah diperbarui</string>
     <string name="hs__feedback_button">Umpan Balik</string>
     <string name="hs__file_not_found_msg">File tak ditemukan</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Jaringan tidak tersedia.</string>
     <string name="hs__new_conversation_btn">MULAI PERCAKAPAN BARU</string>
     <string name="hs__new_conversation_header">Percakapan Baru</string>
-    <string name="hs__new_conversation_hint">Apa yang Anda pikirkan?</string>
+    <string name="hs__new_conversation_hint">Ada yang bisa kami bantu?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Pertanyaan</string>
     <string name="hs__question_helpful_message">Ini membantu Anda.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">Peringkat</string>
     <string name="hs__remove_screenshot_btn">Hapus screenshot</string>
     <string name="hs__review_accepted_message">Menerima permintaan tinjau</string>
-    <string name="hs__review_btn">Ok, ulas</string>
     <string name="hs__review_close_button">Tutup</string>
-    <string name="hs__review_dialog_msg">
-    Bersediakah Anda meluangkan waktu untuk menilai aplikasi kami? Hanya butuh beberapa menit.
-  </string>
-    <string name="hs__review_dialog_negative_btn">Jangan tanya saya lagi</string>
-    <string name="hs__review_dialog_neutral_btn">Ingatkan saya nanti</string>
-    <string name="hs__review_dialog_positive_btn">Nilai dan Ulas</string>
     <string name="hs__review_message">
     Jika Anda menyukai aplikasi kami, mohon luangkan waktu untuk memberinya nilai
   </string>
     <string name="hs__review_request_message">Bersediakah Anda memberi kami peringkat?</string>
     <string name="hs__review_title">Beri Peringkat</string>
-    <string name="hs__rsc_progress_msg">Mengirim screenshot</string>
     <string name="hs__screenshot_add">Tambah</string>
     <string name="hs__screenshot_cloud_attach_error">
     Galat melampirkan screenshot. Harap pilih gambar yang tersedia lokal pada perangkat.

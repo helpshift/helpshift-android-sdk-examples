@@ -10,7 +10,6 @@
     <item quantity="one">Novo sporočilo od Podpora</item>
     <item quantity="other">% d novih sporočil od Podpora</item>
   </plurals>
-    <string name="hs__attach_btn">Ok, priložite</string>
     <string name="hs__attach_screenshot_btn">priložite Screenshot</string>
     <string name="hs__ca_msg">Mi\'srečni, da vam pomaga</string>
     <string name="hs__change_btn">Spremeni</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">E-pošta</string>
     <string name="hs__empty_section">Žal nam je! Ni vprašanja, ki so na voljo v tem poglavju</string>
     <string name="hs__faq_header">Pogosta vprašanja</string>
-    <string name="hs__faq_helpful_msg">pomoč</string>
-    <string name="hs__faq_unhelpful_msg">ne zaležejo</string>
     <string name="hs__faqs_search_footer">Ni najdenih Pogosta vprašanja</string>
-    <string name="hs__faqs_updating">Posodabljanje Pogosta vprašanja…</string>
-    <string name="hs__faqs_updation_failure">Ni uspelo posodobiti Pogosta vprašanja</string>
-    <string name="hs__faqs_uptodate">Pogosta vprašanja up-to-datum</string>
     <string name="hs__feedback_button">komentar</string>
     <string name="hs__file_not_found_msg">Datoteke ni mogoče najti</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Omrežje ni na voljo.</string>
     <string name="hs__new_conversation_btn">Začeti nov pogovo</string>
     <string name="hs__new_conversation_header">New Pogovor</string>
-    <string name="hs__new_conversation_hint">Kaj\'s na pamet?</string>
+    <string name="hs__new_conversation_hint">Kako vam lahko pomagamo?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Vprašanje</string>
     <string name="hs__question_helpful_message">Ste našli to koristno.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">stopnja</string>
     <string name="hs__remove_screenshot_btn">Odstrani Screenshot</string>
     <string name="hs__review_accepted_message">Accepted zahtevek za pregled</string>
-    <string name="hs__review_btn">Ok, pregledati</string>
     <string name="hs__review_close_button">Zapri</string>
-    <string name="hs__review_dialog_msg">
-    Bi vas motilo, pri čemer si trenutek, da preberete naša app? Je zmagal\'t trajalo več kot minuto. Hvala za vašo podporo
-  </string>
-    <string name="hs__review_dialog_negative_btn">Nikoli me še enkrat vprašati</string>
-    <string name="hs__review_dialog_neutral_btn">Spomni me pozneje</string>
-    <string name="hs__review_dialog_positive_btn">Oceni in Review</string>
     <string name="hs__review_message">
     Če imate radi našo aplikacijo, si vzemite trenutek, da ga oceniti
   </string>
     <string name="hs__review_request_message">Bi radi, da pregleda aplikacijo?</string>
     <string name="hs__review_title">Stopnja Naša App</string>
-    <string name="hs__rsc_progress_msg">pošiljanje screenshot</string>
     <string name="hs__screenshot_add">Dodaj</string>
     <string name="hs__screenshot_cloud_attach_error">
     Napaka pritrditev zaslona. Prosimo, da izberete sliko, ki je na voljo lokalno na napravi

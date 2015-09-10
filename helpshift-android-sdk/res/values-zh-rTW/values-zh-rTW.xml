@@ -10,7 +10,6 @@
     <item quantity="one">來自客服的一則新訊息</item>
     <item quantity="other">來自客服的 %d 則新訊息</item>
   </plurals>
-    <string name="hs__attach_btn">好，附上檔案</string>
     <string name="hs__attach_screenshot_btn">附上畫面截圖</string>
     <string name="hs__ca_msg">我們很樂意為您提供協助！</string>
     <string name="hs__change_btn">變更</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">電子郵件</string>
     <string name="hs__empty_section">抱歉！這個區段裡沒有問題。</string>
     <string name="hs__faq_header">常見問題</string>
-    <string name="hs__faq_helpful_msg">有幫助</string>
-    <string name="hs__faq_unhelpful_msg">沒有幫助</string>
     <string name="hs__faqs_search_footer">找不到常見問題。</string>
-    <string name="hs__faqs_updating">更新常見問題中…</string>
-    <string name="hs__faqs_updation_failure">更新常見問題失敗</string>
-    <string name="hs__faqs_uptodate">常見問題已更新</string>
     <string name="hs__feedback_button">傳送意見回饋</string>
     <string name="hs__file_not_found_msg">找不到檔案</string>
     <string name="hs__file_type_audio">音效</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">沒有網路。</string>
     <string name="hs__new_conversation_btn">開始一段新對話</string>
     <string name="hs__new_conversation_header">新對話</string>
-    <string name="hs__new_conversation_hint">您在想什麼？</string>
+    <string name="hs__new_conversation_hint">您需要什麼幫助？</string>
     <string name="hs__notification_content_text">回覆：</string>
     <string name="hs__question_header">問題</string>
     <string name="hs__question_helpful_message">您覺得這有幫助。</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">評分</string>
     <string name="hs__remove_screenshot_btn">移除畫面截圖</string>
     <string name="hs__review_accepted_message">已接受評論請求</string>
-    <string name="hs__review_btn">好，評論</string>
     <string name="hs__review_close_button">關閉</string>
-    <string name="hs__review_dialog_msg">
-    您介意花點時間評論我們的應用程式嗎？這不會超過一分鐘。感謝您的支持！
-  </string>
-    <string name="hs__review_dialog_negative_btn">不要再問我</string>
-    <string name="hs__review_dialog_neutral_btn">待會提醒我</string>
-    <string name="hs__review_dialog_positive_btn">評分和評論</string>
     <string name="hs__review_message">
     如果您喜歡我們的應用程式，請花點時間來評分
   </string>
     <string name="hs__review_request_message">您想評論這個應用程式嗎？</string>
     <string name="hs__review_title">為我們的應用程式評分</string>
-    <string name="hs__rsc_progress_msg">正在傳送畫面截圖。</string>
     <string name="hs__screenshot_add">新增</string>
     <string name="hs__screenshot_cloud_attach_error">
     附上畫面截圖時出現錯誤。請選擇存於本裝置中的影像。

@@ -10,7 +10,6 @@
     <item quantity="one">Tin nhắn mới từ Hỗ trợ Khách hàng</item>
     <item quantity="other">%d tin nhắn mới từ Hỗ trợ Khách hàng</item>
   </plurals>
-    <string name="hs__attach_btn">Ok, đính kèm</string>
     <string name="hs__attach_screenshot_btn">Đính kèm Ảnh chụp màn hình</string>
     <string name="hs__ca_msg">Chúng tôi rất sẵn lòng giúp đỡ bạn!</string>
     <string name="hs__change_btn">Thay đổi</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Xin lỗi! Không có sẵn câu hỏi trong phần này</string>
     <string name="hs__faq_header">Hỏi đáp</string>
-    <string name="hs__faq_helpful_msg">Hữu ích</string>
-    <string name="hs__faq_unhelpful_msg">Không Hữu ích</string>
     <string name="hs__faqs_search_footer">Không tìm thấy mục Hỏi đáp nào</string>
-    <string name="hs__faqs_updating">Đang cập nhật FAQ…</string>
-    <string name="hs__faqs_updation_failure">Không cập nhật được FAQ</string>
-    <string name="hs__faqs_uptodate">FAQ đã được cập nhật mới nhất</string>
     <string name="hs__feedback_button">Gửi Phản hồi</string>
     <string name="hs__file_not_found_msg">Không tìm thấy tập tin</string>
     <string name="hs__file_type_audio">Âm thanh</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">Không có mạng.</string>
     <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC TRÒ CHUYỆN MỚI</string>
     <string name="hs__new_conversation_header">Cuộc trò chuyện mới</string>
-    <string name="hs__new_conversation_hint">Bạn đang nghĩ gì vậy?</string>
+    <string name="hs__new_conversation_hint">Chúng tôi có thể giúp được gì?</string>
     <string name="hs__notification_content_text">HỒI ÂM:</string>
     <string name="hs__question_header">Câu hỏi</string>
     <string name="hs__question_helpful_message">Bạn thấy câu trả lời này có giúp ích.</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">Đánh giá</string>
     <string name="hs__remove_screenshot_btn">Gỡ Ảnh chụp màn hình</string>
     <string name="hs__review_accepted_message">Chấp nhận yêu cầu đánh giá</string>
-    <string name="hs__review_btn">Ok, đánh giá</string>
     <string name="hs__review_close_button">Đóng</string>
-    <string name="hs__review_dialog_msg">
-    Xin phiền bạn dành chút thời gian để đánh giá ứng dụng của chúng tôi? Bạn sẽ không mất quá một phút.
-  </string>
-    <string name="hs__review_dialog_negative_btn">Đừng bao giờ hỏi lại tôi</string>
-    <string name="hs__review_dialog_neutral_btn">Nhắc tôi sau</string>
-    <string name="hs__review_dialog_positive_btn">Cho điểm và đánh giá</string>
     <string name="hs__review_message">
     Nếu bạn thích ứng dụng của chúng tôi, vui lòng dành chút thời gian để cho điểm
   </string>
     <string name="hs__review_request_message">Bạn có muốn đánh giá ứng dụng không?</string>
     <string name="hs__review_title">Đánh giá Ứng dụng của chúng tôi</string>
-    <string name="hs__rsc_progress_msg">Gửi ảnh chụp màn hình</string>
     <string name="hs__screenshot_add">Thêm</string>
     <string name="hs__screenshot_cloud_attach_error">
     Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một bức ảnh có sẵn ngay trong thiết bị.

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-el/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">Βαθμολογήσατε την υπηρεσία με 1 αστέρι.</item>
+    <item quantity="other">Βαθμολογήσατε την υπηρεσία με %d αστέρια.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">Νέο μήνυμα από Υποστήριξη</item>
+    <item quantity="other">% d νέα μηνύματα από Υποστήριξη</item>
+  </plurals>
+    <string name="hs__attach_screenshot_btn">Επισύναψη Στιγμιότυπου</string>
+    <string name="hs__ca_msg">Χαρήκαμε που σας βοηθήσαμε!</string>
+    <string name="hs__change_btn">Αλλαγή</string>
+    <string name="hs__chat_hint">Πληκτρολογήστε το μήνυμά σας</string>
+    <string name="hs__confirmation_footer_msg">Ευχαριστούμε για το μήνυμα!</string>
+    <string name="hs__confirmation_msg">Σας απαντήσαμε σε όλες τις ερωτήσεις σας;</string>
+    <string name="hs__contact_us_btn">ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</string>
+    <string name="hs__conversation_detail_error">Σας παρακαλούμε περιγράψτε το πρόβλημά σας</string>
+    <string name="hs__conversation_end_msg">Αυτή η συζήτηση τελείωσε.</string>
+    <string name="hs__conversation_header">Συζήτηση</string>
+    <string name="hs__conversation_started_message">
+    Το μήνυμά σας παραλήφθηκε. Σας ευχαριστούμε που επικοινωνήσατε μαζί μας!
+  </string>
+    <string name="hs__could_not_open_attachment_msg">Οι εφαρμογές δεν μπορούν να εκτελέσουν αυτήν την ενέργεια.</string>
+    <string name="hs__could_not_reach_support_msg">Δεν είναι δυνατή η σύνδεση με την υποστήριξη</string>
+    <string name="hs__cr_msg">Σε τι άλλο μπορούμε να σας βοηθήσουμε;</string>
+    <string name="hs__csat_additonal_feedback_message">Οποιοδήποτε άλλη ανατροφοδότηση (προαιρετικό)</string>
+    <string name="hs__csat_dislike_message">Τη μισώ!</string>
+    <string name="hs__csat_like_message">Τη λάτρεψα!</string>
+    <string name="hs__csat_message">Ποια είναι τα σχόλιά σας σχετικά με την υποστήριξη των πελατών μας;</string>
+    <string name="hs__csat_option_message">ή</string>
+    <string name="hs__csat_ratingbar">Παρακαλώ αξιολογήστε τις υπηρεσίες μας.</string>
+    <string name="hs__csat_submit_toast">Σας ευχαριστούμε για την αξιολόγηση.</string>
+    <string name="hs__data_not_found_msg">Δεν βρέθηκαν δεδομένα</string>
+    <string name="hs__default_notification_content_title">Υποστήριξη</string>
+    <string name="hs__description_invalid_length_error">
+    Σας παρακαλούμε να περιγράψετε περαιτέρω, έτσι ώστε να σας βοηθήσουμε καλύτερα
+  </string>
+    <string name="hs__dm_video_loading">Φόρτωση Βίντεου…</string>
+    <string name="hs__done_btn">Έγινε</string>
+    <string name="hs__email_hint">Email (προαιρετικό)</string>
+    <string name="hs__email_required_hint">Email</string>
+    <string name="hs__empty_section">Συγνώμη! Δεν υπάρχουν διαθέσιμες ερωτήσεις σε αυτή την ενότητα.</string>
+    <string name="hs__faq_header">Συχνές Ερωτήσεις</string>
+    <string name="hs__faqs_search_footer">Δεν βρέθηκαν Συχνές Ερωτήσεις.</string>
+    <string name="hs__feedback_button">σχόλιο</string>
+    <string name="hs__file_not_found_msg">Το αρχείο δεν βρέθηκε</string>
+    <string name="hs__file_type_audio">Ήχος</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">Office doc</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">Αρχείο</string>
+    <string name="hs__file_type_video">Βίντεο</string>
+    <string name="hs__help_header">Βοήθεια</string>
+    <string name="hs__invalid_description_error">Μη έγκυρη περιγραφή</string>
+    <string name="hs__invalid_email_error">Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="hs__mark_helpful_toast">Η ερώτηση έχει επισημανθεί ως Χρήσιμη</string>
+    <string name="hs__mark_no">ΟΧΙ</string>
+    <string name="hs__mark_unhelpful_toast">Η ερώτηση επισημάνθηκε ως Μη Χρήσιμη</string>
+    <string name="hs__mark_yes">ΝΑΙ</string>
+    <string name="hs__mark_yes_no_question">Ήταν χρήσιμο αυτό;</string>
+    <string name="hs__network_error_msg">Ωχ! Κάτι πήγε στραβά</string>
+    <string name="hs__network_unavailable_msg">Το δίκτυο δεν είναι διαθέσιμο.</string>
+    <string name="hs__new_conversation_btn">ΕΝΑΡΞΗ ΝΕΑΣ ΣΥΖΗΤΗΣΗΣ</string>
+    <string name="hs__new_conversation_header">Νέα Συζήτηση</string>
+    <string name="hs__new_conversation_hint">Πώς μπορούμε να βοηθήσουμε;</string>
+    <string name="hs__notification_content_text">Απ:</string>
+    <string name="hs__question_header">Ερώτηση</string>
+    <string name="hs__question_helpful_message">Το βρήκατε χρήσιμο.</string>
+    <string name="hs__question_unhelpful_message">Δεν το βρήκατε χρήσιμο</string>
+    <string name="hs__rate_button">Βαθμολογία</string>
+    <string name="hs__remove_screenshot_btn">Κατάργηση Στιγμιότυπου</string>
+    <string name="hs__review_accepted_message">Αποδεκτή αίτηση αναθεώρησης</string>
+    <string name="hs__review_close_button">Κλείσιμο</string>
+    <string name="hs__review_message">
+    Αν αγαπάτε την εφαρμογή μας, παρακαλούμε αφιερώσετε μια στιγμή να την αξιολογήσετε
+  </string>
+    <string name="hs__review_request_message">Θα θέλατε να αναθεωρήσετε την εφαρμογή;</string>
+    <string name="hs__review_title">Βαθμολογήστε την εφαρμογή μας</string>
+    <string name="hs__screenshot_add">Προσθήκη</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    Σφάλμα επισήμανσης στιγμιότυπου. Παρακαλώ επιλέξτε μια τοπικά διαθέσιμη εικόνα από τη συσκευή.
+  </string>
+    <string name="hs__screenshot_limit_error">Το μέγεθος του στιγμιότυπου δεν πρέπει να υπερβαίνει% .2f MB</string>
+    <string name="hs__screenshot_remove">Αφαίρεση</string>
+    <string name="hs__screenshot_sent_msg">Το στιγμιότυπο στάλθηκε</string>
+    <string name="hs__screenshot_upload_error_msg">Σφάλμα μεταφόρτωσης στιγμιότυπου</string>
+    <string name="hs__search_footer">Δεν μπορείτε να βρείτε αυτό που ψάχνετε;</string>
+    <string name="hs__search_hint">Περιγράψτε το πρόβλημά σας</string>
+    <string name="hs__search_result_message">Ερωτήσεις που έχετε ήδη απαντήσει</string>
+    <string name="hs__search_result_title">Προτάσεις</string>
+    <string name="hs__search_title">Αναζήτηση</string>
+    <string name="hs__send_anyway">ΑΠΟΣΤΟΛΗ ΟΥΤΩΣ Η ΑΛΛΩΣ</string>
+    <string name="hs__send_msg_btn">Αποστολή</string>
+    <string name="hs__sending_fail_msg">Δεν παραδόθηκε. Πατήστε για επανάληψη. </string>
+    <string name="hs__sending_msg">Αποστολή…</string>
+    <string name="hs__solved_btn">Ναι, λύθηκε!</string>
+    <string name="hs__submit_conversation_btn">Υποβολή</string>
+    <string name="hs__unsolved_btn">Όχι, άλυτο</string>
+    <string name="hs__username_blank_error">Παρακαλώ εισάγετε ένα έγκυρο όνομα</string>
+    <string name="hs__username_hint">Όνομα</string>
+</resources>

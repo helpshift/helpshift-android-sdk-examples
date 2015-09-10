@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-iw/strings.xml -->
+    <eat-comment/>
+    <plurals name="hs__csat_rating_value">
+    <item quantity="one">דירגתם את השירות עם כוכב אחד.</item>
+    <item quantity="other">דירגתם את השירות עם %d כוכבים.</item>
+  </plurals>
+    <plurals name="hs__notification_content_title">
+    <item quantity="one">הודעה חדשה מהתמיכה</item>
+    <item quantity="other">%d הודעה חדשה מהתמיכה</item>
+  </plurals>
+    <string name="hs__attach_screenshot_btn">הוסף צילום מסך</string>
+    <string name="hs__ca_msg">שמחים לעזור ל אנו כם!</string>
+    <string name="hs__change_btn">שנו</string>
+    <string name="hs__chat_hint">הקלידו את הודעתכם</string>
+    <string name="hs__confirmation_footer_msg">תודה ששלחתם לנו הודעה!</string>
+    <string name="hs__confirmation_msg">האם ענינו לכם על כל השאלות?</string>
+    <string name="hs__contact_us_btn">צרו קשר</string>
+    <string name="hs__conversation_detail_error">אנא תארו את הבעיה שלכם</string>
+    <string name="hs__conversation_end_msg">שיחה זו הסתיימה.</string>
+    <string name="hs__conversation_header">שיחה</string>
+    <string name="hs__conversation_started_message">
+    הודעתכם התקבלה. תודה שיצרתם קשר איתנו!
+  </string>
+    <string name="hs__could_not_open_attachment_msg">אין אפליקציות שיכולות לבצע פעולה זו</string>
+    <string name="hs__could_not_reach_support_msg">לא ניתן להגיע לתמיכה</string>
+    <string name="hs__cr_msg">במה עוד אפשר לעזור לכם?</string>
+    <string name="hs__csat_additonal_feedback_message">משוב נוסף (לא חובה)</string>
+    <string name="hs__csat_dislike_message">שנאתי אותה!</string>
+    <string name="hs__csat_like_message">אהבתי אותה!</string>
+    <string name="hs__csat_message">מהי הביקורת שלכם על תמיכת הלקוחות שלנו?</string>
+    <string name="hs__csat_option_message">או</string>
+    <string name="hs__csat_ratingbar">אנא דרגו את שירותינו.</string>
+    <string name="hs__csat_submit_toast">תודה שדירגתם אותנו.</string>
+    <string name="hs__data_not_found_msg">מידע לא נמצא</string>
+    <string name="hs__default_notification_content_title">תמיכה</string>
+    <string name="hs__description_invalid_length_error">
+    אנא הרחיבו את התיאור כדי שנוכל לעזור לכם יותר טוב
+  </string>
+    <string name="hs__dm_video_loading">טוען וידאו…</string>
+    <string name="hs__done_btn">בוצע</string>
+    <string name="hs__email_hint">אימייל (לא חובה)</string>
+    <string name="hs__email_required_hint">אימייל</string>
+    <string name="hs__empty_section">מצטערים! אין שאלות זמינות לחלק הזה.</string>
+    <string name="hs__faq_header">שאלות נפוצות</string>
+    <string name="hs__faqs_search_footer">לא נמצאו שאלות נפוצות.</string>
+    <string name="hs__feedback_button">שלחו משוב</string>
+    <string name="hs__file_not_found_msg">קובץ לא נמצא</string>
+    <string name="hs__file_type_audio">אודיו</string>
+    <string name="hs__file_type_csv">CSV</string>
+    <string name="hs__file_type_ms_office">מסמך אופיס</string>
+    <string name="hs__file_type_pdf">PDF</string>
+    <string name="hs__file_type_rtf">RTF</string>
+    <string name="hs__file_type_text">TXT</string>
+    <string name="hs__file_type_unknown">קובץ</string>
+    <string name="hs__file_type_video">וידאו</string>
+    <string name="hs__help_header">עזרה</string>
+    <string name="hs__invalid_description_error">תיאור לא תקין</string>
+    <string name="hs__invalid_email_error">אנא הכניסו אימייל תקין</string>
+    <string name="hs__mark_helpful_toast">השאלה סומנה כמועילה</string>
+    <string name="hs__mark_no">לא</string>
+    <string name="hs__mark_unhelpful_toast">השאלה סומנה כלא מועילה</string>
+    <string name="hs__mark_yes">כן</string>
+    <string name="hs__mark_yes_no_question">האם זה עזר?</string>
+    <string name="hs__network_error_msg">אופס! משהו התקלקל</string>
+    <string name="hs__network_unavailable_msg">הרשת לא זמינה.</string>
+    <string name="hs__new_conversation_btn">התחל שיחה חדשה</string>
+    <string name="hs__new_conversation_header">שיחה חדשה</string>
+    <string name="hs__new_conversation_hint">כיצד נוכל לעזור לכם?</string>
+    <string name="hs__notification_content_text">חוזר:</string>
+    <string name="hs__question_header">שאלה</string>
+    <string name="hs__question_helpful_message">זה עזר.</string>
+    <string name="hs__question_unhelpful_message">זה לא עזר.</string>
+    <string name="hs__rate_button">דרגו</string>
+    <string name="hs__remove_screenshot_btn">הסר צילום מסך</string>
+    <string name="hs__review_accepted_message">בקשת ביקורת התקבלה</string>
+    <string name="hs__review_close_button">סגור</string>
+    <string name="hs__review_message">
+    אם אתם אוהבים את האפליקציה שלנו, אנא קחו רגע לדרג אותה
+  </string>
+    <string name="hs__review_request_message">תרצו לדרג את האפליקציה?</string>
+    <string name="hs__review_title">דרגו את האפליקציה שלנו</string>
+    <string name="hs__screenshot_add">הוסף</string>
+    <string name="hs__screenshot_cloud_attach_error">
+    שגיאה בהוספת תמונה. אנא בחרו תמונה שזמינה מקומית על המכשיר שלכם.
+  </string>
+    <string name="hs__screenshot_limit_error">על צילום המסך לא להיות גדול מ %.2f מגה-בייט</string>
+    <string name="hs__screenshot_remove">הסר</string>
+    <string name="hs__screenshot_sent_msg">צילום מסך נשלח</string>
+    <string name="hs__screenshot_upload_error_msg">שגיאה בהעלאת צילום המסך</string>
+    <string name="hs__search_footer">לא מצאתם את מה שאתם מחפשים?</string>
+    <string name="hs__search_hint">תארו את הבעיה שלכם</string>
+    <string name="hs__search_result_message">שאלות שאולי יש להן את התשובה שאתם מחפשים</string>
+    <string name="hs__search_result_title">הצעות</string>
+    <string name="hs__search_title">חפש</string>
+    <string name="hs__send_anyway">שלח בכל זאת</string>
+    <string name="hs__send_msg_btn">שלח</string>
+    <string name="hs__sending_fail_msg">לא נשלח. לחצו כדי לנסות שוב.</string>
+    <string name="hs__sending_msg">שולח…</string>
+    <string name="hs__solved_btn">כן, פתור!</string>
+    <string name="hs__submit_conversation_btn">שלח</string>
+    <string name="hs__unsolved_btn">לא, לא פתור</string>
+    <string name="hs__username_blank_error">אנא הכניסו שם תקין</string>
+    <string name="hs__username_hint">שם</string>
+</resources>

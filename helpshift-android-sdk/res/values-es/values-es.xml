@@ -10,7 +10,6 @@
     <item quantity="one">Nuevo mensaje de apoyo</item>
     <item quantity="other">%d nuevos mensajes de apoyo</item>
   </plurals>
-    <string name="hs__attach_btn">Sí, adjuntar</string>
     <string name="hs__attach_screenshot_btn">Adjuntar captura de pantalla</string>
     <string name="hs__ca_msg">Nos complace ayudar</string>
     <string name="hs__change_btn">Cambiar</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Disculpe. No hay preguntas disponibles en esta sección.</string>
     <string name="hs__faq_header">PF</string>
-    <string name="hs__faq_helpful_msg">Útil</string>
-    <string name="hs__faq_unhelpful_msg">No ha sido útil</string>
     <string name="hs__faqs_search_footer">No FAQs encontrado.</string>
-    <string name="hs__faqs_updating">Actualizando FAQ</string>
-    <string name="hs__faqs_updation_failure">Error al actualizar Preguntas frecuentes</string>
-    <string name="hs__faqs_uptodate">FAQ actualizadas</string>
     <string name="hs__feedback_button">Feedback</string>
     <string name="hs__file_not_found_msg">No se ha encontrado el archivo</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">La red no está disponible</string>
     <string name="hs__new_conversation_btn">INICIAR UNA NUEVA CONVERSACIÓN</string>
     <string name="hs__new_conversation_header">Nueva conversación</string>
-    <string name="hs__new_conversation_hint">¿Qué piensas?</string>
+    <string name="hs__new_conversation_hint">¿En qué le podemos ayudar?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Pregunta</string>
     <string name="hs__question_helpful_message">Le resultó útil.</string>
@@ -81,21 +75,12 @@
     <string name="hs__rate_button">Calificar</string>
     <string name="hs__remove_screenshot_btn">Eliminar captura de pantalla</string>
     <string name="hs__review_accepted_message">Solicitud de revisión aceptada</string>
-    <string name="hs__review_btn">Sí, revisar</string>
     <string name="hs__review_close_button">Cerrar</string>
-    <string name="hs__review_dialog_msg">
-    ¿Podría dedicarle unos instantes a puntuar esta aplicación? No le llevará más de un
-    minuto. ¡Gracias por su apoyo!
-  </string>
-    <string name="hs__review_dialog_negative_btn">No volver a preguntar</string>
-    <string name="hs__review_dialog_neutral_btn">Preguntar más tarde</string>
-    <string name="hs__review_dialog_positive_btn">Calificar y opinar</string>
     <string name="hs__review_message">
     Si te agrada nuestra aplicación, tómate un momento para calificarla en el App Store
   </string>
     <string name="hs__review_request_message">¿Te gustaría hacer una reseña de la aplicación?</string>
     <string name="hs__review_title">Califica nuestra aplicación</string>
-    <string name="hs__rsc_progress_msg">Enviando captura de pantalla.</string>
     <string name="hs__screenshot_add">Añadir</string>
     <string name="hs__screenshot_cloud_attach_error">
     Error adjuntando pantalla. Por favor, elija una imagen disponible localmente en el dispositivo.

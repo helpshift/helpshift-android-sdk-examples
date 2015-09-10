@@ -118,7 +118,6 @@
     <item quantity="one">New message from Support</item>
     <item quantity="other">%d new messages from Support</item>
   </plurals>
-    <string name="hs__attach_btn">OK, attach</string>
     <string name="hs__attach_screenshot_btn">Attach Screenshot</string>
     <string name="hs__ca_msg">We\'re happy to help you!</string>
     <string name="hs__change_btn">Change</string>
@@ -153,12 +152,7 @@
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Sorry! No questions available in this section.</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faq_helpful_msg">Helpful</string>
-    <string name="hs__faq_unhelpful_msg">Not Helpful</string>
     <string name="hs__faqs_search_footer">No FAQs found.</string>
-    <string name="hs__faqs_updating">Updating FAQs…</string>
-    <string name="hs__faqs_updation_failure">Failed to update FAQs</string>
-    <string name="hs__faqs_uptodate">FAQs up-to-date</string>
     <string name="hs__feedback_button">Send Feedback</string>
     <string name="hs__file_not_found_msg">File not found</string>
     <string name="hs__file_type_audio">Audio</string>
@@ -181,7 +175,7 @@
     <string name="hs__network_unavailable_msg">Network not available.</string>
     <string name="hs__new_conversation_btn">START A NEW CONVERSATION</string>
     <string name="hs__new_conversation_header">New Conversation</string>
-    <string name="hs__new_conversation_hint">What\'s on your mind?</string>
+    <string name="hs__new_conversation_hint">How can we help?</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__question_header">Question</string>
     <string name="hs__question_helpful_message">You found this helpful.</string>
@@ -189,21 +183,12 @@
     <string name="hs__rate_button">Rate</string>
     <string name="hs__remove_screenshot_btn">Remove Screenshot</string>
     <string name="hs__review_accepted_message">Accepted review request</string>
-    <string name="hs__review_btn">OK, review</string>
     <string name="hs__review_close_button">Close</string>
-    <string name="hs__review_dialog_msg">
-    Would you mind taking a moment to review our app? It won\'t take more than a minute. Thanks
-    for your support!
-  </string>
-    <string name="hs__review_dialog_negative_btn">Never ask me again</string>
-    <string name="hs__review_dialog_neutral_btn">Remind me later</string>
-    <string name="hs__review_dialog_positive_btn">Rate and Review</string>
     <string name="hs__review_message">
     If you love our app, please take a moment to rate it
   </string>
     <string name="hs__review_request_message">Would you like to review the app?</string>
     <string name="hs__review_title">Rate Our App</string>
-    <string name="hs__rsc_progress_msg">Sending screenshot.</string>
     <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values/screen.xml -->
     <eat-comment/>
     <string name="hs__screen_type" translatable="false">phone</string>

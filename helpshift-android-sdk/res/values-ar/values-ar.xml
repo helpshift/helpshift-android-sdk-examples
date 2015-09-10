@@ -10,7 +10,6 @@
     <item quantity="one">رسالة جديدة من الدعم الفني </item>
     <item quantity="other">%d رسائل جديدة من الدعم الفني</item>
   </plurals>
-    <string name="hs__attach_btn">حسناً، أَرفِق</string>
     <string name="hs__attach_screenshot_btn">أَرفِق لقطةً من الشاشة</string>
     <string name="hs__ca_msg">نحن سُعداء لِمُساعدتِك!</string>
     <string name="hs__change_btn">تغيير</string>
@@ -45,12 +44,7 @@
     <string name="hs__email_required_hint">البريد الإلكتروني</string>
     <string name="hs__empty_section">عذراً، لا توجد أسئلة مُتوفِرة في هذا القسم</string>
     <string name="hs__faq_header">الأسئلة الشائعة</string>
-    <string name="hs__faq_helpful_msg">مُفيد </string>
-    <string name="hs__faq_unhelpful_msg">غير مُفيد</string>
     <string name="hs__faqs_search_footer">لا يتم العثور على أسئلة شائعة</string>
-    <string name="hs__faqs_updating">جارٍ تحديث الأسئلة الشائعة...</string>
-    <string name="hs__faqs_updation_failure">لقد فشل تحديث الأسئلة الشائعة</string>
-    <string name="hs__faqs_uptodate">الأسئلة الشائعة مُحدَّثة </string>
     <string name="hs__feedback_button">إرسال تعليق</string>
     <string name="hs__file_not_found_msg">لم يتم العثور على ملف</string>
     <string name="hs__file_type_audio">صوت</string>
@@ -73,7 +67,7 @@
     <string name="hs__network_unavailable_msg">الشبكة غير مُتاحَة.</string>
     <string name="hs__new_conversation_btn">بدء مُحادَثة جديدة</string>
     <string name="hs__new_conversation_header">مُحادَثة جديدة</string>
-    <string name="hs__new_conversation_hint">ماذا يدور بذهنك؟</string>
+    <string name="hs__new_conversation_hint">كيف يُمكِننا المساعدة؟</string>
     <string name="hs__notification_content_text">رد:</string>
     <string name="hs__question_header">سؤال</string>
     <string name="hs__question_helpful_message">لقد وجدت أن ذلك مُفيداً</string>
@@ -81,20 +75,12 @@
     <string name="hs__rate_button">تقييم </string>
     <string name="hs__remove_screenshot_btn">أَزِل لقطةً من الشاشة</string>
     <string name="hs__review_accepted_message">لقد تم قبول طلب الاستعراض</string>
-    <string name="hs__review_btn">حسناً، اِعرِض</string>
     <string name="hs__review_close_button">غلق</string>
-    <string name="hs__review_dialog_msg">
-    هل تُمانِع أن نأخذ من وقتك لحظةً في اسْتِعْراض تطبيقنا؟ لن يستغرق ذلك أكثر من دقيقة.
-  </string>
-    <string name="hs__review_dialog_negative_btn">لا تسألني مرةً أخرى</string>
-    <string name="hs__review_dialog_neutral_btn">ذَكِرني لاحقاً</string>
-    <string name="hs__review_dialog_positive_btn">قَيِّم واَعرِض</string>
     <string name="hs__review_message">
     إذا أحببت تطبيقنا، من فضلك خذ من وقتك لحظةً لتقييمه
   </string>
     <string name="hs__review_request_message">هل تريد استعراض التطبيق؟ </string>
     <string name="hs__review_title">قَيِّم تطبيقنا </string>
-    <string name="hs__rsc_progress_msg">إرسال لقطة من الشاشة.</string>
     <string name="hs__screenshot_add">إضافة</string>
     <string name="hs__screenshot_cloud_attach_error">
     لقد حدث خطأ أثناء تحميِّل لقطة من الشاشة. من فضلك اِختر صورةً مُتاحة داخلياً على جهازك.
