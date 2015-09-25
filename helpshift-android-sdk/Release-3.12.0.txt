@@ -1,4 +1,4 @@
-Helpshift SDK 3.11.0 Release Notes (for Android)
+Helpshift SDK 3.12.0 Release Notes (for Android)
 ------------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,8 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+3.12.0 Release Date: September 25, 2015
+      * Add API configuration flag to enable or disable default fallback language for FAQ.
 3.11.0 Release Date: 10 September, 2015
       * Add API configuration option for Conversation Resolution Question.
       * Add API configuration option for filtering FAQ by categories.
@@ -21,8 +23,7 @@ New features:
       * Improved ticket deflection.
       * Reduce empty gibberish tickets.
       * Added translations for Arabic and Polish.
-      * Bug fixes.
-3.9.1 Release Date: June 25, 2015
+      * Bug fixes.3.9.1 Release Date: June 25, 2015
       * FIX Edge case bug where screenshot could not be rendered after an automation reply
       * FIX Attach Screenshot crash on OnePlus One device
 3.9.0 Release Date: May 21, 2015

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-v14/themes.xml -->
+    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-v14/themes.xml -->
     <eat-comment/>
     <style name="Helpshift.Theme.Dark" parent="@android:style/Theme.Holo">
     <item name="hs__selectableItemBackground">?android:attr/selectableItemBackground</item>

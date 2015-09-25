@@ -55,4 +55,4 @@
       android:layout_alignParentBottom="true"
       android:layout_width="match_parent"
       android:layout_height="wrap_content" />
-</merge><!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/layout/hs__screenshot_preview.xml -->
+</merge><!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__screenshot_preview.xml -->

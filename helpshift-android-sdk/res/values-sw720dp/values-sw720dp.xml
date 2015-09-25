@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-sw720dp/screen.xml -->
+    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-sw720dp/screen.xml -->
     <eat-comment/>
     <item format="float" name="hs__tablet_dialog_horizontal_scale" type="dimen">0.8</item>
     <item format="float" name="hs__tablet_dialog_vertical_scale" type="dimen">0.8</item>
     <string name="hs__screen_type" translatable="false">10-inch-tablet</string>
-    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-sw720dp/themes_base.xml -->
+    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-sw720dp/themes_base.xml -->
     <eat-comment/>
     <style name="Helpshift.Theme.Activity" parent="@style/Helpshift.Theme.Base" ns1:targetApi="11">
     <item name="android:colorBackgroundCacheHint">@null</item>

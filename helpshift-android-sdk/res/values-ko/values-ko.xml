@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/naiquevin/helpshift/code/r2d2/Helpshift/src/main/res/values-ko/strings.xml -->
+    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-ko/strings.xml -->
     <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">서비스에 별 1개의 평가를 매겼습니다</item>
