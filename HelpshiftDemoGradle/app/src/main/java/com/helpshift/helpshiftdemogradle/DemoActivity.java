@@ -6,7 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import com.helpshift.Helpshift;
+import com.helpshift.Core;
+import com.helpshift.support.Support;
 
 public class DemoActivity extends ActionBarActivity {
 
@@ -14,17 +15,18 @@ public class DemoActivity extends ActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_demo);
-    Helpshift.install(getApplication(),
+    Core.init(Support.getInstance());
+    Core.install(getApplication(),
         "<your api key>",
         "<your domain>",
         "<your app id>");
-    android.util.Log.d("Helpshift", Helpshift.libraryVersion + " - is the version for gradle");
+    android.util.Log.d("Helpshift", Support.libraryVersion + " - is the version for gradle");
 
     Button helpButton = (Button) findViewById(R.id.help);
     helpButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Helpshift.showFAQs(DemoActivity.this);
+        Support.showFAQs(DemoActivity.this);
       }
     });
 

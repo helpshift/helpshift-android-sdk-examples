@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-uk/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">Ви оцінили наші послуги 1-єю зірочкою.</item>
     <item quantity="other">Ви оцінили наші послуги %d зірочками.</item>
@@ -10,7 +8,9 @@
     <item quantity="one">Нове повідомлення від служби підтримки</item>
     <item quantity="other">%d нових повідомлень від служби підтримки</item>
   </plurals>
+    <string name="hs__app_review_button">ОЦІНИТИ</string>
     <string name="hs__attach_screenshot_btn">Приєднати знімок екрану</string>
+    <string name="hs__attach_screenshot_button">ПРИКРІПИТИ</string>
     <string name="hs__ca_msg">Ми раді допомогти вам!</string>
     <string name="hs__change_btn">Змінити</string>
     <string name="hs__chat_hint">Напишіть ваше повідомлення</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">Електронна пошта (за бажанням)</string>
     <string name="hs__email_required_hint">Електронна пошта</string>
     <string name="hs__empty_section">Вибачте! В цьому розділі не можливо поставити питання</string>
+    <string name="hs__faq_fetching_fail_message">Наразі неможливо завантажити FAQs. Будь ласка, спробуйте знову…</string>
     <string name="hs__faq_header">ЧаПи</string>
     <string name="hs__faqs_search_footer">ЧаПи не знайдено.</string>
     <string name="hs__feedback_button">подати</string>
+    <string name="hs__fetching_faqs_message">Шукаємо ваші відповіді…</string>
     <string name="hs__file_not_found_msg">Файл не знайдено</string>
     <string name="hs__file_type_audio">Аудіо</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">Файл</string>
     <string name="hs__file_type_video">Відео</string>
     <string name="hs__help_header">Допомога</string>
+    <string name="hs__image_not_available">Зображення не доступне</string>
     <string name="hs__invalid_description_error">Неприпустимий опис</string>
     <string name="hs__invalid_email_error">Будь ласка, напишіть справжню адресу електронної пошти</string>
     <string name="hs__mark_helpful_toast">Питання помічено як корисне</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">РОЗПОЧАТИ НОВУ РОЗМОВУ</string>
     <string name="hs__new_conversation_header">Нова розмова</string>
     <string name="hs__new_conversation_hint">Чим ми можемо вам допомогти?</string>
+    <string name="hs__no_search_results_message">Ой! Ми не змогли нічого знайти для query</string>
     <string name="hs__notification_content_text">У відповідь на:</string>
-    <string name="hs__question_header">Питання</string>
+    <string name="hs__permission_denied_message">Необхідний дозвіл на зберігання, щоб мати доступ до зображень екрану і завантажувати прикріплені файли</string>
+    <string name="hs__permission_denied_snackbar_action">Налаштування</string>
+    <string name="hs__permission_not_granted">Додаток не має доступу до ваших зображень</string>
+    <string name="hs__permission_rationale_snackbar_action_label">Добре</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">Ви оцінили інформацію як корисну.</string>
     <string name="hs__question_unhelpful_message">Ви оцінили інформацію як не корисну.</string>
     <string name="hs__rate_button">Оцінити</string>
     <string name="hs__remove_screenshot_btn">Видалити знімок</string>
-    <string name="hs__review_accepted_message">Прийнятий запит на відгук</string>
+    <string name="hs__retry_faq_fetching_button">СПРОБУВАТИ ЗНОВУ</string>
+    <string name="hs__review_accepted_message">Ви прийняли прохання про відгкук.</string>
     <string name="hs__review_close_button">Закрити</string>
     <string name="hs__review_message">
     Якщо вам подобається наш додаток, будь ласка, знайдіть час оцінити його
   </string>
-    <string name="hs__review_request_message">Бажаєте залишити відгук про додаток?</string>
+    <string name="hs__review_request_message">Чи не могли б ви оцінити додаток на Play Store?</string>
     <string name="hs__review_title">Оцініть наш додаток</string>
     <string name="hs__screenshot_add">Додати</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">Питання, на які, можливо, вже була дана відповідь</string>
     <string name="hs__search_result_title">Пропозиції</string>
     <string name="hs__search_title">Пошук</string>
+    <string name="hs__select_a_question_message">Будь ласка, виберіть питання ліворуч</string>
     <string name="hs__send_anyway">НАДІСЛАТИ ВСЕ ОДНО</string>
     <string name="hs__send_msg_btn">Надіслати</string>
-    <string name="hs__sending_fail_msg">Не доставлено. Торкніться, щоб спробувати ще раз</string>
+    <string name="hs__sending_fail_msg">Повідомлення не надіслано. Торкніться, щоб спробувати знову</string>
     <string name="hs__sending_msg">Надсилання…</string>
     <string name="hs__solved_btn">Так, вирішена</string>
+    <string name="hs__starting_download">Починається завантаження…</string>
     <string name="hs__submit_conversation_btn">Відправити</string>
     <string name="hs__unsolved_btn">Ні, не вирішена</string>
     <string name="hs__username_blank_error">Будь ласка, напишіть справжнє ім\'я</string>
-    <string name="hs__username_hint">Ім\'я</string>
+    <string name="hs__username_hint">Ваше ім\'я</string>
 </resources>

@@ -1,75 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" >
-
-  <TextView
-    android:id="@+id/csat_message"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:paddingTop="25dp"
-    android:paddingBottom="21dp"
-    android:gravity="center_horizontal"
-    android:text="@string/hs__csat_message"
-    />
-
-  <RatingBar
-    android:contentDescription="@string/hs__csat_ratingbar"
-    android:id="@+id/ratingBar"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/csat_message"
-    android:layout_centerHorizontal="true"
-    android:paddingBottom="6dp"
-    android:stepSize="1.0"
-    />
-
-  <TextView
-    android:id="@+id/csat_dislike_msg"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/ratingBar"
-    android:layout_alignLeft="@+id/ratingBar"
-    android:text="@string/hs__csat_dislike_message"
-    />
-
-  <TextView
-    android:id="@+id/csat_like_msg"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/ratingBar"
-    android:layout_alignRight="@+id/ratingBar"
-    android:text="@string/hs__csat_like_message"
-    />
-
-  <RelativeLayout
-    android:id="@+id/divider"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_below="@+id/csat_dislike_msg"
-    >
+    android:background="?android:windowBackground">
 
-    <View
-      style="@style/HSDivider"
-      android:layout_toLeftOf="@+id/option_text"
-      android:layout_centerVertical="true"
-      android:layout_marginRight="3dp"
-      />
-
-    <TextView
-      android:id="@+id/option_text"
+  <TextView
+      android:id="@+id/csat_message"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="@string/hs__csat_option_message"
-      android:paddingBottom="3dp"
       android:layout_centerHorizontal="true"
-      android:includeFontPadding="false"
-      />
+      android:gravity="center_horizontal"
+      android:paddingBottom="@dimen/activity_horizontal_margin_large"
+      android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+      android:paddingRight="@dimen/activity_horizontal_margin_medium"
+      android:paddingTop="@dimen/activity_horizontal_margin_large"
+      android:text="@string/hs__csat_message"/>
+
+  <RatingBar
+      android:id="@+id/ratingBar"
+      style="@style/Helpshift.Style.RatingBar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/csat_message"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="@dimen/activity_horizontal_margin_medium"
+      android:contentDescription="@string/hs__csat_ratingbar"
+      android:paddingBottom="@dimen/activity_vertical_margin_medium"
+      android:paddingTop="@dimen/activity_vertical_margin_medium"
+      android:stepSize="1.0"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ratingBar"
+      android:gravity="center"
+      android:orientation="horizontal">
 
     <View
-      style="@style/HSDivider"
-      android:layout_toRightOf="@+id/option_text"
-      android:layout_centerVertical="true"
-      android:layout_marginLeft="3dp"
-      />
-  </RelativeLayout>
-</merge><!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__csat_view.xml -->
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?attr/hs__separatorColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin_small"
+        android:paddingRight="@dimen/activity_horizontal_margin_small"
+        android:text="@string/hs__csat_option_message"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?attr/hs__separatorColor"/>
+
+    <!-- These are dummy views, since R.id.csat_like_msg and  R.id.csat_like_msg are removed but
+          still present in D.java in test classes which is failing jenkin build
+          TODO: Remove this immediately after tests are fixed-->
+    <View
+        android:id="@+id/csat_like_msg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/csat_dislike_msg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/option_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+  </LinearLayout>
+</RelativeLayout>

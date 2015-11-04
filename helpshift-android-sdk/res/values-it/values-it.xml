@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-it/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">Hai valutato il servizio con 1 stella</item>
     <item quantity="other">Hai valutato il servizio con %d stelle</item>
@@ -10,7 +8,9 @@
     <item quantity="one">Nuovo messaggio da supporto</item>
     <item quantity="other">%d nuovi messaggi dal supporto</item>
   </plurals>
+    <string name="hs__app_review_button">RECENSISCI</string>
     <string name="hs__attach_screenshot_btn">Allega Screenshot</string>
+    <string name="hs__attach_screenshot_button">ALLEGA</string>
     <string name="hs__ca_msg">Siamo felici di aiutare</string>
     <string name="hs__change_btn">Modifica</string>
     <string name="hs__chat_hint">Digita il tuo messaggio</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">E-mail (opzionale)</string>
     <string name="hs__email_required_hint">E-mail</string>
     <string name="hs__empty_section">Spiacenti! Nessuna domanda disponibile in questa sezione</string>
+    <string name="hs__faq_fetching_fail_message">Impossibile caricare le FAQ in questo momento. Riprova più tardi…</string>
     <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">Nessun trovato FAQ.</string>
     <string name="hs__feedback_button">Invia Feedback</string>
+    <string name="hs__fetching_faqs_message">Ottenendo le tue risposte…</string>
     <string name="hs__file_not_found_msg">File non trovato</string>
     <string name="hs__file_type_audio">Audio</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">File</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Guida</string>
+    <string name="hs__image_not_available">Immagine non disponibile</string>
     <string name="hs__invalid_description_error">Descrizione non valido</string>
     <string name="hs__invalid_email_error">Si prega di inserire un indirizzo email valido</string>
     <string name="hs__mark_helpful_toast">Domanda è stato contrassegnato come utile</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">AVVIA UNA NUOVA CONVERSAZIONE</string>
     <string name="hs__new_conversation_header">Nuova conversazione</string>
     <string name="hs__new_conversation_hint">Come possiamo aiutarti?</string>
+    <string name="hs__no_search_results_message">Ops! Non è stato trovato niente per query</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__question_header">Domanda</string>
+    <string name="hs__permission_denied_message">È necessaria l\'autorizzazione di archiviazione per accedere agli screenshot e scaricare allegati</string>
+    <string name="hs__permission_denied_snackbar_action">Impostazioni</string>
+    <string name="hs__permission_not_granted"> L\'applicazione non ha l\'autorizzazione di accedere alle tue foto</string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">Questo ti è stato utile.</string>
     <string name="hs__question_unhelpful_message">Questo non ti è stato utile.</string>
     <string name="hs__rate_button">Valuta</string>
     <string name="hs__remove_screenshot_btn">Rimuovi screenshot</string>
-    <string name="hs__review_accepted_message">Richiesta di recensione accettata</string>
+    <string name="hs__retry_faq_fetching_button">RIPROVA</string>
+    <string name="hs__review_accepted_message">Hai accettato la richiesta di recensione.</string>
     <string name="hs__review_close_button">Chiudi</string>
     <string name="hs__review_message">
     Se ti piace la nostra app, per favore dedicale un momento per valutarla nell\'App Store
   </string>
-    <string name="hs__review_request_message">Vuoi recensire l\'app?</string>
+    <string name="hs__review_request_message">Vuoi recensire l\'App su Play Store?</string>
     <string name="hs__review_title">Valuta la nostra App</string>
     <string name="hs__screenshot_add">Aggiungere</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">Domande in cui potresti trovare la tua risposta</string>
     <string name="hs__search_result_title">Suggerimenti</string>
     <string name="hs__search_title">Cercare</string>
+    <string name="hs__select_a_question_message">Seleziona una domanda a sinistra</string>
     <string name="hs__send_anyway">INVIA COMUNQUE</string>
     <string name="hs__send_msg_btn">Invia</string>
-    <string name="hs__sending_fail_msg">Recapito non avvenuto. Tocca per riprovare</string>
+    <string name="hs__sending_fail_msg">Messaggio non inviato. Tocca per riprovare.</string>
     <string name="hs__sending_msg">Invio…</string>
     <string name="hs__solved_btn">Sì, risolto!</string>
+    <string name="hs__starting_download">Inizio del download…</string>
     <string name="hs__submit_conversation_btn">Invia</string>
     <string name="hs__unsolved_btn">No, non risolto</string>
     <string name="hs__username_blank_error">Inserisci un nome valido</string>
-    <string name="hs__username_hint">Nome</string>
+    <string name="hs__username_hint">Il tuo nome</string>
 </resources>

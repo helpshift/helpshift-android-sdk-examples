@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-vi/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">Bạn đã cho điểm dịch vụ 1 sao.</item>
     <item quantity="other">Bạn đã cho điểm dịch vụ %d sao.</item>
@@ -10,7 +8,9 @@
     <item quantity="one">Tin nhắn mới từ Hỗ trợ Khách hàng</item>
     <item quantity="other">%d tin nhắn mới từ Hỗ trợ Khách hàng</item>
   </plurals>
+    <string name="hs__app_review_button">ĐÁNH GIÁ</string>
     <string name="hs__attach_screenshot_btn">Đính kèm Ảnh chụp màn hình</string>
+    <string name="hs__attach_screenshot_button">ĐÍNH KÈM</string>
     <string name="hs__ca_msg">Chúng tôi rất sẵn lòng giúp đỡ bạn!</string>
     <string name="hs__change_btn">Thay đổi</string>
     <string name="hs__chat_hint">Nhập tin nhắn của bạn</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">Email (không bắt buộc)</string>
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__empty_section">Xin lỗi! Không có sẵn câu hỏi trong phần này</string>
+    <string name="hs__faq_fetching_fail_message">Không thể Tải FAQ vào lúc này. Vui lòng thử lại trong chốc lát…</string>
     <string name="hs__faq_header">Hỏi đáp</string>
     <string name="hs__faqs_search_footer">Không tìm thấy mục Hỏi đáp nào</string>
     <string name="hs__feedback_button">Gửi Phản hồi</string>
+    <string name="hs__fetching_faqs_message">Đang nhận câu trả lời của bạn…</string>
     <string name="hs__file_not_found_msg">Không tìm thấy tập tin</string>
     <string name="hs__file_type_audio">Âm thanh</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">Tập tin</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Trợ giúp</string>
+    <string name="hs__image_not_available">Hình ảnh không khả dụng</string>
     <string name="hs__invalid_description_error">Mô tả không hợp lệ</string>
     <string name="hs__invalid_email_error">Vui lòng nhập email hợp lệ</string>
     <string name="hs__mark_helpful_toast">Câu hỏi đã được đánh dấu là Hữu ích</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC TRÒ CHUYỆN MỚI</string>
     <string name="hs__new_conversation_header">Cuộc trò chuyện mới</string>
     <string name="hs__new_conversation_hint">Chúng tôi có thể giúp được gì?</string>
+    <string name="hs__no_search_results_message">Ối! Chúng tôi không thể tìm thấy thông tin gì cho query</string>
     <string name="hs__notification_content_text">HỒI ÂM:</string>
-    <string name="hs__question_header">Câu hỏi</string>
+    <string name="hs__permission_denied_message">Cần phải có quyền lưu trữ mới truy cập được ảnh chụp màn hình và tải về các tệp đính kèm</string>
+    <string name="hs__permission_denied_snackbar_action">Cài đặt</string>
+    <string name="hs__permission_not_granted">Ứng dụng không được quyền truy cập các hình ảnh của bạn</string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">Bạn thấy câu trả lời này có giúp ích.</string>
     <string name="hs__question_unhelpful_message">Bạn thấy câu trả lời này không giúp ích.</string>
     <string name="hs__rate_button">Đánh giá</string>
     <string name="hs__remove_screenshot_btn">Gỡ Ảnh chụp màn hình</string>
-    <string name="hs__review_accepted_message">Chấp nhận yêu cầu đánh giá</string>
+    <string name="hs__retry_faq_fetching_button">THỬ LẠI</string>
+    <string name="hs__review_accepted_message">Bạn đã chấp nhận yêu cầu đánh giá.</string>
     <string name="hs__review_close_button">Đóng</string>
     <string name="hs__review_message">
     Nếu bạn thích ứng dụng của chúng tôi, vui lòng dành chút thời gian để cho điểm
   </string>
-    <string name="hs__review_request_message">Bạn có muốn đánh giá ứng dụng không?</string>
+    <string name="hs__review_request_message">Bạn có muốn đánh giá Ứng dụng này trên CH Play?</string>
     <string name="hs__review_title">Đánh giá Ứng dụng của chúng tôi</string>
     <string name="hs__screenshot_add">Thêm</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">Câu hỏi có thể đã có câu trả lời cho bạn</string>
     <string name="hs__search_result_title">Đề xuất</string>
     <string name="hs__search_title">Tìm kiếm</string>
+    <string name="hs__select_a_question_message">Vui lòng chọn một câu hỏi từ bên trái</string>
     <string name="hs__send_anyway">CỨ GỬI</string>
     <string name="hs__send_msg_btn">Gửi</string>
-    <string name="hs__sending_fail_msg">Không chuyển được. Nhấn để thử lại.</string>
+    <string name="hs__sending_fail_msg">Không gửi được tin nhắn. Chạm để thử lại.</string>
     <string name="hs__sending_msg">Đang gửi…</string>
     <string name="hs__solved_btn">Vâng, đã được giải quyết!</string>
+    <string name="hs__starting_download">Bắt đầu tải về…</string>
     <string name="hs__submit_conversation_btn">Gửi</string>
     <string name="hs__unsolved_btn">Không, chưa được giải quyết</string>
     <string name="hs__username_blank_error">Vui lòng nhập tên hợp lệ</string>
-    <string name="hs__username_hint">Tên</string>
+    <string name="hs__username_hint">Tên của bạn</string>
 </resources>

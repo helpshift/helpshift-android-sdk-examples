@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.helpshift.widget.CSATView
+<com.helpshift.support.widget.CSATView
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
-  android:layout_height="wrap_content" /><!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__csat_holder.xml -->
+  android:layout_height="wrap_content" />

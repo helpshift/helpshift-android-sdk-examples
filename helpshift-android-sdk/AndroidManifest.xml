@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="22" />
+        android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,49 +14,19 @@
 
     <application>
         <activity
-            android:name="com.helpshift.HSConversation"
-            android:configChanges="orientation|screenSize|locale|layoutDirection"
+            android:name="com.helpshift.support.activities.ParentActivity"
             android:theme="@style/Helpshift.Theme.Activity" />
         <activity
-            android:name="com.helpshift.HSQuestionsList"
-            android:configChanges="orientation|screenSize"
-            android:theme="@style/Helpshift.Theme.Activity" />
-        <activity
-            android:name="com.helpshift.HSQuestion"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@style/Helpshift.Theme.Activity" />
-        <activity
-            android:name="com.helpshift.HSSection"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@style/Helpshift.Theme.Activity"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.helpshift.HSFaqs"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@style/Helpshift.Theme.Activity"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.helpshift.HSReview"
+            android:name="com.helpshift.support.HSReview"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Dialog" />
-        <activity
-            android:name="com.helpshift.ScreenshotPreviewActivity"
-            android:configChanges="orientation|screenSize"
-            android:theme="@style/Helpshift.Theme.Activity" />
-        <activity
-            android:name="com.helpshift.SearchResultActivity"
-            android:configChanges="orientation|screenSize"
-            android:theme="@style/Helpshift.Theme.Activity" />
 
         <service
-            android:name="com.helpshift.HSService"
+            android:name="com.helpshift.support.HSService"
             android:label="Helpshift Service" >
         </service>
         <service
-            android:name="com.helpshift.HSRetryService"
+            android:name="com.helpshift.support.HSRetryService"
             android:label="Helpshift Service" >
         </service>
     </application>

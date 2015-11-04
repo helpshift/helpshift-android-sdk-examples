@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/list_fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/vertical_divider"
+        style="@style/HSDivider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+      <!-- TODO: get string resource-->
+      <TextView
+          android:id="@+id/select_question_view"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+          android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+          android:gravity="center"
+          android:text="Please select a question from left"
+          android:visibility="gone"/>
+
+      <FrameLayout
+          android:id="@+id/details_fragment_container"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+    </FrameLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/single_question_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+  </LinearLayout>
+</FrameLayout>

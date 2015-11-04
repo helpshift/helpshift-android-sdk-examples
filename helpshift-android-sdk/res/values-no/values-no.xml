@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-no/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">Du gav vår service 1 stjerne.</item>
     <item quantity="other">Du gav vår service %d stjerner.</item>
@@ -10,7 +8,9 @@
     <item quantity="one">Ny melding fra Brukerstøtte</item>
     <item quantity="other">%d nye meldinger fra Brukerstøtte</item>
   </plurals>
+    <string name="hs__app_review_button">VURDER</string>
     <string name="hs__attach_screenshot_btn">Legg til skjermkopi</string>
+    <string name="hs__attach_screenshot_button">LEGG VED</string>
     <string name="hs__ca_msg">Det gleder oss å hjelpe deg!</string>
     <string name="hs__change_btn">Endre</string>
     <string name="hs__chat_hint">Skriv din melding</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">E-post (valgfritt)</string>
     <string name="hs__email_required_hint">E-post</string>
     <string name="hs__empty_section">Beklager! Ingen spørsmål tilgjengelige i denne delen.</string>
+    <string name="hs__faq_fetching_fail_message">Kan ikke laste FAQ akkurat nå. Prøv igjen om en stund …</string>
     <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">Ingen FAQer funnet.</string>
     <string name="hs__feedback_button">Tilbakemelding</string>
+    <string name="hs__fetching_faqs_message">Henter svarene dine …</string>
     <string name="hs__file_not_found_msg">Fil ikke funnet</string>
     <string name="hs__file_type_audio">Lyd</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">Fil</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Hjelp</string>
+    <string name="hs__image_not_available">Bilde ikke tilgjengelig</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Vennligst oppgi en gyldig e-post</string>
     <string name="hs__mark_helpful_toast">Spørsmålet har blitt merket Hjelpsomt</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">START EN NY SAMTALE</string>
     <string name="hs__new_conversation_header">Ny samtale</string>
     <string name="hs__new_conversation_hint">Hvordan kan vi hjelpe deg?</string>
+    <string name="hs__no_search_results_message">Ops! Vi kunne ikke finne noe for query</string>
     <string name="hs__notification_content_text">SV:</string>
-    <string name="hs__question_header">Spørsmål</string>
+    <string name="hs__permission_denied_message">Lagringstillatelse er påkrevd for å få tilgang til skjermbilder og laste ned vedlegg</string>
+    <string name="hs__permission_denied_snackbar_action">Innstillinger</string>
+    <string name="hs__permission_not_granted">Applikasjon har ikke tillatelse til å se bildene dine</string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">Du fant dette hjelpsomt.</string>
     <string name="hs__question_unhelpful_message">Du fant ikke dette hjelpsomt</string>
     <string name="hs__rate_button">Vurder</string>
     <string name="hs__remove_screenshot_btn">Fjern skjermkopi</string>
-    <string name="hs__review_accepted_message">Akseptert evalueringsforespørsel</string>
+    <string name="hs__retry_faq_fetching_button">PRØV PÅ NYTT</string>
+    <string name="hs__review_accepted_message">Du aksepterte vurderingsforespørsel.</string>
     <string name="hs__review_close_button">Lukk</string>
     <string name="hs__review_message">
     Vennligst ta deg tid til å vurdere appen vår dersom du liker den
   </string>
-    <string name="hs__review_request_message">Ønsker du å evaluere appen?</string>
+    <string name="hs__review_request_message">Vil du vurdere appen i Play Store?</string>
     <string name="hs__review_title">Vurder appen vår</string>
     <string name="hs__screenshot_add">Legg til</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">Spørsmål som allerede kan ha svaret ditt</string>
     <string name="hs__search_result_title">Forslag</string>
     <string name="hs__search_title">Søk</string>
+    <string name="hs__select_a_question_message">Velg et spørsmål fra venstre</string>
     <string name="hs__send_anyway">SEND ALLIKEVEL</string>
     <string name="hs__send_msg_btn">Send</string>
-    <string name="hs__sending_fail_msg">Ikke levert. Trykk for å prøve igjen.</string>
+    <string name="hs__sending_fail_msg">Melding ikke sendt. Berør for å prøve på nytt.</string>
     <string name="hs__sending_msg">Sender…</string>
     <string name="hs__solved_btn">Ja, løst!</string>
+    <string name="hs__starting_download">Starter nedlasting …</string>
     <string name="hs__submit_conversation_btn">Send inn</string>
     <string name="hs__unsolved_btn">Nei, uløst</string>
     <string name="hs__username_blank_error">Vennligst oppgi et gyldig navn</string>
-    <string name="hs__username_hint">Navn</string>
+    <string name="hs__username_hint">Ditt navn</string>
 </resources>

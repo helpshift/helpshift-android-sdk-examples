@@ -1,115 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/message"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/hs__listPreferredItemPaddingLeft"
-    android:paddingRight="@dimen/hs__listPreferredItemPaddingRight"
-    android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-    android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
-    android:orientation="vertical"
-    >
+    android:paddingTop="@dimen/activity_horizontal_margin_medium">
+
+  <View
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"/>
 
   <LinearLayout
-      android:layout_width="match_parent"
+      android:layout_width="0dp"
       android:layout_height="wrap_content"
-      >
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20"
-        />
+      android:layout_weight="4"
+      android:gravity="end"
+      android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:id="@+id/user_message"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.80"
-        android:gravity="right"
-        >
+        android:background="?attr/hs__chatBubbleUserBackground"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp">
 
-      <LinearLayout
-          android:id="@+id/user_message"
-          android:orientation="vertical"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:background="?attr/hs__chatBubbleUserBackground"
-          android:gravity="center"
-          >
-
-        <RelativeLayout
-          android:layout_width="wrap_content"
+      <FrameLayout
+          android:layout_width="match_parent"
           android:layout_height="wrap_content">
 
-          <ImageView
+        <ImageView
             android:id="@android:id/summary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-            android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-            />
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"/>
 
-          <ProgressBar
-            android:id="@android:id/progress"
+        <TextView
+            android:id="@+id/errorText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/hs__attachment_icon"
+            android:drawableStart="@drawable/hs__attachment_icon"
+            android:drawablePadding="@dimen/activity_horizontal_margin_small"
+            android:alpha="0.5"
             android:gravity="center"
-            style="?android:attr/progressBarStyleLarge"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
-            android:layout_centerInParent="true"
-            />
-        </RelativeLayout>
+            android:padding="@dimen/activity_horizontal_margin_medium"
+            android:text="@string/hs__image_not_available"
+            android:textSize="@dimen/hs__textSizeSmall"/>
+      </FrameLayout>
 
-        <View
-            android:id="@android:id/custom"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?attr/hs__chatBubbleSeparatorColor"
-            android:alpha="0.4"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
-          <ImageButton
-              android:text="@string/hs__change_btn"
-              android:id="@android:id/button2"
-              android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="wrap_content"
-              android:background="?attr/hs__selectableItemBackground"
-              android:src="@drawable/hs__action_no"
-              android:paddingTop="@dimen/hs__msgActionButtonPadding"
-              android:paddingBottom="@dimen/hs__msgActionButtonPadding"
-              android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-              android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-              />
-          <View
-              android:layout_height="fill_parent"
-              android:layout_width="1dp"
-              android:background="?attr/hs__chatBubbleSeparatorColor"
-              android:alpha="0.4"/>
-
-          <ImageButton
-              android:text="@string/hs__done_btn"
-              android:id="@android:id/button3"
-              android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="wrap_content"
-              android:background="?attr/hs__selectableItemBackground"
-              android:src="@drawable/hs__action_yes"
-              android:paddingTop="@dimen/hs__msgActionButtonPadding"
-              android:paddingBottom="@dimen/hs__msgActionButtonPadding"
-              android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-              android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-              />
-        </LinearLayout>
-      </LinearLayout>
+      <ProgressBar
+          android:id="@android:id/progress"
+          style="@style/Helpshift.Style.QuestionLoadProgress"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginTop="2dp"
+        android:text="@string/hs__sending_fail_msg"
+        android:textColor="?attr/hs__validationErrorColor"
+        android:textSize="@dimen/hs__textSizeSmall"
+        android:visibility="gone"/>
   </LinearLayout>
+
+  <TextView
+      android:id="@android:id/text2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+      android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+      android:layout_marginTop="2dp"
+      android:textColor="?android:textColorHint"
+      android:textSize="@dimen/hs__textSizeSmall"/>
 </LinearLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__local_msg_request_screenshot.xml -->

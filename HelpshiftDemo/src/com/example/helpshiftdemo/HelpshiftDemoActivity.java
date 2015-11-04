@@ -6,8 +6,8 @@ import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.helpshift.Helpshift;
-import com.helpshift.Log;
+import com.helpshift.Core;
+import com.helpshift.support.Support;
 
 public class HelpshiftDemoActivity extends Activity {
 
@@ -24,15 +24,16 @@ public class HelpshiftDemoActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
+    // You initialize the library by calling Core.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
+    // Core.init(Support.getInstance());
+    // Core.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          Helpshift.showFAQs(HelpshiftDemoActivity.this);
+          Support.showFAQs(HelpshiftDemoActivity.this);
         }
       });
 
@@ -40,7 +41,7 @@ public class HelpshiftDemoActivity extends Activity {
     reportIssueButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          Helpshift.showConversation(HelpshiftDemoActivity.this);
+          Support.showConversation(HelpshiftDemoActivity.this);
         }
       });
 
@@ -48,7 +49,7 @@ public class HelpshiftDemoActivity extends Activity {
     faqSectionButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          Helpshift.showFAQSection(HelpshiftDemoActivity.this, "SECTION_PUBLISH_ID");
+          Support.showFAQSection(HelpshiftDemoActivity.this, "SECTION_PUBLISH_ID");
         }
       });
 
@@ -56,7 +57,7 @@ public class HelpshiftDemoActivity extends Activity {
     singleFaqButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          Helpshift.showSingleFAQ(HelpshiftDemoActivity.this, "QUESTION_PUBLISH_ID");
+          Support.showSingleFAQ(HelpshiftDemoActivity.this, "QUESTION_PUBLISH_ID");
         }
       });
   }

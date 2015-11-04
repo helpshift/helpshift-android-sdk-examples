@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <bool name="is_screen_large">true</bool>
+    <item format="float" name="hs__tablet_dialog_horizontal_scale" type="dimen">0.8</item>
+    <item format="float" name="hs__tablet_dialog_vertical_scale" type="dimen">0.8</item>
+    <string name="hs__screen_type" translatable="false">10-inch-tablet</string>
+    <style name="Helpshift.Theme.Activity" parent="@style/Helpshift.Theme.Base" ns1:targetApi="11">
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowCloseOnTouchOutside">true</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+</resources>

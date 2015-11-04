@@ -1,31 +1,43 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="wrap_content"
-              android:layout_height="match_parent"
-              android:gravity="center"
-              android:background="?attr/hs__selectableItemBackground"
-              android:clickable="true" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:gravity="center">
 
-  <TextView
-      android:contentDescription="@string/hs__new_conversation_header"
-      android:layout_margin="8dp"
+  <ImageView
       android:id="@+id/hs__conversation_icon"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:layout_marginStart="8dp"
+      android:contentDescription="@string/hs__new_conversation_header"
       android:gravity="center"
-      android:background="?attr/hs__conversationActionButtonIcon"/>
+      android:src="?attr/hs__conversationActionButtonIcon"
+      android:tint="?attr/hs__actionButtonIconColor"/>
+
+  <View
+      android:id="@+id/hs__notification_badge_padding"
+      android:layout_width="16dp"
+      android:layout_height="match_parent"
+      android:visibility="gone"/>
 
   <TextView
-      android:layout_marginRight="8dp"
-      android:layout_marginLeft="8dp"
-      android:paddingRight="8dp"
-      android:paddingBottom="1dp"
       android:id="@+id/hs__notification_badge"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginBottom="2dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginRight="16dp"
+      android:layout_marginStart="4dp"
+      android:background="@drawable/hs__rounded_corner_rectangle"
       android:gravity="center"
-      android:background="?attr/hs__conversationNotificationActionButtonIcon"
+      android:textColor="?colorPrimary"
+      android:textSize="10sp"
       android:textStyle="bold"
-      android:textColor="?attr/hs__actionButtonNotificationTextColor"
-      android:textSize="16sp"/>
+      android:visibility="gone"
+      tools:ignore="SmallSp"/>
 </LinearLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__badge_layout.xml -->

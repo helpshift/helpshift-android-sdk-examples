@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-sv/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">Du har gett vår service 1 stjärna i betyg.</item>
     <item quantity="other">Du har gett vår service %d stjärnor i betyg.</item>
@@ -10,7 +8,9 @@
     <item quantity="one">Nytt meddelande från Support</item>
     <item quantity="other">%d nya meddelanden från Support</item>
   </plurals>
+    <string name="hs__app_review_button">RECENSERA</string>
     <string name="hs__attach_screenshot_btn">Bifoga skärmdump</string>
+    <string name="hs__attach_screenshot_button">BIFOGA</string>
     <string name="hs__ca_msg">Vi är glada om vi kan hjälpa till!</string>
     <string name="hs__change_btn">Ändra</string>
     <string name="hs__chat_hint">Skriv ditt meddelande</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">E-post (ej obligatoriskt)</string>
     <string name="hs__email_required_hint">E-post</string>
     <string name="hs__empty_section">Tyvärr! Inga frågor är tillgängliga i denna sektion.</string>
+    <string name="hs__faq_fetching_fail_message">Vanliga frågor kan inte laddas. Prova igen senare…</string>
     <string name="hs__faq_header">Vanliga frågor</string>
     <string name="hs__faqs_search_footer">Inga vanliga frågor hittades.</string>
     <string name="hs__feedback_button">Feedback</string>
+    <string name="hs__fetching_faqs_message">Hämtar dina svar…</string>
     <string name="hs__file_not_found_msg">Filen kunde inte hittas</string>
     <string name="hs__file_type_audio">Audio</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">Fil</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Hjälp</string>
+    <string name="hs__image_not_available">Bild ej tillgänglig</string>
     <string name="hs__invalid_description_error">Ogiltig beskrivning</string>
     <string name="hs__invalid_email_error">Ange en giltig e-postadress</string>
     <string name="hs__mark_helpful_toast">Frågan har markerats som Hjälpsam</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">BÖRJA EN NY DIALOG</string>
     <string name="hs__new_conversation_header">Ny dialog</string>
     <string name="hs__new_conversation_hint">Hur kan vi hjälpa dig?</string>
+    <string name="hs__no_search_results_message">Hoppsan! Vi hittade ingenting för query</string>
     <string name="hs__notification_content_text">RE:</string>
-    <string name="hs__question_header">Fråga</string>
+    <string name="hs__permission_denied_message">Förvaringstillstånd krävs för tillgång till skärmdumpar och bilagor</string>
+    <string name="hs__permission_denied_snackbar_action">Inställningar</string>
+    <string name="hs__permission_not_granted">Appen har inte tillstånd att komma åt dina bilder</string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">Du tyckte att detta var till hjälp.</string>
     <string name="hs__question_unhelpful_message">Du tyckte inte att detta var till hjälp.</string>
     <string name="hs__rate_button">Betygsätt</string>
     <string name="hs__remove_screenshot_btn">Ta bort skärmdump</string>
-    <string name="hs__review_accepted_message">Accepterad förfrågan om recension</string>
+    <string name="hs__retry_faq_fetching_button">PROVA IGEN</string>
+    <string name="hs__review_accepted_message">Du har accepterat recensionsförfrågan.</string>
     <string name="hs__review_close_button">Stäng</string>
     <string name="hs__review_message">
     Om du gillar vår app, ägna en kort stund åt att betygsätta den
   </string>
-    <string name="hs__review_request_message">Vill du recensera appen?</string>
+    <string name="hs__review_request_message">Vill du recensera appen på Play Store?</string>
     <string name="hs__review_title">Betygsätt vår app</string>
     <string name="hs__screenshot_add">Lägg till</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">Frågor som redan kan ha besvarats med det svar du söker</string>
     <string name="hs__search_result_title">Förslag</string>
     <string name="hs__search_title">Sök</string>
+    <string name="hs__select_a_question_message">Välj en av frågorna till vänster</string>
     <string name="hs__send_anyway">SKICKA I ALLA FALL</string>
     <string name="hs__send_msg_btn">Skicka</string>
-    <string name="hs__sending_fail_msg">Ej levererat. Knacka för att försöka igen.</string>
+    <string name="hs__sending_fail_msg">Meddelandet inte skickat. Försök igen.</string>
     <string name="hs__sending_msg">Skickar…</string>
     <string name="hs__solved_btn">Ja, löst!</string>
+    <string name="hs__starting_download">Startar nedladdning…</string>
     <string name="hs__submit_conversation_btn">Skicka formuläret</string>
     <string name="hs__unsolved_btn">Nej, olöst</string>
     <string name="hs__username_blank_error">Ange ett giltigt namn</string>
-    <string name="hs__username_hint">Namn</string>
+    <string name="hs__username_hint">Ditt namn</string>
 </resources>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-zh-rTW/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">您將服務評分為 1 顆星。</item>
     <item quantity="other">您將服務評分為 %d 顆星。</item>
@@ -10,7 +8,9 @@
     <item quantity="one">來自客服的一則新訊息</item>
     <item quantity="other">來自客服的 %d 則新訊息</item>
   </plurals>
+    <string name="hs__app_review_button">評論</string>
     <string name="hs__attach_screenshot_btn">附上畫面截圖</string>
+    <string name="hs__attach_screenshot_button">附加</string>
     <string name="hs__ca_msg">我們很樂意為您提供協助！</string>
     <string name="hs__change_btn">變更</string>
     <string name="hs__chat_hint">輸入您的訊息</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">電子郵件（選填）</string>
     <string name="hs__email_required_hint">電子郵件</string>
     <string name="hs__empty_section">抱歉！這個區段裡沒有問題。</string>
+    <string name="hs__faq_fetching_fail_message">此時此刻無法載入常見問題。請稍候重試…</string>
     <string name="hs__faq_header">常見問題</string>
     <string name="hs__faqs_search_footer">找不到常見問題。</string>
     <string name="hs__feedback_button">傳送意見回饋</string>
+    <string name="hs__fetching_faqs_message">正在取得答案…</string>
     <string name="hs__file_not_found_msg">找不到檔案</string>
     <string name="hs__file_type_audio">音效</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">檔案</string>
     <string name="hs__file_type_video">影片</string>
     <string name="hs__help_header">協助</string>
+    <string name="hs__image_not_available">無法顯示圖片</string>
     <string name="hs__invalid_description_error">無效的敘述</string>
     <string name="hs__invalid_email_error">請輸入一個有效電子郵件</string>
     <string name="hs__mark_helpful_toast">問題已標示為有幫助</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">開始一段新對話</string>
     <string name="hs__new_conversation_header">新對話</string>
     <string name="hs__new_conversation_hint">您需要什麼幫助？</string>
+    <string name="hs__no_search_results_message">糟糕！我們無法找到任何東西有關於 query</string>
     <string name="hs__notification_content_text">回覆：</string>
-    <string name="hs__question_header">問題</string>
+    <string name="hs__permission_denied_message">必須有儲存權限才可存取螢幕截圖和下載附件。</string>
+    <string name="hs__permission_denied_snackbar_action">設定</string>
+    <string name="hs__permission_not_granted">應用程式沒有權限存取你的照片</string>
+    <string name="hs__permission_rationale_snackbar_action_label">確定</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">您覺得這有幫助。</string>
     <string name="hs__question_unhelpful_message">您覺得這沒有幫助。</string>
     <string name="hs__rate_button">評分</string>
     <string name="hs__remove_screenshot_btn">移除畫面截圖</string>
-    <string name="hs__review_accepted_message">已接受評論請求</string>
+    <string name="hs__retry_faq_fetching_button">重試</string>
+    <string name="hs__review_accepted_message">你已接受評論要求。</string>
     <string name="hs__review_close_button">關閉</string>
     <string name="hs__review_message">
     如果您喜歡我們的應用程式，請花點時間來評分
   </string>
-    <string name="hs__review_request_message">您想評論這個應用程式嗎？</string>
+    <string name="hs__review_request_message">你想在 Play 商店評論此應用程式嗎？</string>
     <string name="hs__review_title">為我們的應用程式評分</string>
     <string name="hs__screenshot_add">新增</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">可能已為您提供解答的問題</string>
     <string name="hs__search_result_title">建議</string>
     <string name="hs__search_title">搜尋</string>
+    <string name="hs__select_a_question_message">請從左側選擇問題</string>
     <string name="hs__send_anyway">仍要送出</string>
     <string name="hs__send_msg_btn">傳送</string>
-    <string name="hs__sending_fail_msg">沒有送出，請輕觸重試。</string>
+    <string name="hs__sending_fail_msg">訊息未發送。請點擊重試。</string>
     <string name="hs__sending_msg">正在傳送…</string>
     <string name="hs__solved_btn">是的，解決了！</string>
+    <string name="hs__starting_download">正在開始下載…</string>
     <string name="hs__submit_conversation_btn">提交</string>
     <string name="hs__unsolved_btn">不，沒有解決</string>
     <string name="hs__username_blank_error">請輸入一個有效名稱</string>
-    <string name="hs__username_hint">名稱</string>
+    <string name="hs__username_hint">你的名字</string>
 </resources>

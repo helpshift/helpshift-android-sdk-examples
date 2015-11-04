@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:ignore="AlwaysShowAction">
+  <!--WARNING:Do not remove "collapseActionView" from showAsAction.
+  This will prevent the SearchView click event from going to "onOptionsItemSelected"-->
+  <item
+      android:id="@+id/hs__search"
+      android:icon="@drawable/hs__action_search"
+      android:title="@string/hs__search_title"
+      android:visible="false"
+      app:actionLayout="@layout/hs__action_view_search"
+      app:showAsAction="always|collapseActionView"/>
+  <item
+      android:id="@+id/hs__contact_us"
+      android:title="@string/hs__contact_us_btn"
+      android:visible="false"
+      app:actionLayout="@layout/hs__badge_layout"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/hs__attach_screenshot"
+      android:icon="@drawable/hs__attach_screenshot_action_button"
+      android:title="@string/hs__attach_screenshot_btn"
+      android:visible="false"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/hs__start_new_conversation"
+      android:icon="@drawable/hs__send"
+      android:title="@string/hs__contact_us_btn"
+      android:visible="false"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/hs__action_done"
+      android:icon="@drawable/hs__search_on_conversation_done"
+      android:title="@string/hs__done_btn"
+      android:visible="false"
+      app:showAsAction="always"/>
+</menu>

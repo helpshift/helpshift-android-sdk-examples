@@ -1,0 +1,267 @@
+Helpshift SDK 4.1.1-support Release Notes (for Android)
+-------------------------------------------------------
+
+Helpshift is an embedded support desk for native apps. (http://helpshift.com)
+Helpshift SDK for Android is required for having Helpshift support running on native apps.
+
+Requirements:
+App must be running on any version between android-16 to android-22 (Android 4.1 to Android 5.1).
+
+Documentation for Installation and Usage Instructions:
+http://www.helpshift.com/docs/android/
+
+New features:
+4.1.1-support Release Date: October 30th, 2015
+      * FIX HSReview crash, due to missing AndroidManifest entry.
+4.1.0 Release Date: October 29th, 2015
+      * Added Android Material Theming and refined Helpshift UX and interactions as per the Google Material Design guidelines.
+      * Added support for embeddable helpshift fragments.
+      * Added support for reducing gibberish ticket by adding a configurable threshold for all supported language.
+      * New SDK option for improving ticket deflection. Added option for CONTACT_US_AFTER_MARKING_ANSWER_UNHELPFUL to show contact us only after end user marks a FAQ unhelpful.
+      * Added support for Android Marshmallow permissioning
+      * showConversationResolutionQuestion flag's default value now has been set to true.
+      * Migration from Helpshift 3.x sdk to 4.x SDK
+      * Introduced new com.helpshift.support.Support APIs to replace com.helpshift.Helpshift APIs.
+      * FAQ Search algorithm improvements
+        * Fixed/Improved following
+          * Improved the FAQ search relevance threshold for fuzzy match to make it strict.
+3.12.0 Release Date: September 25, 2015
+      * Add API configuration flag to enable or disable default fallback language for FAQ.
+3.11.0 Release Date: 10 September, 2015
+      * Add API configuration option for Conversation Resolution Question.
+      * Add API configuration option for filtering FAQ by categories.
+      * Add translations for Ukrainian, Slovak, Hebrew, Malay, Danish,
+        Greek, Romanian, Finnish, Swedish, Norwegian, Catalan and Croatian.
+      * Bug fixes.
+3.10.0 Release Date: August 19, 2015
+      * Improved ticket deflection.
+      * Reduce empty gibberish tickets.
+      * Added translations for Arabic and Polish.
+      * Bug fixes.
+3.9.1 Release Date: June 25, 2015
+      * FIX Edge case bug where screenshot could not be rendered after an automation reply
+      * FIX Attach Screenshot crash on OnePlus One device
+3.9.0 Release Date: May 21, 2015
+      * Add API to set the SDK locale.
+      * FIX custom notification sound doesn't work if custom icon is not set.
+      * Add capability to toggle agent name visibility from admin dashboard.
+      * Add capability to highlight matching term in FAQ search.
+      * Add support for tags based searching in FAQ search.
+      * Implement fuzzy string matching for FAQ search.
+      * Add delegate for informing the developer of the unread messages
+      count whenever Helpshift receives a new notification.
+3.8.0 Release Date: March 16, 2015
+      * Add ability to handle and open admin side attachments.
+      * Add ability to allow multiple users of the app to have isolated Helpshift conversations.
+      * Fix truncation of URLs in conversation view.
+      * Add delegates to track conversation related updates.
+      * Add ability to support follow-up for closed conversations.
+      * Add API config option for showing Helpshift screens in dialog mode for tablets.
+      * Bug fixes.
+      * UI fixes.
+3.7.2 Release Date: February 24, 2015
+      * Add support for sound, vibration and light in notification.
+      * FIX Do not allow movie files to be attached in conversations.
+      * FIX Add compatibility for Honeycomb ActionBar.
+      * Add string translations for Traditional Chinese, Slovenian, Hungarian, Czech, Indonesian, Vietnamese, Thai languages.
+      * FIX Use HttpUrlConnection to fix conflict with OkHTTP library.
+3.7.1 Release Date: December 04, 2014
+      * Bug fixes for the Session delegates code
+      * Bug fixes
+      * UI fixes
+3.7.0 Release Date: November 25, 2014
+      * Update the theming capabilities for the SDK.
+      * Add accessibility labels for all the SDK actions.
+      * Add Helpshift delegate for tracking begin and end sessions.
+      * Remove BuildConfig.class from Helpshift.jar to avoid conflict.
+      * Bug fixes
+      * UI fixes
+3.6.0 Release Date: October 07, 2014
+      * Added an API option "showSearchOnNewConversation", which will enhance ticket avoidance by providing him list of FAQs that may relate to the issue that he is having.
+      * Added an API option "enableFullPrivacy", which when set enables full privacy controls for the SDK including - not having an attach screenshot button, not sending personally identifiable information in meta-data etc.
+      * Bug fixes
+      * UI fixes
+3.5.0 Release Date: September 02, 2014
+      * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
+      * Agent names will now be visible in an ongoing conversation.
+      * Added a API option, "conversationPrefillText", for prefilling new conversation description.
+      * Added a API option, "hideNameAndEmail", for conditionally hiding name and email fields when starting a new conversation.
+      * UX improvements for attaching screenshot.
+      * Removed FAQ sync status.
+      * Added support for deep-links in FAQs.
+      * Bug fixes.
+      * UI fixes.
+3.4.2 Release Date: July 10, 2014
+      * Remove external dependency for apache commons codec.
+      * Persist and use the most recent version of custom meta-data.
+      * Persist the requireEmail flag value across all API calls.
+      * Android L Preview compatible.
+3.4.1 Release Date: June 19, 2014
+      * Add requireEmail flag for API config.
+3.4.0 Release Date: June 09, 2014
+      * Optimized FAQ updates. Changes to FAQs in the admin are now updated and shown as soon as the SDK is opened.
+      * Users can now directly attach screenshots while submitting new conversation or during an ongoing conversation.
+      * New options for "enableContactUs" flag for ticket avoidance: ALWAYS, AFTER_VIEWING_FAQS and NEVER
+      * "setNameAndEmail" API can now clear name and email if null is passed for both.
+      * Automatic app rating reminder is now available alongside the manual app rating API.
+      * Bug fixes
+      * UI fixes
+3.3.1 Release Date: May 22, 2014
+      * Refactor internationalized search code.
+3.3.0 Release Date: May 07, 2014
+      * Added new app rating API (showAlertToRateApp).
+      * Automatic review request is now removed in this release.
+      * New conversation text and conversation reply text buffer is now saved as draft.
+      * Improved conversation resolution (YES/NO) interaction.
+3.2.1 Release Date: April 03, 2014
+      * Fix crash when attaching screenshot images from cloud storage
+3.2.0 Release Date: March 24, 2014
+      * Replace the ibm Transliterator with indigenous solution for Internationalized search
+      * Remove dependency on appcompat library. Replace with indigenous action-bar support for older devices.
+      * Add translated strings for Dutch
+      * Change Question voting UI
+      * Additions to configurable strings used in the SDK
+      * Bug fixes
+3.1.1 Release Date: February 24, 2014
+      * Fix review reminder popup mechanism
+      * Fix do not show empty FAQ sections in FAQs pager
+      * Bug fixes
+3.1.0 Release Date: February 10, 2014
+      * Add support for custom metadata in API config
+      * Reduce jar size by removing unused classes via proguard
+      * Add translated strings for Russian, Turkish, Korean and Japanese
+      * Use SQLite for storing FAQ data
+3.0.1 Release Date: January 22, 2014
+      * Fix gotoConversationAfterContactUs flag typo
+      * Deprecate HSIssueTagsKey and replace with HSTagsKey
+3.0.0 Release Date: January 09, 2014
+      * Multiple issues and inbox is no longer supported
+      * The conversation interface has been unified into a single channel
+      * New API calls for support tools and install method
+      * Added Conversation Forwarding feature
+      * New Rate/Review & Feedback feature
+      * Strings for localizations updated
+      * Fix UI for HSQuestion view
+2.8.2 Release Date: December 06, 2013
+      * Add support for Kindle devices
+      * Remove proguard shrinking and obfuscation for Helpshift jar
+2.8.1 Release Date: November 20, 2013
+      * Fix critical validation for setUsername, setEmail API
+2.8.0 Release Date: November 05, 2013
+      * Implement Action Bar UI via v7 appcompat library
+      * Stability fixes to Question activity
+      * Automatically tag issues when they are reported from the SDK
+2.7.2 Release Date: November 20, 2013
+      * Fix critical validation for setUsername, setEmail API
+2.7.1 Release Date: October 25, 2013
+      * Fix potential memory issues
+2.7.0 Release Date: September 02, 2013
+      * UI fixes for list view dividers
+      * API retry for mark question helpful/unhelpful and setDeviceToken
+      * Cleanup of unused resources
+      * Screenshot sending size limited to 1.25 MB
+      * Add config for custom notification icon
+      * Notification text now customizable in hs_strings.xml
+      * Add RTL support for FAQ
+      * Add URL truncation for conversation messages
+      * Bug fixes
+2.6.2 Release Date: August 05, 2013
+      * Explicitly close HSRetryService after every retry. (used for resending failed messages)
+2.6.1 Release Date: July 29, 2013
+      * Better error handling for install call
+2.6.0 Release Date: June 19, 2013
+      * Bug fix for link rendering in question view
+      * Seperate strings resources for search box and report issue hint
+      * Add full screen support for Helpshift activities
+      * Move Helpshift SDK to Android Library Project format
+2.5.0 Release Date: May 29, 2013
+      * Retry mechanism for failed messages.
+      * New API to handle GCM and Urban Airship push.
+      * Add Portuguese(BR) and Simplified Chinese strings.
+      * Bug fix related to in-app notification disable flag
+2.4.0 Release Date: May 15, 2013
+      * In-app notifications
+      * Enhanced API for GCM Push
+      * Bug and UI fixes
+2.3.0 Release Date: May 02, 2013
+      * Fixed notification poller
+      * Tablet support
+2.2.0 Release Date: April 17, 2013
+      * Optional flags for reporting issue.
+      * UI fixes.
+2.1.2 Release Date: April 15, 2013
+      * Bug fixes
+2.1.1 Release Date: April 05, 2013
+      * Bug fixes
+2.1.0 Release Date: April 03, 2013
+      * Added translations for German, Spanish, Russian, Italian and French
+      * Decomposed view for all FAQ sections
+      * Improved FAQ display
+2.0.1 Release Date: March 26, 2013
+      * Minor bug fix
+2.0.0 Release Date: March 20, 2013
+      * Skinning for activities
+      * Decomposed views for section, question and inbox
+      * Added support for GCM push.
+      * Added support for Metadata.
+      * Linkable urls and phone numbers in messages.
+      * Chat messages are now copyable.
+      * Review request fix.
+      * UI fixes.
+      * Minor enhancements and bug fixes
+1.5.2 Release Date: February 08, 2013
+      * Support UTF-8 text in reporting issue.
+1.5.1 Release Date: February 06, 2013
+      * Performance improvments.
+      * Debug log limit can now be modified from admin dashboard.
+1.5.0 Release Date: January 30, 2013
+      * Search performance improvements
+      * FAQ performance improvements
+      * Minor enhancements and bug fixes
+1.4.2 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.1 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.0 Release Date: December 31, 2012
+      * Add functions to SDK to poll for notification count
+      * Add function to SDK to show "Report Issue" Activity
+      * Minor enhancements and bug fixes
+1.3.1 Release Date: December 27, 2012
+      * Minor bug fix
+1.3.0 Release Date: December 27, 2012
+      * Urban Airship integration support
+      * Improved FAQ caching
+      * Improved support for specifying user id
+      * Minor Enhancements and Bug Fixes
+1.2.6 Release Date: December 22, 2012
+      * Bug fixes
+1.2.5 Release Date: December 14, 2012
+      * Minor Enhancements
+1.2.4 Release Date: December 13, 2012
+      * Bug fixes
+1.2.3 Release Date: December 12, 2012
+      * Performance improvements
+      * Bug fixes
+1.2.2 Release Date: December 10, 2012
+      * Bug fixes
+1.2.1 Release Date: December 06, 2012
+      * Bug fixes
+1.2.0 Release Date: December 05, 2012
+      * Updated doc
+      * Configurable Review Popup
+      * Configurable Skip of Profile Form
+1.1.0 Release Date: December 03, 2012
+      * Reduction in SDK jar size.
+      * Stability/Bug Fixes
+1.0.1 Release Date: November 19, 2012
+      * Stability/Bug Fixes
+      * Updated doc
+1.0.0 Release Date: November 7, 2012
+      * Basic library implementation
+      * Notification count api
+      * Screenshots in issues
+      * Review requests from issues
+      * Skinning support
+      * Breadcrumbs api
+      * Extra device info
+      * Funnel implementation

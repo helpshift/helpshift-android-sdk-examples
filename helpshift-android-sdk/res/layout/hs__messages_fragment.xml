@@ -1,170 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:focusable="true"
-                android:focusableInTouchMode="true" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
 
   <ListView
       android:id="@+id/hs__messagesList"
-      android:layout_width="fill_parent"
-      android:layout_height="fill_parent"
-      android:layout_above="@+id/hs__confirmation"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:clipToPadding="false"
+      android:isScrollContainer="true"
+      android:paddingBottom="@dimen/activity_vertical_margin_medium"
+      android:paddingTop="@dimen/activity_vertical_margin_small"
       android:scrollingCache="false"
-      android:transcriptMode="alwaysScroll" />
+      android:transcriptMode="alwaysScroll"/>
 
   <LinearLayout
       android:id="@+id/hs__confirmation"
-      android:layout_above="@+id/hs__new_conversation"
-      android:orientation="vertical"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:visibility="gone"
-      android:gravity="center" >
+      android:orientation="vertical"
+      android:visibility="gone">
 
-    <TextView
-        android:gravity="center"
-        android:text="@string/hs__confirmation_msg"
-        android:id="@android:id/text1"
-        android:textColor="?android:attr/textColorPrimary"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="all"
-        android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-        android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-        android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-        android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/hs__separatorColor"/>
 
     <ProgressBar
         android:id="@android:id/progress"
+        style="@style/Helpshift.Style.QuestionLoadProgress"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@android:id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        style="?android:attr/progressBarStyle"
-        android:visibility="gone"
-        android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop" />
+        android:padding="@dimen/activity_horizontal_margin_medium"
+        android:text="@string/hs__confirmation_msg"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/hs__textSizeMedium"/>
 
     <LinearLayout
-        android:id="@android:id/widget_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="horizontal">
 
-      <View
-          android:id="@android:id/custom"
-          android:layout_width="fill_parent"
-          android:layout_height="1dp"
-          android:background="?attr/hs__contentSeparatorColor"
-          />
-
-      <LinearLayout
-          android:layout_width="match_parent"
+      <Button
+          android:id="@android:id/button2"
+          style="@style/Helpshift.Style.BorderlessButton"
+          android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:splitMotionEvents="false" >
+          android:text="@string/hs__mark_no"/>
 
-        <ImageButton
-            android:contentDescription="@string/hs__unsolved_btn"
-            android:text="@string/hs__unsolved_btn"
-            android:id="@android:id/button2"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="?attr/hs__selectableItemBackground"
-            android:src="@drawable/hs__action_no"
-            android:paddingTop="@dimen/hs__msgActionButtonPadding"
-            android:paddingBottom="@dimen/hs__msgActionButtonPadding" />
-
-        <View
-            android:layout_height="fill_parent"
-            android:layout_width="1dp"
-            android:background="?attr/hs__contentSeparatorColor"
-            />
-
-        <ImageButton
-            android:contentDescription="@string/hs__solved_btn"
-            android:text="@string/hs__solved_btn"
-            android:id="@android:id/button1"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="?attr/hs__selectableItemBackground"
-            android:src="@drawable/hs__action_yes"
-            android:paddingTop="@dimen/hs__msgActionButtonPadding"
-            android:paddingBottom="@dimen/hs__msgActionButtonPadding" />
-      </LinearLayout>
+      <Button
+          android:id="@android:id/button1"
+          style="@style/Helpshift.Style.BorderlessButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/hs__mark_yes"/>
     </LinearLayout>
   </LinearLayout>
 
-  <LinearLayout
-      android:id="@+id/hs__new_conversation"
-      android:layout_above="@+id/textView1"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:visibility="gone"
-      android:layout_alignParentBottom="true"
-      android:gravity="center" >
-
-    <View
-        android:background="?attr/hs__contentSeparatorColor"
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        />
-
-    <ViewStub
-      android:id="@+id/csat_view_stub"
-      android:layout="@layout/hs__csat_holder"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
-
-    <Button
-        style="?attr/hs__contactUsButtonStyle"
-        android:text="@string/hs__new_conversation_btn"
-        android:id="@+id/hs__new_conversation_btn"
-        android:drawableLeft="@drawable/hs__report_issue"
-        />
-  </LinearLayout>
-
   <View
-      android:background="?attr/hs__contentSeparatorColor"
-      android:id="@+id/textView1"
-      android:layout_width="fill_parent"
+      android:layout_width="match_parent"
       android:layout_height="1dp"
-      android:layout_above="@+id/relativeLayout1"
-      />
+      android:background="?attr/hs__separatorColor"/>
 
-  <RelativeLayout
+  <LinearLayout
       android:id="@+id/relativeLayout1"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:layout_alignParentBottom="true" >
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:background="?attr/hs__composeBackgroundColor"
+      android:orientation="horizontal">
 
     <EditText
         android:id="@+id/hs__messageText"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/hs__sendMessageBtn"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
         android:hint="@string/hs__chat_hint"
         android:imeOptions="actionSend"
         android:inputType="textMultiLine"
         android:maxLines="@integer/hs__chat_max_lines"
-        android:layout_marginTop="4dp"
-        android:layout_marginLeft="4dp"
-        android:paddingBottom="16dp"
-        android:autoText="true"
-        android:layout_alignBaseline="@+id/hs__sendMessageBtn" />
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingStart="@dimen/activity_horizontal_margin_medium"
+        tools:ignore="RtlSymmetry"/>
 
     <ImageButton
-        android:contentDescription="@string/hs__send_msg_btn"
         android:id="@+id/hs__sendMessageBtn"
-        android:background="?attr/hs__selectableItemBackground"
-        android:src="@drawable/hs__send"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="52dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp" />
-  </RelativeLayout>
-</RelativeLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__messages_fragment.xml -->
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/hs__send_msg_btn"
+        android:src="@drawable/hs__send"/>
+  </LinearLayout>
+</LinearLayout>

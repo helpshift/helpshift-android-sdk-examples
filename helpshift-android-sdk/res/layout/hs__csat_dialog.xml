@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:background="?attr/hs__csatDialogBackgroundColor" >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_horizontal_margin_large"
+    android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+    android:paddingRight="@dimen/activity_horizontal_margin_medium">
 
   <RatingBar
-    android:id="@+id/ratingBar"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:stepSize="1.0"
-    android:focusable="false"
-    android:layout_marginTop="10dp"
-    />
+      android:id="@+id/ratingBar"
+      style="@style/Helpshift.Style.RatingBar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:focusable="false"
+      android:stepSize="1.0"/>
 
   <TextView
-    android:id="@+id/like_status"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/ratingBar"
-    android:layout_centerHorizontal="true"
-    />
+      android:id="@+id/like_status"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ratingBar"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="@dimen/activity_vertical_margin_small"/>
 
   <EditText
-    android:id="@+id/additional_feedback"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/like_status"
-    android:hint="@string/hs__csat_additonal_feedback_message"
-    android:layout_marginBottom="10dp"
-    android:layout_marginLeft="12dp"
-    android:layout_marginRight="12dp"
-    android:layout_marginTop="12dp"
-    android:minLines="2"
-    android:maxLines="4"
-    />
-
-  <View
-    style="@style/HSDivider"
-    android:id="@+id/divider"
-    android:layout_below="@+id/additional_feedback"
-    />
+      android:id="@+id/additional_feedback"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/like_status"
+      android:layout_marginTop="@dimen/activity_vertical_margin_medium"
+      android:gravity="top"
+      android:hint="@string/hs__csat_additonal_feedback_message"
+      android:maxLines="4"
+      android:minLines="2"/>
 
   <Button
-    android:id="@+id/submit"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="?attr/hs__selectableItemBackground"
-    android:layout_below="@+id/divider"
-    android:text="@string/hs__submit_conversation_btn"
-    android:layout_centerHorizontal="true"
-    android:height="@dimen/hs__actionbar_compat_height"
-    />
-</RelativeLayout><!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__csat_dialog.xml -->
+      android:id="@+id/submit"
+      style="@style/Helpshift.Style.BorderlessButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/additional_feedback"
+      android:layout_marginTop="@dimen/activity_vertical_margin_small"
+      android:text="@string/hs__submit_conversation_btn"/>
+
+  <!-- TODO: Remove this dummy view after tests are fixed-->
+  <View
+      android:id="@+id/divider"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:visibility="gone"/>
+</RelativeLayout>

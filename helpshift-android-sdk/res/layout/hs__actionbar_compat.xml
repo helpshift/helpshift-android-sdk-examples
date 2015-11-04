@@ -1,6 +1,0 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/hs__actionbar_compat"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:orientation="horizontal" />
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__actionbar_compat.xml -->

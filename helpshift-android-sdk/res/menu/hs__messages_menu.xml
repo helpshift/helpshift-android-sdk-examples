@@ -1,7 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-  <item android:id="@+id/hs__attach_screenshot"
-        android:icon="?attr/hs__attachScreenshotActionButtonIcon"
-        android:title="@string/hs__attach_screenshot_btn"
-        android:showAsAction="always"/>
-</menu>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/menu/hs__messages_menu.xml -->

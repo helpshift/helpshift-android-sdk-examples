@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/screenshot_preview"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      tools:ignore="ContentDescription"/>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="?attr/hs__separatorColor"/>
+
+  <LinearLayout
+      android:id="@+id/button_containers"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/hs__conversationFooterBackgroundColor"
+      android:gravity="center"
+      android:minHeight="48dp"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/change"
+        style="@style/Helpshift.Style.BorderlessButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/hs__change_btn"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/hs__separatorColor"/>
+
+    <Button
+        android:id="@+id/secondary_button"
+        style="@style/Helpshift.Style.BorderlessButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+  </LinearLayout>
+</LinearLayout>

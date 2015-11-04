@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:orientation="vertical">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:animateLayoutChanges="true">
+
+    <TextView
+        android:id="@+id/view_no_faqs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+        android:gravity="center"
+        android:text="@string/hs__faqs_search_footer"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="@dimen/hs__textSizeMedium"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/view_faqs_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+      <TextView
+          android:id="@+id/textViewLoadingText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+          android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+          android:gravity="center"
+          android:text="@string/hs__fetching_faqs_message"
+          android:textColor="?android:textColorSecondary"
+          android:textSize="@dimen/hs__textSizeMedium"/>
+
+      <ProgressBar
+          style="?android:attr/progressBarStyleHorizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignEnd="@id/textViewLoadingText"
+          android:layout_alignLeft="@+id/textViewLoadingText"
+          android:layout_alignRight="@+id/textViewLoadingText"
+          android:layout_alignStart="@id/textViewLoadingText"
+          android:layout_below="@+id/textViewLoadingText"
+          android:layout_marginTop="@dimen/activity_vertical_margin_small"
+          android:indeterminate="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/view_faqs_load_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+      <TextView
+          android:id="@+id/textViewFailureMessage"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+          android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+          android:gravity="center"
+          android:text="@string/hs__faq_fetching_fail_message"
+          android:textColor="?android:textColorSecondary"
+          android:textSize="@dimen/hs__textSizeMedium"/>
+
+      <Button
+          android:id="@+id/button_retry"
+          style="?attr/borderlessButtonStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/hs__retry_faq_fetching_button"
+          android:textColor="?colorAccent"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flow_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+  </FrameLayout>
+
+  <ImageView
+      android:id="@+id/hs_logo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/black"
+      android:src="@drawable/hs__logo"
+      tools:ignore="ContentDescription"/>
+</LinearLayout>

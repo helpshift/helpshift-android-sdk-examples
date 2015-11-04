@@ -2,23 +2,53 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:id="@+id/contact_us_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/activity_vertical_margin_medium"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <View
+        style="@style/HSDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/contact_us_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin_large"
+        android:gravity="center"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_medium"
+        android:text="@string/hs__search_footer"/>
+
+    <Button
+        android:id="@+id/report_issue"
+        style="?attr/hs__contactUsButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"
+        android:layout_marginTop="@dimen/activity_vertical_margin_small"
+        android:text="@string/hs__contact_us_btn"/>
+  </LinearLayout>
 
   <TextView
-      android:text="@string/hs__search_footer"
+      android:id="@+id/no_faqs_view"
+      style="@style/Base.TextAppearance.AppCompat.Medium"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"/>
-
-  <Button
-      style="?attr/hs__contactUsButtonStyle"
-      android:id="@+id/report_issue"
-      android:text="@string/hs__contact_us_btn"
-      android:drawableLeft="@drawable/hs__report_issue"
-      android:layout_marginBottom="@dimen/hs__listPreferredItemPaddingBottom"
-      />
-
+      android:layout_gravity="center"
+      android:layout_marginBottom="@dimen/activity_vertical_margin_medium"
+      android:layout_marginTop="@dimen/activity_vertical_margin_large"
+      android:gravity="center"
+      android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+      android:paddingRight="@dimen/activity_horizontal_margin_medium"
+      android:text="@string/hs__faqs_search_footer"/>
 </LinearLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__search_list_footer.xml -->

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HSDivider">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1dp</item>
+    <item name="android:background">?attr/hs__contentSeparatorColor</item>
+  </style>
+    <style name="Helpshift"/>
+    <style name="Helpshift.Style"/>
+    <style name="Helpshift.Style.BorderlessButton" parent="Base.Widget.AppCompat.Button.Borderless">
+    <item name="android:textColor">?colorAccent</item>
+  </style>
+    <style name="Helpshift.Style.ContactUsButton" parent="Helpshift.Style.BorderlessButton">
+  </style>
+    <style name="Helpshift.Style.FaqHelpfulButton" parent="Helpshift.Style.BorderlessButton">
+    <item name="android:textColor">?attr/hs__faqHelpfulButtonTextColor</item>
+  </style>
+    <style name="Helpshift.Style.FaqUnhelpfulButton" parent="Helpshift.Style.BorderlessButton">
+    <item name="android:textColor">?attr/hs__faqUnhelpfulButtonTextColor</item>
+  </style>
+    <style name="Helpshift.Style.FaqsListItem">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
+    <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
+    <item name="android:paddingTop">@dimen/hs__listPreferredItemPaddingTop</item>
+    <item name="android:paddingBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
+    <item name="android:minHeight">@dimen/hs__listPreferredItemHeightSmall</item>
+  </style>
+    <style name="Helpshift.Style.QuestionLoadProgress" parent="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    <item name="android:indeterminate">true</item>
+    <item name="android:layout_marginTop">-8dp</item>
+    <item name="android:layout_marginBottom">-8dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="Helpshift.Style.RatingBar" parent="@android:style/Widget.RatingBar">
+    <item name="android:progressDrawable">@drawable/hs__rating_bar</item>
+    <item name="android:indeterminateDrawable">@drawable/hs__rating_bar</item>
+  </style>
+    <style name="Helpshift.Style.SectionTabs.Dark" parent="Base.Widget.AppCompat.Toolbar">
+    <item name="android:background">?colorPrimary</item>
+    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    <item name="tabIndicatorColor">?attr/hs__faqsPagerTabStripIndicatorColor</item>
+  </style>
+    <style name="Helpshift.Style.SectionTabs.Light" parent="Base.Widget.AppCompat.Toolbar">
+    <item name="android:background">?colorPrimary</item>
+    <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    <item name="tabIndicatorColor">?attr/hs__faqsPagerTabStripIndicatorColor</item>
+  </style>
+    <style name="Helpshift.Style.Toolbar.Dark" parent="Base.Widget.AppCompat.Toolbar">
+    <item name="android:background">?colorPrimary</item>
+    <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+  </style>
+    <style name="Helpshift.Style.Toolbar.Light" parent="Base.Widget.AppCompat.Toolbar">
+    <item name="android:background">?colorPrimary</item>
+    <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+  </style>
+</resources>

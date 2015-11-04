@@ -1,67 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-    android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-    android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    >
+    android:paddingTop="@dimen/activity_horizontal_margin_medium">
 
-  <TextView
-      android:id="@android:id/text1"
-      android:layout_width="match_parent"
+  <View
+      android:layout_width="0dp"
       android:layout_height="wrap_content"
-      android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-      android:gravity="center"
-      />
+      android:layout_weight="1"/>
 
   <LinearLayout
-      android:layout_width="match_parent"
+      android:layout_width="0dp"
       android:layout_height="wrap_content"
-      >
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20"
-        />
+      android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+      android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+      android:layout_weight="4"
+      android:gravity="end"
+      android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:id="@+id/user_message"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.80"
-        android:gravity="right"
-        >
+        android:background="?attr/hs__chatBubbleUserBackground"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp">
 
-      <LinearLayout
-          android:id="@+id/user_message"
+      <ImageView
+          android:id="@android:id/summary"
+          android:layout_width="match_parent"
+          android:layout_height="160dp"
+          android:layout_gravity="center"
+          android:scaleType="centerCrop"
+          tools:ignore="ContentDescription"/>
+
+      <ProgressBar
+          android:id="@android:id/progress"
+          style="@style/Widget.AppCompat.ProgressBar"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:background="?attr/hs__chatBubbleUserBackground"
-          >
-
-        <ProgressBar
-            android:id="@android:id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            style="?android:attr/progressBarStyle"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
-            />
-
-        <ImageView
-            android:id="@android:id/summary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-            android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-            />
-      </LinearLayout>
+          android:layout_gravity="center"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@android:id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginTop="2dp"
+        android:textColor="?android:textColorHint"
+        android:textSize="@dimen/hs__textSizeSmall"/>
   </LinearLayout>
 </LinearLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__msg_screenshot_status.xml -->

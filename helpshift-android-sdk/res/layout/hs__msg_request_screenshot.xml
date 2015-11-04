@@ -1,176 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/hs__listPreferredItemPaddingLeft"
-    android:paddingRight="@dimen/hs__listPreferredItemPaddingRight"
-    android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-    android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
-    android:orientation="vertical"
-    >
+    android:paddingTop="@dimen/activity_horizontal_margin_medium">
 
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      >
+      android:orientation="vertical"
+      tools:ignore="UselessParent">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.80"
-        >
+        android:orientation="horizontal"
+        android:visibility="visible">
 
       <LinearLayout
-          android:id="@+id/admin_message"
-          android:orientation="vertical"
-          android:layout_width="wrap_content"
+          android:layout_width="0dp"
           android:layout_height="wrap_content"
-          android:background="?attr/hs__chatBubbleAdminBackground"
-          android:gravity="center"
-          >
-
-        <TextView
-            android:id="@android:id/text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:autoLink="all"
-            android:textColor="?attr/hs__messagesTextColor"
-            android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-            android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-            />
-
-        <View
-            android:id="@android:id/custom"
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="?attr/hs__chatBubbleSeparatorColor"
-            android:alpha="0.5"/>
-
-        <ImageButton
-            android:contentDescription="@string/hs__attach_screenshot_btn"
-            android:id="@android:id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/hs__selectableItemBackground"
-            android:src="@drawable/hs__action_new_picture"
-            android:paddingTop="@dimen/hs__msgActionButtonPadding"
-            android:paddingBottom="@dimen/hs__msgActionButtonPadding"
-            />
-      </LinearLayout>
-    </LinearLayout>
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20"
-        />
-  </LinearLayout>
-
-  <LinearLayout
-      android:id="@android:id/edit"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-      >
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20"
-        />
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.80"
-        android:gravity="right"
-        >
-
-      <LinearLayout
-          android:id="@+id/user_message"
-          android:orientation="vertical"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:background="?attr/hs__chatBubbleUserBackground"
-          android:gravity="center"
-          >
-
-        <RelativeLayout
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content">
-
-          <ImageView
-            android:id="@android:id/summary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/hs__msgPreferredItemPaddingTop"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingBottom"
-            android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-            />
-
-          <ProgressBar
-            android:id="@android:id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            style="?android:attr/progressBarStyle"
-            android:paddingBottom="@dimen/hs__msgPreferredItemPaddingTop"
-            android:layout_centerInParent="true"
-            />
-        </RelativeLayout>
-
-        <View
-            android:id="@+id/button_separator"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?attr/hs__chatBubbleSeparatorColor"
-            android:alpha="0.4"/>
+          android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+          android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+          android:layout_weight="4"
+          android:gravity="start"
+          android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/admin_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__chatBubbleAdminBackground"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@android:id/text1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:autoLink="all"
+              android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+              android:paddingRight="@dimen/activity_horizontal_margin_medium"
+              android:paddingTop="@dimen/activity_horizontal_margin_medium"
+              android:textColor="?attr/hs__chatBubbleAdminText"
+              android:textColorLink="?attr/hs__chatBubbleAdminLink"
+              android:textSize="@dimen/hs__textSizeMedium"/>
+
+          <Button
+              android:id="@android:id/button1"
+              style="@style/Helpshift.Style.BorderlessButton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="-16dp"
+              android:text="@string/hs__attach_screenshot_btn"/>
+
+          <View
+              android:layout_width="1dp"
+              android:layout_height="16dp"/>
+        </LinearLayout>
+      </LinearLayout>
+
+      <View
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@android:id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+      <View
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+          android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+          android:layout_weight="4"
+          android:gravity="end"
+          android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/user_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
+            android:background="?attr/hs__chatBubbleUserBackground"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="2dp">
 
-          <ImageButton
-              android:text="@string/hs__change_btn"
-              android:id="@android:id/button2"
-              android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="wrap_content"
-              android:background="?attr/hs__selectableItemBackground"
-              android:src="@drawable/hs__action_no"
-              android:paddingTop="@dimen/hs__msgActionButtonPadding"
-              android:paddingBottom="@dimen/hs__msgActionButtonPadding"
-              android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-              android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-              />
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@android:id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/errorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="0.5"
+                android:gravity="center"
+                android:drawableLeft="@drawable/hs__attachment_icon"
+                android:drawableStart="@drawable/hs__attachment_icon"
+                android:drawablePadding="@dimen/activity_horizontal_margin_small"
+                android:padding="@dimen/activity_horizontal_margin_medium"
+                android:text="@string/hs__image_not_available"
+                android:textSize="@dimen/hs__textSizeSmall"/>
+          </FrameLayout>
+
+          <ProgressBar
+              android:id="@android:id/progress"
+              style="@style/Helpshift.Style.QuestionLoadProgress"/>
+
+          <!-- This is a dummy view, since R.id.button_separator is removed but
+          still present in D.java in test classes which is failing jenkin build
+          TODO: Remove this immediately after tests are fixed-->
           <View
-              android:layout_height="fill_parent"
-              android:layout_width="1dp"
-              android:background="?attr/hs__chatBubbleSeparatorColor"
-              android:alpha="0.4"/>
-
-          <ImageButton
-              android:text="@string/hs__done_btn"
-              android:id="@android:id/button3"
+              android:id="@+id/button_separator"
               android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="wrap_content"
-              android:background="?attr/hs__selectableItemBackground"
-              android:src="@drawable/hs__action_yes"
-              android:paddingTop="@dimen/hs__msgActionButtonPadding"
-              android:paddingBottom="@dimen/hs__msgActionButtonPadding"
-              android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-              android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
-              />
+              android:layout_height="0dp"
+              android:visibility="gone"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginTop="2dp"
+            android:text="@string/hs__sending_fail_msg"
+            android:textColor="?attr/hs__validationErrorColor"
+            android:textSize="@dimen/hs__textSizeSmall"
+            android:visibility="gone"/>
       </LinearLayout>
     </LinearLayout>
   </LinearLayout>
 </LinearLayout>
-<!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/layout/hs__msg_request_screenshot.xml -->

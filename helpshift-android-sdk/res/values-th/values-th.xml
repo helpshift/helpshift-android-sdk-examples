@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/hs/builds/repos/r2d2/Helpshift/src/main/res/values-th/strings.xml -->
-    <eat-comment/>
     <plurals name="hs__csat_rating_value">
     <item quantity="one">คุณได้ให้คะแนนบริการนี้ 1 ดาว</item>
     <item quantity="other">คุณได้ให้คะแนนบริการนี้ %d ดาว</item>
@@ -10,7 +8,9 @@
     <item quantity="one">ข้อความใหม่จากฝ่ายช่วยเหลือ</item>
     <item quantity="other">%d ข้อความใหม่จากฝ่ายช่วยเหลือ</item>
   </plurals>
+    <string name="hs__app_review_button">ความคิดเห็น</string>
     <string name="hs__attach_screenshot_btn">แนบภาพหน้าจอ</string>
+    <string name="hs__attach_screenshot_button">แนบ</string>
     <string name="hs__ca_msg">เรายินดีช่วยเหลือคุณ!</string>
     <string name="hs__change_btn">เปลี่ยน</string>
     <string name="hs__chat_hint">พิมพ์ข้อความของคุณ</string>
@@ -43,9 +43,11 @@
     <string name="hs__email_hint">อีเมล (ตัวเลือก)</string>
     <string name="hs__email_required_hint">อีเมล</string>
     <string name="hs__empty_section">ขออภัย ไม่มีคำถามในส่วนนี้</string>
+    <string name="hs__faq_fetching_fail_message">ไม่สามารถโหลดคำถามถามบ่อยได้ในขณะนี้ กรุณารอสักครู่แล้วลองอีกครั้ง…</string>
     <string name="hs__faq_header">คำถามที่พบบ่อย</string>
     <string name="hs__faqs_search_footer">ไม่พบคำถามที่พบบ่อย</string>
     <string name="hs__feedback_button">ส่งคำติชม</string>
+    <string name="hs__fetching_faqs_message">กำลังรับคำตอบของคุณ…</string>
     <string name="hs__file_not_found_msg">ไม่พบไฟล์</string>
     <string name="hs__file_type_audio">เสียง</string>
     <string name="hs__file_type_csv">CSV</string>
@@ -56,6 +58,7 @@
     <string name="hs__file_type_unknown">ไฟล์</string>
     <string name="hs__file_type_video">วิดีโอ</string>
     <string name="hs__help_header">ช่วยเหลือ</string>
+    <string name="hs__image_not_available">ภาพไม่พร้อมใช้งาน</string>
     <string name="hs__invalid_description_error">คำบรรยายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">กรุณาใส่อีเมลที่ถูกต้อง</string>
     <string name="hs__mark_helpful_toast">คำถามนี้ถูกระบุว่ามีประโยชน์</string>
@@ -68,18 +71,24 @@
     <string name="hs__new_conversation_btn">เริ่มการสนทนาใหม่</string>
     <string name="hs__new_conversation_header">การสนทนาใหม่</string>
     <string name="hs__new_conversation_hint">มีอะไรให้เราช่วยบ้าง่</string>
+    <string name="hs__no_search_results_message">แย่ล่ะ! เราไม่พบอะไรสำหรับ query</string>
     <string name="hs__notification_content_text">ตอบกลับ</string>
-    <string name="hs__question_header">คำถาม</string>
+    <string name="hs__permission_denied_message">จำเป็นต้องได้รับอนุญาตใช้งานพื้นที่จัดเก็บเพื่อเข้าถึงภาพหน้าจอและดาวน์โหลดไฟล์แนบ</string>
+    <string name="hs__permission_denied_snackbar_action">การตั้งค่า</string>
+    <string name="hs__permission_not_granted">แอพพลิเคชั่นไม่ได้รับอนุญาตให้เข้าถึงภาพถ่ายของคุณ</string>
+    <string name="hs__permission_rationale_snackbar_action_label">ตกลง</string>
+    <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">มีประโยชน์สำหรับคุณ</string>
     <string name="hs__question_unhelpful_message">ไม่มีประโยชน์สำหรับคุณ</string>
     <string name="hs__rate_button">ให้คะแนน</string>
     <string name="hs__remove_screenshot_btn">ลบภาพหน้าจอ</string>
-    <string name="hs__review_accepted_message">ตอบรับคำขอให้รีวิว</string>
+    <string name="hs__retry_faq_fetching_button">ลองอีกครั้ง</string>
+    <string name="hs__review_accepted_message">คุณยอมรับคำขอความคิดเห็น</string>
     <string name="hs__review_close_button">ปิด</string>
     <string name="hs__review_message">
     หากคุณชอบแอพนี้ กรุณาสละเวลาให้คะแนนเรา
   </string>
-    <string name="hs__review_request_message">คุณอยากจะรีวิวแอพนี้ไหม</string>
+    <string name="hs__review_request_message">คุณต้องการแสดงความคิดเห็นเกี่ยวกับแอพใน Play Store?</string>
     <string name="hs__review_title">ให้คะแนนแอพของเรา</string>
     <string name="hs__screenshot_add">เพิ่ม</string>
     <string name="hs__screenshot_cloud_attach_error">
@@ -94,13 +103,15 @@
     <string name="hs__search_result_message">คำถามที่อาจมีคำตอบของคุณอยู่แล้ว</string>
     <string name="hs__search_result_title">คำแนะนำ</string>
     <string name="hs__search_title">ค้นหา</string>
+    <string name="hs__select_a_question_message">กรุณาเลือกคำถามทางด้านซ้าย</string>
     <string name="hs__send_anyway">ยืนยันจะส่ง</string>
     <string name="hs__send_msg_btn">ส่ง</string>
-    <string name="hs__sending_fail_msg">ส่งไม่ได้ แตะเพื่อลองอีกครั้ง</string>
+    <string name="hs__sending_fail_msg">ข้อความไม่ถูกส่ง แตะเพื่อลองอีกครั้ง</string>
     <string name="hs__sending_msg">กำลังส่ง…</string>
     <string name="hs__solved_btn">ใช่ แก้ไขได้แล้ว!</string>
+    <string name="hs__starting_download">เริ่มต้นดาวน์โหลด…</string>
     <string name="hs__submit_conversation_btn">ส่ง</string>
     <string name="hs__unsolved_btn">ไม่ แก้ไขไม่ได้</string>
     <string name="hs__username_blank_error">กรุณาใส่ชื่อที่ถูกต้อง</string>
-    <string name="hs__username_hint">ชื่อ</string>
+    <string name="hs__username_hint">ชื่อของคุณ</string>
 </resources>
