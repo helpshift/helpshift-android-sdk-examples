@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     ได้รับข้อความของคุณแล้ว ขอบคุณที่ติดต่อเรา!
   </string>
+    <string name="hs__copy">สำเนา</string>
     <string name="hs__could_not_open_attachment_msg">ไม่มีแอพใดดำเนินการนี้ได้</string>
     <string name="hs__could_not_reach_support_msg">ไม่สามารถติดต่อฝ่ายสนับสนุนได้</string>
     <string name="hs__cr_msg">มีสิ่งอื่นให้เราช่วยอีกหรือไม่</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">ไฟล์</string>
     <string name="hs__file_type_video">วิดีโอ</string>
     <string name="hs__help_header">ช่วยเหลือ</string>
+    <string name="hs__image_attachment">แนบภาพ</string>
     <string name="hs__image_not_available">ภาพไม่พร้อมใช้งาน</string>
     <string name="hs__invalid_description_error">คำบรรยายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">กรุณาใส่อีเมลที่ถูกต้อง</string>

@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     メッセージを受け取りました。ご連絡ありがとうございます！
   </string>
+    <string name="hs__copy">コピー</string>
     <string name="hs__could_not_open_attachment_msg">このアクションを実行できるアプリはありません</string>
     <string name="hs__could_not_reach_support_msg">サポートに繋がりません</string>
     <string name="hs__cr_msg">他に役に立てることはありますか?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">ファイル</string>
     <string name="hs__file_type_video">ビデオ</string>
     <string name="hs__help_header">ヘルプ</string>
+    <string name="hs__image_attachment">画像添付</string>
     <string name="hs__image_not_available">画像入手不可</string>
     <string name="hs__invalid_description_error">有効でない説明</string>
     <string name="hs__invalid_email_error">有効なeメールアドレスを入力してください</string>

@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     لقد تم استلام رسالتك.شكراً لِتَواصُلِك معنا!
   </string>
+    <string name="hs__copy">نسخ</string>
     <string name="hs__could_not_open_attachment_msg">لا توجد تطبيقات يمكنها تنفيذ هذا الإجراء</string>
     <string name="hs__could_not_reach_support_msg">غير قادر على الوصول للدعم الفني.</string>
     <string name="hs__cr_msg">بماذا أيضاً يُمكِننا مُساعدتِك؟ </string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">ملف</string>
     <string name="hs__file_type_video">فيديو</string>
     <string name="hs__help_header">المُساعَدة</string>
+    <string name="hs__image_attachment">مرفق صورة</string>
     <string name="hs__image_not_available">الصورة غير متوفرة</string>
     <string name="hs__invalid_description_error">وصف غير صحيح </string>
     <string name="hs__invalid_email_error">من فضلك أدخِل بريداً إلكترونياً صحيحاً</string>

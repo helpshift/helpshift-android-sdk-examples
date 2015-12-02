@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Mesej anda telah diterima. Terima kasih kerana menghubungi kami!
   </string>
+    <string name="hs__copy">Copy</string>
     <string name="hs__could_not_open_attachment_msg">Tiada aplikasi boleh melakukan tindakan ini.</string>
     <string name="hs__could_not_reach_support_msg">Gagal menghubungi pihak bantuan</string>
     <string name="hs__cr_msg">Apakah lagi yang kami boleh bantu?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Fail</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Bantuan</string>
+    <string name="hs__image_attachment">Lampiran gambar</string>
     <string name="hs__image_not_available">Gambar tidak tersedia</string>
     <string name="hs__invalid_description_error">Penerangan tidak sah</string>
     <string name="hs__invalid_email_error">Sila masukkan alamat e-mel yang sah</string>

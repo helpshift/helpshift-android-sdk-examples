@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Hemos recibido tu mensaje. Gracias por contactarnos.
   </string>
+    <string name="hs__copy">Copia</string>
     <string name="hs__could_not_open_attachment_msg">Ninguna aplicación puede realizar esta acción</string>
     <string name="hs__could_not_reach_support_msg">Imposible contactar con soporte técnico</string>
     <string name="hs__cr_msg">¿En qué más podemos ayudarte?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Archivo</string>
     <string name="hs__file_type_video">Vídeo</string>
     <string name="hs__help_header">Ayuda</string>
+    <string name="hs__image_attachment">Imagen adjunta</string>
     <string name="hs__image_not_available">Imagen no disponible</string>
     <string name="hs__invalid_description_error">Descripción no válido</string>
     <string name="hs__invalid_email_error">Por favor, introduzca un email válido</string>

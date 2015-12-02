@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Ваше сообщение получено. Спасибо за обращение к нам.
   </string>
+    <string name="hs__copy">копия</string>
     <string name="hs__could_not_open_attachment_msg">Нет ни одного подходящего приложения</string>
     <string name="hs__could_not_reach_support_msg">Невозможно связаться со Службой поддержки</string>
     <string name="hs__cr_msg">Чем еще мы можем Вам помочь?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Файл</string>
     <string name="hs__file_type_video">Видео</string>
     <string name="hs__help_header">Справка</string>
+    <string name="hs__image_attachment">Вложение изображения</string>
     <string name="hs__image_not_available">Изображение недоступно</string>
     <string name="hs__invalid_description_error">Неверное описание</string>
     <string name="hs__invalid_email_error">Введите пожалуйста действительный адрес электронной почты</string>

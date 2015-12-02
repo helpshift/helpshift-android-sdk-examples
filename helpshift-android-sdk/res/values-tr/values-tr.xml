@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Mesajınız alındı. Bize ulaştığınız için teşekkür ederiz!
   </string>
+    <string name="hs__copy">Kopya</string>
     <string name="hs__could_not_open_attachment_msg">Bu eylemi hiçbir uygulama gerçekleştiremez</string>
     <string name="hs__could_not_reach_support_msg">Desteğe ulaşılamadı</string>
     <string name="hs__cr_msg">Size başka nasıl yardımcı olabiliriz?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Dosya</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Yardım</string>
+    <string name="hs__image_attachment">Görüntü ilişiği</string>
     <string name="hs__image_not_available">Resim bulunmuyor</string>
     <string name="hs__invalid_description_error">Geçersiz açıklama</string>
     <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi girin</string>

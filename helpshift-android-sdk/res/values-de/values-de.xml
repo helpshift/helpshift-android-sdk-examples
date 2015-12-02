@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Ihre Nachricht ist eingegangen. Danke, dass Sie uns kontaktieren!
   </string>
+    <string name="hs__copy">Kopie</string>
     <string name="hs__could_not_open_attachment_msg">Diese Handlung kann von keiner App durchgeführt werden</string>
     <string name="hs__could_not_reach_support_msg">Kundendienst konnte nicht erreicht werden</string>
     <string name="hs__cr_msg">Womit können wir Ihnen sonst noch helfen?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Datei</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Hilfe</string>
+    <string name="hs__image_attachment">Bildanhang</string>
     <string name="hs__image_not_available">Bild nicht verfügbar</string>
     <string name="hs__invalid_description_error">Ungültige Beschreibung</string>
     <string name="hs__invalid_email_error">Bitte geben Sie eine gültige E-Mail-Adresse an.</string>

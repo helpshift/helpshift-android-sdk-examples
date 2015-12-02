@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Meldingen din har blitt mottatt. Takk for at du kontakter oss!
   </string>
+    <string name="hs__copy">Kopiere</string>
     <string name="hs__could_not_open_attachment_msg">Ingen apper kan utføre denne handlingen.</string>
     <string name="hs__could_not_reach_support_msg">Kan ikke nå brukerstøtte</string>
     <string name="hs__cr_msg">Kan vi hjelpe deg med noe annet?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Fil</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Hjelp</string>
+    <string name="hs__image_attachment">Bildevedlegg</string>
     <string name="hs__image_not_available">Bilde ikke tilgjengelig</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Vennligst oppgi en gyldig e-post</string>

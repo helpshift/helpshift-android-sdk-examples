@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Vašu správu sme prijali. Ďakujeme, že ste nás kontaktovali!
   </string>
+    <string name="hs__copy">kopírovať</string>
     <string name="hs__could_not_open_attachment_msg">Žiadne aplikácie pre túto akciu.</string>
     <string name="hs__could_not_reach_support_msg">Podpora nie je dostupná</string>
     <string name="hs__cr_msg">S čím Vám ešte môžeme pomôcť?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Súbo</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Pomoc</string>
+    <string name="hs__image_attachment">Obrazová príloha</string>
     <string name="hs__image_not_available">Obrázok nie je dostupný</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Prosím, zadajte platný e-mail</string>

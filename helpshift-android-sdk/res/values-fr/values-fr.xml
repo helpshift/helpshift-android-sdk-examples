@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Votre message a bien été reçu. Merci de nous avoir contactés !
   </string>
+    <string name="hs__copy">Copie</string>
     <string name="hs__could_not_open_attachment_msg">Aucune application ne peut effectuer cette action</string>
     <string name="hs__could_not_reach_support_msg">Impossible de joindre l\'assistance</string>
     <string name="hs__cr_msg">Pouvons-nous vous aider pour autre chose ?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Fichier</string>
     <string name="hs__file_type_video">Vidéo</string>
     <string name="hs__help_header">Aide</string>
+    <string name="hs__image_attachment">Image jointe</string>
     <string name="hs__image_not_available">Image non disponible</string>
     <string name="hs__invalid_description_error">Description non valide</string>
     <string name="hs__invalid_email_error">S\'il vous plaît entrer une adresse email valide</string>

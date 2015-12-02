@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Το μήνυμά σας παραλήφθηκε. Σας ευχαριστούμε που επικοινωνήσατε μαζί μας!
   </string>
+    <string name="hs__copy">Αντίγραφο</string>
     <string name="hs__could_not_open_attachment_msg">Οι εφαρμογές δεν μπορούν να εκτελέσουν αυτήν την ενέργεια.</string>
     <string name="hs__could_not_reach_support_msg">Δεν είναι δυνατή η σύνδεση με την υποστήριξη</string>
     <string name="hs__cr_msg">Σε τι άλλο μπορούμε να σας βοηθήσουμε;</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Αρχείο</string>
     <string name="hs__file_type_video">Βίντεο</string>
     <string name="hs__help_header">Βοήθεια</string>
+    <string name="hs__image_attachment">συνημμένο με εικόνα</string>
     <string name="hs__image_not_available">Η εικόνα δεν είναι διαθέσιμη</string>
     <string name="hs__invalid_description_error">Μη έγκυρη περιγραφή</string>
     <string name="hs__invalid_email_error">Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>

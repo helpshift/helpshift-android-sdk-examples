@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_gravity="bottom|end"
-            android:background="@android:color/darker_gray"
+            android:background="?attr/hs__attachmentBackgroundColor"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -134,7 +134,8 @@
               android:background="@android:color/transparent"
               android:contentDescription="@string/hs__remove_screenshot_btn"
               android:src="@drawable/hs__screenshot_clear"
-              android:text="@string/hs__remove_screenshot_btn"/>
+              android:text="@string/hs__remove_screenshot_btn"
+              android:tint="?android:textColorPrimary"/>
         </LinearLayout>
       </android.support.v7.widget.CardView>
     </LinearLayout>

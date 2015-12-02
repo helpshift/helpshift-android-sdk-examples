@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Je bericht is ontvangen. Dank voor het contact opnemen met ons!
   </string>
+    <string name="hs__copy">Kopiëren</string>
     <string name="hs__could_not_open_attachment_msg">Er zijn geen apps die deze handeling kunnen uitvoeren</string>
     <string name="hs__could_not_reach_support_msg">Kan ondersteuning niet bereiken</string>
     <string name="hs__cr_msg">Waarmee kunnen we je nog meer helpen?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Bestand</string>
     <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Help</string>
+    <string name="hs__image_attachment">Afbeelding toevoeging</string>
     <string name="hs__image_not_available">Afbeelding niet beschikbaar</string>
     <string name="hs__invalid_description_error">Ongeldige omschrijving</string>
     <string name="hs__invalid_email_error">Geef alsjeblieft een geldige email in.</string>

@@ -1,4 +1,4 @@
-Helpshift SDK 4.1.1-support Release Notes (for Android)
+Helpshift SDK 4.2.0-support Release Notes (for Android)
 -------------------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,18 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.2.0-support Release Date: December 1st, 2015
+      * Add support for copy/pasting messages in conversation screen.
+      * Improved User attachment UI in conversation view.
+      * FIX Image attachment bug with orientation change.
+      * Add conversation started toast message.
+      * FIX Crash IndexOutOfBoundsException and NPE while performing search.
+      * FIX Incorrect Toolbar title for CustomToolbar with Embeddable Fragments.
+      * Add CSAT hint text for "Hated It" and "Loved It".
+      * FIX IllegalStateException in Faq screen.
+      * FIX NullPointerException in Faq init.
+4.1.1 Release Date: November 6th, 2015
+      * Bug Fixes.
 4.1.1-support Release Date: October 30th, 2015
       * FIX HSReview crash, due to missing AndroidManifest entry.
 4.1.0 Release Date: October 29th, 2015
@@ -21,10 +33,15 @@ New features:
       * Added support for Android Marshmallow permissioning
       * showConversationResolutionQuestion flag's default value now has been set to true.
       * Migration from Helpshift 3.x sdk to 4.x SDK
-      * Introduced new com.helpshift.support.Support APIs to replace com.helpshift.Helpshift APIs.
       * FAQ Search algorithm improvements
         * Fixed/Improved following
           * Improved the FAQ search relevance threshold for fuzzy match to make it strict.
+          * Sometimes search term was not highlighted if it was with a prepending or appending punctuation mark
+          * FAQs were listed twice in search results
+4.0.0 Release Date: October 9th, 2015
+      * Added data collection APIs for new Campaigns product.
+      * Added new com.helpshift.support, com.helpshift.campaigns and com.helpshift.core API for Support, Campaigns and Core services.
+      * Deprecated older Helpshift API.
 3.12.0 Release Date: September 25, 2015
       * Add API configuration flag to enable or disable default fallback language for FAQ.
 3.11.0 Release Date: 10 September, 2015

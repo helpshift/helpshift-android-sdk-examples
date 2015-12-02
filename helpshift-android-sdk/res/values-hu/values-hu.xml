@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     Megkaptuk az üzenetét. Köszönjük, hogy kapcsolatba lépett velünk!
   </string>
+    <string name="hs__copy">Másolat</string>
     <string name="hs__could_not_open_attachment_msg">Nincs alkalmazás, amely ezt a művelet végre tudja hajtani</string>
     <string name="hs__could_not_reach_support_msg">Az ügyfélszolgálat nem elérhető</string>
     <string name="hs__cr_msg">Miben segíthetünk még?</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">Fájl</string>
     <string name="hs__file_type_video">Videó</string>
     <string name="hs__help_header">Segítség</string>
+    <string name="hs__image_attachment">Képmelléklet</string>
     <string name="hs__image_not_available">A kép nem elérhető.</string>
     <string name="hs__invalid_description_error">Érvénytelen leírás</string>
     <string name="hs__invalid_email_error">Adjon meg egy érvényes e-mail címet</string>

@@ -34,17 +34,81 @@
       <ImageView
           android:id="@android:id/summary"
           android:layout_width="match_parent"
-          android:layout_height="160dp"
+          android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:scaleType="centerCrop"
           tools:ignore="ContentDescription"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="56dp"
+          android:layout_gravity="bottom|end"
+          android:background="?attr/hs__chatBubbleAdminBackgroundColor"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hs__attachment_icon"
+            android:tint="?colorAccent"
+            tools:ignore="ContentDescription"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/attachment_file_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:ellipsize="marquee"
+              android:maxLines="1"
+              android:singleLine="true"
+              android:text="@string/hs__image_attachment"
+              android:textColor="?android:textColorPrimary"
+              android:textSize="@dimen/hs__textSizeMedium"
+              android:visibility="visible"/>
+
+          <TextView
+              android:id="@+id/attachment_file_type"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_below="@+id/attachment_file_name"
+              android:textColor="?android:textColorSecondary"
+              android:textSize="@dimen/hs__textSizeSmall"
+              android:visibility="visible"/>
+
+          <TextView
+              android:id="@+id/attachment_file_size"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentEnd="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/attachment_file_name"
+              android:layout_toLeftOf="@+id/attachment_file_type"
+              android:layout_toStartOf="@+id/attachment_file_type"
+              android:textColor="?android:textColorSecondary"
+              android:textSize="@dimen/hs__textSizeSmall"
+              android:visibility="visible"/>
+        </RelativeLayout>
+      </LinearLayout>
 
       <ProgressBar
           android:id="@android:id/progress"
-          style="@style/Widget.AppCompat.ProgressBar"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_gravity="center"/>
+          style="@style/Helpshift.Style.QuestionLoadProgress"/>
     </LinearLayout>
 
     <TextView

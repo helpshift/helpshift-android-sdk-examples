@@ -23,6 +23,7 @@
     <string name="hs__conversation_started_message">
     你的信息已收到。感谢联系我们！
   </string>
+    <string name="hs__copy">复制</string>
     <string name="hs__could_not_open_attachment_msg">没有执行此操作的应用</string>
     <string name="hs__could_not_reach_support_msg">无法联系支持人员</string>
     <string name="hs__cr_msg">我们还有什么可以帮到您？</string>
@@ -58,6 +59,7 @@
     <string name="hs__file_type_unknown">文件</string>
     <string name="hs__file_type_video">视频</string>
     <string name="hs__help_header">帮助</string>
+    <string name="hs__image_attachment">图片附件</string>
     <string name="hs__image_not_available">无法获得图像</string>
     <string name="hs__invalid_description_error">无效输入</string>
     <string name="hs__invalid_email_error">请输入一个有效的电子邮件地址</string>

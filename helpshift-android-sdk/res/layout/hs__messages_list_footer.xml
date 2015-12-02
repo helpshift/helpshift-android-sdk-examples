@@ -6,7 +6,7 @@
     android:background="?android:windowBackground"
     android:gravity="center"
     android:orientation="vertical"
-    android:paddingTop="@dimen/activity_horizontal_margin_large"
+    android:paddingTop="@dimen/activity_horizontal_margin_small"
     android:visibility="visible">
 
   <TextView
@@ -14,7 +14,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:gravity="center_horizontal"
-      android:paddingBottom="@dimen/activity_horizontal_margin_medium"
+      android:paddingBottom="@dimen/activity_horizontal_margin_small"
       android:paddingTop="@dimen/activity_horizontal_margin_medium"
       android:textColor="?android:textColorSecondary"
       android:textSize="@dimen/hs__textSizeSmall"
@@ -24,7 +24,7 @@
       android:id="@+id/hs__new_conversation"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/activity_vertical_margin_large"
+      android:layout_marginTop="@dimen/activity_vertical_margin_medium"
       android:gravity="center"
       android:orientation="vertical"
       android:visibility="gone">
@@ -43,10 +43,10 @@
         android:paddingBottom="@dimen/activity_vertical_margin_small"
         android:paddingTop="@dimen/activity_vertical_margin_small"/>
 
-    <View
+    <!--<View
         android:layout_width="match_parent"
         android:layout_height="@dimen/activity_vertical_margin_medium"
-        android:background="@android:color/transparent"/>
+        android:background="@android:color/transparent"/>-->
 
     <Button
         android:id="@+id/hs__new_conversation_btn"
@@ -57,7 +57,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/activity_vertical_margin_large"
+        android:layout_height="@dimen/activity_vertical_margin_medium"
         android:background="@android:color/transparent"/>
   </LinearLayout>
 </LinearLayout>
