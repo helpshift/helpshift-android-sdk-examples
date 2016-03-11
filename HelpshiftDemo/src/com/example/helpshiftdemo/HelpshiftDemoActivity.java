@@ -24,10 +24,9 @@ public class HelpshiftDemoActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    // You initialize the library by calling Core.install(APPLICATION, API_KEY, DOMAIN,
-    // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // Core.init(Support.getInstance());
-    // Core.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
+    Core.init(Support.getInstance());
+    // TODO: Initialize the library by uncommenting and filling the following -
+    // Core.install(getApplication(), "<YOUR_API_KEY>", "<YOUR_COMPANY>.helpshift.com", "<YOUR_APP_ID>");
 
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
