@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -29,6 +29,23 @@
             android:name="com.helpshift.support.HSRetryService"
             android:label="Helpshift Service" >
         </service>
+
+        <activity
+            android:name="com.helpshift.campaigns.activities.ParentActivity"
+            android:theme="@style/Helpshift.Theme.Activity" >
+        </activity>
+        <activity
+            android:name="com.helpshift.supportCampaigns.NotificationActivity"
+            android:configChanges="orientation|screenSize|locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.helpshift.supportCampaigns.util.NotificationService"
+            android:exported="false" />
     </application>
 
 </manifest>

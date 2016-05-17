@@ -1,5 +1,5 @@
-Helpshift SDK 4.2.0-support Release Notes (for Android)
--------------------------------------------------------
+Helpshift SDK 4.4.0 Release Notes (for Android)
+-----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
 Helpshift SDK for Android is required for having Helpshift support running on native apps.
@@ -11,6 +11,25 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.4.0 Release Date: March 17, 2016
+      * Add support for Inbox functionality and rich in-app campaign messages.
+      * Add config option for supporting Guided Ticket Filing when user clicks on Contact Us from inside the SDK screens.
+      * Fix a bug where error snackbar was not properly visible attaching large images
+      * Fix a bug where video was being played even after the user exits the faq screen
+      * Fix a rare NPE while launching Helpshift screens
+      * Fix a db related crash
+      * Fix a UI bug on issue reporting screen
+4.3.0-support Release Date: February 5, 2016
+      * Add support for sending messages read status from the SDK.
+      * Add support for providing large notification icon for Helpshift notifications.
+      * Reduce init times of the Helpshift SDK by adding Async queuing mechanism.
+      * Fix API config behaviour for flags not passed in the API.
+      * Fix edge case crash in follow-up behaviour.
+      * Fix FAQs API call behaviour which caused no faqs to be loaded on some Samsung devices.
+      * Improve animation related code.
+4.2.0 Release Date: December 16th, 2015
+      * Add support for large text in campaigns push notification.
+      * Fix bugs in analytics reporting for campaigns push notifications.
 4.2.0-support Release Date: December 1st, 2015
       * Add support for copy/pasting messages in conversation screen.
       * Improved User attachment UI in conversation view.

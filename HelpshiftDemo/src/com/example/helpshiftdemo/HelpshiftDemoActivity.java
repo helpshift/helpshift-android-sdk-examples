@@ -24,10 +24,6 @@ public class HelpshiftDemoActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    Core.init(Support.getInstance());
-    // TODO: Initialize the library by uncommenting and filling the following -
-    // Core.install(getApplication(), "<YOUR_API_KEY>", "<YOUR_COMPANY>.helpshift.com", "<YOUR_APP_ID>");
-
     helpButton = (Button) findViewById(R.id.helpButton);
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
