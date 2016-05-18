@@ -75,7 +75,7 @@
     <string name="hs__faq_fetching_fail_message">Nicht in der Lage, die FAQs im Moment zu laden. Bitte in Kürze erneut versuchen…</string>
     <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">Keine FAQs gefunden.</string>
-    <string name="hs__feedback_button">Reaktion</string>
+    <string name="hs__feedback_button">Feedback</string>
     <string name="hs__fetching_faqs_message">Ihre Antworten werden eingeholt…</string>
     <string name="hs__file_not_found_msg">Datei nicht gefunden</string>
     <string name="hs__file_type_audio">Audio</string>

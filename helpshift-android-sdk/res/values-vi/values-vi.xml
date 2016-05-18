@@ -124,7 +124,7 @@
     <string name="hs__screenshot_cloud_attach_error">
     Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một bức ảnh có sẵn ngay trong thiết bị.
   </string>
-    <string name="hs__screenshot_limit_error">Dung lượng ảnh chụp màn hình không được vượt quá %,2f MB</string>
+    <string name="hs__screenshot_limit_error">Dung lượng ảnh chụp màn hình không được vượt quá %.2f MB</string>
     <string name="hs__screenshot_remove">Xoá</string>
     <string name="hs__screenshot_sent_msg">Đã gửi ảnh chụp màn hình</string>
     <string name="hs__screenshot_upload_error_msg">Lỗi tải ảnh chụp màn hình lên</string>

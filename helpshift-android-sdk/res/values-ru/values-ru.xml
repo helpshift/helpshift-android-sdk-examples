@@ -114,7 +114,7 @@
     <string name="hs__remove_screenshot_btn">Удалить скриншот</string>
     <string name="hs__retry_faq_fetching_button">ПОВТОР</string>
     <string name="hs__review_accepted_message">Вы приняли запрос об отзыве.</string>
-    <string name="hs__review_close_button">близко</string>
+    <string name="hs__review_close_button">Закрыть</string>
     <string name="hs__review_message">
     Если Вам понравилось наше приложение, уделите пожалуйста пару минут, чтобы оценить его
   </string>

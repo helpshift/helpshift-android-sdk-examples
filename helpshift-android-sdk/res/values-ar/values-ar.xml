@@ -144,5 +144,4 @@
     <string name="hs__unsolved_btn">لا، لم يتم الحل </string>
     <string name="hs__username_blank_error">من فضلك أدخِل اسماً صحيحاً </string>
     <string name="hs__username_hint">الاسم </string>
-    <string name="hs__your_name">اسمك</string>
 </resources>

@@ -1178,8 +1178,8 @@ int string abc_searchview_description_voice 0x7f05000f
 int string abc_shareactionprovider_share_with 0x7f050010
 int string abc_shareactionprovider_share_with_application 0x7f050011
 int string abc_toolbar_collapse_description 0x7f050012
-int string appbar_scrolling_view_behavior 0x7f050096
-int string character_counter_pattern 0x7f050097
+int string appbar_scrolling_view_behavior 0x7f050095
+int string character_counter_pattern 0x7f050096
 int string hs__app_review_button 0x7f050014
 int string hs__attach_screenshot_btn 0x7f050015
 int string hs__attach_screenshot_button 0x7f050016
@@ -1286,7 +1286,7 @@ int string hs__review_close_button 0x7f05007a
 int string hs__review_message 0x7f05007b
 int string hs__review_request_message 0x7f05007c
 int string hs__review_title 0x7f05007d
-int string hs__screen_type 0x7f050095
+int string hs__screen_type 0x7f050094
 int string hs__screenshot_add 0x7f05007e
 int string hs__screenshot_cloud_attach_error 0x7f05007f
 int string hs__screenshot_limit_error 0x7f050080
@@ -1309,7 +1309,6 @@ int string hs__submit_conversation_btn 0x7f050090
 int string hs__unsolved_btn 0x7f050091
 int string hs__username_blank_error 0x7f050092
 int string hs__username_hint 0x7f050093
-int string hs__your_name 0x7f050094
 int string status_bar_notification_info_overflow 0x7f050013
 int style AlertDialog_AppCompat 0x7f09008d
 int style AlertDialog_AppCompat_Light 0x7f09008e
