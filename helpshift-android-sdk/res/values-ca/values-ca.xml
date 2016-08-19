@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Image not available</string>
     <string name="hs__invalid_description_error">Descripció no vàlida</string>
     <string name="hs__invalid_email_error">Si us plau, introdueixi un correu electrònic vàlid</string>
+    <string name="hs__issue_archival_message">Aquesta concersa esta tancada. Si us plau, comença una nova conversa.</string>
     <string name="hs__mark_helpful_toast">La pregunta s\'ha marcat com a Útil</string>
     <string name="hs__mark_no">NO</string>
     <string name="hs__mark_unhelpful_toast">La pregunta s\'ha marcat com a No Útil</string>
     <string name="hs__mark_yes">SÍ</string>
     <string name="hs__mark_yes_no_question">Ha estat útil?</string>
+    <string name="hs__message_not_sent">Missatge no enviat</string>
     <string name="hs__network_error_msg">Ui! Alguna cosa ha anat malament</string>
     <string name="hs__network_unavailable_msg">Xarxa no disponible.</string>
     <string name="hs__new_conversation_btn">INICIAR UNA NOVA CONVERSA</string>

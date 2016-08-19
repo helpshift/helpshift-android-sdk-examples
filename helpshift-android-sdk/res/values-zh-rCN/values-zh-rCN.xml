@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">无法获得图像</string>
     <string name="hs__invalid_description_error">无效输入</string>
     <string name="hs__invalid_email_error">请输入一个有效的电子邮件地址</string>
+    <string name="hs__issue_archival_message">此对话关闭。请开始一个新的对话。</string>
     <string name="hs__mark_helpful_toast">问题已被标记为帮助</string>
     <string name="hs__mark_no">否</string>
     <string name="hs__mark_unhelpful_toast">已被标记为问题没有帮助</string>
     <string name="hs__mark_yes">是</string>
     <string name="hs__mark_yes_no_question">这有帮助吗？</string>
+    <string name="hs__message_not_sent">信息未发送</string>
     <string name="hs__network_error_msg">啊呀！出现错误了</string>
     <string name="hs__network_unavailable_msg">网络不可用</string>
     <string name="hs__new_conversation_btn">开始一个新会话</string>

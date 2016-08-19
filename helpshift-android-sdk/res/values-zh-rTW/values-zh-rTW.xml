@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">無法顯示圖片</string>
     <string name="hs__invalid_description_error">無效的敘述</string>
     <string name="hs__invalid_email_error">請輸入一個有效電子郵件</string>
+    <string name="hs__issue_archival_message">此對話關閉。請開始一個新的對話。</string>
     <string name="hs__mark_helpful_toast">問題已標示為有幫助</string>
     <string name="hs__mark_no">沒有</string>
     <string name="hs__mark_unhelpful_toast">問題已標示為沒有幫助</string>
     <string name="hs__mark_yes">有</string>
     <string name="hs__mark_yes_no_question">這有幫助嗎？</string>
+    <string name="hs__message_not_sent">信息未發送</string>
     <string name="hs__network_error_msg">哎呀！出了點問題</string>
     <string name="hs__network_unavailable_msg">沒有網路。</string>
     <string name="hs__new_conversation_btn">開始一段新對話</string>

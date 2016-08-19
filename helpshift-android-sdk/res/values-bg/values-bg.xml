@@ -89,11 +89,13 @@
     <string name="hs__image_not_available">Изображението не е налично</string>
     <string name="hs__invalid_description_error">Невалидно описание</string>
     <string name="hs__invalid_email_error">Моля въведете валиден имейл</string>
+    <string name="hs__issue_archival_message">Този разговор е приключен. Моля, започнете нов разговор.</string>
     <string name="hs__mark_helpful_toast">Въпросът е маркиран като полезен</string>
     <string name="hs__mark_no">НЕ</string>
     <string name="hs__mark_unhelpful_toast">Въпрос е маркиран като не е полезен</string>
     <string name="hs__mark_yes">ДА</string>
     <string name="hs__mark_yes_no_question">Това беше ли полезно?</string>
+    <string name="hs__message_not_sent">Съобщението не е изпратено</string>
     <string name="hs__network_error_msg">Опа! Нещо се обърка</string>
     <string name="hs__network_unavailable_msg">Мрежата не е на разположение..</string>
     <string name="hs__new_conversation_btn">ЗАПОЧНЕТЕ НОВ РАЗГОВОР</string>

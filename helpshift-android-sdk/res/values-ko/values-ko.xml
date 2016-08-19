@@ -44,7 +44,7 @@
     <string name="hs__chat_hint">당신의 메세지를 입력하세요</string>
     <string name="hs__confirmation_footer_msg">의견을 주셔서 감사합니다!</string>
     <string name="hs__confirmation_msg">귀하의 모든 질문에 대해 답변해 드렸나요?</string>
-    <string name="hs__contact_us_btn">연락처</string>
+    <string name="hs__contact_us_btn">문의하기</string>
     <string name="hs__conversation_detail_error">당신의 문제를 설명해주세요</string>
     <string name="hs__conversation_end_msg">이 대화는 종료되었습니다.</string>
     <string name="hs__conversation_header">대화</string>
@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">이미지 사용 불가</string>
     <string name="hs__invalid_description_error">무효한 설명</string>
     <string name="hs__invalid_email_error">유효한 이메일을 입력해주세요</string>
+    <string name="hs__issue_archival_message">이 대화가 닫힙니다. 새로운 대화를 시작하십시오.</string>
     <string name="hs__mark_helpful_toast">질문이 도움이 되었다고 표시되었습니다</string>
     <string name="hs__mark_no">아니요</string>
     <string name="hs__mark_unhelpful_toast">질문이 도움이 되지 않았다고 표시되었습니다</string>
     <string name="hs__mark_yes">예</string>
-    <string name="hs__mark_yes_no_question">이 내용이 유용했나요?</string>
+    <string name="hs__mark_yes_no_question">내용이 도움이 되었나요?</string>
+    <string name="hs__message_not_sent">메시지가 전송되지</string>
     <string name="hs__network_error_msg">이런! 무언가 오류가 생겼습니다</string>
     <string name="hs__network_unavailable_msg">네트워크 이용불가능.</string>
     <string name="hs__new_conversation_btn">새로운 대화 시작</string>
@@ -109,7 +111,7 @@
     <string name="hs__permission_rationale_snackbar_action_label">네</string>
     <string name="hs__question_header"> </string>
     <string name="hs__question_helpful_message">이 내용은 유용했습니다.</string>
-    <string name="hs__question_unhelpful_message">이 내용은 유용하지 않았습니다.</string>
+    <string name="hs__question_unhelpful_message">도움이 되지 않았습니다.</string>
     <string name="hs__rate_button">평가</string>
     <string name="hs__remove_screenshot_btn">스크린샷 제거</string>
     <string name="hs__retry_faq_fetching_button">재시도</string>
@@ -120,7 +122,7 @@
   </string>
     <string name="hs__review_request_message">플레이 스토어에서 본 앱의 리뷰를 작성하시겠습니까?</string>
     <string name="hs__review_title">앱 평가</string>
-    <string name="hs__screenshot_add">부언하다</string>
+    <string name="hs__screenshot_add">첨부하기</string>
     <string name="hs__screenshot_cloud_attach_error">
     스크린 샷을 첨부 오류가 발생했습니다. 장치에 로컬로 사용할 이미지를 선택하십시오.
   </string>

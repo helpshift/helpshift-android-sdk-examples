@@ -87,11 +87,13 @@
     <string name="hs__image_not_available">इमेज उपलब्ध नहीं है</string>
     <string name="hs__invalid_description_error">अमान्य विवरण</string>
     <string name="hs__invalid_email_error">कृपया एक मान्य ईमेल दर्ज करें</string>
+    <string name="hs__issue_archival_message">इस बातचीत को बंद कर दिया है। कृपया एक नई बातचीत शुरू।</string>
     <string name="hs__mark_helpful_toast">प्रश्न सहायक के रूप में चिह्नित किया गया है</string>
     <string name="hs__mark_no">नहीं</string>
     <string name="hs__mark_unhelpful_toast">प्रश्न सहायक नहीं के रूप में चिह्नित किया गया है</string>
     <string name="hs__mark_yes">हाँ</string>
     <string name="hs__mark_yes_no_question">क्‍या यह सहायक था?</string>
+    <string name="hs__message_not_sent">संदेश नहीं भेजा</string>
     <string name="hs__network_error_msg">ओह! कुछ गलत हो गया</string>
     <string name="hs__network_unavailable_msg">नेटवर्क उपलब्ध नहीं है।</string>
     <string name="hs__new_conversation_btn">नया संवाद शुरू करें</string>

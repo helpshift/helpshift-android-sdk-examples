@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:windowBackground">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:gravity="center_horizontal"
+              android:paddingBottom="@dimen/activity_horizontal_margin_small"
+              android:paddingLeft="@dimen/hs_issue_archival_view_horizontal_margin"
+              android:paddingRight="@dimen/hs_issue_archival_view_horizontal_margin"
+              android:paddingTop="@dimen/activity_horizontal_margin_medium"
+              android:text="@string/hs__issue_archival_message"
+              android:textColor="?android:textColorSecondary"
+              android:textSize="@dimen/hs__textSizeMedium">
+    </TextView>
+</RelativeLayout>

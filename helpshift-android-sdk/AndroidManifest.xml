@@ -35,7 +35,7 @@
             android:theme="@style/Helpshift.Theme.Activity" >
         </activity>
         <activity
-            android:name="com.helpshift.supportCampaigns.NotificationActivity"
+            android:name="com.helpshift.campaigns.activities.NotificationActivity"
             android:configChanges="orientation|screenSize|locale|layoutDirection"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
@@ -44,7 +44,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <service
-            android:name="com.helpshift.supportCampaigns.util.NotificationService"
+            android:name="com.helpshift.campaigns.services.NotificationService"
             android:exported="false" />
     </application>
 

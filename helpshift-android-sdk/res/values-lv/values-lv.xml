@@ -87,11 +87,13 @@
     <string name="hs__image_not_available">Attēls nav pieejams</string>
     <string name="hs__invalid_description_error">Nederīgs apraksts</string>
     <string name="hs__invalid_email_error">Lūdzu, ievadiet derīgu e-pasta adresi.</string>
+    <string name="hs__issue_archival_message">Šī saruna ir slēgta. Lūdzu sākt jaunu sarunu.</string>
     <string name="hs__mark_helpful_toast">Jautājums ir atzīmēts kā noderīgs</string>
     <string name="hs__mark_no">NĒ</string>
     <string name="hs__mark_unhelpful_toast">Jautājums ir atzīmēts kā nenoderīgs</string>
     <string name="hs__mark_yes">JĀ</string>
     <string name="hs__mark_yes_no_question">Vai šī informācija bija noderīga?</string>
+    <string name="hs__message_not_sent">Ziņojums nav nosūtīts</string>
     <string name="hs__network_error_msg">Oops! Kaut kas nogāja greizi</string>
     <string name="hs__network_unavailable_msg">Tīkls nav pieejams.</string>
     <string name="hs__new_conversation_btn">SĀKT JAUNU SARUNU</string>

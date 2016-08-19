@@ -5,6 +5,7 @@ import android.app.Application;
 import com.helpshift.Core;
 import com.helpshift.All;
 import com.helpshift.support.Support;
+import com.helpshift.exceptions.InstallException;
 
 public class MainApplication extends Application {
 
@@ -13,10 +14,14 @@ public class MainApplication extends Application {
     super.onCreate();
 
     Core.init(All.getInstance());
-    Core.install(this,
-                 "<your api key>",
-                 "<your domain>",
-                 "<your app id>");
+    try {
+      Core.install(this,
+                   "<your api key>",
+                   "<your domain>",
+                   "<your app id>");
+    } catch (InstallException e) {
+      android.util.Log.e("Helpshift", "install call : ", e);
+    }
 
     android.util.Log.d("Helpshift", Support.libraryVersion + " - is the version for gradle");
 

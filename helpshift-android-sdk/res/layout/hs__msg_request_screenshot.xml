@@ -38,7 +38,6 @@
               android:id="@android:id/text1"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:autoLink="all"
               android:paddingLeft="@dimen/activity_horizontal_margin_medium"
               android:paddingRight="@dimen/activity_horizontal_margin_medium"
               android:paddingTop="@dimen/activity_horizontal_margin_medium"

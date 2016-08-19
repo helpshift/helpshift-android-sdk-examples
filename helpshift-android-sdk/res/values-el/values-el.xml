@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Η εικόνα δεν είναι διαθέσιμη</string>
     <string name="hs__invalid_description_error">Μη έγκυρη περιγραφή</string>
     <string name="hs__invalid_email_error">Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="hs__issue_archival_message">Αυτή η συζήτηση έχει κλείσει. Παρακαλείστε να ξεκινήσετε μια νέα συζήτηση.</string>
     <string name="hs__mark_helpful_toast">Η ερώτηση έχει επισημανθεί ως Χρήσιμη</string>
     <string name="hs__mark_no">ΟΧΙ</string>
     <string name="hs__mark_unhelpful_toast">Η ερώτηση επισημάνθηκε ως Μη Χρήσιμη</string>
     <string name="hs__mark_yes">ΝΑΙ</string>
     <string name="hs__mark_yes_no_question">Ήταν χρήσιμο αυτό;</string>
+    <string name="hs__message_not_sent">Το μήνυμα δεν εστάλη</string>
     <string name="hs__network_error_msg">Ωχ! Κάτι πήγε στραβά</string>
     <string name="hs__network_unavailable_msg">Το δίκτυο δεν είναι διαθέσιμο.</string>
     <string name="hs__new_conversation_btn">ΕΝΑΡΞΗ ΝΕΑΣ ΣΥΖΗΤΗΣΗΣ</string>

@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Hình ảnh không khả dụng</string>
     <string name="hs__invalid_description_error">Mô tả không hợp lệ</string>
     <string name="hs__invalid_email_error">Vui lòng nhập email hợp lệ</string>
+    <string name="hs__issue_archival_message">Cuộc nói chuyện này được đóng lại. Hãy bắt đầu một cuộc trò chuyện mới.</string>
     <string name="hs__mark_helpful_toast">Câu hỏi đã được đánh dấu là Hữu ích</string>
     <string name="hs__mark_no">KHÔNG</string>
     <string name="hs__mark_unhelpful_toast">Câu hỏi đã được đánh dấu là Không Hữu ích</string>
     <string name="hs__mark_yes">CÓ</string>
     <string name="hs__mark_yes_no_question">Câu trả lời này có giúp ích gì không?</string>
+    <string name="hs__message_not_sent">Thư không gửi</string>
     <string name="hs__network_error_msg">Rất tiếc! Đã có điều gì đó bất ổn</string>
     <string name="hs__network_unavailable_msg">Không có mạng.</string>
     <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC TRÒ CHUYỆN MỚI</string>

@@ -89,11 +89,13 @@
     <string name="hs__image_not_available">ছবি লভ্য নয়</string>
     <string name="hs__invalid_description_error">অকার্যকর বর্ণনা</string>
     <string name="hs__invalid_email_error">অনুগ্রহ করে একটি কার্যকর ইমেইল লিখুন</string>
+    <string name="hs__issue_archival_message">এই কথোপকথন বন্ধ করা হয়. অনুগ্রহ করে নতুন কিছু কথোপকথন শুরু.</string>
     <string name="hs__mark_helpful_toast">প্রশ্নটি সহায়ক হিসাবে চিহ্নিত হয়েছে</string>
     <string name="hs__mark_no">না</string>
     <string name="hs__mark_unhelpful_toast">প্রশ্ন সহায়ক নয় হিসাবে চিহ্নিত হয়েছে</string>
     <string name="hs__mark_yes">হ্যাঁ</string>
     <string name="hs__mark_yes_no_question">এটি কি সহায়ক ছিল?</string>
+    <string name="hs__message_not_sent">বার্তা পাঠানো হয়নি</string>
     <string name="hs__network_error_msg">উফ! কোনো সমস্যা হয়েছে</string>
     <string name="hs__network_unavailable_msg">নেটওয়ার্ক লভ্য নয়।</string>
     <string name="hs__new_conversation_btn">একটি নতুন কথোপকথন শুরু করুন</string>

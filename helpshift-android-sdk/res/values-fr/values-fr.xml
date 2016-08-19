@@ -74,7 +74,7 @@
     <string name="hs__empty_section">Désolé ! Aucune question n\'est répertoriée dans cette section</string>
     <string name="hs__faq_fetching_fail_message">Impossible de charger la FAQ pour le moment. Veuillez réessayer plus tard…</string>
     <string name="hs__faq_header">FAQ</string>
-    <string name="hs__faqs_search_footer">Pas FAQ trouvé.</string>
+    <string name="hs__faqs_search_footer">Aucune FAQ trouvée.</string>
     <string name="hs__feedback_button">Réaction</string>
     <string name="hs__fetching_faqs_message">Nous cherchons vos réponses…</string>
     <string name="hs__file_not_found_msg">Fichier non trouvé</string>
@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Image non disponible</string>
     <string name="hs__invalid_description_error">Description non valide</string>
     <string name="hs__invalid_email_error">S\'il vous plaît entrer une adresse email valide</string>
+    <string name="hs__issue_archival_message">Cette conversation est fermée. Prière de commencer une nouvelle conversation.</string>
     <string name="hs__mark_helpful_toast">Question a été indiqué comme utile</string>
     <string name="hs__mark_no">NON</string>
     <string name="hs__mark_unhelpful_toast">Question a été marquée ne m\'a pas aidé</string>
     <string name="hs__mark_yes">OUI</string>
     <string name="hs__mark_yes_no_question">Cela vous a-t-il été utile?</string>
+    <string name="hs__message_not_sent">Message non envoyé.</string>
     <string name="hs__network_error_msg">Oups ! Une erreur s\'est produite</string>
     <string name="hs__network_unavailable_msg">Réseau non disponible.</string>
     <string name="hs__new_conversation_btn">COMMENCER UNE NOUVELLE CONVERSATION</string>
@@ -114,7 +116,7 @@
     <string name="hs__remove_screenshot_btn">Supprimer la copie d\'écran</string>
     <string name="hs__retry_faq_fetching_button">RÉESSAYER</string>
     <string name="hs__review_accepted_message">Vous avez accepté la demande d\'avis.</string>
-    <string name="hs__review_close_button">Fermez</string>
+    <string name="hs__review_close_button">Fermer</string>
     <string name="hs__review_message">
     Si vous aimez notre app, veuillez prendre un moment pour la noter dans l\'App Store
   </string>
@@ -135,7 +137,7 @@
     <string name="hs__search_title">Recherche</string>
     <string name="hs__select_a_question_message">Veuillez choisir une question à gauche</string>
     <string name="hs__send_anyway">ENVOYER QUAND MÊME</string>
-    <string name="hs__send_msg_btn">Envoyez</string>
+    <string name="hs__send_msg_btn">Envoyer</string>
     <string name="hs__sending_fail_msg">Message non envoyé. Touchez pour réessayer.</string>
     <string name="hs__sending_msg">Envoi…</string>
     <string name="hs__solved_btn">Oui, résolu !</string>

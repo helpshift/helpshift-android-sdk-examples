@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="limit_to_single_line">true</bool>
+    <dimen name="hs_issue_archival_view_horizontal_margin">48dp</dimen>
 </resources>

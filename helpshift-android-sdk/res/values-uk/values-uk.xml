@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Зображення не доступне</string>
     <string name="hs__invalid_description_error">Неприпустимий опис</string>
     <string name="hs__invalid_email_error">Будь ласка, напишіть справжню адресу електронної пошти</string>
+    <string name="hs__issue_archival_message">Ця розмова закінчена. Будь ласка, почніть новий сеанс</string>
     <string name="hs__mark_helpful_toast">Питання помічено як корисне</string>
     <string name="hs__mark_no">НІ</string>
     <string name="hs__mark_unhelpful_toast">Питання помічено як не корисне</string>
     <string name="hs__mark_yes">ТАК</string>
     <string name="hs__mark_yes_no_question">Чи була інформація корисною?</string>
+    <string name="hs__message_not_sent">Повідомлення не відправлено</string>
     <string name="hs__network_error_msg">Ой! Щось пішло не так</string>
     <string name="hs__network_unavailable_msg">Мережа недоступна.</string>
     <string name="hs__new_conversation_btn">РОЗПОЧАТИ НОВУ РОЗМОВУ</string>

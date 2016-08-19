@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Imagen no disponible</string>
     <string name="hs__invalid_description_error">Descripción no válido</string>
     <string name="hs__invalid_email_error">Por favor, introduzca un email válido</string>
+    <string name="hs__issue_archival_message">Esta conversación está cerrada. Por favor, iniciar una nueva conversación.</string>
     <string name="hs__mark_helpful_toast">Pregunta ha sido marcada como útil</string>
     <string name="hs__mark_no">NO</string>
     <string name="hs__mark_unhelpful_toast">Pregunta ha sido marcada como No ha sido útil</string>
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">¿Sirvió de ayuda?</string>
+    <string name="hs__message_not_sent">Mensaje no enviado</string>
     <string name="hs__network_error_msg">¡Ups! Algo ha fallado</string>
     <string name="hs__network_unavailable_msg">La red no está disponible</string>
     <string name="hs__new_conversation_btn">INICIAR UNA NUEVA CONVERSACIÓN</string>

@@ -87,11 +87,13 @@
     <string name="hs__image_not_available"> ਿਚੱਤਰ ਉਪਲਬਧ ਨਹੀ ਹੈ</string>
     <string name="hs__invalid_description_error">ਗਲਤ ਵੇਰਵਾ</string>
     <string name="hs__invalid_email_error">ਿਕਰਪਾ ਕਰਕੇਇੱਕ ਸਹੀ ਈਮੇਲ ਦਰਜ ਕਰੋ</string>
+    <string name="hs__issue_archival_message">ਇਹ ਗੱਲਬਾਤ ਬੰਦ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਨਵ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰਨ.</string>
     <string name="hs__mark_helpful_toast">ਸਵਾਲ ਨੰੂਮਦਦਗਾਰ ਦੇਤੌਰ ਤੇਮਾਰਕ ਕੀਤਾ ਿਗਆ ਹੈ</string>
     <string name="hs__mark_no">ਨਹ</string>
     <string name="hs__mark_unhelpful_toast">ਸਵਾਲ ਨੰੂਮਦਦਗਾਰ ਦੇਤੌਰ ਤੇਮਾਰਕ ਨਹ ਕੀਤਾ</string>
     <string name="hs__mark_yes">ਹ</string>
     <string name="hs__mark_yes_no_question">ਕੀ ਇਹ ਉਪਯੋਗੀ ਸੀ?</string>
+    <string name="hs__message_not_sent">ਸੁਨੇਹਾ ਭੇਜਿਆ ਨਾ</string>
     <string name="hs__network_error_msg">ਓ ਹ!ੋਕੁਝ ਗਲਤ ਹੋਇਆ ਹੈ</string>
     <string name="hs__network_unavailable_msg">ਨă{ਟਵਰਕ ਉਪਲਬਧ ਨਹ ਹ।ੈ</string>
     <string name="hs__new_conversation_btn">ਨਵ ਗੱਲਬਾਤ ©ੁਰੂਕਰੋ</string>

@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Obrázok nie je dostupný</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Prosím, zadajte platný e-mail</string>
+    <string name="hs__issue_archival_message">Tento rozhovor je uzavretý. Prosím začať novú diskusiu.</string>
     <string name="hs__mark_helpful_toast">Otázka bola označená ako užitočná</string>
     <string name="hs__mark_no">NIE</string>
     <string name="hs__mark_unhelpful_toast">Otázka bola označená ako neužitočná</string>
     <string name="hs__mark_yes">ÁNO</string>
     <string name="hs__mark_yes_no_question">Boli pre Vás tieto informácie užitočné?</string>
+    <string name="hs__message_not_sent">Správa nebola odoslaná</string>
     <string name="hs__network_error_msg">Ups! Niečo sa pokazilo</string>
     <string name="hs__network_unavailable_msg">Sieť nie je dostupná</string>
     <string name="hs__new_conversation_btn">ZAČAŤ NOVÚ KONVERZÁCIU</string>

@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Gambar tidak tersedia</string>
     <string name="hs__invalid_description_error">Deskripsi salah</string>
     <string name="hs__invalid_email_error">Harap masukkan surel yang benar</string>
+    <string name="hs__issue_archival_message">Percakapan ini sudah ditutup. Silakan memulai percakapan baru.</string>
     <string name="hs__mark_helpful_toast">Pertanyaan ditandai sebagai Membantu</string>
     <string name="hs__mark_no">TIDAK</string>
     <string name="hs__mark_unhelpful_toast">Pertanyaan ditandai sebagai Tak Membantu</string>
     <string name="hs__mark_yes">YA</string>
     <string name="hs__mark_yes_no_question">Apakah ini membantu?</string>
+    <string name="hs__message_not_sent">Pesan tidak terkirim</string>
     <string name="hs__network_error_msg">Ups! Terjadi kesalahan</string>
     <string name="hs__network_unavailable_msg">Jaringan tidak tersedia.</string>
     <string name="hs__new_conversation_btn">MULAI PERCAKAPAN BARU</string>

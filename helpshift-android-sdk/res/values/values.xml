@@ -103,7 +103,7 @@
     <color name="hs__user_chat_bubble_dark">#ffa8dff4</color>
     <color name="hs__user_chat_bubble_light">#ffa8dff4</color>
     <color name="unread_campaign_date_color">#4284F7</color>
-    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="reference" name="hs__chatBubbleUserBackground"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="reference" name="hs__chatBubbleAdminBackground"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__conversationFooterBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__validationErrorColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__accentColor"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="reference" name="hs__faqsFooterBackgroundColor"/><attr format="color" name="hs__messagesTextColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__faqFooterSeparatorColor"/><attr format="color" name="hs__chatBubbleSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__actionButtonNotificationIconColor"/><attr format="color" name="hs__actionButtonNotificationTextColor"/><attr format="color" name="hs__buttonCompoundDrawableIconColor"/><attr format="color" name="hs__sendMessageButtonIconColor"/><attr format="color" name="hs__sendMessageButtonActiveIconColor"/><attr format="color" name="hs__acceptButtonIconColor"/><attr format="color" name="hs__rejectButtonIconColor"/><attr format="color" name="hs__faqHelpfulButtonTextColor"/><attr format="color" name="hs__faqUnhelpfulButtonTextColor"/><attr format="color" name="hs__attachScreenshotButtonIconColor"/><attr format="color" name="hs__reviewButtonIconColor"/><attr format="color" name="hs__adminChatBubbleColor"/><attr format="color" name="hs__userChatBubbleColor"/><attr format="color" name="hs__csatDialogBackgroundColor"/><attr format="color" name="hs__downloadAttachmentButtonIconColor"/><attr format="color" name="hs__launchAttachmentButtonIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__selectableItemBackground"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__faqHelpfulButtonStyle"/><attr format="reference" name="hs__faqUnhelpfulButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
+    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="reference" name="hs__chatBubbleUserBackground"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="reference" name="hs__chatBubbleAdminBackground"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__conversationFooterBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__validationErrorColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="reference" name="hs__faqsFooterBackgroundColor"/><attr format="color" name="hs__messagesTextColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__faqFooterSeparatorColor"/><attr format="color" name="hs__chatBubbleSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__actionButtonNotificationIconColor"/><attr format="color" name="hs__actionButtonNotificationTextColor"/><attr format="color" name="hs__buttonCompoundDrawableIconColor"/><attr format="color" name="hs__sendMessageButtonIconColor"/><attr format="color" name="hs__sendMessageButtonActiveIconColor"/><attr format="color" name="hs__acceptButtonIconColor"/><attr format="color" name="hs__rejectButtonIconColor"/><attr format="color" name="hs__faqHelpfulButtonTextColor"/><attr format="color" name="hs__faqUnhelpfulButtonTextColor"/><attr format="color" name="hs__attachScreenshotButtonIconColor"/><attr format="color" name="hs__reviewButtonIconColor"/><attr format="color" name="hs__adminChatBubbleColor"/><attr format="color" name="hs__userChatBubbleColor"/><attr format="color" name="hs__csatDialogBackgroundColor"/><attr format="color" name="hs__downloadAttachmentButtonIconColor"/><attr format="color" name="hs__launchAttachmentButtonIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__selectableItemBackground"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__faqHelpfulButtonStyle"/><attr format="reference" name="hs__faqUnhelpfulButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
     <dimen name="activity_horizontal_margin_large">24dp</dimen>
     <dimen name="activity_horizontal_margin_medium">16dp</dimen>
     <dimen name="activity_horizontal_margin_small">8dp</dimen>
@@ -131,6 +131,7 @@
     <dimen name="hs__textSizeLarge">18sp</dimen>
     <dimen name="hs__textSizeMedium">16sp</dimen>
     <dimen name="hs__textSizeSmall">14sp</dimen>
+    <dimen name="hs_issue_archival_view_horizontal_margin">16dp</dimen>
     <integer name="hs__chat_max_lines">12</integer>
     <integer name="hs__conversation_detail_lines">1</integer>
     <integer name="hs__issue_description_min_chars">1</integer>
@@ -226,11 +227,13 @@
     <string name="hs__image_not_available">Image not available</string>
     <string name="hs__invalid_description_error">Invalid description</string>
     <string name="hs__invalid_email_error">Please enter a valid email</string>
+    <string name="hs__issue_archival_message">Sorry! This conversation was closed due to inactivity. Please start a new conversation with our agents.</string>
     <string name="hs__mark_helpful_toast">Question has been marked as Helpful</string>
     <string name="hs__mark_no">NO</string>
     <string name="hs__mark_unhelpful_toast">Question has been marked as Not Helpful</string>
     <string name="hs__mark_yes">YES</string>
     <string name="hs__mark_yes_no_question">Was this helpful?</string>
+    <string name="hs__message_not_sent">Message not sent.</string>
     <string name="hs__network_error_msg">Oops! Something went wrong</string>
     <string name="hs__network_unavailable_msg">Network not available.</string>
     <string name="hs__new_conversation_btn">START A NEW CONVERSATION</string>
@@ -384,7 +387,6 @@
     <item name="hs__textFieldBorderColor">@color/hs__dark_textFieldBorderColor</item>
     <item name="hs__validationErrorColor">@color/hs__dark_validationErrorColor</item>
     <item name="hs__searchHighlightColor">@color/hs__dark_searchHighlightColor</item>
-    <item name="hs__accentColor">@color/hs__dark_colorAccent</item>
     <!--NEW THEME ELEMENTS END -->
 
     <!--FAQ FOOTER STYLING-->
@@ -510,7 +512,6 @@
     <item name="hs__textFieldBorderColor">@color/hs__light_textFieldBorderColor</item>
     <item name="hs__validationErrorColor">@color/hs__light_validationErrorColor</item>
     <item name="hs__searchHighlightColor">@color/hs__light_searchHighlightColor</item>
-    <item name="hs__accentColor">@color/hs__light_colorAccent</item>
     <!--NEW THEME ELEMENTS END -->
 
     <!--FAQ FOOTER STYLING-->
@@ -629,7 +630,6 @@
     <item name="hs__textFieldBorderColor">@color/hs__light_textFieldBorderColor</item>
     <item name="hs__validationErrorColor">@color/hs__light_validationErrorColor</item>
     <item name="hs__searchHighlightColor">@color/hs__light_searchHighlightColor</item>
-    <item name="hs__accentColor">@color/hs__light_dark_colorAccent</item>
     <!--NEW THEME ELEMENTS END -->
 
     <!--FAQ FOOTER STYLING-->

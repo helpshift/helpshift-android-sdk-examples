@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Obraz niedostępny</string>
     <string name="hs__invalid_description_error">Nieprawidłowy opis</string>
     <string name="hs__invalid_email_error">Wprowadź prawidłowy e-mail</string>
+    <string name="hs__issue_archival_message">Ta rozmowa jest zamknięty. Proszę rozpocząć nową rozmowę.</string>
     <string name="hs__mark_helpful_toast">Pytanie oznaczono jako przydatne</string>
     <string name="hs__mark_no">NIE</string>
     <string name="hs__mark_unhelpful_toast">Pytanie oznaczono jako nieprzydatne</string>
     <string name="hs__mark_yes">TAK</string>
     <string name="hs__mark_yes_no_question">Czy to było przydatne?</string>
+    <string name="hs__message_not_sent">Wiadomość nie została wysłana</string>
     <string name="hs__network_error_msg">Ups! Coś poszło nie tak</string>
     <string name="hs__network_unavailable_msg">Sieć jest niedostępna.</string>
     <string name="hs__new_conversation_btn">ROZPOCZNIJ NOWĄ ROZMOWĘ</string>

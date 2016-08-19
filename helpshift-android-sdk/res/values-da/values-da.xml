@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Billedet er ikke tilgængeligt</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Indtast en gyldig e-mail</string>
+    <string name="hs__issue_archival_message">Denne samtale er lukket. Venligst starte en ny samtale.</string>
     <string name="hs__mark_helpful_toast">Spørgsmål er blevet markeret som Nyttig</string>
     <string name="hs__mark_no">NEJ</string>
     <string name="hs__mark_unhelpful_toast">Spørgsmål er blevet markeret som Ikke Nyttig</string>
     <string name="hs__mark_yes">JA</string>
     <string name="hs__mark_yes_no_question">Var disse oplysninger nyttige?</string>
+    <string name="hs__message_not_sent">Besked ikke sendt</string>
     <string name="hs__network_error_msg">Ups! Noget gik galt</string>
     <string name="hs__network_unavailable_msg">Netværk ikke tilgængelig.</string>
     <string name="hs__new_conversation_btn">START EN NY SAMTALE</string>

@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">תמונה לא זמינה</string>
     <string name="hs__invalid_description_error">תיאור לא תקין</string>
     <string name="hs__invalid_email_error">אנא הכניסו אימייל תקין</string>
+    <string name="hs__issue_archival_message">השיחה הזו סגורה. אנא להתחיל שיחה חדשה.</string>
     <string name="hs__mark_helpful_toast">השאלה סומנה כמועילה</string>
     <string name="hs__mark_no">לא</string>
     <string name="hs__mark_unhelpful_toast">השאלה סומנה כלא מועילה</string>
     <string name="hs__mark_yes">כן</string>
     <string name="hs__mark_yes_no_question">האם זה עזר?</string>
+    <string name="hs__message_not_sent">ההודעה לא נשלחה</string>
     <string name="hs__network_error_msg">אופס! משהו התקלקל</string>
     <string name="hs__network_unavailable_msg">הרשת לא זמינה.</string>
     <string name="hs__new_conversation_btn">התחל שיחה חדשה</string>

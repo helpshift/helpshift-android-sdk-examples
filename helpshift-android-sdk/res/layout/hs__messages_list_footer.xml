@@ -43,10 +43,11 @@
         android:paddingBottom="@dimen/activity_vertical_margin_small"
         android:paddingTop="@dimen/activity_vertical_margin_small"/>
 
-    <!--<View
+    <ViewStub
+        android:id="@+id/issue_archival_message_view_stub"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/activity_vertical_margin_medium"
-        android:background="@android:color/transparent"/>-->
+        android:layout_height="wrap_content"
+        android:layout="@layout/hs__issue_archival_message_view_holder"/>
 
     <Button
         android:id="@+id/hs__new_conversation_btn"

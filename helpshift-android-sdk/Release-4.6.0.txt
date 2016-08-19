@@ -1,4 +1,4 @@
-Helpshift SDK 4.5.0 Release Notes (for Android)
+Helpshift SDK 4.6.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,8 +11,41 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.6.0 Release Date: August 18, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
+      * Handle corrupt or unsupported file formats in In-App Campaigns.
+      * Handle runtime revocation of storage permission for Campaigns.
+      * Improve few string translations for French and Korean languages.
+      * Support HTML entities in FAQs search.
+      * Fix a bug where FAQ filtering did not work with embeddable fragments.
+      * Fix a bug where image attachment orientation was getting changed on some devices.
+      * Fix a memory leak in case of device orientation change.
+      * Fix a stackoverflow crash caused by campaigns poller.
+      * Fix a bug where custom deeplinks in agent's replies were not working on chat screen.
+      * Fix a theme issue where "Send" button was not themed correctly.
+      * Fix a bug where FAQs UI was not getting updated immediately with new data.
+4.6.0-support Release Date: August 18, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
+      * Improve few string translations for French and Korean languages.
+      * Support HTML entities in FAQs search.
+      * Fix a bug where FAQ filtering did not work with embeddable fragments.
+      * Fix a bug where image attachment orientation was getting changed on some devices.
+      * Fix a memory leak in case of device orientation change.
+      * Fix a bug where custom deeplinks in agent's replies were not working on chat screen.
+      * Fix a theme issue where "Send" button was not themed correctly.
+      * Fix a bug where FAQs UI was not getting updated immediately with new data.
+4.5.1 Release Date: June 29, 2016
+      * Fix a crash caused by migration from 3.x to 4.5.0 when the application is using the Helpshift's Login API.
 4.5.0 Release Date: May 18, 2016
       * Send user-id and device-id with every new conversation to facilitate integration of the Support and Campaigns products.
+      * Add support for notification when a conversation is resolved.
+      * Remove SD card information from metadata due to data inaccuracy.
+      * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.
+      * Improve localization strings according to customer feedback.
+      * Fix a bug where Contact Us config is reset to default on activity restart due to high memory pressure.
+4.5.0-support Release Date: May 31, 2016
       * Add support for notification when a conversation is resolved.
       * Remove SD card information from metadata due to data inaccuracy.
       * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.

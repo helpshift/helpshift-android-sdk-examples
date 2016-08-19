@@ -91,11 +91,13 @@
     <string name="hs__image_not_available">Image not available</string>
     <string name="hs__invalid_description_error">Opis nije valjan</string>
     <string name="hs__invalid_email_error">Unesite valjanu adresu e-pošte</string>
+    <string name="hs__issue_archival_message">Ovaj razgovor je zatvorena. Molimo započeti novi razgovor.</string>
     <string name="hs__mark_helpful_toast">Pitanje označeno kao korisno</string>
     <string name="hs__mark_no">NE</string>
     <string name="hs__mark_unhelpful_toast">Pitanje je označeno kao Ne pomaže</string>
     <string name="hs__mark_yes">DA</string>
     <string name="hs__mark_yes_no_question">Je li bilo korisno?</string>
+    <string name="hs__message_not_sent">Poruka nije poslana</string>
     <string name="hs__network_error_msg">Ups! Nešto je pošlo krivo</string>
     <string name="hs__network_unavailable_msg">Mreža nije dostupna.</string>
     <string name="hs__new_conversation_btn">ZAPOČNI NOVI RAZGOVOR</string>
