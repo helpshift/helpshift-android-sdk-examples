@@ -17,11 +17,10 @@ Each one of the sub-directories apart from `appcompat`,
 * **[HelpshiftDemoMaven](HelpshiftDemoMaven)**: HelpshiftDemo project using maven instead of Ant
 * **[HelpshiftDemoGradle](HelpshiftDemoGradle)**: HelpshiftDemo project using Gradle instead of Ant
 * **[HSThemeApp](HSThemeApp)**: app to demo theme inheritance on Helpshift SDK's UI
-* **[GCMClient](GCMClient)**: demonstrates Helpshift support notifications via Google Cloud Messaging
+* **[GcmClient](GcmClient)**: demonstrates Helpshift support notifications via Google Cloud Messaging
 * **[UrbanAirshipApp](UrbanAirshipApp)**: demonstrates Helpshift support notifications via Urban Airship
 * **[PGApp](PGApp)**: demo app to check SDK compatibility when Proguard is active
-* **[GcmApp](GcmApp)**: app to demo use of Google Play Services. This is a port of [GCMClient project](https://code.google.com/p/gcm/) from Gradle to Ant build system.
-* **[FCMClient](FCMClient)**: demonstrates Helpshift support notifications via Firebase Cloud Messaging
+* **[GCMApp](GCMApp)**: app to demo use of Google Play Services. This is a port of [GCMClient project](https://code.google.com/p/gcm/) from Gradle to Ant build system.
 
 **Note:** `/helpshift-android-sdk`, `cardview`, `recyclerview`, `design`
   are required for above projects to function correctly.
