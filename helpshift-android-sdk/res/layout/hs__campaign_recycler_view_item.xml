@@ -28,7 +28,7 @@
         android:paddingTop="8dp"
         android:paddingRight="16dp"
         android:layout_height="wrap_content">
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@+id/campaign_title"
           android:singleLine="true"
           android:textSize="16sp"
@@ -37,7 +37,7 @@
           android:layout_toLeftOf="@+id/campaign_time"
           android:textColor="?attr/hs__inboxTitleTextColor"
           android:layout_height="wrap_content"/>
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@+id/campaign_time"
           android:layout_alignParentRight="true"
           android:textSize="13sp"
@@ -47,7 +47,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
     </RelativeLayout>
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@+id/campaign_body"
         android:maxLines="2"
         android:ellipsize="end"

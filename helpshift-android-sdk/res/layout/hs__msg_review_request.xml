@@ -21,7 +21,7 @@
         android:background="?attr/hs__chatBubbleAdminBackground"
         android:orientation="vertical">
 
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@android:id/text1"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
           android:textColorLink="?attr/hs__chatBubbleAdminLink"
           android:textSize="@dimen/hs__textSizeMedium"/>
 
-      <Button
+      <com.helpshift.views.HSButton
           android:id="@android:id/button1"
           style="@style/Helpshift.Style.BorderlessButton"
           android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
           android:layout_marginTop="@dimen/activity_horizontal_margin_small"/>
     </LinearLayout>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@android:id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

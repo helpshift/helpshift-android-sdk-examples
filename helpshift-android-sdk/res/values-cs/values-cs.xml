@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Nalevo si prosím vyberte zprávu</string>
     <string name="hs__cam_undo">Vrátit</string>
     <string name="hs__change_btn">Změnit</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Napište zprávu</string>
+    <string name="hs__chat_out_of_business_hours">Nyní nejsme přítomni, ozveme se vám během pracovních hodin</string>
     <string name="hs__confirmation_footer_msg">Děkujeme, že jste nám napsali!</string>
     <string name="hs__confirmation_msg">Zodpověděli jsme všechny Vaše dotazy?</string>
     <string name="hs__contact_us_btn">KONTAKTUJTE NÁS</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Obrázek není k dispozici</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Zadejte prosím platný e-mail</string>
-    <string name="hs__issue_archival_message">Tento rozhovor je ukončen. Prosím zahájit novou konverzaci.</string>
+    <string name="hs__issue_archival_message">Omlouváme se! Tato konverzace byla uzavřena z důvodu nečinnosti. Prosím, zahajte novou konverzaci s našimi agenty.</string>
     <string name="hs__mark_helpful_toast">Otázka byla označena za užitečnou</string>
     <string name="hs__mark_no">NE</string>
     <string name="hs__mark_unhelpful_toast">Otázka byla označena za neužitečnou</string>
     <string name="hs__mark_yes">ANO</string>
     <string name="hs__mark_yes_no_question">Pomohlo to?</string>
-    <string name="hs__message_not_sent">Zpráva nebyla odeslána</string>
+    <string name="hs__message_not_sent">Zpráva nebyla odeslána.</string>
     <string name="hs__network_error_msg">Ouvej! Něco se nezdařilo</string>
     <string name="hs__network_unavailable_msg">Síť není dostupná</string>
     <string name="hs__new_conversation_btn">ZAČÍT NOVÝ ROZHOVOR</string>

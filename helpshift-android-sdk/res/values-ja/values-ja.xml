@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">左からメッセージを選択してください</string>
     <string name="hs__cam_undo">取り消す</string>
     <string name="hs__change_btn">変更</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">メッセージを入力してください</string>
+    <string name="hs__chat_out_of_business_hours">ただ今不在にしております。営業時間内に対応させていただきますのでよろしくお願いいたします。</string>
     <string name="hs__confirmation_footer_msg">メッセージありがとうございました!</string>
     <string name="hs__confirmation_msg">問題はすべて解決しましたか?</string>
     <string name="hs__contact_us_btn">お問い合わせ</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">画像入手不可</string>
     <string name="hs__invalid_description_error">有効でない説明</string>
     <string name="hs__invalid_email_error">有効なeメールアドレスを入力してください</string>
-    <string name="hs__issue_archival_message">この会話は終了致しました。新しい会話を開始してください。</string>
+    <string name="hs__issue_archival_message">メッセージのやり取りがなかったため、この話題は終了した扱いになっています。新規メッセージを作成してください。</string>
     <string name="hs__mark_helpful_toast">疑問が役に立ったと評価されました</string>
     <string name="hs__mark_no">いいえ</string>
     <string name="hs__mark_unhelpful_toast">疑問が役に立たなかったと評価されました</string>
     <string name="hs__mark_yes">はい</string>
     <string name="hs__mark_yes_no_question">お役に立ちましたか?</string>
-    <string name="hs__message_not_sent">メッセージは送信されません</string>
+    <string name="hs__message_not_sent">メッセージは送信されませんでした。</string>
     <string name="hs__network_error_msg">おっと! 何か問題が起きたようです。</string>
     <string name="hs__network_unavailable_msg">ネットワークが利用できません</string>
     <string name="hs__new_conversation_btn">新しい会話を始める</string>

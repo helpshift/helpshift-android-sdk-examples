@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Bitte eine Nachricht von links wählen</string>
     <string name="hs__cam_undo">Rückgängig</string>
     <string name="hs__change_btn">Ändern</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Geben Sie Ihre Mitteilung ein</string>
+    <string name="hs__chat_out_of_business_hours">Wir sind derzeit nicht erreichbar, werden uns aber gerne während der üblichen Geschäftszeiten bei Ihnen melden.</string>
     <string name="hs__confirmation_footer_msg">Danke für Ihre Mitteilung!</string>
     <string name="hs__confirmation_msg">Haben wir all Ihre Fragen beantwortet?</string>
     <string name="hs__contact_us_btn">KONTAKT</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Bild nicht verfügbar</string>
     <string name="hs__invalid_description_error">Ungültige Beschreibung</string>
     <string name="hs__invalid_email_error">Bitte geben Sie eine gültige E-Mail-Adresse an.</string>
-    <string name="hs__issue_archival_message">Dieses Gespräch ist geschlossen. Bitte starten Sie ein neues Gespräch.</string>
+    <string name="hs__issue_archival_message">Tut uns leid! Diese Konversation wurde aufgrund von Inaktivität geschlossen. Bitte beginnen Sie eine neue Konversation mit unseren Agenten.</string>
     <string name="hs__mark_helpful_toast">Frage wurde als hilfreich markiert</string>
     <string name="hs__mark_no">NEIN</string>
     <string name="hs__mark_unhelpful_toast">Frage hat nicht geholfen markiert</string>
     <string name="hs__mark_yes">JA</string>
     <string name="hs__mark_yes_no_question">War dies hilfreich?</string>
-    <string name="hs__message_not_sent">Nachricht nicht gesendet</string>
+    <string name="hs__message_not_sent">Nachricht nicht gesendet.</string>
     <string name="hs__network_error_msg">Huch! Da ist was schief gelaufen</string>
     <string name="hs__network_unavailable_msg">Netzwerk nicht verfügbar.</string>
     <string name="hs__new_conversation_btn">EINE NEUE UNTERHALTUNG BEGINNEN</string>

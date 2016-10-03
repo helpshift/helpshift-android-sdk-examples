@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Kérem, válasszon egy üzenetet balról</string>
     <string name="hs__cam_undo">Visszavon</string>
     <string name="hs__change_btn">Módosítás</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Írja le az üzenetét</string>
+    <string name="hs__chat_out_of_business_hours">Nem vagyunk most bent, de munkaidőben válaszolni fogunk.</string>
     <string name="hs__confirmation_footer_msg">Köszönjük, hogy üzent nekünk!</string>
     <string name="hs__confirmation_msg">Megválaszoltuk minden kérdését?</string>
     <string name="hs__contact_us_btn">KAPCSOLAT</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">A kép nem elérhető.</string>
     <string name="hs__invalid_description_error">Érvénytelen leírás</string>
     <string name="hs__invalid_email_error">Adjon meg egy érvényes e-mail címet</string>
-    <string name="hs__issue_archival_message">Ez a beszélgetés lezárva. Kérjük kezdjen új beszélgetést.</string>
+    <string name="hs__issue_archival_message">Sajnáljuk, de ezt a beszélgetést tevékenység hiánya miatt lezártuk. Kérjük, kezdjen új beszélgetést ügynökeinkkel.</string>
     <string name="hs__mark_helpful_toast">Hasznosnak jelölt kérdés</string>
     <string name="hs__mark_no">NEM</string>
     <string name="hs__mark_unhelpful_toast">Nem Hasznosnak jelölt kérdés</string>
     <string name="hs__mark_yes">IGEN</string>
     <string name="hs__mark_yes_no_question">Hasznos volt az információ?</string>
-    <string name="hs__message_not_sent">Az üzenet küldése</string>
+    <string name="hs__message_not_sent">Az üzenet nincs elküldve.</string>
     <string name="hs__network_error_msg">Hoppá! Valami rosszul sült el</string>
     <string name="hs__network_unavailable_msg">A hálózat nem elérhető.</string>
     <string name="hs__new_conversation_btn">ÚJ BESZÉLGETÉS INDÍTÁSA</string>

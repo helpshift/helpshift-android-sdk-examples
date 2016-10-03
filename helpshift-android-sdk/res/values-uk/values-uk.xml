@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Будь ласка, виберіть повідомлення зліва</string>
     <string name="hs__cam_undo">Відмінити</string>
     <string name="hs__change_btn">Змінити</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Напишіть ваше повідомлення</string>
+    <string name="hs__chat_out_of_business_hours">Зараз нас немає на місці, але ми зв\'яжемося з вами в робочий час</string>
     <string name="hs__confirmation_footer_msg">Дякуємо за те, що написали нам!</string>
     <string name="hs__confirmation_msg">Чи ми відповіли на всі ваші питання?</string>
     <string name="hs__contact_us_btn">ЗВ\'ЯЖІТЬСЯ З НАМИ</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Зображення не доступне</string>
     <string name="hs__invalid_description_error">Неприпустимий опис</string>
     <string name="hs__invalid_email_error">Будь ласка, напишіть справжню адресу електронної пошти</string>
-    <string name="hs__issue_archival_message">Ця розмова закінчена. Будь ласка, почніть новий сеанс</string>
+    <string name="hs__issue_archival_message">На жаль, цю розмову було закрито через неактивність учасників. Почніть, будь ласка, нову розмову з нашими представниками.</string>
     <string name="hs__mark_helpful_toast">Питання помічено як корисне</string>
     <string name="hs__mark_no">НІ</string>
     <string name="hs__mark_unhelpful_toast">Питання помічено як не корисне</string>
     <string name="hs__mark_yes">ТАК</string>
     <string name="hs__mark_yes_no_question">Чи була інформація корисною?</string>
-    <string name="hs__message_not_sent">Повідомлення не відправлено</string>
+    <string name="hs__message_not_sent">Повідомлення не відправлено.</string>
     <string name="hs__network_error_msg">Ой! Щось пішло не так</string>
     <string name="hs__network_unavailable_msg">Мережа недоступна.</string>
     <string name="hs__new_conversation_btn">РОЗПОЧАТИ НОВУ РОЗМОВУ</string>

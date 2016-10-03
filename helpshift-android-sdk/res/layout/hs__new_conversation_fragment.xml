@@ -22,7 +22,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin_medium"
         android:paddingTop="@dimen/activity_horizontal_margin_large">
 
-      <EditText
+      <com.helpshift.views.HSEditText
           android:id="@+id/hs__conversationDetail"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
           android:textColorHint="?android:textColorHint"
           android:textSize="@dimen/hs__textSizeLarge"/>
 
-      <EditText
+      <com.helpshift.views.HSEditText
           android:id="@+id/hs__username"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
           android:textColorHint="?android:textColorHint"
           android:textSize="@dimen/hs__textSizeLarge"/>
 
-      <EditText
+      <com.helpshift.views.HSEditText
           android:id="@+id/hs__email"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
               android:layout_weight="1"
               android:orientation="vertical">
 
-            <TextView
+            <com.helpshift.views.HSTextView
                 android:id="@+id/attachment_file_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                 android:textColor="?android:textColorPrimary"
                 android:textSize="@dimen/hs__textSizeMedium"/>
 
-            <TextView
+            <com.helpshift.views.HSTextView
                 android:id="@+id/attachment_file_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

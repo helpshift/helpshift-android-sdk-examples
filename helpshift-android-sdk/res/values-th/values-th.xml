@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">กรุณาเลือกข้อความจากด้านซ้าย</string>
     <string name="hs__cam_undo">ยกเลิกการท</string>
     <string name="hs__change_btn">เปลี่ยน</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">พิมพ์ข้อความของคุณ</string>
+    <string name="hs__chat_out_of_business_hours">ตอนนี้ไม่ใช่เวลาทำการ แต่เราจะติดต่อกลับในช่วงเวลาทำการโดยเร็วที่สุด</string>
     <string name="hs__confirmation_footer_msg">ขอบคุณที่ส่งข้อความหาเรา!</string>
     <string name="hs__confirmation_msg">เราได้ตอบคำถามทั้งหมดของคุณหรือไม่</string>
     <string name="hs__contact_us_btn">ติดต่อเรา</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">ภาพไม่พร้อมใช้งาน</string>
     <string name="hs__invalid_description_error">คำบรรยายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">กรุณาใส่อีเมลที่ถูกต้อง</string>
-    <string name="hs__issue_archival_message">การสนทนานี้ถูกปิด กรุณาเริ่มต้นการสนทนาใหม่</string>
+    <string name="hs__issue_archival_message">ขออภัย! การสนทนานี้จะปิดลงเนื่องจากไม่มีการใช้งาน โปรดเริ่มต้นการสนทนาใหม่กับตัวแทนของเรา</string>
     <string name="hs__mark_helpful_toast">คำถามนี้ถูกระบุว่ามีประโยชน์</string>
     <string name="hs__mark_no">ไม่ใช่</string>
     <string name="hs__mark_unhelpful_toast">คำถามนี้ถูกระบุว่าไม่มีประโยชน์</string>
     <string name="hs__mark_yes">ใช่</string>
     <string name="hs__mark_yes_no_question">ข้อมูลดังกล่าวมีประโยชน์หรือไม่</string>
-    <string name="hs__message_not_sent">ไม่ได้ส่งข้อความ</string>
+    <string name="hs__message_not_sent">ยังไม่ได้ส่งข้อความ</string>
     <string name="hs__network_error_msg">มีปัญหาเกิดขึ้น</string>
     <string name="hs__network_unavailable_msg">เครือข่ายไม่พร้อมใช้งาน</string>
     <string name="hs__new_conversation_btn">เริ่มการสนทนาใหม่</string>

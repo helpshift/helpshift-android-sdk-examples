@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Vennligst velg en melding fra venstre</string>
     <string name="hs__cam_undo">Angre</string>
     <string name="hs__change_btn">Endre</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Skriv din melding</string>
+    <string name="hs__chat_out_of_business_hours">Vi er ikke inne for øyeblikket, men vi tar kontakt i åpningstiden vår.</string>
     <string name="hs__confirmation_footer_msg">Takk for at du kontaktet oss!</string>
     <string name="hs__confirmation_msg">Svarte vi på alle spørsmålene dine?</string>
     <string name="hs__contact_us_btn">KONTAKT OSS</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Bilde ikke tilgjengelig</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Vennligst oppgi en gyldig e-post</string>
-    <string name="hs__issue_archival_message">Denne samtalen er stengt. Vennligst starte en ny samtale.</string>
+    <string name="hs__issue_archival_message">Beklager, denne samtalen ble lukket på grunn av manglende aktivitet. Vennligst start en ny samtale med våre agenter.</string>
     <string name="hs__mark_helpful_toast">Spørsmålet har blitt merket Hjelpsomt</string>
     <string name="hs__mark_no">NEI</string>
     <string name="hs__mark_unhelpful_toast">Spørmålet har blitt merket Ikke hjelpsomt</string>
     <string name="hs__mark_yes">JA</string>
     <string name="hs__mark_yes_no_question">Var dette hjelpsomt?</string>
-    <string name="hs__message_not_sent">Meldingen ble ikke sendt</string>
+    <string name="hs__message_not_sent">Meldingen ble ikke sendt.</string>
     <string name="hs__network_error_msg">Oisann! Det oppstod et problem</string>
     <string name="hs__network_unavailable_msg">Nettverk ikke tilgjengelig.</string>
     <string name="hs__new_conversation_btn">START EN NY SAMTALE</string>

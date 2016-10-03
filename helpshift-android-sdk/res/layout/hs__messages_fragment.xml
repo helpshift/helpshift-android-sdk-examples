@@ -38,7 +38,7 @@
         style="@style/Helpshift.Style.QuestionLoadProgress"
         android:visibility="gone"/>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@android:id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,14 +52,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-      <Button
+      <com.helpshift.views.HSButton
           android:id="@android:id/button2"
           style="@style/Helpshift.Style.BorderlessButton"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="@string/hs__mark_no"/>
 
-      <Button
+      <com.helpshift.views.HSButton
           android:id="@android:id/button1"
           style="@style/Helpshift.Style.BorderlessButton"
           android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
       android:background="?attr/hs__composeBackgroundColor"
       android:orientation="horizontal">
 
-    <EditText
+    <com.helpshift.views.HSEditText
         android:id="@+id/hs__messageText"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -92,7 +92,6 @@
         android:inputType="textMultiLine"
         android:maxLines="@integer/hs__chat_max_lines"
         android:paddingLeft="@dimen/activity_horizontal_margin_medium"
-        android:paddingStart="@dimen/activity_horizontal_margin_medium"
         tools:ignore="RtlSymmetry"/>
 
     <ImageButton

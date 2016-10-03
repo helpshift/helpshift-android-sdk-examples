@@ -11,7 +11,7 @@
       android:background="?android:windowBackground"
       android:clipToPadding="false"
       android:scrollbars="vertical"/>
-  <TextView
+  <com.helpshift.views.HSTextView
       android:id="@+id/view_no_campaigns"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="?android:windowBackground">
 
-  <TextView
+  <com.helpshift.views.HSTextView
       android:id="@+id/csat_message"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
       android:layout_below="@+id/ratingBar"
       android:orientation="horizontal">
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@+id/csat_like_msg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         android:layout_width="4dp"
         android:layout_height="1dp"/>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@+id/csat_dislike_msg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
         android:layout_weight="1"
         android:background="?attr/hs__separatorColor"/>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/activity_horizontal_margin_small"

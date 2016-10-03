@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">ഇടത് ഭാഗത്തുനിന്ന് ഒരു സന്ദേശം തിരഞ്ഞെടുക്കുക</string>
     <string name="hs__cam_undo">പഴയപടിയാക്കുക</string>
     <string name="hs__change_btn">മാറ്റുക</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">നിങ്ങളുടെ സന്ദേശം ടൈപ്പുചെയ്യുക</string>
+    <string name="hs__chat_out_of_business_hours">ഞങ്ങൾ സമീപത്തില്ല, പക്ഷേ പ്രവർത്തി സമയത്ത് ‌ഞങ്ങൾ നിങ്ങളെ വീണ്ടും ബന്ധപ്പെടും</string>
     <string name="hs__confirmation_footer_msg">ഞങ്ങൾക്ക് സന്ദേശമയച്ചതിന് നന്ദി!</string>
     <string name="hs__confirmation_msg">നിങ്ങളുടെ എല്ലാ ചോദ്യങ്ങൾക്കും ഞങ്ങൾ മറുപടി നൽകിയില്ലേ?</string>
     <string name="hs__contact_us_btn">ഞങ്ങളെ ബന്ധപ്പെടുക</string>
@@ -87,13 +89,13 @@
     <string name="hs__image_not_available">ചിത്രം ലഭ്യമല്ല</string>
     <string name="hs__invalid_description_error">സാധുതയില്ലാത്ത വിവരണം</string>
     <string name="hs__invalid_email_error">സാധുതയുള്ളൊരു ഇമെയിൽ നൽകുക</string>
-    <string name="hs__issue_archival_message">ഈ സംഭാഷണം അടച്ചു. ഒരു പുതിയ സംഭാഷണം ആരംഭിക്കുക.</string>
+    <string name="hs__issue_archival_message">ക്ഷമിക്കണം! സജീവമല്ലാത്തത് മൂലം ഈ ചർച്ച അവസാനിപ്പിച്ചു. ഞങ്ങളുടെ ഏജന്റുമാരുമായി ഒരു പുതിയ ചർച്ച ആരംഭിക്കുക.</string>
     <string name="hs__mark_helpful_toast">സഹായകരമാണെന്ന് ചോദ്യം അടയാളപ്പെടുത്തി</string>
     <string name="hs__mark_no">ഇല്ല</string>
     <string name="hs__mark_unhelpful_toast">സഹായകരമല്ലെന്ന് ചോദ്യം അടയാളപ്പെടുത്തി</string>
     <string name="hs__mark_yes">ഉവ്വ്</string>
     <string name="hs__mark_yes_no_question">ഇത് സഹായകരമായിരുന്നോ?</string>
-    <string name="hs__message_not_sent">സന്ദേശം അയച്ചില്ല</string>
+    <string name="hs__message_not_sent">സന്ദേശം അയച്ചിട്ടില്ല.</string>
     <string name="hs__network_error_msg">ക്ഷമിക്കണം! എന്തോ കുഴപ്പം സംഭവിച്ചു</string>
     <string name="hs__network_unavailable_msg">നെറ്റ്‌വർക്ക് ലഭ്യമല്ല.</string>
     <string name="hs__new_conversation_btn">പുതിയൊരു സംഭാഷണം ആരംഭിക്കുക</string>

@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Selectați un mesaj din stânga</string>
     <string name="hs__cam_undo">Anulare</string>
     <string name="hs__change_btn">Modificare</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Tastaţi mesajul</string>
+    <string name="hs__chat_out_of_business_hours">Nu suntem la birou, dar îți vom răspunde în timpul orelor de program</string>
     <string name="hs__confirmation_footer_msg">Vă mulţumim pentru mesaj!</string>
     <string name="hs__confirmation_msg">V-am răspuns la toate întrebările?</string>
     <string name="hs__contact_us_btn">CONTACTAŢI-NE</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Imaginea nu este disponibilă</string>
     <string name="hs__invalid_description_error">Descriere incorectă</string>
     <string name="hs__invalid_email_error">Introduceţi un e-mail corect</string>
-    <string name="hs__issue_archival_message">Această conversație este închisă. Vă rugăm să începeți o conversație nouă.</string>
+    <string name="hs__issue_archival_message">Ne cerem scuze! Această conversație a fost încheiată din cauza inactivității. Începeți o nouă conversație cu agenții noștri.</string>
     <string name="hs__mark_helpful_toast">Întrebarea a fost marcată ca fiind utilă</string>
     <string name="hs__mark_no">NU</string>
     <string name="hs__mark_unhelpful_toast">Întrebarea a fost marcată ca nefiind utilă</string>
     <string name="hs__mark_yes">DA</string>
     <string name="hs__mark_yes_no_question">V-a fost de ajutor?</string>
-    <string name="hs__message_not_sent">Mesajul nu a fost trimis</string>
+    <string name="hs__message_not_sent">Mesaj netrimis.</string>
     <string name="hs__network_error_msg">Ups! Ceva nu a funcţionat corect</string>
     <string name="hs__network_unavailable_msg">Reţea indisponibilă.</string>
     <string name="hs__new_conversation_btn">ÎNCEPE O CONVERSAŢIE NOUĂ</string>

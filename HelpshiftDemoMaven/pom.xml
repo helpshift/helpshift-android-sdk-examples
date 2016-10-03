@@ -16,7 +16,7 @@
       <dependency>
         <groupId>com.helpshift</groupId>
         <artifactId>android-lib</artifactId>
-        <version>4.6.0</version>
+        <version>4.7.0</version>
         <type>apklib</type>
       </dependency>
       <dependency>
@@ -27,17 +27,17 @@
       <dependency>
         <groupId>android.support</groupId>
         <artifactId>design</artifactId>
-        <version>23.0.1</version>
+        <version>24.2.0</version>
       </dependency>
       <dependency>
         <groupId>android.support</groupId>
         <artifactId>recyclerview-v7</artifactId>
-        <version>23.0.1</version>
+        <version>24.0.2</version>
       </dependency>
       <dependency>
         <groupId>android.support</groupId>
         <artifactId>cardview-v7</artifactId>
-        <version>23.0.1</version>
+        <version>24.2.0</version>
       </dependency>
     </dependencies>
         <build>

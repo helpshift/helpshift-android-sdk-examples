@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">बाईं ओर से एक संदेश का चयन करें</string>
     <string name="hs__cam_undo">पूर्ववत् करें</string>
     <string name="hs__change_btn">बदलें</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">अपना संदेश टाइप करें</string>
+    <string name="hs__chat_out_of_business_hours">हम अभी उपस्थित नहीं हैं, लेकिन कार्य-समय के दौरान हम आपसे संपर्क करेंगे</string>
     <string name="hs__confirmation_footer_msg">हमें संदेश भेजने के लिए धन्यवाद!</string>
     <string name="hs__confirmation_msg">क्‍या हमने अापके सभी प्रश्‍नों का उत्‍तर दिया?</string>
     <string name="hs__contact_us_btn">हमसे संपर्क करें</string>
@@ -87,13 +89,13 @@
     <string name="hs__image_not_available">इमेज उपलब्ध नहीं है</string>
     <string name="hs__invalid_description_error">अमान्य विवरण</string>
     <string name="hs__invalid_email_error">कृपया एक मान्य ईमेल दर्ज करें</string>
-    <string name="hs__issue_archival_message">इस बातचीत को बंद कर दिया है। कृपया एक नई बातचीत शुरू।</string>
+    <string name="hs__issue_archival_message">माफ करें! निष्क्रियता के कारण यह वार्तालाप बंद कर दिया गया था. कृपया हमारे एजेंटों के साथ नया वार्तालाप आरंभ करें.</string>
     <string name="hs__mark_helpful_toast">प्रश्न सहायक के रूप में चिह्नित किया गया है</string>
     <string name="hs__mark_no">नहीं</string>
     <string name="hs__mark_unhelpful_toast">प्रश्न सहायक नहीं के रूप में चिह्नित किया गया है</string>
     <string name="hs__mark_yes">हाँ</string>
     <string name="hs__mark_yes_no_question">क्‍या यह सहायक था?</string>
-    <string name="hs__message_not_sent">संदेश नहीं भेजा</string>
+    <string name="hs__message_not_sent">संदेश नहीं भेजा गया.</string>
     <string name="hs__network_error_msg">ओह! कुछ गलत हो गया</string>
     <string name="hs__network_unavailable_msg">नेटवर्क उपलब्ध नहीं है।</string>
     <string name="hs__new_conversation_btn">नया संवाद शुरू करें</string>

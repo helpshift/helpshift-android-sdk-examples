@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Выберите сообщение слева</string>
     <string name="hs__cam_undo">Отменить</string>
     <string name="hs__change_btn">Изменить</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Наберите Ваше сообщение</string>
+    <string name="hs__chat_out_of_business_hours">Сейчас нас нет на месте, но мы свяжемся с вами в рабочее время.</string>
     <string name="hs__confirmation_footer_msg">Спасибо за обращение к нам!</string>
     <string name="hs__confirmation_msg">Мы ответили на все ваши вопросы?</string>
     <string name="hs__contact_us_btn">НАПИШИТЕ НАМ</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Изображение недоступно</string>
     <string name="hs__invalid_description_error">Неверное описание</string>
     <string name="hs__invalid_email_error">Введите пожалуйста действительный адрес электронной почты</string>
-    <string name="hs__issue_archival_message">Этот разговор завершен. Пожалуйста, начните новый сеанс.</string>
+    <string name="hs__issue_archival_message">Этот разговор был завершен по причине отсутствия активности участников. Пожалуйста, начните новый разговор с нашими представителями.</string>
     <string name="hs__mark_helpful_toast">Вопрос был обозначен как Полезный</string>
     <string name="hs__mark_no">НЕТ</string>
     <string name="hs__mark_unhelpful_toast">Вопрос был обозначен как Бесполезный</string>
     <string name="hs__mark_yes">ДА</string>
     <string name="hs__mark_yes_no_question">Это было полезно?</string>
-    <string name="hs__message_not_sent">Сообщение не отправлено</string>
+    <string name="hs__message_not_sent">Сообщение не отправлено.</string>
     <string name="hs__network_error_msg">Ой! что-то пошло не так</string>
     <string name="hs__network_unavailable_msg">Сеть не доступна.</string>
     <string name="hs__new_conversation_btn">НАЧАТЬ НОВЫЙ ДИАЛОГ</string>

@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Ole hyvä ja valitse viesti vasemmalta</string>
     <string name="hs__cam_undo">Peru</string>
     <string name="hs__change_btn">Muuta</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Kirjoita viestisi</string>
+    <string name="hs__chat_out_of_business_hours">Emme ole nyt paikalla, mutta palaamme asiaan työajalla</string>
     <string name="hs__confirmation_footer_msg">Kiitos viestistäsi!</string>
     <string name="hs__confirmation_msg">Vastasimmeko kaikkiin kysymyksiisi?</string>
     <string name="hs__contact_us_btn">OTA YHTEYTTÄ</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Kuvaa ei ole saatavilla</string>
     <string name="hs__invalid_description_error">Virheellinen kuvaus</string>
     <string name="hs__invalid_email_error">Syötä kelpaava sähköposti</string>
-    <string name="hs__issue_archival_message">Tämä keskustelu on suljettu. Ole hyvä ja aloittaa uuden keskustelun.</string>
+    <string name="hs__issue_archival_message">Pahoittelut! Tämä keskustelu on suljettu, koska se ei ole ollut aktiivinen. Aloita uusi keskustelu agenttiemme kanssa.</string>
     <string name="hs__mark_helpful_toast">Kysymys on merkitty hyödylliseksi</string>
     <string name="hs__mark_no">EI</string>
     <string name="hs__mark_unhelpful_toast">Kysymys on merkitty hyödyttömäksi</string>
     <string name="hs__mark_yes">KYLLÄ</string>
     <string name="hs__mark_yes_no_question">Oliko tästä apua?</string>
-    <string name="hs__message_not_sent">Viestiä ei lähetetty</string>
+    <string name="hs__message_not_sent">Viestiä ei lähetetty.</string>
     <string name="hs__network_error_msg">Hups! Jotain meni pieleen</string>
     <string name="hs__network_unavailable_msg">Verkko ei ole käytettävissä.</string>
     <string name="hs__new_conversation_btn">ALOITA UUSI KESKUSTELU</string>

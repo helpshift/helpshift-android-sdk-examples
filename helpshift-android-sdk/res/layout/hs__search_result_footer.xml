@@ -12,7 +12,7 @@
       android:layout_marginTop="@dimen/activity_vertical_margin_medium"
       android:background="?attr/hs__separatorColor"/>
 
-  <Button
+  <com.helpshift.views.HSButton
       android:id="@+id/send_anyway_button"
       style="@style/Helpshift.Style.BorderlessButton"
       android:layout_width="wrap_content"

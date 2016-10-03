@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">Gwiazdki przyznane naszym usługom: 1.</item>
-    <item quantity="other">Gwiazdki przyznane naszym usługom: %d.</item>
-  </plurals>
+        <item quantity="one">Gwiazdki przyznane naszym usługom: 1.</item>
+        <item quantity="other">Gwiazdki przyznane naszym usługom: %d.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">Nowa wiadomość od działu obsługi</item>
-    <item quantity="other">Nowe wiadomości od działu obsługi: %d</item>
-  </plurals>
+        <item quantity="one">Nowa wiadomość od działu obsługi</item>
+        <item quantity="other">Nowe wiadomości od działu obsługi: %d</item>
+    </plurals>
     <string name="hs__app_review_button">RECENZUJ</string>
     <string name="hs__attach_screenshot_btn">Dołącz zrzut ekranu</string>
     <string name="hs__attach_screenshot_button">DOŁĄCZ</string>
@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Wybierz wiadomość z lewej</string>
     <string name="hs__cam_undo">Cofnij</string>
     <string name="hs__change_btn">Zmień</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Wpisz wiadomość</string>
+    <string name="hs__chat_out_of_business_hours">Obecnie nie ma nas w biurze, ale odpowiemy w godzinach pracy.</string>
     <string name="hs__confirmation_footer_msg">Dziękujemy za wiadomość!</string>
     <string name="hs__confirmation_msg">Czy odpowiedzieliśmy na wszystkie Twoje pytania?</string>
     <string name="hs__contact_us_btn">KONTAKT</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Obraz niedostępny</string>
     <string name="hs__invalid_description_error">Nieprawidłowy opis</string>
     <string name="hs__invalid_email_error">Wprowadź prawidłowy e-mail</string>
-    <string name="hs__issue_archival_message">Ta rozmowa jest zamknięty. Proszę rozpocząć nową rozmowę.</string>
+    <string name="hs__issue_archival_message">Przepraszamy! Niniejsza rozmowa została zakończona z powodu braku aktywności. Prosimy o rozpoczęcie nowej rozmowy z jednym z naszych agentów.</string>
     <string name="hs__mark_helpful_toast">Pytanie oznaczono jako przydatne</string>
     <string name="hs__mark_no">NIE</string>
     <string name="hs__mark_unhelpful_toast">Pytanie oznaczono jako nieprzydatne</string>
     <string name="hs__mark_yes">TAK</string>
     <string name="hs__mark_yes_no_question">Czy to było przydatne?</string>
-    <string name="hs__message_not_sent">Wiadomość nie została wysłana</string>
+    <string name="hs__message_not_sent">Nie wysłano wiadomości.</string>
     <string name="hs__network_error_msg">Ups! Coś poszło nie tak</string>
     <string name="hs__network_unavailable_msg">Sieć jest niedostępna.</string>
     <string name="hs__new_conversation_btn">ROZPOCZNIJ NOWĄ ROZMOWĘ</string>

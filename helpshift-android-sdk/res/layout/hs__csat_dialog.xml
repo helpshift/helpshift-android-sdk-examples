@@ -16,7 +16,7 @@
       android:focusable="false"
       android:stepSize="1.0"/>
 
-  <TextView
+  <com.helpshift.views.HSTextView
       android:id="@+id/like_status"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
       android:layout_centerHorizontal="true"
       android:layout_marginTop="@dimen/activity_vertical_margin_small"/>
 
-  <EditText
+  <com.helpshift.views.HSEditText
       android:id="@+id/additional_feedback"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
       android:maxLines="4"
       android:minLines="2"/>
 
-  <Button
+  <com.helpshift.views.HSButton
       android:id="@+id/submit"
       style="@style/Helpshift.Style.BorderlessButton"
       android:layout_width="wrap_content"

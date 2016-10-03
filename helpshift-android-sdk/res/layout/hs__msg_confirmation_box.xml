@@ -24,7 +24,7 @@
         android:gravity="center"
         >
 
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@android:id/text1"
           android:textColor="?attr/hs__messagesTextColor"
           android:textAppearance="?android:attr/textAppearanceMedium"

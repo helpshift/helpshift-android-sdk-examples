@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_horizontal_margin_small"
     android:visibility="visible">
 
-  <TextView
+  <com.helpshift.views.HSTextView
       android:id="@+id/footer_message"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout="@layout/hs__issue_archival_message_view_holder"/>
 
-    <Button
+    <com.helpshift.views.HSButton
         android:id="@+id/hs__new_conversation_btn"
         style="@style/Helpshift.Style.BorderlessButton"
         android:layout_width="wrap_content"

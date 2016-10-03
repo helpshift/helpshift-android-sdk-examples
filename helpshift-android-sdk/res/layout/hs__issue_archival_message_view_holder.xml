@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="?android:windowBackground">
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.helpshift.views.HSTextView xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_centerHorizontal="true"
@@ -17,5 +17,5 @@
               android:text="@string/hs__issue_archival_message"
               android:textColor="?android:textColorSecondary"
               android:textSize="@dimen/hs__textSizeMedium">
-    </TextView>
+    </com.helpshift.views.HSTextView>
 </RelativeLayout>

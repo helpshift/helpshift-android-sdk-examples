@@ -79,7 +79,7 @@
               android:layout_weight="1"
               android:orientation="vertical">
 
-            <TextView
+            <com.helpshift.views.HSTextView
                 android:id="@+id/attachment_file_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                 android:textColor="?android:textColorPrimary"
                 android:textSize="@dimen/hs__textSizeMedium"/>
 
-            <TextView
+            <com.helpshift.views.HSTextView
                 android:id="@+id/attachment_file_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                 android:textColor="?android:textColorSecondary"
                 android:textSize="@dimen/hs__textSizeSmall"/>
 
-            <TextView
+            <com.helpshift.views.HSTextView
                 android:id="@+id/attachment_file_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                 android:textSize="@dimen/hs__textSizeSmall"/>
           </RelativeLayout>
         </LinearLayout>
-        <TextView
+        <com.helpshift.views.HSTextView
             android:id="@+id/errorText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
           style="@style/Helpshift.Style.QuestionLoadProgress"/>
     </LinearLayout>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@android:id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

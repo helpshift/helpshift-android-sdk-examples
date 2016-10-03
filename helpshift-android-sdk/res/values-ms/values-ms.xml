@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Sila pilih mesej dari kiri</string>
     <string name="hs__cam_undo">Buat asal</string>
     <string name="hs__change_btn">Tukar</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Taipkan mesej anda</string>
+    <string name="hs__chat_out_of_business_hours">Kami tiada di sini, tetapi kami akan menghubungi anda semula pada waktu perniagaan</string>
     <string name="hs__confirmation_footer_msg">erima kasih atas mesej anda!</string>
     <string name="hs__confirmation_msg">Adakah kami menjawab semua soalan anda?</string>
     <string name="hs__contact_us_btn">HUBUNGI KAMI</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Gambar tidak tersedia</string>
     <string name="hs__invalid_description_error">Penerangan tidak sah</string>
     <string name="hs__invalid_email_error">Sila masukkan alamat e-mel yang sah</string>
-    <string name="hs__issue_archival_message">Perbualan ini ditutup. Sila mulakan perbualan baru.</string>
+    <string name="hs__issue_archival_message">Maaf! Perbincangan ini telah ditutup kerana tidak aktif. Sila mulakan perbincangan baharu dengan ejen kami.</string>
     <string name="hs__mark_helpful_toast">Soalan telah ditandakan sebagai Membantu</string>
     <string name="hs__mark_no">TIDAK</string>
     <string name="hs__mark_unhelpful_toast">Soalan telah ditandakan sebagai Tidak Membantu</string>
     <string name="hs__mark_yes">YA</string>
     <string name="hs__mark_yes_no_question">Adakah ini membantu?</string>
-    <string name="hs__message_not_sent">Mesej tidak dihantar</string>
+    <string name="hs__message_not_sent">Mesej belum dihantar.</string>
     <string name="hs__network_error_msg">Maaf! Berlaku kesilapan</string>
     <string name="hs__network_unavailable_msg">Rangkaian tidak tersedia.</string>
     <string name="hs__new_conversation_btn">MULAKAN PERBUALAN BAHARU</string>

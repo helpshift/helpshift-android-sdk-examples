@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Por favor, elija un mensaje de la izquierda</string>
     <string name="hs__cam_undo">Deshacer</string>
     <string name="hs__change_btn">Cambiar</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Escriba el mensaje</string>
+    <string name="hs__chat_out_of_business_hours">Ahora mismo no podemos atenderle, pero nos pondremos en contacto con usted dentro de nuestro horario laboral.</string>
     <string name="hs__confirmation_footer_msg">¡Gracias por escribirnos!</string>
     <string name="hs__confirmation_msg">¿Hemos respondido a todas tus preguntas?</string>
     <string name="hs__contact_us_btn">CONTÁCTANOS</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Imagen no disponible</string>
     <string name="hs__invalid_description_error">Descripción no válido</string>
     <string name="hs__invalid_email_error">Por favor, introduzca un email válido</string>
-    <string name="hs__issue_archival_message">Esta conversación está cerrada. Por favor, iniciar una nueva conversación.</string>
+    <string name="hs__issue_archival_message">Lo sentimos. La conversación se ha cerrado porque estaba inactiva. Inicie otra con sus agentes.</string>
     <string name="hs__mark_helpful_toast">Pregunta ha sido marcada como útil</string>
     <string name="hs__mark_no">NO</string>
     <string name="hs__mark_unhelpful_toast">Pregunta ha sido marcada como No ha sido útil</string>
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">¿Sirvió de ayuda?</string>
-    <string name="hs__message_not_sent">Mensaje no enviado</string>
+    <string name="hs__message_not_sent">Mensaje no enviado.</string>
     <string name="hs__network_error_msg">¡Ups! Algo ha fallado</string>
     <string name="hs__network_unavailable_msg">La red no está disponible</string>
     <string name="hs__new_conversation_btn">INICIAR UNA NUEVA CONVERSACIÓN</string>

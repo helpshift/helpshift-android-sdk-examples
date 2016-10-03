@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Välj ett meddelande från vänster </string>
     <string name="hs__cam_undo">Ångra</string>
     <string name="hs__change_btn">Ändra</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Skriv ditt meddelande</string>
+    <string name="hs__chat_out_of_business_hours">Vi är inte här, men vi återkommer till dig under kontorstid</string>
     <string name="hs__confirmation_footer_msg">Tack för att du kontaktade oss!</string>
     <string name="hs__confirmation_msg">Fick du svar på alla dina frågor?</string>
     <string name="hs__contact_us_btn">KONTAKTA OSS</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Bild ej tillgänglig</string>
     <string name="hs__invalid_description_error">Ogiltig beskrivning</string>
     <string name="hs__invalid_email_error">Ange en giltig e-postadress</string>
-    <string name="hs__issue_archival_message">Det här samtalet är stängd. Vänligen starta en ny konversation.</string>
+    <string name="hs__issue_archival_message">Tyvärr har den här konversationen stängts på grund av inaktivitet. Starta gärna en ny konversation med oss.</string>
     <string name="hs__mark_helpful_toast">Frågan har markerats som Hjälpsam</string>
     <string name="hs__mark_no">NEJ</string>
     <string name="hs__mark_unhelpful_toast">Frågan har markerats som Ej hjälpsam</string>
     <string name="hs__mark_yes">JA</string>
     <string name="hs__mark_yes_no_question">Var detta till hjälp?</string>
-    <string name="hs__message_not_sent">Meddelandet har inte skickats</string>
+    <string name="hs__message_not_sent">Meddelandet har inte skickats.</string>
     <string name="hs__network_error_msg">Hoppsan! Något har blivit fel</string>
     <string name="hs__network_unavailable_msg">Nätverket ej tillgängligt.</string>
     <string name="hs__new_conversation_btn">BÖRJA EN NY DIALOG</string>

@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import com.helpshift.support.ApiConfig;
 import com.helpshift.support.Support;
 
 public class DemoActivity extends ActionBarActivity {
@@ -19,7 +20,9 @@ public class DemoActivity extends ActionBarActivity {
     helpButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Support.showFAQs(DemoActivity.this);
+        ApiConfig.Builder configBuilder = new ApiConfig.Builder();
+        configBuilder.setRequireEmail(true);
+        Support.showFAQs(DemoActivity.this, configBuilder.build());
       }
     });
 

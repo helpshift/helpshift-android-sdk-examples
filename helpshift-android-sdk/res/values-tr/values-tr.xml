@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Lütfen soldan bir mesaj seç</string>
     <string name="hs__cam_undo">Geri al</string>
     <string name="hs__change_btn">Değiştir</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Mesajınızı yazın</string>
+    <string name="hs__chat_out_of_business_hours">Şu an buralarda değiliz ama iş saatleri içerisinde size geri döneceğiz</string>
     <string name="hs__confirmation_footer_msg">Bize mesaj gönderdiğiniz için teşekkürler!</string>
     <string name="hs__confirmation_msg">Tüm sorularınızı yanıtladık mı?</string>
     <string name="hs__contact_us_btn">BİZE ULAŞIN</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Resim bulunmuyor</string>
     <string name="hs__invalid_description_error">Geçersiz açıklama</string>
     <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi girin</string>
-    <string name="hs__issue_archival_message">Bu konuşma kapalıdır. Yeni bir konuşma başlatmak edin.</string>
+    <string name="hs__issue_archival_message">Üzgünüz! Konuşma herhangi bir etkinlik olmadığından dolayı kapatıldı. Lütfen temsilcimiz ile yeni bir konuşma başlat.</string>
     <string name="hs__mark_helpful_toast">Soru Faydalı olarak işaretlendi.</string>
     <string name="hs__mark_no">HAYIR</string>
     <string name="hs__mark_unhelpful_toast">Soru Faydalı değil olarak işaretlendi.</string>
     <string name="hs__mark_yes">EVET</string>
     <string name="hs__mark_yes_no_question">Bu bilgi faydalı oldu mu?</string>
-    <string name="hs__message_not_sent">İleti gönderilmedi</string>
+    <string name="hs__message_not_sent">Mesaj gönderilemedi.</string>
     <string name="hs__network_error_msg">Hop! Birşeyler yanlış gitti</string>
     <string name="hs__network_unavailable_msg">Ağa erişilemiyor.</string>
     <string name="hs__new_conversation_btn">YENİ BİR SOHBET BAŞLAT</string>

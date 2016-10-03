@@ -1,4 +1,4 @@
-Helpshift SDK 4.6.0 Release Notes (for Android)
+Helpshift SDK 4.7.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,48 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.7.0 Release Date: September 30, 2016
+      * Add compatibility for Android Nougat.
+      * Add ApiConfig and InstallConfig objects instead of Map for passing config.
+      * Add support for push notifications with FCM (Firebase cloud messaging).
+      * Add support for custom fonts in SDK.
+      * Add support for two new languages, Chinese Hong Kong (zh_HK) and Chinese Singapore (zh_SG).
+      * Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is “chat ready” which means end users will be able to use this feature when it goes live in first week of November,  only if enableChat flag is set with this SDK.
+      * Improve search algorithm where some results would not show up for important keywords.
+      * Improve translations for the message string shown to user when issue is archived.
+      * Fix a bug where carrier name was being collected in full privacy mode.
+      * Fix a bug where sometimes clicking on notification would show "new conversation form" instead of the ongoing conversation.
+      * Fix a crash in FAQ screen when an image is used as window background in Helpshift theme.
+      * Fix intermittent database crash due to KeyValueStorage db locking.
+      * Fix a crash in issue reporting with hideNameAndEmail and login api for the following cases :
+         1. Use login api with valid name and empty email. / Use login api with empty name and valid email.
+         2. Set hideNameAndEmail flag to true.
+         3. Click on send button to file an issue, SDK crashes.
+      * Fix a crash in SDK with support library 24 for the following case :
+         1. Integrate Helpshift SDK with support library 24.
+         2. Launch any Helpshift Support screen (Faqs screen, Conversation screen, etc.)
+         3. Rotate the device, SDK crashes.
+4.7.0-support Release Date: September 30, 2016
+      * Add compatibility for Android Nougat.
+      * Add ApiConfig and InstallConfig objects instead of Map for passing config.
+      * Add support for push notifications with FCM (Firebase cloud messaging).
+      * Add support for custom fonts in SDK.
+      * Add support for two new languages, Chinese Hong Kong (zh_HK) and Chinese Singapore (zh_SG).
+      * Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is “chat ready” which means end users will be able to use this feature when it goes live in first week of November,  only if enableChat flag is set with this SDK.
+      * Improve search algorithm where some results would not show up for important keywords.
+      * Improve translations for the message string shown to user when issue is archived.
+      * Fix a bug where carrier name was being collected in full privacy mode.
+      * Fix a bug where sometimes clicking on notification would show "new conversation form" instead of the ongoing conversation.
+      * Fix a crash in FAQ screen when an image is used as window background in Helpshift theme.
+      * Fix intermittent database crash due to KeyValueStorage db locking.
+      * Fix a crash in issue reporting with hideNameAndEmail and login api for the following cases :
+         1. Use login api with valid name and empty email. / Use login api with empty name and valid email.
+         2. Set hideNameAndEmail flag to true.
+         3. Click on send button to file an issue, SDK crashes.
+      * Fix a crash in SDK with support library 24 for the following case :
+         1. Integrate Helpshift SDK with support library 24.
+         2. Launch any Helpshift Support screen (Faqs screen, Conversation screen, etc.)
+         3. Rotate the device, SDK crashes.
 4.6.0 Release Date: August 18, 2016
       * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
       * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
@@ -25,7 +67,7 @@ New features:
       * Fix a bug where custom deeplinks in agent's replies were not working on chat screen.
       * Fix a theme issue where "Send" button was not themed correctly.
       * Fix a bug where FAQs UI was not getting updated immediately with new data.
-4.6.0-support Release Date: August 18, 2016
+4.6.0-support Release Date: August 19, 2016
       * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
       * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
       * Improve few string translations for French and Korean languages.

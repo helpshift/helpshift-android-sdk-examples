@@ -26,7 +26,7 @@
         android:background="?attr/hs__chatBubbleUserBackground"
         android:orientation="vertical">
 
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@android:id/text1"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
           android:textSize="@dimen/hs__textSizeMedium"/>
     </LinearLayout>
 
-    <TextView
+    <com.helpshift.views.HSTextView
         android:id="@android:id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Selecteer links een bericht</string>
     <string name="hs__cam_undo">Ongedaan maken</string>
     <string name="hs__change_btn">Wijzigen</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Typ je bericht</string>
+    <string name="hs__chat_out_of_business_hours">We zijn er nu niet, maar we sturen u een antwoord tijdens onze kantooruren.</string>
     <string name="hs__confirmation_footer_msg">Bedankt voor uw bericht!</string>
     <string name="hs__confirmation_msg">Hebben wij al uw vragen kunnen beantwoorden?</string>
     <string name="hs__contact_us_btn">NEEM CONTACT MET ONS OP</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Afbeelding niet beschikbaar</string>
     <string name="hs__invalid_description_error">Ongeldige omschrijving</string>
     <string name="hs__invalid_email_error">Geef alsjeblieft een geldige email in.</string>
-    <string name="hs__issue_archival_message">Dit gesprek is beëindigd. Gelieve start een nieuw gesprek.</string>
+    <string name="hs__issue_archival_message">Dit gesprek is vanwege inactiviteit afgesloten. Start een nieuw gesprek met een van onze agenten.</string>
     <string name="hs__mark_helpful_toast">De vraag is gemarkeerd als behulpzaam.</string>
     <string name="hs__mark_no">NEE</string>
     <string name="hs__mark_unhelpful_toast">De vraag is gemarkeerd als niet behulpzaam.</string>
     <string name="hs__mark_yes">JA</string>
     <string name="hs__mark_yes_no_question">Was dit nuttig?</string>
-    <string name="hs__message_not_sent">Bericht niet verzonden</string>
+    <string name="hs__message_not_sent">Bericht niet verstuurd.</string>
     <string name="hs__network_error_msg">Oeps! Er ging iets mis…</string>
     <string name="hs__network_unavailable_msg">Netwerk niet beschikbaar.</string>
     <string name="hs__new_conversation_btn">BEGIN EEN NIEUW GESPREK</string>

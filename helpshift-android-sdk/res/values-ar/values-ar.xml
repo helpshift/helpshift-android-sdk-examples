@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">برجاء اختيار رسالة من اليسار </string>
     <string name="hs__cam_undo">تراجع </string>
     <string name="hs__change_btn">تغيير</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">اِكتب رسالتك </string>
+    <string name="hs__chat_out_of_business_hours">لسنا موجودين الآن، لكن سوف نرد عليك في ساعات العمل.</string>
     <string name="hs__confirmation_footer_msg">شكراً لمُراسَلتِنا!</string>
     <string name="hs__confirmation_msg">هل أجبنا عن كل أسئلتك؟</string>
     <string name="hs__contact_us_btn">اِتصل بنا</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">الصورة غير متوفرة</string>
     <string name="hs__invalid_description_error">وصف غير صحيح </string>
     <string name="hs__invalid_email_error">من فضلك أدخِل بريداً إلكترونياً صحيحاً</string>
-    <string name="hs__issue_archival_message">هذه المحادثة غير فعالة. يرجى بدء محادثة جديدة.</string>
+    <string name="hs__issue_archival_message">عفوًا! تم إغلاق هذه المحادثة نظرًا لعدم وجود نشاط بها. يُرجى بدء محادثة جديدة مع مندوبينا.</string>
     <string name="hs__mark_helpful_toast">تم تعيين السؤال على أنه مُفيد</string>
     <string name="hs__mark_no">لا</string>
     <string name="hs__mark_unhelpful_toast">تم تعيين السؤال على أنه غير مُفيد</string>
     <string name="hs__mark_yes">نعم</string>
     <string name="hs__mark_yes_no_question">هل كان هذا مفيدا؟</string>
-    <string name="hs__message_not_sent">لم يتم إرسال الرسالة</string>
+    <string name="hs__message_not_sent">لم يتم إرسال الرسالة.</string>
     <string name="hs__network_error_msg">عذراً! لقد حدث خطأ ما </string>
     <string name="hs__network_unavailable_msg">الشبكة غير مُتاحَة.</string>
     <string name="hs__new_conversation_btn">بدء مُحادَثة جديدة</string>

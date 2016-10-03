@@ -34,7 +34,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2">
 
-                <TextView
+                <com.helpshift.views.HSTextView
                     android:id="@+id/select_campaign_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

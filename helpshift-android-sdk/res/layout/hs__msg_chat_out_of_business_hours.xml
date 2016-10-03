@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_horizontal_margin_medium">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_weight="4"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/admin_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__chatBubbleAdminBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:padding="@dimen/activity_horizontal_margin_medium"
+                android:text="@string/hs__chat_out_of_business_hours"
+                android:textColor="?attr/hs__chatBubbleAdminText"
+                android:textColorLink="?attr/hs__chatBubbleAdminLink"
+                android:textSize="@dimen/hs__textSizeMedium"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+            android:layout_marginTop="2dp"
+            android:textColor="?android:textColorHint"
+            android:textSize="@dimen/hs__textSizeSmall"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+</LinearLayout>

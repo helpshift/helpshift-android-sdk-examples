@@ -24,7 +24,7 @@
       android:layout_height="match_parent"
       android:visibility="gone"/>
 
-  <TextView
+  <com.helpshift.views.HSTextView
       android:id="@+id/hs__notification_badge"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

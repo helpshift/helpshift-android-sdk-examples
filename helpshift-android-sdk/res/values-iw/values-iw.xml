@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">אנא בחר/י הודעה משמאל</string>
     <string name="hs__cam_undo">בטל/י</string>
     <string name="hs__change_btn">שנו</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">הקלידו את הודעתכם</string>
+    <string name="hs__chat_out_of_business_hours">אנחנו לא נמצאים כרגע, אבל נחזור אליך במהלך שעות הפעילות</string>
     <string name="hs__confirmation_footer_msg">תודה ששלחתם לנו הודעה!</string>
     <string name="hs__confirmation_msg">האם ענינו לכם על כל השאלות?</string>
     <string name="hs__contact_us_btn">צרו קשר</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">תמונה לא זמינה</string>
     <string name="hs__invalid_description_error">תיאור לא תקין</string>
     <string name="hs__invalid_email_error">אנא הכניסו אימייל תקין</string>
-    <string name="hs__issue_archival_message">השיחה הזו סגורה. אנא להתחיל שיחה חדשה.</string>
+    <string name="hs__issue_archival_message">מצטערים! שיחה זו נסגרה עקב העדר פעילות. התחל שיחה חדשה עם סוכנים.</string>
     <string name="hs__mark_helpful_toast">השאלה סומנה כמועילה</string>
     <string name="hs__mark_no">לא</string>
     <string name="hs__mark_unhelpful_toast">השאלה סומנה כלא מועילה</string>
     <string name="hs__mark_yes">כן</string>
     <string name="hs__mark_yes_no_question">האם זה עזר?</string>
-    <string name="hs__message_not_sent">ההודעה לא נשלחה</string>
+    <string name="hs__message_not_sent">ההודעה לא נשלחה.</string>
     <string name="hs__network_error_msg">אופס! משהו התקלקל</string>
     <string name="hs__network_unavailable_msg">הרשת לא זמינה.</string>
     <string name="hs__new_conversation_btn">התחל שיחה חדשה</string>

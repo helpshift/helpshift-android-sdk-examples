@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Veuillez sélectionner un message à gauche</string>
     <string name="hs__cam_undo">Annuler</string>
     <string name="hs__change_btn">Changez</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Entrez votre message</string>
+    <string name="hs__chat_out_of_business_hours">Nous ne sommes pas dans le coin mais nous vous répondrons durant les heures de bureauNous ne sommes pas dans le coin mais nous vous répondrons durant les heures de bureau</string>
     <string name="hs__confirmation_footer_msg">Merci de votre message !</string>
     <string name="hs__confirmation_msg">Avons-nous répondu à toutes vos questions ?</string>
     <string name="hs__contact_us_btn">CONTACTEZ-NOUS</string>
@@ -91,7 +93,7 @@
     <string name="hs__image_not_available">Image non disponible</string>
     <string name="hs__invalid_description_error">Description non valide</string>
     <string name="hs__invalid_email_error">S\'il vous plaît entrer une adresse email valide</string>
-    <string name="hs__issue_archival_message">Cette conversation est fermée. Prière de commencer une nouvelle conversation.</string>
+    <string name="hs__issue_archival_message">Nous sommes désolés ! Cette conversation a été fermée pour inactivité. Veuillez commencer une nouvelle conversation avec nos agents.</string>
     <string name="hs__mark_helpful_toast">Question a été indiqué comme utile</string>
     <string name="hs__mark_no">NON</string>
     <string name="hs__mark_unhelpful_toast">Question a été marquée ne m\'a pas aidé</string>

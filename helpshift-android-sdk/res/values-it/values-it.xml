@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Selezionare un messaggio </string>
     <string name="hs__cam_undo">Annulla</string>
     <string name="hs__change_btn">Modifica</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Digita il tuo messaggio</string>
+    <string name="hs__chat_out_of_business_hours">In questo momento non possiamo rispondere, ma lo faremo durante l\'orario d\'ufficio.</string>
     <string name="hs__confirmation_footer_msg">Grazie per averci inviato un messaggio!</string>
     <string name="hs__confirmation_msg">Abbiamo risposto a tutte le tue domande?</string>
     <string name="hs__contact_us_btn">CONTATTACI</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Immagine non disponibile</string>
     <string name="hs__invalid_description_error">Descrizione non valido</string>
     <string name="hs__invalid_email_error">Si prega di inserire un indirizzo email valido</string>
-    <string name="hs__issue_archival_message">Questa conversazione è chiusa. Si prega d\'iniziare una nuova conversazione.</string>
+    <string name="hs__issue_archival_message">Siamo spiacenti. Questa conversazione è stata chiusa per inattività. Avvia una nuova conversazione con i nostri agenti.</string>
     <string name="hs__mark_helpful_toast">Domanda è stato contrassegnato come utile</string>
     <string name="hs__mark_no">NO</string>
     <string name="hs__mark_unhelpful_toast">Domanda è stata contrassegnata come Non Utile</string>
     <string name="hs__mark_yes">SÌ</string>
     <string name="hs__mark_yes_no_question">È stato utile?</string>
-    <string name="hs__message_not_sent">Messaggio non inviato</string>
+    <string name="hs__message_not_sent">Messaggio non inviato.</string>
     <string name="hs__network_error_msg">Ops! Si è verificato un errore</string>
     <string name="hs__network_unavailable_msg">Rete non disponibile.</string>
     <string name="hs__new_conversation_btn">AVVIA UNA NUOVA CONVERSAZIONE</string>

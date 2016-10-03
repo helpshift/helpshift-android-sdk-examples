@@ -28,7 +28,7 @@
       android:minHeight="48dp"
       android:orientation="horizontal">
 
-    <Button
+    <com.helpshift.views.HSButton
         android:id="@+id/change"
         style="@style/Helpshift.Style.BorderlessButton"
         android:layout_width="0dp"
@@ -42,7 +42,7 @@
         android:layout_gravity="center_vertical"
         android:background="?attr/hs__separatorColor"/>
 
-    <Button
+    <com.helpshift.views.HSButton
         android:id="@+id/secondary_button"
         style="@style/Helpshift.Style.BorderlessButton"
         android:layout_width="0dp"

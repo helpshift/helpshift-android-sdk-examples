@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">Vui lòng chọn một tin nhắn từ bên trái</string>
     <string name="hs__cam_undo">Hoàn tác</string>
     <string name="hs__change_btn">Thay đổi</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Nhập tin nhắn của bạn</string>
+    <string name="hs__chat_out_of_business_hours">Chúng tôi hiện không có mặt ở đây nhưng chúng tôi sẽ thông tin lại với bạn trong giờ làm việc</string>
     <string name="hs__confirmation_footer_msg">Xin cảm ơn đã nhắn tin cho chúng tôi!</string>
     <string name="hs__confirmation_msg">Chúng tôi đã trả lời hết toàn bộ thắc mắc của bạn chưa?</string>
     <string name="hs__contact_us_btn">LIÊN HỆ</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">Hình ảnh không khả dụng</string>
     <string name="hs__invalid_description_error">Mô tả không hợp lệ</string>
     <string name="hs__invalid_email_error">Vui lòng nhập email hợp lệ</string>
-    <string name="hs__issue_archival_message">Cuộc nói chuyện này được đóng lại. Hãy bắt đầu một cuộc trò chuyện mới.</string>
+    <string name="hs__issue_archival_message">Rất tiếc! Tin nhắn này đã bị đóng do không có hoạt động. Vui lòng bắt đầu một tin nhắn mới với các nhân viên của chúng tôi.</string>
     <string name="hs__mark_helpful_toast">Câu hỏi đã được đánh dấu là Hữu ích</string>
     <string name="hs__mark_no">KHÔNG</string>
     <string name="hs__mark_unhelpful_toast">Câu hỏi đã được đánh dấu là Không Hữu ích</string>
     <string name="hs__mark_yes">CÓ</string>
     <string name="hs__mark_yes_no_question">Câu trả lời này có giúp ích gì không?</string>
-    <string name="hs__message_not_sent">Thư không gửi</string>
+    <string name="hs__message_not_sent">Tin nhắn chưa được gửi</string>
     <string name="hs__network_error_msg">Rất tiếc! Đã có điều gì đó bất ổn</string>
     <string name="hs__network_unavailable_msg">Không có mạng.</string>
     <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC TRÒ CHUYỆN MỚI</string>

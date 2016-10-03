@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">왼쪽에서 메시지를 선택하세요</string>
     <string name="hs__cam_undo">실행 취소</string>
     <string name="hs__change_btn">변경</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">당신의 메세지를 입력하세요</string>
+    <string name="hs__chat_out_of_business_hours">현재 자리를 비웠지만 영업 시간 동안에 응대해 드리겠습니다.</string>
     <string name="hs__confirmation_footer_msg">의견을 주셔서 감사합니다!</string>
     <string name="hs__confirmation_msg">귀하의 모든 질문에 대해 답변해 드렸나요?</string>
     <string name="hs__contact_us_btn">문의하기</string>
@@ -91,13 +93,13 @@
     <string name="hs__image_not_available">이미지 사용 불가</string>
     <string name="hs__invalid_description_error">무효한 설명</string>
     <string name="hs__invalid_email_error">유효한 이메일을 입력해주세요</string>
-    <string name="hs__issue_archival_message">이 대화가 닫힙니다. 새로운 대화를 시작하십시오.</string>
+    <string name="hs__issue_archival_message">죄송합니다! 이 대화는 활동이 없어서 닫혔습니다. 에이전트로 새 대화를 시작해 주세요.</string>
     <string name="hs__mark_helpful_toast">질문이 도움이 되었다고 표시되었습니다</string>
     <string name="hs__mark_no">아니요</string>
     <string name="hs__mark_unhelpful_toast">질문이 도움이 되지 않았다고 표시되었습니다</string>
     <string name="hs__mark_yes">예</string>
     <string name="hs__mark_yes_no_question">내용이 도움이 되었나요?</string>
-    <string name="hs__message_not_sent">메시지가 전송되지</string>
+    <string name="hs__message_not_sent">메시지가 전송되지 않았습니다.</string>
     <string name="hs__network_error_msg">이런! 무언가 오류가 생겼습니다</string>
     <string name="hs__network_unavailable_msg">네트워크 이용불가능.</string>
     <string name="hs__new_conversation_btn">새로운 대화 시작</string>

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.helpshift.campaigns.activities.ParentActivity">
 
-    <android.support.v7.widget.Toolbar
+    <com.helpshift.views.HSToolbar
         android:id="@+id/toolbar"
         style="?attr/hs__toolbarStyle"
         android:layout_width="match_parent"

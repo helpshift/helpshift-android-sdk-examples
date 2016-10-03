@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">ఎడమ వైపు నుండి ఒక సందేశాన్ని దయచేసి ఎంచుకోండి</string>
     <string name="hs__cam_undo">చేసినది తీసివేయుము</string>
     <string name="hs__change_btn">మార్చుము</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">మీ సందేశాన్ని టైప్ చేయండి</string>
+    <string name="hs__chat_out_of_business_hours">ప్రస్తుతం మేము అందుబాటులో లేము, తిరిగి మా వ్యాపార వేళల్లో మిమ్మల్ని సంప్రదిస్తాము</string>
     <string name="hs__confirmation_footer_msg">మాకు సందేశం పంపినందుకు ధన్యవాదాలు!</string>
     <string name="hs__confirmation_msg">మీ అన్ని ప్రశ్నలకు మేము జవాబులు ఇచ్చామా?</string>
     <string name="hs__contact_us_btn">మమ్మల్ని సంప్రదించుము</string>
@@ -87,13 +89,13 @@
     <string name="hs__image_not_available">చిత్రం లభ్యంగా లేదు</string>
     <string name="hs__invalid_description_error">చెల్లుబాటు కాని వర్ణన</string>
     <string name="hs__invalid_email_error">దయచేసి చెల్లుబాటు అయ్యే ఒక ఇమెయిల్ చిరునామాను ఎంటర్ చేయండి</string>
-    <string name="hs__issue_archival_message">ఈ సంభాషణ మూసివేయబడింది. దయచేసి ఒక క్రొత్త సంభాషణను ప్రారంభించేందుకు.</string>
+    <string name="hs__issue_archival_message">క్షమించాలి! స్తబ్దత కారణంగా ఈ సంభాషణ ముగించబడింది. మా ఏజెంట్లతో దయచేసి ఒక కొత్త సంభాషణను ఆరంభించండి.</string>
     <string name="hs__mark_helpful_toast">ప్రశ్న సహాయకారిగా గుర్తించబడింది</string>
     <string name="hs__mark_no">లేదు</string>
     <string name="hs__mark_unhelpful_toast">ప్రశ్న సహాయకారి కాదు అని గుర్తించబడింది</string>
     <string name="hs__mark_yes">అవును</string>
     <string name="hs__mark_yes_no_question">ఇది సహాయకారిగా ఉందా?</string>
-    <string name="hs__message_not_sent">సందేశం పంపలేదు</string>
+    <string name="hs__message_not_sent">సందేశం పంపించబడలేదు.</string>
     <string name="hs__network_error_msg">ఓ! ఏదో తప్పు జరిగింది</string>
     <string name="hs__network_unavailable_msg">నెట్‌‌వర్క్ లభ్యంగా లేదు.</string>
     <string name="hs__new_conversation_btn">ఒక క్రొత్త సంభాషణను ప్రారంభించుము</string>

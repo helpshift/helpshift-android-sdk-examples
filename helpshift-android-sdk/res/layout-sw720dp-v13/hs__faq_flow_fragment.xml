@@ -28,7 +28,7 @@
         android:layout_weight="2">
 
       <!-- TODO: get string resource-->
-      <TextView
+      <com.helpshift.views.HSTextView
           android:id="@+id/select_question_view"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"

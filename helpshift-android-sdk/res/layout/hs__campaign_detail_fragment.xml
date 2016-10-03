@@ -35,7 +35,7 @@
           android:paddingRight="16dp"
           android:paddingBottom="16dp"
           android:layout_below="@+id/campaign_cover_image_container">
-        <TextView
+        <com.helpshift.views.HSTextView
             android:id="@+id/campaign_title"
             android:textStyle="bold"
             android:textSize="20sp"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:textAppearance="?android:attr/textAppearanceMedium"/>
-        <TextView
+        <com.helpshift.views.HSTextView
             android:id="@+id/campaign_body"
             android:textSize="14sp"
             android:layout_width="match_parent"
@@ -51,28 +51,28 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:lineSpacingMultiplier="1.43"
             android:layout_marginBottom="8dp"/>
-        <Button
+        <com.helpshift.views.HSButton
             android:id="@+id/action1_button"
             android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
             style="?android:attr/borderlessButtonStyle"/>
-        <Button
+        <com.helpshift.views.HSButton
             android:id="@+id/action2_button"
             android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
             style="?android:attr/borderlessButtonStyle"/>
-        <Button
+        <com.helpshift.views.HSButton
             android:id="@+id/action3_button"
             android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
             style="?android:attr/borderlessButtonStyle"/>
-        <Button
+        <com.helpshift.views.HSButton
             android:id="@+id/action4_button"
             android:textSize="14sp"
             android:layout_width="match_parent"

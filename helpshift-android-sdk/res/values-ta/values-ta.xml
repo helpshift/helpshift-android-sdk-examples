@@ -41,7 +41,9 @@
     <string name="hs__cam_select_a_message_message">இடதுபக்கத்தில் இருந்து ஒரு செய்தியைத் தேர்ந்தெடுக்கவும்</string>
     <string name="hs__cam_undo">செயல்தவிர்</string>
     <string name="hs__change_btn">மாற்று</string>
+    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">உங்கள் செய்தியைத் தட்டச்சுசெய்க</string>
+    <string name="hs__chat_out_of_business_hours">எங்கள் வணிக நேரத்தில் உங்களுக்குப் பதிலளிப்போம்</string>
     <string name="hs__confirmation_footer_msg">எங்களுக்கு செய்தியனுப்பியதற்கு நன்றி!</string>
     <string name="hs__confirmation_msg">உங்கள் கேள்விகள் அனைத்திற்கும் நாங்கள் பதிலளித்தோமா?</string>
     <string name="hs__contact_us_btn">எங்களைத் தொடர்புகொள்ளவும்</string>
@@ -87,13 +89,13 @@
     <string name="hs__image_not_available">படம் கிடைக்கவில்லை</string>
     <string name="hs__invalid_description_error">செல்லுபடியாகாத விவரிப்பு</string>
     <string name="hs__invalid_email_error">ஒரு செல்லுபடியாகும் மின்னஞ்சலை உள்ளிடவும்</string>
-    <string name="hs__issue_archival_message">இந்த உரையாடல் மூடப்பட்டுள்ளது. ஒரு புதிய உரையாடலை தொடங்க கொள்ளவும்.</string>
+    <string name="hs__issue_archival_message">மன்னிக்கவும் இந்த உரையாடல் செயல்படாமல் இருந்ததால் மூடப்பட்டது. எங்கள் முகவர்களுடன் புதிய உரையாடலைத் தொடங்கவும்.</string>
     <string name="hs__mark_helpful_toast">கேள்வி பயனுள்ளதாக குறிக்கப்பட்டுள்ளது</string>
     <string name="hs__mark_no">இல்லை</string>
     <string name="hs__mark_unhelpful_toast">கேள்வி  பயனுள்ளதாக இல்லை என்று குறிக்கப்பட்டுள்ளது</string>
     <string name="hs__mark_yes">ஆம்</string>
     <string name="hs__mark_yes_no_question">இது உதவிகரமாக இருந்ததா?</string>
-    <string name="hs__message_not_sent">செய்தி அனுப்பப்படவில்லை</string>
+    <string name="hs__message_not_sent">செய்தி அனுப்பப்படவில்லை.</string>
     <string name="hs__network_error_msg">அச்சச்சோ! ஏதோ தவறு நடந்துவிட்டது</string>
     <string name="hs__network_unavailable_msg">நெட்வொர்க் கிடைக்கவில்லை.</string>
     <string name="hs__new_conversation_btn">ஒரு புதிய உரையாடலைத் தொடங்கவும்</string>
