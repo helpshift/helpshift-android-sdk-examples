@@ -17,6 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity
+            android:name="EmbeddableFragmentsActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
 
+        <activity
+            android:name="NavDrawerStandaloneToolbarActivity"
+            android:theme="@style/Helpshift.Theme.Activity"/>
+    </application>
 </manifest>

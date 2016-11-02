@@ -1,5 +1,6 @@
 package com.helpshift.helpshiftdemogradle;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -26,8 +27,16 @@ public class DemoActivity extends ActionBarActivity {
       }
     });
 
+    Button embeddableFragments = (Button) findViewById(R.id.embeddable_fragments);
+    embeddableFragments.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent embeddableFragmentsIntent = new Intent(DemoActivity.this,
+                                                      EmbeddableFragmentsActivity.class);
+        startActivity(embeddableFragmentsIntent);
+      }
+    });
   }
-
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
