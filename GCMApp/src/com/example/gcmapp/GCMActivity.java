@@ -8,8 +8,8 @@ import android.view.View.OnClickListener;
 
 import com.google.android.gcm.GCMRegistrar;
 
-import com.helpshift.Helpshift;
-import com.helpshift.Log;
+import com.helpshift.support.Support;
+import com.helpshift.support.Log;
 
 public class GCMActivity extends Activity {
 
@@ -21,10 +21,6 @@ public class GCMActivity extends Activity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
-
-    // You initialize the library by calling Helpshift.install(APPLICATION, API_KEY, DOMAIN,
-    // APP_ID) in your activity's onCreate(Bundle savedInstanceState)
-    // Helpshift.install(getApplication(), "<YOUR_API_KEY>", "<yourcompany>.helpshift.com", "<YOUR_APP_ID>");
 
     GCMRegistrar.checkDevice(this);
     GCMRegistrar.checkManifest(this);
@@ -39,7 +35,7 @@ public class GCMActivity extends Activity {
     helpButton.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-          Helpshift.showFAQs(GCMActivity.this);
+          Support.showFAQs(GCMActivity.this);
         }
       });
   }

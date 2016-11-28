@@ -1,7 +1,5 @@
 package com.example.gcmapp;
 
-import com.helpshift.Helpshift;
-
 import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
@@ -72,7 +70,6 @@ public class GCMIntentService extends GCMBaseIntentService {
 
     Notification notification = new Notification(icon, message, when);
     String title = context.getString(R.string.app_name);
-    notification.setLatestEventInfo(context, title, message, intent);
     notification.flags |= Notification.FLAG_AUTO_CANCEL;
 
     NotificationManager notificationManager = (NotificationManager)
