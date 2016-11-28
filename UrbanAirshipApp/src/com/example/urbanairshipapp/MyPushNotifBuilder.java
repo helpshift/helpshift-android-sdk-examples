@@ -1,7 +1,5 @@
 package com.example.urbanairshipapp;
 
-import com.helpshift.Helpshift;
-
 import android.content.Context;
 import android.app.Notification;
 import android.app.Application;

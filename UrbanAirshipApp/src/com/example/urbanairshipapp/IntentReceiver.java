@@ -1,12 +1,10 @@
 package com.example.urbanairshipapp;
 
-import com.helpshift.Helpshift;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
-
+import com.helpshift.Core;
 import com.urbanairship.UAirship;
 import com.urbanairship.push.PushManager;
 
@@ -19,7 +17,7 @@ public class IntentReceiver extends BroadcastReceiver {
 
     if (action.equals(PushManager.ACTION_PUSH_RECEIVED)) {
       if(intent.getExtras().getString("origin").equals("helpshift")) {
-        Helpshift.handlePush(context, intent);
+        Core.handlePush(context, intent);
       }
 
       int id = intent.getIntExtra(PushManager.EXTRA_NOTIFICATION_ID, 0);
@@ -28,7 +26,7 @@ public class IntentReceiver extends BroadcastReceiver {
             + intent.getStringExtra(PushManager.EXTRA_ALERT)
             + " [NotificationID="+id+"]");
     } else if (action.equals(PushManager.ACTION_REGISTRATION_FINISHED)) {
-      Helpshift.registerDeviceToken(context, PushManager.shared().getAPID());
+      Core.registerDeviceToken(context, PushManager.shared().getAPID());
       Log.i(TAG, "Registration complete. APID:" +
             intent.getStringExtra(PushManager.EXTRA_APID) +
             ". Valid: " +
