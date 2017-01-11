@@ -132,8 +132,9 @@
     <dimen name="hs__textSizeMedium">16sp</dimen>
     <dimen name="hs__textSizeSmall">14sp</dimen>
     <dimen name="hs_issue_archival_view_horizontal_margin">16dp</dimen>
-    <integer name="hs__chat_max_lines">12</integer>
+    <integer name="hs__chat_max_lines">4</integer>
     <integer name="hs__conversation_detail_lines">1</integer>
+    <integer name="hs__issue_description_max_lines">12</integer>
     <integer name="hs__issue_description_min_chars">1</integer>
     <integer name="hs_animation_duration">@android:integer/config_shortAnimTime</integer>
     <plurals name="hs__csat_rating_value">
@@ -169,6 +170,7 @@
     <string name="hs__cam_action_shop_now">Shop Now</string>
     <string name="hs__cam_action_yes">Yes</string>
     <string name="hs__cam_delete">Delete</string>
+    <string name="hs__cam_expired_campaign_message">This message is no longer available</string>
     <string name="hs__cam_inbox">Inbox</string>
     <string name="hs__cam_mark_as_read">Mark as read</string>
     <string name="hs__cam_message">Message</string>
@@ -280,6 +282,8 @@
     <string name="hs__sending_fail_msg">Message not sent. Touch to retry.</string>
     <string name="hs__sending_msg">Sending…</string>
     <string name="hs__solved_btn">Yes, solved!</string>
+    <string name="hs__ssl_handshake_error">Your connection is not secure. There was a problem in establishing a trusted connection</string>
+    <string name="hs__ssl_peer_unverified_error">Your connection is not secure. There was a problem in verifying its authenticity</string>
     <string name="hs__starting_download">Starting download…</string>
     <string name="hs__submit_conversation_btn">Submit</string>
     <string name="hs__unsolved_btn">No, unsolved</string>

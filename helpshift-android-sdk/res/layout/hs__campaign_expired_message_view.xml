@@ -1,0 +1,29 @@
+<LinearLayout
+    android:id="@+id/expired_message_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/expired_campaign_placeholder_image"
+        android:src="@drawable/hs__cam_inbox_expired_campaign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:alpha="0.3"
+        android:tint="?android:textColorPrimary"/>
+    <com.helpshift.views.HSTextView
+        android:id="@+id/expired_campaign_message"
+        android:textSize="16sp"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/hs__cam_expired_campaign_message"
+        android:alpha="0.7"
+        android:tint="?android:textColorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>

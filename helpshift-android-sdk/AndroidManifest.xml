@@ -4,15 +4,23 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="24" />
+    <uses-sdk android:minSdkVersion="14" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application>
+        <provider
+            android:name="com.helpshift.support.providers.HelpshiftFileProvider"
+            android:authorities="com.example.helpshift.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
         <activity
             android:name="com.helpshift.support.activities.ParentActivity"
             android:theme="@style/Helpshift.Theme.Activity" />
@@ -21,10 +29,6 @@
             android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Dialog" />
 
-        <service
-            android:name="com.helpshift.support.HSService"
-            android:label="Helpshift Service" >
-        </service>
         <service
             android:name="com.helpshift.support.HSRetryService"
             android:label="Helpshift Service" >

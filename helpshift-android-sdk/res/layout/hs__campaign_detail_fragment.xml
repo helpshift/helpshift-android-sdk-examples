@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
   <ScrollView
+      android:id="@+id/campaign_detail_view_container"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
     <RelativeLayout
@@ -89,4 +90,9 @@
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:gravity="center"/>
+  <ViewStub
+      android:id="@+id/hs__campaign_expired_view_stub"
+      android:layout="@layout/hs__campaign_expired_message_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
 </FrameLayout>

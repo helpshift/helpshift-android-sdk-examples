@@ -1,4 +1,4 @@
-Helpshift SDK 4.7.0 Release Notes (for Android)
+Helpshift SDK 4.8.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,30 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.8.0 Release Date: January 10, 2017
+      * Added support for setting expiry time to campaign messages.
+      * Improved Syncing strategy for campaigns data.
+      * Improved in-app FAQ search by making it faster and memory efficient.
+      * Improved translations for SDK strings.
+      * Improved Helpshift Log API to make it thread safe.
+      * Improved SDK start-up time.
+      * Reply box in chat screen now can be expanded up to four lines.
+      * Fixed a bug where search keyword highlighting did not work on some devices.
+      * Fixed a crash on Android N devices when opening attachments sent from agent dashboard.
+      * Fixed a rare crash which occurred due to null arguments on launching the Helpshift screen.
+      * Fixed a rare crash which occurred due to unexpected service wake-up on some devices.
+      * Fixed a UI glitch in single question view on tablet devices where an unexpected vertical line was visible to user.
+4.8.0-support Release Date: January 10, 2017
+      * Improved in-app FAQ search by making it faster and memory efficient.
+      * Improved translations for SDK strings.
+      * Improved Helpshift Log API to make it thread safe.
+      * Improved SDK start-up time.
+      * Reply box in chat screen now can be expanded up to four lines.
+      * Fixed a bug where search keyword highlighting did not work on some devices.
+      * Fixed a crash on Android N devices when opening attachments sent from agent dashboard.
+      * Fixed a rare crash which occurred due to null arguments on launching the Helpshift screen.
+      * Fixed a rare crash which occurred due to unexpected service wake-up on some devices.
+      * Fixed a UI glitch in single question view on tablet devices where an unexpected vertical line was visible to user.
 4.7.0 Release Date: September 30, 2016
       * Add compatibility for Android Nougat.
       * Add ApiConfig and InstallConfig objects instead of Map for passing config.

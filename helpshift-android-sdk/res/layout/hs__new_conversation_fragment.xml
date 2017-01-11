@@ -28,7 +28,7 @@
           android:layout_height="wrap_content"
           android:hint="@string/hs__new_conversation_hint"
           android:inputType="text|textMultiLine"
-          android:maxLines="@integer/hs__chat_max_lines"
+          android:maxLines="@integer/hs__issue_description_max_lines"
           android:minLines="@integer/hs__conversation_detail_lines"
           android:scrollbars="vertical"
           android:textColor="?android:textColorPrimary"

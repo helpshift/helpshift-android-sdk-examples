@@ -16,7 +16,7 @@
       <dependency>
         <groupId>com.helpshift</groupId>
         <artifactId>android-lib</artifactId>
-        <version>4.7.0</version>
+        <version>4.8.0</version>
         <type>apklib</type>
       </dependency>
       <dependency>

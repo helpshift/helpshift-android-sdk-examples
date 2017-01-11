@@ -10,9 +10,11 @@
       android:layout_height="match_parent"
       android:orientation="horizontal">
 
+    <!-- Setting layout_width to 0.01dp
+    because if set to 0dp, Samsung tablet loads all the items in recycler view -->
     <FrameLayout
         android:id="@+id/list_fragment_container"
-        android:layout_width="0dp"
+        android:layout_width="0.01dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
@@ -20,6 +22,7 @@
         android:id="@+id/vertical_divider"
         style="@style/HSDivider"
         android:layout_width="1dp"
+        android:visibility="gone"
         android:layout_height="match_parent"/>
 
     <FrameLayout
