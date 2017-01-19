@@ -1,4 +1,4 @@
-Helpshift SDK 4.8.0 Release Notes (for Android)
+Helpshift SDK 4.8.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,13 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.8.1 Release Date: January 18, 2017
+      * Fixed an ANR issue on clicking search icon when using android support library v25.1.0 and above.
+      * Fixed a string localization issue in the FAQs screen which occurred on some 7" tablets.
+      * Fixed a rare crash which occurred due to exceptionally large number of un-synced app sessions.
+4.8.1-support Release Date: January 18, 2017
+      * Fixed an ANR issue on clicking search icon when using android support library v25.1.0 and above.
+      * Fixed a string localization issue in the FAQs screen which occurred on some 7" tablets.
 4.8.0 Release Date: January 10, 2017
       * Added support for setting expiry time to campaign messages.
       * Improved Syncing strategy for campaigns data.
