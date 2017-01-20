@@ -19,38 +19,49 @@
 
 <resources>
 
-    <style name="Theme.Example" parent="@style/Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
-        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Example</item>
-        <item name="android:actionDropDownStyle">@style/DropDownNav.Example</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
-        <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
-        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
-        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Example</item>
-        
-                <!-- Light.DarkActionBar specific -->
-        <item name="android:actionBarWidgetTheme">@style/Theme.Example.Widget</item>
+  <style name="Theme.Example" parent="Helpshift.Theme.Light">
+    <item name="android:windowBackground">@color/custom_theme_color</item>
+    <item name="android:colorBackground">@color/custom_theme_color</item>
+    <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    <item name="hs__faqsPagerTabStripStyle">@style/QuestionsPagerTabStripStyle</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__questions_pagertabstrip_indicator_light</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__questions_pagertabstrip_indicator_light</item>
+    <item name="hs__actionButtonIconColor">@color/hs__actionbutton_icon_light</item>
+    <item name="hs__actionButtonNotificationIconColor">@color/hs__actionbutton_notification_icon_light</item>
+    <item name="hs__actionButtonNotificationTextColor">@color/hs__actionbutton_notification_text_light</item>
+    <item name="hs__buttonCompoundDrawableIconColor">@color/hs__button_compound_drawable_icon_light</item>
+    <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_light</item>
+    <item name="hs__sendMessageButtonActiveIconColor">@color/hs__send_message_button_active_icon_light</item>
+    <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_light</item>
+    <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_light</item>
+    <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_light</item>
+    <item name="hs__faqHelpfulButtonTextColor">@color/hs__question_helpful_button_text_light</item>
+    <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__question_unhelpful_button_text_light</item>
+    <item name="hs__messagesTextColor">@color/hs__messages_text_light</item>
+    <item name="hs__contentSeparatorColor">@color/hs__separator_light</item>
+    <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_light</item>
+    <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_light</item>
+    <item name="hs__attachScreenshotButtonIconColor">@color/hs__attach_screenshot_button_icon_light</item>
+    <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_light</item>
+    <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_light</item>
+    <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_light</item>
+    <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
+  </style>
 
-    </style>
+  <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <item name="android:background">@color/custom_action_bar_background</item>
+    <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+  </style>
 
-    <style name="ActionBar.Solid.Example" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ab_background_textured_example</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>
-        <item name="android:backgroundSplit">@drawable/ab_background_textured_example</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
-    </style>
+  <style name="ActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/actionBarTextColor</item>
+  </style>
 
-    <style name="ActionBar.Transparent.Example" parent="@style/Widget.AppCompat.ActionBar">
-        <item name="android:background">@drawable/ab_transparent_example</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
-    </style>
-    
-    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
-    <style name="Theme.Example.Widget" parent="@style/Theme.AppCompat">
-        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
-    </style>
+  <style name="QuestionsPagerTabStripStyle" parent= "Helpshift.Style.QuestionsPagerTabStrip">
+    <item name="android:background">@color/hs__questions_pagertabstrip_background_light</item>
+    <item name="android:textColor">@color/hs__questions_pagertabstrip_text_light</item>
+  </style>
+
+  <style name="Helpshift.Theme.Base" parent="Theme.Example" />
 
 </resources>
