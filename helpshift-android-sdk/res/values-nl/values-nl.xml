@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">RECENSIE</string>
     <string name="hs__attach_screenshot_btn">Screenshot toevoegen</string>
-    <string name="hs__attach_screenshot_button">TOEVOEGEN</string>
     <string name="hs__ca_msg">We helpen u graag!</string>
     <string name="hs__cam_action_accept">Accepteren</string>
     <string name="hs__cam_action_book_now">Nu boeken</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Beschrijf het probleem</string>
     <string name="hs__conversation_end_msg">Dit gesprek is afgelopen.</string>
     <string name="hs__conversation_header">Gesprek</string>
+    <string name="hs__conversation_info_header">Informatie</string>
+    <string name="hs__conversation_info_issue_id">Probleem-ID</string>
+    <string name="hs__conversation_info_menu_item_title">Probleeminformatie</string>
     <string name="hs__conversation_started_message">We hebben uw bericht ontvangen. Bedankt dat u contact met ons heeft opgenomen.</string>
+    <string name="hs__copied_to_clipboard">Gekopieerd naar klembord</string>
     <string name="hs__copy">Kopiëren</string>
+    <string name="hs__copy_to_clipboard_tooltip">Naar klembord kopiëren</string>
     <string name="hs__could_not_open_attachment_msg">Er zijn geen apps die deze handeling kunnen uitvoeren</string>
     <string name="hs__could_not_reach_support_msg">Kan Ondersteuning niet bereiken</string>
     <string name="hs__cr_msg">Kunnen we je nog ergens anders mee helpen? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Gegevens niet gevonden</string>
     <string name="hs__default_notification_content_title">Ondersteuning</string>
     <string name="hs__description_invalid_length_error">Verstrek meer informatie voor betere ondersteuning</string>
-    <string name="hs__dm_video_loading">Video laden...</string>
     <string name="hs__done_btn">Klaar</string>
     <string name="hs__email_hint">E-mail (optioneel)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Geen vragen beschikbaar in dit onderdeel.</string>
     <string name="hs__faq_fetching_fail_message">Kan nu geen FAQ\'s laden. Probeer het later nog eens...</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">Geen FAQ\'s gevonden</string>
     <string name="hs__feedback_button">Feedback vesturen </string>
     <string name="hs__fetching_faqs_message">Antwoorden ophalen...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Afbeelding niet beschikbaar</string>
     <string name="hs__invalid_description_error">Ongeldige beschrijving</string>
     <string name="hs__invalid_email_error">Geef een geldig e-mailadres op</string>
+    <string name="hs__invalid_faq_publish_id_error">We konden geen FAQ vinden met overeenkomstige ID</string>
+    <string name="hs__invalid_section_publish_id_error">We konden geen FAQ-gedeelte vinden met overeenkomstige ID</string>
     <string name="hs__issue_archival_message">Dit gesprek is vanwege inactiviteit afgesloten. Start een nieuw gesprek met een van onze agenten.</string>
-    <string name="hs__mark_helpful_toast">De vraag is gemarkeerd als nuttig</string>
     <string name="hs__mark_no">Nee</string>
-    <string name="hs__mark_unhelpful_toast">De vraag is gemarkeerd als niet nuttig</string>
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Had je hier wat aan?</string>
     <string name="hs__message_not_sent">Bericht niet verstuurd.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nieuw bericht</string>
     <string name="hs__new_conversation_hint">Hoe kunnen we je helpen?</string>
     <string name="hs__no_search_results_message">We kunnen geen resultaten vinden</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Voor toegang tot screenshots en het downloaden van bijlagen is opslagtoestemming vereist</string>
     <string name="hs__permission_denied_snackbar_action">Instellingen</string>
     <string name="hs__permission_not_granted">Applicatie heeft geen toegang tot uw foto\'s</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Fout bij toevoegen screenshot. Kies aan afbeelding op uw apparaat.</string>
     <string name="hs__screenshot_limit_error">Screenshot mag niet groter zijn dan %.2f MB</string>
     <string name="hs__screenshot_remove">Verwijderen</string>
-    <string name="hs__screenshot_sent_msg">Screenshot verstuurd</string>
     <string name="hs__screenshot_upload_error_msg">Fout bij uploaden screenshot</string>
     <string name="hs__search_footer">Kunt u niet vinden wat u zoekt?</string>
     <string name="hs__search_hint">Omschrijf het probleem</string>

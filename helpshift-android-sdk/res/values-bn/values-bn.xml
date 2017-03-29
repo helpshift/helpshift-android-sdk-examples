@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">পর্যালোচনা করুন</string>
     <string name="hs__attach_screenshot_btn">স্ক্রিনশট যুক্ত করুন</string>
-    <string name="hs__attach_screenshot_button">সংযোজন</string>
     <string name="hs__ca_msg">আমরা আপনাকে সাহায্য করতে পেরে খুশি হলাম!</string>
     <string name="hs__cam_action_accept">গ্রহন</string>
     <string name="hs__cam_action_book_now">এখন বুক করুন</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">আপনার সমস্যা বর্ণনা করুন</string>
     <string name="hs__conversation_end_msg">এই সংলাপটি শেষ করা হয়েছে।</string>
     <string name="hs__conversation_header">সংলাপ</string>
+    <string name="hs__conversation_info_header">তথ্য</string>
+    <string name="hs__conversation_info_issue_id">সমস্যা আইডি</string>
+    <string name="hs__conversation_info_menu_item_title">সমস্যার তথ্য</string>
     <string name="hs__conversation_started_message">আপনার বার্তাটি গৃহীত হয়েছে। আমাদের সাথে যোগাযোগ করার জন্য ধন্যবাদ!</string>
+    <string name="hs__copied_to_clipboard">ক্লিপবোর্ডে কপি হয়েছে</string>
     <string name="hs__copy">কপি</string>
+    <string name="hs__copy_to_clipboard_tooltip">ক্লিপবোর্ডে কপি করুন</string>
     <string name="hs__could_not_open_attachment_msg">কোনো অ্যাপই এই কাজটি করতে পারবে না।</string>
     <string name="hs__could_not_reach_support_msg">সাপোর্টে যোগাযোগ করা যাচ্ছে না</string>
     <string name="hs__cr_msg">এছাড়া আমরা আপনাকে আর কি নিয়ে সাহায্য করতে পারি? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">তথ্য পাওয়া যায়নি</string>
     <string name="hs__default_notification_content_title">সাপোর্ট</string>
     <string name="hs__description_invalid_length_error">ভাল সহায়তার জন্য, আরো তথ্য প্রদান করুন</string>
-    <string name="hs__dm_video_loading">ভিডিও লোড করা হচ্ছে ...</string>
     <string name="hs__done_btn">করা হয়েছে</string>
     <string name="hs__email_hint">ইমেল (ঐচ্ছিক)</string>
     <string name="hs__email_required_hint">ইমেল</string>
-    <string name="hs__empty_section">দুঃখিত! এই বিভাগে কোন প্রশ্ন উপলব্ধ নয়।</string>
     <string name="hs__faq_fetching_fail_message">এই মুহূর্তে FAQ গুলি লোড করা যাচ্ছে না। কিছুসময় পর পুনরায় চেষ্টা করুন ...</string>
-    <string name="hs__faq_header">ফ্যাক(বারংবার জিজ্ঞাসিত প্রশ্ন)</string>
     <string name="hs__faqs_search_footer">কোন ফ্যাক খুঁজে পাওয়া যায়নি</string>
     <string name="hs__feedback_button">মতামত পাঠান</string>
     <string name="hs__fetching_faqs_message">আপনার উত্তর পেয়ে ...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">ইমেজ উপলব্ধ নয়</string>
     <string name="hs__invalid_description_error">অবৈধ বিবরণ</string>
     <string name="hs__invalid_email_error">একটি বৈধ ইমেইল এন্টার করুন</string>
+    <string name="hs__invalid_faq_publish_id_error">আমরা এই আইডি সংশ্লিষ্ট কোনো  FAQ খুঁজে পাইনি</string>
+    <string name="hs__invalid_section_publish_id_error">আমরা এই আইডি সংশ্লিষ্ট কোনো  FAQ বিভাগ খুঁজে পাইনি</string>
     <string name="hs__issue_archival_message">দুঃখিত! নিষ্ক্রিয়তার কারণে এই কথোপকথনটি বন্ধ করে দেওয়া হয়েছে। অনুগ্রহ করে আমাদের এজেন্টদের সঙ্গে একটি নতুন কথোপকথন শুরু করুন।</string>
-    <string name="hs__mark_helpful_toast">প্রশ্নটি সহায়ককারী হিসাবে চিহ্নিত হয়েছে</string>
     <string name="hs__mark_no">না</string>
-    <string name="hs__mark_unhelpful_toast">প্রশ্নটি সহায়ককারী নয় হিসাবে চিহ্নিত হয়েছে</string>
     <string name="hs__mark_yes">হাঁ</string>
     <string name="hs__mark_yes_no_question">এটি কি সহায়ক ছিল?</string>
     <string name="hs__message_not_sent">বার্তা পাঠানো হয়নি।</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">নতুন সংলাপ</string>
     <string name="hs__new_conversation_hint">আমরা কিভাবে সাহায্য করতে পারি? </string>
     <string name="hs__no_search_results_message">ওহো! আমরা কোনো ফলাফল খুঁজে পাইনি</string>
-    <string name="hs__notification_content_text">Re:</string>
     <string name="hs__permission_denied_message">স্ক্রিনশটগুলি অ্যাক্সেস করতে এবং অ্যাটাচমেন্ট ডাউনলোড করতে স্টোরেজ পারমিশন প্রয়োজন</string>
     <string name="hs__permission_denied_snackbar_action">সেটিংস</string>
     <string name="hs__permission_not_granted">অ্যাপ্লিকেশনটির আপনার ফটোগুলি অ্যাক্সেস করার অনুমতি নেই</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">স্ক্রিনশট সংযোজনে ত্রুটি। অনুগ্রহ করে আপনার ডিভাইসের উপর একটি ইমেজ নির্বাচন করুন।</string>
     <string name="hs__screenshot_limit_error">স্ক্রিনশটের সাইজ %.2f MB-এর বেশী রাখা যাবে না</string>
     <string name="hs__screenshot_remove">অপসারণ</string>
-    <string name="hs__screenshot_sent_msg">স্ক্রীনশট পাঠানো হয়েছে</string>
     <string name="hs__screenshot_upload_error_msg">স্ক্রিনশট আপলোডে ত্রুটি</string>
     <string name="hs__search_footer">আপনি যেটি খুঁজছিলেন, আপনি কি সেটি পাচ্ছেন না?</string>
     <string name="hs__search_hint">আপনার সমস্যাটি বর্ণনা করে বলুন</string>

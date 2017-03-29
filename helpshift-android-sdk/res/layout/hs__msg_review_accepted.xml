@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
         android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="4dp"
         android:textColor="?android:textColorHint"
         android:textSize="@dimen/hs__textSizeSmall"/>
   </LinearLayout>

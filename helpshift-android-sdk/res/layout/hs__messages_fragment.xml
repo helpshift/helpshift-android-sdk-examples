@@ -78,17 +78,16 @@
       android:layout_width="match_parent"
       android:minHeight="56dp"
       android:layout_height="wrap_content"
+      android:gravity="center_vertical"
       android:background="?attr/hs__composeBackgroundColor"
       android:orientation="horizontal">
 
     <com.helpshift.views.HSEditText
         android:id="@+id/hs__messageText"
         android:layout_width="0dp"
-        android:minHeight="56dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@android:color/transparent"
-        android:gravity="center_vertical"
         android:hint="@string/hs__chat_hint"
         android:imeOptions="actionSend"
         android:inputType="textMultiLine"

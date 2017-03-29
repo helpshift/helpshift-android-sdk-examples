@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ĐÁNH GIÁ</string>
     <string name="hs__attach_screenshot_btn">Đính kèm Ảnh chụp màn hình</string>
-    <string name="hs__attach_screenshot_button">ĐÍNH KÈM</string>
     <string name="hs__ca_msg">Chúng tôi sẵn lòng giúp bạn!</string>
     <string name="hs__cam_action_accept">Chấp nhậ̣n</string>
     <string name="hs__cam_action_book_now">Đặt Ngay</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Vui lòng mô tả vấn đề của bạn</string>
     <string name="hs__conversation_end_msg">Cuộc hội thoại này đã chấm dứt.</string>
     <string name="hs__conversation_header">Hội thoại</string>
+    <string name="hs__conversation_info_header">Thông tin</string>
+    <string name="hs__conversation_info_issue_id">Cấp ID</string>
+    <string name="hs__conversation_info_menu_item_title">Cấp thông tin</string>
     <string name="hs__conversation_started_message">Chúng tôi đã nhận được tin nhắn của bạn. Cảm ơn bạn đã liên hệ với chúng tôi.</string>
+    <string name="hs__copied_to_clipboard">Đã sao chép vào clipboard</string>
     <string name="hs__copy">Sao chép</string>
+    <string name="hs__copy_to_clipboard_tooltip">Sao chép vào clipboard</string>
     <string name="hs__could_not_open_attachment_msg">Không ứng dụng nào có thể thực hiện hành động này</string>
     <string name="hs__could_not_reach_support_msg">Không thể liên hệ hỗ trợ</string>
     <string name="hs__cr_msg">Chúng tôi còn có thể giúp gì khác cho bạn không? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Không tìm thấy dữ liệu</string>
     <string name="hs__default_notification_content_title">Hỗ trợ</string>
     <string name="hs__description_invalid_length_error">Để được hỗ trợ tốt hơn, vui lòng cung cấp thêm thông tin</string>
-    <string name="hs__dm_video_loading">Đang tải Video…</string>
     <string name="hs__done_btn">Hoàn thành</string>
     <string name="hs__email_hint">Email (tùy chọn)</string>
     <string name="hs__email_required_hint">Email</string>
-    <string name="hs__empty_section">Rất tiếc! Không có câu hỏi khả dụng cho phần này.</string>
     <string name="hs__faq_fetching_fail_message">Không thể tải FAQ vào lúc này. Vui lòng thử lại sau...</string>
-    <string name="hs__faq_header">Câu hỏi thường gặp</string>
     <string name="hs__faqs_search_footer">Không tìm thấy Câu hỏi thường gặp</string>
     <string name="hs__feedback_button">Gửi Phản hồi </string>
     <string name="hs__fetching_faqs_message">Đang nhậ̣n câu trả lời của bạn...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Ảnh không khả dụng</string>
     <string name="hs__invalid_description_error">Mô tả không hợp lệ</string>
     <string name="hs__invalid_email_error">Vui lòng nhập email hợp lệ</string>
+    <string name="hs__invalid_faq_publish_id_error">Chúng tôi không thể tìm thấy câu hỏi trong FAQ có ID này</string>
+    <string name="hs__invalid_section_publish_id_error">Chúng tôi không thể tìm thấy mục FAQ bằng ID này</string>
     <string name="hs__issue_archival_message">Rất tiếc! Tin nhắn này đã bị đóng do không có hoạt động. Vui lòng bắt đầu một tin nhắn mới với các nhân viên của chúng tôi.</string>
-    <string name="hs__mark_helpful_toast">Câu hỏi đã được đánh dấu là Hữu ích</string>
     <string name="hs__mark_no">Không</string>
-    <string name="hs__mark_unhelpful_toast">Câu hỏi đã được đánh dấu là Không hữu ích</string>
     <string name="hs__mark_yes">Có</string>
     <string name="hs__mark_yes_no_question">Điều này có hữu ích không?</string>
     <string name="hs__message_not_sent">Tin nhắn chưa được gửi</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Cuộc hội thoại mới</string>
     <string name="hs__new_conversation_hint">Chúng tôi có thể giúp gì cho bạn?</string>
     <string name="hs__no_search_results_message">Rất tiếc! Chúng tôi không tìm được kết quả nào</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Cần có quyền lưu trữ để truy cậ̣p ảnh chụp màn hình và tải về các tập tin đính kèm</string>
     <string name="hs__permission_denied_snackbar_action">Thiết lậ̣p</string>
     <string name="hs__permission_not_granted">Ứng dụng không có quyền truy cậ̣p vào hình ảnh của bạn</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một hình trên thiết bị của bạn.</string>
     <string name="hs__screenshot_limit_error">Kích thước ảnh chụp màn hình không được lớn hơn %.2f MB</string>
     <string name="hs__screenshot_remove">Xóa</string>
-    <string name="hs__screenshot_sent_msg">Ảnh chụp màn hình đã được gửi</string>
     <string name="hs__screenshot_upload_error_msg">Lỗi tải ảnh chụp màn hình lên</string>
     <string name="hs__search_footer">Bạn không tìm thấy điều bạn muốn tìm?</string>
     <string name="hs__search_hint">Mô tả vấn đề của bạn</string>

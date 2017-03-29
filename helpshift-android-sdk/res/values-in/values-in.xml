@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ULAS</string>
     <string name="hs__attach_screenshot_btn">Lampirkan Tangkapan Layar</string>
-    <string name="hs__attach_screenshot_button">LAMPIRKAN</string>
     <string name="hs__ca_msg">Kami senang membantu Anda!</string>
     <string name="hs__cam_action_accept">Terima</string>
     <string name="hs__cam_action_book_now">Pesan Sekarang</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Uraikan masalah Anda</string>
     <string name="hs__conversation_end_msg">Percakapan ini telah berakhir.</string>
     <string name="hs__conversation_header">Percakapan</string>
+    <string name="hs__conversation_info_header">Informasi</string>
+    <string name="hs__conversation_info_issue_id">ID Masalah</string>
+    <string name="hs__conversation_info_menu_item_title">Informasi Masalah</string>
     <string name="hs__conversation_started_message">Pesan Anda telah diterima. Terima kasih telah menghubungi kami!</string>
+    <string name="hs__copied_to_clipboard">Disalin ke papan klip</string>
     <string name="hs__copy">Salin</string>
+    <string name="hs__copy_to_clipboard_tooltip">Disalin ke papan klip</string>
     <string name="hs__could_not_open_attachment_msg">Tidak ada aplikasi yang dapat melakukan hal ini</string>
     <string name="hs__could_not_reach_support_msg">Tidak dapat menjangkau dukungan</string>
     <string name="hs__cr_msg">Ada lagi yang bisa kami bantu? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Data tidak ditemukan</string>
     <string name="hs__default_notification_content_title">Dukungan</string>
     <string name="hs__description_invalid_length_error">Untuk bantuan yang lebih baik, sertakan detail yang lebih lengkap</string>
-    <string name="hs__dm_video_loading">Memuat Video...</string>
     <string name="hs__done_btn">Selesai</string>
     <string name="hs__email_hint">Email (opsional)</string>
     <string name="hs__email_required_hint">Email</string>
-    <string name="hs__empty_section">Maaf, tidak ada pertanyaan yang tersedia di bagian ini.</string>
     <string name="hs__faq_fetching_fail_message">Tidak dapat memuat FAQ saat ini. Coba lagi nanti...</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">FAQ tidak ditemukan</string>
     <string name="hs__feedback_button">Kirim Masukan </string>
     <string name="hs__fetching_faqs_message">Mengambil jawaban...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Gambar tidak tersedia</string>
     <string name="hs__invalid_description_error">Keterangan tidak sah</string>
     <string name="hs__invalid_email_error">Masukkan alamat email yang sah</string>
+    <string name="hs__invalid_faq_publish_id_error">Kami tidak bisa menemukan Pertanyaan Umum dengan ID yang sesuai</string>
+    <string name="hs__invalid_section_publish_id_error">Kami tidak dapat menemukan bagian Tanya-Jawab dengan ID yang sesuai</string>
     <string name="hs__issue_archival_message">Maaf, percakapan ini ditutup karena tidak aktif. Mulailah percakapan baru dengan agen kami.</string>
-    <string name="hs__mark_helpful_toast">Pertanyaan telah ditandai sebagai Berguna</string>
     <string name="hs__mark_no">Tidak</string>
-    <string name="hs__mark_unhelpful_toast">Pertanyaan telah ditandai sebagai Tidak Berguna</string>
     <string name="hs__mark_yes">Ya</string>
     <string name="hs__mark_yes_no_question">Apakah ini membantu?</string>
     <string name="hs__message_not_sent">Pesan tidak terkirim.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Percakapan Baru</string>
     <string name="hs__new_conversation_hint">Ada yang bisa kami bantu?</string>
     <string name="hs__no_search_results_message">Ups! Kami tidak dapat menemukan hasil</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Izin penyimpanan diperlukan untuk mengakses tangkapan layar dan mengunduh lampiran</string>
     <string name="hs__permission_denied_snackbar_action">Setelan</string>
     <string name="hs__permission_not_granted">Aplikasi tidak memiliki izin untuk mengakses foto Anda</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Ada kesalahan melampirkan tangkapan layar. Pilihlah gambar dari perangkat Anda.</string>
     <string name="hs__screenshot_limit_error">Ukuran cuplikan layar tidak boleh melebihi %.2f MB</string>
     <string name="hs__screenshot_remove">Hapus</string>
-    <string name="hs__screenshot_sent_msg">Tangkapan layar terkirim</string>
     <string name="hs__screenshot_upload_error_msg">Ada kesalahan mengunggah tangkapan layar</string>
     <string name="hs__search_footer">Tidak menemukan hal yang Anda cari?</string>
     <string name="hs__search_hint">Jelaskan masalah Anda</string>

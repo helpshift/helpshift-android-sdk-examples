@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">SEMAK SEMULA</string>
     <string name="hs__attach_screenshot_btn">Lampirkan Syot Layar</string>
-    <string name="hs__attach_screenshot_button">LAMPIR</string>
     <string name="hs__ca_msg">Kami gembira dapat membantu anda!</string>
     <string name="hs__cam_action_accept">Terima</string>
     <string name="hs__cam_action_book_now">Tempah Sekarang</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Sila huraikan masalah anda</string>
     <string name="hs__conversation_end_msg">Perbincangan ini sudah tamat.</string>
     <string name="hs__conversation_header">Perbincangan</string>
+    <string name="hs__conversation_info_header">Maklumat</string>
+    <string name="hs__conversation_info_issue_id">ID Isu</string>
+    <string name="hs__conversation_info_menu_item_title">Maklumat Isu</string>
     <string name="hs__conversation_started_message">Mesej anda telah diterima. Terima kasih kerana menghubungi kami!</string>
+    <string name="hs__copied_to_clipboard">Disalin ke papan keratan</string>
     <string name="hs__copy">Salin</string>
+    <string name="hs__copy_to_clipboard_tooltip">Salin ke papan keratan</string>
     <string name="hs__could_not_open_attachment_msg">Tiada aplikasi boleh melakukan tindakan ini.</string>
     <string name="hs__could_not_reach_support_msg">Tidak dapat mencapai sokongan</string>
     <string name="hs__cr_msg">Apa lagi yang boleh kami bantu anda? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Data tidak ditemui</string>
     <string name="hs__default_notification_content_title">Sokong</string>
     <string name="hs__description_invalid_length_error">Untuk bantuan yang lebih baik, sila berikan butiran lanjut</string>
-    <string name="hs__dm_video_loading">Memuatkan Video…</string>
     <string name="hs__done_btn">Selesai</string>
     <string name="hs__email_hint">E-mel (pilihan)</string>
     <string name="hs__email_required_hint">E-mel</string>
-    <string name="hs__empty_section">Maaf! Tiada soalan yang tersedia dalam seksyen ini.</string>
     <string name="hs__faq_fetching_fail_message">Tidak dapat memuatkan Soalan-soalan Lazim buat masa ini. Sila cuba semula sebentar lagi…</string>
-    <string name="hs__faq_header">Soalan Lazim</string>
     <string name="hs__faqs_search_footer">Tiada Soalan Lazim ditemui</string>
     <string name="hs__feedback_button">Hantar Maklum Balas </string>
     <string name="hs__fetching_faqs_message">Mendapatkan jawapan anda…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Imej tidak tersedia</string>
     <string name="hs__invalid_description_error">Huraian tidak sah</string>
     <string name="hs__invalid_email_error">Sila masukkan e-mel yang sah</string>
+    <string name="hs__invalid_faq_publish_id_error">Kami tidak menemui Soalan Lazim dengan ID yang sepadan</string>
+    <string name="hs__invalid_section_publish_id_error">Kami tidak menemui seksyen Soalan Lazim dengan ID yang sepadan</string>
     <string name="hs__issue_archival_message">Maaf! Perbincangan ini telah ditutup kerana tidak aktif. Sila mulakan perbincangan baharu dengan ejen kami.</string>
-    <string name="hs__mark_helpful_toast">Soalan telah ditanda sebagai Membantu</string>
     <string name="hs__mark_no">Tidak</string>
-    <string name="hs__mark_unhelpful_toast">Soalan telah ditanda sebagai Tidak Membantu</string>
     <string name="hs__mark_yes">Ya</string>
     <string name="hs__mark_yes_no_question">Adakah ini membantu?</string>
     <string name="hs__message_not_sent">Mesej belum dihantar.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Perbincangan Baharu</string>
     <string name="hs__new_conversation_hint">Bagaimana kami boleh membantu?</string>
     <string name="hs__no_search_results_message">Oop! Kami tidak menemui sebarang hasil</string>
-    <string name="hs__notification_content_text">PER:</string>
     <string name="hs__permission_denied_message">Keizinan storan diperlukan untuk mengakses syot layar dan memuat naik lampiran</string>
     <string name="hs__permission_denied_snackbar_action">Tetapan</string>
     <string name="hs__permission_not_granted">Aplikasi tidak mempunyai keizinan untuk mengakses foto anda</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Ralat semasa melampirkan syot layar. Sila pilih imej pada peranti anda.</string>
     <string name="hs__screenshot_limit_error">Saiz syot layar tidak sepatutnya melebihi %.2f MB</string>
     <string name="hs__screenshot_remove">Buang</string>
-    <string name="hs__screenshot_sent_msg">Syot layar dihantar</string>
     <string name="hs__screenshot_upload_error_msg">Ralat semasa memuat naik syot layar</string>
     <string name="hs__search_footer">Tidak temui apa yang anda cari?</string>
     <string name="hs__search_hint">Huraikan masalah anda</string>

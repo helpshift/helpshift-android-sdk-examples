@@ -1,4 +1,4 @@
-Helpshift SDK 4.8.1 Release Notes (for Android)
+Helpshift SDK 4.9.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,63 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.9.0 Release Date: March 28, 2017
+      * Added support for programmatically setting screen orientation for the SDK.
+      * Users can now view the Issue ID for an ongoing Issue by navigating to the Issue Information screen by tapping the icon on the top right of the Conversation screen.
+      * SDK now supports logging to console.
+      * Added support for customizing FAQ list item height.
+      * Messages that fail to deliver can now be tapped to retry.
+      * Introduced an API to check if a Conversation is active.
+      * Added a new delegate to notify when the Conversation has ended.
+      * Made image attachment upload more network-efficient.
+      * Enabled TLS 1.2 as the default protocol for transferring data over internet for Android API levels 16(4.1.x) to 19(4.4.x).
+      * Screenshot messages in Conversations now have timestamps.
+      * Set max line limit to 3 for FAQ and sections list items.
+      * The default value for enableInboxPolling is now true.
+      * Fixed a bug where Issue resolve requests could be bypassed because of failed messages.
+      * Fixed a bug where 'Suggestions' title in Toolbar for FAQ search results for new Conversations was not shown.
+      * Fixed a crash in the image attachment flow when "Don't keep activities" is enabled.
+      * Fixed an edge-case bug where duplicate Issues could be filed by the user.
+      * Fixed a bug where strings in the FAQ view were not being translated on Android N devices.
+      * Fixed minor memory leaks.
+      * Fixed a bug where sometimes the breadcrumbs and Issue logs were not sent to the server.
+      * Fixed a bug where the cursor for a multi-line EditText was positioned incorrectly.
+      * Fixed a bug with filing new Issues when Proguard is enabled.
+      * Fixed a bug where Conversations with resolution questions delivered could be rejected multiple times.
+      * Fixed a bug where the toolbar is hidden at times on the Conversation screen when the keyboard is visible.
+      * Fixed a bug where the default value for enableDefaultLanguage was set to false instead of true.
+      * Fixed an edge case that caused Agent messages to sometimes not load for users.
+      * Fixed a bug where on some devices, "Was this question Helpful?" footer was shown after tapping on "Yes/No".
+      * Improved handling of random database crashes.
+      * Fixed an NPE in Campaigns for certain network failures.
+      * Fixed a bug where multiple instances of Campaigns Inbox UI were being created.
+      * Fixed a bug where push notifications for a Campaign were sometimes shown more than once.
+4.9.0-support Release Date: March 28, 2017
+      * Added support for programmatically setting screen orientation for the SDK.
+      * Users can now view the Issue ID for an ongoing Issue by navigating to the Issue Information screen by tapping the icon on the top right of the Conversation screen.
+      * SDK now supports logging to console.
+      * Added support for customizing FAQ list item height.
+      * Messages that fail to deliver can now be tapped to retry.
+      * Introduced an API to check if a Conversation is active.
+      * Added a new delegate to notify when the Conversation has ended.
+      * Made image attachment upload more network-efficient.
+      * Enabled TLS 1.2 as the default protocol for transferring data over internet for Android API levels 16(4.1.x) to 19(4.4.x).
+      * Screenshot messages in Conversations now have timestamps.
+      * Set max line limit to 3 for FAQ and sections list items.
+      * Fixed a bug where Issue resolve requests could be bypassed because of failed messages.
+      * Fixed a bug where 'Suggestions' title in Toolbar for FAQ search results for new Conversations was not shown.
+      * Fixed a crash in the image attachment flow when "Don't keep activities" is enabled.
+      * Fixed an edge-case bug where duplicate Issues could be filed by the user.
+      * Fixed a bug where strings in the FAQ view were not being translated on Android N devices.
+      * Fixed minor memory leaks.
+      * Fixed a bug where sometimes the breadcrumbs and Issue logs were not sent to the server.
+      * Fixed a bug where the cursor for a multi-line EditText was positioned incorrectly.
+      * Fixed a bug with filing new Issues when Proguard is enabled.
+      * Fixed a bug where Conversations with resolution questions delivered could be rejected multiple times.
+      * Fixed a bug where the toolbar is hidden at times on the Conversation screen when the keyboard is visible.
+      * Fixed a bug where the default value for enableDefaultLanguage was set to false instead of true.
+      * Fixed an edge case that caused Agent messages to sometimes not load for users.
+      * Fixed a bug where on some devices, "Was this question Helpful?" footer was shown after tapping on "Yes/No".
 4.8.1 Release Date: January 18, 2017
       * Fixed an ANR issue on clicking search icon when using android support library v25.1.0 and above.
       * Fixed a string localization issue in the FAQs screen which occurred on some 7" tablets.

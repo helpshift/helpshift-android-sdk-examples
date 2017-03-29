@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ВІДГУК</string>
     <string name="hs__attach_screenshot_btn">Вкласти знімок екрана</string>
-    <string name="hs__attach_screenshot_button">ВКЛАСТИ</string>
     <string name="hs__ca_msg">Ми з радістю допоможемо вам!</string>
     <string name="hs__cam_action_accept">Прийняти</string>
     <string name="hs__cam_action_book_now">Замовити зараз</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Опишіть свою проблему</string>
     <string name="hs__conversation_end_msg">Цю розмову завершено.</string>
     <string name="hs__conversation_header">Розмова</string>
+    <string name="hs__conversation_info_header">Інформація</string>
+    <string name="hs__conversation_info_issue_id">Ідентифікатор проблеми</string>
+    <string name="hs__conversation_info_menu_item_title">Відомості про проблему</string>
     <string name="hs__conversation_started_message">Ваше повідомлення отримано. Дякуємо, що звернулися до нас!</string>
+    <string name="hs__copied_to_clipboard">Скопійовано до буфера</string>
     <string name="hs__copy">Копіювати</string>
+    <string name="hs__copy_to_clipboard_tooltip">Копіювати до буфера</string>
     <string name="hs__could_not_open_attachment_msg">Немає додатків здатних виконати цю дію.</string>
     <string name="hs__could_not_reach_support_msg">Не вдається зв\'язатися зі службою підтримки</string>
     <string name="hs__cr_msg">Чим ще ми можемо вам допомогти? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Даних не знайдено</string>
     <string name="hs__default_notification_content_title">Підтримка</string>
     <string name="hs__description_invalid_length_error">Повідомте детальнішу інформацію, щоб ми змогли краще допомогти вам</string>
-    <string name="hs__dm_video_loading">Завантаження відео…</string>
     <string name="hs__done_btn">Готово</string>
     <string name="hs__email_hint">E-mail (за бажанням)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">На жаль, у цьому розділі немає доступних питань.</string>
     <string name="hs__faq_fetching_fail_message">Наразі не вдається завантажити FAQ. Повторіть спробу трохи пізніше…</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">FAQ не знайдено</string>
     <string name="hs__feedback_button">Відправити відгук </string>
     <string name="hs__fetching_faqs_message">Отримання відповідей…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Зображення недоступне</string>
     <string name="hs__invalid_description_error">Неприпустимий опис</string>
     <string name="hs__invalid_email_error">Введіть дійсну адресу e-mail</string>
+    <string name="hs__invalid_faq_publish_id_error">Збірника FAQ з таким ідентифікатором не знайдено</string>
+    <string name="hs__invalid_section_publish_id_error">Розділ FAQ з таким ідентифікатором не знайдено</string>
     <string name="hs__issue_archival_message">На жаль, цю розмову було закрито через неактивність учасників. Почніть, будь ласка, нову розмову з нашими представниками.</string>
-    <string name="hs__mark_helpful_toast">Питання позначене як корисне</string>
     <string name="hs__mark_no">Ні</string>
-    <string name="hs__mark_unhelpful_toast">Питання позначене як не корисне</string>
     <string name="hs__mark_yes">Так</string>
     <string name="hs__mark_yes_no_question">Чи допомогла вам ця інформація?</string>
     <string name="hs__message_not_sent">Повідомлення не відправлено.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Нова розмова</string>
     <string name="hs__new_conversation_hint">Чим ми можемо допомогти?</string>
     <string name="hs__no_search_results_message">На жаль, пошук не дав результатів</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Для отримання доступу до знімків екрана та завантаження вкладень потрібний дозвіл на зберігання даних</string>
     <string name="hs__permission_denied_snackbar_action">Настройки</string>
     <string name="hs__permission_not_granted">Програма не має дозволу на доступ до ваших знімків</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Помилка вкладення знімка екрана. Виберіть зображення на своєму пристрої.</string>
     <string name="hs__screenshot_limit_error">Розмір знімка екрана не повинен перевищувати %.2f Мб</string>
     <string name="hs__screenshot_remove">Видалити</string>
-    <string name="hs__screenshot_sent_msg">Знімок екрана відправлено</string>
     <string name="hs__screenshot_upload_error_msg">Помилка завантаження знімка екрана</string>
     <string name="hs__search_footer">Не можете знайти те, що шукали?</string>
     <string name="hs__search_hint">Опишіть свою проблему</string>

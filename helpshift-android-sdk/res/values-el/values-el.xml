@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ΚΡΙΤΙΚΗ</string>
     <string name="hs__attach_screenshot_btn">Επισύναψη στιγμιότυπου οθόνης</string>
-    <string name="hs__attach_screenshot_button">ΕΠΙΣΥΝΑΨΗ</string>
     <string name="hs__ca_msg">Θα σας βοηθήσουμε με μεγάλη χαρά!</string>
     <string name="hs__cam_action_accept">Αποδοχή</string>
     <string name="hs__cam_action_book_now">Κράτηση τώρα</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Περιγράψτε το πρόβλημά σας</string>
     <string name="hs__conversation_end_msg">Η συνομιλία έληξε.</string>
     <string name="hs__conversation_header">Συνομιλία</string>
+    <string name="hs__conversation_info_header">Πληροφορίες</string>
+    <string name="hs__conversation_info_issue_id">Αναγνωριστικό θέματος</string>
+    <string name="hs__conversation_info_menu_item_title">Πληροφορίες θέματος</string>
     <string name="hs__conversation_started_message">Το μήνυμά σας παραλήφθηκε. Ευχαριστούμε που επικοινωνήσατε μαζί μας!</string>
+    <string name="hs__copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="hs__copy">Αντιγραφή</string>
+    <string name="hs__copy_to_clipboard_tooltip">Αντιγραφή στο πρόχειρο</string>
     <string name="hs__could_not_open_attachment_msg">Οι εφαρμογές δεν μπορούν να εκτελέσουν αυτήν την ενέργεια.</string>
     <string name="hs__could_not_reach_support_msg">Δεν είναι δυνατή η επικοινωνία με την υποστήριξη</string>
     <string name="hs__cr_msg">Πώς αλλιώς μπορούμε να σας βοηθήσουμε; </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Δεν βρέθηκαν δεδομένα</string>
     <string name="hs__default_notification_content_title">Υποστήριξη</string>
     <string name="hs__description_invalid_length_error">Για καλύτερη εξυπηρέτηση, δώστε μας περισσότερες λεπτομέρειες</string>
-    <string name="hs__dm_video_loading">Φόρτωση βίντεο...</string>
     <string name="hs__done_btn">Τέλος</string>
     <string name="hs__email_hint">Email (προαιρετικά)</string>
     <string name="hs__email_required_hint">Email</string>
-    <string name="hs__empty_section">Λυπούμαστε: Δεν υπάρχουν διαθέσιμες ερωτήσεις για αυτή την ενότητα.</string>
     <string name="hs__faq_fetching_fail_message">Δεν είναι δυνατό να φορτωθούν οι συνήθεις ερωτήσεις. Δοκιμάστε πάλι σε λίγο...</string>
-    <string name="hs__faq_header">Συνήθεις ερωτήσεις</string>
     <string name="hs__faqs_search_footer">Δεν βρέθηκαν Συνήθεις ερωτήσεις</string>
     <string name="hs__feedback_button">Αποστολή σχολίων </string>
     <string name="hs__fetching_faqs_message">Λήψη των απαντήσεών σας...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Η εικόνα δεν είναι διαθέσιμη</string>
     <string name="hs__invalid_description_error">Μη έγκυρη περιγραφή</string>
     <string name="hs__invalid_email_error">Εισαγάγετε ένα έγκυρο email</string>
+    <string name="hs__invalid_faq_publish_id_error">Δεν βρέθηκε Συνήθης ερώτηση με αντίστοιχο αναγνωριστικό</string>
+    <string name="hs__invalid_section_publish_id_error">Δεν βρέθηκε ενότητα "Συνήθεις ερωτήσεις" με αντίστοιχο αναγνωριστικό</string>
     <string name="hs__issue_archival_message">Λυπούμαστε! Αυτή η συνομιλία έκλεισε εξαιτίας αδράνειας. Αρχίστε νέα συνομιλία με τους εκπροσώπους μας.</string>
-    <string name="hs__mark_helpful_toast">Η ερώτηση έχει επισημανθεί ως Χρήσιμη</string>
     <string name="hs__mark_no">Όχι</string>
-    <string name="hs__mark_unhelpful_toast">Η ερώτηση έχει επισημανθεί ως Μη χρήσιμη</string>
     <string name="hs__mark_yes">Ναι</string>
     <string name="hs__mark_yes_no_question">Ήταν χρήσιμο;</string>
     <string name="hs__message_not_sent">Το μήνυμα δεν στάλθηκε.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Νέα συνομιλία</string>
     <string name="hs__new_conversation_hint">Πώς μπορούμε να βοηθήσουμε;</string>
     <string name="hs__no_search_results_message">Ωχ! Δεν βρήκαμε αποτελέσματα</string>
-    <string name="hs__notification_content_text">ΑΠ:</string>
     <string name="hs__permission_denied_message">Απαιτείται δικαίωμα αποθήκευσης για πρόσβαση στα στιγμιότυπα οθόνης και για λήψη συνημμένων</string>
     <string name="hs__permission_denied_snackbar_action">Ρυθμίσεις</string>
     <string name="hs__permission_not_granted">Η εφαρμογή δεν έχει δικαίωμα πρόσβασης στις φωτογραφίες σας</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Σφάλμα κατά την προσάρτηση του στιγμιότυπου οθόνης. Επιλέξτε εικόνα στη συσκευή σας.</string>
     <string name="hs__screenshot_limit_error">Το μέγεθος στιγμιότυπου οθόνης δεν πρέπει να υπερβαίνει τα %.2f MB</string>
     <string name="hs__screenshot_remove">Αφαίρεση</string>
-    <string name="hs__screenshot_sent_msg">Το στιγμιότυπο στάλθηκε</string>
     <string name="hs__screenshot_upload_error_msg">Σφάλμα κατά τη φόρτωση στιγμιότυπου οθόνης</string>
     <string name="hs__search_footer">Δεν μπορείτε να βρείτε αυτό που ψάχνετε;</string>
     <string name="hs__search_hint">Περιγράψτε το πρόβλημά σας</string>

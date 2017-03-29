@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">レビュー</string>
     <string name="hs__attach_screenshot_btn">スクリーンショットを添付</string>
-    <string name="hs__attach_screenshot_button">添付</string>
     <string name="hs__ca_msg">真摯に受け止め対応させていただきます。</string>
     <string name="hs__cam_action_accept">承諾</string>
     <string name="hs__cam_action_book_now">今すぐ予約</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">問題の詳細をご説明ください</string>
     <string name="hs__conversation_end_msg">このメッセージは終了しました。</string>
     <string name="hs__conversation_header">メッセージ</string>
+    <string name="hs__conversation_info_header">情報</string>
+    <string name="hs__conversation_info_issue_id">問題のID</string>
+    <string name="hs__conversation_info_menu_item_title">問題の情報</string>
     <string name="hs__conversation_started_message">メッセージを受領いたしました。ご連絡ありがとうございました。</string>
+    <string name="hs__copied_to_clipboard">クリップボードにコピー済み</string>
     <string name="hs__copy">コピー</string>
+    <string name="hs__copy_to_clipboard_tooltip">クリップボードにコピー</string>
     <string name="hs__could_not_open_attachment_msg">このアクションを実行できるアプリはありません</string>
     <string name="hs__could_not_reach_support_msg">サポートに接続できません</string>
     <string name="hs__cr_msg">他にご要望がございますか？ </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">データが見つかりません</string>
     <string name="hs__default_notification_content_title">サポート</string>
     <string name="hs__description_invalid_length_error">適切なサポートをご提供させていただけるよう、より詳細な状況をお聞かせください。</string>
-    <string name="hs__dm_video_loading">ビデオをロード中…</string>
     <string name="hs__done_btn">終了</string>
     <string name="hs__email_hint">Eメールアドレス（任意）</string>
     <string name="hs__email_required_hint">Eメールアドレス</string>
-    <string name="hs__empty_section">このカテゴリのFAQはありません</string>
     <string name="hs__faq_fetching_fail_message">現在FAQを読み込めません。しばらくしてから再度お試しください。</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">FAQが見つかりません</string>
     <string name="hs__feedback_button">フィードバックを送信 </string>
     <string name="hs__fetching_faqs_message">回答を取得中…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">画像を利用できません</string>
     <string name="hs__invalid_description_error">入力内容が無効です</string>
     <string name="hs__invalid_email_error">有効なEメールアドレスをご入力ください</string>
+    <string name="hs__invalid_faq_publish_id_error">IDが一致するFAQが見つかりませんでした</string>
+    <string name="hs__invalid_section_publish_id_error">IDが一致するFAQのカテゴリが見つかりませんでした</string>
     <string name="hs__issue_archival_message">メッセージのやり取りがなかったため、この話題は終了した扱いになっています。新規メッセージを作成してください。</string>
-    <string name="hs__mark_helpful_toast">役に立った質問としてマークしました</string>
     <string name="hs__mark_no">いいえ</string>
-    <string name="hs__mark_unhelpful_toast">役に立たなかった質問としてマークしました</string>
     <string name="hs__mark_yes">はい</string>
     <string name="hs__mark_yes_no_question">お役に立ちましたか？</string>
     <string name="hs__message_not_sent">メッセージは送信されませんでした。</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">新規メッセージ</string>
     <string name="hs__new_conversation_hint">お困りですか？</string>
     <string name="hs__no_search_results_message">結果が見つかりませんでした</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">スクリーンショットへのアクセス、および添付ファイルのダウンロードには、ストレージへのアクセス権限が必要です</string>
     <string name="hs__permission_denied_snackbar_action">設定</string>
     <string name="hs__permission_not_granted">アプリから写真にアクセスする権限がありません</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">スクリーンショットを添付できませんでした。ご利用のデバイスにある画像を選択してください。</string>
     <string name="hs__screenshot_limit_error">スクリーンショットのファイルサイズは%.2fMB以下にしてください</string>
     <string name="hs__screenshot_remove">削除</string>
-    <string name="hs__screenshot_sent_msg">スクリーンショットを送信しました</string>
     <string name="hs__screenshot_upload_error_msg">スクリーンショットのアップロード中にエラーが発生しました</string>
     <string name="hs__search_footer">問題の解決方法が見つかりませんか？</string>
     <string name="hs__search_hint">問題の詳細をご説明ください</string>

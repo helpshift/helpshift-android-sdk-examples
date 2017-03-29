@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ให้คำวิจารณ์</string>
     <string name="hs__attach_screenshot_btn">แนบภาพหน้าจอ</string>
-    <string name="hs__attach_screenshot_button">แนบ</string>
     <string name="hs__ca_msg">เรายินดีให้ความช่วยเหลือคุณ!</string>
     <string name="hs__cam_action_accept">ยอมรับ</string>
     <string name="hs__cam_action_book_now">จองตอนนี้</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">โปรดอธิบายปัญหาของคุณ</string>
     <string name="hs__conversation_end_msg">การสนทนานี้จบลงแล้ว</string>
     <string name="hs__conversation_header">การสนทนา</string>
+    <string name="hs__conversation_info_header">ข้อมูล</string>
+    <string name="hs__conversation_info_issue_id">ออกไอดี</string>
+    <string name="hs__conversation_info_menu_item_title">ออกข้อมูล</string>
     <string name="hs__conversation_started_message">ได้รับข้อความของคุณแล้ว ขอบคุณสำหรับการติดต่อเรา!</string>
+    <string name="hs__copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
     <string name="hs__copy">คัดลอก</string>
+    <string name="hs__copy_to_clipboard_tooltip">คัดลอกไปยังคลิปบอร์ด</string>
     <string name="hs__could_not_open_attachment_msg">ไม่มีแอพใดดำเนินการนี้ได้</string>
     <string name="hs__could_not_reach_support_msg">ไม่สามารถติดต่อฝ่ายสนับสนุน</string>
     <string name="hs__cr_msg">มีเรื่องอื่นใดที่เราจะช่วยคุณได้อีกหรือไม่ </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">ไม่พบข้อมูล</string>
     <string name="hs__default_notification_content_title">ฝ่ายสนับสนุน</string>
     <string name="hs__description_invalid_length_error">โปรดระบุรายละเอียดเพิ่มเติม เพื่อให้เราสามารถช่วยเหลือคุณได้ดียิ่งขึ้น</string>
-    <string name="hs__dm_video_loading">กำลังโหลดวิดีโอ…</string>
     <string name="hs__done_btn">เสร็จแล้ว</string>
     <string name="hs__email_hint">อีเมล (ทางเลือก)</string>
     <string name="hs__email_required_hint">อีเมล</string>
-    <string name="hs__empty_section">ขออภัย! ไม่มีคำถามในส่วนนนี้</string>
     <string name="hs__faq_fetching_fail_message">ไม่สามารถโหลดคำถามที่พบบ่อยได้ในขณะนี้ โปรดลองใหม่ในอีกสักครู่…</string>
-    <string name="hs__faq_header">คำถามที่ถามบ่อย</string>
     <string name="hs__faqs_search_footer">ไม่พบคำถามที่ถามบ่อย</string>
     <string name="hs__feedback_button">ส่งคำติชม </string>
     <string name="hs__fetching_faqs_message">กำลังเรียกคำตอบขอบคุณ…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">ไม่มีรูปภาพ</string>
     <string name="hs__invalid_description_error">คำอธิบายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">โปรดใส่อีเมลที่ถูกต้อง</string>
+    <string name="hs__invalid_faq_publish_id_error">เราค้นหาคำถามที่พบบ่อยที่มี ID ตรงกันไม่พบ</string>
+    <string name="hs__invalid_section_publish_id_error">เราค้นหาส่วนคำถามที่พบบ่อยที่มี ID ตรงกันไม่พบ</string>
     <string name="hs__issue_archival_message">ขออภัย! การสนทนานี้จะปิดลงเนื่องจากไม่มีการใช้งาน โปรดเริ่มต้นการสนทนาใหม่กับตัวแทนของเรา</string>
-    <string name="hs__mark_helpful_toast">คำถามได้รับการทำเครื่องหมายว่ามีประโยชน์</string>
     <string name="hs__mark_no">ไม่ใช่</string>
-    <string name="hs__mark_unhelpful_toast">คำถามได้รับการทำเครื่องหมายว่าไม่มีประโยชน์</string>
     <string name="hs__mark_yes">ใช่</string>
     <string name="hs__mark_yes_no_question">สิ่งนี้มีประโยชน์หรือไม่</string>
     <string name="hs__message_not_sent">ยังไม่ได้ส่งข้อความ</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">การสนทนาใหม่</string>
     <string name="hs__new_conversation_hint">เราจะช่วยเหลือคุณได้อย่างไรบ้าง</string>
     <string name="hs__no_search_results_message">โอ๊ะ! เราไม่พบผลลัพธ์ใดๆ</string>
-    <string name="hs__notification_content_text">ตอบ:</string>
     <string name="hs__permission_denied_message">ต้องอนุญาตการใช้งานที่จัดเก็บข้อมูลเพื่อให้สามารถเข้าถึงภาพหน้าจอและดาวน์โหลดไฟล์แนบได้</string>
     <string name="hs__permission_denied_snackbar_action">การตั้งค่า</string>
     <string name="hs__permission_not_granted">แอปพลิเคชันไม่ได้รับสิทธิ์ให้เข้าถึงรูปภาพของคุณ</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">มีข้อผิดพลาดในการแนบภาพหน้าจอ โปรดเลือกภาพบนอุปกรณ์ของคุณ</string>
     <string name="hs__screenshot_limit_error">ขนาดของภาพหน้าจอไม่ควรเกิน %.2f MB</string>
     <string name="hs__screenshot_remove">ลบออก</string>
-    <string name="hs__screenshot_sent_msg">ส่งภาพถ่ายหน้าจอแล้ว</string>
     <string name="hs__screenshot_upload_error_msg">มีข้อผิดพลาดในการอัปโหลดภาพหน้าจอ</string>
     <string name="hs__search_footer">ไม่พบสิ่งที่คุณกำลังค้นหาใช่หรือไม่</string>
     <string name="hs__search_hint">อธิบายปัญหาของคุณ</string>

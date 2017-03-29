@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">GÖZDEN GEÇİR</string>
     <string name="hs__attach_screenshot_btn">Ekran görüntüsü ekle</string>
-    <string name="hs__attach_screenshot_button">EKLE</string>
     <string name="hs__ca_msg">Yardımcı olmaktan memnuniyet duyarız!</string>
     <string name="hs__cam_action_accept">Kabul et</string>
     <string name="hs__cam_action_book_now">Şimdi Rezerve Et</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Lütfen sorununu tanımla</string>
     <string name="hs__conversation_end_msg">Bu konuşma son erdi.</string>
     <string name="hs__conversation_header">Konuşma</string>
+    <string name="hs__conversation_info_header">Bilgi</string>
+    <string name="hs__conversation_info_issue_id">Sorun Kimliği</string>
+    <string name="hs__conversation_info_menu_item_title">Sorun Bilgisi</string>
     <string name="hs__conversation_started_message">Mesajın alındı. Bizimle irtibata geçtiğin için teşekkür ederiz!</string>
+    <string name="hs__copied_to_clipboard">Panoya kopyalandı</string>
     <string name="hs__copy">Kopyala</string>
+    <string name="hs__copy_to_clipboard_tooltip">Panoya kopyala</string>
     <string name="hs__could_not_open_attachment_msg">Bu eylemi hiçbir uygulama gerçekleştiremez</string>
     <string name="hs__could_not_reach_support_msg">Desteğe erişilemiyor</string>
     <string name="hs__cr_msg">Başka nasıl yardımcı olabiliriz? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Veri bulunamadı</string>
     <string name="hs__default_notification_content_title">Destek</string>
     <string name="hs__description_invalid_length_error">Daha iyi yardım almak için daha fazla bilgi verin</string>
-    <string name="hs__dm_video_loading">Video yükleniyor...</string>
     <string name="hs__done_btn">Bitti</string>
     <string name="hs__email_hint">E-posta (isteğe bağlı)</string>
     <string name="hs__email_required_hint">E-posta</string>
-    <string name="hs__empty_section">Üzgünüz! Bu bölümde hiç soru yok.</string>
     <string name="hs__faq_fetching_fail_message">Şu anda SSS yüklenemiyor. Lütfen daha sonra yeniden dene...</string>
-    <string name="hs__faq_header">SSS</string>
     <string name="hs__faqs_search_footer">SSS bulunamadı</string>
     <string name="hs__feedback_button">Geri Bildirim Gönder </string>
     <string name="hs__fetching_faqs_message">Yanıtların hazırlanıyor...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Görüntü kullanılamıyor</string>
     <string name="hs__invalid_description_error">Geçersiz tanım</string>
     <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi gir</string>
+    <string name="hs__invalid_faq_publish_id_error">Eşleşen kimliğe sahip bir SSS sayfası bulamadık</string>
+    <string name="hs__invalid_section_publish_id_error">Eşleşen kimliğe sahip bir SSS bölümü bulamadık</string>
     <string name="hs__issue_archival_message">Üzgünüz! Konuşma herhangi bir etkinlik olmadığından dolayı kapatıldı. Lütfen temsilcimiz ile yeni bir konuşma başlat.</string>
-    <string name="hs__mark_helpful_toast">Soru Yararlı olarak işaretlendi</string>
     <string name="hs__mark_no">Hayır</string>
-    <string name="hs__mark_unhelpful_toast">Soru Yararlı Değil olarak işaretlendi</string>
     <string name="hs__mark_yes">Evet</string>
     <string name="hs__mark_yes_no_question">Bu yardımcı oldu mu?</string>
     <string name="hs__message_not_sent">Mesaj gönderilemedi.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Yeni Konuşma</string>
     <string name="hs__new_conversation_hint">Nasıl yardımcı olabiliriz?</string>
     <string name="hs__no_search_results_message">Eyvah! herhangi bir sonuç bulamıyoruz</string>
-    <string name="hs__notification_content_text">Konu:</string>
     <string name="hs__permission_denied_message">Ekran görüntülerine ve indirilen eklere erişmek için depolama izni gerekli</string>
     <string name="hs__permission_denied_snackbar_action">Ayarlar</string>
     <string name="hs__permission_not_granted">Uygulamanın fotoğraflarına erişme izni yok</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Ekran görüntüsü eklerken hata oluştu. Lütfen cihazından bir görüntü seç.</string>
     <string name="hs__screenshot_limit_error">Ekran görüntüsü boyutu %.2f MB\'ı aşmamalı</string>
     <string name="hs__screenshot_remove">Kaldır</string>
-    <string name="hs__screenshot_sent_msg">Ekran görüntüsü gönderildi</string>
     <string name="hs__screenshot_upload_error_msg">Ekran görüntüsü yüklemede hata oluştu</string>
     <string name="hs__search_footer">Aradığını bulamıyor musun?</string>
     <string name="hs__search_hint">Problemini tanımla</string>

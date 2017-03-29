@@ -1,6 +1,6 @@
 # Helpshift Android SDK Samples
 
-This repository contains a collection of example projects for **Helpshift Android SDK v4.8.1**.
+This repository contains a collection of example projects for **Helpshift Android SDK v4.9.0**.
 
 (See samples for older versions [here](#samples-for-older-releases))
 
@@ -10,16 +10,11 @@ This repository contains a collection of example projects for **Helpshift Androi
 
 ## Projects
 
-Each one of the sub-directories apart from `appcompat`,
-`helpshift-android-sdk`, `cardview`, `recyclerview`, `design`, `google-play-services_lib` in this repository is a genuine Android project that demonstrates SDK integration and features.
+Each one of the sub-directories apart from `helpshift-android-sdk`, `android_libs` in this repository is a genuine Android project that demonstrates SDK integration and features.
 
 * **[HelpshiftDemo](HelpshiftDemo)**: demonstrates different support screens in your app
-* **[HelpshiftDemoMaven](HelpshiftDemoMaven)**: HelpshiftDemo project using maven instead of Ant
 * **[HelpshiftDemoGradle](HelpshiftDemoGradle)**: HelpshiftDemo project using Gradle instead of Ant
-* **[HSThemeApp](HSThemeApp)**: app to demo theme inheritance on Helpshift SDK's UI
 * **[GcmClient](GcmClient)**: demonstrates Helpshift support notifications via Google Cloud Messaging
-* **[UrbanAirshipApp](UrbanAirshipApp)**: demonstrates Helpshift support notifications via Urban Airship
-* **[PGApp](PGApp)**: demo app to check SDK compatibility when Proguard is active
 * **[GCMApp](GCMApp)**: app to demo use of Google Play Services. This is a port of [GCMClient project](https://code.google.com/p/gcm/) from Gradle to Ant build system.
 
 **Note:** `/helpshift-android-sdk`, `cardview`, `recyclerview`, `design`
@@ -33,6 +28,7 @@ Each one of the sub-directories apart from `appcompat`,
 
 ## Samples for Older Releases
 
+* [Release v4.8.1](../../tree/4.8.1)
 * [Release v4.8.0](../../tree/4.8.0)
 * [Release v4.7.0](../../tree/4.7.0)
 * [Release v4.6.0](../../tree/4.6.0)

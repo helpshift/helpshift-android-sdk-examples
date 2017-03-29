@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">مراجعة</string>
     <string name="hs__attach_screenshot_btn">إرفاق لقطة الشاشة</string>
-    <string name="hs__attach_screenshot_button">إرفاق</string>
     <string name="hs__ca_msg">نحن سعداء بمساعدتك!</string>
     <string name="hs__cam_action_accept">قبول</string>
     <string name="hs__cam_action_book_now">حجز الآن</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">يُرجى وصف مشكلتك</string>
     <string name="hs__conversation_end_msg">لقد انتهت المحادثة.</string>
     <string name="hs__conversation_header">محادثة</string>
+    <string name="hs__conversation_info_header">معلومات</string>
+    <string name="hs__conversation_info_issue_id">معرّف المشكلة</string>
+    <string name="hs__conversation_info_menu_item_title">معلومات عن المشكلة</string>
     <string name="hs__conversation_started_message">تم تلقي رسالتك. نشكرك على اتصالك بنا!</string>
+    <string name="hs__copied_to_clipboard">تم النسخ إلى الحافظة</string>
     <string name="hs__copy">نسخ</string>
+    <string name="hs__copy_to_clipboard_tooltip">النسخ إلى الحافظة</string>
     <string name="hs__could_not_open_attachment_msg">لا توجد تطبيقات يمكنها تنفيذ هذا الإجراء</string>
     <string name="hs__could_not_reach_support_msg">لا يمكن الوصول إلى الدعم</string>
     <string name="hs__cr_msg">ما الذي نستطيع فعله لمساعدتك أيضًا؟ </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">لم يتم العثور على البيانات</string>
     <string name="hs__default_notification_content_title">الدعم</string>
     <string name="hs__description_invalid_length_error">لدعم أفضل، يُرجى تقديم المزيد من التفاصيل</string>
-    <string name="hs__dm_video_loading">جارِ تحميل مقطع الفيديو...</string>
     <string name="hs__done_btn">تم</string>
     <string name="hs__email_hint">البريد الإلكتروني (اختياري)</string>
     <string name="hs__email_required_hint">البريد الإلكتروني</string>
-    <string name="hs__empty_section">عفوًا! لا توجد أسئلة متوفرة في هذا القسم.</string>
     <string name="hs__faq_fetching_fail_message">لا يمكن تحميل الأسئلة المتداولة في الوقت الحالي. يُرجى المحاولة بعد قليل...</string>
-    <string name="hs__faq_header">الأسئلة الشائعة</string>
     <string name="hs__faqs_search_footer">لم يتم العثور على أسئلة شائعة</string>
     <string name="hs__feedback_button">إرسال تعليق </string>
     <string name="hs__fetching_faqs_message">جارِ الحصول على أجوبتك...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">الصورة غير متاحة</string>
     <string name="hs__invalid_description_error">وصف غير صحيح</string>
     <string name="hs__invalid_email_error">يُرجى إدخال عنوان بريد إلكتروني صحيح</string>
+    <string name="hs__invalid_faq_publish_id_error">لم نستطع العثور على سؤال متداول يتطابق مع معرّف.</string>
+    <string name="hs__invalid_section_publish_id_error">لم نستطع العثور على قسم أسئلة متداولة يتطابق مع معرّف</string>
     <string name="hs__issue_archival_message">عفوًا! تم إغلاق هذه المحادثة نظرًا لعدم وجود نشاط بها. يُرجى بدء محادثة جديدة مع مندوبينا.</string>
-    <string name="hs__mark_helpful_toast">تم اعتبار السؤال مفيدًا</string>
     <string name="hs__mark_no">لا</string>
-    <string name="hs__mark_unhelpful_toast">تم اعتبار السؤال غير مفيد</string>
     <string name="hs__mark_yes">نعم</string>
     <string name="hs__mark_yes_no_question">هل ساعدك ذلك؟</string>
     <string name="hs__message_not_sent">لم يتم إرسال الرسالة.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">محادثة جديدة</string>
     <string name="hs__new_conversation_hint">كيف يمكننا المساعدة؟</string>
     <string name="hs__no_search_results_message">عفوًا! لم نتمكن من العثور على أي نتائج</string>
-    <string name="hs__notification_content_text">بخصوص:</string>
     <string name="hs__permission_denied_message">يتطلب منح صلاحية الدخول على ذاكرة التخزين للاطلاع على لقطات الشاشة وتنزيل المرفقات</string>
     <string name="hs__permission_denied_snackbar_action">الإعدادات</string>
     <string name="hs__permission_not_granted">ليس للتطبيق صلاحية الاطلاع على الصور الخاصة بك</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">خطأ في إرفاق لقطة الشاشة. يُرجى اختيار صورة من على جهازك.</string>
     <string name="hs__screenshot_limit_error">لا ينبغي للقطة الشاشة أن تزيد عن مساحة %.2f ميجابايت</string>
     <string name="hs__screenshot_remove">إزالة</string>
-    <string name="hs__screenshot_sent_msg">تم إرسال لقطة الشاشة</string>
     <string name="hs__screenshot_upload_error_msg">خطأ في تحميل لقطة الشاشة</string>
     <string name="hs__search_footer">لا تستطيع العثور على ما كنت تبحث عنه؟</string>
     <string name="hs__search_hint">صف مشكلتك</string>

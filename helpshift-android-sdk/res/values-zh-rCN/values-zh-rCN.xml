@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">评论</string>
     <string name="hs__attach_screenshot_btn">添加屏幕截图</string>
-    <string name="hs__attach_screenshot_button">添加</string>
     <string name="hs__ca_msg">我们很乐意为您提供帮助！</string>
     <string name="hs__cam_action_accept">接受</string>
     <string name="hs__cam_action_book_now">立刻订购</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">请说明您遇到的问题</string>
     <string name="hs__conversation_end_msg">该对话已结束。</string>
     <string name="hs__conversation_header">对话</string>
+    <string name="hs__conversation_info_header">信息</string>
+    <string name="hs__conversation_info_issue_id">问题 ID</string>
+    <string name="hs__conversation_info_menu_item_title">问题信息</string>
     <string name="hs__conversation_started_message">我们已收到您的消息，感谢您联系我们！</string>
+    <string name="hs__copied_to_clipboard">已复制到剪切板</string>
     <string name="hs__copy">复制</string>
+    <string name="hs__copy_to_clipboard_tooltip">复制到剪切板</string>
     <string name="hs__could_not_open_attachment_msg">没有执行此操作的应用</string>
     <string name="hs__could_not_reach_support_msg">无法与客服取得联系</string>
     <string name="hs__cr_msg">我们还能为您做些什么？ </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">未找到数据</string>
     <string name="hs__default_notification_content_title">客服</string>
     <string name="hs__description_invalid_length_error">请提供更多详细信息，以便我们提供更好的协助</string>
-    <string name="hs__dm_video_loading">正在加载视频……</string>
     <string name="hs__done_btn">完成</string>
     <string name="hs__email_hint">电子邮件（可选）</string>
     <string name="hs__email_required_hint">电子邮件Email</string>
-    <string name="hs__empty_section">抱歉！该分区暂时无任何问题。</string>
     <string name="hs__faq_fetching_fail_message">暂时无法加载常见问题解答，请稍后重试……</string>
-    <string name="hs__faq_header">常见问题解答</string>
     <string name="hs__faqs_search_footer">未找到常见问题解答</string>
     <string name="hs__feedback_button">发送反馈 </string>
     <string name="hs__fetching_faqs_message">正在获取您的答案……</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">图片不可用</string>
     <string name="hs__invalid_description_error">无效说明</string>
     <string name="hs__invalid_email_error">请输入有效的电子邮件</string>
+    <string name="hs__invalid_faq_publish_id_error">我们未能找到与ID匹配的常见问题解答</string>
+    <string name="hs__invalid_section_publish_id_error">我们未能找到与ID匹配的常见问题解答章节</string>
     <string name="hs__issue_archival_message">抱歉！该对话因为不活跃而关闭。请与我们的代理开始新对话。</string>
-    <string name="hs__mark_helpful_toast">问题已被标记为有帮助</string>
     <string name="hs__mark_no">否</string>
-    <string name="hs__mark_unhelpful_toast">问题已被标记为无帮助</string>
     <string name="hs__mark_yes">是</string>
     <string name="hs__mark_yes_no_question">该话题有帮助吗？</string>
     <string name="hs__message_not_sent">消息未发送。</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">新对话</string>
     <string name="hs__new_conversation_hint">我们能为您做些什么？</string>
     <string name="hs__no_search_results_message">糟糕，未能找到任何结果</string>
-    <string name="hs__notification_content_text">回复：</string>
     <string name="hs__permission_denied_message">需要存储权限才能访问屏幕截图并下载附件</string>
     <string name="hs__permission_denied_snackbar_action">设置</string>
     <string name="hs__permission_not_granted">应用程序缺少访问您的照片的权限</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">添加屏幕截图时出错。请在您的设备中选择一张图片。</string>
     <string name="hs__screenshot_limit_error">屏幕截图不应超过%.2fMB</string>
     <string name="hs__screenshot_remove">移除</string>
-    <string name="hs__screenshot_sent_msg">屏幕截图已发送</string>
     <string name="hs__screenshot_upload_error_msg">上传屏幕截图时出错</string>
     <string name="hs__search_footer">找不到所需的答案吗？</string>
     <string name="hs__search_hint">说明您遇到的问题</string>

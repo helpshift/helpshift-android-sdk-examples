@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">RESEÑAR</string>
     <string name="hs__attach_screenshot_btn">Adjuntar captura</string>
-    <string name="hs__attach_screenshot_button">ADJUNTAR</string>
     <string name="hs__ca_msg">¡Estamos encantados de ayudarle!</string>
     <string name="hs__cam_action_accept">Aceptar</string>
     <string name="hs__cam_action_book_now">Reservar ahora</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Describa el problema</string>
     <string name="hs__conversation_end_msg">La conversación ha finalizado.</string>
     <string name="hs__conversation_header">Conversación</string>
+    <string name="hs__conversation_info_header">Información</string>
+    <string name="hs__conversation_info_issue_id">Id. de problema</string>
+    <string name="hs__conversation_info_menu_item_title">Información del problema</string>
     <string name="hs__conversation_started_message">Hemos recibido su mensaje. ¡Gracias por ponerse en contacto!</string>
+    <string name="hs__copied_to_clipboard">Se copió al portapapeles</string>
     <string name="hs__copy">Copiar</string>
+    <string name="hs__copy_to_clipboard_tooltip">Copiar al portapapeles</string>
     <string name="hs__could_not_open_attachment_msg">Ninguna aplicación puede realizar esta acción</string>
     <string name="hs__could_not_reach_support_msg">No se puede contactar con soporte</string>
     <string name="hs__cr_msg">¿Necesita más ayuda? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">No se encuentran datos</string>
     <string name="hs__default_notification_content_title">Soporte</string>
     <string name="hs__description_invalid_length_error">Sea más preciso para poder asistirle mejor</string>
-    <string name="hs__dm_video_loading">Cargando vídeo...</string>
     <string name="hs__done_btn">Listo</string>
     <string name="hs__email_hint">Correo (opcional)</string>
     <string name="hs__email_required_hint">Correo</string>
-    <string name="hs__empty_section">Lo sentimos. No hay preguntas disponibles en esta sección.</string>
     <string name="hs__faq_fetching_fail_message">En estos momentos, no se pueden cargar P+F. Inténtelo de nuevo más tarde…</string>
-    <string name="hs__faq_header">P+F</string>
     <string name="hs__faqs_search_footer">No se han encontrado P+F</string>
     <string name="hs__feedback_button">Enviar comentarios </string>
     <string name="hs__fetching_faqs_message">Obteniendo sus respuestas…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Imagen no disponible</string>
     <string name="hs__invalid_description_error">Descripción no válida</string>
     <string name="hs__invalid_email_error">Escriba un correo válido</string>
+    <string name="hs__invalid_faq_publish_id_error">No se ha encontrado una P+F con el ID correspondiente.</string>
+    <string name="hs__invalid_section_publish_id_error">No se ha encontrado una sección de P+F con el id. correspondiente.</string>
     <string name="hs__issue_archival_message">Lo sentimos. La conversación se ha cerrado porque estaba inactiva. Inicie otra con sus agentes.</string>
-    <string name="hs__mark_helpful_toast">La pregunta se ha calificado como útil</string>
     <string name="hs__mark_no">No</string>
-    <string name="hs__mark_unhelpful_toast">La pregunta se ha calificado como no útil</string>
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">¿Le resultó útil?</string>
     <string name="hs__message_not_sent">Mensaje no enviado.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nueva conversación</string>
     <string name="hs__new_conversation_hint">¿En qué podemos ayudarle?</string>
     <string name="hs__no_search_results_message">¡Vaya! No encontramos resultados</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Para acceder a las capturas y descargar archivos adjuntos, se quiere permiso de almacenamiento</string>
     <string name="hs__permission_denied_snackbar_action">Configuración</string>
     <string name="hs__permission_not_granted">La aplicación no tiene permiso para acceder a sus fotos</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Error al adjuntar captura. Elija una imagen en su dispositivo.</string>
     <string name="hs__screenshot_limit_error">La captura de pantalla no debe superar %.2f MB</string>
     <string name="hs__screenshot_remove">Quitar</string>
-    <string name="hs__screenshot_sent_msg">Captura enviada</string>
     <string name="hs__screenshot_upload_error_msg">Error al cargar captura</string>
     <string name="hs__search_footer">¿No ha encontrado lo que buscaba?</string>
     <string name="hs__search_hint">Describa su problema</string>

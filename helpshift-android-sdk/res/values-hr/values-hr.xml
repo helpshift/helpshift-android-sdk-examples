@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">OSVRT</string>
     <string name="hs__attach_screenshot_btn">Priloži snimku zaslona</string>
-    <string name="hs__attach_screenshot_button">PRILOŽI</string>
     <string name="hs__ca_msg">Sretni smo što vam možemo pomoći</string>
     <string name="hs__cam_action_accept">Prihvati</string>
     <string name="hs__cam_action_book_now">Zakaži sada</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Opišite problem</string>
     <string name="hs__conversation_end_msg">Ovaj je razgovor završen.</string>
     <string name="hs__conversation_header">Razgovor</string>
+    <string name="hs__conversation_info_header">Informacije</string>
+    <string name="hs__conversation_info_issue_id">Izdaj identifikacijsku oznaku</string>
+    <string name="hs__conversation_info_menu_item_title">Informacije o izdavanjy</string>
     <string name="hs__conversation_started_message">Vaša je poruka primljena. Hvala vam na poruci!</string>
+    <string name="hs__copied_to_clipboard">Kopirano u međuspremnik</string>
     <string name="hs__copy">Kopiraj</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopiraj u međuspremnik</string>
     <string name="hs__could_not_open_attachment_msg">Ni jedna aplikacija ne može provesti tu radnju.</string>
     <string name="hs__could_not_reach_support_msg">Nije moguće dosegnuti podršku</string>
     <string name="hs__cr_msg">Trebate li dodatnu pomoć? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Podatak nije pronađen</string>
     <string name="hs__default_notification_content_title">Podrška</string>
     <string name="hs__description_invalid_length_error">Kako bismo vam pružili bolju podršku, navedite više pojedinosti</string>
-    <string name="hs__dm_video_loading">Učitavanje videozapisa...</string>
     <string name="hs__done_btn">Završeno</string>
     <string name="hs__email_hint">Adresa elektroničke pošte (neobvezno)</string>
     <string name="hs__email_required_hint">Adresa elektroničke pošte</string>
-    <string name="hs__empty_section">Ispričavamo se! Nijedno pitanje nije dostupno u ovom odjeljku.</string>
     <string name="hs__faq_fetching_fail_message">U ovom trenutku nije moguće učitati Često postavljana pitanja. Pokušajte kasnije...</string>
-    <string name="hs__faq_header">Često postavljana pitanja</string>
     <string name="hs__faqs_search_footer">Nijedno često postavljano pitanje nije pronađeno</string>
     <string name="hs__feedback_button">Pošalji povratne informacije </string>
     <string name="hs__fetching_faqs_message">Dohvaćanje vaših odgovora...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Slika nije dostupna</string>
     <string name="hs__invalid_description_error">Neispravan opis</string>
     <string name="hs__invalid_email_error">Upišite ispravnu adresu elektroničke pošte</string>
+    <string name="hs__invalid_faq_publish_id_error">Nismo pronašli Često postavljano pitanje s pripadajućom identifikacijskom oznakom</string>
+    <string name="hs__invalid_section_publish_id_error">Nismo pronašli odjeljak Često postavljano pitanje s pripadajućom identifikacijskom oznakom</string>
     <string name="hs__issue_archival_message">Ispričavamo se! Ovaj je razgovor završen zbog neaktivnosti. Započnite novi razgovor s našim agentima.</string>
-    <string name="hs__mark_helpful_toast">Pitanje je označeno kao Korisno</string>
     <string name="hs__mark_no">Ne</string>
-    <string name="hs__mark_unhelpful_toast">Pitanje je označeno kao Nekorisno</string>
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Je li vam ovo objašnjenje bilo korisno?</string>
     <string name="hs__message_not_sent">Poruka nije poslana.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Novi razgovor</string>
     <string name="hs__new_conversation_hint">Kako vam možemo pomoći?</string>
     <string name="hs__no_search_results_message">Nažalost nismo pronašli nijedan rezultat</string>
-    <string name="hs__notification_content_text">Odg:</string>
     <string name="hs__permission_denied_message">Dopuštenje za pohranjivanje potrebno je za pristupanje snimkama zaslona i preuzimanje priloga</string>
     <string name="hs__permission_denied_snackbar_action">Postavke</string>
     <string name="hs__permission_not_granted">Aplikacija nema dopuštenje za pristupanje vašim fotografijama</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Došlo je do pogreške prilikom prilaganja snimke zaslona. Odaberite sliku na svojem uređaju.</string>
     <string name="hs__screenshot_limit_error">Veličina snimke zaslona ne smije biti veća od %.2f MB</string>
     <string name="hs__screenshot_remove">Ukloni</string>
-    <string name="hs__screenshot_sent_msg">Snimka je zaslona poslana</string>
     <string name="hs__screenshot_upload_error_msg">Došlo je do pogreške prilikom prenošenja snimke zaslona</string>
     <string name="hs__search_footer">Ne možete pronaći što tražite?</string>
     <string name="hs__search_hint">Opišite svoj problem</string>

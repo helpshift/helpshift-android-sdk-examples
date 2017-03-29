@@ -112,13 +112,14 @@
     </LinearLayout>
 
     <com.helpshift.views.HSTextView
-        android:id="@android:id/text2"
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
         android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="4dp"
         android:textColor="?android:textColorHint"
-        android:textSize="@dimen/hs__textSizeSmall"/>
+        android:textSize="@dimen/hs__textSizeSmall"
+        android:visibility="gone"/>
   </LinearLayout>
 </LinearLayout>

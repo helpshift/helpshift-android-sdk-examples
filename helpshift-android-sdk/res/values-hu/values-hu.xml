@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">VÉLEMÉNY</string>
     <string name="hs__attach_screenshot_btn">Képernyőfotó csatolása</string>
-    <string name="hs__attach_screenshot_button">CSATOLÁS</string>
     <string name="hs__ca_msg">Nagyon szívesen segítünk!</string>
     <string name="hs__cam_action_accept">Elfogadás</string>
     <string name="hs__cam_action_book_now">Foglalás</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Kérjük, írja le a problémát</string>
     <string name="hs__conversation_end_msg">A beszélgetés befejeződött.</string>
     <string name="hs__conversation_header">Beszélgetés</string>
+    <string name="hs__conversation_info_header">Információ</string>
+    <string name="hs__conversation_info_issue_id">Probléma azonosítója</string>
+    <string name="hs__conversation_info_menu_item_title">Információ a problémáról</string>
     <string name="hs__conversation_started_message">Az üzenetét megkaptuk. Köszönjük, hogy hozzánk fordult!</string>
+    <string name="hs__copied_to_clipboard">Vágólapra másolva</string>
     <string name="hs__copy">Példány</string>
+    <string name="hs__copy_to_clipboard_tooltip">Másolás a vágólapra</string>
     <string name="hs__could_not_open_attachment_msg">Nincs alkalmazás, amely ezt a művelet végre tudja hajtani</string>
     <string name="hs__could_not_reach_support_msg">Az ügyfélszolgálat elérése sikertelen.</string>
     <string name="hs__cr_msg">Segíthetünk valami másban is? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Nem található adat</string>
     <string name="hs__default_notification_content_title">Ügyfélszolgálat</string>
     <string name="hs__description_invalid_length_error">Adjon meg további részleteket, hogy hatékonyabban segíthessünk Önnek</string>
-    <string name="hs__dm_video_loading">Videó betöltése...</string>
     <string name="hs__done_btn">Kész</string>
     <string name="hs__email_hint">E-mail cím (opcionális)</string>
     <string name="hs__email_required_hint">E-mail cím</string>
-    <string name="hs__empty_section">Sajnáljuk, ebben a részben nem érhetők el kérdések.</string>
     <string name="hs__faq_fetching_fail_message">A GYIK jelenleg nem tölthető be. Kérjük, próbálja újra később…</string>
-    <string name="hs__faq_header">GYIK</string>
     <string name="hs__faqs_search_footer">Nem található GYIK</string>
     <string name="hs__feedback_button">Visszajelzés küldése </string>
     <string name="hs__fetching_faqs_message">Az Ön válaszainak előkészítése…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">A kép nem érhető el</string>
     <string name="hs__invalid_description_error">Érvénytelen leírás</string>
     <string name="hs__invalid_email_error">Kérjük, érvényes e-mail címet adjon meg</string>
+    <string name="hs__invalid_faq_publish_id_error">Nem találtunk egyező azonosítójú GYIK-et.</string>
+    <string name="hs__invalid_section_publish_id_error">Nem találtunk egyező azonosítójú GYIK-részt.</string>
     <string name="hs__issue_archival_message">Sajnáljuk, de ezt a beszélgetést tevékenység hiánya miatt lezártuk. Kérjük, kezdjen új beszélgetést ügynökeinkkel.</string>
-    <string name="hs__mark_helpful_toast">A kérdés „Hasznosként” megjelölve</string>
     <string name="hs__mark_no">Nem</string>
-    <string name="hs__mark_unhelpful_toast">A kérdés „Nem hasznosként” megjelölve</string>
     <string name="hs__mark_yes">Igen</string>
     <string name="hs__mark_yes_no_question">Hasznos volt a válasz?</string>
     <string name="hs__message_not_sent">Az üzenet nincs elküldve.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Új beszélgetés</string>
     <string name="hs__new_conversation_hint">Miben segíthetünk?</string>
     <string name="hs__no_search_results_message">Hoppá! Nem található eredmény</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">A képernyőfotók eléréséhez és a mellékletek letöltéséhez tárolási engedély szükséges</string>
     <string name="hs__permission_denied_snackbar_action">Beállítások</string>
     <string name="hs__permission_not_granted">Az alkalmazás nem rendelkezik engedéllyel az Ön fotóinak eléréséhez</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Hiba a képernyőfotó csatolása során. Kérjük, válasszon egy képet az eszközén.</string>
     <string name="hs__screenshot_limit_error">A képernyőfotó maximális mérete %.2f MB</string>
     <string name="hs__screenshot_remove">Eltávolítás</string>
-    <string name="hs__screenshot_sent_msg">Képernyőfotó elküldve</string>
     <string name="hs__screenshot_upload_error_msg">Hiba a képernyőfotó feltöltése során</string>
     <string name="hs__search_footer">Nem találja, amit keresett?</string>
     <string name="hs__search_hint">Írja le a problémát</string>

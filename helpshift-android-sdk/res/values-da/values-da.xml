@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">BEDØM</string>
     <string name="hs__attach_screenshot_btn">Vedhæft skærmbillede</string>
-    <string name="hs__attach_screenshot_button">VEDHÆFT</string>
     <string name="hs__ca_msg">Vi vil meget gerne hjælpe dig!</string>
     <string name="hs__cam_action_accept">Acceptér</string>
     <string name="hs__cam_action_book_now">Bestil nu</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Beskriv dit problem</string>
     <string name="hs__conversation_end_msg">Denne besked er slut.</string>
     <string name="hs__conversation_header">Besked</string>
+    <string name="hs__conversation_info_header">Oplysninger</string>
+    <string name="hs__conversation_info_issue_id">Problem-id</string>
+    <string name="hs__conversation_info_menu_item_title">Problemoplysninger</string>
     <string name="hs__conversation_started_message">Vi har modtaget din besked. Tak fordi du kontaktede os!</string>
+    <string name="hs__copied_to_clipboard">Kopieret til udklipsholder</string>
     <string name="hs__copy">Kopiér</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopiér til udklipsholder</string>
     <string name="hs__could_not_open_attachment_msg">Ingen apps kan udføre denne handling.</string>
     <string name="hs__could_not_reach_support_msg">Support ikke tilgængelig</string>
     <string name="hs__cr_msg">Hvad kan vi ellers hjælpe dig med? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Data ikke fundet</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">Angiv flere oplysninger, så vi bedre kan hjælpe dig</string>
-    <string name="hs__dm_video_loading">Indlæser video ...</string>
     <string name="hs__done_btn">Udført</string>
     <string name="hs__email_hint">E-mail (valgfrit)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Vi beklager! Der er ingen spørgsmål i denne sektion.</string>
     <string name="hs__faq_fetching_fail_message">Vi kan i øjeblikket ikke indlæse de ofte stillede spørgsmål. Prøv igen senere ...</string>
-    <string name="hs__faq_header">OSS</string>
     <string name="hs__faqs_search_footer">Ingen OSS fundet</string>
     <string name="hs__feedback_button">Send feedback </string>
     <string name="hs__fetching_faqs_message">Modtager dine svar ...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Billede ikke til rådighed</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Indtast en gyldig e-mailadresse</string>
+    <string name="hs__invalid_faq_publish_id_error">Der blev ikke fundet et OSS med et matchende ID</string>
+    <string name="hs__invalid_section_publish_id_error">Der blev ikke fundet en OSS-sektion med et matchende ID</string>
     <string name="hs__issue_archival_message">Vi beklager! Denne samtale blev lukket pga. inaktivitet. Start en ny samtale med vores agenter.</string>
-    <string name="hs__mark_helpful_toast">Et spørgsmål er blevet markeret som nyttigt</string>
     <string name="hs__mark_no">Nej</string>
-    <string name="hs__mark_unhelpful_toast">Et spørgsmål er blevet markeret som unyttigt</string>
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Kunne du bruge denne information?</string>
     <string name="hs__message_not_sent">Beskeden blev ikke sendt.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Ny besked</string>
     <string name="hs__new_conversation_hint">Hvordan kan vi hjælpe dig?</string>
     <string name="hs__no_search_results_message">Ups! Der blev ikke fundet nogen resultater</string>
-    <string name="hs__notification_content_text">Vedr.:</string>
     <string name="hs__permission_denied_message">Lagertilladelse påkrævet for at åbne skærmbilleder og downloade vedhæftede filer.</string>
     <string name="hs__permission_denied_snackbar_action">Indstillinger</string>
     <string name="hs__permission_not_granted">Appen skal have tillladelse til at åbne dine fotos</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Skærmbilledet blev ikke vedhæftet. Vælg et andet billede fra din enhed.</string>
     <string name="hs__screenshot_limit_error">Skærmbilledets størrelse må ikke overskride %.2f MB</string>
     <string name="hs__screenshot_remove">Fjern</string>
-    <string name="hs__screenshot_sent_msg">Skærmbillede sendt</string>
     <string name="hs__screenshot_upload_error_msg">Skærmbilledet blev ikke overført</string>
     <string name="hs__search_footer">Kan du ikke finde det, du leder efter?</string>
     <string name="hs__search_hint">Beskriv dit problem</string>

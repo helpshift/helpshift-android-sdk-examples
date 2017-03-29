@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ARVOSTELE</string>
     <string name="hs__attach_screenshot_btn">Liitä kuvakaappaus</string>
-    <string name="hs__attach_screenshot_button">LIITÄ</string>
     <string name="hs__ca_msg">Autamme mielellämme!</string>
     <string name="hs__cam_action_accept">Hyväksy</string>
     <string name="hs__cam_action_book_now">Varaa nyt</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Kuvaile ongelmasi</string>
     <string name="hs__conversation_end_msg">Tämä keskustelu on päättynyt.</string>
     <string name="hs__conversation_header">Keskustelu</string>
+    <string name="hs__conversation_info_header">Tiedot</string>
+    <string name="hs__conversation_info_issue_id">Ongelman tunnus</string>
+    <string name="hs__conversation_info_menu_item_title">Ongelman tiedot</string>
     <string name="hs__conversation_started_message">Viestisi on vastaanotettu. Kiitos, että otit meihin yhteyttä!</string>
+    <string name="hs__copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="hs__copy">Kopioi</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopioi leikepöydälle</string>
     <string name="hs__could_not_open_attachment_msg">Mikään sovellus ei pysty suorittamaan toimintoa.</string>
     <string name="hs__could_not_reach_support_msg">Asiakastukeen ei saatu yhteyttä</string>
     <string name="hs__cr_msg">Miten muuten voisimme auttaa sinua? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Tietoja ei löytynyt</string>
     <string name="hs__default_notification_content_title">Asiakastuki</string>
     <string name="hs__description_invalid_length_error">Kerro tarkempia tietoja, niin voimme auttaa paremmin</string>
-    <string name="hs__dm_video_loading">Ladataan video...</string>
     <string name="hs__done_btn">Valmis</string>
     <string name="hs__email_hint">Sähköposti (vaihtoehtoinen)</string>
     <string name="hs__email_required_hint">Sähköposti</string>
-    <string name="hs__empty_section">Pahoittelut! Tässä osiossa ei ole kysymyksiä.</string>
     <string name="hs__faq_fetching_fail_message">UKK:n lataaminen ei nyt onnistu. Yritä uudelleen hetken päästä...</string>
-    <string name="hs__faq_header">UKK</string>
     <string name="hs__faqs_search_footer">Yhtään UKK:ta ei löytynyt</string>
     <string name="hs__feedback_button">Lähetä palautetta </string>
     <string name="hs__fetching_faqs_message">Haetaan vastauksia...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Kuva ei ole saatavilla</string>
     <string name="hs__invalid_description_error">Kelpaamaton kuvaus</string>
     <string name="hs__invalid_email_error">Kirjoita oikea sähköposti</string>
+    <string name="hs__invalid_faq_publish_id_error">UKK:sta ei löytynyt mitään tuolla tunnuksella</string>
+    <string name="hs__invalid_section_publish_id_error">UKK:sta ei löytynyt yhtään osiota tuolla tunnuksella</string>
     <string name="hs__issue_archival_message">Pahoittelut! Tämä keskustelu on suljettu, koska se ei ole ollut aktiivinen. Aloita uusi keskustelu agenttiemme kanssa.</string>
-    <string name="hs__mark_helpful_toast">Kysymys merkitty hyödylliseksi</string>
     <string name="hs__mark_no">Ei</string>
-    <string name="hs__mark_unhelpful_toast">Kysymys merkitty hyödyttömäksi</string>
     <string name="hs__mark_yes">Kyllä</string>
     <string name="hs__mark_yes_no_question">Oliko tästä apua?</string>
     <string name="hs__message_not_sent">Viestiä ei lähetetty.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Uusi keskustelu</string>
     <string name="hs__new_conversation_hint">Miten voimme auttaa?</string>
     <string name="hs__no_search_results_message">Hups! Emme löytäneet mitään</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Kuvakaappausten käyttämiseksi ja liitteiden lataamiseksi tarvitaan lupa käyttää tallennustilaa</string>
     <string name="hs__permission_denied_snackbar_action">Asetukset</string>
     <string name="hs__permission_not_granted">Sovelluksella ei ole lupaa käyttää valokuviasi</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Virhe kuvakaappauksen liittämisessä. Valitse kuva laitteeltasi.</string>
     <string name="hs__screenshot_limit_error">Kuvakaappauksen koko saa olla enintään %.2f Mt</string>
     <string name="hs__screenshot_remove">Poista</string>
-    <string name="hs__screenshot_sent_msg">Kuvakaappaus lähetetty</string>
     <string name="hs__screenshot_upload_error_msg">Virhe kuvakaappauksen lähettämisessä</string>
     <string name="hs__search_footer">Etkö löydä etsimääsi?</string>
     <string name="hs__search_hint">Kuvaile ongelmasi</string>

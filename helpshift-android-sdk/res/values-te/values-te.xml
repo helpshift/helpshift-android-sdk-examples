@@ -10,7 +10,6 @@
     </plurals>
     <string name="hs__app_review_button">సమీక్షించండి</string>
     <string name="hs__attach_screenshot_btn">స్క్రీన్‌షాట్‌ను జోడించండి</string>
-    <string name="hs__attach_screenshot_button">జోడించండి</string>
     <string name="hs__ca_msg">మీకు సహాయపడేందుకు మేము సంతోషిస్తున్నాము!</string>
     <string name="hs__cam_action_accept">సమ్మతించండి</string>
     <string name="hs__cam_action_book_now">ఇప్పుడు బుక్‌ చేయండి</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">దయచేసి మీ సమస్యను విశదపరచండి</string>
     <string name="hs__conversation_end_msg">ఈ సంభాషణ ముగిసినది.</string>
     <string name="hs__conversation_header">సంభాషణ</string>
+    <string name="hs__conversation_info_header">సమాచారం</string>
+    <string name="hs__conversation_info_issue_id">సమస్య ఐడి</string>
+    <string name="hs__conversation_info_menu_item_title">సమస్య సమాచారం</string>
     <string name="hs__conversation_started_message">మీ సందేశం అందుకోబడినది. మమ్మల్ని సంప్రదించినందుకు ధన్యవాదములు.</string>
+    <string name="hs__copied_to_clipboard">క్లిప్‌బోర్డుకు కాపీ చేయబడింది</string>
     <string name="hs__copy">కాపీ చేయండి</string>
+    <string name="hs__copy_to_clipboard_tooltip">క్లిప్‌బోోర్డుకు కాపీ చేయండి</string>
     <string name="hs__could_not_open_attachment_msg">ఏ యాప్‌‌లు ఈ చర్యను చేయలేవు.</string>
     <string name="hs__could_not_reach_support_msg">సపోర్టును చేరుకోలేకపోతున్నాము</string>
     <string name="hs__cr_msg">మీకు మేము మరింకే విధంగా సహాయపడగలము? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">డేటా దొరకలేదు</string>
     <string name="hs__default_notification_content_title">సహకారం</string>
     <string name="hs__description_invalid_length_error">అత్యుత్తమమైన సహకారం కొరకు, దయచేసి మరింత వివరణను అందించండి</string>
-    <string name="hs__dm_video_loading">వీడియో లోడ్‌ అవుతున్నది…</string>
     <string name="hs__done_btn">అయ్యింది</string>
     <string name="hs__email_hint">ఇమెయిల్‌ (ఐచ్ఛికం)</string>
     <string name="hs__email_required_hint">ఇమెయిల్‌</string>
-    <string name="hs__empty_section">క్షమించాలి! ఈ విభాగంలో ఎటువంటి ప్రశ్నలూ లేవు .</string>
     <string name="hs__faq_fetching_fail_message">ఈ క్షణంలో FAQను లోడ్ చేయలేకపోతున్నాము. దయచేసి కాసేపటి తరువాత మళ్ళీ ప్రయత్నించండి…</string>
-    <string name="hs__faq_header">ఎఫ్‌ఎక్యూ</string>
     <string name="hs__faqs_search_footer">ఎఫ్‌ఎక్యూలు ఏవీ దొరకలేదు</string>
     <string name="hs__feedback_button">అభిప్రాయాన్ని పంపండి </string>
     <string name="hs__fetching_faqs_message">మీ సమాధానాలను తెస్తున్నది…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">చిత్రం అందుబాటులో లేదు</string>
     <string name="hs__invalid_description_error">చెల్లని వివరణ</string>
     <string name="hs__invalid_email_error">దయచేసి ఒక సరైన ఇమెయిల్‌ను ప్రవేశపెట్టండి</string>
+    <string name="hs__invalid_faq_publish_id_error">IDకి సరిపోయే FAQ ను మేము కనుగొనలేకపోయాము</string>
+    <string name="hs__invalid_section_publish_id_error">సరేిపోలే ఐడితో FAQ విభాగాన్ని మేము కనుగొనలేకపోయాము</string>
     <string name="hs__issue_archival_message">క్షమించాలి! స్తబ్దత కారణంగా ఈ సంభాషణ ముగించబడింది. మా ఏజెంట్లతో దయచేసి ఒక కొత్త సంభాషణను ఆరంభించండి.</string>
-    <string name="hs__mark_helpful_toast">ప్రశ్న సహాయకరంగా ఉన్నట్లు గుర్తు పెట్టబడింది</string>
     <string name="hs__mark_no">కాదు</string>
-    <string name="hs__mark_unhelpful_toast">ప్రశ్న సహాయకరంగా లేదని గుర్తు పెట్టబడింది</string>
     <string name="hs__mark_yes">అవును</string>
     <string name="hs__mark_yes_no_question">ఇది సహాయకరంగా ఉందా?</string>
     <string name="hs__message_not_sent">సందేశం పంపించబడలేదు.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">కొత్త సంభాషణ</string>
     <string name="hs__new_conversation_hint">మేమెలా సహాయపడగలము?</string>
     <string name="hs__no_search_results_message">అయ్యో! మేము ఏ ఫలితాలనూ కనుక్కోలేకపోయాము</string>
-    <string name="hs__notification_content_text">ప్రత్యుత్తరం:</string>
     <string name="hs__permission_denied_message">స్క్రీన్‌షాట్‌లకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు మరియు అటాచ్‌మెంట్లను డౌన్‌లోడ్‌ చేసుకునేందుకు నిల్వ అనుమతులు కావాలి</string>
     <string name="hs__permission_denied_snackbar_action">సెట్టింగులు</string>
     <string name="hs__permission_not_granted">మీ ఫోటోలకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు అప్లికేషన్‌కు అనుమతి లేదు</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">స్క్రీన్‌షాట్‌ను జోడించడంలో దోషం. దయచేసి మీ పరికరం మీద ఒక చిత్రాన్ని ఎంచుకోండి.</string>
     <string name="hs__screenshot_limit_error">స్క్రీన్‌షాట్‌ పరిమాణం %.2f MB కి మించరాదు</string>
     <string name="hs__screenshot_remove">తొలగించండి</string>
-    <string name="hs__screenshot_sent_msg">స్క్రీన్‌షాట్‌ పంపబడింది</string>
     <string name="hs__screenshot_upload_error_msg">స్క్రీన్‌షాట్‌ను అప్‌లోడ్‌ చేయడంలో దోషం</string>
     <string name="hs__search_footer">మీరు వెదుకుతున్న దానిని కనుక్కోలేము?</string>
     <string name="hs__search_hint">మీ సమస్యను విశదపరచండి</string>

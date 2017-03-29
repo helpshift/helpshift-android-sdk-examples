@@ -10,7 +10,6 @@
     </plurals>
     <string name="hs__app_review_button">نظردهی</string>
     <string name="hs__attach_screenshot_btn">ضمیمه کردن نماگرفت</string>
-    <string name="hs__attach_screenshot_button">ضمیمه کردن</string>
     <string name="hs__ca_msg">کمک به شما مایه خرسندی ماست!</string>
     <string name="hs__cam_action_accept">پذیرش</string>
     <string name="hs__cam_action_book_now">همین حالا رزرو کنید</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">لطفاً مشکل خود را شرح دهید</string>
     <string name="hs__conversation_end_msg">این مکالمه به پایان رسیده است.</string>
     <string name="hs__conversation_header">مکالمه</string>
+    <string name="hs__conversation_info_header">اطلاعات</string>
+    <string name="hs__conversation_info_issue_id">شناسه نسخه</string>
+    <string name="hs__conversation_info_menu_item_title">اطلاعات نسخه</string>
     <string name="hs__conversation_started_message">پیام شما دریافت شده است. از اینکه با ما تماس گرفته‌اید متشکریم!</string>
+    <string name="hs__copied_to_clipboard">به کلیپ بورد کپی شد</string>
     <string name="hs__copy">کپی</string>
+    <string name="hs__copy_to_clipboard_tooltip">کپی به کلیپ بورد</string>
     <string name="hs__could_not_open_attachment_msg">هیچ نرم افزاری نمیتواند این کار را انجام دهد</string>
     <string name="hs__could_not_reach_support_msg">امکان دسترسی به پشتیبانی وجود ندارد</string>
     <string name="hs__cr_msg">چه کمک دیگری می‌توانیم به شما بکنیم؟ </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">داده یافت نشد</string>
     <string name="hs__default_notification_content_title">پشتیبانی</string>
     <string name="hs__description_invalid_length_error">برای کمک بهتر، لطفاً جزئیات بیشتری ارائه کنید</string>
-    <string name="hs__dm_video_loading">در حال بارگذاری ویدئو…</string>
     <string name="hs__done_btn">انجام شد</string>
     <string name="hs__email_hint">ایمیل (اختیاری)</string>
     <string name="hs__email_required_hint">ایمیل</string>
-    <string name="hs__empty_section">متاسفیم! هیچ سؤالی در این بخش وجود ندارد.</string>
     <string name="hs__faq_fetching_fail_message">در حال حاضر قادر به بارگذاری سؤالات متداول نیستیم. لطفاً پس از چند دقیقه دوباره تلاش کنید…</string>
-    <string name="hs__faq_header">سؤالات متداول</string>
     <string name="hs__faqs_search_footer">هیچ سؤال متداولی یافت نشد</string>
     <string name="hs__feedback_button">ارسال بازخورد </string>
     <string name="hs__fetching_faqs_message">در حال دریافت پاسخ‌های شما…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">تصویر موجود نیست</string>
     <string name="hs__invalid_description_error">شرح نامعتبر</string>
     <string name="hs__invalid_email_error">لطفاً ایمیل معتبری وارد کنید</string>
+    <string name="hs__invalid_faq_publish_id_error">قادر به یافتن سؤالات رایج با این شناسه نبودیم.</string>
+    <string name="hs__invalid_section_publish_id_error">متن مبدا - قادر به یافتن بخش سوالات رایج با شناسه مربوطه نبودیم.</string>
     <string name="hs__issue_archival_message">متاسفیم! این مکالمه به دلیل عدم فعالیت بسته شده است. لطفاً مکالمه جدیدی را با نمایندگان ما شروع کنید.</string>
-    <string name="hs__mark_helpful_toast">سؤال به عنوان «مفید» علامت‌گذاری شده است</string>
     <string name="hs__mark_no">خیر</string>
-    <string name="hs__mark_unhelpful_toast">سؤال به عنوان «غیرمفید» علامت‌گذاری شده است</string>
     <string name="hs__mark_yes">بله</string>
     <string name="hs__mark_yes_no_question">آیا این پاسخ مفید بود؟</string>
     <string name="hs__message_not_sent">پیام ارسال نشد.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">مکالمه جدید</string>
     <string name="hs__new_conversation_hint">چگونه می‌توانیم به شما کمک کنیم؟</string>
     <string name="hs__no_search_results_message">اوه! قادر به یافتن هیچ نتیجه‌ای نبودیم</string>
-    <string name="hs__notification_content_text">عطف به:</string>
     <string name="hs__permission_denied_message">برای دسترسی به نماگرفت‌ها و دانلود ضمیمه‌ها، داشتن اجازه ذخیره‌سازی الزامی است</string>
     <string name="hs__permission_denied_snackbar_action">تنظیمات</string>
     <string name="hs__permission_not_granted">برنامه دارای مجوز دسترسی به عکس‌های شما نیست</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">خطا در ضمیمه کردن نماگرفت. لطفاً تصویری در دستگاه خود انتخاب کنید.</string>
     <string name="hs__screenshot_limit_error">اندازه نماگرفت نباید بیشتر از ‎%.2f MB‎ باشد</string>
     <string name="hs__screenshot_remove">حذف</string>
-    <string name="hs__screenshot_sent_msg">عکس صفحه ارسال شد</string>
     <string name="hs__screenshot_upload_error_msg">خطا در آپلود نماگرفت</string>
     <string name="hs__search_footer">قادر به یافتن آنچه در پی آن بودید نیستید؟</string>
     <string name="hs__search_hint">مشکل خود را شرح دهید</string>

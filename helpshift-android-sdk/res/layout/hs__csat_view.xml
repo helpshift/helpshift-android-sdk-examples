@@ -81,6 +81,7 @@
         android:background="?attr/hs__separatorColor"/>
 
     <com.helpshift.views.HSTextView
+        android:id="@+id/hs__csat_option"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/activity_horizontal_margin_small"

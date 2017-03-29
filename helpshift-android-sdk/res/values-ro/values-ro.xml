@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">EVALUEAZĂ</string>
     <string name="hs__attach_screenshot_btn">Atașare captură de ecran</string>
-    <string name="hs__attach_screenshot_button">ATAŞARE</string>
     <string name="hs__ca_msg">Suntem încântați să vă ajutăm!</string>
     <string name="hs__cam_action_accept">Acceptare</string>
     <string name="hs__cam_action_book_now">Rezervați acum</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Descrieți problema</string>
     <string name="hs__conversation_end_msg">Această conversație s-a încheiat.</string>
     <string name="hs__conversation_header">Conversație</string>
+    <string name="hs__conversation_info_header">Informații</string>
+    <string name="hs__conversation_info_issue_id">ID problemă</string>
+    <string name="hs__conversation_info_menu_item_title">Informații problemă</string>
     <string name="hs__conversation_started_message">Mesajul dvs. a fost primit. Mulțumim că ne-ați contactat!</string>
+    <string name="hs__copied_to_clipboard">Copiate în clipboard</string>
     <string name="hs__copy">Copiere</string>
+    <string name="hs__copy_to_clipboard_tooltip">Copiere în clipboard</string>
     <string name="hs__could_not_open_attachment_msg">Nu aveți aplicaţii care să poată efectua această acţiune.</string>
     <string name="hs__could_not_reach_support_msg">Asistența nu poate fi contactată</string>
     <string name="hs__cr_msg">Cu ce te mai putem ajuta? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Date negăsite</string>
     <string name="hs__default_notification_content_title">Asistență</string>
     <string name="hs__description_invalid_length_error">Pentru o mai bună asistență, furnizați mai multe detalii</string>
-    <string name="hs__dm_video_loading">Se încarcă video...</string>
     <string name="hs__done_btn">Rezolvat</string>
     <string name="hs__email_hint">E-mail (opțional)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Ne cerem scuze! Nu există întrebări disponibile în această secțiune.</string>
     <string name="hs__faq_fetching_fail_message">Momentan nu este posibilă încărcarea Întrebărilor frecvente. Reîncercați în scurt timp...</string>
-    <string name="hs__faq_header">Întrebări frecvente</string>
     <string name="hs__faqs_search_footer">Nu s-au găsit întrebări frecvente</string>
     <string name="hs__feedback_button">Trimite feedback </string>
     <string name="hs__fetching_faqs_message">Se obțin răspunsurile...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Imagine indisponibilă</string>
     <string name="hs__invalid_description_error">Descriere nevalidă</string>
     <string name="hs__invalid_email_error">Introduceți o adresă de e-mail validă</string>
+    <string name="hs__invalid_faq_publish_id_error">Nu am putut găsi o Întrebare frecventă cu același ID</string>
+    <string name="hs__invalid_section_publish_id_error">Nu am putut găsi o secțiune Întrebări frecvente cu același ID</string>
     <string name="hs__issue_archival_message">Ne cerem scuze! Această conversație a fost încheiată din cauza inactivității. Începeți o nouă conversație cu agenții noștri.</string>
-    <string name="hs__mark_helpful_toast">Întrebarea a fost marcată ca utilă</string>
     <string name="hs__mark_no">Nu</string>
-    <string name="hs__mark_unhelpful_toast">Întrebarea a fost marcată ca inutilă</string>
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Ți-a fost util?</string>
     <string name="hs__message_not_sent">Mesaj netrimis.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Conversație nouă</string>
     <string name="hs__new_conversation_hint">Cum te putem ajuta?</string>
     <string name="hs__no_search_results_message">Uups! Nu am putut găsi niciun rezultat</string>
-    <string name="hs__notification_content_text">RSP:</string>
     <string name="hs__permission_denied_message">Permisiunea de stocare este solicitată pentru a accesa capturile de ecran și a descărca atașamente</string>
     <string name="hs__permission_denied_snackbar_action">Setări</string>
     <string name="hs__permission_not_granted">Aplicația nu are permisiunea de a vă accesa fotografiile</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Eroare la atașarea capturii de ecran. Alegeți o imagine de pe dispozitivul dvs.</string>
     <string name="hs__screenshot_limit_error">Dimensiunea capturii de ecran nu trebuie să depășească %.2f MB</string>
     <string name="hs__screenshot_remove">Eliminare</string>
-    <string name="hs__screenshot_sent_msg">Captură de ecran trimisă</string>
     <string name="hs__screenshot_upload_error_msg">Eroare la încărcarea capturii de ecran</string>
     <string name="hs__search_footer">Nu găsiți ce căutați?</string>
     <string name="hs__search_hint">Descrie problema ta</string>

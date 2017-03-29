@@ -6,6 +6,11 @@
     android:background="?attr/selectableItemBackground"
     android:gravity="center_vertical"
     android:minHeight="48dp"
-    android:padding="@dimen/activity_horizontal_margin_medium"
+    android:paddingTop="@dimen/hs_support_recyclerview_item_vertical_padding"
+    android:paddingBottom="@dimen/hs_support_recyclerview_item_vertical_padding"
+    android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+    android:paddingRight="@dimen/activity_horizontal_margin_medium"
+    android:maxLines="@integer/hs__faqs_list_item_max_lines"
+    android:ellipsize="end"
     android:textColor="?android:textColorPrimary"
     android:textSize="@dimen/hs__textSizeMedium"/>

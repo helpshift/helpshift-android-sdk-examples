@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">VURDER</string>
     <string name="hs__attach_screenshot_btn">Legg ved skjermbilde</string>
-    <string name="hs__attach_screenshot_button">LEGG VED</string>
     <string name="hs__ca_msg">Vi hjelper deg gjerne!</string>
     <string name="hs__cam_action_accept">Godta</string>
     <string name="hs__cam_action_book_now">Bestill nå</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Beskriv problemet</string>
     <string name="hs__conversation_end_msg">Samtalen er avsluttet.</string>
     <string name="hs__conversation_header">Samtale</string>
+    <string name="hs__conversation_info_header">Informasjon</string>
+    <string name="hs__conversation_info_issue_id">Emne-ID</string>
+    <string name="hs__conversation_info_menu_item_title">Emneinformasjon</string>
     <string name="hs__conversation_started_message">Meldingen din er mottatt. Takk for at du tok kontakt!</string>
+    <string name="hs__copied_to_clipboard">Kopiert til utklippstavlen</string>
     <string name="hs__copy">Kopier</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopier til utklippstavle</string>
     <string name="hs__could_not_open_attachment_msg">Ingen apper kan utføre denne handlingen.</string>
     <string name="hs__could_not_reach_support_msg">Kunne ikke få kontakt med støtte</string>
     <string name="hs__cr_msg">Er det noe annet vi kan hjelpe deg med? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Data ble ikke funnet</string>
     <string name="hs__default_notification_content_title">Støtte</string>
     <string name="hs__description_invalid_length_error">Oppgi flere detaljer for å få bedre støtte.</string>
-    <string name="hs__dm_video_loading">Laster inn video …</string>
     <string name="hs__done_btn">Ferdig</string>
     <string name="hs__email_hint">E-post (valgfritt)</string>
     <string name="hs__email_required_hint">E-post</string>
-    <string name="hs__empty_section">Beklager, det er ingen spørsmål i denne delen.</string>
     <string name="hs__faq_fetching_fail_message">Kunne ikke laste inn vanlige spørsmål. Prøv igjen senere.</string>
-    <string name="hs__faq_header">Vanlige spørsmål</string>
     <string name="hs__faqs_search_footer">Ingen vanlige spørsmål</string>
     <string name="hs__feedback_button">Send tilbakemelding </string>
     <string name="hs__fetching_faqs_message">Henter svar …</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Bildet er ikke tilgjengelig.</string>
     <string name="hs__invalid_description_error">Ugyldig beskrivelse</string>
     <string name="hs__invalid_email_error">Oppgi en gyldig e-postadresse</string>
+    <string name="hs__invalid_faq_publish_id_error">Kunne ikke finne vanlige spørsmål med matchende ID</string>
+    <string name="hs__invalid_section_publish_id_error">Kunne ikke finne Vanlige spørsmål-del med matchende ID</string>
     <string name="hs__issue_archival_message">Beklager, denne samtalen ble lukket på grunn av manglende aktivitet. Vennligst start en ny samtale med våre agenter.</string>
-    <string name="hs__mark_helpful_toast">Spørsmålet ble merket som nyttig</string>
     <string name="hs__mark_no">Nei</string>
-    <string name="hs__mark_unhelpful_toast">Spørsmålet ble merket som unyttig</string>
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Var dette hjelpsomt?</string>
     <string name="hs__message_not_sent">Meldingen ble ikke sendt.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Ny samtale</string>
     <string name="hs__new_conversation_hint">Hva kan vi hjelpe deg med?</string>
     <string name="hs__no_search_results_message">Uff, da! Vi fant ingen resultater.</string>
-    <string name="hs__notification_content_text">SV:</string>
     <string name="hs__permission_denied_message">Lagringstillatelser er påkrevd for tilgang til skjermbilder og for å laste ned vedlegg.</string>
     <string name="hs__permission_denied_snackbar_action">Innstillinger</string>
     <string name="hs__permission_not_granted">Applikasjonen har ikke tilgang til bildene dine.</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Skjermbilde kunne ikke legges ved. Velg et annet bilde fra enheten.</string>
     <string name="hs__screenshot_limit_error">Skjermbildet kan ikke ta mer enn %.2f MB</string>
     <string name="hs__screenshot_remove">Fjern</string>
-    <string name="hs__screenshot_sent_msg">Skjermbilde sendt</string>
     <string name="hs__screenshot_upload_error_msg">Feil under opplasting av skjermbildet</string>
     <string name="hs__search_footer">Finner du ikke det du leter etter?</string>
     <string name="hs__search_hint">Beskriv problemet</string>

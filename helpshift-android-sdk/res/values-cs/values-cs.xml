@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">HODNOCENÍ</string>
     <string name="hs__attach_screenshot_btn">Připojit screenshot</string>
-    <string name="hs__attach_screenshot_button">PŘIPOJIT</string>
     <string name="hs__ca_msg">Jsme rádi, že jsme vám mohli pomoci!</string>
     <string name="hs__cam_action_accept">Přijmout</string>
     <string name="hs__cam_action_book_now">Rezervovat hned</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Prosím, popište váš problém</string>
     <string name="hs__conversation_end_msg">Tato konverzace skončila.</string>
     <string name="hs__conversation_header">Konverzace</string>
+    <string name="hs__conversation_info_header">Informace</string>
+    <string name="hs__conversation_info_issue_id">ID problému</string>
+    <string name="hs__conversation_info_menu_item_title">Informace o problému</string>
     <string name="hs__conversation_started_message">Vaše zpráva byla přijata. Děkujeme, že jste se na nás obrátili!</string>
+    <string name="hs__copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="hs__copy">Kopírovat</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopírovat do schránky</string>
     <string name="hs__could_not_open_attachment_msg">Žádná aplikace není schopna této akce.</string>
     <string name="hs__could_not_reach_support_msg">Technickou podporu není možné kontaktovat.</string>
     <string name="hs__cr_msg">S čím vám ještě můžeme pomoci? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Data nenalezena</string>
     <string name="hs__default_notification_content_title">Podpora</string>
     <string name="hs__description_invalid_length_error">Abychom vám mohli lépe pomoci, poskytněte prosím podrobnější informace</string>
-    <string name="hs__dm_video_loading">Nahrávání videa...</string>
     <string name="hs__done_btn">Hotovo</string>
     <string name="hs__email_hint">E-mail (volitelné)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Omlouváme se! V této sekci nejsou k dispozici žádné otázky.</string>
     <string name="hs__faq_fetching_fail_message">Momentálně není možné načíst často kladené dotazy. Prosím zkuste to za chvíli...</string>
-    <string name="hs__faq_header">Často kladené dotazy</string>
     <string name="hs__faqs_search_footer">Často kladené dotazy nenalezeny</string>
     <string name="hs__feedback_button">Odeslat zpětnou vazbu </string>
     <string name="hs__fetching_faqs_message">Získávání odpovědí...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Obrázek není k dispozici</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Prosím, zadejte platný e-mail</string>
+    <string name="hs__invalid_faq_publish_id_error">Nepodařilo se nám najít často kladené otázky s tímto ID</string>
+    <string name="hs__invalid_section_publish_id_error">Nepodařilo se nám najít oddíl s často kladenými otázkami s tímto ID</string>
     <string name="hs__issue_archival_message">Omlouváme se! Tato konverzace byla uzavřena z důvodu nečinnosti. Prosím, zahajte novou konverzaci s našimi agenty.</string>
-    <string name="hs__mark_helpful_toast">Otázka byla označena jako Užitečná</string>
     <string name="hs__mark_no">Ne</string>
-    <string name="hs__mark_unhelpful_toast">Otázka byla označena jako Neužitečná</string>
     <string name="hs__mark_yes">Ano</string>
     <string name="hs__mark_yes_no_question">Byly tyto informace užitečné?</string>
     <string name="hs__message_not_sent">Zpráva nebyla odeslána.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nová konverzace</string>
     <string name="hs__new_conversation_hint">Jak můžeme pomoci?</string>
     <string name="hs__no_search_results_message">Jejda! Nepodařilo se nalézt žádné výsledky</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Pro přístup ke screenshotům a stahování příloh je nutné oprávnění na úrovni ukládání</string>
     <string name="hs__permission_denied_snackbar_action">Nastavení</string>
     <string name="hs__permission_not_granted">Aplikace nemá oprávnění přistupovat k vašim fotografiím</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Chyba při nahrávání screenshotu. Prosím, vyberte obrázek na svém zařízení.</string>
     <string name="hs__screenshot_limit_error">Velikost screenshotu by neměla přesáhnout %.2f MB</string>
     <string name="hs__screenshot_remove">Odebrat</string>
-    <string name="hs__screenshot_sent_msg">Screenshot odeslán</string>
     <string name="hs__screenshot_upload_error_msg">Chyba při nahrávání screenshotu</string>
     <string name="hs__search_footer">Nemůžete najít, co hledáte?</string>
     <string name="hs__search_hint">Popište váš problém</string>

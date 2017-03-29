@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">RECENSION</string>
     <string name="hs__attach_screenshot_btn">Bifoga skärmbild</string>
-    <string name="hs__attach_screenshot_button">BIFOGA</string>
     <string name="hs__ca_msg">Vi hjälper dig gärna!</string>
     <string name="hs__cam_action_accept">Acceptera</string>
     <string name="hs__cam_action_book_now">Boka nu</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Beskriv ditt problem</string>
     <string name="hs__conversation_end_msg">Konversationen har avslutats.</string>
     <string name="hs__conversation_header">Konversation</string>
+    <string name="hs__conversation_info_header">Information</string>
+    <string name="hs__conversation_info_issue_id">Ärende-id</string>
+    <string name="hs__conversation_info_menu_item_title">Ärendeinformation</string>
     <string name="hs__conversation_started_message">Vi har tagit emot ditt meddelande. Tack för att du kontaktar oss!</string>
+    <string name="hs__copied_to_clipboard">Kopierat till urklipp</string>
     <string name="hs__copy">Kopiera</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopiera till urklipp</string>
     <string name="hs__could_not_open_attachment_msg">Inga appar kan utföra denna åtgärd.</string>
     <string name="hs__could_not_reach_support_msg">Supporten kan inte nås</string>
     <string name="hs__cr_msg">Vad mer kan vi hjälpa dig med? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Ingen data hittades</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">Lämna mer information för att få bättre hjälp</string>
-    <string name="hs__dm_video_loading">Laddar video ...</string>
     <string name="hs__done_btn">Klart</string>
     <string name="hs__email_hint">E-post (valfritt)</string>
     <string name="hs__email_required_hint">E-post</string>
-    <string name="hs__empty_section">Vi har tyvärr inga frågor i den här sektionen.</string>
     <string name="hs__faq_fetching_fail_message">Vanliga frågor kan inte laddas just nu. Försök igen om en stund.</string>
-    <string name="hs__faq_header">Vanliga frågor</string>
     <string name="hs__faqs_search_footer">Inga Vanliga frågor funna</string>
     <string name="hs__feedback_button">Skicka feedback </string>
     <string name="hs__fetching_faqs_message">Hämtar svar ...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Bilden är inte tillgänglig</string>
     <string name="hs__invalid_description_error">Ogiltig beskrivning</string>
     <string name="hs__invalid_email_error">Skriv in en giltig e-post</string>
+    <string name="hs__invalid_faq_publish_id_error">Vi kunde inte hitta någon vanlig fråga med detta id</string>
+    <string name="hs__invalid_section_publish_id_error">Vi kunde inte hitta någon Vanliga frågor-sektion med detta id</string>
     <string name="hs__issue_archival_message">Tyvärr har den här konversationen stängts på grund av inaktivitet. Starta gärna en ny konversation med oss.</string>
-    <string name="hs__mark_helpful_toast">Frågan har märkts som användbar</string>
     <string name="hs__mark_no">Nej</string>
-    <string name="hs__mark_unhelpful_toast">Frågan har märkts som oanvändbar</string>
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Var det här användbart?</string>
     <string name="hs__message_not_sent">Meddelandet har inte skickats.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Ny konversation</string>
     <string name="hs__new_conversation_hint">Hur kan vi hjälpa till?</string>
     <string name="hs__no_search_results_message">Tyvärr! Vi hittade inga resultat</string>
-    <string name="hs__notification_content_text">Svar:</string>
     <string name="hs__permission_denied_message">Vi behöver tillgång till lagringsminnet för att du ska kunna nå skärmbilder och ladda ned bilagor</string>
     <string name="hs__permission_denied_snackbar_action">Inställningar</string>
     <string name="hs__permission_not_granted">Programmet har inte tillgång till dina foton</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Ett fel uppstod när skärmbilden skulle bifogas. Välj en bild på din enhet.</string>
     <string name="hs__screenshot_limit_error">Skärmbildens storlek får inte överskrida %.2f MB</string>
     <string name="hs__screenshot_remove">Ta bort</string>
-    <string name="hs__screenshot_sent_msg">Skärmbild skickad</string>
     <string name="hs__screenshot_upload_error_msg">Ett fel uppstod vid uppladdningen</string>
     <string name="hs__search_footer">Hittar du inte det du söker?</string>
     <string name="hs__search_hint">Beskriv ditt problem</string>

@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">REVISAR</string>
     <string name="hs__attach_screenshot_btn">Adjunta la captura de pantalla</string>
-    <string name="hs__attach_screenshot_button">ADJUNTA</string>
     <string name="hs__ca_msg">És un plaer ajudar-te.</string>
     <string name="hs__cam_action_accept">Accepta</string>
     <string name="hs__cam_action_book_now">Reserva ara</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Descriu el teu problema</string>
     <string name="hs__conversation_end_msg">Aquesta conversa ha finalitzat.</string>
     <string name="hs__conversation_header">Conversa</string>
+    <string name="hs__conversation_info_header">Informació</string>
+    <string name="hs__conversation_info_issue_id">Identificador del problema</string>
+    <string name="hs__conversation_info_menu_item_title">Informació del problema</string>
     <string name="hs__conversation_started_message">Hem rebut el teu missatge. Gràcies per posar-te en contacte amb nosaltres.</string>
+    <string name="hs__copied_to_clipboard">S\'ha copiat al porta-retalls.</string>
     <string name="hs__copy">Copia</string>
+    <string name="hs__copy_to_clipboard_tooltip">Copia-ho al porta-retalls</string>
     <string name="hs__could_not_open_attachment_msg">No hi ha aplicacions que puguin realitzar aquesta acció.</string>
     <string name="hs__could_not_reach_support_msg">No és possible contactar amb el Servei d\'Atenció</string>
     <string name="hs__cr_msg">Et podem ajudar amb alguna cosa més? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">No s\'han trobat les dades</string>
     <string name="hs__default_notification_content_title">Servei d\'Atenció</string>
     <string name="hs__description_invalid_length_error">Proporciona\'ns més informació perquè et puguem oferir una ajuda millor</string>
-    <string name="hs__dm_video_loading">S\'està carregant el vídeo…</string>
     <string name="hs__done_btn">Fet</string>
     <string name="hs__email_hint">Adreça electrònica (opcional)</string>
     <string name="hs__email_required_hint">Adreça electrònica</string>
-    <string name="hs__empty_section">No hi ha preguntes disponibles en aquesta secció.</string>
     <string name="hs__faq_fetching_fail_message">En aquests moments no es poden carregar les preguntes freqüents. Torna-ho a provar més tard.</string>
-    <string name="hs__faq_header">Preguntes freqüents</string>
     <string name="hs__faqs_search_footer">No s\'han trobat Preguntes Freqüents</string>
     <string name="hs__feedback_button">Enviar Comentari </string>
     <string name="hs__fetching_faqs_message">S\'estan obtenint respostes…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Imatge no disponible</string>
     <string name="hs__invalid_description_error">Descripció no vàlida</string>
     <string name="hs__invalid_email_error">Introdueix una adreça electrònica vàlida</string>
+    <string name="hs__invalid_faq_publish_id_error">No hem trobat cap pregunta amb aquest identificador.</string>
+    <string name="hs__invalid_section_publish_id_error">No hem trobat cap secció de preguntes freqüents amb aquest identificador.</string>
     <string name="hs__issue_archival_message">Aquesta conversa s\'ha tancat perquè estava inactiva. Comença una nova conversa amb els nostres agents.</string>
-    <string name="hs__mark_helpful_toast">La pregunta s\'ha marcat com a Útil</string>
     <string name="hs__mark_no">No</string>
-    <string name="hs__mark_unhelpful_toast">La pregunta s\'ha marcat com a No útil</string>
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">Ha estat d\'ajuda?</string>
     <string name="hs__message_not_sent">No s\'ha enviat el missatge.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Conversa</string>
     <string name="hs__new_conversation_hint">Com et podem ajudar?</string>
     <string name="hs__no_search_results_message">No hem trobat cap resultat</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Es necessiten permisos d\'emmagatzematge per accedir a les captures de pantalla i baixar els fitxers adjunts</string>
     <string name="hs__permission_denied_snackbar_action">Configuració</string>
     <string name="hs__permission_not_granted">L\'aplicació no té permís per accedir a les teves fotos</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Error en adjuntar la captura de pantalla. Selecciona una imatge del teu dispositiu.</string>
     <string name="hs__screenshot_limit_error">La mida de la captura de la pantalla no pot tenir més de %.2f MB</string>
     <string name="hs__screenshot_remove">Suprimeix</string>
-    <string name="hs__screenshot_sent_msg">Fotografia de pantalla enviada</string>
     <string name="hs__screenshot_upload_error_msg">Error en penjar la captura de pantalla</string>
     <string name="hs__search_footer">No trobes el que cerques?</string>
     <string name="hs__search_hint">Descriu el teu problema</string>

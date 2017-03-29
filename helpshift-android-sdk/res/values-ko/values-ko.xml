@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">리뷰</string>
     <string name="hs__attach_screenshot_btn">스크린샷 첨부</string>
-    <string name="hs__attach_screenshot_button">첨부</string>
     <string name="hs__ca_msg">기꺼이 도와 드리겠습니다!</string>
     <string name="hs__cam_action_accept">수락</string>
     <string name="hs__cam_action_book_now">지금 예약하기</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">문제에 대해 설명해 주세요.</string>
     <string name="hs__conversation_end_msg">이 대화는 종료되었습니다.</string>
     <string name="hs__conversation_header">대화</string>
+    <string name="hs__conversation_info_header">정보</string>
+    <string name="hs__conversation_info_issue_id">문제 ID</string>
+    <string name="hs__conversation_info_menu_item_title">문제 정보</string>
     <string name="hs__conversation_started_message">귀하의 메시지를 수신했습니다. 문의해 주셔서 감사합니다!</string>
+    <string name="hs__copied_to_clipboard">클립보드에 복사 완료</string>
     <string name="hs__copy"> 복사하기</string>
+    <string name="hs__copy_to_clipboard_tooltip">클립보드에 복사하기</string>
     <string name="hs__could_not_open_attachment_msg">이 액션을 수행할 수 있는 앱이 없습니다</string>
     <string name="hs__could_not_reach_support_msg">고객 지원에 연결할 수 없음</string>
     <string name="hs__cr_msg">다른 도움이 필요하십니까? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">데이터가 없음</string>
     <string name="hs__default_notification_content_title">고객 지원</string>
     <string name="hs__description_invalid_length_error">알맞은 지원을 받으려면, 자세한 정보를 더 알려 주세요.</string>
-    <string name="hs__dm_video_loading">비디오 불러오는 중...</string>
     <string name="hs__done_btn">완료</string>
     <string name="hs__email_hint">이메일 (보조)</string>
     <string name="hs__email_required_hint">이메일</string>
-    <string name="hs__empty_section">죄송합니다! 이 섹션에는 이용 가능한 질문이 없습니다.</string>
     <string name="hs__faq_fetching_fail_message">지금은 FAQ를 불러올 수 없습니다. 잠시 후 재시도해 주세요...</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">FAQ가 없음</string>
     <string name="hs__feedback_button">의견 보내기 </string>
     <string name="hs__fetching_faqs_message">답변을 받는 중...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">이미지를 이용할 수 없음</string>
     <string name="hs__invalid_description_error">잘못된 설명</string>
     <string name="hs__invalid_email_error">유효한 이메일을 입력해 주세요.</string>
+    <string name="hs__invalid_faq_publish_id_error">일치하는 ID로 FAQ를 찾을 수 없습니다.</string>
+    <string name="hs__invalid_section_publish_id_error">일치하는 ID로 FAQ 섹션을 찾을 수 없습니다.</string>
     <string name="hs__issue_archival_message">죄송합니다! 이 대화는 활동이 없어서 닫혔습니다. 에이전트로 새 대화를 시작해 주세요.</string>
-    <string name="hs__mark_helpful_toast">도움이 되는 질문으로 표시함</string>
     <string name="hs__mark_no">아니요</string>
-    <string name="hs__mark_unhelpful_toast">도움이 되지 않는 질문으로 표시함</string>
     <string name="hs__mark_yes">네</string>
     <string name="hs__mark_yes_no_question">내용이 도움이 되었나요?</string>
     <string name="hs__message_not_sent">메시지가 전송되지 않았습니다.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">새 대화</string>
     <string name="hs__new_conversation_hint">무엇을 도와 드릴까요?</string>
     <string name="hs__no_search_results_message">이런! 아무런 결과가 없습니다.</string>
-    <string name="hs__notification_content_text">답장:</string>
     <string name="hs__permission_denied_message">스크린샷에 액세스하고 첨부 파일을 다운로드하려면 저장소 권한이 필요합니다.</string>
     <string name="hs__permission_denied_snackbar_action">설정</string>
     <string name="hs__permission_not_granted">애플리케이션이 권한을 보유하지 않아 사진에 액세스할 수 없음</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">스크린샷 첨부 중 오류가 발생했습니다. 장치에서 이미지를 선택해 주세요.</string>
     <string name="hs__screenshot_limit_error">스크린샷 크기가 %.2f MB를 초과함</string>
     <string name="hs__screenshot_remove">제거</string>
-    <string name="hs__screenshot_sent_msg">스크린샷 전송됨</string>
     <string name="hs__screenshot_upload_error_msg">스크린샷 업로드 오류</string>
     <string name="hs__search_footer">원하는 항목을 찾지 못하셨나요?</string>
     <string name="hs__search_hint">문제에 대해 설명하기</string>

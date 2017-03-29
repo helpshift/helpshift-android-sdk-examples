@@ -18,7 +18,7 @@
             android:grantUriPermissions="true" >
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths" />
+                android:resource="@xml/hs__provider_paths" />
         </provider>
 
         <activity
@@ -28,12 +28,6 @@
             android:name="com.helpshift.support.HSReview"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Dialog" />
-
-        <service
-            android:name="com.helpshift.support.HSRetryService"
-            android:label="Helpshift Service" >
-        </service>
-
         <activity
             android:name="com.helpshift.campaigns.activities.ParentActivity"
             android:theme="@style/Helpshift.Theme.Activity" >

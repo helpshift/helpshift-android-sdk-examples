@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">סקירה</string>
     <string name="hs__attach_screenshot_btn">צרף/צרפי קובץ</string>
-    <string name="hs__attach_screenshot_button">צרף/צרפי</string>
     <string name="hs__ca_msg">נשמח לעזור לך!</string>
     <string name="hs__cam_action_accept">קבל/י</string>
     <string name="hs__cam_action_book_now">הזמן/הזמיני עכשיו</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">תאר/י את הבעיה</string>
     <string name="hs__conversation_end_msg">שיחה זו הסתיימה.</string>
     <string name="hs__conversation_header">שיחה</string>
+    <string name="hs__conversation_info_header">מידע</string>
+    <string name="hs__conversation_info_issue_id">זיהוי הנפקה</string>
+    <string name="hs__conversation_info_menu_item_title">פרטי הנפקה</string>
     <string name="hs__conversation_started_message">הודעתך התקבלה. תודה שפנית אלינו!</string>
+    <string name="hs__copied_to_clipboard">הועתק ללוח</string>
     <string name="hs__copy">העתק</string>
+    <string name="hs__copy_to_clipboard_tooltip">העתק ללוח</string>
     <string name="hs__could_not_open_attachment_msg">אין אפליקציות שיכולות לבצע פעולה זו</string>
     <string name="hs__could_not_reach_support_msg">לא ניתן ליצור קשר עם התמיכה</string>
     <string name="hs__cr_msg">מה עוד נוכל לעשות למענך?</string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">לא נמצאו נתונים</string>
     <string name="hs__default_notification_content_title">תמיכה</string>
     <string name="hs__description_invalid_length_error">לקבלת סיוע טוב יותר, הזן פרטים נוספים</string>
-    <string name="hs__dm_video_loading">טוען וידאו...</string>
     <string name="hs__done_btn">סיום</string>
     <string name="hs__email_hint">דוא"ל (אופציונלי)</string>
     <string name="hs__email_required_hint">דוא"ל</string>
-    <string name="hs__empty_section">מצטערים! אין שאלות זמינות במקטע זה.</string>
     <string name="hs__faq_fetching_fail_message">לא ניתן לטעון שאלות נפוצות כרגע. נסה שוב בעוד זמן מה…</string>
-    <string name="hs__faq_header">שאלות נפוצות</string>
     <string name="hs__faqs_search_footer">לא נמצאו שאלות נפוצות</string>
     <string name="hs__feedback_button">שלח/י משוב </string>
     <string name="hs__fetching_faqs_message">מקבל את התשובות שלך…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">התמונה לא זמינה</string>
     <string name="hs__invalid_description_error">תיאור לא תקף</string>
     <string name="hs__invalid_email_error">הזן/הזיני כתובת דוא"ל תקפה</string>
+    <string name="hs__invalid_faq_publish_id_error">לא הצלחנו למצוא שאלה נפוצה עם קוד זיהוי תואם</string>
+    <string name="hs__invalid_section_publish_id_error">לא הצלחנו למצוא מקטע של שאלות נפוצות עם מזהה תואם</string>
     <string name="hs__issue_archival_message">מצטערים! שיחה זו נסגרה עקב העדר פעילות. התחל שיחה חדשה עם סוכנים.</string>
-    <string name="hs__mark_helpful_toast">השאלה סומנה כמועילה</string>
     <string name="hs__mark_no">לא</string>
-    <string name="hs__mark_unhelpful_toast">השאלה סומנה כלא מועילה</string>
     <string name="hs__mark_yes">כן</string>
     <string name="hs__mark_yes_no_question">האם זה עזר?</string>
     <string name="hs__message_not_sent">ההודעה לא נשלחה.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">שיחה חדשה</string>
     <string name="hs__new_conversation_hint">כיצד נוכל לעזור?</string>
     <string name="hs__no_search_results_message">אופס! לא נמצאו תוצאות כלשהן</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">נדרשת הרשאת אחסון כדי לגשת לצילומי מסך ולהוריד קבצים מצורפים</string>
     <string name="hs__permission_denied_snackbar_action">הגדרות</string>
     <string name="hs__permission_not_granted">לאפליקציה אין הרשאה לגשת לתמונות שלך</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">שגיאה בצירוף צילום מסך. בחר/י תמונה במכשיר.</string>
     <string name="hs__screenshot_limit_error">גודל צילום המסך לא יכול לחרוג מ-%.2f MB</string>
     <string name="hs__screenshot_remove">הסר/הסירי</string>
-    <string name="hs__screenshot_sent_msg">נשלח צילום המסך</string>
     <string name="hs__screenshot_upload_error_msg">שגיאה בהעלאת צילום מסך</string>
     <string name="hs__search_footer">לא הצלחת למצוא את מה שאת/ה מחפש/ת?</string>
     <string name="hs__search_hint">תאר/י את הבעיה</string>

@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">OHODNOTIŤ</string>
     <string name="hs__attach_screenshot_btn">Priložiť snímku obrazovky</string>
-    <string name="hs__attach_screenshot_button">PRILOŽIŤ</string>
     <string name="hs__ca_msg">S radosťou vám pomôžeme!</string>
     <string name="hs__cam_action_accept">Prijať</string>
     <string name="hs__cam_action_book_now">Rezervovať</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Popíšte svoj problém</string>
     <string name="hs__conversation_end_msg">Táto konverzácia sa skončila.</string>
     <string name="hs__conversation_header">Konverzácia</string>
+    <string name="hs__conversation_info_header">Informácie</string>
+    <string name="hs__conversation_info_issue_id">ID problému</string>
+    <string name="hs__conversation_info_menu_item_title">Informácie o probléme</string>
     <string name="hs__conversation_started_message">Vašu správu sme dostali. Ďakujeme, že ste nás kontaktovali!</string>
+    <string name="hs__copied_to_clipboard">Skopírované do schránky</string>
     <string name="hs__copy">Kopírovať</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopírovať do schránky</string>
     <string name="hs__could_not_open_attachment_msg">Žiadne aplikácie pre túto akciu.</string>
     <string name="hs__could_not_reach_support_msg">Nepodarilo sa zastihnúť podporu</string>
     <string name="hs__cr_msg">Ako vám ešte môžeme pomôcť? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Údaje sa nenašli</string>
     <string name="hs__default_notification_content_title">Podpora</string>
     <string name="hs__description_invalid_length_error">Ak chcete získať lepšiu pomoc, uveďte viac informácií</string>
-    <string name="hs__dm_video_loading">Načítava sa video...</string>
     <string name="hs__done_btn">Hotovo</string>
     <string name="hs__email_hint">E-mail (voliteľné)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Ospravedlňujeme sa! V tejto časti nie sú k dispozícii žiadne otázky.</string>
     <string name="hs__faq_fetching_fail_message">Momentálne sa nepodarilo načítať často kladené otázky. Skúste to znova o chvíľu…</string>
-    <string name="hs__faq_header">Často kladené otázky</string>
     <string name="hs__faqs_search_footer">Nenašli sa žiadne často kladené otázky</string>
     <string name="hs__feedback_button">Poslať spätnú väzbu </string>
     <string name="hs__fetching_faqs_message">Získavajú sa vaše odpovede…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Obrázok nie je k dispozícii</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Zadajte platný e-mail</string>
+    <string name="hs__invalid_faq_publish_id_error">Nepodarilo sa nájsť často kladené otázky s týmto ID</string>
+    <string name="hs__invalid_section_publish_id_error">Nepodarilo sa nájsť časť s často kladenými otázkami s týmto ID</string>
     <string name="hs__issue_archival_message">Ospravedlňujeme sa! Táto konverzácia bola zatvorená z dôvodu neaktivity. Začnite novú konverzáciu s našimi agentmi.</string>
-    <string name="hs__mark_helpful_toast">Otázka bola označená ako užitočná</string>
     <string name="hs__mark_no">Nie</string>
-    <string name="hs__mark_unhelpful_toast">Otázka bola označená ako neužitočná</string>
     <string name="hs__mark_yes">Áno</string>
     <string name="hs__mark_yes_no_question">Pomohlo vám to?</string>
     <string name="hs__message_not_sent">Správa nebola odoslaná.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nová konverzácia</string>
     <string name="hs__new_conversation_hint">Ako vám môžeme pomôcť?</string>
     <string name="hs__no_search_results_message">Ups! Nepodarilo sa nájsť žiadne výsledky</string>
-    <string name="hs__notification_content_text">Predmet:</string>
     <string name="hs__permission_denied_message">Na získanie prístupu k snímkam obrazovky a na sťahovanie príloh je potrebné povolenie ukladania</string>
     <string name="hs__permission_denied_snackbar_action">Nastavenia</string>
     <string name="hs__permission_not_granted">Aplikácia nemá povolený prístup k vašim fotografiám</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Pri prikladaní snímky obrazovky došlo k chybe. Vyberte obrázok na vašom zariadení.</string>
     <string name="hs__screenshot_limit_error">Veľkosť snímky obrazovky by nemala presiahnuť %.2f MB</string>
     <string name="hs__screenshot_remove">Odobrať</string>
-    <string name="hs__screenshot_sent_msg">Fotografia obrazovky odoslaná</string>
     <string name="hs__screenshot_upload_error_msg">Pri načítavaní snímky obrazovky došlo k chybe</string>
     <string name="hs__search_footer">Nenašli ste to, čo ste hľadali?</string>
     <string name="hs__search_hint">Popíšte svoj problém</string>

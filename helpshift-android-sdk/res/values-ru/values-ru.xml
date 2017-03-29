@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">ОТЗЫВ</string>
     <string name="hs__attach_screenshot_btn">Приложить снимок экрана</string>
-    <string name="hs__attach_screenshot_button">ПРИЛОЖИТЬ</string>
     <string name="hs__ca_msg">Мы рады помочь вам!</string>
     <string name="hs__cam_action_accept">Принять</string>
     <string name="hs__cam_action_book_now">Заказать сейчас</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Опишите свою проблему</string>
     <string name="hs__conversation_end_msg">Этот разговор завершен.</string>
     <string name="hs__conversation_header">Разговор</string>
+    <string name="hs__conversation_info_header">Информация</string>
+    <string name="hs__conversation_info_issue_id">Идентификатор проблемы</string>
+    <string name="hs__conversation_info_menu_item_title">Информация о проблеме</string>
     <string name="hs__conversation_started_message">Ваше сообщение получено. Спасибо, что обратились к нам!</string>
+    <string name="hs__copied_to_clipboard">Скопировано в буфер</string>
     <string name="hs__copy">Копировать</string>
+    <string name="hs__copy_to_clipboard_tooltip">Скопировать в буфер</string>
     <string name="hs__could_not_open_attachment_msg">Нет ни одного подходящего приложения</string>
     <string name="hs__could_not_reach_support_msg">Не удается связаться со службой поддержки</string>
     <string name="hs__cr_msg">Чем еще мы можем вам помочь? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Данные не найдены</string>
     <string name="hs__default_notification_content_title">Поддержка</string>
     <string name="hs__description_invalid_length_error">Сообщите подробности, чтобы нам легче было помочь вам</string>
-    <string name="hs__dm_video_loading">Загрузка видео…</string>
     <string name="hs__done_btn">Готово</string>
     <string name="hs__email_hint">E-mail (по желанию)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">К сожалению, в этом разделе нет доступных вопросов.</string>
     <string name="hs__faq_fetching_fail_message">Сейчас загрузить ЧаВо не удается. Повторите попытку чуть позже.</string>
-    <string name="hs__faq_header">ЧаВо</string>
     <string name="hs__faqs_search_footer">ЧаВо не найдено</string>
     <string name="hs__feedback_button">Отправить отзыв </string>
     <string name="hs__fetching_faqs_message">Получение ваших ответов…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Изображение недоступно</string>
     <string name="hs__invalid_description_error">Недопустимое описание</string>
     <string name="hs__invalid_email_error">Введите действительный адрес e-mail</string>
+    <string name="hs__invalid_faq_publish_id_error">Не удалось найти сборник ЧаВо с таким идентификатором</string>
+    <string name="hs__invalid_section_publish_id_error">Не удалось найти раздел ЧаВо с таким идентификатором</string>
     <string name="hs__issue_archival_message">Этот разговор был завершен по причине отсутствия активности участников. Пожалуйста, начните новый разговор с нашими представителями.</string>
-    <string name="hs__mark_helpful_toast">Вопрос помечен как полезный</string>
     <string name="hs__mark_no">Нет</string>
-    <string name="hs__mark_unhelpful_toast">Вопрос помечен как бесполезный</string>
     <string name="hs__mark_yes">Да</string>
     <string name="hs__mark_yes_no_question">Помогла ли вам эта информация?</string>
     <string name="hs__message_not_sent">Сообщение не отправлено.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Новый разговор</string>
     <string name="hs__new_conversation_hint">Чем мы можем помочь?</string>
     <string name="hs__no_search_results_message">Увы, поиск не дал результатов</string>
-    <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Для получения доступа к снимкам экрана и загрузки вложений необходимо разрешение на хранение</string>
     <string name="hs__permission_denied_snackbar_action">Настройки</string>
     <string name="hs__permission_not_granted">Приложение не имеет разрешения на доступ к вашим снимкам</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Не удалось приложить снимок экрана. Выберите изображение на своем устройстве.</string>
     <string name="hs__screenshot_limit_error">Размер снимка экрана не должен превышать %.2f Мб</string>
     <string name="hs__screenshot_remove">Удалить</string>
-    <string name="hs__screenshot_sent_msg">Снимок экрана отправлен</string>
     <string name="hs__screenshot_upload_error_msg">Ошибка загрузки снимка экрана</string>
     <string name="hs__search_footer">Не можете найти то, что искали?</string>
     <string name="hs__search_hint">Опишите свою проблему</string>

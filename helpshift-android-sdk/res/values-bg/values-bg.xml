@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">РЕЦЕНЗИЯ</string>
     <string name="hs__attach_screenshot_btn">Прикачване на екранна снимка</string>
-    <string name="hs__attach_screenshot_button">ПРИКАЧВАНЕ</string>
     <string name="hs__ca_msg">За нас е удоволствие да Ви помагаме!</string>
     <string name="hs__cam_action_accept">Приемане</string>
     <string name="hs__cam_action_book_now">Запазете сега</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Опишете проблема си</string>
     <string name="hs__conversation_end_msg">Този разговор е приключил.</string>
     <string name="hs__conversation_header">Разговор</string>
+    <string name="hs__conversation_info_header">Информация</string>
+    <string name="hs__conversation_info_issue_id">Идентификатор на проблем</string>
+    <string name="hs__conversation_info_menu_item_title">Информация за проблем</string>
     <string name="hs__conversation_started_message">Вашето съобщение беше получено. Благодарим Ви, че се свързахте с нас!</string>
+    <string name="hs__copied_to_clipboard">Копирано на клипборда</string>
     <string name="hs__copy">Копиране</string>
+    <string name="hs__copy_to_clipboard_tooltip">Копиране на клипборда</string>
     <string name="hs__could_not_open_attachment_msg">Никои приложения не могат да извършат това действие.</string>
     <string name="hs__could_not_reach_support_msg">Не можем да се свържем с отдела по поддръжка</string>
     <string name="hs__cr_msg">С какво друго можем да ви помогнем? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Данните не са открити</string>
     <string name="hs__default_notification_content_title">Поддръжка</string>
     <string name="hs__description_invalid_length_error">За да Ви окажем по-добро съдействие, дайте повече подробности</string>
-    <string name="hs__dm_video_loading">Зареждане на видеоклип…</string>
     <string name="hs__done_btn">Готово</string>
     <string name="hs__email_hint">Имейл (по желание)</string>
     <string name="hs__email_required_hint">Имейл</string>
-    <string name="hs__empty_section">Съжаляваме! В този раздел няма налични въпроси.</string>
     <string name="hs__faq_fetching_fail_message">ЧЗВ не могат да се заредят в момента. Опитайте отново след малко…</string>
-    <string name="hs__faq_header">ЧЗВ</string>
     <string name="hs__faqs_search_footer">Не са намерени ЧЗВ</string>
     <string name="hs__feedback_button">Изпратете обратна връзка </string>
     <string name="hs__fetching_faqs_message">Получаване на отговорите Ви…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Изображението не е налично</string>
     <string name="hs__invalid_description_error">Невалидно описание</string>
     <string name="hs__invalid_email_error">Въведете валиден имейл адрес</string>
+    <string name="hs__invalid_faq_publish_id_error">Не можахме да открием ЧЗВ със съответното ИД</string>
+    <string name="hs__invalid_section_publish_id_error">Не можахме да открием секция от ЧЗВ със съответното ИД</string>
     <string name="hs__issue_archival_message">Съжаляваме! Този разговор беше затворен поради липса на активност. Моля, започнете нов разговор с нашите агенти.</string>
-    <string name="hs__mark_helpful_toast">Въпросът е отбелязан като „Полезен“</string>
     <string name="hs__mark_no">Не</string>
-    <string name="hs__mark_unhelpful_toast">Въпросът е отбелязан като „Неполезен“</string>
     <string name="hs__mark_yes">Да</string>
     <string name="hs__mark_yes_no_question">Това помогна ли ви?</string>
     <string name="hs__message_not_sent">Съобщението не е изпратено.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Нов разговор</string>
     <string name="hs__new_conversation_hint">Как можем да ви помогнем?</string>
     <string name="hs__no_search_results_message">Не можахме да открием никакви резултати</string>
-    <string name="hs__notification_content_text">Отн.:</string>
     <string name="hs__permission_denied_message">За достъп до екранни снимки и изтегляне на прикачени файлове е необходимо разрешение за съхраняване</string>
     <string name="hs__permission_denied_snackbar_action">Настройки</string>
     <string name="hs__permission_not_granted">Приложението няма разрешение за достъп до Вашите снимки</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Грешка при прикачване на екранната снимка. Изберете изображение от устройството си.</string>
     <string name="hs__screenshot_limit_error">Размерът на екранната снимка не може да превишава %.2f MB</string>
     <string name="hs__screenshot_remove">Премахване</string>
-    <string name="hs__screenshot_sent_msg">Скрийншотът е изпратен</string>
     <string name="hs__screenshot_upload_error_msg">Грешка при качване на екранната снимка</string>
     <string name="hs__search_footer">Не можете ли да откриете това, което търсите?</string>
     <string name="hs__search_hint">Опишете проблема си</string>

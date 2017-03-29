@@ -10,7 +10,6 @@
     </plurals>
     <string name="hs__app_review_button">NOVĒRTĒT</string>
     <string name="hs__attach_screenshot_btn">Pievienot ekrānuzņēmumu</string>
-    <string name="hs__attach_screenshot_button">PIEVIENOT</string>
     <string name="hs__ca_msg">Priecāsimies Jums palīdzēt!</string>
     <string name="hs__cam_action_accept">Piekrist</string>
     <string name="hs__cam_action_book_now">Rezervēt tagad</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Lūdzu, aprakstiet problēmu</string>
     <string name="hs__conversation_end_msg">Šī saruna ir beigusies.</string>
     <string name="hs__conversation_header">Saruna</string>
+    <string name="hs__conversation_info_header">Informācija</string>
+    <string name="hs__conversation_info_issue_id">Problēmas ID</string>
+    <string name="hs__conversation_info_menu_item_title">Problēmas informācija</string>
     <string name="hs__conversation_started_message">Jūsu ziņojums ir saņemts. Paldies par sazināšanos ar mums!</string>
+    <string name="hs__copied_to_clipboard">Nokopēts uz starpliktuvi</string>
     <string name="hs__copy">Kopija</string>
+    <string name="hs__copy_to_clipboard_tooltip">Kopēt uz starpliktuvi</string>
     <string name="hs__could_not_open_attachment_msg">Neviena lietotne nevar veikt šo darbību.</string>
     <string name="hs__could_not_reach_support_msg">Atbalsts nav sasniedzams</string>
     <string name="hs__cr_msg">Kā vēl mēs Jums varam palīdzēt? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Dati nav atrasti</string>
     <string name="hs__default_notification_content_title">Atbalsts</string>
     <string name="hs__description_invalid_length_error">Pilnvērtīgākas palīdzības saņemšanai, lūdzu, sniedziet vairāk ziņu</string>
-    <string name="hs__dm_video_loading">Augšupielādē video...</string>
     <string name="hs__done_btn">Darīts</string>
     <string name="hs__email_hint">E-pasts (izvēles papildiespēja)</string>
     <string name="hs__email_required_hint">E-pasts</string>
-    <string name="hs__empty_section">Atvainojiet! Šajā sadaļā jautājumi nav pieejami.</string>
     <string name="hs__faq_fetching_fail_message">Šobrīd BUJ ielādēt nevar. Lūdzu, mēģiniet vēlāk atkal...</string>
-    <string name="hs__faq_header">BUJ</string>
     <string name="hs__faqs_search_footer">BUJ netika atrasti</string>
     <string name="hs__feedback_button">Nosūtiet atsauksmi </string>
     <string name="hs__fetching_faqs_message">Saņem Jūsu atbildes...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Attēls nav pieejams</string>
     <string name="hs__invalid_description_error">Nederīgs apraksts</string>
     <string name="hs__invalid_email_error">Lūdzu, ievadiet derīgu e-pastu</string>
+    <string name="hs__invalid_faq_publish_id_error">Neatradām BUJ ar atbilstošu ID</string>
+    <string name="hs__invalid_section_publish_id_error">Nebija iespējams atrast BUJ sadaļu ar atbilstošu ID</string>
     <string name="hs__issue_archival_message">Atvainojiet! Šī saruna tika aizvērta neaktivitātes dēļ. Lūdzu, uzsāciet jaunu sarunu ar mūsu aģentiem.</string>
-    <string name="hs__mark_helpful_toast">Jautājums atzīmēts kā Noderīgs</string>
     <string name="hs__mark_no">Nē</string>
-    <string name="hs__mark_unhelpful_toast">Jautājums atzīmēts kā Nav noderīgs</string>
     <string name="hs__mark_yes">Jā</string>
     <string name="hs__mark_yes_no_question">Vai tas palīdzēja?</string>
     <string name="hs__message_not_sent">Ziņojums nosūtīts netika.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Jauna saruna</string>
     <string name="hs__new_conversation_hint">Kā mēs varam palīdzēt?</string>
     <string name="hs__no_search_results_message">Diemžēl rezultāti netika atrasti</string>
-    <string name="hs__notification_content_text">PAR:</string>
     <string name="hs__permission_denied_message">Lai piekļūtu ekrānuzņēmumiem un lejupielādētu pielikumus, nepieciešama glabātuves piekļuves atļauja</string>
     <string name="hs__permission_denied_snackbar_action">Iestatījumi</string>
     <string name="hs__permission_not_granted">Lietotnei nav atļaujas piekļūt Jūsu attēliem</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Pievienojot ekrānuzņēmumu, radusies kļūda. Lūdzu, izvēlieties attēlu savā ierīcē.</string>
     <string name="hs__screenshot_limit_error">Ekrānuzņēmuma izmērs nedrīkst pārsniegt %.2f MB</string>
     <string name="hs__screenshot_remove">Noņemt</string>
-    <string name="hs__screenshot_sent_msg">Ekrānuzņēmums ir nosūtīts</string>
     <string name="hs__screenshot_upload_error_msg">Augšupielādējot ekrānuzņēmumu, radusies kļūda.</string>
     <string name="hs__search_footer">Nevarat atrast, ko meklējat?</string>
     <string name="hs__search_hint">Aprakstiet problēmu</string>

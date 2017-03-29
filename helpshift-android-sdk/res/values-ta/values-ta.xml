@@ -10,7 +10,6 @@
     </plurals>
     <string name="hs__app_review_button">மதிப்புரை</string>
     <string name="hs__attach_screenshot_btn">ஸ்கிரீன்ஷாட்டை இணை</string>
-    <string name="hs__attach_screenshot_button">இணை</string>
     <string name="hs__ca_msg">உங்களுக்கு உதவக் காத்திருக்கிறோம்!</string>
     <string name="hs__cam_action_accept">ஏற்கவும்</string>
     <string name="hs__cam_action_book_now">இப்போது முன்பதிவு செய்</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">உங்கள் பிரச்சனையை விவரிக்கவும்</string>
     <string name="hs__conversation_end_msg">இந்த உரையாடல் முடிந்தது.</string>
     <string name="hs__conversation_header">உரையாடல்</string>
+    <string name="hs__conversation_info_header">தகவல்</string>
+    <string name="hs__conversation_info_issue_id">சிக்கல் ஐடி</string>
+    <string name="hs__conversation_info_menu_item_title">சிக்கல் விவரம்</string>
     <string name="hs__conversation_started_message">உங்கள் செய்தி வந்து சேர்ந்தது. எங்களைத் தொடர்பு கொண்டதற்கு நன்றி!</string>
+    <string name="hs__copied_to_clipboard">கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
     <string name="hs__copy">நகலெடு</string>
+    <string name="hs__copy_to_clipboard_tooltip">கிளிப்போர்டுக்கு நகலெடுக்கவும்</string>
     <string name="hs__could_not_open_attachment_msg">இந்த செயலை பயன்பாடுகள் எதுவும் செய்யமுடியாது.</string>
     <string name="hs__could_not_reach_support_msg">ஆதரவைத் தொடர்பு கொள்ள முடியவில்லை</string>
     <string name="hs__cr_msg">வேறு ஏதாவது உதவி தேவையா? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">தரவு இல்லை</string>
     <string name="hs__default_notification_content_title">ஆதரவு</string>
     <string name="hs__description_invalid_length_error">சிறப்பாக உதவ, கூடுதல் விவரங்களை வழங்கவும்</string>
-    <string name="hs__dm_video_loading">வீடியோவை ஏற்றுகிறது…</string>
     <string name="hs__done_btn">முடிந்தது</string>
     <string name="hs__email_hint">மின்னஞ்சல் (விரும்பினால்)</string>
     <string name="hs__email_required_hint">மின்னஞ்சல்</string>
-    <string name="hs__empty_section">மன்னிக்கவும்! இந்தப் பிரிவில் கேள்விகள் இல்லை.</string>
     <string name="hs__faq_fetching_fail_message">கேள்வி பதில் பிரிவை இந்த நேரத்தில் ஏற்ற முடியவில்லை. சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்…</string>
-    <string name="hs__faq_header">கேள்வி பதில்</string>
     <string name="hs__faqs_search_footer">கேள்வி பதில்கள் இல்லை</string>
     <string name="hs__feedback_button">கருத்து அனுப்பு </string>
     <string name="hs__fetching_faqs_message">உங்கள் பதில்களைப் பெறுகிறது…</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">படம் இல்லை</string>
     <string name="hs__invalid_description_error">தவறான விளக்கம்</string>
     <string name="hs__invalid_email_error">சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+    <string name="hs__invalid_faq_publish_id_error">பொருந்தும் ஐடியுடன் FAQஐ கண்டறிய முடியவில்லை</string>
+    <string name="hs__invalid_section_publish_id_error">பொருந்தும் ஐடியுடன் FAQ பிரிவைக் கண்டறிய முடியவில்லை</string>
     <string name="hs__issue_archival_message">மன்னிக்கவும் இந்த உரையாடல் செயல்படாமல் இருந்ததால் மூடப்பட்டது. எங்கள் முகவர்களுடன் புதிய உரையாடலைத் தொடங்கவும்.</string>
-    <string name="hs__mark_helpful_toast">கேள்வி உதவிகரமாக இருந்ததாகக் குறிக்கப்பட்டது</string>
     <string name="hs__mark_no">இல்லை</string>
-    <string name="hs__mark_unhelpful_toast">கேள்வி உதவிகரமாக இல்லை எனக் குறிக்கப்பட்டது</string>
     <string name="hs__mark_yes">ஆம்</string>
     <string name="hs__mark_yes_no_question">இது உதவியாக இருந்ததா?</string>
     <string name="hs__message_not_sent">செய்தி அனுப்பப்படவில்லை.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">புதிய உரையாடல்</string>
     <string name="hs__new_conversation_hint">எப்படி உதவ வேண்டும்?</string>
     <string name="hs__no_search_results_message">அடடா! எந்த முடிவுகளும் இல்லை</string>
-    <string name="hs__notification_content_text">பதில்:</string>
     <string name="hs__permission_denied_message">ஸ்கிரீன்ஷாட்களை அணுகவும், இணைப்புகளைப் பதிவிறக்கவும் சேமிப்பக அனுமதி தேவை</string>
     <string name="hs__permission_denied_snackbar_action">அமைப்புகள்</string>
     <string name="hs__permission_not_granted">உங்கள் புகைப்படங்களை அணுக, பயன்பாட்டுக்கு அனுமதி இல்லை</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">ஸ்கிரீன்ஷாட்டை இணைப்பதில் பிழை. உங்கள் சாதனத்தில் உள்ள படத்தைத் தேர்வு செய்யவும்.</string>
     <string name="hs__screenshot_limit_error">ஸ்கிரீன்ஷாட்டின் அளவு %.2f MB க்கு மிகாமல் இருக்க வேண்டும்</string>
     <string name="hs__screenshot_remove">அகற்று=</string>
-    <string name="hs__screenshot_sent_msg">ஸ்கிரீன்ஷாட் அனுப்பப்பட்டது</string>
     <string name="hs__screenshot_upload_error_msg">ஸ்கிரீன்ஷாட்டை ஏற்றுவதில் பிழை</string>
     <string name="hs__search_footer">நீங்கள் தேடுவது கிடைக்கவில்லையா?</string>
     <string name="hs__search_hint">உங்கள் பிரச்சனையை விவரிக்கவும்</string>

@@ -8,9 +8,7 @@
   <FrameLayout
       android:id="@+id/icon_container"
       android:paddingLeft="16dp"
-      android:paddingRight="8dp"
-      android:paddingTop="11dp"
-      android:paddingBottom="13dp"
+      android:paddingRight="16dp"
       android:layout_width="72dp"
       android:layout_height="match_parent">
   <com.helpshift.campaigns.views.CircleImageView

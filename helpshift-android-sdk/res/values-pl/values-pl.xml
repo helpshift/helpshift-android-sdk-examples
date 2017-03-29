@@ -10,7 +10,6 @@
     </plurals>
     <string name="hs__app_review_button">RECENZJA</string>
     <string name="hs__attach_screenshot_btn">Załącz zrzut ekranu</string>
-    <string name="hs__attach_screenshot_button">ZAŁĄCZ</string>
     <string name="hs__ca_msg">Z przyjemnością pomożemy!</string>
     <string name="hs__cam_action_accept">Zatwierdź</string>
     <string name="hs__cam_action_book_now">Zamów teraz</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Prosimy opisać problem</string>
     <string name="hs__conversation_end_msg">Rozmowa zakończona.</string>
     <string name="hs__conversation_header">Rozmowa</string>
+    <string name="hs__conversation_info_header">Informacje</string>
+    <string name="hs__conversation_info_issue_id">Identyfikator problemu</string>
+    <string name="hs__conversation_info_menu_item_title">Informacje nt problemu</string>
     <string name="hs__conversation_started_message">Twoja wiadomość została odebrana. Dziękujemy za kontakt z nami!</string>
+    <string name="hs__copied_to_clipboard">Skopiowano do schowka</string>
     <string name="hs__copy">Kopiuj</string>
+    <string name="hs__copy_to_clipboard_tooltip">Skopiuj do schowka</string>
     <string name="hs__could_not_open_attachment_msg">Żadne aplikacje nie mogą przeprowadzić tej akcji.</string>
     <string name="hs__could_not_reach_support_msg">Nie udało się nawiązać kontaktu z działem pomocy</string>
     <string name="hs__cr_msg">W czym jeszcze możemy pomóc? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Nie odnaleziono danych</string>
     <string name="hs__default_notification_content_title">Pomoc</string>
     <string name="hs__description_invalid_length_error">W celu uzyskania najlepszej pomocy, prosimy o podanie jak najwięcej szczegółów</string>
-    <string name="hs__dm_video_loading">Wczytywanie klipu...</string>
     <string name="hs__done_btn">Gotowe</string>
     <string name="hs__email_hint">E-mail (opcjonalne)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Przepraszamy! W niniejszej sekcji nie ma dostępnych pytań.</string>
     <string name="hs__faq_fetching_fail_message">Najczęściej Zadawane Pytania są w tej chwili niedostępne. Prosimy spróbować ponownie później...</string>
-    <string name="hs__faq_header">Najczęściej zadawane pytania</string>
     <string name="hs__faqs_search_footer">Nie odnaleziono najczęściej zadawanych pytań</string>
     <string name="hs__feedback_button">Prześlij opinię </string>
     <string name="hs__fetching_faqs_message">Pobieranie odpowiedzi....</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Obraz niedostępny</string>
     <string name="hs__invalid_description_error">Niewłaściwy opis</string>
     <string name="hs__invalid_email_error">Prosimy podać stosowny adres e-mail</string>
+    <string name="hs__invalid_faq_publish_id_error">Nie udało się odnaleźć pasujących Pytań</string>
+    <string name="hs__invalid_section_publish_id_error">Nie udało się odnaleźć pasującej sekcji Pytań</string>
     <string name="hs__issue_archival_message">Przepraszamy! Niniejsza rozmowa została zakończona z powodu braku aktywności. Prosimy o rozpoczęcie nowej rozmowy z jednym z naszych agentów.</string>
-    <string name="hs__mark_helpful_toast">Pytanie zostało oznaczone jako pomocne</string>
     <string name="hs__mark_no">Nie</string>
-    <string name="hs__mark_unhelpful_toast">Pytanie zostało oznaczone jako niepomocne</string>
     <string name="hs__mark_yes">Tak</string>
     <string name="hs__mark_yes_no_question">Czy pomoc była skuteczna?</string>
     <string name="hs__message_not_sent">Nie wysłano wiadomości.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nowa rozmowa</string>
     <string name="hs__new_conversation_hint">W czym możemy pomóc?</string>
     <string name="hs__no_search_results_message">Ups! Nie udało się uzyskać żadnych wyników</string>
-    <string name="hs__notification_content_text">ODP:</string>
     <string name="hs__permission_denied_message">Dostęp do zrzutów ekranu i załączników wymaga pozwolenia magazynowania</string>
     <string name="hs__permission_denied_snackbar_action">Ustawienia</string>
     <string name="hs__permission_not_granted">Aplikacja nie posiada pozwolenia na dostęp do twoich zdjęć</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Błąd przy załączaniu zrzutu ekranu. Prosimy wybrać stosowny obraz na swoim urządzeniu.</string>
     <string name="hs__screenshot_limit_error">Rozmiar zrzutu ekranu nie powinien przekraczać %.2f MB</string>
     <string name="hs__screenshot_remove">Usuń</string>
-    <string name="hs__screenshot_sent_msg">Zdjęcie ekranu wysłane</string>
     <string name="hs__screenshot_upload_error_msg">Błąd przy przesyłaniu zrzutu ekranu</string>
     <string name="hs__search_footer">Nie możesz znaleźć interesującego cię tematu?</string>
     <string name="hs__search_hint">Prosimy opisać problem</string>

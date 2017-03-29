@@ -10,7 +10,6 @@
   </plurals>
     <string name="hs__app_review_button">CRITIQUE</string>
     <string name="hs__attach_screenshot_btn">Joindre une capture d\'écran</string>
-    <string name="hs__attach_screenshot_button">JOINDRE</string>
     <string name="hs__ca_msg">Nous serons ravis de vous aider !</string>
     <string name="hs__cam_action_accept">Accepter</string>
     <string name="hs__cam_action_book_now">Commander maintenant</string>
@@ -51,8 +50,13 @@
     <string name="hs__conversation_detail_error">Décrivez votre problème.</string>
     <string name="hs__conversation_end_msg">Cette conversation est terminée.</string>
     <string name="hs__conversation_header">Conversation</string>
+    <string name="hs__conversation_info_header">Informations</string>
+    <string name="hs__conversation_info_issue_id">Identifiant du problème</string>
+    <string name="hs__conversation_info_menu_item_title">Information sur le problème</string>
     <string name="hs__conversation_started_message">Votre message a été reçu. Merci de nous avoir contactés !</string>
+    <string name="hs__copied_to_clipboard">Copié dans le Presse-papiers</string>
     <string name="hs__copy">Copier</string>
+    <string name="hs__copy_to_clipboard_tooltip">Copier dans le Presse-papier</string>
     <string name="hs__could_not_open_attachment_msg">Aucune application ne peut effectuer cette action</string>
     <string name="hs__could_not_reach_support_msg">Impossible de contacter l\'assistance</string>
     <string name="hs__cr_msg">Que pouvons-nous faire d\'autre pour vous ? </string>
@@ -66,13 +70,10 @@
     <string name="hs__data_not_found_msg">Données introuvables</string>
     <string name="hs__default_notification_content_title">Assistance</string>
     <string name="hs__description_invalid_length_error">Pour nous permettre de mieux vous aider, veuillez fournir plus de détails.</string>
-    <string name="hs__dm_video_loading">Chargement de la vidéo...</string>
     <string name="hs__done_btn">Fait</string>
     <string name="hs__email_hint">E-mail (optionnel)</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__empty_section">Nous sommes désolés ! Cette section ne contient aucune question.</string>
     <string name="hs__faq_fetching_fail_message">Impossible de charger la FAQ pour le moment. Veuillez réessayer plus tard...</string>
-    <string name="hs__faq_header">FAQ</string>
     <string name="hs__faqs_search_footer">Aucune FAQ trouvée</string>
     <string name="hs__feedback_button">Envoyer commentaire </string>
     <string name="hs__fetching_faqs_message">Obtention de vos réponses...</string>
@@ -90,10 +91,10 @@
     <string name="hs__image_not_available">Image indisponible</string>
     <string name="hs__invalid_description_error">Description invalide</string>
     <string name="hs__invalid_email_error">Entrez une adresse e-mail valide.</string>
+    <string name="hs__invalid_faq_publish_id_error">Impossible de trouver une FAQ avec cet identifiant</string>
+    <string name="hs__invalid_section_publish_id_error">Impossible de trouver une section de la FAQ avec cet identifiant</string>
     <string name="hs__issue_archival_message">Nous sommes désolés ! Cette conversation a été fermée pour inactivité. Veuillez commencer une nouvelle conversation avec nos agents.</string>
-    <string name="hs__mark_helpful_toast">Cette question a été marquée comme utile.</string>
     <string name="hs__mark_no">Non</string>
-    <string name="hs__mark_unhelpful_toast">Cette question a été marquée comme non utile.</string>
     <string name="hs__mark_yes">Oui</string>
     <string name="hs__mark_yes_no_question">Cela a-t-il été utile ?</string>
     <string name="hs__message_not_sent">Message non envoyé.</string>
@@ -103,7 +104,6 @@
     <string name="hs__new_conversation_header">Nouvelle conversation</string>
     <string name="hs__new_conversation_hint">Comment pouvons-nous vous aider ?</string>
     <string name="hs__no_search_results_message">Oups ! Nous n\'avons trouvé aucun résultat.</string>
-    <string name="hs__notification_content_text">RE :</string>
     <string name="hs__permission_denied_message">Une permission de stockage est nécessaire pour accéder aux captures d\'écran et télécharger des pièces jointes.</string>
     <string name="hs__permission_denied_snackbar_action">Paramètres</string>
     <string name="hs__permission_not_granted">L\'application n\'est pas autorisée à accéder à vos photos.</string>
@@ -123,7 +123,6 @@
     <string name="hs__screenshot_cloud_attach_error">Impossible de joindre la capture d\'écran. Veuillez choisir une image sur votre appareil.</string>
     <string name="hs__screenshot_limit_error">La taille d\'une capture d\'écran ne doit pas dépasser %.2f Mo.</string>
     <string name="hs__screenshot_remove">Supprimer</string>
-    <string name="hs__screenshot_sent_msg">Capture d\'écran envoyée</string>
     <string name="hs__screenshot_upload_error_msg">Erreur lors du chargement de la capture d\'écran</string>
     <string name="hs__search_footer">Vous ne trouvez pas ce que vous cherchez ?</string>
     <string name="hs__search_hint">Décrivez votre problème</string>
