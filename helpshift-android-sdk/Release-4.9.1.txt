@@ -1,4 +1,4 @@
-Helpshift SDK 4.9.0 Release Notes (for Android)
+Helpshift SDK 4.9.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,12 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+4.9.1 Release Date: April 18, 2017
+      * Added flag for showing Conversation info screen.
+      * Fixed some bugs that would cause the app to crash on startup.
+4.9.1-support Release Date: April 18, 2017
+      * Added flag for showing Conversation info screen.
+      * Fixed some bugs that would cause the app to crash on startup.
 4.9.0 Release Date: March 28, 2017
       * Added support for programmatically setting screen orientation for the SDK.
       * Users can now view the Issue ID for an ongoing Issue by navigating to the Issue Information screen by tapping the icon on the top right of the Conversation screen.
