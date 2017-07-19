@@ -3,8 +3,8 @@
     package="com.example.gcmclient" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="23"/>
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25"/>
 
     <!--Helpshift permission-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>

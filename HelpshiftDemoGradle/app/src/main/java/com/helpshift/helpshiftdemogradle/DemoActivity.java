@@ -23,6 +23,7 @@ public class DemoActivity extends ActionBarActivity {
       public void onClick(View view) {
         ApiConfig.Builder configBuilder = new ApiConfig.Builder();
         configBuilder.setRequireEmail(true);
+        configBuilder.setEnableTypingIndicator(true);
         Support.showFAQs(DemoActivity.this, configBuilder.build());
       }
     });
