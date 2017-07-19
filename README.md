@@ -89,7 +89,6 @@ limitations under the License.
 
 | Package       | License                               | Copyright / Creator
 -----------------|---------------------------------------|---------------------
-| Urban Airship Android Library | Simplified BSD | (C) 2009-2012 Urban Airship Inc.
 | Android v7 appcompat Library | [Android Software Development Kit License](http://developer.android.com/sdk/terms.html) | (C) Google, Inc.
 | Android cardview Library | [Android Software Development Kit License](http://developer.android.com/sdk/terms.html) | (C) Google, Inc.
 | Android recyclerview Library | [Android Software Development Kit License](http://developer.android.com/sdk/terms.html) | (C) Google, Inc.
