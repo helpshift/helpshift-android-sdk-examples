@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">कृपया बायें तरफ से एक संदेश चुनें</string>
     <string name="hs__cam_undo">पूर्ववत करें</string>
     <string name="hs__change_btn">बदलें</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">एक नया संदेश टाइप करें</string>
-    <string name="hs__chat_out_of_business_hours">हम अभी उपस्थित नहीं हैं, लेकिन कार्य-समय के दौरान हम आपसे संपर्क करेंगे</string>
     <string name="hs__confirmation_footer_msg">हमे संदेश प्रेषित करने के लिए धन्यवाद!</string>
     <string name="hs__confirmation_msg">क्या हमने आपके सभी प्रश्नों के उत्तर दिए? </string>
     <string name="hs__contact_us_btn">हमसे संपर्क करें</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">प्रतिक्रिया भेजें </string>
     <string name="hs__fetching_faqs_message">आपके जवाब प्राप्त कर रहे हैं...</string>
     <string name="hs__file_not_found_msg">फाइल नहीं मिली</string>
-    <string name="hs__file_type_audio">ऑडियो</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office doc</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">फाइल</string>
-    <string name="hs__file_type_video">वीडियो</string>
     <string name="hs__help_header">मदद</string>
-    <string name="hs__image_attachment">छवि संलग्न करना</string>
-    <string name="hs__image_not_available">छवि उपलब्ध नहीं है</string>
     <string name="hs__invalid_description_error">अमान्य विवरण</string>
     <string name="hs__invalid_email_error">कृपया एक मान्य ईमेल दर्ज करें</string>
     <string name="hs__invalid_faq_publish_id_error">इस ID से अक्सर किये जाने वाले सवाल नहीं मिल सके</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">आपके फोटो तक पहुँचने के लिए एप्लीकेशन के पास अनुमति नहीं है</string>
     <string name="hs__permission_rationale_snackbar_action_label">ठीक है </string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">क्या आपको यह उपयोगी लगा।</string>
-    <string name="hs__question_unhelpful_message">आपके लिए यह उपयोगी नहीं रहा।</string>
+    <string name="hs__question_helpful_message">आपको यह उपयोगी लगा</string>
+    <string name="hs__question_unhelpful_message">आपके लिए यह उपयोगी नहीं रहा</string>
     <string name="hs__rate_button">मूल्यांकन करें</string>
     <string name="hs__remove_screenshot_btn">स्क्रीनशॉट हटाएं</string>
     <string name="hs__retry_faq_fetching_button">पुन: प्रयास करें</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">भेजें</string>
     <string name="hs__sending_fail_msg">संदेश नहीं भेजा गया. पुन: प्रयास के लिए टच करें.</string>
     <string name="hs__sending_msg">भेज रहे हैं…</string>
-    <string name="hs__solved_btn">हाँ, समाधान हुआ!</string>
     <string name="hs__ssl_handshake_error">आपका कनेक्शन सुरक्षित नहीं है। विश्वसनीय कनेक्शन स्थापित करने मेंएक समस्या थी।</string>
     <string name="hs__ssl_peer_unverified_error">आपका कनेक्शन सुरक्षित नहीं है। उसकी प्रामाणिकता की जाँच कर पाने में एक समस्या थी</string>
     <string name="hs__starting_download">डाउनलोड आरंभ हो रहा है…</string>
     <string name="hs__submit_conversation_btn">जमा करें</string>
-    <string name="hs__unsolved_btn">नहीं, अनसुलझा</string>
     <string name="hs__username_blank_error">कृपया एक मान्य नाम दर्ज करें</string>
     <string name="hs__username_hint">आपका नाम</string>
 </resources>

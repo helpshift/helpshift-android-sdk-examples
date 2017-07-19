@@ -2,8 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="?android:windowBackground">
+    android:layout_height="wrap_content">
 
   <com.helpshift.views.HSTextView
       android:id="@+id/csat_message"
@@ -12,9 +11,9 @@
       android:layout_centerHorizontal="true"
       android:gravity="center_horizontal"
       android:paddingBottom="@dimen/activity_horizontal_margin_small"
+      android:paddingTop="8dp"
       android:paddingLeft="@dimen/activity_horizontal_margin_medium"
       android:paddingRight="@dimen/activity_horizontal_margin_medium"
-      android:paddingTop="@dimen/activity_horizontal_margin_large"
       android:text="@string/hs__csat_message"
       android:textColor="?android:textColorSecondary"
       android:textSize="@dimen/hs__textSizeMedium"/>
@@ -71,6 +70,7 @@
       android:layout_height="wrap_content"
       android:layout_below="@+id/csat_msg_container"
       android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+      android:layout_marginBottom="10dp"
       android:gravity="center"
       android:orientation="horizontal">
 

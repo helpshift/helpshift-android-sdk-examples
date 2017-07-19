@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">বামদিক থেকে একটি বার্তা নির্বাচন করুন</string>
     <string name="hs__cam_undo">আন্ডু</string>
     <string name="hs__change_btn">পরিবর্তন</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">একটি নতুন বার্তা টাইপ করুন</string>
-    <string name="hs__chat_out_of_business_hours">আমরা এই মুহুর্তে উপস্থিত নই, কিন্তু কর্ম সময়ে আমরা আপনার সাথে যোগাযোগ করব।</string>
     <string name="hs__confirmation_footer_msg">আমাদেরকে বার্তা পাঠানোর জন্য ধন্যবাদ!</string>
     <string name="hs__confirmation_msg">আমরা কি আপনার সব প্রশ্নের উত্তর দিয়েছি? </string>
     <string name="hs__contact_us_btn">আমাদের সাথে যোগাযোগ করুন</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">মতামত পাঠান</string>
     <string name="hs__fetching_faqs_message">আপনার উত্তর পেয়ে ...</string>
     <string name="hs__file_not_found_msg">ফাইলটি পাওয়া যায়নি</string>
-    <string name="hs__file_type_audio">অডিও</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office doc</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">ফাইল</string>
-    <string name="hs__file_type_video">ভিডিও</string>
     <string name="hs__help_header">সাহায্য</string>
-    <string name="hs__image_attachment">চিত্র অ্যাটাচমেন্ট</string>
-    <string name="hs__image_not_available">ইমেজ উপলব্ধ নয়</string>
     <string name="hs__invalid_description_error">অবৈধ বিবরণ</string>
     <string name="hs__invalid_email_error">একটি বৈধ ইমেইল এন্টার করুন</string>
     <string name="hs__invalid_faq_publish_id_error">আমরা এই আইডি সংশ্লিষ্ট কোনো  FAQ খুঁজে পাইনি</string>
@@ -109,7 +97,7 @@
     <string name="hs__permission_not_granted">অ্যাপ্লিকেশনটির আপনার ফটোগুলি অ্যাক্সেস করার অনুমতি নেই</string>
     <string name="hs__permission_rationale_snackbar_action_label">ঠিক আছে</string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">আপনার কাছে এটি সহায়ক ছিল।</string>
+    <string name="hs__question_helpful_message">আপনার কাছে এটি সহায়ক ছিল</string>
     <string name="hs__question_unhelpful_message">আপনার এটিকে সহায়ককারী বলে মনে হয়নি</string>
     <string name="hs__rate_button">রেট</string>
     <string name="hs__remove_screenshot_btn">স্ক্রিনশট অপসারণ করুন</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">পাঠান</string>
     <string name="hs__sending_fail_msg">বার্তা পাঠানো হয়নি। পুনরায় চেষ্টা করার জন্য টাচ করুন।</string>
     <string name="hs__sending_msg">পাঠানো হচ্ছে ...</string>
-    <string name="hs__solved_btn">হ্যাঁ, মীমাংসিত!</string>
     <string name="hs__ssl_handshake_error">আপনার সংযোগটি নিরাপদ নয়। একটি বিশ্বস্ত সংযোগ প্রতিষ্ঠায় একটি সমস্যা হয়েছিল</string>
     <string name="hs__ssl_peer_unverified_error">আপনার সংযোগটি নিরাপদ নয়। এর সত্যতা যাচাই করার সময় একটি সমস্যা হয়েছিল।</string>
     <string name="hs__starting_download">ডাউনলোড করা শুরু হচ্ছে…</string>
     <string name="hs__submit_conversation_btn">সাবমিট</string>
-    <string name="hs__unsolved_btn">না, অমীমাংসিত</string>
     <string name="hs__username_blank_error">একটি বৈধ নাম এন্টার করুন</string>
     <string name="hs__username_hint">তোমার নাম</string>
 </resources>

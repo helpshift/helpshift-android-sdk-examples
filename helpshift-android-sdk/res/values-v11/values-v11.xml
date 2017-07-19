@@ -12,12 +12,6 @@
   </style>
     <style name="Helpshift.Style.ContactUsButton" parent="Helpshift.Style.BorderlessButton">
   </style>
-    <style name="Helpshift.Style.FaqHelpfulButton" parent="Helpshift.Style.BorderlessButton">
-    <item name="android:textColor">?attr/hs__faqHelpfulButtonTextColor</item>
-  </style>
-    <style name="Helpshift.Style.FaqUnhelpfulButton" parent="Helpshift.Style.BorderlessButton">
-    <item name="android:textColor">?attr/hs__faqUnhelpfulButtonTextColor</item>
-  </style>
     <style name="Helpshift.Style.FaqsListItem">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">wrap_content</item>

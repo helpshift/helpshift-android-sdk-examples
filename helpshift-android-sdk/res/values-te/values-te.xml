@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">దయచేసి ఎడమవైపు నుండి ఒక సందేశాన్ని ఎంచుకోండి</string>
     <string name="hs__cam_undo">అన్‌డూ చేయండి</string>
     <string name="hs__change_btn">మార్చండి</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">ఒక కొత్త సందేశాన్ని టైప్ చేయండి</string>
-    <string name="hs__chat_out_of_business_hours">ప్రస్తుతం మేము అందుబాటులో లేము, తిరిగి మా వ్యాపార వేళల్లో మిమ్మల్ని సంప్రదిస్తాము</string>
     <string name="hs__confirmation_footer_msg">మాకు సందేశాన్ని పంపినందుకు ధన్యవాదాలు!</string>
     <string name="hs__confirmation_msg">మేము మీ ప్రశ్నలకన్నింటికీ సమాధానమిచ్చామా? </string>
     <string name="hs__contact_us_btn">మమ్మల్ని సంప్రదించండి</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">అభిప్రాయాన్ని పంపండి </string>
     <string name="hs__fetching_faqs_message">మీ సమాధానాలను తెస్తున్నది…</string>
     <string name="hs__file_not_found_msg">ఫైల్‌ దొరకలేదు</string>
-    <string name="hs__file_type_audio">ఆడియో</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office డాక్యుమెంట్‌</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">ఫైల్</string>
-    <string name="hs__file_type_video">వీడియో</string>
     <string name="hs__help_header">సహాయం</string>
-    <string name="hs__image_attachment">చిత్రం అటాచ్‌మెంట్‌</string>
-    <string name="hs__image_not_available">చిత్రం అందుబాటులో లేదు</string>
     <string name="hs__invalid_description_error">చెల్లని వివరణ</string>
     <string name="hs__invalid_email_error">దయచేసి ఒక సరైన ఇమెయిల్‌ను ప్రవేశపెట్టండి</string>
     <string name="hs__invalid_faq_publish_id_error">IDకి సరిపోయే FAQ ను మేము కనుగొనలేకపోయాము</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">మీ ఫోటోలకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు అప్లికేషన్‌కు అనుమతి లేదు</string>
     <string name="hs__permission_rationale_snackbar_action_label">సరే </string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">మీకు ఇది సహాయకరంగా అనిపించింది.</string>
-    <string name="hs__question_unhelpful_message">మీకు ఇది సహాయకరంగా అనిపించలేదు.</string>
+    <string name="hs__question_helpful_message">మీకు ఇది సహాయకరంగా అనిపించింది</string>
+    <string name="hs__question_unhelpful_message">మీకు ఇది సహాయకరంగా అనిపించలేదు</string>
     <string name="hs__rate_button">రేట్‌ చేయండి</string>
     <string name="hs__remove_screenshot_btn">స్క్రీన్‌షాట్‌ను తొలగించండి</string>
     <string name="hs__retry_faq_fetching_button">మళ్ళీ ప్రయత్నించండి</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">పంపండి</string>
     <string name="hs__sending_fail_msg">సందేశం పంపించబడలేదు. తిరిగి ప్రయత్నించేందుకు తాకండి.</string>
     <string name="hs__sending_msg">పంపిస్తున్నాము…</string>
-    <string name="hs__solved_btn">అవును, పరిష్కరించబడింది!</string>
     <string name="hs__ssl_handshake_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. ఒక విశ్వసనీయమైన కనెక్షన్‌ను ఏర్పాటుచేయడంలో ఒక సమస్య తలెత్తింది</string>
     <string name="hs__ssl_peer_unverified_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. దాని ప్రామాణికతను ధృవీకరించడంలో సమస్య తలెత్తింది.</string>
     <string name="hs__starting_download">డౌన్‌లోడ్‌ ఆరంభమవుతున్నది…</string>
     <string name="hs__submit_conversation_btn">సమర్పించండి</string>
-    <string name="hs__unsolved_btn">లేదు, పరిష్కరించబడలేదు</string>
     <string name="hs__username_blank_error">దయచేసి ఒక సరైన పేరును ప్రవేశపెట్టండి</string>
     <string name="hs__username_hint">మీ పేరు</string>
 </resources>

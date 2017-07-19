@@ -1,232 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="horizontal"
     android:paddingTop="@dimen/activity_horizontal_margin_medium">
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      tools:ignore="UselessParent">
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:visibility="visible">
-
-      <LinearLayout
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-          android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-          android:layout_weight="4"
-          android:gravity="start"
-          android:orientation="vertical">
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_weight="4"
+        android:gravity="start"
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/admin_message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?attr/hs__chatBubbleAdminBackground"
-            android:orientation="vertical">
-
-          <com.helpshift.views.HSTextView
-              android:id="@android:id/text1"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:paddingLeft="@dimen/activity_horizontal_margin_medium"
-              android:paddingRight="@dimen/activity_horizontal_margin_medium"
-              android:paddingTop="@dimen/activity_horizontal_margin_medium"
-              android:textColor="?attr/hs__chatBubbleAdminText"
-              android:textColorLink="?attr/hs__chatBubbleAdminLink"
-              android:textSize="@dimen/hs__textSizeMedium"/>
-
-          <com.helpshift.views.HSButton
-              android:id="@android:id/button1"
-              style="@style/Helpshift.Style.BorderlessButton"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_marginBottom="-16dp"
-              android:layout_marginLeft="4dp"
-              android:layout_marginStart="4dp"
-              android:text="@string/hs__attach_screenshot_btn"/>
-
-          <View
-              android:layout_width="1dp"
-              android:layout_height="16dp"/>
-        </LinearLayout>
-      </LinearLayout>
-
-      <View
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@android:id/edit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
-        android:orientation="horizontal"
-        android:visibility="visible">
-
-      <View
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"/>
-
-      <LinearLayout
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
-          android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-          android:layout_weight="4"
-          android:gravity="end"
-          android:orientation="vertical">
-
-        <LinearLayout
-            android:id="@+id/user_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/hs__chatBubbleUserBackground"
-            android:orientation="vertical"
-            android:paddingBottom="8dp"
-            android:paddingLeft="2dp"
-            android:paddingRight="2dp"
-            android:paddingTop="2dp">
-
-          <FrameLayout
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-              <ImageView
-                  android:id="@android:id/summary"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_gravity="center"
-                  tools:ignore="ContentDescription"/>
-
-              <LinearLayout
-                  android:layout_width="match_parent"
-                  android:layout_height="56dp"
-                  android:layout_gravity="bottom|end"
-                  android:background="?attr/hs__chatBubbleAdminBackgroundColor"
-                  android:gravity="center"
-                  android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/image_icon"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-                    android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/hs__attachment_icon"
-                    android:tint="?colorAccent"
-                    tools:ignore="ContentDescription"/>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-                    android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                  <com.helpshift.views.HSTextView
-                      android:id="@+id/attachment_file_name"
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:layout_centerInParent="true"
-                      android:ellipsize="marquee"
-                      android:maxLines="1"
-                      android:singleLine="true"
-                      android:text="@string/hs__sending_msg"
-                      android:textColor="?android:textColorPrimary"
-                      android:textSize="@dimen/hs__textSizeMedium"
-                      android:visibility="visible"/>
-
-                  <com.helpshift.views.HSTextView
-                      android:id="@+id/attachment_file_type"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_alignParentLeft="true"
-                      android:layout_alignParentStart="true"
-                      android:layout_below="@+id/attachment_file_name"
-                      android:textColor="?android:textColorSecondary"
-                      android:textSize="@dimen/hs__textSizeSmall"
-                      android:visibility="gone"/>
-
-                  <com.helpshift.views.HSTextView
-                      android:id="@+id/attachment_file_size"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_alignParentEnd="true"
-                      android:layout_alignParentRight="true"
-                      android:layout_below="@+id/attachment_file_name"
-                      android:layout_toLeftOf="@+id/attachment_file_type"
-                      android:layout_toStartOf="@+id/attachment_file_type"
-                      android:textColor="?android:textColorSecondary"
-                      android:textSize="@dimen/hs__textSizeSmall"
-                      android:visibility="gone"/>
-                </RelativeLayout>
-              </LinearLayout>
-            </LinearLayout>
+            style="@style/Helpshift.Style.AdminTextMessageContainer">
 
             <com.helpshift.views.HSTextView
-                android:id="@+id/errorText"
+                android:id="@+id/admin_attachment_request_text"
+                style="@style/Helpshift.Style.AdminTextMessage"/>
+
+            <com.helpshift.views.HSButton
+                android:id="@+id/admin_attach_screenshot_button"
+                style="@style/Helpshift.Style.BorderlessButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:alpha="0.5"
-                android:drawableLeft="@drawable/hs__attachment_icon"
-                android:drawablePadding="@dimen/activity_horizontal_margin_small"
-                android:drawableStart="@drawable/hs__attachment_icon"
-                android:gravity="center"
-                android:padding="@dimen/activity_horizontal_margin_medium"
-                android:text="@string/hs__image_not_available"
-                android:textSize="@dimen/hs__textSizeSmall"
-                android:visibility="visible"/>
-          </FrameLayout>
-
-          <ProgressBar
-              android:id="@android:id/progress"
-              style="@style/Helpshift.Style.QuestionLoadProgress"/>
-
-          <!-- This is a dummy view, since R.id.button_separator is removed but
-          still present in D.java in test classes which is failing jenkin build
-          TODO: Remove this immediately after tests are fixed-->
-          <View
-              android:id="@+id/button_separator"
-              android:layout_width="0dp"
-              android:layout_height="0dp"
-              android:visibility="gone"/>
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="-8dp"
+                android:text="@string/hs__attach_screenshot_btn"/>
         </LinearLayout>
 
         <com.helpshift.views.HSTextView
-            android:id="@+id/text_retry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-            android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-            android:layout_marginTop="4dp"
-            android:text="@string/hs__sending_fail_msg"
-            android:textColor="?attr/hs__validationErrorColor"
-            android:textSize="@dimen/hs__textSizeSmall"
-            android:visibility="gone"/>
-      </LinearLayout>
+            android:id="@+id/admin_date_text"
+            style="@style/Helpshift.Style.AdminMessageDate"/>
     </LinearLayout>
-  </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 </LinearLayout>

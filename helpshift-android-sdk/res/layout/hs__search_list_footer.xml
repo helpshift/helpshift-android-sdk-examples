@@ -15,6 +15,7 @@
       android:orientation="vertical">
 
     <View
+        android:id="@+id/search_list_footer_divider"
         style="@style/HSDivider"
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
@@ -27,7 +28,8 @@
         android:gravity="center"
         android:paddingLeft="@dimen/activity_horizontal_margin_medium"
         android:paddingRight="@dimen/activity_horizontal_margin_medium"
-        android:text="@string/hs__search_footer"/>
+        android:text="@string/hs__search_footer"
+        android:textColor="?android:textColorSecondary"/>
 
     <com.helpshift.views.HSButton
         android:id="@+id/report_issue"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:ignore="AlwaysShowAction">
+  <item
+      android:id="@+id/hs__attach_screenshot"
+      android:icon="@drawable/hs__attach_screenshot_action_button"
+      android:title="@string/hs__attach_screenshot_btn"
+      android:visible="false"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/hs__start_new_conversation"
+      android:icon="@drawable/hs__send"
+      android:title="@string/hs__contact_us_btn"
+      android:visible="false"
+      app:showAsAction="always"/>
+</menu>

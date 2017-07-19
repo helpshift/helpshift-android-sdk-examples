@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">ਕਿਰਪਾ ਕਰਕੇ ਖੱਬਿਓਂ ਇੱਕ ਸੁਨੇਹਾ ਚੁਣੋ</string>
     <string name="hs__cam_undo">ਪਹਿਲੇ ਵਰਗਾ ਕਰੋ</string>
     <string name="hs__change_btn">ਬਦਲੋ</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">ਇੱਕ ਨਵਾਂ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ</string>
-    <string name="hs__chat_out_of_business_hours">ਹੱਲੇ ਅੱਸੀ ਮਜੂਦ ਨਹੀਂ ਹਾਂ, ਪਰ ਅੱਸੀ ਕਮ ਦੇ ਸਮੇਂ ਦੇ ਦੌਰਾਨ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ !</string>
     <string name="hs__confirmation_footer_msg">ਸਾਨੂੰ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਧੰਨਵਾਦ!</string>
     <string name="hs__confirmation_msg">ਕੀ ਅਸੀਂ ਤੁਹਾਡਾ ਸਾਰੇ ਸਵਾਲਾਂ ਦਾ ਜਵਾਬ ਦਿੱਤਾ?</string>
     <string name="hs__contact_us_btn">ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">ਫੀਡਬੈਕ ਭੇਜੋ</string>
     <string name="hs__fetching_faqs_message">ਤੁਹਾਡੇ ਉੱਤਰ ਪ੍ਰਾਪਤ ਹੋ ਰਹੇ…</string>
     <string name="hs__file_not_found_msg">ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ</string>
-    <string name="hs__file_type_audio">ਔਡੀਓ</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office ਦਸਤਾਵੇਜ਼</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">ਫਾਈਲ</string>
-    <string name="hs__file_type_video">ਵੀਡਿਓ</string>
     <string name="hs__help_header">ਮਦਦ</string>
-    <string name="hs__image_attachment">ਪ੍ਰਤੀਬਿੰਬ ਅਟੈਚਮੈਂਟ</string>
-    <string name="hs__image_not_available">ਪ੍ਰਤੀਬਿੰਬ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ</string>
     <string name="hs__invalid_description_error">ਨਾ-ਮੰਨਣਯੋਗ ਵਰਣਨ</string>
     <string name="hs__invalid_email_error">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਈਮੇਲ ਦਾਖ਼ਲ ਕਰੋ</string>
     <string name="hs__invalid_faq_publish_id_error">ਸਾਨੂੰ ਏਸ ID ਦੇ ਨਾਲ ਮਿਲਦਾ FAQ ਨਾ ਲਭਿਆ</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">ਅਨੁਪ੍ਰਯੋਗ ਕੋਲ ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ ਨੂੰ ਐਕਸੈਸ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ</string>
     <string name="hs__permission_rationale_snackbar_action_label">ਠੀਕ ਹੈ</string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਲੱਗਿਆ।</string>
-    <string name="hs__question_unhelpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਨਹੀਂ ਲੱਗਿਆ।</string>
+    <string name="hs__question_helpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਲੱਗਿਆ</string>
+    <string name="hs__question_unhelpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਨਹੀਂ ਲੱਗਿਆ</string>
     <string name="hs__rate_button">ਰੇਟ ਰਪੋ</string>
     <string name="hs__remove_screenshot_btn">ਸਕ੍ਰੀਨਸ਼ੌਟ ਨੂੰ ਹਟਾਓ</string>
     <string name="hs__retry_faq_fetching_button">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">ਭੇਜੋ</string>
     <string name="hs__sending_fail_msg">ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਸਪਰਸ਼ ਕਰੋ।</string>
     <string name="hs__sending_msg">ਭੇਜ ਰਹੇ…</string>
-    <string name="hs__solved_btn">ਹਾਂ, ਸੁਲਝ ਗਿਆ!</string>
     <string name="hs__ssl_handshake_error">ਤੁਹਾਡਾ ਕੁਨੈਕਸ਼ਨ ਸੁਰੱਖਿਅਤ ਨਹੀ ਹੈ! ਭਰੋਸੇਯੋਗ ਕੁਨੈਕਸ਼ਨ ਸਥਾਪਤ ਕਰਨ ਲਈ ਇੱਕ ਸਮੱਸਿਆ ਆਈ ਹੈ</string>
     <string name="hs__ssl_peer_unverified_error">ਤੁਹਾਡਾ ਕਨੈਕਸ਼ਨ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਹੈ। ਇਸ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਿੱਚ ਇੱਕ ਸਮੱਸਿਆ ਆਈ ਸੀ।</string>
     <string name="hs__starting_download">ਡਾਉਨਲੋਡ ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ…</string>
     <string name="hs__submit_conversation_btn">ਸਬਮਿਟ ਕਰੋ</string>
-    <string name="hs__unsolved_btn">ਨਹੀਂ, ਅਣਸੁਲਝਿਆ</string>
     <string name="hs__username_blank_error">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਨਾਮ ਦਾਖ਼ਲ ਕਰੋ</string>
     <string name="hs__username_hint">ਤੁਹਾਡਾ ਨਾਮ</string>
 </resources>

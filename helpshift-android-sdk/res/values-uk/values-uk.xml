@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">Виберіть повідомлення ліворуч</string>
     <string name="hs__cam_undo">Скасувати</string>
     <string name="hs__change_btn">Змінити</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Введіть нове повідомлення</string>
-    <string name="hs__chat_out_of_business_hours">Зараз нас немає на місці, але ми зв\'яжемося з вами в робочий час</string>
     <string name="hs__confirmation_footer_msg">Дякуємо, що надіслали нам повідомлення!</string>
     <string name="hs__confirmation_msg">Ви отримали відповіді на всі свої питання? </string>
     <string name="hs__contact_us_btn">ЗВ\'ЯЗАТИСЯ З НАМИ</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">Відправити відгук </string>
     <string name="hs__fetching_faqs_message">Отримання відповідей…</string>
     <string name="hs__file_not_found_msg">Файл не знайдено</string>
-    <string name="hs__file_type_audio">Аудіо</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">Документ MS Office</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">Файл</string>
-    <string name="hs__file_type_video">Відео</string>
     <string name="hs__help_header">Допомога</string>
-    <string name="hs__image_attachment">Вкладення зображення</string>
-    <string name="hs__image_not_available">Зображення недоступне</string>
     <string name="hs__invalid_description_error">Неприпустимий опис</string>
     <string name="hs__invalid_email_error">Введіть дійсну адресу e-mail</string>
     <string name="hs__invalid_faq_publish_id_error">Збірника FAQ з таким ідентифікатором не знайдено</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">Програма не має дозволу на доступ до ваших знімків</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK </string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">Ви вважаєте цю інформацію корисною.</string>
-    <string name="hs__question_unhelpful_message">Ви не вважаєте цю інформацію корисною.</string>
+    <string name="hs__question_helpful_message">Ви вважаєте цю інформацію корисною</string>
+    <string name="hs__question_unhelpful_message">Ви не вважаєте цю інформацію корисною</string>
     <string name="hs__rate_button">Оцінити</string>
     <string name="hs__remove_screenshot_btn">Видалити знімок екрана</string>
     <string name="hs__retry_faq_fetching_button">ЩЕ РАЗ</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">ВІДПРАВИТИ</string>
     <string name="hs__sending_fail_msg">Повідомлення не відправлено. Торкніться екрана, щоб повторити спробу.</string>
     <string name="hs__sending_msg">Відправлення…</string>
-    <string name="hs__solved_btn">Так, проблему вирішено!</string>
     <string name="hs__ssl_handshake_error">Це з’єднання не є безпечним. Встановити довірене підключення не вдалося.</string>
     <string name="hs__ssl_peer_unverified_error">Це з’єднання не є безпечним. Перевірити його автентичність не вдалося.</string>
     <string name="hs__starting_download">Початок завантаження…</string>
     <string name="hs__submit_conversation_btn">Надіслати</string>
-    <string name="hs__unsolved_btn">Ні, проблему не вирішено</string>
     <string name="hs__username_blank_error">Введіть дійсне ім\'я</string>
     <string name="hs__username_hint">Ваше ім\'я</string>
 </resources>

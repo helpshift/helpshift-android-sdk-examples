@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">डावीकडून एक संदेश निवडा</string>
     <string name="hs__cam_undo">पूर्ववत् करा</string>
     <string name="hs__change_btn">बदला</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">नवीन संदेश टाइप करा</string>
-    <string name="hs__chat_out_of_business_hours">आम्ही सध्या उपस्थित नाही आहोत, आम्ही आपल्याशी कार्यालयीन वेळेत पुन्हा संपर्क साधू.</string>
     <string name="hs__confirmation_footer_msg">आम्हाला संदेश पाठवल्याबद्दल धन्यवाद!</string>
     <string name="hs__confirmation_msg">आम्ही आपल्या सर्व प्रश्नांची उत्तरे दिली का?</string>
     <string name="hs__contact_us_btn">आमच्याशी संपर्क करा</string>
@@ -53,7 +51,7 @@
     <string name="hs__conversation_info_header">माहिती</string>
     <string name="hs__conversation_info_issue_id">समस्या आयडी</string>
     <string name="hs__conversation_info_menu_item_title">समस्या माहिती</string>
-    <string name="hs__conversation_started_message">आमच्याशी संपर्क केल्याबद्दल धन्यवाद. आमच्याशी संपर्क केल्याबद्दल धन्यवाद!</string>
+    <string name="hs__conversation_started_message">आमच्याशी संपर्क केल्याबद्दल धन्यवाद.</string>
     <string name="hs__copied_to_clipboard">क्लिपबोर्डवर कॉपी केलेले</string>
     <string name="hs__copy">प्रत बनवा</string>
     <string name="hs__copy_to_clipboard_tooltip">क्लिपबोर्डवर कॉपी करा</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">अभिप्राय पाठवा</string>
     <string name="hs__fetching_faqs_message">आपली उत्तरे मिळवणे…</string>
     <string name="hs__file_not_found_msg">फाईल सापडली नाही</string>
-    <string name="hs__file_type_audio">ऑडीओ</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office doc</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">फाईल</string>
-    <string name="hs__file_type_video">व्हिडीओ</string>
     <string name="hs__help_header">मदत</string>
-    <string name="hs__image_attachment">प्रतिमा संलग्न</string>
-    <string name="hs__image_not_available">प्रतिमा उपलब्ध नाही</string>
     <string name="hs__invalid_description_error">अवैध वर्णन</string>
     <string name="hs__invalid_email_error">कृपया एक वैध इमेल प्रविष्ठ करा</string>
     <string name="hs__invalid_faq_publish_id_error">आम्हाला जुळणाऱ्या ID चा FAQ सापडला नाही</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">आपल्या फोटोजनाप्रवेश मिळवण्याची परवानगी अनुप्रयोगाला नाहीये</string>
     <string name="hs__permission_rationale_snackbar_action_label">ठीक आहे</string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">आपल्याला हे उपयुक्त वाटले.</string>
-    <string name="hs__question_unhelpful_message">आपल्याला हे उपयुक्त वाटले नाही.</string>
+    <string name="hs__question_helpful_message">आपल्याला हे उपयुक्त वाटले</string>
+    <string name="hs__question_unhelpful_message">आपल्याला हे उपयुक्त वाटले नाही</string>
     <string name="hs__rate_button">रेट करा</string>
     <string name="hs__remove_screenshot_btn">स्क्रीन शॉट काढा</string>
     <string name="hs__retry_faq_fetching_button">RETRY (पुन्हा प्रयत्न करा)</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">पाठवा</string>
     <string name="hs__sending_fail_msg">संदेश पाठवला गेला नाही. पुन्हा प्रयत्न करण्यासाठी स्पर्श करा.</string>
     <string name="hs__sending_msg">पाठवत आहे…</string>
-    <string name="hs__solved_btn">होय, निराकरण झाले!</string>
     <string name="hs__ssl_handshake_error">आपले कनेक्शन सुरक्षित नाही आहे. विश्वसनीय कनेक्शन स्थापित करण्यास समस्या आली.</string>
     <string name="hs__ssl_peer_unverified_error">आपले कनेक्शन सुरक्षित नाही आहे. त्याच्या खारेपांच्या सत्यापनात समस्या आली आहे.</string>
     <string name="hs__starting_download">डाऊनलोड सुरु करत आहे…</string>
     <string name="hs__submit_conversation_btn">सबमिट करा</string>
-    <string name="hs__unsolved_btn">नाही, निराकरण न केलेल्या</string>
     <string name="hs__username_blank_error">कृपया एक वैध नाव प्रविष्ठ करा</string>
     <string name="hs__username_hint">आपले नाव</string>
 </resources>

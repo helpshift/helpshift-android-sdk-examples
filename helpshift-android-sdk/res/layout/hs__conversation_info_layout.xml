@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingTop="@dimen/activity_vertical_margin_medium">
+
+    <LinearLayout
+        android:id="@+id/issue_publish_id_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hs__conversation_info_container_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_v_small">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/issue_publish_id_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs__conversation_info_issue_id"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/hs__textSizeLarge"/>
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/issue_publish_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:textColorSecondary"
+                android:textSize="@dimen/hs__textSizeMedium"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/issue_id_copy_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/hs__copy"
+            android:padding="12dp"
+            android:src="@drawable/hs__copy"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        style="@style/HSDivider"
+        android:layout_marginTop="@dimen/hs__conversation_info_container_height"/>
+</FrameLayout>

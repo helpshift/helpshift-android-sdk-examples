@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hs__messagesList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollingCache="false"
+        android:transcriptMode="alwaysScroll"/>
+
+    <LinearLayout
+        android:id="@+id/hs__confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/hs__footerPromptBackground"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/hs__separatorColor"/>
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/resolution_question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/activity_horizontal_margin_medium"
+            android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+            android:paddingRight="@dimen/activity_horizontal_margin_medium"
+            android:paddingStart="@dimen/activity_horizontal_margin_medium"
+            android:paddingTop="24dp"
+            android:text="@string/hs__confirmation_msg"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/hs__textSizeMedium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingEnd="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingStart="12dp">
+
+            <com.helpshift.views.HSButton
+                android:id="@+id/resolution_rejected_button"
+                style="@style/Helpshift.Style.BorderlessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs__mark_no"/>
+
+            <com.helpshift.views.HSButton
+                android:id="@+id/resolution_accepted_button"
+                style="@style/Helpshift.Style.BorderlessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hs__mark_yes"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/hs__separatorColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__composeBackgroundColor"
+            android:gravity="center_vertical"
+            android:minHeight="56dp"
+            android:orientation="horizontal">
+
+            <com.helpshift.views.HSEditText
+                android:id="@+id/hs__messageText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="@string/hs__chat_hint"
+                android:imeOptions="actionSend"
+                android:inputType="textMultiLine"
+                android:maxLines="@integer/hs__chat_max_lines"
+                android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+                tools:ignore="RtlSymmetry"/>
+
+            <ImageButton
+                android:id="@+id/hs__sendMessageBtn"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/hs__send_msg_btn"
+                android:src="@drawable/hs__send"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

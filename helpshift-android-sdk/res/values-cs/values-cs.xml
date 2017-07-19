@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">Prosím vyberte zprávu nalevo</string>
     <string name="hs__cam_undo">Vrátit zpět</string>
     <string name="hs__change_btn">Změnit</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Napište novou zprávu</string>
-    <string name="hs__chat_out_of_business_hours">Nyní nejsme přítomni, ozveme se vám během pracovních hodin</string>
     <string name="hs__confirmation_footer_msg">Děkujeme za vaši zprávu!</string>
     <string name="hs__confirmation_msg">Zodpověděli jsme všechny vaše dotazy? </string>
     <string name="hs__contact_us_btn">KONTAKTUJE NÁS</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">Odeslat zpětnou vazbu </string>
     <string name="hs__fetching_faqs_message">Získávání odpovědí...</string>
     <string name="hs__file_not_found_msg">Soubor nenalezen</string>
-    <string name="hs__file_type_audio">Audio</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">Dokument MS Office</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">Soubor</string>
-    <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Nápověda</string>
-    <string name="hs__image_attachment">Obrazová příloha</string>
-    <string name="hs__image_not_available">Obrázek není k dispozici</string>
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Prosím, zadejte platný e-mail</string>
     <string name="hs__invalid_faq_publish_id_error">Nepodařilo se nám najít často kladené otázky s tímto ID</string>
@@ -109,8 +97,8 @@
     <string name="hs__permission_not_granted">Aplikace nemá oprávnění přistupovat k vašim fotografiím</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK </string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">Informace jste vyhodnotili jako užitečné.</string>
-    <string name="hs__question_unhelpful_message">Informace jste vyhodnotili jako neužitečné.</string>
+    <string name="hs__question_helpful_message">Informace jste vyhodnotili jako užitečné</string>
+    <string name="hs__question_unhelpful_message">Informace jste vyhodnotili jako neužitečné</string>
     <string name="hs__rate_button">Hodnotit</string>
     <string name="hs__remove_screenshot_btn">Odebrat screenshot</string>
     <string name="hs__retry_faq_fetching_button">ZKUSIT ZNOVU</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">ODESLAT</string>
     <string name="hs__sending_fail_msg">Zpráva nebyla odeslána. Klepnutím zkuste znovu.</string>
     <string name="hs__sending_msg">Odesílání...</string>
-    <string name="hs__solved_btn">Ano, vyřešeno!</string>
     <string name="hs__ssl_handshake_error">Vaše připojení není zabezpečené. Vyskytl se problém s vytvořením zabezpečeného připojení.</string>
     <string name="hs__ssl_peer_unverified_error">Vaše připojení není bezpečné. Došlo k problému při ověřování jeho důvěryhodnosti.</string>
     <string name="hs__starting_download">Zahájení stahování...</string>
     <string name="hs__submit_conversation_btn">Odeslat</string>
-    <string name="hs__unsolved_btn">Ne, nevyřešeno</string>
     <string name="hs__username_blank_error">Prosím, zadejte platné jméno</string>
     <string name="hs__username_hint">Vaše jméno</string>
 </resources>

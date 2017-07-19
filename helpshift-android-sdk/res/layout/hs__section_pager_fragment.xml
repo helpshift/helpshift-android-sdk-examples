@@ -11,7 +11,6 @@
       style="?attr/hs__faqsPagerTabStripStyle"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      app:tabIndicatorColor="?attr/colorAccent"
       app:tabMode="scrollable"/>
 
   <FrameLayout

@@ -41,9 +41,7 @@
     <string name="hs__cam_select_a_message_message">โปรดเลือกข้อความจากทางซ้าย</string>
     <string name="hs__cam_undo">เลิกทำ</string>
     <string name="hs__change_btn">เปลี่ยน</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">พิมพ์ข้อความใหม่ของคุณ</string>
-    <string name="hs__chat_out_of_business_hours">ตอนนี้ไม่ใช่เวลาทำการ แต่เราจะติดต่อกลับในช่วงเวลาทำการโดยเร็วที่สุด</string>
     <string name="hs__confirmation_footer_msg">ขอบคุณสำหรับการส่งข้อความถึงเรา!</string>
     <string name="hs__confirmation_msg">เราได้ตอบคำถามทั้งหมดของคุณแล้วหรือไม่ </string>
     <string name="hs__contact_us_btn">ติดต่อเรา</string>
@@ -78,17 +76,7 @@
     <string name="hs__feedback_button">ส่งคำติชม </string>
     <string name="hs__fetching_faqs_message">กำลังเรียกคำตอบขอบคุณ…</string>
     <string name="hs__file_not_found_msg">ไม่พบไฟล์</string>
-    <string name="hs__file_type_audio">เสียง</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">MS Office doc</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">ไฟล์</string>
-    <string name="hs__file_type_video">วิดีโอ</string>
     <string name="hs__help_header">วิธีใช้</string>
-    <string name="hs__image_attachment">การแนบรูปภาพ</string>
-    <string name="hs__image_not_available">ไม่มีรูปภาพ</string>
     <string name="hs__invalid_description_error">คำอธิบายไม่ถูกต้อง</string>
     <string name="hs__invalid_email_error">โปรดใส่อีเมลที่ถูกต้อง</string>
     <string name="hs__invalid_faq_publish_id_error">เราค้นหาคำถามที่พบบ่อยที่มี ID ตรงกันไม่พบ</string>
@@ -134,12 +122,10 @@
     <string name="hs__send_msg_btn">ส่ง</string>
     <string name="hs__sending_fail_msg">ยังไม่ได้ส่งข้อความ แตะเพื่อตอบกลับ</string>
     <string name="hs__sending_msg">กำลังส่ง…</string>
-    <string name="hs__solved_btn">ใช่ แก้ไขแล้ว!</string>
     <string name="hs__ssl_handshake_error">การเชื่อมต่อของคุณไม่ปลอดภัย มีปัญหาในการจัดตั้งการเชื่อมต่อที่น่าไว้ใจ</string>
     <string name="hs__ssl_peer_unverified_error">การเชื่อมต่อของคุณไม่ปลอดภัย มีปัญหาในการยืนยันความน่าเชื่อถือ</string>
     <string name="hs__starting_download">กำลังเริ่มต้นดาวน์โหลด…</string>
     <string name="hs__submit_conversation_btn">ส่ง</string>
-    <string name="hs__unsolved_btn">ไม่ ยังไม่ได้รับการแก้ไข</string>
     <string name="hs__username_blank_error">โปรดใส่ชื่อที่ถูกต้อง</string>
     <string name="hs__username_hint">ชื่อของคุณ</string>
 </resources>

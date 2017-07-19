@@ -1,105 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <bool name="is_dual_pane">false</bool>
     <bool name="is_screen_large">false</bool>
-    <color name="hs__accept_button_icon_dark">#ff669900</color>
-    <color name="hs__accept_button_icon_light">#ff669900</color>
-    <color name="hs__actionbutton_icon_dark">#ffffffff</color>
-    <color name="hs__actionbutton_icon_light">#ff000000</color>
-    <color name="hs__actionbutton_notification_icon_dark">#ffff4444</color>
-    <color name="hs__actionbutton_notification_icon_light">#ffff4444</color>
-    <color name="hs__actionbutton_notification_text_dark">#ffffffff</color>
-    <color name="hs__actionbutton_notification_text_light">#ffffffff</color>
-    <color name="hs__admin_chat_bubble_dark">#ffffffff</color>
-    <color name="hs__admin_chat_bubble_light">#ffffffff</color>
-    <color name="hs__attach_screenshot_button_icon_dark">#ff0099cc</color>
-    <color name="hs__attach_screenshot_button_icon_light">#ff0099cc</color>
-    <color name="hs__button_compound_drawable_icon_dark">#ffffffff</color>
-    <color name="hs__button_compound_drawable_icon_light">#ff000000</color>
-    <color name="hs__chat_bubble_separator_dark">#ff0099cc</color>
-    <color name="hs__chat_bubble_separator_light">#ff0099cc</color>
-    <color name="hs__csat_dialog_background_color_dark">#ff000000</color>
-    <color name="hs__csat_dialog_background_color_light">#ffffffff</color>
-    <color name="hs__dark_attachmentBackgroundColor">#FF212828</color>
-    <color name="hs__dark_chatBubbleAdminBackgroundColor">#FF2C5F68</color>
-    <color name="hs__dark_chatBubbleAdminLink">#FF1CD7EB</color>
-    <color name="hs__dark_chatBubbleAdminText">#DEFFFFFF</color>
-    <color name="hs__dark_chatBubbleUserBackgroundColor">#FF4A5456</color>
-    <color name="hs__dark_chatBubbleUserLink">#FF1BD5D9</color>
-    <color name="hs__dark_chatBubbleUserText">#ADFFFFFF</color>
-    <color name="hs__dark_colorAccent">#FF1BBBD9</color>
-    <color name="hs__dark_colorPrimary">#FF3C4647</color>
-    <color name="hs__dark_colorPrimaryDark">#FF2C3534</color>
-    <color name="hs__dark_composeBackgroundColor">#FF212828</color>
-    <color name="hs__dark_conversationFooterBackgroundColor">#FF212828</color>
-    <color name="hs__dark_searchHighlightColor">#591BBBD9</color>
-    <color name="hs__dark_separatorColor">#1FFFFFFF</color>
-    <color name="hs__dark_tabletConversationContainerBackgroundColor">#FF212828</color>
-    <color name="hs__dark_textColorHint">#66A5B5B3</color>
-    <color name="hs__dark_textColorPrimary">#EEE8ECEE</color>
-    <color name="hs__dark_textColorPrimaryInverse">#DE000000</color>
-    <color name="hs__dark_textColorSecondary">#C3A5B5B3</color>
-    <color name="hs__dark_textColorSecondaryInverse">#8A000000</color>
-    <color name="hs__dark_textFieldBorderColor">#1FFFFFFF</color>
-    <color name="hs__dark_validationErrorColor">#FFF44336</color>
-    <color name="hs__dark_windowBackground">#FF2C3534</color>
-    <color name="hs__download_attachment_button_icon_dark">#ff0099cc</color>
-    <color name="hs__download_attachment_button_icon_light">#ff0099cc</color>
-    <color name="hs__faq_footer_separator_dark">#ffb1b1b1</color>
-    <color name="hs__faq_footer_separator_light">#ffb1b1b1</color>
-    <color name="hs__inbox_icon_background_color_dark">#ADB0B0</color>
-    <color name="hs__inbox_icon_background_color_light">#929495</color>
-    <color name="hs__inbox_swipe_to_delete_background_color_dark">#F44336</color>
-    <color name="hs__inbox_swipe_to_delete_background_color_light">#F44336</color>
-    <color name="hs__inbox_swipe_to_delete_icon_color_dark">#FFFFFF</color>
-    <color name="hs__inbox_swipe_to_delete_icon_color_light">#FFFFFF</color>
-    <color name="hs__inbox_time_stamp_unread_text_color_dark">#FFFFFF</color>
-    <color name="hs__inbox_time_stamp_unread_text_color_light">#2196F3</color>
-    <color name="hs__launch_attachment_button_icon_dark">#ff0099cc</color>
-    <color name="hs__launch_attachment_button_icon_light">#ff0099cc</color>
-    <color name="hs__light_attachmentBackgroundColor">#FFDADFE2</color>
-    <color name="hs__light_chatBubbleAdminBackgroundColor">#FFFFFFFF</color>
-    <color name="hs__light_chatBubbleAdminLink">#FF0074D1</color>
-    <color name="hs__light_chatBubbleAdminText">#DE000000</color>
-    <color name="hs__light_chatBubbleUserBackgroundColor">#FFDFF2D8</color>
-    <color name="hs__light_chatBubbleUserLink">#FF0074D1</color>
-    <color name="hs__light_chatBubbleUserText">#DE000000</color>
-    <color name="hs__light_colorAccent">#FF448AFF</color>
-    <color name="hs__light_colorPrimary">#FFCFD8DC</color>
-    <color name="hs__light_colorPrimaryDark">#FFB0BEC5</color>
-    <color name="hs__light_composeBackgroundColor">#FFFFFFFF</color>
-    <color name="hs__light_conversationFooterBackgroundColor">#FFFFFFFF</color>
-    <color name="hs__light_dark_colorAccent">#FFFF4081</color>
-    <color name="hs__light_dark_colorPrimary">#FF2196F3</color>
-    <color name="hs__light_dark_colorPrimaryDark">#FF1976D2</color>
-    <color name="hs__light_searchHighlightColor">#402296F3</color>
-    <color name="hs__light_separatorColor">#1F000000</color>
-    <color name="hs__light_tabletConversationContainerBackgroundColor">#FFDADFE2</color>
-    <color name="hs__light_textColorHint">#61000000</color>
-    <color name="hs__light_textColorPrimary">#DE000000</color>
-    <color name="hs__light_textColorPrimaryInverse">#FFFFFFFF</color>
-    <color name="hs__light_textColorSecondary">#8A000000</color>
-    <color name="hs__light_textColorSecondaryInverse">#B3FFFFFF</color>
-    <color name="hs__light_textFieldBorderColor">#1F000000</color>
-    <color name="hs__light_validationErrorColor">#FFF44336</color>
-    <color name="hs__light_windowBackground">#FFECEFF1</color>
-    <color name="hs__messages_text_dark">#ff000000</color>
-    <color name="hs__messages_text_light">#ff000000</color>
-    <color name="hs__question_footer_background_dark">#ff000000</color>
-    <color name="hs__question_footer_background_light">#FAFAFA</color>
-    <color name="hs__reject_button_icon_dark">#ffff4444</color>
-    <color name="hs__reject_button_icon_light">#ffff4444</color>
-    <color name="hs__review_button_icon_dark">#ffffbb33</color>
-    <color name="hs__review_button_icon_light">#ffffbb33</color>
-    <color name="hs__send_message_button_active_icon_dark">#ff0099cc</color>
-    <color name="hs__send_message_button_active_icon_light">#ff0099cc</color>
-    <color name="hs__send_message_button_icon_dark">#ffffffff</color>
-    <color name="hs__send_message_button_icon_light">#ff000000</color>
-    <color name="hs__separator_dark">#80b1b1b1</color>
-    <color name="hs__separator_light">#80b1b1b1</color>
-    <color name="hs__user_chat_bubble_dark">#ffa8dff4</color>
-    <color name="hs__user_chat_bubble_light">#ffa8dff4</color>
-    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="reference" name="hs__chatBubbleUserBackground"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="reference" name="hs__chatBubbleAdminBackground"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__conversationFooterBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__validationErrorColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="reference" name="hs__faqsFooterBackgroundColor"/><attr format="color" name="hs__messagesTextColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__faqFooterSeparatorColor"/><attr format="color" name="hs__chatBubbleSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__actionButtonNotificationIconColor"/><attr format="color" name="hs__actionButtonNotificationTextColor"/><attr format="color" name="hs__buttonCompoundDrawableIconColor"/><attr format="color" name="hs__sendMessageButtonIconColor"/><attr format="color" name="hs__sendMessageButtonActiveIconColor"/><attr format="color" name="hs__acceptButtonIconColor"/><attr format="color" name="hs__rejectButtonIconColor"/><attr format="color" name="hs__faqHelpfulButtonTextColor"/><attr format="color" name="hs__faqUnhelpfulButtonTextColor"/><attr format="color" name="hs__attachScreenshotButtonIconColor"/><attr format="color" name="hs__reviewButtonIconColor"/><attr format="color" name="hs__adminChatBubbleColor"/><attr format="color" name="hs__userChatBubbleColor"/><attr format="color" name="hs__csatDialogBackgroundColor"/><attr format="color" name="hs__downloadAttachmentButtonIconColor"/><attr format="color" name="hs__launchAttachmentButtonIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__chatActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__selectableItemBackground"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__faqHelpfulButtonStyle"/><attr format="reference" name="hs__faqUnhelpfulButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
+    <color name="hs__color_1565C0">#1565C0</color>
+    <color name="hs__color_1A000000">#1A000000</color>
+    <color name="hs__color_1F000000">#1F000000</color>
+    <color name="hs__color_1FFFFFFF">#1FFFFFFF</color>
+    <color name="hs__color_2E2E2E">#2E2E2E</color>
+    <color name="hs__color_4000B0FF">#4000B0FF</color>
+    <color name="hs__color_4000E5FF">#4000E5FF</color>
+    <color name="hs__color_402196F3">#402196F3</color>
+    <color name="hs__color_42000000">#42000000</color>
+    <color name="hs__color_696969">#696969</color>
+    <color name="hs__color_7A7A7A">#7A7A7A</color>
+    <color name="hs__color_80B1B1B1">#80B1B1B1</color>
+    <color name="hs__color_80FFFFFF">#80FFFFFF</color>
+    <color name="hs__color_8A000000">#8A000000</color>
+    <color name="hs__color_8F8F8F">#8F8F8F</color>
+    <color name="hs__color_B3FFFFFF">#B3FFFFFF</color>
+    <color name="hs__color_DAE8F0">#DAE8F0</color>
+    <color name="hs__color_DE000000">#DE000000</color>
+    <color name="hs__color_FF000000">#FF000000</color>
+    <color name="hs__color_FF00B0FF">#FF00B0FF</color>
+    <color name="hs__color_FF00E5FF">#FF00E5FF</color>
+    <color name="hs__color_FF1976D2">#FF1976D2</color>
+    <color name="hs__color_FF1E88E5">#FF1E88E5</color>
+    <color name="hs__color_FF2196F3">#FF2196F3</color>
+    <color name="hs__color_FF222222">#FF222222</color>
+    <color name="hs__color_FF37474F">#FF37474F</color>
+    <color name="hs__color_FF455A64">#FF455A64</color>
+    <color name="hs__color_FF607D8B">#FF607D8B</color>
+    <color name="hs__color_FF929495">#FF929495</color>
+    <color name="hs__color_FFADB0B0">#FFADB0B0</color>
+    <color name="hs__color_FFBDBDBD">#FFBDBDBD</color>
+    <color name="hs__color_FFCFD8DC">#FFCFD8DC</color>
+    <color name="hs__color_FFD50000">#FFD50000</color>
+    <color name="hs__color_FFDADFE2">#FFDADFE2</color>
+    <color name="hs__color_FFE0E0E0">#FFE0E0E0</color>
+    <color name="hs__color_FFF44336">#FFF44336</color>
+    <color name="hs__color_FFF80054">#FFF80054</color>
+    <color name="hs__color_FFFAFAFA">#FFFAFAFA</color>
+    <color name="hs__color_FFFF6E6E">#FFFF6E6E</color>
+    <color name="hs__color_FFFFFF">#FFFFFF</color>
+    <color name="hs__color_FFFFFFFF">#FFFFFFFF</color>
+    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="reference" name="hs__chatBubbleUserBackground"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="reference" name="hs__chatBubbleAdminBackground"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__typingIndicatorColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__errorTextColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__footerPromptBackground"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="cornerRadius"/><attr format="boolean" name="roundedTopLeft"/><attr format="boolean" name="roundedTopRight"/><attr format="boolean" name="roundedBottomLeft"/><attr format="boolean" name="roundedBottomRight"/><attr format="dimension" name="borderWidth"/><attr format="color" name="borderColor"/></declare-styleable>
+    <declare-styleable name="TypingIndicatorView"><attr format="color" name="dot_color"/><attr format="dimension" name="inter_dot_padding"/><attr format="dimension" name="dot_diameter"/></declare-styleable>
     <dimen name="activity_horizontal_margin_large">24dp</dimen>
     <dimen name="activity_horizontal_margin_medium">16dp</dimen>
     <dimen name="activity_horizontal_margin_small">8dp</dimen>
@@ -108,6 +54,8 @@
     <dimen name="activity_vertical_margin_medium">16dp</dimen>
     <dimen name="activity_vertical_margin_small">8dp</dimen>
     <dimen name="hs__conversation_info_container_height">72dp</dimen>
+    <dimen name="hs__image_attachment_bubble_border_width">4dp</dimen>
+    <dimen name="hs__image_attachment_bubble_corner_radius">13dp</dimen>
     <dimen name="hs__listPreferredItemHeightSmall">48dp</dimen>
     <dimen name="hs__listPreferredItemPaddingBottom">12dp</dimen>
     <dimen name="hs__listPreferredItemPaddingLeft">6dip</dimen>
@@ -122,6 +70,7 @@
     <dimen name="hs__textSizeSmall">14sp</dimen>
     <dimen name="hs_issue_archival_view_horizontal_margin">16dp</dimen>
     <dimen name="hs_support_recyclerview_item_vertical_padding">16dp</dimen>
+    <item format="float" name="image_attachment_progress_container_alpha" type="dimen">0.75</item>
     <integer name="hs__chat_max_lines">4</integer>
     <integer name="hs__conversation_detail_lines">1</integer>
     <integer name="hs__faqs_list_item_max_lines">3</integer>
@@ -169,9 +118,7 @@
     <string name="hs__cam_select_a_message_message">Please select a message from left</string>
     <string name="hs__cam_undo">Undo</string>
     <string name="hs__change_btn">Change</string>
-    <string name="hs__chat_btn">@string/hs__contact_us_btn</string>
     <string name="hs__chat_hint">Type your message</string>
-    <string name="hs__chat_out_of_business_hours">We\'re not around, but we\'ll get back to you during business hours</string>
     <string name="hs__confirmation_footer_msg">Thanks for messaging us!</string>
     <string name="hs__confirmation_msg">Did we answer all your questions?</string>
     <string name="hs__contact_us_btn">CONTACT US</string>
@@ -211,17 +158,7 @@
     <string name="hs__feedback_button">Send Feedback</string>
     <string name="hs__fetching_faqs_message">Getting your answers…</string>
     <string name="hs__file_not_found_msg">File not found</string>
-    <string name="hs__file_type_audio">Audio</string>
-    <string name="hs__file_type_csv">CSV</string>
-    <string name="hs__file_type_ms_office">Office doc</string>
-    <string name="hs__file_type_pdf">PDF</string>
-    <string name="hs__file_type_rtf">RTF</string>
-    <string name="hs__file_type_text">TXT</string>
-    <string name="hs__file_type_unknown">File</string>
-    <string name="hs__file_type_video">Video</string>
     <string name="hs__help_header">Help</string>
-    <string name="hs__image_attachment">Image attachment</string>
-    <string name="hs__image_not_available">Image not available</string>
     <string name="hs__invalid_description_error">Invalid description</string>
     <string name="hs__invalid_email_error">Please enter a valid email</string>
     <string name="hs__invalid_faq_publish_id_error">We couldn\'t find an FAQ with matching ID</string>
@@ -242,8 +179,8 @@
     <string name="hs__permission_not_granted">Application does not have permission to access your photos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
     <string name="hs__question_header"> </string>
-    <string name="hs__question_helpful_message">You found this helpful.</string>
-    <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>
+    <string name="hs__question_helpful_message">You found this helpful</string>
+    <string name="hs__question_unhelpful_message">You didn\'t find this helpful</string>
     <string name="hs__rate_button">Rate</string>
     <string name="hs__remove_screenshot_btn">Remove Screenshot</string>
     <string name="hs__retry_faq_fetching_button">RETRY</string>
@@ -271,12 +208,10 @@
     <string name="hs__send_msg_btn">Send</string>
     <string name="hs__sending_fail_msg">Message not sent. Touch to retry.</string>
     <string name="hs__sending_msg">Sending…</string>
-    <string name="hs__solved_btn">Yes, solved!</string>
     <string name="hs__ssl_handshake_error">Your connection is not secure. There was a problem in establishing a trusted connection</string>
     <string name="hs__ssl_peer_unverified_error">Your connection is not secure. There was a problem in verifying its authenticity</string>
     <string name="hs__starting_download">Starting download…</string>
     <string name="hs__submit_conversation_btn">Submit</string>
-    <string name="hs__unsolved_btn">No, unsolved</string>
     <string name="hs__username_blank_error">Please enter a valid name</string>
     <string name="hs__username_hint">Your Name</string>
     <style name="HSDivider">
@@ -286,16 +221,44 @@
   </style>
     <style name="Helpshift"/>
     <style name="Helpshift.Style"/>
+    <style name="Helpshift.Style.AdminAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
+    <item name="roundedTopLeft">false</item>
+  </style>
+    <style name="Helpshift.Style.AdminMessageDate">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:textColor">?android:textColorSecondary</item>
+    <item name="android:textSize">@dimen/hs__textSizeSmall</item>
+  </style>
+    <style name="Helpshift.Style.AdminTextMessage">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
+    <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
+    <item name="android:paddingTop">8dp</item>
+    <item name="android:paddingBottom">8dp</item>
+    <item name="android:textColor">?attr/hs__chatBubbleAdminText</item>
+    <item name="android:textColorLink">?attr/hs__chatBubbleAdminLink</item>
+    <item name="android:textSize">@dimen/hs__textSizeMedium</item>
+  </style>
+    <style name="Helpshift.Style.AdminTextMessageContainer">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">?attr/hs__chatBubbleAdminBackground</item>
+    <item name="android:minHeight">36dp</item>
+    <item name="android:minWidth">36dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+    <style name="Helpshift.Style.AttachmentBubble">
+    <item name="borderWidth">@dimen/hs__image_attachment_bubble_border_width</item>
+    <item name="cornerRadius">@dimen/hs__image_attachment_bubble_corner_radius</item>
+  </style>
     <style name="Helpshift.Style.BorderlessButton" parent="Base.Widget.AppCompat.Button.Borderless">
     <item name="android:textColor">?colorAccent</item>
   </style>
     <style name="Helpshift.Style.ContactUsButton" parent="Helpshift.Style.BorderlessButton">
-  </style>
-    <style name="Helpshift.Style.FaqHelpfulButton" parent="Helpshift.Style.BorderlessButton">
-    <item name="android:textColor">?attr/hs__faqHelpfulButtonTextColor</item>
-  </style>
-    <style name="Helpshift.Style.FaqUnhelpfulButton" parent="Helpshift.Style.BorderlessButton">
-    <item name="android:textColor">?attr/hs__faqUnhelpfulButtonTextColor</item>
   </style>
     <style name="Helpshift.Style.FaqsListItem">
     <item name="android:layout_width">match_parent</item>
@@ -329,6 +292,10 @@
     <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
     <item name="tabIndicatorColor">?attr/hs__faqsPagerTabStripIndicatorColor</item>
   </style>
+    <style name="Helpshift.Style.TextInputLayout.Error" parent="@android:style/TextAppearance">
+    <item name="android:textColor">?attr/hs__errorTextColor</item>
+    <item name="android:textSize">12sp</item>
+  </style>
     <style name="Helpshift.Style.Toolbar.Dark" parent="Base.Widget.AppCompat.Toolbar">
     <item name="android:background">?colorPrimary</item>
     <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
@@ -339,124 +306,115 @@
     <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
     <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
   </style>
+    <style name="Helpshift.Style.UserAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
+    <item name="roundedBottomRight">false</item>
+  </style>
+    <style name="Helpshift.Style.UserMessageDate">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:textColor">?android:textColorSecondary</item>
+    <item name="android:textSize">@dimen/hs__textSizeSmall</item>
+  </style>
+    <style name="Helpshift.Style.UserTextMessage">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
+    <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
+    <item name="android:paddingTop">8dp</item>
+    <item name="android:paddingBottom">8dp</item>
+    <item name="android:textColor">?attr/hs__chatBubbleUserText</item>
+    <item name="android:textColorLink">?attr/hs__chatBubbleUserLink</item>
+    <item name="android:textSize">@dimen/hs__textSizeMedium</item>
+  </style>
+    <style name="Helpshift.Style.UserTextMessageContainer">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">?attr/hs__chatBubbleUserBackground</item>
+    <item name="android:minHeight">36dp</item>
+    <item name="android:minWidth">36dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
     <style name="Helpshift.Theme.Activity" parent="Helpshift.Theme.Base"/>
     <style name="Helpshift.Theme.Base" parent="Helpshift.Theme.Light.DarkActionBar"/>
     <style name="Helpshift.Theme.Dark" parent="Theme.AppCompat.NoActionBar">
-    <!--NEW THEME ELEMENTS, TODO: CLEAN UP OLD USAGES-->
-    <item name="colorPrimary">@color/hs__dark_colorPrimary</item>
-    <item name="colorPrimaryDark">@color/hs__dark_colorPrimaryDark</item>
-    <item name="colorAccent">@color/hs__dark_colorAccent</item>
-    <item name="android:windowBackground">@color/hs__dark_windowBackground</item>
-
-    <item name="android:textColorPrimary">@color/hs__dark_textColorPrimary</item>
-    <item name="android:textColorPrimaryInverse">@color/hs__dark_textColorPrimaryInverse</item>
-    <item name="android:textColorSecondary">@color/hs__dark_textColorSecondary</item>
-    <item name="android:textColorSecondaryInverse">@color/hs__dark_textColorSecondaryInverse</item>
-    <item name="android:textColorHint">@color/hs__dark_textColorHint</item>
+    <item name="colorPrimary">@color/hs__color_FF455A64</item>
+    <item name="colorPrimaryDark">@color/hs__color_FF37474F</item>
+    <item name="colorAccent">@color/hs__color_FF00E5FF</item>
+    <item name="android:titleTextColor" ns1:targetApi="23">@color/hs__color_FFFFFFFF</item>
+    <item name="android:windowBackground">@color/hs__color_FF37474F</item>
+    <item name="android:textColorPrimary">@color/hs__color_FFFFFFFF</item>
+    <item name="android:textColorPrimaryInverse">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorSecondary">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorSecondaryInverse">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorHint">@color/hs__color_80FFFFFF</item>
 
     <!--Conversations-->
-    <item name="hs__chatBubbleUserText">@color/hs__dark_chatBubbleUserText</item>
-    <item name="hs__chatBubbleUserLink">@color/hs__dark_chatBubbleUserLink</item>
+    <item name="hs__chatBubbleUserText">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__chatBubbleUserLink">@color/hs__color_FFFFFFFF</item>
     <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
-    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__dark_chatBubbleUserBackgroundColor
-    </item>
+    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__color_FF455A64</item>
 
-    <item name="hs__chatBubbleAdminText">@color/hs__dark_chatBubbleAdminText</item>
-    <item name="hs__chatBubbleAdminLink">@color/hs__dark_chatBubbleAdminLink</item>
+    <item name="hs__chatBubbleAdminText">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__chatBubbleAdminLink">@color/hs__color_FFFFFFFF</item>
     <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
-    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__dark_chatBubbleAdminBackgroundColor
-    </item>
+    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__color_FF607D8B</item>
 
-    <item name="hs__composeBackgroundColor">@color/hs__dark_composeBackgroundColor</item>
-    <item name="hs__conversationFooterBackgroundColor">
-      @color/hs__dark_conversationFooterBackgroundColor
-    </item>
-    <item name="hs__tabletConversationContainerBackgroundColor">
-      @color/hs__dark_tabletConversationContainerBackgroundColor
-    </item>
+    <item name="hs__composeBackgroundColor">@color/hs__color_FF455A64</item>
+    <item name="hs__tabletConversationContainerBackgroundColor">@color/hs__color_FF455A64</item>
+
+    <item name="hs__typingIndicatorColor">@color/hs__color_FFFFFF</item>
 
     <!--New Conversation Screen-->
-    <item name="hs__attachmentBackgroundColor">@color/hs__dark_attachmentBackgroundColor</item>
+    <item name="hs__attachmentBackgroundColor">@color/hs__color_FF455A64</item>
 
     <!--General-->
-    <item name="hs__separatorColor">@color/hs__dark_separatorColor</item>
-    <item name="hs__textFieldBorderColor">@color/hs__dark_textFieldBorderColor</item>
-    <item name="hs__validationErrorColor">@color/hs__dark_validationErrorColor</item>
-    <item name="hs__searchHighlightColor">@color/hs__dark_searchHighlightColor</item>
+    <item name="hs__separatorColor">@color/hs__color_1FFFFFFF</item>
+    <item name="hs__errorTextColor">@color/hs__color_FFFF6E6E</item>
+    <item name="hs__searchHighlightColor">@color/hs__color_4000E5FF</item>
     <!--NEW THEME ELEMENTS END -->
 
     <!--FAQ FOOTER STYLING-->
-    <item name="hs__faqHelpfulButtonTextColor">@color/hs__dark_colorPrimary</item>
-    <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__dark_colorAccent</item>
-    <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_dark</item>
-    <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_dark</item>
-    <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
-    <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
     <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
     <!--END FAQ FOOTER STYLING-->
 
+    <!-- FOOTER STYLING-->
+    <item name="hs__footerPromptBackground">@color/hs__color_FF455A64</item>
+    <!--END FOOTER STYLING-->
+
     <!--TOOLBAR STYLING-->
-    <item name="hs__actionButtonIconColor">
-      @color/hs__actionbutton_icon_dark
-    </item>
-    <item name="hs__actionButtonNotificationIconColor">
-      @color/hs__actionbutton_notification_icon_dark
-    </item>
-    <item name="hs__actionButtonNotificationTextColor">
-      @color/hs__actionbutton_notification_text_dark
-    </item>
+    <item name="hs__actionButtonIconColor">@color/hs__color_FFFFFFFF</item>
     <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Dark</item>
     <!--END TOOLBAR STYLING-->
 
     <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Dark</item>
-    <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__dark_colorAccent</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
 
-    <item name="hs__buttonCompoundDrawableIconColor">@color/hs__button_compound_drawable_icon_dark
-    </item>
-    <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_dark</item>
-    <item name="hs__sendMessageButtonActiveIconColor">
-      @color/hs__send_message_button_active_icon_dark
-    </item>
     <item name="hs__attachScreenshotActionButtonIcon">
       @drawable/hs__attach_screenshot_action_button
     </item>
-    <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_dark</item>
-    <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_dark</item>
 
-    <item name="hs__messagesTextColor">@color/hs__messages_text_dark</item>
-    <item name="hs__contentSeparatorColor">@color/hs__separator_dark</item>
-    <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_dark</item>
-    <item name="hs__attachScreenshotButtonIconColor">@color/hs__attach_screenshot_button_icon_dark
-    </item>
-    <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_dark</item>
+    <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
     <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
     <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
-    <item name="hs__chatActionButtonIcon">@drawable/hs__report_issue</item>
     <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
     <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
     <item name="hs__searchOnNewConversationDoneActionButtonIcon">
       @drawable/hs__search_on_conversation_done
     </item>
-    <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_dark</item>
-    <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_dark</item>
     <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
-    <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_dark</item>
-    <item name="hs__downloadAttachmentButtonIconColor">
-      @color/hs__download_attachment_button_icon_dark
-    </item>
-    <item name="hs__launchAttachmentButtonIconColor">@color/hs__launch_attachment_button_icon_dark
-    </item>
 
     <!-- Inbox -->
-    <item name="hs__inboxTitleTextColor">@color/hs__dark_textColorSecondary</item>
-    <item name="hs__inboxTitleUnreadTextColor">@color/hs__dark_textColorPrimary</item>
-    <item name="hs__inboxTimeStampTextColor">@color/hs__dark_textColorSecondary</item>
-    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__inbox_time_stamp_unread_text_color_dark</item>
-    <item name="hs__inboxBodyTextColor">@color/hs__dark_textColorSecondary</item>
-    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__inbox_swipe_to_delete_background_color_dark</item>
-    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__inbox_swipe_to_delete_icon_color_dark</item>
-    <item name="hs__inboxIconBackgroundColor">@color/hs__inbox_icon_background_color_dark</item>
-    <item name="hs__inboxSeparatorColor">@color/hs__dark_separatorColor</item>
+    <item name="hs__inboxTitleTextColor">@color/hs__color_B3FFFFFF</item>
+    <item name="hs__inboxTitleUnreadTextColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxTimeStampTextColor">@color/hs__color_B3FFFFFF</item>
+    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxBodyTextColor">@color/hs__color_B3FFFFFF</item>
+    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__color_FFF44336</item>
+    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxIconBackgroundColor">@color/hs__color_FFADB0B0</item>
+    <item name="hs__inboxSeparatorColor">@color/hs__color_1FFFFFFF</item>
 
   </style>
     <style name="Helpshift.Theme.Dialog" parent="Helpshift.Theme.Base">
@@ -467,242 +425,238 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <style name="Helpshift.Theme.Light" parent="Theme.AppCompat.Light.NoActionBar">
-    <!--NEW THEME ELEMENTS, TODO: CLEAN UP OLD USAGES-->
-    <item name="colorPrimary">@color/hs__light_colorPrimary</item>
-    <item name="colorPrimaryDark">@color/hs__light_colorPrimaryDark</item>
-    <item name="colorAccent">@color/hs__light_colorAccent</item>
-    <item name="android:windowBackground">@color/hs__light_windowBackground</item>
+    <style name="Helpshift.Theme.HighContrast" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/hs__color_FF222222</item>
+    <item name="colorPrimaryDark">@color/hs__color_FF000000</item>
+    <item name="colorAccent">@color/hs__color_1565C0</item>
+    <item name="android:titleTextColor" ns1:targetApi="23">@color/hs__color_FFFFFFFF</item>
+    <item name="android:windowBackground">@color/hs__color_FFFAFAFA</item>
 
-    <item name="android:textColorPrimary">@color/hs__light_textColorPrimary</item>
-    <item name="android:textColorPrimaryInverse">@color/hs__light_textColorPrimaryInverse</item>
-    <item name="android:textColorSecondary">@color/hs__light_textColorSecondary</item>
-    <item name="android:textColorSecondaryInverse">@color/hs__light_textColorSecondaryInverse</item>
-    <item name="android:textColorHint">@color/hs__light_textColorHint</item>
+    <item name="android:textColorPrimary">@color/hs__color_DE000000</item>
+    <item name="android:textColorPrimaryInverse">@color/hs__color_FFFFFFFF</item>
+    <item name="android:textColorSecondary">@color/hs__color_8A000000</item>
+    <item name="android:textColorSecondaryInverse">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorHint">@color/hs__color_696969</item>
 
     <!--Conversations-->
-    <item name="hs__chatBubbleUserText">@color/hs__light_chatBubbleUserText</item>
-    <item name="hs__chatBubbleUserLink">@color/hs__light_chatBubbleUserLink</item>
+    <item name="hs__chatBubbleUserText">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleUserLink">@color/hs__color_DE000000</item>
     <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
-    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__light_chatBubbleUserBackgroundColor
-    </item>
+    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__color_FFE0E0E0</item>
 
-    <item name="hs__chatBubbleAdminText">@color/hs__light_chatBubbleAdminText</item>
-    <item name="hs__chatBubbleAdminLink">@color/hs__light_chatBubbleAdminLink</item>
+    <item name="hs__chatBubbleAdminText">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleAdminLink">@color/hs__color_DE000000</item>
     <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
-    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__light_chatBubbleAdminBackgroundColor
-    </item>
+    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__color_DAE8F0</item>
 
-    <item name="hs__composeBackgroundColor">@color/hs__light_composeBackgroundColor</item>
-    <item name="hs__conversationFooterBackgroundColor">
-      @color/hs__light_conversationFooterBackgroundColor
-    </item>
-    <item name="hs__tabletConversationContainerBackgroundColor">
-      @color/hs__light_tabletConversationContainerBackgroundColor
-    </item>
+    <item name="hs__composeBackgroundColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__tabletConversationContainerBackgroundColor">@color/hs__color_FFDADFE2</item>
+
+    <item name="hs__typingIndicatorColor">@color/hs__color_2E2E2E</item>
 
     <!--New Conversation Screen-->
-    <item name="hs__attachmentBackgroundColor">@color/hs__light_attachmentBackgroundColor</item>
+    <item name="hs__attachmentBackgroundColor">@color/hs__color_FFDADFE2</item>
 
     <!--General-->
-    <item name="hs__separatorColor">@color/hs__light_separatorColor</item>
-    <item name="hs__textFieldBorderColor">@color/hs__light_textFieldBorderColor</item>
-    <item name="hs__validationErrorColor">@color/hs__light_validationErrorColor</item>
-    <item name="hs__searchHighlightColor">@color/hs__light_searchHighlightColor</item>
+    <item name="hs__separatorColor">@color/hs__color_1F000000</item>
+    <item name="hs__errorTextColor">@color/hs__color_FFD50000</item>
+    <item name="hs__searchHighlightColor">@color/hs__color_4000B0FF</item>
     <!--NEW THEME ELEMENTS END -->
 
     <!--FAQ FOOTER STYLING-->
-    <item name="hs__faqHelpfulButtonTextColor">@color/hs__light_colorAccent</item>
-    <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__light_colorAccent</item>
-    <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_light</item>
-    <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_light</item>
-    <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
-    <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
     <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
     <!--END FAQ FOOTER STYLING-->
 
-    <!--TOOLBAR STYLING-->
-    <item name="hs__actionButtonIconColor">
-      @color/hs__actionbutton_icon_light
-    </item>
-    <item name="hs__actionButtonNotificationIconColor">
-      @color/hs__actionbutton_notification_icon_light
-    </item>
-    <item name="hs__actionButtonNotificationTextColor">
-      @color/hs__actionbutton_notification_text_light
-    </item>
-    <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Light</item>
-    <!--END TOOLBAR STYLING-->
-
-    <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Light</item>
-    <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__light_colorAccent</item>
-
-    <item name="hs__buttonCompoundDrawableIconColor">
-      @color/hs__button_compound_drawable_icon_light
-    </item>
-    <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_light</item>
-    <item name="hs__sendMessageButtonActiveIconColor">
-      @color/hs__send_message_button_active_icon_light
-    </item>
-    <item name="hs__attachScreenshotActionButtonIcon">
-      @drawable/hs__attach_screenshot_action_button
-    </item>
-    <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_light</item>
-    <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_light</item>
-    <item name="hs__messagesTextColor">@color/hs__messages_text_light</item>
-    <item name="hs__contentSeparatorColor">@color/hs__separator_light</item>
-    <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_light</item>
-    <item name="hs__attachScreenshotButtonIconColor">
-      @color/hs__attach_screenshot_button_icon_light
-    </item>
-    <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_light</item>
-    <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
-    <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
-    <item name="hs__chatActionButtonIcon">@drawable/hs__report_issue</item>
-    <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
-    <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
-    <item name="hs__searchOnNewConversationDoneActionButtonIcon">
-      @drawable/hs__search_on_conversation_done
-    </item>
-    <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_light</item>
-    <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_light</item>
-    <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
-    <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
-    <item name="hs__downloadAttachmentButtonIconColor">
-      @color/hs__download_attachment_button_icon_light
-    </item>
-    <item name="hs__launchAttachmentButtonIconColor">
-      @color/hs__launch_attachment_button_icon_light
-    </item>
-
-    <!-- Inbox -->
-    <item name="hs__inboxTitleTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxTitleUnreadTextColor">@color/hs__light_textColorPrimary</item>
-    <item name="hs__inboxTimeStampTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__inbox_time_stamp_unread_text_color_light</item>
-    <item name="hs__inboxBodyTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__inbox_swipe_to_delete_background_color_light</item>
-    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__inbox_swipe_to_delete_icon_color_light</item>
-    <item name="hs__inboxIconBackgroundColor">@color/hs__inbox_icon_background_color_light</item>
-    <item name="hs__inboxSeparatorColor">@color/hs__light_separatorColor</item>
-  </style>
-    <style name="Helpshift.Theme.Light.DarkActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-    <!--NEW THEME ELEMENTS, TODO: CLEAN UP OLD USAGES-->
-    <item name="colorPrimary">@color/hs__light_dark_colorPrimary</item>
-    <item name="colorPrimaryDark">@color/hs__light_dark_colorPrimaryDark</item>
-    <item name="colorAccent">@color/hs__light_dark_colorAccent</item>
-    <item name="android:windowBackground">@color/hs__light_windowBackground</item>
-
-    <item name="android:textColorPrimary">@color/hs__light_textColorPrimary</item>
-    <item name="android:textColorPrimaryInverse">@color/hs__light_textColorPrimaryInverse</item>
-    <item name="android:textColorSecondary">@color/hs__light_textColorSecondary</item>
-    <item name="android:textColorSecondaryInverse">@color/hs__light_textColorSecondaryInverse</item>
-    <item name="android:textColorHint">@color/hs__light_textColorHint</item>
-
-    <!--Conversations-->
-    <item name="hs__chatBubbleUserText">@color/hs__light_chatBubbleUserText</item>
-    <item name="hs__chatBubbleUserLink">@color/hs__light_chatBubbleUserLink</item>
-    <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
-    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__light_chatBubbleUserBackgroundColor
-    </item>
-
-    <item name="hs__chatBubbleAdminText">@color/hs__light_chatBubbleAdminText</item>
-    <item name="hs__chatBubbleAdminLink">@color/hs__light_chatBubbleAdminLink</item>
-    <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
-    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__light_chatBubbleAdminBackgroundColor
-    </item>
-
-    <item name="hs__composeBackgroundColor">@color/hs__light_composeBackgroundColor</item>
-    <item name="hs__conversationFooterBackgroundColor">
-      @color/hs__light_conversationFooterBackgroundColor
-    </item>
-    <item name="hs__tabletConversationContainerBackgroundColor">
-      @color/hs__light_tabletConversationContainerBackgroundColor
-    </item>
-
-    <!--New Conversation Screen-->
-    <item name="hs__attachmentBackgroundColor">@color/hs__light_attachmentBackgroundColor</item>
-
-    <!--General-->
-    <item name="hs__separatorColor">@color/hs__light_separatorColor</item>
-    <item name="hs__textFieldBorderColor">@color/hs__light_textFieldBorderColor</item>
-    <item name="hs__validationErrorColor">@color/hs__light_validationErrorColor</item>
-    <item name="hs__searchHighlightColor">@color/hs__light_searchHighlightColor</item>
-    <!--NEW THEME ELEMENTS END -->
-
-    <!--FAQ FOOTER STYLING-->
-    <item name="hs__faqHelpfulButtonTextColor">@color/hs__light_colorAccent</item>
-    <item name="hs__faqUnhelpfulButtonTextColor">@color/hs__light_colorAccent</item>
-    <item name="hs__faqFooterSeparatorColor">@color/hs__faq_footer_separator_light</item>
-    <item name="hs__faqsFooterBackgroundColor">@color/hs__question_footer_background_light</item>
-    <item name="hs__faqHelpfulButtonStyle">@style/Helpshift.Style.FaqHelpfulButton</item>
-    <item name="hs__faqUnhelpfulButtonStyle">@style/Helpshift.Style.FaqUnhelpfulButton</item>
-    <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
-    <!--END FAQ FOOTER STYLING-->
+    <!-- FOOTER STYLING-->
+    <item name="hs__footerPromptBackground">@color/hs__color_FFFFFFFF</item>
+    <!--END FOOTER STYLING-->
 
     <!--TOOLBAR STYLING-->
-    <item name="hs__actionButtonIconColor">
-      @color/hs__actionbutton_icon_dark
-    </item>
-    <item name="hs__actionButtonNotificationIconColor">
-      @color/hs__actionbutton_notification_icon_dark
-    </item>
-    <item name="hs__actionButtonNotificationTextColor">
-      @color/hs__actionbutton_notification_text_dark
-    </item>
+    <item name="hs__actionButtonIconColor">@color/hs__color_FFFFFFFF</item>
     <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Dark</item>
     <!--END TOOLBAR STYLING-->
 
     <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Dark</item>
-    <item name="hs__faqsPagerTabStripIndicatorColor">@color/hs__dark_colorAccent</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
 
-    <item name="hs__buttonCompoundDrawableIconColor">
-      @color/hs__button_compound_drawable_icon_light
-    </item>
-    <item name="hs__sendMessageButtonIconColor">@color/hs__send_message_button_icon_light</item>
-    <item name="hs__sendMessageButtonActiveIconColor">
-      @color/hs__send_message_button_active_icon_light
-    </item>
     <item name="hs__attachScreenshotActionButtonIcon">
       @drawable/hs__attach_screenshot_action_button
     </item>
-    <item name="hs__acceptButtonIconColor">@color/hs__accept_button_icon_light</item>
-    <item name="hs__rejectButtonIconColor">@color/hs__reject_button_icon_light</item>
-    <item name="hs__messagesTextColor">@color/hs__messages_text_light</item>
-    <item name="hs__contentSeparatorColor">@color/hs__separator_light</item>
-    <item name="hs__chatBubbleSeparatorColor">@color/hs__chat_bubble_separator_light</item>
-    <item name="hs__attachScreenshotButtonIconColor">
-      @color/hs__attach_screenshot_button_icon_light
-    </item>
-    <item name="hs__reviewButtonIconColor">@color/hs__review_button_icon_light</item>
+    <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
     <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
     <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
-    <item name="hs__chatActionButtonIcon">@drawable/hs__report_issue</item>
     <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
     <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
     <item name="hs__searchOnNewConversationDoneActionButtonIcon">
       @drawable/hs__search_on_conversation_done
     </item>
-    <item name="hs__adminChatBubbleColor">@color/hs__admin_chat_bubble_light</item>
-    <item name="hs__userChatBubbleColor">@color/hs__user_chat_bubble_light</item>
     <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
-    <item name="hs__csatDialogBackgroundColor">@color/hs__csat_dialog_background_color_light</item>
-    <item name="hs__downloadAttachmentButtonIconColor">
-      @color/hs__download_attachment_button_icon_light
-    </item>
-    <item name="hs__launchAttachmentButtonIconColor">
-      @color/hs__launch_attachment_button_icon_light
-    </item>
 
     <!-- Inbox -->
-    <item name="hs__inboxTitleTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxTitleUnreadTextColor">@color/hs__light_textColorPrimary</item>
-    <item name="hs__inboxTimeStampTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__inbox_time_stamp_unread_text_color_light</item>
-    <item name="hs__inboxBodyTextColor">@color/hs__light_textColorSecondary</item>
-    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__inbox_swipe_to_delete_background_color_light</item>
-    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__inbox_swipe_to_delete_icon_color_light</item>
-    <item name="hs__inboxIconBackgroundColor">@color/hs__inbox_icon_background_color_light</item>
-    <item name="hs__inboxSeparatorColor">@color/hs__light_separatorColor</item>
+    <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTitleUnreadTextColor">@color/hs__color_DE000000</item>
+    <item name="hs__inboxTimeStampTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__color_FF2196F3</item>
+    <item name="hs__inboxBodyTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__color_FFF44336</item>
+    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxIconBackgroundColor">@color/hs__color_FF929495</item>
+    <item name="hs__inboxSeparatorColor">@color/hs__color_1F000000</item>
+  </style>
+    <style name="Helpshift.Theme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <!--NEW THEME ELEMENTS, TODO: CLEAN UP OLD USAGES-->
+    <item name="colorPrimary">@color/hs__color_FFE0E0E0</item>
+    <item name="colorPrimaryDark">@color/hs__color_FFBDBDBD</item>
+    <item name="colorAccent">@color/hs__color_FF00B0FF</item>
+    <item name="android:titleTextColor" ns1:targetApi="23">@color/hs__color_DE000000</item>
+    <item name="android:windowBackground">@color/hs__color_FFFAFAFA</item>
+    <item name="android:textColorPrimary">@color/hs__color_DE000000</item>
+    <item name="android:textColorPrimaryInverse">@color/hs__color_FFFFFFFF</item>
+    <item name="android:textColorSecondary">@color/hs__color_8A000000</item>
+    <item name="android:textColorSecondaryInverse">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorHint">@color/hs__color_42000000</item>
+
+    <!--Conversations-->
+    <item name="hs__chatBubbleUserText">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleUserLink">@color/hs__color_FF1E88E5</item>
+    <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
+    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__color_FFE0E0E0</item>
+
+    <item name="hs__chatBubbleAdminText">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleAdminLink">@color/hs__color_FF1E88E5</item>
+    <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
+    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__color_FFCFD8DC</item>
+
+    <item name="hs__composeBackgroundColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__tabletConversationContainerBackgroundColor">@color/hs__color_FFDADFE2</item>
+
+    <item name="hs__typingIndicatorColor">@color/hs__color_7A7A7A</item>
+
+    <!--New Conversation Screen-->
+    <item name="hs__attachmentBackgroundColor">@color/hs__color_FFDADFE2</item>
+
+    <!--General-->
+    <item name="hs__separatorColor">@color/hs__color_1F000000</item>
+    <item name="hs__errorTextColor">@color/hs__color_FFD50000</item>
+    <item name="hs__searchHighlightColor">@color/hs__color_4000B0FF</item>
+    <!--NEW THEME ELEMENTS END -->
+
+    <!--FAQ FOOTER STYLING-->
+    <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
+    <!--END FAQ FOOTER STYLING-->
+
+    <!-- FOOTER STYLING-->
+    <item name="hs__footerPromptBackground">@color/hs__color_FFFFFFFF</item>
+    <!--END FOOTER STYLING-->
+
+    <!--TOOLBAR STYLING-->
+    <item name="hs__actionButtonIconColor">@color/hs__color_DE000000</item>
+    <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Light</item>
+    <!--END TOOLBAR STYLING-->
+
+    <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Light</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
+
+    <item name="hs__attachScreenshotActionButtonIcon">
+      @drawable/hs__attach_screenshot_action_button
+    </item>
+    <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
+    <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
+    <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
+    <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
+    <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
+    <item name="hs__searchOnNewConversationDoneActionButtonIcon">
+      @drawable/hs__search_on_conversation_done
+    </item>
+    <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
+
+    <!-- Inbox -->
+    <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTitleUnreadTextColor">@color/hs__color_DE000000</item>
+    <item name="hs__inboxTimeStampTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__color_FF2196F3</item>
+    <item name="hs__inboxBodyTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__color_FFF44336</item>
+    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxIconBackgroundColor">@color/hs__color_FF929495</item>
+    <item name="hs__inboxSeparatorColor">@color/hs__color_1F000000</item>
+  </style>
+    <style name="Helpshift.Theme.Light.DarkActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/hs__color_FF2196F3</item>
+    <item name="colorPrimaryDark">@color/hs__color_FF1976D2</item>
+    <item name="colorAccent">@color/hs__color_FFF80054</item>
+    <item name="android:titleTextColor" ns1:targetApi="23">@color/hs__color_FFFFFFFF</item>
+    <item name="android:windowBackground">@color/hs__color_FFFAFAFA</item>
+
+    <item name="android:textColorPrimary">@color/hs__color_DE000000</item>
+    <item name="android:textColorPrimaryInverse">@color/hs__color_FFFFFFFF</item>
+    <item name="android:textColorSecondary">@color/hs__color_8A000000</item>
+    <item name="android:textColorSecondaryInverse">@color/hs__color_B3FFFFFF</item>
+    <item name="android:textColorHint">@color/hs__color_42000000</item>
+
+    <!--Conversations-->
+    <item name="hs__chatBubbleUserText">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__chatBubbleUserLink">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__chatBubbleUserBackground">@drawable/hs__chat_bubble_user</item>
+    <item name="hs__chatBubbleUserBackgroundColor">@color/hs__color_FF2196F3</item>
+
+    <item name="hs__chatBubbleAdminText">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleAdminLink">@color/hs__color_DE000000</item>
+    <item name="hs__chatBubbleAdminBackground">@drawable/hs__chat_bubble_admin</item>
+    <item name="hs__chatBubbleAdminBackgroundColor">@color/hs__color_FFE0E0E0</item>
+
+    <item name="hs__composeBackgroundColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__tabletConversationContainerBackgroundColor">@color/hs__color_FFDADFE2</item>
+
+    <item name="hs__typingIndicatorColor">@color/hs__color_8F8F8F</item>
+
+    <!--New Conversation Screen-->
+    <item name="hs__attachmentBackgroundColor">@color/hs__color_FFDADFE2</item>
+
+    <!--General-->
+    <item name="hs__separatorColor">@color/hs__color_1F000000</item>
+    <item name="hs__errorTextColor">@color/hs__color_FFD50000</item>
+    <item name="hs__searchHighlightColor">@color/hs__color_402196F3</item>
+    <!--NEW THEME ELEMENTS END -->
+
+    <!--FAQ FOOTER STYLING-->
+    <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
+    <!--END FAQ FOOTER STYLING-->
+
+    <!-- FOOTER STYLING-->
+    <item name="hs__footerPromptBackground">@color/hs__color_FFFFFFFF</item>
+    <!--END FOOTER STYLING-->
+
+    <!--TOOLBAR STYLING-->
+    <item name="hs__actionButtonIconColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Dark</item>
+    <!--END TOOLBAR STYLING-->
+
+    <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Dark</item>
+    <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
+
+    <item name="hs__attachScreenshotActionButtonIcon">
+      @drawable/hs__attach_screenshot_action_button
+    </item>
+    <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
+    <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
+    <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
+    <item name="hs__conversationNotificationActionButtonIcon">@drawable/hs__chat_notif</item>
+    <item name="hs__startConversationActionButtonIcon">@drawable/hs__send</item>
+    <item name="hs__searchOnNewConversationDoneActionButtonIcon">
+      @drawable/hs__search_on_conversation_done
+    </item>
+    <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
+
+    <!-- Inbox -->
+    <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTitleUnreadTextColor">@color/hs__color_DE000000</item>
+    <item name="hs__inboxTimeStampTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__color_FF2196F3</item>
+    <item name="hs__inboxBodyTextColor">@color/hs__color_8A000000</item>
+    <item name="hs__inboxSwipeToDeleteBackgroundColor">@color/hs__color_FFF44336</item>
+    <item name="hs__inboxSwipeToDeleteIconColor">@color/hs__color_FFFFFFFF</item>
+    <item name="hs__inboxIconBackgroundColor">@color/hs__color_FF929495</item>
+    <item name="hs__inboxSeparatorColor">@color/hs__color_1F000000</item>
   </style>
 </resources>
