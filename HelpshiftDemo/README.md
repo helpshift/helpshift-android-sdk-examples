@@ -7,7 +7,7 @@ Run the following inside the /HelpshiftDemo folder.
 android update project -t android-17 -p .
 ```
 
-In `HelpshiftDemoActivity.java` uncomment and fill in your API Key, Domain Name and App ID at the `TODO` marker.
+In `HelpshiftMainApplication.java` uncomment and fill in your API Key, Domain Name and App ID at the `TODO` marker.
 
 Read more about initializing helpshift [here](https://developers.helpshift.com/android/getting-started/#initializing)
 
