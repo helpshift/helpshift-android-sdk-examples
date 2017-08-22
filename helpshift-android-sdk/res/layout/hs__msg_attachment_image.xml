@@ -22,7 +22,7 @@
             android:background="?attr/hs__chatBubbleAdminBackground"
             android:padding="1dp">
 
-            <com.helpshift.support.views.RoundedImageView
+            <com.helpshift.support.views.HSRoundedImageView
                 android:id="@+id/admin_attachment_imageview"
                 style="@style/Helpshift.Style.AdminAttachmentBubble"
                 android:layout_width="match_parent"

@@ -23,4 +23,22 @@
         android:title="@string/hs__done_btn"
         android:visible="false"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/hs__attach_screenshot"
+        android:icon="@drawable/hs__attach_screenshot_action_button"
+        android:title="@string/hs__attach_screenshot_btn"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/hs__start_new_conversation"
+        android:icon="@drawable/hs__send"
+        android:title="@string/hs__contact_us_btn"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/hs__conversation_information"
+        android:icon="@drawable/hs__conversation_info"
+        android:title="@string/hs__conversation_info_menu_item_title"
+        android:visible="false"
+        app:showAsAction="always"/>
 </menu>

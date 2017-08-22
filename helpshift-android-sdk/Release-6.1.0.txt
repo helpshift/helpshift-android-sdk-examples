@@ -1,4 +1,4 @@
-Helpshift SDK 6.0.0 Release Notes (for Android)
+Helpshift SDK 6.1.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,38 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+6.1.0 Release Date: August 21, 2017
+      * Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
+      * Fixed a crash that would occur when using Android support library v25.4.0.
+      * Fixed a crash that would occur when generating a signature for network requests.
+      * Fixed a crash that would occur when attaching a screenshot and disabling storage permission from the background.
+      * Fixed build errors due to conflicting attributes in styles when using build tools v23.0.3.
+      * Fixed a bug where the issue was sometimes incorrectly filed with anonymous name.
+      * Fixed a bug where calling login() API immediately after install() call would crash the app.
+      * Fixed a bug with Action bar menu items on Android support library v23.4.0.
+      * Fixed a bug where search results on new Conversations did not clear if the end user accepted the FAQ.
+      * Fixed a bug where the "Change" button in the image picker did not work after screen rotation.
+      * Fixed a bug where the FAQ search would not work after screen rotation on Android support library v25.4.0.
+      * Fixed a bug where image attachment did not work with Android support library v25.4.0.
+      * Fixed a bug where the Agent Typing Indicator would not work after rotating device in Conversation screen.
+      * Fixed a bug where the error snackbar view for unsupported attachments wasn’t shown if delegate is not implemented.
+      * Fixed a bug where the error snackbar view didn’t get hidden in some cases after pressing back from a screen.
+6.1.0 Release Date: August 21, 2017
+      * Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
+      * Fixed a crash that would occur when using Android support library v25.4.0.
+      * Fixed a crash that would occur when generating a signature for network requests.
+      * Fixed a crash that would occur when attaching a screenshot and disabling storage permission from the background.
+      * Fixed build errors due to conflicting attributes in styles when using build tools v23.0.3.
+      * Fixed a bug where the issue was sometimes incorrectly filed with anonymous name.
+      * Fixed a bug where calling login() API immediately after install() call would crash the app.
+      * Fixed a bug with Action bar menu items on Android support library v23.4.0.
+      * Fixed a bug where search results on new Conversations did not clear if the end user accepted the FAQ.
+      * Fixed a bug where the "Change" button in the image picker did not work after screen rotation.
+      * Fixed a bug where the FAQ search would not work after screen rotation on Android support library v25.4.0.
+      * Fixed a bug where image attachment did not work with Android support library v25.4.0.
+      * Fixed a bug where the Agent Typing Indicator would not work after rotating device in Conversation screen.
+      * Fixed a bug where the error snackbar view for unsupported attachments wasn’t shown if delegate is not implemented.
+      * Fixed a bug where the error snackbar view didn’t get hidden in some cases after pressing back from a screen.
 6.0.0 Release Date: July 18, 2017
       * Added support to show an animated indication on chat screen when an agent is replying to the conversation.
       * Updated design for conversation screen.

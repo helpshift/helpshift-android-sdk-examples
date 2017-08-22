@@ -21,13 +21,13 @@
             style="@style/Helpshift.Style.AdminTextMessageContainer"
             android:gravity="center">
 
-            <com.helpshift.support.views.TypingIndicatorView
+            <com.helpshift.support.views.HSTypingIndicatorView
                 android:id="@+id/agent_typing_indicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                helpshift:dot_color="?attr/hs__typingIndicatorColor"
-                helpshift:inter_dot_padding="4dp"
-                helpshift:dot_diameter="8dp"
+                helpshift:hs__dotColor="?attr/hs__typingIndicatorColor"
+                helpshift:hs__interDotPadding="4dp"
+                helpshift:hs__dotDiameter="8dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"
                 android:layout_marginTop="14dp"

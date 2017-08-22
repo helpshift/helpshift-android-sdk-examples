@@ -43,9 +43,9 @@
     <color name="hs__color_FFFF6E6E">#FFFF6E6E</color>
     <color name="hs__color_FFFFFF">#FFFFFF</color>
     <color name="hs__color_FFFFFFFF">#FFFFFFFF</color>
+    <declare-styleable name="HSRoundedImageView"><attr format="dimension" name="hs__cornerRadius"/><attr format="boolean" name="hs__roundedTopLeft"/><attr format="boolean" name="hs__roundedTopRight"/><attr format="boolean" name="hs__roundedBottomLeft"/><attr format="boolean" name="hs__roundedBottomRight"/><attr format="dimension" name="hs__borderWidth"/><attr format="color" name="hs__borderColor"/></declare-styleable>
+    <declare-styleable name="HSTypingIndicatorView"><attr format="color" name="hs__dotColor"/><attr format="dimension" name="hs__interDotPadding"/><attr format="dimension" name="hs__dotDiameter"/></declare-styleable>
     <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="reference" name="hs__chatBubbleUserBackground"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="reference" name="hs__chatBubbleAdminBackground"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__typingIndicatorColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__errorTextColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__footerPromptBackground"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
-    <declare-styleable name="RoundedImageView"><attr format="dimension" name="cornerRadius"/><attr format="boolean" name="roundedTopLeft"/><attr format="boolean" name="roundedTopRight"/><attr format="boolean" name="roundedBottomLeft"/><attr format="boolean" name="roundedBottomRight"/><attr format="dimension" name="borderWidth"/><attr format="color" name="borderColor"/></declare-styleable>
-    <declare-styleable name="TypingIndicatorView"><attr format="color" name="dot_color"/><attr format="dimension" name="inter_dot_padding"/><attr format="dimension" name="dot_diameter"/></declare-styleable>
     <dimen name="activity_horizontal_margin_large">24dp</dimen>
     <dimen name="activity_horizontal_margin_medium">16dp</dimen>
     <dimen name="activity_horizontal_margin_small">8dp</dimen>
@@ -222,7 +222,7 @@
     <style name="Helpshift"/>
     <style name="Helpshift.Style"/>
     <style name="Helpshift.Style.AdminAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
-    <item name="roundedTopLeft">false</item>
+    <item name="hs__roundedTopLeft">false</item>
   </style>
     <style name="Helpshift.Style.AdminMessageDate">
     <item name="android:layout_width">wrap_content</item>
@@ -252,8 +252,8 @@
     <item name="android:orientation">vertical</item>
   </style>
     <style name="Helpshift.Style.AttachmentBubble">
-    <item name="borderWidth">@dimen/hs__image_attachment_bubble_border_width</item>
-    <item name="cornerRadius">@dimen/hs__image_attachment_bubble_corner_radius</item>
+    <item name="hs__borderWidth">@dimen/hs__image_attachment_bubble_border_width</item>
+    <item name="hs__cornerRadius">@dimen/hs__image_attachment_bubble_corner_radius</item>
   </style>
     <style name="Helpshift.Style.BorderlessButton" parent="Base.Widget.AppCompat.Button.Borderless">
     <item name="android:textColor">?colorAccent</item>
@@ -307,7 +307,7 @@
     <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
   </style>
     <style name="Helpshift.Style.UserAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
-    <item name="roundedBottomRight">false</item>
+    <item name="hs__roundedBottomRight">false</item>
   </style>
     <style name="Helpshift.Style.UserMessageDate">
     <item name="android:layout_width">wrap_content</item>
