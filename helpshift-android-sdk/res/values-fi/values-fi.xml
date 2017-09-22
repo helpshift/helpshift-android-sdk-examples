@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Arvostele palvelumme.</string>
     <string name="hs__csat_submit_toast">Kiitos arvostelusta.</string>
     <string name="hs__data_not_found_msg">Tietoja ei löytynyt</string>
+    <string name="hs__default_notification_channel_name">Sovellustuki</string>
     <string name="hs__default_notification_content_title">Asiakastuki</string>
     <string name="hs__description_invalid_length_error">Kerro tarkempia tietoja, niin voimme auttaa paremmin</string>
     <string name="hs__done_btn">Valmis</string>

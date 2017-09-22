@@ -1,4 +1,4 @@
-Helpshift SDK 6.1.0 Release Notes (for Android)
+Helpshift SDK 6.2.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,35 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+6.2.0 Release Date: September 20, 2017
+      * Add support for notification channels introduced in Android Oreo.
+      * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
+      * Fixed a crash where downloading attachments would result in NullPointerException.
+      * Fixed a crash caused due to Package Manager runtime errors.
+      * Fixed a rare NullPointerException crash caused when sending a text message.
+      * Fixed a bug where embedded videos in FAQs would not fit on screen.
+      * Fixed a bug where a Campaign notification with an open conversation action would do nothing if the user is on the Helpshift Support screen.
+      * Fixed a bug where the conversation resolution question was not shown if the user was on the conversation info screen when the message was received.
+      * Fixed a bug where subsequent conversationPrefillText updates were ignored after setting it once.
+      * Fixed a bug where updating the app and then using the showConversation() API would show the user's previous conversations (open or closed) instead of showing new conversation screen.
+      * Fixed a bug where clicking NO in the conversation resolution question would not show the new conversation button sometimes.
+      * Fixed a bug where setSDKLanguage() was ineffective on Android Oreo.
+      * Fixed a bug where the attachment icon in ActionBar would not disappear if 'Do not keep activities' in Android's developer settings was enabled.
+      * Fixed an edge case bug where the user's attachment showed up as blank on the conversation screen if the user revoked storage permission while the attachment is uploading.
+6.2.0 Release Date: September 20, 2017
+      * Add support for notification channels introduced in Android Oreo.
+      * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
+      * Fixed a crash where downloading attachments would result in NullPointerException.
+      * Fixed a crash caused due to Package Manager runtime errors.
+      * Fixed a rare NullPointerException crash caused when sending a text message.
+      * Fixed a bug where embedded videos in FAQs would not fit on screen.
+      * Fixed a bug where the conversation resolution question was not shown if the user was on the conversation info screen when the message was received.
+      * Fixed a bug where subsequent conversationPrefillText updates were ignored after setting it once.
+      * Fixed a bug where updating the app and then using the showConversation() API would show the user's previous conversations (open or closed) instead of showing new conversation screen.
+      * Fixed a bug where clicking NO in the conversation resolution question would not show the new conversation button sometimes.
+      * Fixed a bug where setSDKLanguage() was ineffective on Android Oreo.
+      * Fixed a bug where the attachment icon in ActionBar would not disappear if 'Do not keep activities' in Android's developer settings was enabled.
+      * Fixed an edge case bug where the user's attachment showed up as blank on the conversation screen if the user revoked storage permission while the attachment is uploading.
 6.1.0 Release Date: August 21, 2017
       * Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
       * Fixed a crash that would occur when using Android support library v25.4.0.

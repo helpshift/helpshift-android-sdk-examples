@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">ഞങ്ങളുടെ സേവനം ‌റേറ്റുചെയ്യുക</string>
     <string name="hs__csat_submit_toast">ഞങ്ങളെ റേറ്റ് ചെയ്തതിന് നന്ദി.</string>
     <string name="hs__data_not_found_msg">ഡാറ്റാ കാണ്മാനില്ല</string>
+    <string name="hs__default_notification_channel_name">അപ്ലിക്കേഷനുള്ളിലെ പിന്തുണ</string>
     <string name="hs__default_notification_content_title">പിന്തുണ</string>
     <string name="hs__description_invalid_length_error">മെച്ചപ്പെട്ട സഹായത്തിന്, ദയവായി കൂടുതൽ വിശദാംശങ്ങൾ നൽകുക</string>
     <string name="hs__done_btn">കഴിഞ്ഞു</string>

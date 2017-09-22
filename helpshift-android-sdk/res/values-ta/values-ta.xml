@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">எங்கள் சேவையை மதிப்பிடவும்.</string>
     <string name="hs__csat_submit_toast">மதிப்பீடு வழங்கியதற்கு நன்றி.</string>
     <string name="hs__data_not_found_msg">தரவு இல்லை</string>
+    <string name="hs__default_notification_channel_name">பயன்பாட்டு ஆதரவு</string>
     <string name="hs__default_notification_content_title">ஆதரவு</string>
     <string name="hs__description_invalid_length_error">சிறப்பாக உதவ, கூடுதல் விவரங்களை வழங்கவும்</string>
     <string name="hs__done_btn">முடிந்தது</string>

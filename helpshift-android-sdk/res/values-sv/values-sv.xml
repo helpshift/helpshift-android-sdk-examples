@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Betygsätt gärna vår tjänst.</string>
     <string name="hs__csat_submit_toast">Tack för att du betygsätter oss.</string>
     <string name="hs__data_not_found_msg">Ingen data hittades</string>
+    <string name="hs__default_notification_channel_name">App stöd</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">Lämna mer information för att få bättre hjälp</string>
     <string name="hs__done_btn">Klart</string>

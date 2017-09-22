@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Ocenite našo storitev.</string>
     <string name="hs__csat_submit_toast">Hvala, ker ste nas ocenili.</string>
     <string name="hs__data_not_found_msg">Podatkov ni bilo mogoče najti</string>
+    <string name="hs__default_notification_channel_name">Podpora v aplikaciji</string>
     <string name="hs__default_notification_content_title">Podpora</string>
     <string name="hs__description_invalid_length_error">Navedite več podrobnosti, da vam bomo lahko lažje pomagali</string>
     <string name="hs__done_btn">Končano</string>

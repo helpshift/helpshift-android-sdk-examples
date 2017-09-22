@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">আমাদের সেবা রেট করুন.</string>
     <string name="hs__csat_submit_toast">আমাদের গুণমান বিচার করার জন্য ধন্যবাদ।</string>
     <string name="hs__data_not_found_msg">তথ্য পাওয়া যায়নি</string>
+    <string name="hs__default_notification_channel_name">ইন-অ্যাপ্লিকেশন সমর্থন</string>
     <string name="hs__default_notification_content_title">সাপোর্ট</string>
     <string name="hs__description_invalid_length_error">ভাল সহায়তার জন্য, আরো তথ্য প্রদান করুন</string>
     <string name="hs__done_btn">করা হয়েছে</string>

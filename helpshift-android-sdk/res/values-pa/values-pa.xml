@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">ਕਿਰਪਾ ਕਰਕੇ ਸਾਡੀ ਸੇਵਾ ਨੂੰ ਰੇਟ ਕਰੋ।</string>
     <string name="hs__csat_submit_toast">ਸਾਨੂੰ ਰੇਟ ਕਰਨ ਲਈ ਧੰਨਵਾਦ।</string>
     <string name="hs__data_not_found_msg">ਡੇਟਾ ਨਹੀਂ ਲੱਭਿਆ</string>
+    <string name="hs__default_notification_channel_name">ਇਨ-ਐਪ ਸਹਾਇਤਾ</string>
     <string name="hs__default_notification_content_title">ਸਮਰਥਨ</string>
     <string name="hs__description_invalid_length_error">ਬੇਹਤਰ ਸਹਿਯੋਗ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਹੋਰ ਵੇਰਵੇ ਪ੍ਰਦਾਨ ਕਰੋ</string>
     <string name="hs__done_btn">ਹੋ ਗਿਆ</string>

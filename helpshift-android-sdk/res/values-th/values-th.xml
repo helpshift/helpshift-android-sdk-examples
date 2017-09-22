@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">โปรดให้คะแนนบริการของเรา</string>
     <string name="hs__csat_submit_toast">ขอบคุณสำหรับการให้คะแนนแก่เรา</string>
     <string name="hs__data_not_found_msg">ไม่พบข้อมูล</string>
+    <string name="hs__default_notification_channel_name">การสนับสนุนแอป</string>
     <string name="hs__default_notification_content_title">ฝ่ายสนับสนุน</string>
     <string name="hs__description_invalid_length_error">โปรดระบุรายละเอียดเพิ่มเติม เพื่อให้เราสามารถช่วยเหลือคุณได้ดียิ่งขึ้น</string>
     <string name="hs__done_btn">เสร็จแล้ว</string>

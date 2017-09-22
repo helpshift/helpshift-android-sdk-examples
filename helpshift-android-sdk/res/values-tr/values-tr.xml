@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Lütfen hizmetlerimizi değerlendir.</string>
     <string name="hs__csat_submit_toast">Bizi derecelendirdiğin için teşekkür ederiz.</string>
     <string name="hs__data_not_found_msg">Veri bulunamadı</string>
+    <string name="hs__default_notification_channel_name">Uygulama desteği</string>
     <string name="hs__default_notification_content_title">Destek</string>
     <string name="hs__description_invalid_length_error">Daha iyi yardım almak için daha fazla bilgi verin</string>
     <string name="hs__done_btn">Bitti</string>

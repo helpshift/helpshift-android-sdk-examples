@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:windowBackground"
+    android:gravity="center"
     android:orientation="vertical">
 
     <ImageView
@@ -14,7 +15,16 @@
         android:layout_weight="1"
         tools:ignore="ContentDescription"/>
 
+    <ProgressBar
+        android:id="@+id/screenshot_loading_indicator"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
     <View
+        android:id="@+id/buttons_separator"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?attr/hs__separatorColor"/>

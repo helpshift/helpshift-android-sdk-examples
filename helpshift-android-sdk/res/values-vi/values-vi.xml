@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Hãy xếp hạng dịch vụ của chúng tôi</string>
     <string name="hs__csat_submit_toast">Cảm ơn bạn đã xếp hạng chúng tôi.</string>
     <string name="hs__data_not_found_msg">Không tìm thấy dữ liệu</string>
+    <string name="hs__default_notification_channel_name">Hỗ trợ ứng dụng</string>
     <string name="hs__default_notification_content_title">Hỗ trợ</string>
     <string name="hs__description_invalid_length_error">Để được hỗ trợ tốt hơn, vui lòng cung cấp thêm thông tin</string>
     <string name="hs__done_btn">Hoàn thành</string>

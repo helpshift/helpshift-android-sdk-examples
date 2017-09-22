@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Valore nuestro servicio.</string>
     <string name="hs__csat_submit_toast">Gracias por su valoración.</string>
     <string name="hs__data_not_found_msg">No se encuentran datos</string>
+    <string name="hs__default_notification_channel_name">Soporte en la aplicación</string>
     <string name="hs__default_notification_content_title">Soporte</string>
     <string name="hs__description_invalid_length_error">Sea más preciso para poder asistirle mejor</string>
     <string name="hs__done_btn">Listo</string>

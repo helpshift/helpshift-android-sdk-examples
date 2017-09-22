@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Αξιολογήστε την υπηρεσία μας.</string>
     <string name="hs__csat_submit_toast">Ευχαριστούμε για την αξιολόγησή σας.</string>
     <string name="hs__data_not_found_msg">Δεν βρέθηκαν δεδομένα</string>
+    <string name="hs__default_notification_channel_name">Υποστήριξη εντός εφαρμογής</string>
     <string name="hs__default_notification_content_title">Υποστήριξη</string>
     <string name="hs__description_invalid_length_error">Για καλύτερη εξυπηρέτηση, δώστε μας περισσότερες λεπτομέρειες</string>
     <string name="hs__done_btn">Τέλος</string>

@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">저희 서비스를 평가해 주세요.</string>
     <string name="hs__csat_submit_toast">평가해 주셔서 감사합니다.</string>
     <string name="hs__data_not_found_msg">데이터가 없음</string>
+    <string name="hs__default_notification_channel_name">인앱 지원</string>
     <string name="hs__default_notification_content_title">고객 지원</string>
     <string name="hs__description_invalid_length_error">알맞은 지원을 받으려면, 자세한 정보를 더 알려 주세요.</string>
     <string name="hs__done_btn">완료</string>

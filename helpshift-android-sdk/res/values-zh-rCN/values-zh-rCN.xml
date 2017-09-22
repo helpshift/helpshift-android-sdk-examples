@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">请给我们的服务打分</string>
     <string name="hs__csat_submit_toast">感谢您对我们的评价。</string>
     <string name="hs__data_not_found_msg">未找到数据</string>
+    <string name="hs__default_notification_channel_name">应用内支持</string>
     <string name="hs__default_notification_content_title">客服</string>
     <string name="hs__description_invalid_length_error">请提供更多详细信息，以便我们提供更好的协助</string>
     <string name="hs__done_btn">完成</string>

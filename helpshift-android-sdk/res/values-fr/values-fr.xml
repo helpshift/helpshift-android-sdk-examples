@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Merci d\'évaluer notre service.</string>
     <string name="hs__csat_submit_toast">Merci de nous avoir notés.</string>
     <string name="hs__data_not_found_msg">Données introuvables</string>
+    <string name="hs__default_notification_channel_name">Support d\'application</string>
     <string name="hs__default_notification_content_title">Assistance</string>
     <string name="hs__description_invalid_length_error">Pour nous permettre de mieux vous aider, veuillez fournir plus de détails.</string>
     <string name="hs__done_btn">Fait</string>

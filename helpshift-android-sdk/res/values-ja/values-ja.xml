@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">サービス内容を評価してください。</string>
     <string name="hs__csat_submit_toast">評価いただき。ありがとうございます。</string>
     <string name="hs__data_not_found_msg">データが見つかりません</string>
+    <string name="hs__default_notification_channel_name">アプリ内サポート</string>
     <string name="hs__default_notification_content_title">サポート</string>
     <string name="hs__description_invalid_length_error">適切なサポートをご提供させていただけるよう、より詳細な状況をお聞かせください。</string>
     <string name="hs__done_btn">終了</string>

@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Vă rugăm să evaluați serviciile noastre.</string>
     <string name="hs__csat_submit_toast">Îți mulțumim pentru notare.</string>
     <string name="hs__data_not_found_msg">Date negăsite</string>
+    <string name="hs__default_notification_channel_name">Suport aplicatie</string>
     <string name="hs__default_notification_content_title">Asistență</string>
     <string name="hs__description_invalid_length_error">Pentru o mai bună asistență, furnizați mai multe detalii</string>
     <string name="hs__done_btn">Rezolvat</string>

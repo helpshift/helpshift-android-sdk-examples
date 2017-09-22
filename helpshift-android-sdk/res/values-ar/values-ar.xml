@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">يُرجى تقييم خدمتنا.</string>
     <string name="hs__csat_submit_toast">نشكرك على تقييمك لنا.</string>
     <string name="hs__data_not_found_msg">لم يتم العثور على البيانات</string>
+    <string name="hs__default_notification_channel_name">دعم داخل التطبيق</string>
     <string name="hs__default_notification_content_title">الدعم</string>
     <string name="hs__description_invalid_length_error">لدعم أفضل، يُرجى تقديم المزيد من التفاصيل</string>
     <string name="hs__done_btn">تم</string>

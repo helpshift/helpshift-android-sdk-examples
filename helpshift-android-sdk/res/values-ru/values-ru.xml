@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Оцените работу нашей службы.</string>
     <string name="hs__csat_submit_toast">Спасибо за оценку!</string>
     <string name="hs__data_not_found_msg">Данные не найдены</string>
+    <string name="hs__default_notification_channel_name">поддержка приложений</string>
     <string name="hs__default_notification_content_title">Поддержка</string>
     <string name="hs__description_invalid_length_error">Сообщите подробности, чтобы нам легче было помочь вам</string>
     <string name="hs__done_btn">Готово</string>

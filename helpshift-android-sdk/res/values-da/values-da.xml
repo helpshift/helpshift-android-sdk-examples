@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Bedøm vores tjeneste.</string>
     <string name="hs__csat_submit_toast">Tak for din bedømmelse.</string>
     <string name="hs__data_not_found_msg">Data ikke fundet</string>
+    <string name="hs__default_notification_channel_name">Understøttelse af app</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">Angiv flere oplysninger, så vi bedre kan hjælpe dig</string>
     <string name="hs__done_btn">Udført</string>

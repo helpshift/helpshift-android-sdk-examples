@@ -146,6 +146,8 @@
     <string name="hs__csat_ratingbar">Please rate our service.</string>
     <string name="hs__csat_submit_toast">Thanks for rating us.</string>
     <string name="hs__data_not_found_msg">Data not found</string>
+    <string name="hs__default_notification_channel_desc" translatable="false"/>
+    <string name="hs__default_notification_channel_name">In-app Support</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">
     Please describe further so that we can help better

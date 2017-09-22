@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">कृपया आमच्या सेवेला रेट करा.</string>
     <string name="hs__csat_submit_toast">आम्हाला रेट केल्याबद्दल धन्यवाद</string>
     <string name="hs__data_not_found_msg">डेटा सापडला नाही</string>
+    <string name="hs__default_notification_channel_name">अॅप-मधील समर्थन</string>
     <string name="hs__default_notification_content_title">समर्थन</string>
     <string name="hs__description_invalid_length_error">अधिक चांगल्या सहाय्यासाठी, कृपया अजून तपशील पुरवा</string>
     <string name="hs__done_btn">झाले</string>

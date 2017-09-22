@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Lūdzu, novērtējiet mūsu servisu.</string>
     <string name="hs__csat_submit_toast">Paldies, ka sniedzāt vērtējumu par mums.</string>
     <string name="hs__data_not_found_msg">Dati nav atrasti</string>
+    <string name="hs__default_notification_channel_name">Atbalsts lietotnē</string>
     <string name="hs__default_notification_content_title">Atbalsts</string>
     <string name="hs__description_invalid_length_error">Pilnvērtīgākas palīdzības saņemšanai, lūdzu, sniedziet vairāk ziņu</string>
     <string name="hs__done_btn">Darīts</string>

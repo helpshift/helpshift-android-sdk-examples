@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Mohon beri nilai untuk layanan kami.</string>
     <string name="hs__csat_submit_toast">Terima kasih telah memberi nilai.</string>
     <string name="hs__data_not_found_msg">Data tidak ditemukan</string>
+    <string name="hs__default_notification_channel_name">Dukungan dalam aplikasi</string>
     <string name="hs__default_notification_content_title">Dukungan</string>
     <string name="hs__description_invalid_length_error">Untuk bantuan yang lebih baik, sertakan detail yang lebih lengkap</string>
     <string name="hs__done_btn">Selesai</string>

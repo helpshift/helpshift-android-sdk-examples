@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Beoordeel onze dienst.</string>
     <string name="hs__csat_submit_toast">Bedankt voor je beoordeling.</string>
     <string name="hs__data_not_found_msg">Gegevens niet gevonden</string>
+    <string name="hs__default_notification_channel_name">Ondersteuning in de app</string>
     <string name="hs__default_notification_content_title">Ondersteuning</string>
     <string name="hs__description_invalid_length_error">Verstrek meer informatie voor betere ondersteuning</string>
     <string name="hs__done_btn">Klaar</string>

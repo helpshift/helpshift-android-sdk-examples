@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">דרג/י את השירות שלנו.</string>
     <string name="hs__csat_submit_toast">תודה שדירגת אותנו.</string>
     <string name="hs__data_not_found_msg">לא נמצאו נתונים</string>
+    <string name="hs__default_notification_channel_name">תמיכה בתוך היישום</string>
     <string name="hs__default_notification_content_title">תמיכה</string>
     <string name="hs__description_invalid_length_error">לקבלת סיוע טוב יותר, הזן פרטים נוספים</string>
     <string name="hs__done_btn">סיום</string>

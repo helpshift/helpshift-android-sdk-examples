@@ -66,6 +66,7 @@
     <string name="hs__csat_ratingbar">Ocijenite našu uslugu.</string>
     <string name="hs__csat_submit_toast">Hvala vam na ocjeni.</string>
     <string name="hs__data_not_found_msg">Podatak nije pronađen</string>
+    <string name="hs__default_notification_channel_name">Podrška putem aplikacije</string>
     <string name="hs__default_notification_content_title">Podrška</string>
     <string name="hs__description_invalid_length_error">Kako bismo vam pružili bolju podršku, navedite više pojedinosti</string>
     <string name="hs__done_btn">Završeno</string>
