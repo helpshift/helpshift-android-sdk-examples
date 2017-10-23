@@ -38,11 +38,15 @@
     <item name="android:background">?colorPrimary</item>
     <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
     <item name="tabIndicatorColor">?attr/hs__faqsPagerTabStripIndicatorColor</item>
+    <item name="tabTextColor">?attr/hs__tabTextColor</item>
+    <item name="tabSelectedTextColor">?attr/hs__tabSelectedTextColor</item>
   </style>
     <style name="Helpshift.Style.SectionTabs.Light" parent="Base.Widget.AppCompat.Toolbar">
     <item name="android:background">?colorPrimary</item>
     <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
     <item name="tabIndicatorColor">?attr/hs__faqsPagerTabStripIndicatorColor</item>
+    <item name="tabTextColor">?attr/hs__tabTextColor</item>
+    <item name="tabSelectedTextColor">?attr/hs__tabSelectedTextColor</item>
   </style>
     <style name="Helpshift.Style.Toolbar.Dark" parent="Base.Widget.AppCompat.Toolbar">
     <item name="android:background">?colorPrimary</item>

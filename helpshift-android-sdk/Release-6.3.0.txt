@@ -1,4 +1,4 @@
-Helpshift SDK 6.2.0 Release Notes (for Android)
+Helpshift SDK 6.3.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,27 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+6.3.0 Release Date: October 13, 2017
+      * Added support for sending Custom Issue Fields when filing a new conversation.
+      * Added new Campaigns addProperty() API to support Long values.
+      * Added new dynamic form APIs, getDynamicFormFragment() & showDynamicForm() to support taking in the title of the dynamic form as input.
+      * Made improvements to the Campaign images downloading mechanism saving data for the user.
+      * Added two new customizable color attributes for tab text on FAQ sections pager screen.
+      * Fixed a crash that would occur in some specific devices with missing internet permission error.
+      * Fixed some ExceptionInInitializerError exceptions occurring when running in a multi-process environment.
+      * Fixed a crash that would occur with support library v26 when navigating to a deep link from an FAQ and pressing back.
+      * Fixed a rare crash that would occur when starting the attachment picking flow in some specific devices.
+      * Fixed a rare crash that would occur while trying to restore a backup in a re-install case.
+      * Fixed a crash that would occur when an attachment selected from a gallery was changed and the "Don’t Keep Activities" flag was enabled.
+      * Fixed a bug where the button to enter full screen mode in embedded videos wasn’t visible on the FAQ screen.
+      * Fixed a bug where the user could reopen an Issue in cases where the conversation screen was opened from a notification within gallery.
+      * Fixed a bug where Agent messages stopped appearing on the conversation screen in an edge case.
+      * Fixed a bug where on passing null or empty values in the setNameAndEmail API didn’t clear the name & email fields on the Issue filing screen if a user draft was present.
+      * Fixed a bug where the clicks on the attachment draft of the Issue filing screen were not getting disabled while Issue creation was in-progress.
+      * Fixed a bug where two conversation screens could open up when launching from a notification in a case with support library v26.
+      * Fixed a bug where the attachment icon was incorrectly visible on the information screen in an edge case.
+      * Fixed a bug where passing null as the failure callback in the getNotificationCount API was leading to some errors.
+      * Fixed a bug where passing the enableContactUs flag as Never, enabling showSearchOnNewConversation flag, and using showConversation() API resulted in the Send Anyway button being invisible.
 6.2.0 Release Date: September 20, 2017
       * Add support for notification channels introduced in Android Oreo.
       * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
@@ -26,7 +47,7 @@ New features:
       * Fixed a bug where setSDKLanguage() was ineffective on Android Oreo.
       * Fixed a bug where the attachment icon in ActionBar would not disappear if 'Do not keep activities' in Android's developer settings was enabled.
       * Fixed an edge case bug where the user's attachment showed up as blank on the conversation screen if the user revoked storage permission while the attachment is uploading.
-6.2.0 Release Date: September 20, 2017
+6.2.0-support Release Date: September 20, 2017
       * Add support for notification channels introduced in Android Oreo.
       * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
       * Fixed a crash where downloading attachments would result in NullPointerException.
