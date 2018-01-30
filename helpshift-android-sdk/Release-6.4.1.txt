@@ -1,4 +1,4 @@
-Helpshift SDK 6.4.0 Release Notes (for Android)
+Helpshift SDK 6.4.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,7 +11,14 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+6.4.1 Release Date: January 30, 2018
+      * Fixed a rare edge case where users were not able to send or receive messages if an SQLiteException occurred at least once while the user's data was being read from the database.
 6.4.0 Release Date: November 13, 2017
+      * Fixed some variants of a database SQLiteException occurring majorly on Android 4.x devices.
+      * Fixed a bug where the dynamic form flow wouldn’t launch from a deep link on the FAQ screen.
+      * Fixed a bug where an attachment sent from the Agent wasn’t visible if it was attached with a Request Screenshot message.
+      * Fixed a bug where the resource integer value for `hs__issue_description_min_chars` did not change upon changing the language.
+6.4.0-support Release Date: November 13, 2017
       * Fixed some variants of a database SQLiteException occurring majorly on Android 4.x devices.
       * Fixed a bug where the dynamic form flow wouldn’t launch from a deep link on the FAQ screen.
       * Fixed a bug where an attachment sent from the Agent wasn’t visible if it was attached with a Request Screenshot message.
