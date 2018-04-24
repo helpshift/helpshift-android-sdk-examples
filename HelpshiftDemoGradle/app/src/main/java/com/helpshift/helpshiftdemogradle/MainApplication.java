@@ -5,6 +5,8 @@ import android.widget.Toast;
 
 import com.helpshift.Core;
 import com.helpshift.All;
+import com.helpshift.HelpshiftUser;
+import com.helpshift.delegate.AuthenticationFailureReason;
 import com.helpshift.support.Log;
 import com.helpshift.support.Support;
 import com.helpshift.InstallConfig;
@@ -79,5 +81,10 @@ public class MainApplication extends Application implements Support.Delegate {
   @Override
   public void didReceiveNotification(int newMessagesCount) {
     Log.d(TAG, "new messages count : " + newMessagesCount);
+  }
+
+  @Override
+  public void authenticationFailed(HelpshiftUser helpshiftUser, AuthenticationFailureReason authenticationFailureReason) {
+    Log.d(TAG, "Authentication failed for the user, identifier : " + helpshiftUser.getIdentifier() + ", email : " + helpshiftUser.getEmail() + " and reason : " + authenticationFailureReason);
   }
 }
