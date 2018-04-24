@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="start"
+    android:minWidth="120dp"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="12dp">
+    <com.helpshift.views.HSTextView
+        android:id="@+id/admin_suggestion_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:drawableEnd="@drawable/hs__disclosure"
+        android:drawablePadding="12dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLines="2"
+        android:paddingEnd="@dimen/hs__msgPreferredItemPaddingRight"
+        android:paddingLeft="@dimen/hs__msgPreferredItemPaddingLeft"
+        android:paddingRight="@dimen/hs__msgPreferredItemPaddingRight"
+        android:paddingStart="@dimen/hs__msgPreferredItemPaddingLeft"
+        android:textColor="?attr/hs__chatBubbleAdminText"
+        android:textColorLink="?attr/hs__chatBubbleAdminLink"
+        android:textSize="@dimen/hs__textSizeMedium"/>
+</LinearLayout>

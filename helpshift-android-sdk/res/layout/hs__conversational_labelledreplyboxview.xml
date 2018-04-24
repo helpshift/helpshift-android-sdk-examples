@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/relativeLayout1"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/hs__composeBackgroundColor"
+              android:orientation="vertical"
+              android:visibility="gone">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/hs__separatorColor"/>
+    <LinearLayout
+        android:id="@+id/replyBoxLabelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:visibility="gone">
+        <com.helpshift.views.HSTextView
+            android:id="@+id/replyFieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:focusable="true"
+            android:textSize="@dimen/hs__textSizeExtraSmall"
+            android:textColor="?android:attr/textColorSecondary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.helpshift.views.HSEditText
+                android:id="@+id/hs__messageText"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/hs__chat_hint"
+                android:imeOptions="actionSend"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/hs__textSizeMedium"
+                android:maxLines="@integer/hs__chat_max_lines"
+                android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+                tools:ignore="RtlSymmetry"/>
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/errorReplyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="56dp"
+                android:layout_marginStart="16dp"
+                android:textColor="?attr/hs__errorTextColor"
+                android:textSize="@dimen/hs__textSizeSmall"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/hs__sendMessageBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|end"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/hs__send_msg_btn"
+            android:src="@drawable/hs__send"/>
+    </LinearLayout>
+
+</LinearLayout>

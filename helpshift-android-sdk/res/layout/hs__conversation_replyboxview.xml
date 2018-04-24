@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/relativeLayout1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:visibility="gone">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/hs__separatorColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/hs__composeBackgroundColor"
+            android:gravity="center_vertical"
+            android:minHeight="56dp"
+            android:orientation="horizontal">
+
+            <com.helpshift.views.HSEditText
+                android:id="@+id/hs__messageText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="@string/hs__chat_hint"
+                android:imeOptions="actionSend"
+                android:inputType="textMultiLine"
+                android:maxLines="@integer/hs__chat_max_lines"
+                android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+                tools:ignore="RtlSymmetry"/>
+
+            <ImageButton
+                android:id="@+id/hs__sendMessageBtn"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/hs__send_msg_btn"
+                android:src="@drawable/hs__send"/>
+        </LinearLayout>
+</LinearLayout>

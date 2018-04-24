@@ -32,7 +32,7 @@
     <item
         android:id="@+id/hs__start_new_conversation"
         android:icon="@drawable/hs__send"
-        android:title="@string/hs__contact_us_btn"
+        android:title="@string/hs__send_msg_btn"
         android:visible="false"
         app:showAsAction="always"/>
     <item

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/hs__download_icon_preview_size"
+        android:layout_height="@dimen/hs__download_icon_preview_size"
+        android:layout_gravity="center"
+        android:indeterminate="true"/>
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/progress_description_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/hs__user_setup_retry_description"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/offline_error_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/info_icon"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:alpha="0.30"
+            android:background="@drawable/hs__error_icon"/>
+
+        <com.helpshift.views.HSTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/hs__network_unavailable_msg"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <com.helpshift.views.HSTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:alpha="0.60"
+            android:text="@string/hs__no_internet_error_mgs"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

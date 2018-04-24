@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/info_icon"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:alpha="0.30"
+        android:background="@drawable/hs__error_icon"/>
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/authentication_failed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hs__authentication_failed"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/authentication_failed_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:alpha="0.60"
+        android:text="@string/hs__try_again_msg"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="16sp"/>
+</LinearLayout>

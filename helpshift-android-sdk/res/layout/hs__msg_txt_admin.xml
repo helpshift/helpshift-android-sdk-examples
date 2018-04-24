@@ -5,32 +5,34 @@
     android:layout_height="wrap_content"
     android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
 
-  <LinearLayout
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-      android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-      android:layout_weight="4"
-      android:gravity="start"
-      android:orientation="vertical">
-
     <LinearLayout
-        android:id="@+id/admin_message_container"
-        style="@style/Helpshift.Style.AdminTextMessageContainer">
+        android:id="@+id/admin_text_message_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_weight="4"
+        android:focusable="true"
+        android:gravity="start"
+        android:orientation="vertical">
 
-      <com.helpshift.views.HSTextView
-          android:id="@+id/admin_message_text"
-          android:layout_gravity="center"
-          style="@style/Helpshift.Style.AdminTextMessage"/>
+        <LinearLayout
+            android:id="@+id/admin_message_container"
+            style="@style/Helpshift.Style.AdminTextMessageContainer">
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/admin_message_text"
+                style="@style/Helpshift.Style.AdminTextMessage"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/admin_date_text"
+            style="@style/Helpshift.Style.AdminMessageDate"/>
     </LinearLayout>
 
-    <com.helpshift.views.HSTextView
-        android:id="@+id/admin_date_text"
-        style="@style/Helpshift.Style.AdminMessageDate"/>
-  </LinearLayout>
-
-  <View
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 </LinearLayout>

@@ -30,7 +30,6 @@
             android:layout_height="match_parent"
             android:layout_weight="2">
 
-            <!-- TODO: get string resource-->
             <com.helpshift.views.HSTextView
                 android:id="@+id/select_question_view"
                 android:layout_width="match_parent"

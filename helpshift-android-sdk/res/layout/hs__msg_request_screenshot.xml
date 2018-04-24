@@ -4,14 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingTop="@dimen/activity_horizontal_margin_medium">
+    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
 
     <LinearLayout
+        android:id="@+id/agent_screenshot_request_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
         android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
         android:layout_weight="4"
+        android:focusable="true"
         android:gravity="start"
         android:orientation="vertical">
 

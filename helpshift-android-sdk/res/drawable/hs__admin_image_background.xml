@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="@dimen/hs__image_attachment_bubble_corner_radius"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/hs__image_attachment_bubble_corner_radius" />
+
+    <stroke
+        android:width="1dp"
+        android:color="?attr/hs__chatBubbleAdminBackgroundColor" />
+</shape>

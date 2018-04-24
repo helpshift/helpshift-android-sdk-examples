@@ -1,113 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:layout_marginLeft="14dp"
+    android:layout_marginStart="14dp"
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop">
 
-  <LinearLayout
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-      android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-      android:layout_weight="4"
-      android:gravity="start"
-      android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/admin_attachment_message_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:focusable="true"
+        android:gravity="start"
+        android:orientation="vertical">
 
-
-      <LinearLayout
-          android:id="@+id/admin_message"
-          android:layout_width="match_parent"
-          android:layout_height="56dp"
-          android:background="?attr/hs__chatBubbleAdminBackground"
-          android:gravity="center"
-          android:orientation="horizontal">
-
-        <RelativeLayout
-            android:layout_width="34dp"
-            android:layout_height="34dp"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-            android:layout_marginStart="@dimen/activity_horizontal_margin_medium">
-          <ProgressBar
-              android:id="@+id/progress"
-              android:layout_centerInParent="true"
-              android:layout_width="34dp"
-              android:layout_height="34dp"
-              android:visibility="gone"
-              android:indeterminate="true"/>
-          <View
-              android:id="@+id/download_button_ring"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_centerInParent="true"
-              android:visibility="gone"
-              android:background="@drawable/hs__ring"/>
-          <ImageView
-              android:id="@+id/download_icon"
-              android:layout_width="18dp"
-              android:layout_height="18dp"
-              android:scaleType="fitCenter"
-              android:src="@drawable/hs__action_download"
-              android:layout_centerInParent="true"
-              android:tint="?colorAccent"
-              android:visibility="gone"
-              tools:ignore="ContentDescription"/>
-
-          <ImageView
-              android:id="@+id/attachment_icon"
-              android:layout_centerInParent="true"
-              android:layout_width="24dp"
-              android:layout_height="24dp"
-              android:scaleType="fitCenter"
-              android:src="@drawable/hs__attach_screenshot_action_button"
-              android:rotation="90"
-              android:tint="?colorAccent"
-              android:visibility="gone"
-              tools:ignore="ContentDescription"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="0dp"
+        <android.support.v7.widget.CardView
+            android:id="@+id/admin_message"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginEnd="@dimen/hs__msgPreferredItemPaddingRight"
-            android:layout_marginLeft="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:layout_marginRight="@dimen/hs__msgPreferredItemPaddingRight"
-            android:layout_marginStart="@dimen/hs__msgPreferredItemPaddingLeft"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:background="?attr/hs__chatBubbleMediaBackgroundColor"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
 
-          <com.helpshift.views.HSTextView
-              android:id="@+id/attachment_file_name"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignParentTop="true"
-              android:ellipsize="middle"
-              android:maxLines="1"
-              android:singleLine="true"
-              android:textColor="?android:textColorPrimary"
-              android:textSize="@dimen/hs__textSizeSmall"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
 
-          <com.helpshift.views.HSTextView
-              android:id="@+id/attachment_file_size"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_alignParentLeft="true"
-              android:layout_alignParentStart="true"
-              android:layout_below="@+id/attachment_file_name"
-              android:textColor="?android:textColorSecondary"
-              android:textSize="12sp"/>
-        </RelativeLayout>
-      </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/hs__msgPreferredItemPaddingLeft"
+                    android:layout_marginRight="@dimen/hs__msgPreferredItemPaddingLeft"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-    <com.helpshift.views.HSTextView
-        android:id="@+id/attachment_date"
-        style="@style/Helpshift.Style.AdminMessageDate"/>
-  </LinearLayout>
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/attachment_file_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="@dimen/hs__textSizeSmall"/>
 
-  <View
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"/>
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/attachment_file_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?android:textColorSecondary"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/hs__download_icon_preview_size"
+                    android:layout_height="@dimen/hs__download_icon_preview_size">
+
+                    <include layout="@layout/hs__action_download_layout"/>
+
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:indeterminate="true"
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/attachment_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="top|right"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hs__attach_screenshot_action_button"
+                        android:tint="?colorAccent"
+                        android:visibility="gone"
+                        tools:ignore="ContentDescription"/>
+                </FrameLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/attachment_date"
+            style="@style/Helpshift.Style.AdminMessageDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 </LinearLayout>

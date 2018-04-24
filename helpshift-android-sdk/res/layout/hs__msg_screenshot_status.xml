@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
+    android:id="@+id/user_image_message_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop">
 
-    <View
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+    <FrameLayout
+        android:id="@+id/imageview_container"
+        android:layout_width="@dimen/hs__image_msg_preview_size"
+        android:layout_height="@dimen/hs__image_msg_preview_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/hs__user_msg_left_margin">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-        android:gravity="end"
-        android:orientation="vertical">
+        <com.helpshift.support.views.HSRoundedImageView
+            android:id="@+id/user_attachment_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:scaleType="centerCrop"
+            app:hs__backgroundColor="?attr/hs__chatBubbleMediaBackgroundColor"
+            app:hs__borderColor="?attr/hs__chatBubbleMediaBorderColor"
+            app:hs__borderWidth="1dp"
+            app:hs__cornerRadius="@dimen/hs__image_attachment_bubble_corner_radius"
+            app:hs__placeholder="@drawable/hs__placeholder_image"
+            tools:ignore="ContentDescription"/>
 
-        <FrameLayout
-            android:id="@+id/user_message"
-            android:layout_width="250dp"
-            android:layout_height="250dp">
-
-            <LinearLayout
-                android:id="@+id/imageview_container"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="?attr/hs__chatBubbleUserBackground"
-                android:padding="1dp">
-
-                <com.helpshift.support.views.HSRoundedImageView
-                    android:id="@+id/user_attachment_imageview"
-                    style="@style/Helpshift.Style.UserAttachmentBubble"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:scaleType="centerCrop"
-                    tools:ignore="ContentDescription"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/progressbar_container"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"
-                android:alpha="@dimen/image_attachment_progress_container_alpha"
-                android:background="@drawable/hs__attachment_progressbar_background"
-                android:padding="6dp">
-
-                <ProgressBar
-                    android:id="@+id/upload_attachment_progressbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
-            </LinearLayout>
-        </FrameLayout>
-
-        <com.helpshift.views.HSTextView
-            android:id="@+id/date"
-            style="@style/Helpshift.Style.UserMessageDate"
+        <ProgressBar
+            android:id="@+id/upload_attachment_progressbar"
+            android:layout_width="@dimen/hs__download_icon_preview_size"
+            android:layout_height="@dimen/hs__download_icon_preview_size"
+            android:layout_gravity="center"
+            android:indeterminate="true"
             android:visibility="gone"/>
-    </LinearLayout>
-</LinearLayout>
+    </FrameLayout>
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/date"
+        style="@style/Helpshift.Style.UserMessageDate"
+        android:layout_alignRight="@id/imageview_container"
+        android:layout_below="@id/imageview_container"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/user_message_retry_button"
+        android:layout_width="@dimen/hs__download_icon_preview_size"
+        android:layout_height="@dimen/hs__download_icon_preview_size"
+        android:layout_alignLeft="@id/imageview_container"
+        android:layout_marginLeft="-36dp"
+        android:contentDescription="@string/hs__retry_button_voice_over"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hs_action_retry"
+        android:tint="?colorAccent"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"/>
+</RelativeLayout>

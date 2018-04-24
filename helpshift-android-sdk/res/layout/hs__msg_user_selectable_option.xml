@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp">
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/selectable_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minHeight="36dp"
+        android:minWidth="36dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:textColor="?attr/hs__selectableOptionColor"
+        android:textSize="@dimen/hs__textSizeMedium"/>
+
+</LinearLayout>

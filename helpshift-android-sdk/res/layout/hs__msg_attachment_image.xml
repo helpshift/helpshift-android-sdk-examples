@@ -1,75 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
 
     <LinearLayout
+        android:id="@+id/admin_image_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
         android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
         android:layout_weight="4"
+        android:focusable="true"
         android:gravity="start"
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/admin_message"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:background="?attr/hs__chatBubbleAdminBackground"
-            android:padding="1dp">
+            android:id="@+id/admin_image_attachment_message_container"
+            android:layout_width="@dimen/hs__image_msg_preview_size"
+            android:layout_height="@dimen/hs__image_msg_preview_size">
 
             <com.helpshift.support.views.HSRoundedImageView
                 android:id="@+id/admin_attachment_imageview"
-                style="@style/Helpshift.Style.AdminAttachmentBubble"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:alpha="1"
+                android:focusable="true"
                 android:scaleType="centerCrop"
+                app:hs__backgroundColor="?attr/hs__chatBubbleMediaBackgroundColor"
+                app:hs__borderColor="?attr/hs__chatBubbleMediaBorderColor"
+                app:hs__borderWidth="1dp"
+                app:hs__cornerRadius="@dimen/hs__image_attachment_bubble_corner_radius"
+                app:hs__placeholder="@drawable/hs__placeholder_image"
                 tools:ignore="ContentDescription"/>
 
-
-            <FrameLayout
+            <LinearLayout
                 android:id="@+id/download_progressbar_container"
                 android:layout_width="wrap_content"
-                android:layout_height="36dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:alpha="@dimen/image_attachment_progress_container_alpha"
-                android:background="@drawable/hs__attachment_progressbar_background">
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                tools:ignore="ContentDescription">
 
-                <LinearLayout
-                    android:id="@+id/download_button"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/hs__action_download"
-                        android:tint="@color/hs__color_FFFFFFFF"/>
-
-                    <TextView
-                        android:id="@+id/attachment_file_size"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="4dp"
-                        android:textColor="@color/hs__color_FFFFFFFF"
-                        android:textSize="14sp"/>
-                </LinearLayout>
+                <include layout="@layout/hs__action_download_layout"/>
 
                 <ProgressBar
                     android:id="@+id/download_attachment_progressbar"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_margin="6dp"/>
-            </FrameLayout>
+                    android:layout_width="@dimen/hs__download_icon_preview_size"
+                    android:layout_height="@dimen/hs__download_icon_preview_size"
+                    android:indeterminate="true"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/attachment_file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?android:textColorSecondary"
+                    android:textSize="12sp"/>
+            </LinearLayout>
         </FrameLayout>
 
         <com.helpshift.views.HSTextView

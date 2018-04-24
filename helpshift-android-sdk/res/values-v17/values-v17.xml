@@ -3,11 +3,10 @@
     <style name="Helpshift.Style.AdminMessageDate">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">@dimen/hs__msgPreferredItemPaddingLeft</item>
-        <item name="android:paddingStart">@dimen/hs__msgPreferredItemPaddingLeft</item>
         <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:textSize">@dimen/hs__textSizeSmall</item>
+        <item name="android:textSize">@dimen/hs__textSizeExtraSmall</item>
     </style>
     <style name="Helpshift.Style.AdminTextMessage">
         <item name="android:layout_width">wrap_content</item>
@@ -25,11 +24,10 @@
     <style name="Helpshift.Style.UserMessageDate">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingRight">@dimen/hs__msgPreferredItemPaddingRight</item>
-        <item name="android:paddingEnd">@dimen/hs__msgPreferredItemPaddingRight</item>
-        <item name="android:layout_marginTop">4dp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:textSize">@dimen/hs__textSizeSmall</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
+        <item name="android:textSize">@dimen/hs__textSizeExtraSmall</item>
     </style>
     <style name="Helpshift.Style.UserTextMessage">
         <item name="android:layout_width">wrap_content</item>

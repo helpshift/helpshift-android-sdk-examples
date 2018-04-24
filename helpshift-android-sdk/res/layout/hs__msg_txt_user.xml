@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
+    android:id="@+id/user_text_message_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
+    android:focusable="true"
+    android:paddingEnd="16dp"
+    android:paddingRight="16dp">
 
-  <View
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"/>
-
-  <LinearLayout
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
-      android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-      android:layout_weight="4"
-      android:gravity="end"
-      android:orientation="vertical">
-
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/user_message_container"
-        style="@style/Helpshift.Style.UserTextMessageContainer">
+        style="@style/Helpshift.Style.UserTextMessageContainer"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/hs__user_msg_left_margin"
+        android:gravity="end">
 
-      <com.helpshift.views.HSTextView
-          android:id="@+id/user_message_text"
-          android:layout_gravity="center"
-          style="@style/Helpshift.Style.UserTextMessage"/>
-    </LinearLayout>
+        <com.helpshift.views.HSTextView
+            android:id="@+id/user_message_text"
+            style="@style/Helpshift.Style.UserTextMessage"/>
+    </FrameLayout>
 
     <com.helpshift.views.HSTextView
         android:id="@+id/user_date_text"
-        style="@style/Helpshift.Style.UserMessageDate"/>
-  </LinearLayout>
-</LinearLayout>
+        style="@style/Helpshift.Style.UserMessageDate"
+        android:layout_alignRight="@id/user_message_container"
+        android:layout_below="@id/user_message_container"/>
+
+    <ImageView
+        android:id="@+id/user_message_retry_button"
+        android:layout_width="@dimen/hs__download_icon_preview_size"
+        android:layout_height="@dimen/hs__download_icon_preview_size"
+        android:layout_alignLeft="@id/user_message_container"
+        android:layout_marginLeft="-36dp"
+        android:contentDescription="@string/hs__retry_button_voice_over"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hs_action_retry"
+        android:tint="?colorAccent"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"/>
+</RelativeLayout>
