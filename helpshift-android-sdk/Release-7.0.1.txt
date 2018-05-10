@@ -1,4 +1,4 @@
-Helpshift SDK 7.0.0 Release Notes (for Android)
+Helpshift SDK 7.0.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,7 +11,26 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.0.1 Release Date: May 10, 2018
+      * Fixed a rare bug where the user is stuck on a conversation due to race condition in network calls.
 7.0.0 Release Date: April 23, 2018
+      * Introduced new updates to the in-app messaging experience. Here's our guide on how to onboard to the new experience. (https://support.helpshift.com/kb/article/what-is-conversational-issue-filing-and-how-do-i-set-it-up/).
+      * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
+      * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
+      * Introduced 'userauthtoken', which is an HMAC digest used to ensure that the requests are coming from an authentic source (and not a malicious 3rd party).
+      * Introduced Answer Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
+      * Enhanced UI and support for voiceover.
+      * Deprecated the `setNameAndEmail()`, `setUserIdentifier()` and the existing `login()` APIs. Please use the new Login API.
+      * Deprecated the configurations `conversationPrefillText`, `requireEmail`, `hideNameAndEmail`, `goToConversationAfterContactUs`, `showSearchOnNewConversation` along with the Form-based Issue filing experience. (https://support.helpshift.com/kb/article/april-2018-sdks/)
+      * Changed the default value of `showConversationResolutionQuestion` to false and made it customizable from the app settings Dashboard.
+      * Fixed cases where multiple Issues can be created or duplicate messages can be sent from the SDK in case of client network errors.
+      * Fixed multiple SQLite database access errors by optimizing our data reads and writes.
+      * Fixed a NullPointerException when clicked on “Done" from a FAQ from search suggestions and if conversationPrefillText was also set.
+      * Fixed an edge case where messages were not being sent in Issues from the SDK.
+      * Fixed a bug where the badge count for unread messages on the FAQ screen was incorrect if the Issue was resolved and the app was killed & re-opened.
+      * Fixed a bug where an image doesn't get attached in an edge case if the app doesn't have READ_EXTERNAL_STORAGE permission.
+      * `customContactUsFlows` is now an unsupported config for the showConversation() & getConversationFragment() APIs.
+7.0.0-support Release Date: April 23, 2018
       * Introduced new updates to the in-app messaging experience. Here's our guide on how to onboard to the new experience. (https://support.helpshift.com/kb/article/what-is-conversational-issue-filing-and-how-do-i-set-it-up/).
       * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
       * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
