@@ -14,7 +14,9 @@
     <string name="hs__attach_screenshot_btn">Pievienot ekrānuzņēmumu</string>
     <string name="hs__attachment_downloaded__voice_over">Datne, %s, Divreiz uzklikšķiniet, lai atvērtu</string>
     <string name="hs__attachment_downloading_voice_over">Datne, %1$s, Lejupielādē %2$s no %3$s</string>
-    <string name="hs__attachment_not_downloaded_voice_over">Datne, %1$s, %2$s, Divreiz uzklikšķiniet, lai lejupielādētu</string>
+    <string name="hs__attachment_not_downloaded_voice_over">Datne, %1$s, %2$s, Divreiz uzklikšķiniet, lai
+        lejupielādētu
+    </string>
     <string name="hs__authentication_failed">Autentifikācija neizdevās</string>
     <string name="hs__ca_msg">Priecāsimies Jums palīdzēt!</string>
     <string name="hs__cam_action_accept">Piekrist</string>
@@ -49,7 +51,7 @@
     <string name="hs__change_btn">Mainīt</string>
     <string name="hs__chat_hint">Ievadiet savu ziņu</string>
     <string name="hs__confirmation_footer_msg">Paldies par nosūtīto ziņojumu!</string>
-    <string name="hs__confirmation_msg">Vai mēs atbildējām uz visiem Jūsu jautājumiem? </string>
+    <string name="hs__confirmation_msg">Vai mēs atbildējām uz visiem Jūsu jautājumiem?</string>
     <string name="hs__connecting">Savieno ...</string>
     <string name="hs__contact_us_btn">SAZINĀTIES AR MUMS</string>
     <string name="hs__conversation_detail_error">Lūdzu, aprakstiet problēmu</string>
@@ -64,25 +66,28 @@
     <string name="hs__copy_to_clipboard_tooltip">Kopēt uz starpliktuvi</string>
     <string name="hs__could_not_open_attachment_msg">Neviena lietotne nevar veikt šo darbību.</string>
     <string name="hs__could_not_reach_support_msg">Atbalsts nav sasniedzams</string>
-    <string name="hs__cr_msg">Kā vēl mēs Jums varam palīdzēt? </string>
+    <string name="hs__cr_msg">Kā vēl mēs Jums varam palīdzēt?</string>
     <string name="hs__csat_additonal_feedback_message">Cits novērtējums (pēc izvēles)</string>
-    <string name="hs__csat_dislike_message">Nepatika </string>
-    <string name="hs__csat_like_message">Patika </string>
+    <string name="hs__csat_dislike_message">Nepatika</string>
+    <string name="hs__csat_like_message">Patika</string>
     <string name="hs__csat_message">Kā Jūs vērtējat mūsu klientu atbalstu?</string>
     <string name="hs__csat_option_message">vai</string>
     <string name="hs__csat_ratingbar">Lūdzu, novērtējiet mūsu servisu.</string>
     <string name="hs__csat_submit_toast">Paldies, ka sniedzāt vērtējumu par mums.</string>
     <string name="hs__data_not_found_msg">Dati nav atrasti</string>
+    <string name="hs__date_input_validation_error">Ievadiet pareizu datumu</string>
     <string name="hs__default_notification_channel_name">Atbalsts lietotnē</string>
     <string name="hs__default_notification_content_title">Atbalsts</string>
-    <string name="hs__description_invalid_length_error">Pilnvērtīgākas palīdzības saņemšanai, lūdzu, sniedziet vairāk ziņu</string>
+    <string name="hs__description_invalid_length_error">Pilnvērtīgākas palīdzības saņemšanai, lūdzu, sniedziet vairāk
+        ziņu
+    </string>
     <string name="hs__done_btn">Darīts</string>
     <string name="hs__email_hint">E-pasts (izvēles papildiespēja)</string>
     <string name="hs__email_input_validation_error">ievadiet derīgu epasta adresi</string>
     <string name="hs__email_required_hint">E-pasts</string>
     <string name="hs__faq_fetching_fail_message">Šobrīd BUJ ielādēt nevar. Lūdzu, mēģiniet vēlāk atkal…</string>
     <string name="hs__faqs_search_footer">BUJ netika atrasti</string>
-    <string name="hs__feedback_button">Nosūtiet atsauksmi </string>
+    <string name="hs__feedback_button">Nosūtiet atsauksmi</string>
     <string name="hs__fetching_faqs_message">Saņem Jūsu atbildes…</string>
     <string name="hs__file_not_found_msg">Datne nav atrasta</string>
     <string name="hs__help_header">Palīdzība</string>
@@ -93,7 +98,10 @@
     <string name="hs__invalid_email_error">Lūdzu, ievadiet derīgu e-pastu</string>
     <string name="hs__invalid_faq_publish_id_error">Neatradām BUJ ar atbilstošu ID</string>
     <string name="hs__invalid_section_publish_id_error">Nebija iespējams atrast BUJ sadaļu ar atbilstošu ID</string>
-    <string name="hs__issue_archival_message">Atvainojiet! Šī saruna tika aizvērta neaktivitātes dēļ. Lūdzu, uzsāciet jaunu sarunu ar mūsu aģentiem.</string>
+    <string name="hs__issue_archival_message">Atvainojiet! Šī saruna tika aizvērta neaktivitātes dēļ. Lūdzu, uzsāciet
+        jaunu sarunu ar mūsu aģentiem.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">Lūdzu, ievadiet pareizu datumu</string>
     <string name="hs__landscape_email_input_validation_error">Lūdzu, ievadiet derīgu e-pastu</string>
     <string name="hs__landscape_input_validation_dialog_title">Kļūda</string>
     <string name="hs__landscape_number_input_validation_error">Lūdzu, ievadiet derīgu numuru</string>
@@ -106,18 +114,22 @@
     <string name="hs__network_reconnecting_error">Kaut kas nogāja greizi. Atkārtoti savienot ...</string>
     <string name="hs__network_unavailable_msg">Tīkls nav pieejams.</string>
     <string name="hs__new_conversation_btn">UZSĀKT JAUNU SARUNU</string>
-    <string name="hs__new_conversation_footer_generic_reason">Piedod, kaut kas nogāja greizi. Šo sarunu nevar turpināt.</string>
+    <string name="hs__new_conversation_footer_generic_reason">Piedod, kaut kas nogāja greizi. Šo sarunu nevar
+        turpināt.
+    </string>
     <string name="hs__new_conversation_header">Jauna saruna</string>
     <string name="hs__new_conversation_hint">Kā mēs varam palīdzēt?</string>
     <string name="hs__no_internet_error">Nav interneta savienojuma</string>
     <string name="hs__no_internet_error_mgs">Lūdzu, pārbaudiet tīkla savienojumu.</string>
     <string name="hs__no_search_results_message">Diemžēl rezultāti netika atrasti</string>
     <string name="hs__number_input_validation_error">Ievadiet derīgu numuru</string>
-    <string name="hs__permission_denied_message">Lai piekļūtu ekrānuzņēmumiem un lejupielādētu pielikumus, nepieciešama glabātuves piekļuves atļauja</string>
+    <string name="hs__permission_denied_message">Lai piekļūtu ekrānuzņēmumiem un lejupielādētu pielikumus, nepieciešama
+        glabātuves piekļuves atļauja
+    </string>
     <string name="hs__permission_denied_snackbar_action">Iestatījumi</string>
     <string name="hs__permission_not_granted">Lietotnei nav atļaujas piekļūt Jūsu attēliem</string>
-    <string name="hs__permission_rationale_snackbar_action_label">LABI </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">LABI</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Palīdzēja</string>
     <string name="hs__question_unhelpful_message">Šī sadaļa Jums nebija noderīga</string>
     <string name="hs__rate_button">Novērtēt</string>
@@ -129,7 +141,9 @@
     <string name="hs__review_request_message">Vai vēlaties lietotni novērtēt Google Play?</string>
     <string name="hs__review_title">Novērtējiet mūsu lietojumprogrammu</string>
     <string name="hs__screenshot_add">Pievienot</string>
-    <string name="hs__screenshot_cloud_attach_error">Pievienojot ekrānuzņēmumu, radusies kļūda. Lūdzu, izvēlieties attēlu savā ierīcē.</string>
+    <string name="hs__screenshot_cloud_attach_error">Pievienojot ekrānuzņēmumu, radusies kļūda. Lūdzu, izvēlieties
+        attēlu savā ierīcē.
+    </string>
     <string name="hs__screenshot_limit_error">Ekrānuzņēmuma izmērs nedrīkst pārsniegt %.2f MB</string>
     <string name="hs__screenshot_remove">Noņemt</string>
     <string name="hs__screenshot_upload_error_msg">Augšupielādējot ekrānuzņēmumu, radusies kļūda.</string>
@@ -143,8 +157,11 @@
     <string name="hs__send_msg_btn">NOSŪTĪT</string>
     <string name="hs__sending_fail_msg">Neizdevās nosūtīt</string>
     <string name="hs__sending_msg">Sūta</string>
-    <string name="hs__ssl_handshake_error">Jūsu savienojums nav drošs. Radās kļūme, mēģinot izveidot drošu savienojumu.</string>
-    <string name="hs__ssl_peer_unverified_error">Jūsu savienojums nav drošs. Radās kļūme, pārbaudot tā autentiskumu.</string>
+    <string name="hs__ssl_handshake_error">Jūsu savienojums nav drošs. Radās kļūme, mēģinot izveidot drošu
+        savienojumu.
+    </string>
+    <string name="hs__ssl_peer_unverified_error">Jūsu savienojums nav drošs. Radās kļūme, pārbaudot tā autentiskumu.
+    </string>
     <string name="hs__starting_download">Sāk lejupielādi…</string>
     <string name="hs__submit_conversation_btn">Nosūtīt</string>
     <string name="hs__tap_to_retry">Pieskarieties, lai mēģinātu vēlreiz</string>

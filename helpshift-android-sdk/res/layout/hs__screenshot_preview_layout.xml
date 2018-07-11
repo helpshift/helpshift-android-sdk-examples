@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
     <ProgressBar
         android:id="@+id/screenshot_loading_indicator"
@@ -21,13 +21,13 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:indeterminate="true"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <View
         android:id="@+id/buttons_separator"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/hs__separatorColor"/>
+        android:background="?attr/hs__separatorColor" />
 
     <LinearLayout
         android:id="@+id/button_containers"
@@ -44,19 +44,19 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/hs__change_btn"/>
+            android:text="@string/hs__change_btn" />
 
         <View
             android:layout_width="1dp"
             android:layout_height="32dp"
             android:layout_gravity="center_vertical"
-            android:background="?attr/hs__separatorColor"/>
+            android:background="?attr/hs__separatorColor" />
 
         <com.helpshift.views.HSButton
             android:id="@+id/secondary_button"
             style="@style/Helpshift.Style.BorderlessButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>

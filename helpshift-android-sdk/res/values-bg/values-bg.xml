@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">Вие оценихте обслужването с 1 звезда.</item>
-    <item quantity="other">Вие оценихте обслужването с %d звезди.</item>
-  </plurals>
+        <item quantity="one">Вие оценихте обслужването с 1 звезда.</item>
+        <item quantity="other">Вие оценихте обслужването с %d звезди.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">Ново съобщение от Поддръжка</item>
-    <item quantity="other">%d нови съобщения от отдела по поддръжка</item>
-  </plurals>
+        <item quantity="one">Ново съобщение от Поддръжка</item>
+        <item quantity="other">%d нови съобщения от отдела по поддръжка</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">Съобщение от отдела за поддръжка на %s</string>
     <string name="hs__agent_message_with_name_voice_over">Съобщение от отдела за поддръжка от %1$s на %2$s</string>
     <string name="hs__app_review_button">РЕЦЕНЗИЯ</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">Промяна</string>
     <string name="hs__chat_hint">Въведете вашето съобщение</string>
     <string name="hs__confirmation_footer_msg">Благодарим Ви за съобщението!</string>
-    <string name="hs__confirmation_msg">Отговорихме ли на всички ваши въпроси? </string>
+    <string name="hs__confirmation_msg">Отговорихме ли на всички ваши въпроси?</string>
     <string name="hs__connecting">Свързване ...</string>
     <string name="hs__contact_us_btn">СВЪРЖЕТЕ СЕ С НАС</string>
     <string name="hs__conversation_detail_error">Опишете проблема си</string>
@@ -58,31 +58,36 @@
     <string name="hs__conversation_info_header">Информация</string>
     <string name="hs__conversation_info_issue_id">Идентификатор на проблем</string>
     <string name="hs__conversation_info_menu_item_title">Информация за проблем</string>
-    <string name="hs__conversation_started_message">Вашето съобщение беше получено. Благодарим Ви, че се свързахте с нас!</string>
+    <string name="hs__conversation_started_message">Вашето съобщение беше получено. Благодарим Ви, че се свързахте с
+        нас!
+    </string>
     <string name="hs__copied_to_clipboard">Копирано на клипборда</string>
     <string name="hs__copy">Копиране</string>
     <string name="hs__copy_to_clipboard_tooltip">Копиране на клипборда</string>
     <string name="hs__could_not_open_attachment_msg">Никои приложения не могат да извършат това действие.</string>
     <string name="hs__could_not_reach_support_msg">Не можем да се свържем с отдела по поддръжка</string>
-    <string name="hs__cr_msg">С какво друго можем да ви помогнем? </string>
+    <string name="hs__cr_msg">С какво друго можем да ви помогнем?</string>
     <string name="hs__csat_additonal_feedback_message">Някакви други коментари (по желание)</string>
-    <string name="hs__csat_dislike_message">Ужасна е </string>
-    <string name="hs__csat_like_message">Чудесна е </string>
+    <string name="hs__csat_dislike_message">Ужасна е</string>
+    <string name="hs__csat_like_message">Чудесна е</string>
     <string name="hs__csat_message">Какво е мнението Ви за нашата клиентска поддръжка?</string>
     <string name="hs__csat_option_message">или</string>
     <string name="hs__csat_ratingbar">Моля, оценете обслужването ни.</string>
     <string name="hs__csat_submit_toast">Благодарим ви, че ни дадохте оценка.</string>
     <string name="hs__data_not_found_msg">Данните не са открити</string>
+    <string name="hs__date_input_validation_error">Въведете валидна дата</string>
     <string name="hs__default_notification_channel_name">Поддръжка в приложението</string>
     <string name="hs__default_notification_content_title">Поддръжка</string>
-    <string name="hs__description_invalid_length_error">За да Ви окажем по-добро съдействие, дайте повече подробности</string>
+    <string name="hs__description_invalid_length_error">За да Ви окажем по-добро съдействие, дайте повече подробности
+    </string>
     <string name="hs__done_btn">Готово</string>
     <string name="hs__email_hint">Имейл (по желание)</string>
     <string name="hs__email_input_validation_error">въведете валиден имейл адрес</string>
     <string name="hs__email_required_hint">Имейл</string>
-    <string name="hs__faq_fetching_fail_message">ЧЗВ не могат да се заредят в момента. Опитайте отново след малко…</string>
+    <string name="hs__faq_fetching_fail_message">ЧЗВ не могат да се заредят в момента. Опитайте отново след малко…
+    </string>
     <string name="hs__faqs_search_footer">Не са намерени ЧЗВ</string>
-    <string name="hs__feedback_button">Изпратете обратна връзка </string>
+    <string name="hs__feedback_button">Изпратете обратна връзка</string>
     <string name="hs__fetching_faqs_message">Получаване на отговорите Ви…</string>
     <string name="hs__file_not_found_msg">Файлът не е открит</string>
     <string name="hs__help_header">Помощ</string>
@@ -93,7 +98,10 @@
     <string name="hs__invalid_email_error">Въведете валиден имейл адрес</string>
     <string name="hs__invalid_faq_publish_id_error">Не можахме да открием ЧЗВ със съответното ИД</string>
     <string name="hs__invalid_section_publish_id_error">Не можахме да открием секция от ЧЗВ със съответното ИД</string>
-    <string name="hs__issue_archival_message">Съжаляваме! Този разговор беше затворен поради липса на активност. Моля, започнете нов разговор с нашите агенти.</string>
+    <string name="hs__issue_archival_message">Съжаляваме! Този разговор беше затворен поради липса на активност. Моля,
+        започнете нов разговор с нашите агенти.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">Моля, въведете валидна дата.</string>
     <string name="hs__landscape_email_input_validation_error">Въведете валиден имейл адрес</string>
     <string name="hs__landscape_input_validation_dialog_title">грешка</string>
     <string name="hs__landscape_number_input_validation_error">Моля въведете валиден номер</string>
@@ -106,18 +114,22 @@
     <string name="hs__network_reconnecting_error">Нещо се обърка. Повторно свързване ...</string>
     <string name="hs__network_unavailable_msg">Няма налична мрежа.</string>
     <string name="hs__new_conversation_btn">ЗАПОЧНЕТЕ НОВ РАЗГОВОР</string>
-    <string name="hs__new_conversation_footer_generic_reason">Съжалявам нещо се обърка. Този разговор не може да бъде продължен.</string>
+    <string name="hs__new_conversation_footer_generic_reason">Съжалявам нещо се обърка. Този разговор не може да бъде
+        продължен.
+    </string>
     <string name="hs__new_conversation_header">Нов разговор</string>
     <string name="hs__new_conversation_hint">Как можем да ви помогнем?</string>
     <string name="hs__no_internet_error">Няма интернет връзка</string>
     <string name="hs__no_internet_error_mgs">Моля, проверете мрежовата връзка.</string>
     <string name="hs__no_search_results_message">Не можахме да открием никакви резултати</string>
     <string name="hs__number_input_validation_error">Въведете валиден номер</string>
-    <string name="hs__permission_denied_message">За достъп до екранни снимки и изтегляне на прикачени файлове е необходимо разрешение за съхраняване</string>
+    <string name="hs__permission_denied_message">За достъп до екранни снимки и изтегляне на прикачени файлове е
+        необходимо разрешение за съхраняване
+    </string>
     <string name="hs__permission_denied_snackbar_action">Настройки</string>
     <string name="hs__permission_not_granted">Приложението няма разрешение за достъп до Вашите снимки</string>
-    <string name="hs__permission_rationale_snackbar_action_label">ОК </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">ОК</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Това ви помогна</string>
     <string name="hs__question_unhelpful_message">Това не Ви е било от полза</string>
     <string name="hs__rate_button">Оценка</string>
@@ -129,7 +141,9 @@
     <string name="hs__review_request_message">Искате ли да дадете мнението си за приложението в Google Play?</string>
     <string name="hs__review_title">Оценете нашето приложение</string>
     <string name="hs__screenshot_add">Добавяне</string>
-    <string name="hs__screenshot_cloud_attach_error">Грешка при прикачване на екранната снимка. Изберете изображение от устройството си.</string>
+    <string name="hs__screenshot_cloud_attach_error">Грешка при прикачване на екранната снимка. Изберете изображение от
+        устройството си.
+    </string>
     <string name="hs__screenshot_limit_error">Размерът на екранната снимка не може да превишава %.2f MB</string>
     <string name="hs__screenshot_remove">Премахване</string>
     <string name="hs__screenshot_upload_error_msg">Грешка при качване на екранната снимка</string>
@@ -143,8 +157,12 @@
     <string name="hs__send_msg_btn">ИЗПРАЩАНЕ</string>
     <string name="hs__sending_fail_msg">Неуспешно изпращане</string>
     <string name="hs__sending_msg">Изпращане</string>
-    <string name="hs__ssl_handshake_error">Вашата връзка не е сигурна. Възникна проблем при установяването на надеждна връзка</string>
-    <string name="hs__ssl_peer_unverified_error">Вашата връзка не е сигурна. Възникна проблем при проверката на нейната автентичност</string>
+    <string name="hs__ssl_handshake_error">Вашата връзка не е сигурна. Възникна проблем при установяването на надеждна
+        връзка
+    </string>
+    <string name="hs__ssl_peer_unverified_error">Вашата връзка не е сигурна. Възникна проблем при проверката на нейната
+        автентичност
+    </string>
     <string name="hs__starting_download">Стартиране на изтеглянето…</string>
     <string name="hs__submit_conversation_btn">Изпращане</string>
     <string name="hs__tap_to_retry">Докоснете, за да опитате отново</string>

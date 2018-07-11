@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">הענקת לשירות כוכב אחד.</item>
-    <item quantity="other">הענקת לשירות %d כוכבים.</item>
-  </plurals>
+        <item quantity="one">הענקת לשירות כוכב אחד.</item>
+        <item quantity="other">הענקת לשירות %d כוכבים.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">הודעה חדשה מתמיכה</item>
-    <item quantity="other">%d הודעות חדשות מהתמיכה</item>
-  </plurals>
+        <item quantity="one">הודעה חדשה מתמיכה</item>
+        <item quantity="other">%d הודעות חדשות מהתמיכה</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">הודעה מהתמיכה בשעה/תאריך %s</string>
     <string name="hs__agent_message_with_name_voice_over">הודעה מהתמיכה מאת %1$s בשעה/תאריך %2$s</string>
     <string name="hs__app_review_button">סקירה</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">שנה/שני</string>
     <string name="hs__chat_hint">הזן את הודעתך</string>
     <string name="hs__confirmation_footer_msg">תודה על הודעתך!</string>
-    <string name="hs__confirmation_msg">האם ענינו על כל השאלות שלך? </string>
+    <string name="hs__confirmation_msg">האם ענינו על כל השאלות שלך?</string>
     <string name="hs__connecting">מְקַשֵׁר...</string>
     <string name="hs__contact_us_btn">צרו קשר</string>
     <string name="hs__conversation_detail_error">תאר/י את הבעיה</string>
@@ -66,13 +66,14 @@
     <string name="hs__could_not_reach_support_msg">לא ניתן ליצור קשר עם התמיכה</string>
     <string name="hs__cr_msg">מה עוד נוכל לעשות למענך?</string>
     <string name="hs__csat_additonal_feedback_message">משוב אחר כלשהו (אופציונלי)</string>
-    <string name="hs__csat_dislike_message">שנאתי את זה </string>
-    <string name="hs__csat_like_message">אהבתי את זה </string>
+    <string name="hs__csat_dislike_message">שנאתי את זה</string>
+    <string name="hs__csat_like_message">אהבתי את זה</string>
     <string name="hs__csat_message">מהו המשוב שלך על התמיכה בלקוחות?</string>
     <string name="hs__csat_option_message">או</string>
     <string name="hs__csat_ratingbar">דרג/י את השירות שלנו.</string>
     <string name="hs__csat_submit_toast">תודה שדירגת אותנו.</string>
     <string name="hs__data_not_found_msg">לא נמצאו נתונים</string>
+    <string name="hs__date_input_validation_error">הזן תאריך תקף</string>
     <string name="hs__default_notification_channel_name">תמיכה בתוך היישום</string>
     <string name="hs__default_notification_content_title">תמיכה</string>
     <string name="hs__description_invalid_length_error">לקבלת סיוע טוב יותר, הזן פרטים נוספים</string>
@@ -82,7 +83,7 @@
     <string name="hs__email_required_hint">דוא"ל</string>
     <string name="hs__faq_fetching_fail_message">לא ניתן לטעון שאלות נפוצות כרגע. נסה שוב בעוד זמן מה…</string>
     <string name="hs__faqs_search_footer">לא נמצאו שאלות נפוצות</string>
-    <string name="hs__feedback_button">שלח/י משוב </string>
+    <string name="hs__feedback_button">שלח/י משוב</string>
     <string name="hs__fetching_faqs_message">מקבל את התשובות שלך…</string>
     <string name="hs__file_not_found_msg">הקובץ לא נמצא</string>
     <string name="hs__help_header">עזרה</string>
@@ -94,6 +95,7 @@
     <string name="hs__invalid_faq_publish_id_error">לא הצלחנו למצוא שאלה נפוצה עם קוד זיהוי תואם</string>
     <string name="hs__invalid_section_publish_id_error">לא הצלחנו למצוא מקטע של שאלות נפוצות עם מזהה תואם</string>
     <string name="hs__issue_archival_message">מצטערים! שיחה זו נסגרה עקב העדר פעילות. התחל שיחה חדשה עם סוכנים.</string>
+    <string name="hs__landscape_date_input_validation_error">יש להזין תאריך תקף.</string>
     <string name="hs__landscape_email_input_validation_error">הזן/הזיני כתובת דוא"ל תקפה</string>
     <string name="hs__landscape_input_validation_dialog_title">שְׁגִיאָה</string>
     <string name="hs__landscape_number_input_validation_error">נא הכנס מספר תקף</string>
@@ -116,14 +118,14 @@
     <string name="hs__permission_denied_message">נדרשת הרשאת אחסון כדי לגשת לצילומי מסך ולהוריד קבצים מצורפים</string>
     <string name="hs__permission_denied_snackbar_action">הגדרות</string>
     <string name="hs__permission_not_granted">לאפליקציה אין הרשאה לגשת לתמונות שלך</string>
-    <string name="hs__permission_rationale_snackbar_action_label">אישור </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">אישור</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">זה עזר לך</string>
     <string name="hs__question_unhelpful_message">זה לא היה מועיל</string>
     <string name="hs__rate_button">דרג/י</string>
     <string name="hs__remove_screenshot_btn">הסר/הסירי צילום מסך</string>
     <string name="hs__retry_button_voice_over">ניסיון שליחה נוסף</string>
-    <string name="hs__retry_faq_fetching_button"> נסה/נסי שוב</string>
+    <string name="hs__retry_faq_fetching_button">נסה/נסי שוב</string>
     <string name="hs__review_close_button">סגור</string>
     <string name="hs__review_message">אם אהבת את האפליקציה, הקדש/הקדישי רגע כדי לדרג אותה</string>
     <string name="hs__review_request_message">האם ברצונך לסקור את האפליקציה ב-Google Play?</string>

@@ -3,9 +3,9 @@
     <translate
         android:duration="@integer/hs_animation_duration"
         android:fromXDelta="0%"
-        android:toXDelta="50%p"/>
+        android:toXDelta="50%p" />
     <alpha
         android:duration="@integer/hs_animation_duration"
         android:fromAlpha="1"
-        android:toAlpha="0"/>
+        android:toAlpha="0" />
 </set>

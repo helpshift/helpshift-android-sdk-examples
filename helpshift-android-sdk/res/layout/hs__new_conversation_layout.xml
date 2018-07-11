@@ -43,7 +43,7 @@
                         android:scrollbars="vertical"
                         android:textColor="?android:textColorPrimary"
                         android:textColorHint="?android:textColorHint"
-                        android:textSize="@dimen/hs__textSizeLarge"/>
+                        android:textSize="@dimen/hs__textSizeLarge" />
                 </com.helpshift.views.HSTextInputLayout>
 
                 <com.helpshift.views.HSTextInputLayout
@@ -61,7 +61,7 @@
                         android:maxLines="1"
                         android:textColor="?android:textColorPrimary"
                         android:textColorHint="?android:textColorHint"
-                        android:textSize="@dimen/hs__textSizeLarge"/>
+                        android:textSize="@dimen/hs__textSizeLarge" />
                 </com.helpshift.views.HSTextInputLayout>
 
                 <com.helpshift.views.HSTextInputLayout
@@ -79,7 +79,7 @@
                         android:inputType="textEmailAddress"
                         android:textColor="?android:textColorPrimary"
                         android:textColorHint="?android:textColorHint"
-                        android:textSize="@dimen/hs__textSizeLarge"/>
+                        android:textSize="@dimen/hs__textSizeLarge" />
                 </com.helpshift.views.HSTextInputLayout>
 
                 <android.support.v7.widget.CardView
@@ -100,7 +100,7 @@
                         android:background="@android:color/white"
                         android:scaleType="centerCrop"
                         android:visibility="visible"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                             android:src="@drawable/hs__attachment_icon"
                             android:tint="?colorAccent"
                             android:visibility="visible"
-                            tools:ignore="ContentDescription"/>
+                            tools:ignore="ContentDescription" />
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -137,14 +137,14 @@
                                 android:ellipsize="marquee"
                                 android:singleLine="true"
                                 android:textColor="?android:textColorPrimary"
-                                android:textSize="@dimen/hs__textSizeMedium"/>
+                                android:textSize="@dimen/hs__textSizeMedium" />
 
                             <com.helpshift.views.HSTextView
                                 android:id="@+id/attachment_file_size"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="?android:textColorSecondary"
-                                android:textSize="@dimen/hs__textSizeSmall"/>
+                                android:textSize="@dimen/hs__textSizeSmall" />
                         </LinearLayout>
 
                         <ImageButton
@@ -159,7 +159,7 @@
                             android:contentDescription="@string/hs__remove_screenshot_btn"
                             android:src="@drawable/hs__screenshot_clear"
                             android:text="@string/hs__remove_screenshot_btn"
-                            android:tint="?android:textColorPrimary"/>
+                            android:tint="?android:textColorPrimary" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
@@ -167,7 +167,7 @@
             <ProgressBar
                 android:id="@+id/progress_bar"
                 style="@style/Helpshift.Style.QuestionLoadProgress"
-                android:visibility="gone"/>
+                android:visibility="gone" />
         </FrameLayout>
     </ScrollView>
 </FrameLayout>

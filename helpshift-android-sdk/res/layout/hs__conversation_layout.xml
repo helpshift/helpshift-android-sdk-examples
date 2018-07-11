@@ -43,6 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/hs__pill_small"
+                android:singleLine="true"
+                android:ellipsize="middle"
                 android:gravity="center"
                 android:maxHeight="28dp"
                 android:paddingBottom="3dp"
@@ -51,7 +53,7 @@
                 android:paddingRight="16dp"
                 android:paddingStart="16dp"
                 android:paddingTop="1dp"
-                android:textColor="?attr/hs__chatBubbleUserBackgroundColor"
+                android:textColor="?attr/hs__selectableOptionColor"
                 android:textSize="@dimen/hs__textSizeSmall"/>
         </LinearLayout>
     </FrameLayout>
@@ -149,20 +151,20 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center">
 
-        <com.helpshift.views.HSTextView
-            android:id="@+id/networkErrorFooterText"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textColor="?android:textColorPrimary"
-            android:textSize="@dimen/hs__textSizeSmall" />
+            <com.helpshift.views.HSTextView
+                android:id="@+id/networkErrorFooterText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/hs__textSizeSmall"/>
 
-        <com.helpshift.views.HSTextView
-            android:id="@+id/networkErrorFooterTryAgainText"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textColor="?colorAccent"
-            android:textSize="@dimen/hs__textSizeSmall"
-            android:visibility="gone" />
+            <com.helpshift.views.HSTextView
+                android:id="@+id/networkErrorFooterTryAgainText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="?colorAccent"
+                android:textSize="@dimen/hs__textSizeSmall"
+                android:visibility="gone"/>
         </LinearLayout>
 
     </LinearLayout>

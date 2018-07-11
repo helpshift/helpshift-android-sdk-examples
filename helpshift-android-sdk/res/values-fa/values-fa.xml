@@ -49,7 +49,7 @@
     <string name="hs__change_btn">تغییر</string>
     <string name="hs__chat_hint">پیام خود را وارد کنید</string>
     <string name="hs__confirmation_footer_msg">بابت ارسال پیام از شما متشکریم!</string>
-    <string name="hs__confirmation_msg">آیا به همه پرسش‌های شما پاسخ دادیم؟ </string>
+    <string name="hs__confirmation_msg">آیا به همه پرسش‌های شما پاسخ دادیم؟</string>
     <string name="hs__connecting">برقراری ارتباط...</string>
     <string name="hs__contact_us_btn">تماس با ما</string>
     <string name="hs__conversation_detail_error">لطفاً مشکل خود را شرح دهید</string>
@@ -58,21 +58,23 @@
     <string name="hs__conversation_info_header">اطلاعات</string>
     <string name="hs__conversation_info_issue_id">شناسه نسخه</string>
     <string name="hs__conversation_info_menu_item_title">اطلاعات نسخه</string>
-    <string name="hs__conversation_started_message">پیام شما دریافت شده است. از اینکه با ما تماس گرفته‌اید متشکریم!</string>
+    <string name="hs__conversation_started_message">پیام شما دریافت شده است. از اینکه با ما تماس گرفته‌اید متشکریم!
+    </string>
     <string name="hs__copied_to_clipboard">به کلیپ بورد کپی شد</string>
     <string name="hs__copy">کپی</string>
     <string name="hs__copy_to_clipboard_tooltip">کپی به کلیپ بورد</string>
     <string name="hs__could_not_open_attachment_msg">هیچ نرم افزاری نمیتواند این کار را انجام دهد</string>
     <string name="hs__could_not_reach_support_msg">امکان دسترسی به پشتیبانی وجود ندارد</string>
-    <string name="hs__cr_msg">چه کمک دیگری می‌توانیم به شما بکنیم؟ </string>
+    <string name="hs__cr_msg">چه کمک دیگری می‌توانیم به شما بکنیم؟</string>
     <string name="hs__csat_additonal_feedback_message">بازخوردهای دیگر (اختیاری)</string>
-    <string name="hs__csat_dislike_message">خوشم نیامد </string>
-    <string name="hs__csat_like_message">دوستش داشتم </string>
+    <string name="hs__csat_dislike_message">خوشم نیامد</string>
+    <string name="hs__csat_like_message">دوستش داشتم</string>
     <string name="hs__csat_message">دیدگاه شما درباره پشتیبانی مشتری ما چیست؟</string>
     <string name="hs__csat_option_message">یا</string>
     <string name="hs__csat_ratingbar">لطفاً به خدمات ما امتیاز دهید.</string>
     <string name="hs__csat_submit_toast">از اینکه به ما امتیاز داده‌اید متشکریم.</string>
     <string name="hs__data_not_found_msg">داده یافت نشد</string>
+    <string name="hs__date_input_validation_error">وارد کردن تاریخ معتبر</string>
     <string name="hs__default_notification_channel_name">پشتیبانی برنامه</string>
     <string name="hs__default_notification_content_title">پشتیبانی</string>
     <string name="hs__description_invalid_length_error">برای کمک بهتر، لطفاً جزئیات بیشتری ارائه کنید</string>
@@ -80,9 +82,11 @@
     <string name="hs__email_hint">ایمیل (اختیاری)</string>
     <string name="hs__email_input_validation_error">یک آدرس ایمیل معتبر وارد کنید</string>
     <string name="hs__email_required_hint">ایمیل</string>
-    <string name="hs__faq_fetching_fail_message">در حال حاضر قادر به بارگذاری سؤالات متداول نیستیم. لطفاً پس از چند دقیقه دوباره تلاش کنید…</string>
+    <string name="hs__faq_fetching_fail_message">در حال حاضر قادر به بارگذاری سؤالات متداول نیستیم. لطفاً پس از چند
+        دقیقه دوباره تلاش کنید…
+    </string>
     <string name="hs__faqs_search_footer">هیچ سؤال متداولی یافت نشد</string>
-    <string name="hs__feedback_button">ارسال بازخورد </string>
+    <string name="hs__feedback_button">ارسال بازخورد</string>
     <string name="hs__fetching_faqs_message">در حال دریافت پاسخ‌های شما…</string>
     <string name="hs__file_not_found_msg">فایل یافت نشد</string>
     <string name="hs__help_header">کمک</string>
@@ -92,8 +96,13 @@
     <string name="hs__invalid_description_error">شرح نامعتبر</string>
     <string name="hs__invalid_email_error">لطفاً ایمیل معتبری وارد کنید</string>
     <string name="hs__invalid_faq_publish_id_error">قادر به یافتن سؤالات رایج با این شناسه نبودیم.</string>
-    <string name="hs__invalid_section_publish_id_error">متن مبدا - قادر به یافتن بخش سوالات رایج با شناسه مربوطه نبودیم.</string>
-    <string name="hs__issue_archival_message">متاسفیم! این مکالمه به دلیل عدم فعالیت بسته شده است. لطفاً مکالمه جدیدی را با نمایندگان ما شروع کنید.</string>
+    <string name="hs__invalid_section_publish_id_error">متن مبدا - قادر به یافتن بخش سوالات رایج با شناسه مربوطه
+        نبودیم.
+    </string>
+    <string name="hs__issue_archival_message">متاسفیم! این مکالمه به دلیل عدم فعالیت بسته شده است. لطفاً مکالمه جدیدی را
+        با نمایندگان ما شروع کنید.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">لطفاً تاریخ معتبری را وارد کنید.</string>
     <string name="hs__landscape_email_input_validation_error">لطفاً ایمیل معتبری وارد کنید</string>
     <string name="hs__landscape_input_validation_dialog_title">خطا</string>
     <string name="hs__landscape_number_input_validation_error">لطفا یک شماره تلفن معتبر وارد کنید</string>
@@ -106,18 +115,22 @@
     <string name="hs__network_reconnecting_error">چیزی اشتباه رفت اتصال مجدد ...</string>
     <string name="hs__network_unavailable_msg">شبکه در دسترس نیست.</string>
     <string name="hs__new_conversation_btn">شروع مکالمه جدید</string>
-    <string name="hs__new_conversation_footer_generic_reason">با عرض پوزش، چیزی اشتباه رفت این مکالمه نمی تواند ادامه یابد</string>
+    <string name="hs__new_conversation_footer_generic_reason">با عرض پوزش، چیزی اشتباه رفت این مکالمه نمی تواند ادامه
+        یابد
+    </string>
     <string name="hs__new_conversation_header">مکالمه جدید</string>
     <string name="hs__new_conversation_hint">چگونه می‌توانیم به شما کمک کنیم؟</string>
     <string name="hs__no_internet_error">بدون اتصال به اینترنت</string>
     <string name="hs__no_internet_error_mgs">لطفا اتصال شبکه خود را بررسی کنید.</string>
     <string name="hs__no_search_results_message">اوه! قادر به یافتن هیچ نتیجه‌ای نبودیم</string>
     <string name="hs__number_input_validation_error">شماره معتبر وارد کنید</string>
-    <string name="hs__permission_denied_message">برای دسترسی به نماگرفت‌ها و دانلود ضمیمه‌ها، داشتن اجازه ذخیره‌سازی الزامی است</string>
+    <string name="hs__permission_denied_message">برای دسترسی به نماگرفت‌ها و دانلود ضمیمه‌ها، داشتن اجازه ذخیره‌سازی
+        الزامی است
+    </string>
     <string name="hs__permission_denied_snackbar_action">تنظیمات</string>
     <string name="hs__permission_not_granted">برنامه دارای مجوز دسترسی به عکس‌های شما نیست</string>
-    <string name="hs__permission_rationale_snackbar_action_label">تأیید </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">تأیید</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">به نظر شما مفید بود</string>
     <string name="hs__question_unhelpful_message">به نظر شما مفید نبود</string>
     <string name="hs__rate_button">امتیازدهی</string>
@@ -125,11 +138,15 @@
     <string name="hs__retry_button_voice_over">تلاش مجدد برای ارسال</string>
     <string name="hs__retry_faq_fetching_button">تلاش دوباره</string>
     <string name="hs__review_close_button">بستن</string>
-    <string name="hs__review_message">چنانچه از برنامه ما خوشتان آمده است، لطفاً چند لحظه از وقت خود را صرف امتیازدهی به آن کنید</string>
+    <string name="hs__review_message">چنانچه از برنامه ما خوشتان آمده است، لطفاً چند لحظه از وقت خود را صرف امتیازدهی به
+        آن کنید
+    </string>
     <string name="hs__review_request_message">آیا مایل به نظردهی در مورد برنامه در Google Play هستید؟</string>
     <string name="hs__review_title">به برنامه ما امتیاز دهید</string>
     <string name="hs__screenshot_add">افزودن</string>
-    <string name="hs__screenshot_cloud_attach_error">خطا در ضمیمه کردن نماگرفت. لطفاً تصویری در دستگاه خود انتخاب کنید.</string>
+    <string name="hs__screenshot_cloud_attach_error">خطا در ضمیمه کردن نماگرفت. لطفاً تصویری در دستگاه خود انتخاب
+        کنید.
+    </string>
     <string name="hs__screenshot_limit_error">اندازه نماگرفت نباید بیشتر از ‎%.2f MB‎ باشد</string>
     <string name="hs__screenshot_remove">حذف</string>
     <string name="hs__screenshot_upload_error_msg">خطا در آپلود نماگرفت</string>
@@ -138,13 +155,14 @@
     <string name="hs__search_result_message">سؤالاتی که ممکن است دربردارنده پاسخ شما باشند</string>
     <string name="hs__search_result_title">پیشنهادات</string>
     <string name="hs__search_title">جستجو</string>
-    <string name="hs__select_a_question_message">  لطفا یک پرسش از سمت چپ را انتخاب کنید</string>
+    <string name="hs__select_a_question_message">لطفا یک پرسش از سمت چپ را انتخاب کنید</string>
     <string name="hs__send_anyway">به هر حال ارسال کن</string>
     <string name="hs__send_msg_btn">ارسال</string>
     <string name="hs__sending_fail_msg">ارسال نشد</string>
     <string name="hs__sending_msg">در حال ارسال</string>
     <string name="hs__ssl_handshake_error">ارتباط شما امن نیست. ایجاد ارتباط قابل اعتماد با مشکل همراه شده است.</string>
-    <string name="hs__ssl_peer_unverified_error">اتصال شما امن نیست. در تأیید صحت اتصال شما مشکلی به وجود آمده است.</string>
+    <string name="hs__ssl_peer_unverified_error">اتصال شما امن نیست. در تأیید صحت اتصال شما مشکلی به وجود آمده است.
+    </string>
     <string name="hs__starting_download">در حال شروع دانلود…</string>
     <string name="hs__submit_conversation_btn">ارسال</string>
     <string name="hs__tap_to_retry">برای تکرار دوباره کلیک کنید</string>

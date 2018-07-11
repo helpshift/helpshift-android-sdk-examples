@@ -9,7 +9,7 @@
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -30,7 +30,8 @@
             android:paddingEnd="@dimen/hs__msgPreferredItemPaddingRight"
             android:paddingStart="@dimen/hs__msgPreferredItemPaddingLeft"
             android:textColor="?android:attr/textColorSecondary"
-            android:textSize="@dimen/hs__textSizeExtraSmall" />
+            android:textSize="@dimen/hs__textSizeExtraSmall"
+            android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/selectable_options_container"
@@ -56,7 +57,7 @@
             android:paddingStart="16dp"
             android:textColor="?attr/hs__selectableOptionColor"
             android:textSize="@dimen/hs__textSizeSmall"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
     </LinearLayout>
 </LinearLayout>

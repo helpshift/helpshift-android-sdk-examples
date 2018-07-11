@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">Du gav tjenesten 1 stjerne.</item>
-    <item quantity="other">Du gav tjenesten %d stjerner.</item>
-  </plurals>
+        <item quantity="one">Du gav tjenesten 1 stjerne.</item>
+        <item quantity="other">Du gav tjenesten %d stjerner.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">Ny besked fra support</item>
-    <item quantity="other">%d nye beskeder fra support</item>
-  </plurals>
+        <item quantity="one">Ny besked fra support</item>
+        <item quantity="other">%d nye beskeder fra support</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">Besked fra support kl. %s</string>
     <string name="hs__agent_message_with_name_voice_over">Besked fra support af %1$s kl. %2$s</string>
     <string name="hs__app_review_button">BEDØM</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">Skift</string>
     <string name="hs__chat_hint">Skriv din besked</string>
     <string name="hs__confirmation_footer_msg">Tak for din besked!</string>
-    <string name="hs__confirmation_msg">Har vi svaret på alle dine spørgsmål? </string>
+    <string name="hs__confirmation_msg">Har vi svaret på alle dine spørgsmål?</string>
     <string name="hs__connecting">Tilslutning...</string>
     <string name="hs__contact_us_btn">KONTAKT OS</string>
     <string name="hs__conversation_detail_error">Beskriv dit problem</string>
@@ -64,15 +64,16 @@
     <string name="hs__copy_to_clipboard_tooltip">Kopiér til udklipsholder</string>
     <string name="hs__could_not_open_attachment_msg">Ingen apps kan udføre denne handling.</string>
     <string name="hs__could_not_reach_support_msg">Support ikke tilgængelig</string>
-    <string name="hs__cr_msg">Hvad kan vi ellers hjælpe dig med? </string>
+    <string name="hs__cr_msg">Hvad kan vi ellers hjælpe dig med?</string>
     <string name="hs__csat_additonal_feedback_message">Anden feedback (valgfrit)</string>
-    <string name="hs__csat_dislike_message">Hader den </string>
-    <string name="hs__csat_like_message">Elsker den </string>
+    <string name="hs__csat_dislike_message">Hader den</string>
+    <string name="hs__csat_like_message">Elsker den</string>
     <string name="hs__csat_message">Hvad synes du om vores kundesupport?</string>
     <string name="hs__csat_option_message">eller</string>
     <string name="hs__csat_ratingbar">Bedøm vores tjeneste.</string>
     <string name="hs__csat_submit_toast">Tak for din bedømmelse.</string>
     <string name="hs__data_not_found_msg">Data ikke fundet</string>
+    <string name="hs__date_input_validation_error">Indtast en gyldig dato</string>
     <string name="hs__default_notification_channel_name">Understøttelse af app</string>
     <string name="hs__default_notification_content_title">Support</string>
     <string name="hs__description_invalid_length_error">Angiv flere oplysninger, så vi bedre kan hjælpe dig</string>
@@ -80,9 +81,11 @@
     <string name="hs__email_hint">E-mail (valgfrit)</string>
     <string name="hs__email_input_validation_error">Indtast en gyldig email addresse</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__faq_fetching_fail_message">Vi kan i øjeblikket ikke indlæse de ofte stillede spørgsmål. Prøv igen senere ...</string>
+    <string name="hs__faq_fetching_fail_message">Vi kan i øjeblikket ikke indlæse de ofte stillede spørgsmål. Prøv igen
+        senere ...
+    </string>
     <string name="hs__faqs_search_footer">Ingen OSS fundet</string>
-    <string name="hs__feedback_button">Send feedback </string>
+    <string name="hs__feedback_button">Send feedback</string>
     <string name="hs__fetching_faqs_message">Modtager dine svar ...</string>
     <string name="hs__file_not_found_msg">Fil ikke fundet</string>
     <string name="hs__help_header">Hjælp</string>
@@ -93,7 +96,10 @@
     <string name="hs__invalid_email_error">Indtast en gyldig e-mailadresse</string>
     <string name="hs__invalid_faq_publish_id_error">Der blev ikke fundet et OSS med et matchende ID</string>
     <string name="hs__invalid_section_publish_id_error">Der blev ikke fundet en OSS-sektion med et matchende ID</string>
-    <string name="hs__issue_archival_message">Vi beklager! Denne samtale blev lukket pga. inaktivitet. Start en ny samtale med vores agenter.</string>
+    <string name="hs__issue_archival_message">Vi beklager! Denne samtale blev lukket pga. inaktivitet. Start en ny
+        samtale med vores agenter.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">Indtast venligst en gyldig dato.</string>
     <string name="hs__landscape_email_input_validation_error">Indtast en gyldig e-mailadresse</string>
     <string name="hs__landscape_input_validation_dialog_title">Fejl</string>
     <string name="hs__landscape_number_input_validation_error">Indtast venligst et gyldigt nummer</string>
@@ -106,18 +112,22 @@
     <string name="hs__network_reconnecting_error">Noget gik galt. Gentilslutning ...</string>
     <string name="hs__network_unavailable_msg">Netværk ikke fundet.</string>
     <string name="hs__new_conversation_btn">START EN NY BESKED</string>
-    <string name="hs__new_conversation_footer_generic_reason">Undskyld, noget gik galt. Denne samtale kan ikke fortsættes.</string>
+    <string name="hs__new_conversation_footer_generic_reason">Undskyld, noget gik galt. Denne samtale kan ikke
+        fortsættes.
+    </string>
     <string name="hs__new_conversation_header">Ny besked</string>
     <string name="hs__new_conversation_hint">Hvordan kan vi hjælpe dig?</string>
     <string name="hs__no_internet_error">Ingen internetforbindelse</string>
     <string name="hs__no_internet_error_mgs">Tjek venligst din netværksforbindelse.</string>
     <string name="hs__no_search_results_message">Ups! Der blev ikke fundet nogen resultater</string>
     <string name="hs__number_input_validation_error">Indtast et gyldigt nummer</string>
-    <string name="hs__permission_denied_message">Lagertilladelse påkrævet for at åbne skærmbilleder og downloade vedhæftede filer.</string>
+    <string name="hs__permission_denied_message">Lagertilladelse påkrævet for at åbne skærmbilleder og downloade
+        vedhæftede filer.
+    </string>
     <string name="hs__permission_denied_snackbar_action">Indstillinger</string>
     <string name="hs__permission_not_granted">Appen skal have tillladelse til at åbne dine fotos</string>
-    <string name="hs__permission_rationale_snackbar_action_label">OK </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Du kunne bruge denne information</string>
     <string name="hs__question_unhelpful_message">Du kunne ikke bruge denne information</string>
     <string name="hs__rate_button">Bedøm</string>
@@ -129,7 +139,9 @@
     <string name="hs__review_request_message">Kunne du tænke dig at bedømme appen på Google Play?</string>
     <string name="hs__review_title">Bedøm vores app</string>
     <string name="hs__screenshot_add">Tilføj</string>
-    <string name="hs__screenshot_cloud_attach_error">Skærmbilledet blev ikke vedhæftet. Vælg et andet billede fra din enhed.</string>
+    <string name="hs__screenshot_cloud_attach_error">Skærmbilledet blev ikke vedhæftet. Vælg et andet billede fra din
+        enhed.
+    </string>
     <string name="hs__screenshot_limit_error">Skærmbilledets størrelse må ikke overskride %.2f MB</string>
     <string name="hs__screenshot_remove">Fjern</string>
     <string name="hs__screenshot_upload_error_msg">Skærmbilledet blev ikke overført</string>
@@ -143,8 +155,12 @@
     <string name="hs__send_msg_btn">SEND</string>
     <string name="hs__sending_fail_msg">Afsendelse mislykkedes</string>
     <string name="hs__sending_msg">Sender</string>
-    <string name="hs__ssl_handshake_error">Din forbindelse er ikke sikker. Der kunne ikke oprettes forbindelse til en pålidelig forbindelse</string>
-    <string name="hs__ssl_peer_unverified_error">Din forbindelse er ikke sikker. Vi kunne ikke verificere dens autenticitet</string>
+    <string name="hs__ssl_handshake_error">Din forbindelse er ikke sikker. Der kunne ikke oprettes forbindelse til en
+        pålidelig forbindelse
+    </string>
+    <string name="hs__ssl_peer_unverified_error">Din forbindelse er ikke sikker. Vi kunne ikke verificere dens
+        autenticitet
+    </string>
     <string name="hs__starting_download">Starter download ...</string>
     <string name="hs__submit_conversation_btn">Send</string>
     <string name="hs__tap_to_retry">Tryk for at prøve igen</string>

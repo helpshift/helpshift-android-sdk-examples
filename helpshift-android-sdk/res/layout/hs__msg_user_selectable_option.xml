@@ -23,6 +23,6 @@
         android:paddingLeft="16dp"
         android:paddingStart="16dp"
         android:textColor="?attr/hs__selectableOptionColor"
-        android:textSize="@dimen/hs__textSizeMedium"/>
+        android:textSize="@dimen/hs__textSizeMedium" />
 
 </LinearLayout>

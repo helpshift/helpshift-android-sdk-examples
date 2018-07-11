@@ -25,14 +25,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hs__conversation_info_issue_id"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="@dimen/hs__textSizeLarge"/>
+                android:textSize="@dimen/hs__textSizeLarge" />
 
             <com.helpshift.views.HSTextView
                 android:id="@+id/issue_publish_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?android:textColorSecondary"
-                android:textSize="@dimen/hs__textSizeMedium"/>
+                android:textSize="@dimen/hs__textSizeMedium" />
         </LinearLayout>
 
         <ImageButton
@@ -42,11 +42,11 @@
             android:background="?attr/selectableItemBackground"
             android:contentDescription="@string/hs__copy"
             android:padding="12dp"
-            android:src="@drawable/hs__copy"/>
+            android:src="@drawable/hs__copy" />
     </LinearLayout>
 
     <View
         android:id="@+id/divider"
         style="@style/HSDivider"
-        android:layout_marginTop="@dimen/hs__conversation_info_container_height"/>
+        android:layout_marginTop="@dimen/hs__conversation_info_container_height" />
 </FrameLayout>

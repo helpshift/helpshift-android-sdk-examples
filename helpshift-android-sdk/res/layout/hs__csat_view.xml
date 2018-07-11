@@ -4,95 +4,95 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-  <com.helpshift.views.HSTextView
-      android:id="@+id/csat_message"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_centerHorizontal="true"
-      android:gravity="center_horizontal"
-      android:paddingBottom="@dimen/activity_horizontal_margin_small"
-      android:paddingTop="8dp"
-      android:paddingLeft="@dimen/activity_horizontal_margin_medium"
-      android:paddingRight="@dimen/activity_horizontal_margin_medium"
-      android:text="@string/hs__csat_message"
-      android:textColor="?android:textColorSecondary"
-      android:textSize="@dimen/hs__textSizeMedium"/>
-
-  <RatingBar
-      android:id="@+id/ratingBar"
-      style="@style/Helpshift.Style.RatingBar"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/csat_message"
-      android:layout_centerHorizontal="true"
-      android:contentDescription="@string/hs__csat_ratingbar"
-      android:paddingTop="@dimen/activity_vertical_margin_medium"
-      android:stepSize="1.0"/>
-
-  <LinearLayout
-      android:id="@+id/csat_msg_container"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignEnd="@+id/ratingBar"
-      android:layout_alignLeft="@+id/ratingBar"
-      android:layout_alignRight="@+id/ratingBar"
-      android:layout_alignStart="@+id/ratingBar"
-      android:layout_below="@+id/ratingBar"
-      android:orientation="horizontal">
-
     <com.helpshift.views.HSTextView
-        android:id="@+id/csat_like_msg"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="start"
-        android:text="@string/hs__csat_dislike_message"
-        android:textColor="?android:textColorHint"
-        android:textSize="@dimen/hs__textSizeSmall"/>
-
-    <View
-        android:layout_width="4dp"
-        android:layout_height="1dp"/>
-
-    <com.helpshift.views.HSTextView
-        android:id="@+id/csat_dislike_msg"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="end"
-        android:text="@string/hs__csat_like_message"
-        android:textColor="?android:textColorHint"
-        android:textSize="@dimen/hs__textSizeSmall"/>
-  </LinearLayout>
-
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/csat_msg_container"
-      android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
-      android:layout_marginBottom="10dp"
-      android:gravity="center"
-      android:orientation="horizontal">
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:layout_weight="1"
-        android:background="?attr/hs__separatorColor"/>
-
-    <com.helpshift.views.HSTextView
-        android:id="@+id/hs__csat_option"
+        android:id="@+id/csat_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/activity_horizontal_margin_small"
-        android:paddingRight="@dimen/activity_horizontal_margin_small"
-        android:text="@string/hs__csat_option_message"/>
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/activity_horizontal_margin_small"
+        android:paddingTop="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_medium"
+        android:text="@string/hs__csat_message"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="@dimen/hs__textSizeMedium" />
 
-    <View
-        android:id="@+id/option_text"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:layout_weight="1"
-        android:background="?attr/hs__separatorColor"/>
-  </LinearLayout>
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Helpshift.Style.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/csat_message"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/hs__csat_ratingbar"
+        android:paddingTop="@dimen/activity_vertical_margin_medium"
+        android:stepSize="1.0" />
+
+    <LinearLayout
+        android:id="@+id/csat_msg_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ratingBar"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignRight="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_below="@+id/ratingBar"
+        android:orientation="horizontal">
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/csat_like_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/hs__csat_dislike_message"
+            android:textColor="?android:textColorHint"
+            android:textSize="@dimen/hs__textSizeSmall" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="1dp" />
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/csat_dislike_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="@string/hs__csat_like_message"
+            android:textColor="?android:textColorHint"
+            android:textSize="@dimen/hs__textSizeSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/csat_msg_container"
+        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?attr/hs__separatorColor" />
+
+        <com.helpshift.views.HSTextView
+            android:id="@+id/hs__csat_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:text="@string/hs__csat_option_message" />
+
+        <View
+            android:id="@+id/option_text"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?attr/hs__separatorColor" />
+    </LinearLayout>
 </RelativeLayout>

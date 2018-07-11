@@ -22,7 +22,7 @@
 
             <com.helpshift.views.HSTextView
                 android:id="@+id/review_request_message"
-                style="@style/Helpshift.Style.AdminTextMessage"/>
+                style="@style/Helpshift.Style.AdminTextMessage" />
 
             <com.helpshift.views.HSButton
                 android:id="@+id/review_request_button"
@@ -31,16 +31,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-8dp"
                 android:contentDescription="@string/hs__review_title"
-                android:text="@string/hs__app_review_button"/>
+                android:text="@string/hs__app_review_button" />
         </LinearLayout>
 
         <com.helpshift.views.HSTextView
             android:id="@+id/review_request_date"
-            style="@style/Helpshift.Style.AdminMessageDate"/>
+            style="@style/Helpshift.Style.AdminMessageDate" />
     </LinearLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 </LinearLayout>

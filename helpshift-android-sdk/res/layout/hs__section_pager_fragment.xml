@@ -6,22 +6,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-  <com.helpshift.views.HSTabLayout
-      android:id="@+id/pager_tabs"
-      style="?attr/hs__faqsPagerTabStripStyle"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      app:tabMode="scrollable"/>
-
-  <FrameLayout
-      android:id="@+id/view_pager_container"
-      android:layout_width="match_parent"
-      android:layout_height="0dp"
-      android:layout_weight="1">
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/section_pager"
+    <com.helpshift.views.HSTabLayout
+        android:id="@+id/pager_tabs"
+        style="?attr/hs__faqsPagerTabStripStyle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-  </FrameLayout>
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable" />
+
+    <FrameLayout
+        android:id="@+id/view_pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/section_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
 </LinearLayout>

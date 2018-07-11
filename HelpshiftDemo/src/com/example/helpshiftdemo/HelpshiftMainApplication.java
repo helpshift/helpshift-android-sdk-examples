@@ -30,6 +30,5 @@ public class HelpshiftMainApplication extends Application {
       android.util.Log.e("Helpshift", "install call : ", e);
     }
     android.util.Log.d("Helpshift", Support.libraryVersion + " - is the version for gradle");
-
   }
 }

@@ -7,50 +7,50 @@
     android:paddingLeft="@dimen/activity_horizontal_margin_medium"
     android:paddingRight="@dimen/activity_horizontal_margin_medium">
 
-  <RatingBar
-      android:id="@+id/ratingBar"
-      style="@style/Helpshift.Style.RatingBar"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_centerHorizontal="true"
-      android:focusable="false"
-      android:stepSize="1.0"/>
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Helpshift.Style.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:stepSize="1.0" />
 
-  <com.helpshift.views.HSTextView
-      android:id="@+id/like_status"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/ratingBar"
-      android:layout_centerHorizontal="true"
-      android:textColor="?android:textColorSecondary"
-      android:layout_marginTop="@dimen/activity_vertical_margin_small"/>
+    <com.helpshift.views.HSTextView
+        android:id="@+id/like_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:textColor="?android:textColorSecondary"
+        android:layout_marginTop="@dimen/activity_vertical_margin_small" />
 
-  <com.helpshift.views.HSEditText
-      android:id="@+id/additional_feedback"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/like_status"
-      android:layout_marginTop="@dimen/activity_vertical_margin_medium"
-      android:gravity="top"
-      android:hint="@string/hs__csat_additonal_feedback_message"
-      android:maxLines="4"
-      android:minLines="2"/>
+    <com.helpshift.views.HSEditText
+        android:id="@+id/additional_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/like_status"
+        android:layout_marginTop="@dimen/activity_vertical_margin_medium"
+        android:gravity="top"
+        android:hint="@string/hs__csat_additonal_feedback_message"
+        android:maxLines="4"
+        android:minLines="2" />
 
-  <com.helpshift.views.HSButton
-      android:id="@+id/submit"
-      style="@style/Helpshift.Style.BorderlessButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentEnd="true"
-      android:layout_alignParentRight="true"
-      android:layout_below="@+id/additional_feedback"
-      android:layout_marginTop="@dimen/activity_vertical_margin_small"
-      android:text="@string/hs__submit_conversation_btn"/>
+    <com.helpshift.views.HSButton
+        android:id="@+id/submit"
+        style="@style/Helpshift.Style.BorderlessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/additional_feedback"
+        android:layout_marginTop="@dimen/activity_vertical_margin_small"
+        android:text="@string/hs__submit_conversation_btn" />
 
-  <!-- TODO: Remove this dummy view after tests are fixed-->
-  <View
-      android:id="@+id/divider"
-      android:layout_width="0dp"
-      android:layout_height="0dp"
-      android:visibility="gone"/>
+    <!-- TODO: Remove this dummy view after tests are fixed-->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
 </RelativeLayout>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">Bạn đã đánh giá 1 sao.</item>
-    <item quantity="other">Bạn đã xếp hạng %d sao.</item>
-  </plurals>
+        <item quantity="one">Bạn đã đánh giá 1 sao.</item>
+        <item quantity="other">Bạn đã xếp hạng %d sao.</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">Tin nhắn mới từ Hỗ trợ</item>
-    <item quantity="other">%d tin nhắn mới từ Hỗ trợ</item>
-  </plurals>
+        <item quantity="one">Tin nhắn mới từ Hỗ trợ</item>
+        <item quantity="other">%d tin nhắn mới từ Hỗ trợ</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">Thông báo từ bộ phận hỗ trợ vào %s</string>
     <string name="hs__agent_message_with_name_voice_over">Thông báo từ bộ phận hỗ trợ bởi %1$s vào %2$s</string>
     <string name="hs__app_review_button">ĐÁNH GIÁ</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">Thay đổi</string>
     <string name="hs__chat_hint">Nhập tin nhắn của bạn</string>
     <string name="hs__confirmation_footer_msg">Cảm ơn bạn đã gửi tin nhắn cho chúng tôi!</string>
-    <string name="hs__confirmation_msg">Chúng tôi đã trả lời hết tất cả các câu hỏi của bạn chưa? </string>
+    <string name="hs__confirmation_msg">Chúng tôi đã trả lời hết tất cả các câu hỏi của bạn chưa?</string>
     <string name="hs__connecting">Kết nối ...</string>
     <string name="hs__contact_us_btn">LIÊN HỆ</string>
     <string name="hs__conversation_detail_error">Vui lòng mô tả vấn đề của bạn</string>
@@ -58,31 +58,36 @@
     <string name="hs__conversation_info_header">Thông tin</string>
     <string name="hs__conversation_info_issue_id">Cấp ID</string>
     <string name="hs__conversation_info_menu_item_title">Cấp thông tin</string>
-    <string name="hs__conversation_started_message">Chúng tôi đã nhận được tin nhắn của bạn. Cảm ơn bạn đã liên hệ với chúng tôi.</string>
+    <string name="hs__conversation_started_message">Chúng tôi đã nhận được tin nhắn của bạn. Cảm ơn bạn đã liên hệ với
+        chúng tôi.
+    </string>
     <string name="hs__copied_to_clipboard">Đã sao chép vào clipboard</string>
     <string name="hs__copy">Sao chép</string>
     <string name="hs__copy_to_clipboard_tooltip">Sao chép vào clipboard</string>
     <string name="hs__could_not_open_attachment_msg">Không ứng dụng nào có thể thực hiện hành động này</string>
     <string name="hs__could_not_reach_support_msg">Không thể liên hệ hỗ trợ</string>
-    <string name="hs__cr_msg">Chúng tôi còn có thể giúp gì khác cho bạn không? </string>
+    <string name="hs__cr_msg">Chúng tôi còn có thể giúp gì khác cho bạn không?</string>
     <string name="hs__csat_additonal_feedback_message">Bạn có phản hồi nào khác không (tùy chọn)</string>
-    <string name="hs__csat_dislike_message">Không thích </string>
-    <string name="hs__csat_like_message">Thích </string>
+    <string name="hs__csat_dislike_message">Không thích</string>
+    <string name="hs__csat_like_message">Thích</string>
     <string name="hs__csat_message">Bạn có phản hồi gì về việc hỗ trợ khách hàng của chúng tôi không?</string>
     <string name="hs__csat_option_message">hoặc</string>
     <string name="hs__csat_ratingbar">Hãy xếp hạng dịch vụ của chúng tôi</string>
     <string name="hs__csat_submit_toast">Cảm ơn bạn đã xếp hạng chúng tôi.</string>
     <string name="hs__data_not_found_msg">Không tìm thấy dữ liệu</string>
+    <string name="hs__date_input_validation_error">Nhập ngày hợp lệ</string>
     <string name="hs__default_notification_channel_name">Hỗ trợ ứng dụng</string>
     <string name="hs__default_notification_content_title">Hỗ trợ</string>
-    <string name="hs__description_invalid_length_error">Để được hỗ trợ tốt hơn, vui lòng cung cấp thêm thông tin</string>
+    <string name="hs__description_invalid_length_error">Để được hỗ trợ tốt hơn, vui lòng cung cấp thêm thông
+        tin
+    </string>
     <string name="hs__done_btn">Hoàn thành</string>
     <string name="hs__email_hint">Email (tùy chọn)</string>
     <string name="hs__email_input_validation_error">Nhập địa chỉ email hợp lệ</string>
     <string name="hs__email_required_hint">Email</string>
     <string name="hs__faq_fetching_fail_message">Không thể tải FAQ vào lúc này. Vui lòng thử lại sau…</string>
     <string name="hs__faqs_search_footer">Không tìm thấy Câu hỏi thường gặp</string>
-    <string name="hs__feedback_button">Gửi Phản hồi </string>
+    <string name="hs__feedback_button">Gửi Phản hồi</string>
     <string name="hs__fetching_faqs_message">Đang nhậ̣n câu trả lời của bạn…</string>
     <string name="hs__file_not_found_msg">Không tìm thấy tậ̣p tin</string>
     <string name="hs__help_header">Trợ giúp</string>
@@ -93,7 +98,10 @@
     <string name="hs__invalid_email_error">Vui lòng nhập email hợp lệ</string>
     <string name="hs__invalid_faq_publish_id_error">Chúng tôi không thể tìm thấy câu hỏi trong FAQ có ID này</string>
     <string name="hs__invalid_section_publish_id_error">Chúng tôi không thể tìm thấy mục FAQ bằng ID này</string>
-    <string name="hs__issue_archival_message">Rất tiếc! Tin nhắn này đã bị đóng do không có hoạt động. Vui lòng bắt đầu một tin nhắn mới với các nhân viên của chúng tôi.</string>
+    <string name="hs__issue_archival_message">Rất tiếc! Tin nhắn này đã bị đóng do không có hoạt động. Vui
+        lòng bắt đầu một tin nhắn mới với các nhân viên của chúng tôi.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">Vui lòng nhập ngày hợp lệ.</string>
     <string name="hs__landscape_email_input_validation_error">Vui lòng nhập email hợp lệ</string>
     <string name="hs__landscape_input_validation_dialog_title">lỗi</string>
     <string name="hs__landscape_number_input_validation_error">Vui lòng nhập một số hợp lệ</string>
@@ -106,18 +114,22 @@
     <string name="hs__network_reconnecting_error">Đã xảy ra sự cố Đang kết nối lại ...</string>
     <string name="hs__network_unavailable_msg">Mạng không khả dụng.</string>
     <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC HỘI THOẠI MỚI</string>
-    <string name="hs__new_conversation_footer_generic_reason">Xin lỗi, có lỗi xảy ra. Không thể tiếp tục cuộc trò chuyện này.</string>
+    <string name="hs__new_conversation_footer_generic_reason">Xin lỗi, có lỗi xảy ra. Không thể tiếp tục cuộc trò chuyện
+        này.
+    </string>
     <string name="hs__new_conversation_header">Cuộc hội thoại mới</string>
     <string name="hs__new_conversation_hint">Chúng tôi có thể giúp gì cho bạn?</string>
     <string name="hs__no_internet_error">Không có kết nối Internet</string>
     <string name="hs__no_internet_error_mgs">Vui lòng kiểm tra kết nối mạng của bạn.</string>
     <string name="hs__no_search_results_message">Rất tiếc! Chúng tôi không tìm được kết quả nào</string>
     <string name="hs__number_input_validation_error">Nhập một số hợp lệ</string>
-    <string name="hs__permission_denied_message">Cần có quyền lưu trữ để truy cậ̣p ảnh chụp màn hình và tải về các tập tin đính kèm</string>
+    <string name="hs__permission_denied_message">Cần có quyền lưu trữ để truy cậ̣p ảnh chụp màn hình và tải
+        về các tập tin đính kèm
+    </string>
     <string name="hs__permission_denied_snackbar_action">Thiết lậ̣p</string>
     <string name="hs__permission_not_granted">Ứng dụng không có quyền truy cậ̣p vào hình ảnh của bạn</string>
-    <string name="hs__permission_rationale_snackbar_action_label">OK </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Bạn thấy điều này hữu ích</string>
     <string name="hs__question_unhelpful_message">Bạn thấy điều này không hữu ích</string>
     <string name="hs__rate_button">Xếp hạng</string>
@@ -125,11 +137,15 @@
     <string name="hs__retry_button_voice_over">Thử gửi lại</string>
     <string name="hs__retry_faq_fetching_button">THỬ LẠI</string>
     <string name="hs__review_close_button">Đóng</string>
-    <string name="hs__review_message">Nếu bạn thích ứng dụng của chúng tôi, vui lòng dành chút thời gian để xếp hạng ứng dụng</string>
+    <string name="hs__review_message">Nếu bạn thích ứng dụng của chúng tôi, vui lòng dành chút thời gian để xếp hạng ứng
+        dụng
+    </string>
     <string name="hs__review_request_message">Bạn có muốn nhận xét Ứng dụng này trên Google Play không?</string>
     <string name="hs__review_title">Xếp hạng Ứng dụng</string>
     <string name="hs__screenshot_add">Thêm</string>
-    <string name="hs__screenshot_cloud_attach_error">Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một hình trên thiết bị của bạn.</string>
+    <string name="hs__screenshot_cloud_attach_error">Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một hình
+        trên thiết bị của bạn.
+    </string>
     <string name="hs__screenshot_limit_error">Kích thước ảnh chụp màn hình không được lớn hơn %.2f MB</string>
     <string name="hs__screenshot_remove">Xóa</string>
     <string name="hs__screenshot_upload_error_msg">Lỗi tải ảnh chụp màn hình lên</string>
@@ -143,8 +159,11 @@
     <string name="hs__send_msg_btn">GỬI</string>
     <string name="hs__sending_fail_msg">Gửi thất bại</string>
     <string name="hs__sending_msg">Đang gửi</string>
-    <string name="hs__ssl_handshake_error">Kết nối của bạn không an toàn. Đã có sự cố khi thiết lập kết nối tin cậy</string>
-    <string name="hs__ssl_peer_unverified_error">Kết nối của bạn không an toàn. Đã có sự cố trong khi xác minh tính xác thực của kết nối</string>
+    <string name="hs__ssl_handshake_error">Kết nối của bạn không an toàn. Đã có sự cố khi thiết lập kết nối tin cậy
+    </string>
+    <string name="hs__ssl_peer_unverified_error">Kết nối của bạn không an toàn. Đã có sự cố trong khi xác minh tính xác
+        thực của kết nối
+    </string>
     <string name="hs__starting_download">Đang bắt đầu tải về…</string>
     <string name="hs__submit_conversation_btn">Gửi</string>
     <string name="hs__tap_to_retry">Chạm để thử lại</string>

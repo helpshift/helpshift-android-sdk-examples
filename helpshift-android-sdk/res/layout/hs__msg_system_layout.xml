@@ -16,5 +16,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="?android:textColorSecondary"
-        android:textSize="@dimen/hs__textSizeExtraSmall"/>
+        android:textSize="@dimen/hs__textSizeExtraSmall" />
 </LinearLayout>

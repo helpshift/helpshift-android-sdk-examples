@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">サービスを「1つ星」として評価しました。</item>
-    <item quantity="other">サービスを「%dつ星」として評価しました。</item>
-  </plurals>
+        <item quantity="one">サービスを「1つ星」として評価しました。</item>
+        <item quantity="other">サービスを「%dつ星」として評価しました。</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">サポートからの新規メッセージ</item>
-    <item quantity="other">サポートからの新しいメッセージが%d件あります</item>
-  </plurals>
+        <item quantity="one">サポートからの新規メッセージ</item>
+        <item quantity="other">サポートからの新しいメッセージが%d件あります</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">%sに届いたサポートからのメッセージ</string>
     <string name="hs__agent_message_with_name_voice_over">%1$sに届いたサポート担当%2$sからのメッセージ</string>
     <string name="hs__app_review_button">レビュー</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">変更</string>
     <string name="hs__chat_hint">メッセージをご入力ください</string>
     <string name="hs__confirmation_footer_msg">メッセージをお送りいただき、ありがとうございました。</string>
-    <string name="hs__confirmation_msg">カスタマーサポートは全ての質問に回答しましたか？ </string>
+    <string name="hs__confirmation_msg">カスタマーサポートは全ての質問に回答しましたか？</string>
     <string name="hs__connecting">接続中...</string>
     <string name="hs__contact_us_btn">お問い合わせ</string>
     <string name="hs__conversation_detail_error">問題の詳細をご説明ください</string>
@@ -64,15 +64,16 @@
     <string name="hs__copy_to_clipboard_tooltip">クリップボードにコピー</string>
     <string name="hs__could_not_open_attachment_msg">このアクションを実行できるアプリはありません</string>
     <string name="hs__could_not_reach_support_msg">サポートに接続できません</string>
-    <string name="hs__cr_msg">他にご要望がございますか？ </string>
+    <string name="hs__cr_msg">他にご要望がございますか？</string>
     <string name="hs__csat_additonal_feedback_message">ご意見・ご要望をお聞かせください（任意）</string>
-    <string name="hs__csat_dislike_message">悪い </string>
-    <string name="hs__csat_like_message">良い </string>
+    <string name="hs__csat_dislike_message">悪い</string>
+    <string name="hs__csat_like_message">良い</string>
     <string name="hs__csat_message">カスタマーサポートへのご意見・ご要望をお聞かせください。</string>
     <string name="hs__csat_option_message">または</string>
     <string name="hs__csat_ratingbar">サービス内容を評価してください。</string>
     <string name="hs__csat_submit_toast">評価いただき。ありがとうございます。</string>
     <string name="hs__data_not_found_msg">データが見つかりません</string>
+    <string name="hs__date_input_validation_error">有効な日付を入力してください</string>
     <string name="hs__default_notification_channel_name">アプリ内サポート</string>
     <string name="hs__default_notification_content_title">サポート</string>
     <string name="hs__description_invalid_length_error">適切なサポートをご提供させていただけるよう、より詳細な状況をお聞かせください。</string>
@@ -82,7 +83,7 @@
     <string name="hs__email_required_hint">Eメールアドレス</string>
     <string name="hs__faq_fetching_fail_message">現在FAQを読み込めません。しばらくしてから再度お試しください。</string>
     <string name="hs__faqs_search_footer">FAQが見つかりません</string>
-    <string name="hs__feedback_button">フィードバックを送信 </string>
+    <string name="hs__feedback_button">フィードバックを送信</string>
     <string name="hs__fetching_faqs_message">回答を取得中…</string>
     <string name="hs__file_not_found_msg">ファイルが見つかりません</string>
     <string name="hs__help_header">ヘルプ</string>
@@ -94,6 +95,7 @@
     <string name="hs__invalid_faq_publish_id_error">IDが一致するFAQが見つかりませんでした</string>
     <string name="hs__invalid_section_publish_id_error">IDが一致するFAQのカテゴリが見つかりませんでした</string>
     <string name="hs__issue_archival_message">メッセージのやり取りがなかったため、この話題は終了した扱いになっています。新規メッセージを作成してください。</string>
+    <string name="hs__landscape_date_input_validation_error">有効な日付をご入力ください</string>
     <string name="hs__landscape_email_input_validation_error">有効なEメールアドレスをご入力ください</string>
     <string name="hs__landscape_input_validation_dialog_title">エラー</string>
     <string name="hs__landscape_number_input_validation_error">有効な数値を入力してください</string>
@@ -116,8 +118,8 @@
     <string name="hs__permission_denied_message">スクリーンショットへのアクセス、および添付ファイルのダウンロードには、ストレージへのアクセス権限が必要です</string>
     <string name="hs__permission_denied_snackbar_action">設定</string>
     <string name="hs__permission_not_granted">アプリから写真にアクセスする権限がありません</string>
-    <string name="hs__permission_rationale_snackbar_action_label">OK </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">役に立った</string>
     <string name="hs__question_unhelpful_message">役に立たなかった</string>
     <string name="hs__rate_button">評価</string>

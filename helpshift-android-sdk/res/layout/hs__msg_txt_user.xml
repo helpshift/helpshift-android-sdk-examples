@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:id="@+id/user_text_message_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_text_message_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
@@ -20,14 +20,14 @@
 
         <com.helpshift.views.HSTextView
             android:id="@+id/user_message_text"
-            style="@style/Helpshift.Style.UserTextMessage"/>
+            style="@style/Helpshift.Style.UserTextMessage" />
     </FrameLayout>
 
     <com.helpshift.views.HSTextView
         android:id="@+id/user_date_text"
         style="@style/Helpshift.Style.UserMessageDate"
         android:layout_alignRight="@id/user_message_container"
-        android:layout_below="@id/user_message_container"/>
+        android:layout_below="@id/user_message_container" />
 
     <ImageView
         android:id="@+id/user_message_retry_button"
@@ -41,5 +41,5 @@
         android:src="@drawable/hs_action_retry"
         android:tint="?colorAccent"
         android:visibility="gone"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 </RelativeLayout>

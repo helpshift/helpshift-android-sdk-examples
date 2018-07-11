@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">您给服务打了1星。</item>
-    <item quantity="other">您给服务打了%d星。</item>
-  </plurals>
+        <item quantity="one">您给服务打了1星。</item>
+        <item quantity="other">您给服务打了%d星。</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">客服团队新消息</item>
-    <item quantity="other">%d条客服团队新消息</item>
-  </plurals>
+        <item quantity="one">客服团队新消息</item>
+        <item quantity="other">%d条客服团队新消息</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">来自客服的信息（于%s发送）</string>
     <string name="hs__agent_message_with_name_voice_over">来自客服的信息（由%1$s于%2$s发送）</string>
     <string name="hs__app_review_button">评论</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">更改</string>
     <string name="hs__chat_hint">输入您的消息</string>
     <string name="hs__confirmation_footer_msg">感谢您的消息！</string>
-    <string name="hs__confirmation_msg">我们有没有回答您的所有问题？ </string>
+    <string name="hs__confirmation_msg">我们有没有回答您的所有问题？</string>
     <string name="hs__connecting">连接...</string>
     <string name="hs__contact_us_btn">联系我们</string>
     <string name="hs__conversation_detail_error">请说明您遇到的问题</string>
@@ -64,15 +64,16 @@
     <string name="hs__copy_to_clipboard_tooltip">复制到剪切板</string>
     <string name="hs__could_not_open_attachment_msg">没有执行此操作的应用</string>
     <string name="hs__could_not_reach_support_msg">无法与客服取得联系</string>
-    <string name="hs__cr_msg">我们还能为您做些什么？ </string>
+    <string name="hs__cr_msg">我们还能为您做些什么？</string>
     <string name="hs__csat_additonal_feedback_message">其他意见或建议吗（可选）</string>
-    <string name="hs__csat_dislike_message">不喜欢 </string>
-    <string name="hs__csat_like_message">喜欢 </string>
+    <string name="hs__csat_dislike_message">不喜欢</string>
+    <string name="hs__csat_like_message">喜欢</string>
     <string name="hs__csat_message">您对我们的客服有什么看法？</string>
     <string name="hs__csat_option_message">或</string>
     <string name="hs__csat_ratingbar">请给我们的服务打分</string>
     <string name="hs__csat_submit_toast">感谢您对我们的评价。</string>
     <string name="hs__data_not_found_msg">未找到数据</string>
+    <string name="hs__date_input_validation_error">输入一个有效日期</string>
     <string name="hs__default_notification_channel_name">应用内支持</string>
     <string name="hs__default_notification_content_title">客服</string>
     <string name="hs__description_invalid_length_error">请提供更多详细信息，以便我们提供更好的协助</string>
@@ -82,7 +83,7 @@
     <string name="hs__email_required_hint">电子邮件</string>
     <string name="hs__faq_fetching_fail_message">暂时无法加载常见问题解答，请稍后重试……</string>
     <string name="hs__faqs_search_footer">未找到常见问题解答</string>
-    <string name="hs__feedback_button">发送反馈 </string>
+    <string name="hs__feedback_button">发送反馈</string>
     <string name="hs__fetching_faqs_message">正在获取您的答案……</string>
     <string name="hs__file_not_found_msg">未找到文件</string>
     <string name="hs__help_header">帮助</string>
@@ -94,6 +95,7 @@
     <string name="hs__invalid_faq_publish_id_error">我们未能找到与ID匹配的常见问题解答</string>
     <string name="hs__invalid_section_publish_id_error">我们未能找到与ID匹配的常见问题解答章节</string>
     <string name="hs__issue_archival_message">抱歉！该对话因为不活跃而关闭。请与我们的代理开始新对话。</string>
+    <string name="hs__landscape_date_input_validation_error">请输入一个有效日期。</string>
     <string name="hs__landscape_email_input_validation_error">请输入有效的电子邮件</string>
     <string name="hs__landscape_input_validation_dialog_title">错误</string>
     <string name="hs__landscape_number_input_validation_error">请输入一个有效的号码</string>
@@ -116,8 +118,8 @@
     <string name="hs__permission_denied_message">需要存储权限才能访问屏幕截图并下载附件</string>
     <string name="hs__permission_denied_snackbar_action">设置</string>
     <string name="hs__permission_not_granted">应用程序缺少访问您的照片的权限</string>
-    <string name="hs__permission_rationale_snackbar_action_label">确定 </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">确定</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">有帮助</string>
     <string name="hs__question_unhelpful_message">你认为这没有帮助</string>
     <string name="hs__rate_button">评价</string>

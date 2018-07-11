@@ -3,9 +3,9 @@
     <bool name="is_screen_large">true</bool>
     <item format="float" name="hs__screen_to_conversation_view_ratio" type="dimen">0.85</item>
     <style name="Helpshift.Theme.Activity" parent="@style/Helpshift.Theme.Base" ns1:targetApi="11">
-    <item name="android:colorBackgroundCacheHint">@null</item>
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowCloseOnTouchOutside">true</item>
-    <item name="android:windowActionModeOverlay">true</item>
-  </style>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
 </resources>

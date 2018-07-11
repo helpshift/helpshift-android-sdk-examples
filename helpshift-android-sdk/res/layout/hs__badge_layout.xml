@@ -7,37 +7,37 @@
     android:clickable="true"
     android:gravity="center">
 
-  <ImageView
-      android:id="@+id/hs__conversation_icon"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="8dp"
-      android:layout_marginStart="8dp"
-      android:contentDescription="@string/hs__new_conversation_header"
-      android:gravity="center"
-      android:src="?attr/hs__conversationActionButtonIcon"
-      android:tint="?attr/hs__actionButtonIconColor"/>
+    <ImageView
+        android:id="@+id/hs__conversation_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/hs__new_conversation_header"
+        android:gravity="center"
+        android:src="?attr/hs__conversationActionButtonIcon"
+        android:tint="?attr/hs__actionButtonIconColor" />
 
-  <View
-      android:id="@+id/hs__notification_badge_padding"
-      android:layout_width="16dp"
-      android:layout_height="match_parent"
-      android:visibility="gone"/>
+    <View
+        android:id="@+id/hs__notification_badge_padding"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
 
-  <com.helpshift.views.HSTextView
-      android:id="@+id/hs__notification_badge"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="2dp"
-      android:layout_marginEnd="16dp"
-      android:layout_marginLeft="4dp"
-      android:layout_marginRight="16dp"
-      android:layout_marginStart="4dp"
-      android:background="@drawable/hs__rounded_corner_rectangle"
-      android:gravity="center"
-      android:textColor="?colorPrimary"
-      android:textSize="10sp"
-      android:textStyle="bold"
-      android:visibility="gone"
-      tools:ignore="SmallSp"/>
+    <com.helpshift.views.HSTextView
+        android:id="@+id/hs__notification_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/hs__rounded_corner_rectangle"
+        android:gravity="center"
+        android:textColor="?colorPrimary"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:ignore="SmallSp" />
 </LinearLayout>

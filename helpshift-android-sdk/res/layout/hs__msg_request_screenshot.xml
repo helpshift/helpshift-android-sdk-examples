@@ -23,7 +23,7 @@
 
             <com.helpshift.views.HSTextView
                 android:id="@+id/admin_attachment_request_text"
-                style="@style/Helpshift.Style.AdminTextMessage"/>
+                style="@style/Helpshift.Style.AdminTextMessage" />
 
             <com.helpshift.views.HSButton
                 android:id="@+id/admin_attach_screenshot_button"
@@ -33,16 +33,16 @@
                 android:layout_marginLeft="4dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="-8dp"
-                android:text="@string/hs__attach_screenshot_btn"/>
+                android:text="@string/hs__attach_screenshot_btn" />
         </LinearLayout>
 
         <com.helpshift.views.HSTextView
             android:id="@+id/admin_date_text"
-            style="@style/Helpshift.Style.AdminMessageDate"/>
+            style="@style/Helpshift.Style.AdminMessageDate" />
     </LinearLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 </LinearLayout>

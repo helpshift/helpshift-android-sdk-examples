@@ -29,5 +29,5 @@
         android:paddingStart="@dimen/hs__msgPreferredItemPaddingLeft"
         android:textColor="?attr/hs__chatBubbleAdminText"
         android:textColorLink="?attr/hs__chatBubbleAdminLink"
-        android:textSize="@dimen/hs__textSizeMedium"/>
+        android:textSize="@dimen/hs__textSizeMedium" />
 </LinearLayout>

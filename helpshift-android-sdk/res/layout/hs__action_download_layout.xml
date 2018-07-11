@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@+id/download_button"
-             xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/download_button"
              android:layout_width="@dimen/hs__download_icon_preview_size"
              android:layout_height="@dimen/hs__download_icon_preview_size">
 
@@ -8,12 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/hs__action_download_background"
-        android:tint="?colorAccent"/>
+        android:tint="?colorAccent" />
 
     <ImageView
         android:id="@+id/hs_download_foreground_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/hs__action_download"
-        android:tint="?attr/hs__chatBubbleMediaBackgroundColor"/>
+        android:tint="?attr/hs__chatBubbleMediaBackgroundColor" />
 </FrameLayout>

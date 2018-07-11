@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hs__csat_rating_value">
-    <item quantity="one">Ohodnotili jste službu 1 hvězdičkou.</item>
-    <item quantity="other">Počet hvězdiček, které jste službě udělili: %d</item>
-  </plurals>
+        <item quantity="one">Ohodnotili jste službu 1 hvězdičkou.</item>
+        <item quantity="other">Počet hvězdiček, které jste službě udělili: %d</item>
+    </plurals>
     <plurals name="hs__notification_content_title">
-    <item quantity="one">Nová zpráva z podpory</item>
-    <item quantity="other">Počet nových zpráv z podpory: %d</item>
-  </plurals>
+        <item quantity="one">Nová zpráva z podpory</item>
+        <item quantity="other">Počet nových zpráv z podpory: %d</item>
+    </plurals>
     <string name="hs__agent_message_voice_over">Nová zpráva z podpory z %s</string>
     <string name="hs__agent_message_with_name_voice_over">Nová zpráva z podpory od %1$s z %2$s</string>
     <string name="hs__app_review_button">HODNOCENÍ</string>
@@ -49,7 +49,7 @@
     <string name="hs__change_btn">Změnit</string>
     <string name="hs__chat_hint">Zadejte svoji zprávu</string>
     <string name="hs__confirmation_footer_msg">Děkujeme za vaši zprávu!</string>
-    <string name="hs__confirmation_msg">Zodpověděli jsme všechny vaše dotazy? </string>
+    <string name="hs__confirmation_msg">Zodpověděli jsme všechny vaše dotazy?</string>
     <string name="hs__connecting">Spojovací...</string>
     <string name="hs__contact_us_btn">KONTAKTUJE NÁS</string>
     <string name="hs__conversation_detail_error">Prosím, popište váš problém</string>
@@ -58,31 +58,37 @@
     <string name="hs__conversation_info_header">Informace</string>
     <string name="hs__conversation_info_issue_id">ID problému</string>
     <string name="hs__conversation_info_menu_item_title">Informace o problému</string>
-    <string name="hs__conversation_started_message">Vaše zpráva byla přijata. Děkujeme, že jste se na nás obrátili!</string>
+    <string name="hs__conversation_started_message">Vaše zpráva byla přijata. Děkujeme, že jste se na nás obrátili!
+    </string>
     <string name="hs__copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="hs__copy">Kopírovat</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopírovat do schránky</string>
     <string name="hs__could_not_open_attachment_msg">Žádná aplikace není schopna této akce.</string>
     <string name="hs__could_not_reach_support_msg">Technickou podporu není možné kontaktovat.</string>
-    <string name="hs__cr_msg">S čím vám ještě můžeme pomoci? </string>
+    <string name="hs__cr_msg">S čím vám ještě můžeme pomoci?</string>
     <string name="hs__csat_additonal_feedback_message">Nějaká další zpětná vazba? (volitelné)</string>
-    <string name="hs__csat_dislike_message">Byla příšerná </string>
-    <string name="hs__csat_like_message">Byla skvělá </string>
+    <string name="hs__csat_dislike_message">Byla příšerná</string>
+    <string name="hs__csat_like_message">Byla skvělá</string>
     <string name="hs__csat_message">Jakou zpětnou vazbu byste poskytli naší zákaznické podpoře?</string>
     <string name="hs__csat_option_message">nebo</string>
     <string name="hs__csat_ratingbar">Prosím ohodnoťte naše služby.</string>
     <string name="hs__csat_submit_toast">Děkujeme za vaše hodnocení.</string>
     <string name="hs__data_not_found_msg">Data nenalezena</string>
+    <string name="hs__date_input_validation_error">Zadejte platné datum</string>
     <string name="hs__default_notification_channel_name">Podpora v aplikaci</string>
     <string name="hs__default_notification_content_title">Podpora</string>
-    <string name="hs__description_invalid_length_error">Abychom vám mohli lépe pomoci, poskytněte prosím podrobnější informace</string>
+    <string name="hs__description_invalid_length_error">Abychom vám mohli lépe pomoci, poskytněte prosím podrobnější
+        informace
+    </string>
     <string name="hs__done_btn">Hotovo</string>
     <string name="hs__email_hint">E-mail (volitelné)</string>
     <string name="hs__email_input_validation_error">Zadejte platnou e-mailovou adresu</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__faq_fetching_fail_message">Momentálně není možné načíst často kladené dotazy. Prosím zkuste to za chvíli...</string>
+    <string name="hs__faq_fetching_fail_message">Momentálně není možné načíst často kladené dotazy. Prosím zkuste to za
+        chvíli...
+    </string>
     <string name="hs__faqs_search_footer">Často kladené dotazy nenalezeny</string>
-    <string name="hs__feedback_button">Odeslat zpětnou vazbu </string>
+    <string name="hs__feedback_button">Odeslat zpětnou vazbu</string>
     <string name="hs__fetching_faqs_message">Získávání odpovědí...</string>
     <string name="hs__file_not_found_msg">Soubor nenalezen</string>
     <string name="hs__help_header">Nápověda</string>
@@ -92,8 +98,13 @@
     <string name="hs__invalid_description_error">Neplatný popis</string>
     <string name="hs__invalid_email_error">Prosím, zadejte platný e-mail</string>
     <string name="hs__invalid_faq_publish_id_error">Nepodařilo se nám najít často kladené otázky s tímto ID</string>
-    <string name="hs__invalid_section_publish_id_error">Nepodařilo se nám najít oddíl s často kladenými otázkami s tímto ID</string>
-    <string name="hs__issue_archival_message">Omlouváme se! Tato konverzace byla uzavřena z důvodu nečinnosti. Prosím, zahajte novou konverzaci s našimi agenty.</string>
+    <string name="hs__invalid_section_publish_id_error">Nepodařilo se nám najít oddíl s často kladenými otázkami s tímto
+        ID
+    </string>
+    <string name="hs__issue_archival_message">Omlouváme se! Tato konverzace byla uzavřena z důvodu nečinnosti. Prosím,
+        zahajte novou konverzaci s našimi agenty.
+    </string>
+    <string name="hs__landscape_date_input_validation_error">Zadejte prosím platné datum</string>
     <string name="hs__landscape_email_input_validation_error">Prosím, zadejte platný e-mail</string>
     <string name="hs__landscape_input_validation_dialog_title">Chyba</string>
     <string name="hs__landscape_number_input_validation_error">Prosím zadejte platné číslo</string>
@@ -106,18 +117,22 @@
     <string name="hs__network_reconnecting_error">Něco se pokazilo. Připojení ...</string>
     <string name="hs__network_unavailable_msg">Síť není k dispozici.</string>
     <string name="hs__new_conversation_btn">ZAHÁJIT NOVOU KONVERZACI</string>
-    <string name="hs__new_conversation_footer_generic_reason">Promiň, něco se pokazilo. Tuto konverzaci nelze pokračovat.</string>
+    <string name="hs__new_conversation_footer_generic_reason">Promiň, něco se pokazilo. Tuto konverzaci nelze
+        pokračovat.
+    </string>
     <string name="hs__new_conversation_header">Nová konverzace</string>
     <string name="hs__new_conversation_hint">Jak můžeme pomoci?</string>
     <string name="hs__no_internet_error">Žádné internetové připojení</string>
     <string name="hs__no_internet_error_mgs">Zkontrolujte síťové připojení.</string>
     <string name="hs__no_search_results_message">Jejda! Nepodařilo se nalézt žádné výsledky</string>
     <string name="hs__number_input_validation_error">Zadejte platné číslo</string>
-    <string name="hs__permission_denied_message">Pro přístup ke screenshotům a stahování příloh je nutné oprávnění na úrovni ukládání</string>
+    <string name="hs__permission_denied_message">Pro přístup ke screenshotům a stahování příloh je nutné oprávnění na
+        úrovni ukládání
+    </string>
     <string name="hs__permission_denied_snackbar_action">Nastavení</string>
     <string name="hs__permission_not_granted">Aplikace nemá oprávnění přistupovat k vašim fotografiím</string>
-    <string name="hs__permission_rationale_snackbar_action_label">OK </string>
-    <string name="hs__question_header"> </string>
+    <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Informace jste vyhodnotili jako užitečné</string>
     <string name="hs__question_unhelpful_message">Informace jste vyhodnotili jako neužitečné</string>
     <string name="hs__rate_button">Hodnotit</string>
@@ -129,7 +144,9 @@
     <string name="hs__review_request_message">Chtěli byste aplikaci ohodnotit v Google Play?</string>
     <string name="hs__review_title">Ohodnoťte naši aplikaci</string>
     <string name="hs__screenshot_add">Přidat</string>
-    <string name="hs__screenshot_cloud_attach_error">Chyba při nahrávání screenshotu. Prosím, vyberte obrázek na svém zařízení.</string>
+    <string name="hs__screenshot_cloud_attach_error">Chyba při nahrávání screenshotu. Prosím, vyberte obrázek na svém
+        zařízení.
+    </string>
     <string name="hs__screenshot_limit_error">Velikost screenshotu by neměla přesáhnout %.2f MB</string>
     <string name="hs__screenshot_remove">Odebrat</string>
     <string name="hs__screenshot_upload_error_msg">Chyba při nahrávání screenshotu</string>
@@ -143,8 +160,12 @@
     <string name="hs__send_msg_btn">ODESLAT</string>
     <string name="hs__sending_fail_msg">Odeslání se nezdařilo</string>
     <string name="hs__sending_msg">Odesílání</string>
-    <string name="hs__ssl_handshake_error">Vaše připojení není zabezpečené. Vyskytl se problém s vytvořením zabezpečeného připojení.</string>
-    <string name="hs__ssl_peer_unverified_error">Vaše připojení není bezpečné. Došlo k problému při ověřování jeho důvěryhodnosti.</string>
+    <string name="hs__ssl_handshake_error">Vaše připojení není zabezpečené. Vyskytl se problém s vytvořením
+        zabezpečeného připojení.
+    </string>
+    <string name="hs__ssl_peer_unverified_error">Vaše připojení není bezpečné. Došlo k problému při ověřování jeho
+        důvěryhodnosti.
+    </string>
     <string name="hs__starting_download">Zahájení stahování...</string>
     <string name="hs__submit_conversation_btn">Odeslat</string>
     <string name="hs__tap_to_retry">Zmáčkni pro opakování</string>

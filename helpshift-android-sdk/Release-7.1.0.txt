@@ -1,4 +1,4 @@
-Helpshift SDK 7.0.1 Release Notes (for Android)
+Helpshift SDK 7.1.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,7 +11,18 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.1.0 Release Date: July 10, 2018
+      * Introduced support for Issue Selection Bots and Custom Bots.
+      * Fixed a bug where the Campaigns poller was not stopped when the app is in the background.
+      * Fixed a bug where a duplicate attachment was sent again if the user turned off the internet while sending was in progress.
+      * Fixed a bug where the name field was not updated if the same user logged in again with a different name.
+      * Fixed an edge case crash that would occur as a result of the concurrent modification exception.
+      * Fixed a bug where multiple taps on a button would open up multiple FAQ screens.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely during network connectivity problems.
+      * Fixed an edge case crash that would occur when starting a new Conversation.
 7.0.1 Release Date: May 10, 2018
+      * Fixed a rare bug where the user is stuck on a conversation due to race condition in network calls.
+7.0.1-support Release Date: May 10, 2018
       * Fixed a rare bug where the user is stuck on a conversation due to race condition in network calls.
 7.0.0 Release Date: April 23, 2018
       * Introduced new updates to the in-app messaging experience. Here's our guide on how to onboard to the new experience. (https://support.helpshift.com/kb/article/what-is-conversational-issue-filing-and-how-do-i-set-it-up/).

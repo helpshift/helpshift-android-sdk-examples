@@ -16,14 +16,14 @@
             android:id="@+id/list_fragment_container"
             android:layout_width="0.01dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <View
             android:id="@+id/vertical_divider"
             style="@style/HSDivider"
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <FrameLayout
             android:layout_width="0dp"
@@ -39,17 +39,17 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
                 android:gravity="center"
                 android:text="@string/hs__select_a_question_message"
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
             <FrameLayout
                 android:id="@+id/details_fragment_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
         </FrameLayout>
     </LinearLayout>
 
     <FrameLayout
         android:id="@+id/single_question_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 </FrameLayout>

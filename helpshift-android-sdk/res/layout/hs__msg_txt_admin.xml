@@ -23,16 +23,16 @@
             <com.helpshift.views.HSTextView
                 android:id="@+id/admin_message_text"
                 style="@style/Helpshift.Style.AdminTextMessage"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center" />
         </LinearLayout>
 
         <com.helpshift.views.HSTextView
             android:id="@+id/admin_date_text"
-            style="@style/Helpshift.Style.AdminMessageDate"/>
+            style="@style/Helpshift.Style.AdminMessageDate" />
     </LinearLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 </LinearLayout>

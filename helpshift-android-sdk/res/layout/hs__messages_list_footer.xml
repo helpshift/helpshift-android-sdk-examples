@@ -18,7 +18,7 @@
         android:paddingTop="@dimen/activity_horizontal_margin_medium"
         android:textColor="?android:textColorSecondary"
         android:textSize="@dimen/hs__textSizeSmall"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <LinearLayout
         android:id="@+id/hs__new_conversation"
@@ -34,14 +34,14 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginBottom="16dp"
-            android:background="?attr/hs__separatorColor"/>
+            android:background="?attr/hs__separatorColor" />
 
         <include
             android:id="@+id/csat_view_layout"
             layout="@layout/hs__csat_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <com.helpshift.views.HSTextView
             android:id="@+id/hs__new_conversation_footer_reason"
@@ -64,6 +64,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="18dp"
-            android:text="@string/hs__new_conversation_btn"/>
+            android:text="@string/hs__new_conversation_btn" />
     </LinearLayout>
 </LinearLayout>

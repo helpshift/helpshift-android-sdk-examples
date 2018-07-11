@@ -5,16 +5,16 @@
     android:layout_height="wrap_content">
 
     <com.helpshift.views.HSTextView xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_centerHorizontal="true"
-              android:gravity="center_horizontal"
-              android:paddingBottom="16dp"
-              android:paddingLeft="@dimen/hs_issue_archival_view_horizontal_margin"
-              android:paddingRight="@dimen/hs_issue_archival_view_horizontal_margin"
-              android:paddingTop="8dp"
-              android:text="@string/hs__issue_archival_message"
-              android:textColor="?android:textColorSecondary"
-              android:textSize="@dimen/hs__textSizeMedium">
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center_horizontal"
+                                    android:paddingBottom="16dp"
+                                    android:paddingLeft="@dimen/hs_issue_archival_view_horizontal_margin"
+                                    android:paddingRight="@dimen/hs_issue_archival_view_horizontal_margin"
+                                    android:paddingTop="8dp"
+                                    android:text="@string/hs__issue_archival_message"
+                                    android:textColor="?android:textColorSecondary"
+                                    android:textSize="@dimen/hs__textSizeMedium">
     </com.helpshift.views.HSTextView>
 </RelativeLayout>

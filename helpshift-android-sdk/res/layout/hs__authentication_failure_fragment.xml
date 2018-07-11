@@ -12,7 +12,7 @@
         android:layout_width="44dp"
         android:layout_height="44dp"
         android:alpha="0.30"
-        android:background="@drawable/hs__error_icon"/>
+        android:background="@drawable/hs__error_icon" />
 
     <com.helpshift.views.HSTextView
         android:id="@+id/authentication_failed_title"
@@ -22,7 +22,7 @@
         android:text="@string/hs__authentication_failed"
         android:textColor="?android:textColorSecondary"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <com.helpshift.views.HSTextView
         android:id="@+id/authentication_failed_body"
@@ -32,5 +32,5 @@
         android:alpha="0.60"
         android:text="@string/hs__try_again_msg"
         android:textColor="?android:textColorSecondary"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 </LinearLayout>

@@ -40,7 +40,7 @@ public class HelpshiftDemoActivity extends Activity {
         @Override
         public void onClick(View view) {
           ApiConfig.Builder configBuilder = new ApiConfig.Builder();
-          configBuilder.setEnableFullPrivacy(true);
+          configBuilder.setShowConversationInfoScreen(true);
           Support.showConversation(HelpshiftDemoActivity.this, configBuilder.build());
         }
       });

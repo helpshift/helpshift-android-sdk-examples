@@ -6,4 +6,4 @@
     android:layout_height="wrap_content"
     android:maxWidth="9999dp"
     android:orientation="vertical"
-    app:queryHint="@string/hs__search_hint"/>
+    app:queryHint="@string/hs__search_hint" />
