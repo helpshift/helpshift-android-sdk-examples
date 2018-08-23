@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">يُرجى وصف مشكلتك</string>
     <string name="hs__conversation_end_msg">لقد انتهت المحادثة.</string>
     <string name="hs__conversation_header">محادثة</string>
-    <string name="hs__conversation_info_header">معلومات</string>
-    <string name="hs__conversation_info_issue_id">معرّف المشكلة</string>
-    <string name="hs__conversation_info_menu_item_title">معلومات عن المشكلة</string>
+    <string name="hs__conversation_issue_id_header">ID المحادثة: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">ID المحادثة: %1$s</string>
+    <string name="hs__conversation_redacted_status">تم حذف المحادثة</string>
+    <string name="hs__conversation_redacted_status_multiple">تم حذف محادثات %1$d</string>
+    <string name="hs__conversation_rejected_status">تم غلق المحادثة</string>
     <string name="hs__conversation_started_message">تم تلقي رسالتك. نشكرك على اتصالك بنا!</string>
+    <string name="hs__conversations_divider_voice_over">انتهت المحادثة</string>
     <string name="hs__copied_to_clipboard">تم النسخ إلى الحافظة</string>
     <string name="hs__copy">نسخ</string>
     <string name="hs__copy_to_clipboard_tooltip">النسخ إلى الحافظة</string>
@@ -99,6 +102,8 @@
     <string name="hs__issue_archival_message">عفوًا! تم إغلاق هذه المحادثة نظرًا لعدم وجود نشاط بها. يُرجى بدء محادثة
         جديدة مع مندوبينا.
     </string>
+    <string name="hs__jump_button_voice_over">الانتقال السريع إلى الرسالة الأخيرة</string>
+    <string name="hs__jump_button_with_new_message_voice_over">انتقال إلى رسالة جديدة</string>
     <string name="hs__landscape_date_input_validation_error">يُرجى إدخال تاريخ صالح.</string>
     <string name="hs__landscape_email_input_validation_error">يُرجى إدخال عنوان بريد إلكتروني صحيح</string>
     <string name="hs__landscape_input_validation_dialog_title">خطأ</string>
@@ -107,11 +112,13 @@
     <string name="hs__mark_yes">نعم</string>
     <string name="hs__mark_yes_no_question">هل ساعدك ذلك؟</string>
     <string name="hs__message_not_sent">لم يتم إرسال الرسالة.</string>
+    <string name="hs__messages_loading_error_text">لا يمكن تحميل الرسائل</string>
+    <string name="hs__messages_loading_text">جارٍ تحميل الرسائل...</string>
     <string name="hs__network_error_msg">عفوًا! لقد وقع خطأ ما</string>
     <string name="hs__network_error_pre_issue_creation">خطأ في الشبكة</string>
     <string name="hs__network_reconnecting_error">هناك خطأ ما. إعادة ربط ...</string>
     <string name="hs__network_unavailable_msg">الشبكة غير متاحة.</string>
-    <string name="hs__new_conversation_btn">بدء محادثة جديدة</string>
+    <string name="hs__new_conversation_btn">محادثة جديدة</string>
     <string name="hs__new_conversation_footer_generic_reason">عذرا، هناك خطأ ما. هذه المحادثة لا يمكن أن تستمر.</string>
     <string name="hs__new_conversation_header">محادثة جديدة</string>
     <string name="hs__new_conversation_hint">كيف يمكننا المساعدة؟</string>

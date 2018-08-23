@@ -64,6 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="18dp"
-            android:text="@string/hs__new_conversation_btn" />
+            android:text="@string/hs__new_conversation_btn"
+            android:textAllCaps="false"
+            android:textSize="@dimen/hs__textSizeSmall" />
     </LinearLayout>
 </LinearLayout>

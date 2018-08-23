@@ -56,12 +56,15 @@
     <string name="hs__conversation_detail_error">Descriu el teu problema</string>
     <string name="hs__conversation_end_msg">Aquesta conversa ha finalitzat.</string>
     <string name="hs__conversation_header">Conversa</string>
-    <string name="hs__conversation_info_header">Informació</string>
-    <string name="hs__conversation_info_issue_id">Identificador del problema</string>
-    <string name="hs__conversation_info_menu_item_title">Informació del problema</string>
+    <string name="hs__conversation_issue_id_header">ID de conversa: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">ID de conversa: %1$s</string>
+    <string name="hs__conversation_redacted_status">Conversa suprimida</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d converses suprimides</string>
+    <string name="hs__conversation_rejected_status">Conversa tancada</string>
     <string name="hs__conversation_started_message">Hem rebut el teu missatge. Gràcies per posar-te en contacte amb
         nosaltres.
     </string>
+    <string name="hs__conversations_divider_voice_over">Conversa finalitzada</string>
     <string name="hs__copied_to_clipboard">S\'ha copiat al porta-retalls.</string>
     <string name="hs__copy">Copia</string>
     <string name="hs__copy_to_clipboard_tooltip">Copia-ho al porta-retalls</string>
@@ -106,6 +109,8 @@
     <string name="hs__issue_archival_message">Aquesta conversa s\'ha tancat perquè estava inactiva. Comença una nova
         conversa amb els nostres agents.
     </string>
+    <string name="hs__jump_button_voice_over">Anar al missatge més recent</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Vés a un nou missatge</string>
     <string name="hs__landscape_date_input_validation_error">Introdueix una data vàlida.</string>
     <string name="hs__landscape_email_input_validation_error">Introdueix una adreça electrònica vàlida</string>
     <string name="hs__landscape_input_validation_dialog_title">Error</string>
@@ -114,11 +119,13 @@
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">Ha estat d\'ajuda?</string>
     <string name="hs__message_not_sent">No s\'ha enviat el missatge.</string>
+    <string name="hs__messages_loading_error_text">No s\'ha pogut carregar els missatges</string>
+    <string name="hs__messages_loading_text">Carregant missatges...</string>
     <string name="hs__network_error_msg">S\'ha produït un error</string>
     <string name="hs__network_error_pre_issue_creation">Error de connexió</string>
     <string name="hs__network_reconnecting_error">Alguna cosa ha anat malament. Torna a connectar ...</string>
     <string name="hs__network_unavailable_msg">Xarxa no disponible.</string>
-    <string name="hs__new_conversation_btn">COMENÇAR UNA NOVA CONVERSA</string>
+    <string name="hs__new_conversation_btn">Conversa</string>
     <string name="hs__new_conversation_footer_generic_reason">Ho sentim, alguna cosa ha anat malament. Aquesta conversa
         no es pot continuar.
     </string>

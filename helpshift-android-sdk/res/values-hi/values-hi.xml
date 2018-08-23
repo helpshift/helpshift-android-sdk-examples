@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">कृपया आपकी समस्या को बताएं</string>
     <string name="hs__conversation_end_msg">यह वार्तालाप समाप्त हो चुका है</string>
     <string name="hs__conversation_header">वार्तालाप</string>
-    <string name="hs__conversation_info_header">जानकारी</string>
-    <string name="hs__conversation_info_issue_id">समस्या ID</string>
-    <string name="hs__conversation_info_menu_item_title">समस्या की जानकारी</string>
+    <string name="hs__conversation_issue_id_header">वार्तालाप ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">वार्तालाप ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">बातचीत मिटा दी गई</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d बातचीत मिटा दी गई है</string>
+    <string name="hs__conversation_rejected_status">बातचीत बंद कर दी गई है</string>
     <string name="hs__conversation_started_message">आपका संदेश प्राप्त हो गया है। हमें संपर्क करने के लिए धन्यवाद!
     </string>
+    <string name="hs__conversations_divider_voice_over">बातचीत ख़त्म हो गई</string>
     <string name="hs__copied_to_clipboard">क्लिपबोर्ड पर कॉपी हुआ</string>
     <string name="hs__copy">कॉपी करें</string>
     <string name="hs__copy_to_clipboard_tooltip">क्लिपबोर्ड पर कॉपी करें</string>
@@ -101,6 +104,8 @@
     <string name="hs__issue_archival_message">माफ करें! निष्क्रियता के कारण यह वार्तालाप बंद कर दिया गया था. कृपया हमारे
         एजेंटों के साथ नया वार्तालाप आरंभ करें.
     </string>
+    <string name="hs__jump_button_voice_over">सबसे नए मैसेज पर जाएं</string>
+    <string name="hs__jump_button_with_new_message_voice_over">नया संदेश पर जाएं</string>
     <string name="hs__landscape_date_input_validation_error">कृपया वैध तारीख डालें</string>
     <string name="hs__landscape_email_input_validation_error">कृपया एक मान्य ईमेल दर्ज करें</string>
     <string name="hs__landscape_input_validation_dialog_title">त्रुटि</string>
@@ -109,11 +114,13 @@
     <string name="hs__mark_yes">हाँ</string>
     <string name="hs__mark_yes_no_question">क्या यह उपयोगी था?</string>
     <string name="hs__message_not_sent">संदेश नहीं भेजा गया.</string>
+    <string name="hs__messages_loading_error_text">संदेशों को लोड नहीं किया जा सका</string>
+    <string name="hs__messages_loading_text">मैसेज लोड किए जा रहे हैं...</string>
     <string name="hs__network_error_msg">उफ! कुछ गलत हुआ</string>
     <string name="hs__network_error_pre_issue_creation">नेटवर्क त्रुटि</string>
     <string name="hs__network_reconnecting_error">कुछ गलत हो गया। पुन: कनेक्ट ...</string>
     <string name="hs__network_unavailable_msg">नेटवर्क उपलब्ध नहीं.</string>
-    <string name="hs__new_conversation_btn">नया वार्तालाप शुरू करें</string>
+    <string name="hs__new_conversation_btn">नया वार्तालाप</string>
     <string name="hs__new_conversation_footer_generic_reason">क्षमा करें, कुछ गलत हो गया। यह बातचीत जारी नहीं की जा
         सकती
     </string>

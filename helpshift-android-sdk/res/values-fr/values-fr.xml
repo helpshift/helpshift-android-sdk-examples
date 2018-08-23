@@ -56,10 +56,13 @@
     <string name="hs__conversation_detail_error">Décrivez votre problème.</string>
     <string name="hs__conversation_end_msg">Cette conversation est terminée.</string>
     <string name="hs__conversation_header">Conversation</string>
-    <string name="hs__conversation_info_header">Informations</string>
-    <string name="hs__conversation_info_issue_id">Identifiant du problème</string>
-    <string name="hs__conversation_info_menu_item_title">Information sur le problème</string>
+    <string name="hs__conversation_issue_id_header">ID de conversation: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">ID de conversation: %1$s</string>
+    <string name="hs__conversation_redacted_status">Conversation supprimée</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d conversations supprimées</string>
+    <string name="hs__conversation_rejected_status">Conversation fermée</string>
     <string name="hs__conversation_started_message">Votre message a été reçu. Merci de nous avoir contactés !</string>
+    <string name="hs__conversations_divider_voice_over">Conversation terminée</string>
     <string name="hs__copied_to_clipboard">Copié dans le Presse-papiers</string>
     <string name="hs__copy">Copier</string>
     <string name="hs__copy_to_clipboard_tooltip">Copier dans le Presse-papier</string>
@@ -104,6 +107,8 @@
     <string name="hs__issue_archival_message">Nous sommes désolés ! Cette conversation a été fermée pour inactivité.
         Veuillez commencer une nouvelle conversation avec nos agents.
     </string>
+    <string name="hs__jump_button_voice_over">Se rendre au dernier message</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Aller au nouveau message</string>
     <string name="hs__landscape_date_input_validation_error">Veuillez saisir une date valide.</string>
     <string name="hs__landscape_email_input_validation_error">Entrez une adresse e-mail valide.</string>
     <string name="hs__landscape_input_validation_dialog_title">Erreur</string>
@@ -112,11 +117,13 @@
     <string name="hs__mark_yes">Oui</string>
     <string name="hs__mark_yes_no_question">Cela a-t-il été utile ?</string>
     <string name="hs__message_not_sent">Message non envoyé.</string>
+    <string name="hs__messages_loading_error_text">Impossible de charger les messages</string>
+    <string name="hs__messages_loading_text">Chargement des messages...</string>
     <string name="hs__network_error_msg">Oups ! Une erreur s\'est produite.</string>
     <string name="hs__network_error_pre_issue_creation">Erreur de réseau</string>
     <string name="hs__network_reconnecting_error">Quelque chose s\'est mal passé. Reconnecter ...</string>
     <string name="hs__network_unavailable_msg">Réseau indisponible.</string>
-    <string name="hs__new_conversation_btn">LANCER UNE NOUVELLE CONVERSATION</string>
+    <string name="hs__new_conversation_btn">Nouvelle conversation</string>
     <string name="hs__new_conversation_footer_generic_reason">Désolé, quelque chose s\'est mal passé. Cette conversation
         ne peut pas être continuée.
     </string>

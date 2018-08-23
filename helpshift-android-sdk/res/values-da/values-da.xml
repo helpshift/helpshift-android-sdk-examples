@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">Beskriv dit problem</string>
     <string name="hs__conversation_end_msg">Denne besked er slut.</string>
     <string name="hs__conversation_header">Besked</string>
-    <string name="hs__conversation_info_header">Oplysninger</string>
-    <string name="hs__conversation_info_issue_id">Problem-id</string>
-    <string name="hs__conversation_info_menu_item_title">Problemoplysninger</string>
+    <string name="hs__conversation_issue_id_header">Samtale ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Samtale ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Samtale slettet</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Samtaler slettet</string>
+    <string name="hs__conversation_rejected_status">Samtale lukket</string>
     <string name="hs__conversation_started_message">Vi har modtaget din besked. Tak fordi du kontaktede os!</string>
+    <string name="hs__conversations_divider_voice_over">Samtale afsluttet</string>
     <string name="hs__copied_to_clipboard">Kopieret til udklipsholder</string>
     <string name="hs__copy">Kopiér</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopiér til udklipsholder</string>
@@ -99,6 +102,8 @@
     <string name="hs__issue_archival_message">Vi beklager! Denne samtale blev lukket pga. inaktivitet. Start en ny
         samtale med vores agenter.
     </string>
+    <string name="hs__jump_button_voice_over">Gå til seneste besked</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Hop til New Message</string>
     <string name="hs__landscape_date_input_validation_error">Indtast venligst en gyldig dato.</string>
     <string name="hs__landscape_email_input_validation_error">Indtast en gyldig e-mailadresse</string>
     <string name="hs__landscape_input_validation_dialog_title">Fejl</string>
@@ -107,11 +112,13 @@
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Kunne du bruge denne information?</string>
     <string name="hs__message_not_sent">Beskeden blev ikke sendt.</string>
+    <string name="hs__messages_loading_error_text">Kunne ikke indlæse Beskeder</string>
+    <string name="hs__messages_loading_text">Indlæser beskeder ...</string>
     <string name="hs__network_error_msg">Ups! Der opstod en fejl</string>
     <string name="hs__network_error_pre_issue_creation">Netværksfejl</string>
     <string name="hs__network_reconnecting_error">Noget gik galt. Gentilslutning ...</string>
     <string name="hs__network_unavailable_msg">Netværk ikke fundet.</string>
-    <string name="hs__new_conversation_btn">START EN NY BESKED</string>
+    <string name="hs__new_conversation_btn">Ny besked</string>
     <string name="hs__new_conversation_footer_generic_reason">Undskyld, noget gik galt. Denne samtale kan ikke
         fortsættes.
     </string>

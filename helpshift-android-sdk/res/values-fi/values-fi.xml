@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">Kuvaile ongelmasi</string>
     <string name="hs__conversation_end_msg">Tämä keskustelu on päättynyt.</string>
     <string name="hs__conversation_header">Keskustelu</string>
-    <string name="hs__conversation_info_header">Tiedot</string>
-    <string name="hs__conversation_info_issue_id">Ongelman tunnus</string>
-    <string name="hs__conversation_info_menu_item_title">Ongelman tiedot</string>
+    <string name="hs__conversation_issue_id_header">Conversation ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Conversation ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Keskustelu poistettu</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d keskustelua poistettu</string>
+    <string name="hs__conversation_rejected_status">Keskustelu suljettu</string>
     <string name="hs__conversation_started_message">Viestisi on vastaanotettu. Kiitos, että otit meihin yhteyttä!
     </string>
+    <string name="hs__conversations_divider_voice_over">Keskustelu päättynyt</string>
     <string name="hs__copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="hs__copy">Kopioi</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopioi leikepöydälle</string>
@@ -99,6 +102,8 @@
     <string name="hs__issue_archival_message">Pahoittelut! Tämä keskustelu on suljettu, koska se ei ole ollut
         aktiivinen. Aloita uusi keskustelu agenttiemme kanssa.
     </string>
+    <string name="hs__jump_button_voice_over">Hyppää uusimpaan viestiin</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Hypätä Uusi viesti</string>
     <string name="hs__landscape_date_input_validation_error">Kirjoita kelvollinen päivämäärä.</string>
     <string name="hs__landscape_email_input_validation_error">Kirjoita oikea sähköposti</string>
     <string name="hs__landscape_input_validation_dialog_title">Virhe</string>
@@ -107,11 +112,13 @@
     <string name="hs__mark_yes">Kyllä</string>
     <string name="hs__mark_yes_no_question">Oliko tästä apua?</string>
     <string name="hs__message_not_sent">Viestiä ei lähetetty.</string>
+    <string name="hs__messages_loading_error_text">Viestien lataus epäonnistui</string>
+    <string name="hs__messages_loading_text">Ladataan viestejä...</string>
     <string name="hs__network_error_msg">Hups! Jokin meni pieleen</string>
     <string name="hs__network_error_pre_issue_creation">Verkkovirhe</string>
     <string name="hs__network_reconnecting_error">Jotain meni pieleen. Yhdistetään uudelleen ...</string>
     <string name="hs__network_unavailable_msg">Ei verkkoa käytettävissä.</string>
-    <string name="hs__new_conversation_btn">ALOITA UUSI KESKUSTELU</string>
+    <string name="hs__new_conversation_btn">Uusi keskustelu</string>
     <string name="hs__new_conversation_footer_generic_reason">Pahoittelut, jotain meni pieleen. Tätä keskustelua ei voi
         jatkaa.
     </string>

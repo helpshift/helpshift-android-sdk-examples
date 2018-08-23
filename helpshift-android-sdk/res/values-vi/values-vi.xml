@@ -55,12 +55,15 @@
     <string name="hs__conversation_detail_error">Vui lòng mô tả vấn đề của bạn</string>
     <string name="hs__conversation_end_msg">Cuộc hội thoại này đã chấm dứt.</string>
     <string name="hs__conversation_header">Hội thoại</string>
-    <string name="hs__conversation_info_header">Thông tin</string>
-    <string name="hs__conversation_info_issue_id">Cấp ID</string>
-    <string name="hs__conversation_info_menu_item_title">Cấp thông tin</string>
+    <string name="hs__conversation_issue_id_header">Đối thoại ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Đối thoại ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Đã xóa cuộc hội thoại</string>
+    <string name="hs__conversation_redacted_status_multiple">Đã xóa %1$d cuộc hội thoại</string>
+    <string name="hs__conversation_rejected_status">Đã đóng cuộc hội thoại</string>
     <string name="hs__conversation_started_message">Chúng tôi đã nhận được tin nhắn của bạn. Cảm ơn bạn đã liên hệ với
         chúng tôi.
     </string>
+    <string name="hs__conversations_divider_voice_over">Cuộc hội thoại đã kết thúc</string>
     <string name="hs__copied_to_clipboard">Đã sao chép vào clipboard</string>
     <string name="hs__copy">Sao chép</string>
     <string name="hs__copy_to_clipboard_tooltip">Sao chép vào clipboard</string>
@@ -101,6 +104,8 @@
     <string name="hs__issue_archival_message">Rất tiếc! Tin nhắn này đã bị đóng do không có hoạt động. Vui
         lòng bắt đầu một tin nhắn mới với các nhân viên của chúng tôi.
     </string>
+    <string name="hs__jump_button_voice_over">Chuyển sang tin nhắn mới nhất</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Chuyển đến New nhắn</string>
     <string name="hs__landscape_date_input_validation_error">Vui lòng nhập ngày hợp lệ.</string>
     <string name="hs__landscape_email_input_validation_error">Vui lòng nhập email hợp lệ</string>
     <string name="hs__landscape_input_validation_dialog_title">lỗi</string>
@@ -109,11 +114,13 @@
     <string name="hs__mark_yes">Có</string>
     <string name="hs__mark_yes_no_question">Điều này có hữu ích không?</string>
     <string name="hs__message_not_sent">Tin nhắn chưa được gửi</string>
+    <string name="hs__messages_loading_error_text">Không thể tải tin nhắn</string>
+    <string name="hs__messages_loading_text">Đang tải tin nhắn...</string>
     <string name="hs__network_error_msg">Tiếc quá! Đã xảy ra sự cố</string>
     <string name="hs__network_error_pre_issue_creation">Lỗi mạng</string>
     <string name="hs__network_reconnecting_error">Đã xảy ra sự cố Đang kết nối lại ...</string>
     <string name="hs__network_unavailable_msg">Mạng không khả dụng.</string>
-    <string name="hs__new_conversation_btn">BẮT ĐẦU CUỘC HỘI THOẠI MỚI</string>
+    <string name="hs__new_conversation_btn">Cuộc hội thoại mới</string>
     <string name="hs__new_conversation_footer_generic_reason">Xin lỗi, có lỗi xảy ra. Không thể tiếp tục cuộc trò chuyện
         này.
     </string>

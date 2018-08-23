@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">Beskriv problemet</string>
     <string name="hs__conversation_end_msg">Samtalen er avsluttet.</string>
     <string name="hs__conversation_header">Samtale</string>
-    <string name="hs__conversation_info_header">Informasjon</string>
-    <string name="hs__conversation_info_issue_id">Emne-ID</string>
-    <string name="hs__conversation_info_menu_item_title">Emneinformasjon</string>
+    <string name="hs__conversation_issue_id_header">Samtale-ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Samtale-ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Samtale slettet</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d samtaler slettet</string>
+    <string name="hs__conversation_rejected_status">Samtale lukket</string>
     <string name="hs__conversation_started_message">Meldingen din er mottatt. Takk for at du tok kontakt!</string>
+    <string name="hs__conversations_divider_voice_over">Samtale avsluttet</string>
     <string name="hs__copied_to_clipboard">Kopiert til utklippstavlen</string>
     <string name="hs__copy">Kopier</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopier til utklippstavle</string>
@@ -97,6 +100,8 @@
     <string name="hs__issue_archival_message">Beklager, denne samtalen ble lukket på grunn av manglende aktivitet.
         Vennligst start en ny samtale med våre agenter.
     </string>
+    <string name="hs__jump_button_voice_over">Gå til siste melding</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Gå til Ny melding</string>
     <string name="hs__landscape_date_input_validation_error">Vennligst oppgi en gyldig dato.</string>
     <string name="hs__landscape_email_input_validation_error">Oppgi en gyldig e-postadresse</string>
     <string name="hs__landscape_input_validation_dialog_title">Feil</string>
@@ -105,11 +110,13 @@
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">Var dette hjelpsomt?</string>
     <string name="hs__message_not_sent">Meldingen ble ikke sendt.</string>
+    <string name="hs__messages_loading_error_text">Kunne ikke laste Meldinger</string>
+    <string name="hs__messages_loading_text">Laster inn meldinger …</string>
     <string name="hs__network_error_msg">Å, nei! Noe gikk galt.</string>
     <string name="hs__network_error_pre_issue_creation">Nettverksfeil</string>
     <string name="hs__network_reconnecting_error">Noe gikk galt. Å gjenoppta kontakten ...</string>
     <string name="hs__network_unavailable_msg">Nettverket er ikke tilgjengelig.</string>
-    <string name="hs__new_conversation_btn">START NY SAMTALE</string>
+    <string name="hs__new_conversation_btn">Ny samtale</string>
     <string name="hs__new_conversation_footer_generic_reason">Beklager, noe gikk galt. Denne samtalen kan ikke
         videreføres.
     </string>

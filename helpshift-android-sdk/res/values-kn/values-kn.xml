@@ -55,12 +55,15 @@
     <string name="hs__conversation_detail_error">ನಿಮ್ಮ ಸಮಸ್ಯೆಯ ಕುರಿತು ತಿಳಿಸಿ</string>
     <string name="hs__conversation_end_msg">ಈ ಸಂವಾದ ಅಂತ್ಯಗೊಂಡಿದೆ.</string>
     <string name="hs__conversation_header">ಸಂವಾದ</string>
-    <string name="hs__conversation_info_header">ಮಾಹಿತಿ</string>
-    <string name="hs__conversation_info_issue_id">ಸಮಸ್ಯೆ ID</string>
-    <string name="hs__conversation_info_menu_item_title">ಸಮಸ್ಯೆಯ ಮಾಹಿತಿ</string>
+    <string name="hs__conversation_issue_id_header">ಸಂವಾದ ಐಡಿ: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">ಸಂವಾದ ಐಡಿ: %1$s</string>
+    <string name="hs__conversation_redacted_status">ಸಂವಾದ ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d ಸಂವಾದಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="hs__conversation_rejected_status">ಸಂವಾದ ಮುಚ್ಚಿದೆ</string>
     <string name="hs__conversation_started_message">ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿದ್ದಕ್ಕೆ
         ಧನ್ಯವಾದಗಳು!
     </string>
+    <string name="hs__conversations_divider_voice_over">ಸಂವಾದ ಮುಕ್ತಾಯಗೊಂಡಿದೆ</string>
     <string name="hs__copied_to_clipboard">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ</string>
     <string name="hs__copy">ನಕಲಿಸು</string>
     <string name="hs__copy_to_clipboard_tooltip">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸು</string>
@@ -104,6 +107,8 @@
     <string name="hs__issue_archival_message">ಕ್ಷಮಿಸಿ! ನಿಷ್ಕ್ರಿಯತೆಯ ಕಾರಣ ಈ ಸಂವಾದವನ್ನು ಮುಚ್ಚಲಾಗಿದೆ. ನಮ್ಮ ಏಜೆಂಟ್‌ಗಳ ಜೊತೆಗೆ
         ಹೊಸ ಸಂವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಿ.
     </string>
+    <string name="hs__jump_button_voice_over">ಇತ್ತೀಚಿನ ಸಂದೇಶಕ್ಕೆ ಹೋಗಿ</string>
+    <string name="hs__jump_button_with_new_message_voice_over">ಹೊಸ ಸಂದೇಶ ಹೋಗು</string>
     <string name="hs__landscape_date_input_validation_error">ದಯವಿಟ್ಟು ಮಾನ್ಯ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
     <string name="hs__landscape_email_input_validation_error">ಮಾನ್ಯ ಇಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ</string>
     <string name="hs__landscape_input_validation_dialog_title">ದೋಷ</string>
@@ -112,11 +117,13 @@
     <string name="hs__mark_yes">ಹೌದು</string>
     <string name="hs__mark_yes_no_question">ಇದು ಉಪಯುಕ್ತವೇ?</string>
     <string name="hs__message_not_sent">ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="hs__messages_loading_error_text">ಸಂದೇಶಗಳು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+    <string name="hs__messages_loading_text">ಸಂದೇಶಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ...</string>
     <string name="hs__network_error_msg">ಓಹೋ! ಏನೋ ತಪ್ಪಾಗಿದೆ</string>
     <string name="hs__network_error_pre_issue_creation">ನೆಟ್ವರ್ಕ್ ದೋಷ</string>
     <string name="hs__network_reconnecting_error">ಏನೋ ತಪ್ಪಾಗಿದೆ. ಮರುಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ ...</string>
     <string name="hs__network_unavailable_msg">ನೆಟ್‌ವರ್ಕ್ ಲಭ್ಯವಿಲ್ಲ.</string>
-    <string name="hs__new_conversation_btn">ಹೊಸ ಸಂವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="hs__new_conversation_btn">ಹೊಸ ಸಂವಾದ</string>
     <string name="hs__new_conversation_footer_generic_reason">ಕ್ಷಮಿಸಿ, ಏನೋ ತಪ್ಪಾಗಿದೆ. ಈ ಸಂವಾದವನ್ನು
         ಮುಂದುವರಿಸಲಾಗುವುದಿಲ್ಲ.
     </string>

@@ -1,4 +1,4 @@
-Helpshift SDK 7.1.0 Release Notes (for Android)
+Helpshift SDK 7.2.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,12 +11,24 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.2.0 Release Date: August 21, 2018
+      * Introduced functionality for end users to view their past conversations. This can be managed via an Admin toggle available in the Dashboard on the App settings > the In-app SDK configuration page. Review this FAQ (https://support.helpshift.com/kb/article/how-do-i-allow-my-end-users-to-see-past-conversations) to get started.
+      * Introduced functionality for Admins to prevent users from being able to attach files in conversations. This can be managed via an Admin toggle available in the Dashboard on the app settings > the In-app SDK configuration page.
+      * Fixed an edge case bug where, if the end user sent an image attachment at the same time that the Agent rejected the Issue, the Issue would remain open on the end user side.
+      * Fixed a bug where MetadataCallable was being called twice whenever an Issue was created.
 7.1.0 Release Date: July 10, 2018
       * Introduced support for Issue Selection Bots and Custom Bots.
       * Fixed a bug where the Campaigns poller was not stopped when the app is in the background.
       * Fixed a bug where a duplicate attachment was sent again if the user turned off the internet while sending was in progress.
       * Fixed a bug where the name field was not updated if the same user logged in again with a different name.
       * Fixed an edge case crash that would occur as a result of the concurrent modification exception.
+      * Fixed a bug where multiple taps on a button would open up multiple FAQ screens.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely during network connectivity problems.
+      * Fixed an edge case crash that would occur when starting a new Conversation.
+7.1.0-support Release Date: July 10, 2018
+      * Introduced support for Issue Selection Bots and Custom Bots.
+      * Fixed a bug where a duplicate attachment was sent again if the user turned off the internet while sending was in progress.
+      * Fixed a bug where the name field was not updated if the same user logged in again with a different name.
       * Fixed a bug where multiple taps on a button would open up multiple FAQ screens.
       * Fixed an edge case bug where the typing indicator was shown indefinitely during network connectivity problems.
       * Fixed an edge case crash that would occur when starting a new Conversation.

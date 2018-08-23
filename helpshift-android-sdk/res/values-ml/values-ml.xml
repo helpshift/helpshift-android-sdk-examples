@@ -56,11 +56,14 @@
     <string name="hs__conversation_detail_error">നിങ്ങൾ നേരിടുന്ന പ്രശ്‌നം വിവരിക്കുക</string>
     <string name="hs__conversation_end_msg">ഈ ചർച്ച അവസാനിച്ചു.</string>
     <string name="hs__conversation_header">ചർച്ച</string>
-    <string name="hs__conversation_info_header">വിവരം</string>
-    <string name="hs__conversation_info_issue_id">ഇഷ്യൂ ഐഡി</string>
-    <string name="hs__conversation_info_menu_item_title">ഇഷ്യൂ വിവരം</string>
+    <string name="hs__conversation_issue_id_header">സംഭാഷണം ഐഡി: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">സംഭാഷണം ഐഡി: %1$s</string>
+    <string name="hs__conversation_redacted_status">സംഭാഷണം ഇല്ലാതാക്കി</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d സംഭാഷണങ്ങൾ ഇല്ലാതാക്കി.</string>
+    <string name="hs__conversation_rejected_status">സംഭാഷണം അടച്ചു</string>
     <string name="hs__conversation_started_message">നിങ്ങളുടെ സന്ദേശം സ്വീകരിച്ചു. ഞങ്ങളെ ബന്ധപ്പെട്ടതിന് നന്ദി!
     </string>
+    <string name="hs__conversations_divider_voice_over">സംഭാഷണം അവസാനിച്ചു</string>
     <string name="hs__copied_to_clipboard">ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തി</string>
     <string name="hs__copy">പകർത്തുക</string>
     <string name="hs__copy_to_clipboard_tooltip">ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തുക</string>
@@ -104,6 +107,8 @@
     <string name="hs__issue_archival_message">ക്ഷമിക്കണം! സജീവമല്ലാത്തത് മൂലം ഈ ചർച്ച അവസാനിപ്പിച്ചു. ഞങ്ങളുടെ
         ഏജന്റുമാരുമായി ഒരു പുതിയ ചർച്ച ആരംഭിക്കുക.
     </string>
+    <string name="hs__jump_button_voice_over">അവസാനത്തെ സന്ദേശത്തിലേക്ക് ചാടുക</string>
+    <string name="hs__jump_button_with_new_message_voice_over">പുതിയ സന്ദേശം പോവുക</string>
     <string name="hs__landscape_date_input_validation_error">സാധുവായ ഒരു തീയതി എന്റർ ചെയ്യുക.</string>
     <string name="hs__landscape_email_input_validation_error">സാധുവായ ഇമെയിൽ നൽകുക</string>
     <string name="hs__landscape_input_validation_dialog_title">പിശക്</string>
@@ -112,11 +117,13 @@
     <string name="hs__mark_yes">അതെ</string>
     <string name="hs__mark_yes_no_question">ഇത് സഹായകരമായിരുന്നോ?</string>
     <string name="hs__message_not_sent">സന്ദേശം അയച്ചിട്ടില്ല.</string>
+    <string name="hs__messages_loading_error_text">സന്ദേശങ്ങൾ ലോഡുചെയ്യാൻ കഴിഞ്ഞില്ല</string>
+    <string name="hs__messages_loading_text">സന്ദേശങ്ങൾ ലോഡ് ചെയ്യുന്നു...</string>
     <string name="hs__network_error_msg">ക്ഷമിക്കണം! എന്തോ കുഴപ്പം സംഭവിച്ചു</string>
     <string name="hs__network_error_pre_issue_creation">നെറ്റ്വർക്ക് പിശക്</string>
     <string name="hs__network_reconnecting_error">എന്തോ കുഴപ്പം സംഭവിച്ചു. വീണ്ടും ബന്ധിപ്പിക്കുന്നു ...</string>
     <string name="hs__network_unavailable_msg">നെറ്റ്‌വർക്ക് ‌ലഭ്യമല്ല.</string>
-    <string name="hs__new_conversation_btn">ഒരു പുതിയ ചർച്ച ആരംഭിക്കുക</string>
+    <string name="hs__new_conversation_btn">പുതിയ ചർച്ച</string>
     <string name="hs__new_conversation_footer_generic_reason">ക്ഷമിക്കണം, എന്തോ കുഴപ്പം സംഭവിച്ചു. ഈ സംഭാഷണം
         തുടരാനാകില്ല.
     </string>

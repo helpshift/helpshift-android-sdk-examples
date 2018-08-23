@@ -56,11 +56,14 @@
     <string name="hs__conversation_detail_error">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਸਮੱਸਿਆ ਦਾ ਵਰਣਨ ਕਰੋ</string>
     <string name="hs__conversation_end_msg">ਇਹ ਵਾਰਤਾਲਾਪ ਖਤਮ ਹੋ ਗਿਆ ਹੈ</string>
     <string name="hs__conversation_header">ਵਾਰਤਾਲਾਪ</string>
-    <string name="hs__conversation_info_header">ਜਾਣਕਾਰੀ</string>
-    <string name="hs__conversation_info_issue_id">ID ਜਾਰੀ ਕੀਤੀ</string>
-    <string name="hs__conversation_info_menu_item_title">ਜਾਣਕਾਰੀ ਜਾਰੀ ਕੀਤੀ</string>
+    <string name="hs__conversation_issue_id_header">ਗੱਲਬਾਤ ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">ਗੱਲਬਾਤ ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">ਗੱਲਬਾਤ ਮਿਟਾਈ ਗਈ</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d ਗੱਲਾਂਬਾਤਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ</string>
+    <string name="hs__conversation_rejected_status">ਗੱਲਬਾਤ ਬੰਦ ਹੋਈ</string>
     <string name="hs__conversation_started_message">ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਗਿਆ ਹੈ। ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਧੰਨਵਾਦ!
     </string>
+    <string name="hs__conversations_divider_voice_over">ਗੱਲਬਾਤ ਸਮਾਪਤ ਹੋਈ</string>
     <string name="hs__copied_to_clipboard">ਕਲਿੱਪਬੋਰਡ ਤੇ ਕਾਪੀ ਕੀਤਾ</string>
     <string name="hs__copy">ਪ੍ਰਤੀਲਿਪੀ ਬਣਾਓ</string>
     <string name="hs__copy_to_clipboard_tooltip">ਕਲਿੱਪਬੋਰਡ ਤੇ ਕਾਪੀ ਕਰੋ</string>
@@ -101,6 +104,8 @@
     <string name="hs__issue_archival_message">ਮੁਆਫ਼ ਕਰੋ! ਇਹ ਵਾਰਤਾਲਾਪ ਅਕ੍ਰਿਆਸ਼ੀਲਤਾ ਕਾਰਨ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਸੀ। ਕਿਰਪਾ ਕਰਕੇ
         ਸਾਡੇ ਏਜੰਟਾਂ ਦੇ ਨਾਲ ਇੱਕ ਨਵਾਂ ਵਾਰਤਾਲਾਪ ਸ਼ੁਰੂ ਕਰੋ।
     </string>
+    <string name="hs__jump_button_voice_over">ਨਵੀਨਤਮ ਸੁਨੇਹੇ \'ਤੇ ਜਾਓ</string>
+    <string name="hs__jump_button_with_new_message_voice_over">ਨਿਊ ਸੁਨੇਹਾ ਜਾਓ</string>
     <string name="hs__landscape_date_input_validation_error">ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਵੈਧ ਮਿਤੀ ਦਰਜ ਕਰੋ।</string>
     <string name="hs__landscape_email_input_validation_error">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਈਮੇਲ ਦਾਖ਼ਲ ਕਰੋ</string>
     <string name="hs__landscape_input_validation_dialog_title">ਗਲਤੀ</string>
@@ -109,11 +114,13 @@
     <string name="hs__mark_yes">ਹਾਂ</string>
     <string name="hs__mark_yes_no_question">ਕੀ ਇਹ ਸਹਾਇਕ ਸੀ?</string>
     <string name="hs__message_not_sent">ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜਿਆ।</string>
+    <string name="hs__messages_loading_error_text">ਸੁਨੇਹੇ ਲੋਡ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਿਆ ਹੈ</string>
+    <string name="hs__messages_loading_text">ਸੁਨੇਹੇ ਲੋਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ...</string>
     <string name="hs__network_error_msg">ਔਹ! ਕੁਝ ਗ਼ਲਤ ਹੋ ਗਿਆ</string>
     <string name="hs__network_error_pre_issue_creation">ਨੈਟਵਰਕ ਅਸ਼ੁੱਧੀ</string>
     <string name="hs__network_reconnecting_error">ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ. ਰੀਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ ...</string>
     <string name="hs__network_unavailable_msg">ਨੈਟਵਰਕ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।</string>
-    <string name="hs__new_conversation_btn">ਨਵਾਂ ਵਾਰਤਾਲਾਪ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="hs__new_conversation_btn">ਨਵਾਂ ਵਾਰਤਾਲਾਪ</string>
     <string name="hs__new_conversation_footer_generic_reason">ਮੁਆਫ ਕਰਨਾ, ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ. ਇਹ ਗੱਲਬਾਤ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਦੀ
     </string>
     <string name="hs__new_conversation_header">ਨਵਾਂ ਵਾਰਤਾਲਾਪ</string>

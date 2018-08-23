@@ -55,12 +55,15 @@
     <string name="hs__conversation_detail_error">Опишете проблема си</string>
     <string name="hs__conversation_end_msg">Този разговор е приключил.</string>
     <string name="hs__conversation_header">Разговор</string>
-    <string name="hs__conversation_info_header">Информация</string>
-    <string name="hs__conversation_info_issue_id">Идентификатор на проблем</string>
-    <string name="hs__conversation_info_menu_item_title">Информация за проблем</string>
+    <string name="hs__conversation_issue_id_header">Разговор ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Разговор ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Разговорът е изтрит</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d разговора са изтрити</string>
+    <string name="hs__conversation_rejected_status">Разговорът е затворен</string>
     <string name="hs__conversation_started_message">Вашето съобщение беше получено. Благодарим Ви, че се свързахте с
         нас!
     </string>
+    <string name="hs__conversations_divider_voice_over">Разговорът е приключил</string>
     <string name="hs__copied_to_clipboard">Копирано на клипборда</string>
     <string name="hs__copy">Копиране</string>
     <string name="hs__copy_to_clipboard_tooltip">Копиране на клипборда</string>
@@ -101,6 +104,8 @@
     <string name="hs__issue_archival_message">Съжаляваме! Този разговор беше затворен поради липса на активност. Моля,
         започнете нов разговор с нашите агенти.
     </string>
+    <string name="hs__jump_button_voice_over">Отидете на последното съобщение</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Направо към Ново съобщение</string>
     <string name="hs__landscape_date_input_validation_error">Моля, въведете валидна дата.</string>
     <string name="hs__landscape_email_input_validation_error">Въведете валиден имейл адрес</string>
     <string name="hs__landscape_input_validation_dialog_title">грешка</string>
@@ -109,11 +114,13 @@
     <string name="hs__mark_yes">Да</string>
     <string name="hs__mark_yes_no_question">Това помогна ли ви?</string>
     <string name="hs__message_not_sent">Съобщението не е изпратено.</string>
+    <string name="hs__messages_loading_error_text">Не може да се зареди Съобщения</string>
+    <string name="hs__messages_loading_text">Зареждане на съобщенията...</string>
     <string name="hs__network_error_msg">Възникна проблем</string>
     <string name="hs__network_error_pre_issue_creation">Мрежова грешка</string>
     <string name="hs__network_reconnecting_error">Нещо се обърка. Повторно свързване ...</string>
     <string name="hs__network_unavailable_msg">Няма налична мрежа.</string>
-    <string name="hs__new_conversation_btn">ЗАПОЧНЕТЕ НОВ РАЗГОВОР</string>
+    <string name="hs__new_conversation_btn">Нов разговор</string>
     <string name="hs__new_conversation_footer_generic_reason">Съжалявам нещо се обърка. Този разговор не може да бъде
         продължен.
     </string>

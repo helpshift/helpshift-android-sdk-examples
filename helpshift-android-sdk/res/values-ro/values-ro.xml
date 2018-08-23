@@ -56,10 +56,13 @@
     <string name="hs__conversation_detail_error">Descrieți problema</string>
     <string name="hs__conversation_end_msg">Această conversație s-a încheiat.</string>
     <string name="hs__conversation_header">Conversație</string>
-    <string name="hs__conversation_info_header">Informații</string>
-    <string name="hs__conversation_info_issue_id">ID problemă</string>
-    <string name="hs__conversation_info_menu_item_title">Informații problemă</string>
+    <string name="hs__conversation_issue_id_header">Conversație ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Conversație ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Conversaţie ştearsă</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Conversaţii şterse</string>
+    <string name="hs__conversation_rejected_status">Conversaţie închisă</string>
     <string name="hs__conversation_started_message">Mesajul dvs. a fost primit. Mulțumim că ne-ați contactat!</string>
+    <string name="hs__conversations_divider_voice_over">Conversaţie încheiată</string>
     <string name="hs__copied_to_clipboard">Copiate în clipboard</string>
     <string name="hs__copy">Copiere</string>
     <string name="hs__copy_to_clipboard_tooltip">Copiere în clipboard</string>
@@ -102,6 +105,8 @@
     <string name="hs__issue_archival_message">Ne cerem scuze! Această conversație a fost încheiată din cauza
         inactivității. Începeți o nouă conversație cu agenții noștri.
     </string>
+    <string name="hs__jump_button_voice_over">Mergeţi direct la ultimul mesaj</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Salt la mesaj nou</string>
     <string name="hs__landscape_date_input_validation_error">Vă rugăm să introduceţi o dată validă.</string>
     <string name="hs__landscape_email_input_validation_error">Introduceți o adresă de e-mail validă</string>
     <string name="hs__landscape_input_validation_dialog_title">Eroare</string>
@@ -110,11 +115,13 @@
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Ți-a fost util?</string>
     <string name="hs__message_not_sent">Mesaj netrimis.</string>
+    <string name="hs__messages_loading_error_text">Nu a putut fi încărcat Mesaje</string>
+    <string name="hs__messages_loading_text">Se încarcă mesajele...</string>
     <string name="hs__network_error_msg">Uups! S-a produs o eroare</string>
     <string name="hs__network_error_pre_issue_creation">Eroare de rețea</string>
     <string name="hs__network_reconnecting_error">Ceva n-a mers bine. Reconectează ...</string>
     <string name="hs__network_unavailable_msg">Rețea indisponibilă.</string>
-    <string name="hs__new_conversation_btn">ÎNCEPE O NOUĂ CONVERSAȚIE</string>
+    <string name="hs__new_conversation_btn">Conversație nouă</string>
     <string name="hs__new_conversation_footer_generic_reason">Scuze, ceva a mers greșit. Această conversație nu poate fi
         continuată.
     </string>

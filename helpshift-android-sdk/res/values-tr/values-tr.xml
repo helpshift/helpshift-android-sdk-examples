@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">Lütfen sorununu tanımla</string>
     <string name="hs__conversation_end_msg">Bu konuşma son erdi.</string>
     <string name="hs__conversation_header">Konuşma</string>
-    <string name="hs__conversation_info_header">Bilgi</string>
-    <string name="hs__conversation_info_issue_id">Sorun Kimliği</string>
-    <string name="hs__conversation_info_menu_item_title">Sorun Bilgisi</string>
+    <string name="hs__conversation_issue_id_header">Konuşma İD: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Konuşma İD: %1$s</string>
+    <string name="hs__conversation_redacted_status">Konuşma silindi</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Konuşma silindi</string>
+    <string name="hs__conversation_rejected_status">Konuşma Kapatıldı</string>
     <string name="hs__conversation_started_message">Mesajın alındı. Bizimle irtibata geçtiğin için teşekkür ederiz!
     </string>
+    <string name="hs__conversations_divider_voice_over">Konuşma Sona Erdi</string>
     <string name="hs__copied_to_clipboard">Panoya kopyalandı</string>
     <string name="hs__copy">Kopyala</string>
     <string name="hs__copy_to_clipboard_tooltip">Panoya kopyala</string>
@@ -98,6 +101,8 @@
     <string name="hs__issue_archival_message">Üzgünüz! Konuşma herhangi bir etkinlik olmadığından dolayı kapatıldı.
         Lütfen temsilcimiz ile yeni bir konuşma başlat.
     </string>
+    <string name="hs__jump_button_voice_over">En son mesaja atla</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Yeni Mesaj Git</string>
     <string name="hs__landscape_date_input_validation_error">Lütfen geçerli bir tarih girin.</string>
     <string name="hs__landscape_email_input_validation_error">Lütfen geçerli bir e-posta adresi gir</string>
     <string name="hs__landscape_input_validation_dialog_title">Hata</string>
@@ -106,11 +111,13 @@
     <string name="hs__mark_yes">Evet</string>
     <string name="hs__mark_yes_no_question">Bu yardımcı oldu mu?</string>
     <string name="hs__message_not_sent">Mesaj gönderilemedi.</string>
+    <string name="hs__messages_loading_error_text">Mesajlar Yük edilemedi</string>
+    <string name="hs__messages_loading_text">Mesajlar Yükleniyor...</string>
     <string name="hs__network_error_msg">Bir hata oluştu</string>
     <string name="hs__network_error_pre_issue_creation">Ağ hatası</string>
     <string name="hs__network_reconnecting_error">Bir şeyler yanlış gitti. Yeniden bağlanıyor ...</string>
     <string name="hs__network_unavailable_msg">Ağ kullanılamıyor.</string>
-    <string name="hs__new_conversation_btn">YENİ BİR KONUŞMAYA BAŞLA</string>
+    <string name="hs__new_conversation_btn">Yeni Konuşma</string>
     <string name="hs__new_conversation_footer_generic_reason">Üzgünüm, bir şeyler ters gitti. Bu konuşma devam
         ettirilemez.
     </string>

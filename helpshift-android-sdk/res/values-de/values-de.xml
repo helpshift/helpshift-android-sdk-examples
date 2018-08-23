@@ -56,12 +56,15 @@
     <string name="hs__conversation_detail_error">Bitte beschreiben Sie Ihr Problem.</string>
     <string name="hs__conversation_end_msg">Diese Konversation ist beendet.</string>
     <string name="hs__conversation_header">Konversation</string>
-    <string name="hs__conversation_info_header">Details</string>
-    <string name="hs__conversation_info_issue_id">Problem-ID</string>
-    <string name="hs__conversation_info_menu_item_title">Problemdetails</string>
+    <string name="hs__conversation_issue_id_header">Conversation-ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Conversation-ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Konversation gelöscht</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Konversationen gelöscht</string>
+    <string name="hs__conversation_rejected_status">Konversation geschlossen</string>
     <string name="hs__conversation_started_message">Wir haben Ihre Nachricht erhalten. Danke, dass Sie uns
         kontaktieren!
     </string>
+    <string name="hs__conversations_divider_voice_over">Konversation beendet</string>
     <string name="hs__copied_to_clipboard">In Zwischenablage kopiert</string>
     <string name="hs__copy">Kopieren</string>
     <string name="hs__copy_to_clipboard_tooltip">In Zwischenablage kopieren</string>
@@ -105,6 +108,8 @@
     <string name="hs__issue_archival_message">Tut uns leid! Diese Konversation wurde aufgrund von Inaktivität
         geschlossen. Bitte beginnen Sie eine neue Konversation mit unseren Agenten.
     </string>
+    <string name="hs__jump_button_voice_over">Zur neuesten Nachricht gehen</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Wechsel zu Neuer Nachricht</string>
     <string name="hs__landscape_date_input_validation_error">Bitte geben Sie ein gültiges Datum ein.</string>
     <string name="hs__landscape_email_input_validation_error">Bitte geben Sie eine gültige E-Mail-Adresse ein.</string>
     <string name="hs__landscape_input_validation_dialog_title">Error</string>
@@ -113,11 +118,13 @@
     <string name="hs__mark_yes">Ja</string>
     <string name="hs__mark_yes_no_question">War das hilfreich?</string>
     <string name="hs__message_not_sent">Nachricht nicht gesendet.</string>
+    <string name="hs__messages_loading_error_text">Kann Nachrichten laden</string>
+    <string name="hs__messages_loading_text">Lädt Nachrichten ...</string>
     <string name="hs__network_error_msg">Ups! Da ist etwas schiefgelaufen.</string>
     <string name="hs__network_error_pre_issue_creation">Netzwerkfehler</string>
     <string name="hs__network_reconnecting_error">Etwas ist schief gelaufen. Wiederverbinden ...</string>
     <string name="hs__network_unavailable_msg">Netzwerk nicht verfügbar.</string>
-    <string name="hs__new_conversation_btn">NEUE KONVERSATION STARTEN</string>
+    <string name="hs__new_conversation_btn">Neue Konversation</string>
     <string name="hs__new_conversation_footer_generic_reason">Sorry, etwas ist schiefgelaufen. Diese Unterhaltung kann
         nicht fortgesetzt werden.
     </string>

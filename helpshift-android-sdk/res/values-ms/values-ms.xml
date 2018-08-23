@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">Sila huraikan masalah anda</string>
     <string name="hs__conversation_end_msg">Perbincangan ini sudah tamat.</string>
     <string name="hs__conversation_header">Perbincangan</string>
-    <string name="hs__conversation_info_header">Maklumat</string>
-    <string name="hs__conversation_info_issue_id">ID Isu</string>
-    <string name="hs__conversation_info_menu_item_title">Maklumat Isu</string>
+    <string name="hs__conversation_issue_id_header">Perbualan ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Perbualan ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Perbualan dipadam</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Perbualan dipadam</string>
+    <string name="hs__conversation_rejected_status">Perbualan Ditutup</string>
     <string name="hs__conversation_started_message">Mesej anda telah diterima. Terima kasih kerana menghubungi kami!
     </string>
+    <string name="hs__conversations_divider_voice_over">Perbualan Berakhir</string>
     <string name="hs__copied_to_clipboard">Disalin ke papan keratan</string>
     <string name="hs__copy">Salin</string>
     <string name="hs__copy_to_clipboard_tooltip">Salin ke papan keratan</string>
@@ -102,6 +105,8 @@
     <string name="hs__issue_archival_message">Maaf! Perbincangan ini telah ditutup kerana tidak aktif. Sila mulakan
         perbincangan baharu dengan ejen kami.
     </string>
+    <string name="hs__jump_button_voice_over">Lompat ke mesej terkini</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Lompat ke New Mesej</string>
     <string name="hs__landscape_date_input_validation_error">Sila masukkan tarikh yang sah.</string>
     <string name="hs__landscape_email_input_validation_error">Sila masukkan e-mel yang sah</string>
     <string name="hs__landscape_input_validation_dialog_title">Ralat</string>
@@ -110,11 +115,13 @@
     <string name="hs__mark_yes">Ya</string>
     <string name="hs__mark_yes_no_question">Adakah ini membantu?</string>
     <string name="hs__message_not_sent">Mesej belum dihantar.</string>
+    <string name="hs__messages_loading_error_text">Tidak dapat memuatkan Mesej</string>
+    <string name="hs__messages_loading_text">Memuat Mesej...</string>
     <string name="hs__network_error_msg">Oop! Ada sesuatu yang tidak kena</string>
     <string name="hs__network_error_pre_issue_creation">Ralat rangkaian</string>
     <string name="hs__network_reconnecting_error">Ada yang salah. Sambung semula ...</string>
     <string name="hs__network_unavailable_msg">Rangkaian tidak tersedia.</string>
-    <string name="hs__new_conversation_btn">MULAKAN PERBINCANGAN BAHARU</string>
+    <string name="hs__new_conversation_btn">Perbincangan Baharu</string>
     <string name="hs__new_conversation_footer_generic_reason">Maaf, sesuatu telah berlaku. Perbualan ini tidak dapat
         diteruskan.
     </string>

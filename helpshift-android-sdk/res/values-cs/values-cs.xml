@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">Prosím, popište váš problém</string>
     <string name="hs__conversation_end_msg">Tato konverzace skončila.</string>
     <string name="hs__conversation_header">Konverzace</string>
-    <string name="hs__conversation_info_header">Informace</string>
-    <string name="hs__conversation_info_issue_id">ID problému</string>
-    <string name="hs__conversation_info_menu_item_title">Informace o problému</string>
+    <string name="hs__conversation_issue_id_header">Conversation ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Conversation ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Konverzace odstraněna</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Konverzací odstraněno</string>
+    <string name="hs__conversation_rejected_status">Konverzace uzavřena</string>
     <string name="hs__conversation_started_message">Vaše zpráva byla přijata. Děkujeme, že jste se na nás obrátili!
     </string>
+    <string name="hs__conversations_divider_voice_over">Konverzace ukončena</string>
     <string name="hs__copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="hs__copy">Kopírovat</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopírovat do schránky</string>
@@ -104,6 +107,8 @@
     <string name="hs__issue_archival_message">Omlouváme se! Tato konverzace byla uzavřena z důvodu nečinnosti. Prosím,
         zahajte novou konverzaci s našimi agenty.
     </string>
+    <string name="hs__jump_button_voice_over">Přejít na nejnovější zprávu</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Přejít na nové zprávy</string>
     <string name="hs__landscape_date_input_validation_error">Zadejte prosím platné datum</string>
     <string name="hs__landscape_email_input_validation_error">Prosím, zadejte platný e-mail</string>
     <string name="hs__landscape_input_validation_dialog_title">Chyba</string>
@@ -112,11 +117,13 @@
     <string name="hs__mark_yes">Ano</string>
     <string name="hs__mark_yes_no_question">Byly tyto informace užitečné?</string>
     <string name="hs__message_not_sent">Zpráva nebyla odeslána.</string>
+    <string name="hs__messages_loading_error_text">Nelze načíst zprávy</string>
+    <string name="hs__messages_loading_text">Načítání zpráv...</string>
     <string name="hs__network_error_msg">Jejda, něco se pokazilo!</string>
     <string name="hs__network_error_pre_issue_creation">Chyba sítě</string>
     <string name="hs__network_reconnecting_error">Něco se pokazilo. Připojení ...</string>
     <string name="hs__network_unavailable_msg">Síť není k dispozici.</string>
-    <string name="hs__new_conversation_btn">ZAHÁJIT NOVOU KONVERZACI</string>
+    <string name="hs__new_conversation_btn">Nová konverzace</string>
     <string name="hs__new_conversation_footer_generic_reason">Promiň, něco se pokazilo. Tuto konverzaci nelze
         pokračovat.
     </string>

@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">કૃપા કરીને તમારી સમસ્યાનું વર્ણન કરો</string>
     <string name="hs__conversation_end_msg">આ વાતચીત સમાપ્ત થઈ છે.</string>
     <string name="hs__conversation_header">વાતચીત</string>
-    <string name="hs__conversation_info_header">માહિતી</string>
-    <string name="hs__conversation_info_issue_id">ઇસ્યુ આઇડી</string>
-    <string name="hs__conversation_info_menu_item_title">ઇસ્યુ માહિતી</string>
+    <string name="hs__conversation_issue_id_header">વાર્તાલાપ ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">વાર્તાલાપ ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">વાર્તાલાપ કાઢી નાખવામાં આવેલ છે</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d વાર્તાલાપ કાઢી નાખવામાં આવેલ છે</string>
+    <string name="hs__conversation_rejected_status">વાર્તાલાપ સમાપ્ત</string>
     <string name="hs__conversation_started_message">તમારો મેસેજ મળ્યો છે. અમારો સંપર્ક કરવા બદ્દલ તમારો આભાર!</string>
+    <string name="hs__conversations_divider_voice_over">વાર્તાલાપ સમાપ્ત થયેલ છે</string>
     <string name="hs__copied_to_clipboard">ક્લિપબોર્ડમાં કોપી થયું</string>
     <string name="hs__copy">કૉપી કરો</string>
     <string name="hs__copy_to_clipboard_tooltip">ક્લિપબોર્ડમાં કોપી કરો</string>
@@ -99,6 +102,8 @@
     <string name="hs__issue_archival_message">દિલગીર છીએ! આ વાતચીત નિષ્ક્રિયતા કારણે બંધ કરવામાં આવી હતી. કૃપા કરીને
         અમારા એજન્ટો સાથે નવી વાતચીત શરૂ કરો.
     </string>
+    <string name="hs__jump_button_voice_over">નવીનતમ સંદેશમાં જાવ</string>
+    <string name="hs__jump_button_with_new_message_voice_over">નવો સંદેશ પર જાઓ</string>
     <string name="hs__landscape_date_input_validation_error">કૃપા કરીને માન્ય તારીખ દાખલ કરો</string>
     <string name="hs__landscape_email_input_validation_error">કૃપા કરીને માન્ય ઇમેઇલ દાખલ કરો</string>
     <string name="hs__landscape_input_validation_dialog_title">ભૂલ</string>
@@ -107,11 +112,13 @@
     <string name="hs__mark_yes">હા</string>
     <string name="hs__mark_yes_no_question">શું આ મદદરૂપ હતું?</string>
     <string name="hs__message_not_sent">મેસેજ મોકલાયો નથી.</string>
+    <string name="hs__messages_loading_error_text">સંદેશા લોડ કરી શકાયું નથી</string>
+    <string name="hs__messages_loading_text">સંદેશ લોડ કરી રહ્યું છે...</string>
     <string name="hs__network_error_msg">અરેરે! કઇંક ખોટું થયું છે</string>
     <string name="hs__network_error_pre_issue_creation">નેટવર્ક ક્ષતિ</string>
     <string name="hs__network_reconnecting_error">કંઈક ખોટું થયું. ફરીથી કનેક્ટ કરી રહ્યું છે ...</string>
     <string name="hs__network_unavailable_msg">નેટવર્ક ઉપલબ્ધ નથી.</string>
-    <string name="hs__new_conversation_btn">નવી વાતચીત શરૂ કરો</string>
+    <string name="hs__new_conversation_btn">નવી વાતચીત</string>
     <string name="hs__new_conversation_footer_generic_reason">માફ કરશો, કંઈક ખોટું થયું હતું. આ વાતચીત ચાલુ રાખી શકાતી
         નથી.
     </string>

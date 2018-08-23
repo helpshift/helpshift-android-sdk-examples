@@ -3,16 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="20dp"
     android:background="?android:windowBackground"
+    android:layout_marginBottom="2dp"
     android:gravity="center"
-    android:orientation="vertical"
-    android:visibility="visible">
+    android:focusable="false"
+    android:orientation="horizontal">
 
     <com.helpshift.views.HSTextView
-        android:id="@+id/system_message"
+        android:id="@+id/issue_publish_id_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:focusable="true"
         android:layout_gravity="center_horizontal"
         android:textColor="?android:textColorSecondary"
         android:textSize="@dimen/hs__textSizeExtraSmall" />

@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">Kérjük, írja le a problémát</string>
     <string name="hs__conversation_end_msg">A beszélgetés befejeződött.</string>
     <string name="hs__conversation_header">Beszélgetés</string>
-    <string name="hs__conversation_info_header">Információ</string>
-    <string name="hs__conversation_info_issue_id">Probléma azonosítója</string>
-    <string name="hs__conversation_info_menu_item_title">Információ a problémáról</string>
+    <string name="hs__conversation_issue_id_header">Beszélgetés ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Beszélgetés ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Beszélgetés törölve</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d Beszélgetések törölve</string>
+    <string name="hs__conversation_rejected_status">Beszélgetés lezárva</string>
     <string name="hs__conversation_started_message">Az üzenetét megkaptuk. Köszönjük, hogy hozzánk fordult!</string>
+    <string name="hs__conversations_divider_voice_over">Beszélgetés befejezve</string>
     <string name="hs__copied_to_clipboard">Vágólapra másolva</string>
     <string name="hs__copy">Példány</string>
     <string name="hs__copy_to_clipboard_tooltip">Másolás a vágólapra</string>
@@ -99,6 +102,8 @@
     <string name="hs__issue_archival_message">Sajnáljuk, de ezt a beszélgetést tevékenység hiánya miatt lezártuk.
         Kérjük, kezdjen új beszélgetést ügynökeinkkel.
     </string>
+    <string name="hs__jump_button_voice_over">Ugrás a legújabb üzenethez</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Ugrás Új üzenet</string>
     <string name="hs__landscape_date_input_validation_error">Kérjük, érvényes időpontot adjon meg.</string>
     <string name="hs__landscape_email_input_validation_error">Kérjük, érvényes e-mail címet adjon meg</string>
     <string name="hs__landscape_input_validation_dialog_title">Hiba</string>
@@ -107,11 +112,13 @@
     <string name="hs__mark_yes">Igen</string>
     <string name="hs__mark_yes_no_question">Hasznos volt a válasz?</string>
     <string name="hs__message_not_sent">Az üzenet nincs elküldve.</string>
+    <string name="hs__messages_loading_error_text">Nem sikerült betölteni az üzeneteket</string>
+    <string name="hs__messages_loading_text">Üzenetek betöltése...</string>
     <string name="hs__network_error_msg">Hoppá! Valami probléma van</string>
     <string name="hs__network_error_pre_issue_creation">Hálózati hiba</string>
     <string name="hs__network_reconnecting_error">Valami elromlott. Újracsatlakozás...</string>
     <string name="hs__network_unavailable_msg">A hálózat nem érhető el.</string>
-    <string name="hs__new_conversation_btn">ÚJ BESZÉLGETÉS INDÍTÁSA</string>
+    <string name="hs__new_conversation_btn">Új beszélgetés</string>
     <string name="hs__new_conversation_footer_generic_reason">Elnézést, valami nem ment jól. Ezt a beszélgetést nem
         lehet folytatni.
     </string>

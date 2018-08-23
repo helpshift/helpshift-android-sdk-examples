@@ -55,11 +55,14 @@
     <string name="hs__conversation_detail_error">لطفاً مشکل خود را شرح دهید</string>
     <string name="hs__conversation_end_msg">این مکالمه به پایان رسیده است.</string>
     <string name="hs__conversation_header">مکالمه</string>
-    <string name="hs__conversation_info_header">اطلاعات</string>
-    <string name="hs__conversation_info_issue_id">شناسه نسخه</string>
-    <string name="hs__conversation_info_menu_item_title">اطلاعات نسخه</string>
+    <string name="hs__conversation_issue_id_header">مکالمات ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">مکالمات ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">گفتگو حذف شد</string>
+    <string name="hs__conversation_redacted_status_multiple">گفتگو حذف شد%1$d</string>
+    <string name="hs__conversation_rejected_status">گفتگو بسته شد</string>
     <string name="hs__conversation_started_message">پیام شما دریافت شده است. از اینکه با ما تماس گرفته‌اید متشکریم!
     </string>
+    <string name="hs__conversations_divider_voice_over">گفتگو پایان یافت</string>
     <string name="hs__copied_to_clipboard">به کلیپ بورد کپی شد</string>
     <string name="hs__copy">کپی</string>
     <string name="hs__copy_to_clipboard_tooltip">کپی به کلیپ بورد</string>
@@ -102,6 +105,8 @@
     <string name="hs__issue_archival_message">متاسفیم! این مکالمه به دلیل عدم فعالیت بسته شده است. لطفاً مکالمه جدیدی را
         با نمایندگان ما شروع کنید.
     </string>
+    <string name="hs__jump_button_voice_over">پریدن به آخرین پیام</string>
+    <string name="hs__jump_button_with_new_message_voice_over">پرش به پیام جدید</string>
     <string name="hs__landscape_date_input_validation_error">لطفاً تاریخ معتبری را وارد کنید.</string>
     <string name="hs__landscape_email_input_validation_error">لطفاً ایمیل معتبری وارد کنید</string>
     <string name="hs__landscape_input_validation_dialog_title">خطا</string>
@@ -110,11 +115,13 @@
     <string name="hs__mark_yes">بله</string>
     <string name="hs__mark_yes_no_question">آیا این پاسخ مفید بود؟</string>
     <string name="hs__message_not_sent">پیام ارسال نشد.</string>
+    <string name="hs__messages_loading_error_text">پیامها بارگیری نشدند</string>
+    <string name="hs__messages_loading_text">در حال بارگیری پیام‌ها...</string>
     <string name="hs__network_error_msg">اوه! مشکلی به وجود آمد</string>
     <string name="hs__network_error_pre_issue_creation">خطای شبکه</string>
     <string name="hs__network_reconnecting_error">چیزی اشتباه رفت اتصال مجدد ...</string>
     <string name="hs__network_unavailable_msg">شبکه در دسترس نیست.</string>
-    <string name="hs__new_conversation_btn">شروع مکالمه جدید</string>
+    <string name="hs__new_conversation_btn">مکالمه جدید</string>
     <string name="hs__new_conversation_footer_generic_reason">با عرض پوزش، چیزی اشتباه رفت این مکالمه نمی تواند ادامه
         یابد
     </string>

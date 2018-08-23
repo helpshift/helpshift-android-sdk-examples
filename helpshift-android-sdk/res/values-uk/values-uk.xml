@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">Опишіть свою проблему</string>
     <string name="hs__conversation_end_msg">Цю розмову завершено.</string>
     <string name="hs__conversation_header">Розмова</string>
-    <string name="hs__conversation_info_header">Інформація</string>
-    <string name="hs__conversation_info_issue_id">Ідентифікатор проблеми</string>
-    <string name="hs__conversation_info_menu_item_title">Відомості про проблему</string>
+    <string name="hs__conversation_issue_id_header">Діалог ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Діалог ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Розмову видалено</string>
+    <string name="hs__conversation_redacted_status_multiple">Видалено розмов: %1$d</string>
+    <string name="hs__conversation_rejected_status">Розмову закінчено</string>
     <string name="hs__conversation_started_message">Ваше повідомлення отримано. Дякуємо, що звернулися до нас!</string>
+    <string name="hs__conversations_divider_voice_over">Розмову завершено</string>
     <string name="hs__copied_to_clipboard">Скопійовано до буфера</string>
     <string name="hs__copy">Копіювати</string>
     <string name="hs__copy_to_clipboard_tooltip">Копіювати до буфера</string>
@@ -100,6 +103,8 @@
     <string name="hs__issue_archival_message">На жаль, цю розмову було закрито через неактивність учасників. Почніть,
         будь ласка, нову розмову з нашими представниками.
     </string>
+    <string name="hs__jump_button_voice_over">Перейти до останнього повідомлення</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Перейти до Нового повідомленням</string>
     <string name="hs__landscape_date_input_validation_error">Введіть дійсну дату.</string>
     <string name="hs__landscape_email_input_validation_error">Введіть дійсну адресу e-mail</string>
     <string name="hs__landscape_input_validation_dialog_title">Помилка</string>
@@ -108,11 +113,13 @@
     <string name="hs__mark_yes">Так</string>
     <string name="hs__mark_yes_no_question">Чи допомогла вам ця інформація?</string>
     <string name="hs__message_not_sent">Повідомлення не відправлено.</string>
+    <string name="hs__messages_loading_error_text">Не вдалося завантажити повідомлення</string>
+    <string name="hs__messages_loading_text">Завантаження повідомлень…</string>
     <string name="hs__network_error_msg">Сталася помилка</string>
     <string name="hs__network_error_pre_issue_creation">Помилка мережі</string>
     <string name="hs__network_reconnecting_error">Щось пішло не так. Підключення ...</string>
     <string name="hs__network_unavailable_msg">Мережа недоступна.</string>
-    <string name="hs__new_conversation_btn">ПОЧАТИ НОВУ РОЗМОВУ</string>
+    <string name="hs__new_conversation_btn">Нова розмова</string>
     <string name="hs__new_conversation_footer_generic_reason">Вибач, щось пішло не так. Ця бесіда не може бути
         продовжена.
     </string>

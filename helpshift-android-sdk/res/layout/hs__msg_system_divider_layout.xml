@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="18dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="12dp">
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/conversation_closed_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:paddingBottom="18dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/hs__conversation_rejected_status"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="@dimen/hs__textSizeExtraSmall" />
+
+    <View
+        android:id="@+id/conversations_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="?attr/hs__separatorColor" />
+
+</LinearLayout>

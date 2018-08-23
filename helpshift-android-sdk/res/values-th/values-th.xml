@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">โปรดอธิบายปัญหาของคุณ</string>
     <string name="hs__conversation_end_msg">การสนทนานี้จบลงแล้ว</string>
     <string name="hs__conversation_header">การสนทนา</string>
-    <string name="hs__conversation_info_header">ข้อมูล</string>
-    <string name="hs__conversation_info_issue_id">ออกไอดี</string>
-    <string name="hs__conversation_info_menu_item_title">ออกข้อมูล</string>
+    <string name="hs__conversation_issue_id_header">การสนทนา ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">การสนทนา ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">ลบการสนทนาแล้ว</string>
+    <string name="hs__conversation_redacted_status_multiple">ลบการสนทนา %1$d แล้ว</string>
+    <string name="hs__conversation_rejected_status">ปิดการสนทนาแล้ว</string>
     <string name="hs__conversation_started_message">ได้รับข้อความของคุณแล้ว ขอบคุณสำหรับการติดต่อเรา!</string>
+    <string name="hs__conversations_divider_voice_over">สิ้นสุดการสนทนาแล้ว</string>
     <string name="hs__copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
     <string name="hs__copy">คัดลอก</string>
     <string name="hs__copy_to_clipboard_tooltip">คัดลอกไปยังคลิปบอร์ด</string>
@@ -100,6 +103,8 @@
     <string name="hs__issue_archival_message">ขออภัย! การสนทนานี้จะปิดลงเนื่องจากไม่มีการใช้งาน
         โปรดเริ่มต้นการสนทนาใหม่กับตัวแทนของเรา
     </string>
+    <string name="hs__jump_button_voice_over">ข้ามไปยังข้อความล่าสุด</string>
+    <string name="hs__jump_button_with_new_message_voice_over">ข้ามไปยังข้อความใหม่</string>
     <string name="hs__landscape_date_input_validation_error">โปรดใส่วันที่ที่ถูกต้อง</string>
     <string name="hs__landscape_email_input_validation_error">โปรดใส่อีเมลที่ถูกต้อง</string>
     <string name="hs__landscape_input_validation_dialog_title">ความผิดพลาด</string>
@@ -108,11 +113,13 @@
     <string name="hs__mark_yes">ใช่</string>
     <string name="hs__mark_yes_no_question">สิ่งนี้มีประโยชน์หรือไม่</string>
     <string name="hs__message_not_sent">ยังไม่ได้ส่งข้อความ</string>
+    <string name="hs__messages_loading_error_text">ไม่สามารถโหลดข้อความ</string>
+    <string name="hs__messages_loading_text">กำลังโหลดข้อความ...</string>
     <string name="hs__network_error_msg">อุ๊บส์! มีบางอย่างผิดพลาด</string>
     <string name="hs__network_error_pre_issue_creation">ข้อผิดพลาดเกี่ยวกับเครือข่าย</string>
     <string name="hs__network_reconnecting_error">บางอย่างผิดพลาด. เชื่อมต่อใหม่ ...</string>
     <string name="hs__network_unavailable_msg">เครือข่ายไม่ว่าง</string>
-    <string name="hs__new_conversation_btn">เริ่มต้นการสนทนาใหม่</string>
+    <string name="hs__new_conversation_btn">การสนทนาใหม่</string>
     <string name="hs__new_conversation_footer_generic_reason">ขอโทษมีบางอย่างผิดพลาด. ไม่สามารถสนทนาต่อได้</string>
     <string name="hs__new_conversation_header">การสนทนาใหม่</string>
     <string name="hs__new_conversation_hint">เราจะช่วยเหลือคุณได้อย่างไรบ้าง</string>

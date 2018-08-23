@@ -35,10 +35,4 @@
         android:title="@string/hs__send_msg_btn"
         android:visible="false"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/hs__conversation_information"
-        android:icon="@drawable/hs__conversation_info"
-        android:title="@string/hs__conversation_info_menu_item_title"
-        android:visible="false"
-        app:showAsAction="always" />
 </menu>

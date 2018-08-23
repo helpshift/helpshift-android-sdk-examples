@@ -56,11 +56,14 @@
     <string name="hs__conversation_detail_error">Prosimy opisać problem</string>
     <string name="hs__conversation_end_msg">Rozmowa zakończona.</string>
     <string name="hs__conversation_header">Rozmowa</string>
-    <string name="hs__conversation_info_header">Informacje</string>
-    <string name="hs__conversation_info_issue_id">Identyfikator problemu</string>
-    <string name="hs__conversation_info_menu_item_title">Informacje nt problemu</string>
+    <string name="hs__conversation_issue_id_header">Rozmowa ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Rozmowa ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Rozmowa usunięta</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d rozmowów usuniętych</string>
+    <string name="hs__conversation_rejected_status">Rozmowa zamknięta</string>
     <string name="hs__conversation_started_message">Twoja wiadomość została odebrana. Dziękujemy za kontakt z nami!
     </string>
+    <string name="hs__conversations_divider_voice_over">Rozmowa zakończona</string>
     <string name="hs__copied_to_clipboard">Skopiowano do schowka</string>
     <string name="hs__copy">Kopiuj</string>
     <string name="hs__copy_to_clipboard_tooltip">Skopiuj do schowka</string>
@@ -103,6 +106,8 @@
     <string name="hs__issue_archival_message">Przepraszamy! Niniejsza rozmowa została zakończona z powodu braku
         aktywności. Prosimy o rozpoczęcie nowej rozmowy z jednym z naszych agentów.
     </string>
+    <string name="hs__jump_button_voice_over">Przejdź do ostatnich wiadomości</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Skocz do New Message</string>
     <string name="hs__landscape_date_input_validation_error">Prosimy wprowadzić stosowną datę.</string>
     <string name="hs__landscape_email_input_validation_error">Prosimy podać stosowny adres e-mail</string>
     <string name="hs__landscape_input_validation_dialog_title">Błąd</string>
@@ -111,11 +116,13 @@
     <string name="hs__mark_yes">Tak</string>
     <string name="hs__mark_yes_no_question">Czy pomoc była skuteczna?</string>
     <string name="hs__message_not_sent">Nie wysłano wiadomości.</string>
+    <string name="hs__messages_loading_error_text">Nie można załadować wiadomości</string>
+    <string name="hs__messages_loading_text">Wczytywanie wiadomości...</string>
     <string name="hs__network_error_msg">Ups! Coś poszło nie tak!</string>
     <string name="hs__network_error_pre_issue_creation">Błąd sieci</string>
     <string name="hs__network_reconnecting_error">Coś poszło nie tak. Ponowne łączenie ...</string>
     <string name="hs__network_unavailable_msg">Sieć niedostępna.</string>
-    <string name="hs__new_conversation_btn">ROZPOCZNIJ NOWĄ ROZMOWĘ</string>
+    <string name="hs__new_conversation_btn">Nowa rozmowa</string>
     <string name="hs__new_conversation_footer_generic_reason">Przepraszam, coś poszło nie tak. Ta rozmowa nie może być
         kontynuowana.
     </string>

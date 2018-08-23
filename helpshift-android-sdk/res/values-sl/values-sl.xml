@@ -56,11 +56,14 @@
     <string name="hs__conversation_detail_error">Opišite svojo težavo</string>
     <string name="hs__conversation_end_msg">Ta pogovor je zaključen.</string>
     <string name="hs__conversation_header">Pogovor</string>
-    <string name="hs__conversation_info_header">Informacije</string>
-    <string name="hs__conversation_info_issue_id">ID zadeve</string>
-    <string name="hs__conversation_info_menu_item_title">Informacije o zadevi</string>
+    <string name="hs__conversation_issue_id_header">Pogovor ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Pogovor ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Pogovor je bil izbrisan</string>
+    <string name="hs__conversation_redacted_status_multiple">Št. izbrisanih pogovorov: %1$d</string>
+    <string name="hs__conversation_rejected_status">Pogovor je zaključen</string>
     <string name="hs__conversation_started_message">Prejeli smo vaše sporočilo. Hvala, ker ste se obrnili na nas.
     </string>
+    <string name="hs__conversations_divider_voice_over">Pogovor je končan</string>
     <string name="hs__copied_to_clipboard">Kopirano v odložišče</string>
     <string name="hs__copy">Kopiraj</string>
     <string name="hs__copy_to_clipboard_tooltip">Kopiraj v odložišče</string>
@@ -105,6 +108,8 @@
     <string name="hs__issue_archival_message">Pogovor se je končal zaradi neaktivnosti. Začnite nov pogovor z našimi
         posredniki.
     </string>
+    <string name="hs__jump_button_voice_over">Skoči na zadnje sporočilo</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Skoči na Novo sporočilo</string>
     <string name="hs__landscape_date_input_validation_error">Vnesite veljaven datum</string>
     <string name="hs__landscape_email_input_validation_error">Vnesite veljavno e-pošto</string>
     <string name="hs__landscape_input_validation_dialog_title">Napaka</string>
@@ -113,11 +118,13 @@
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Ali je bilo to v pomoč?</string>
     <string name="hs__message_not_sent">Sporočilo ni bilo poslano.</string>
+    <string name="hs__messages_loading_error_text">Ni bilo mogoče naložiti Sporočila</string>
+    <string name="hs__messages_loading_text">Nalaganje sporočil ...</string>
     <string name="hs__network_error_msg">Ojej! Prišlo je do napake</string>
     <string name="hs__network_error_pre_issue_creation">Napaka omrežja</string>
     <string name="hs__network_reconnecting_error">Nekaj je šlo narobe. Ponovno povezovanje ...</string>
     <string name="hs__network_unavailable_msg">Omrežje ni na voljo.</string>
-    <string name="hs__new_conversation_btn">ZAČNI NOV POGOVOR</string>
+    <string name="hs__new_conversation_btn">Nov pogovor</string>
     <string name="hs__new_conversation_footer_generic_reason">Oprostite, nekaj je šlo narobe. Ta pogovor ni mogoče
         nadaljevati.
     </string>

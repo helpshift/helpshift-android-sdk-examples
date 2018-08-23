@@ -55,10 +55,13 @@
     <string name="hs__conversation_detail_error">Опишите свою проблему</string>
     <string name="hs__conversation_end_msg">Этот разговор завершен.</string>
     <string name="hs__conversation_header">Разговор</string>
-    <string name="hs__conversation_info_header">Информация</string>
-    <string name="hs__conversation_info_issue_id">Идентификатор проблемы</string>
-    <string name="hs__conversation_info_menu_item_title">Информация о проблеме</string>
+    <string name="hs__conversation_issue_id_header">Диалог ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Диалог ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Разговор удален</string>
+    <string name="hs__conversation_redacted_status_multiple">Удалены разговоры: %1$d</string>
+    <string name="hs__conversation_rejected_status">Разговор закончен</string>
     <string name="hs__conversation_started_message">Ваше сообщение получено. Спасибо, что обратились к нам!</string>
+    <string name="hs__conversations_divider_voice_over">Разговор завершен</string>
     <string name="hs__copied_to_clipboard">Скопировано в буфер</string>
     <string name="hs__copy">Копировать</string>
     <string name="hs__copy_to_clipboard_tooltip">Скопировать в буфер</string>
@@ -98,6 +101,8 @@
     <string name="hs__issue_archival_message">Этот разговор был завершен по причине отсутствия активности участников.
         Пожалуйста, начните новый разговор с нашими представителями.
     </string>
+    <string name="hs__jump_button_voice_over">Перейти к последнему сообщению</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Перейти к Новому сообщению</string>
     <string name="hs__landscape_date_input_validation_error">Введите действительную дату.</string>
     <string name="hs__landscape_email_input_validation_error">Введите действительный адрес e-mail</string>
     <string name="hs__landscape_input_validation_dialog_title">ошибка</string>
@@ -106,11 +111,13 @@
     <string name="hs__mark_yes">Да</string>
     <string name="hs__mark_yes_no_question">Помогла ли вам эта информация?</string>
     <string name="hs__message_not_sent">Сообщение не отправлено.</string>
+    <string name="hs__messages_loading_error_text">Не удалось загрузить сообщения</string>
+    <string name="hs__messages_loading_text">Загрузка сообщений…</string>
     <string name="hs__network_error_msg">Что-то пошло не так!</string>
     <string name="hs__network_error_pre_issue_creation">Ошибка сети</string>
     <string name="hs__network_reconnecting_error">Что-то пошло не так. Воссоединение ...</string>
     <string name="hs__network_unavailable_msg">Сеть недоступна.</string>
-    <string name="hs__new_conversation_btn">НАЧАТЬ НОВЫЙ РАЗГОВОР</string>
+    <string name="hs__new_conversation_btn">Новый разговор</string>
     <string name="hs__new_conversation_footer_generic_reason">Извините, что-то пошло не так. Этот разговор не может быть
         продолжен.
     </string>

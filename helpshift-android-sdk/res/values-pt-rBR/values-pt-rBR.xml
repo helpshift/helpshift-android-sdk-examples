@@ -56,10 +56,13 @@
     <string name="hs__conversation_detail_error">Descreve o teu problema</string>
     <string name="hs__conversation_end_msg">Esta conversa terminou.</string>
     <string name="hs__conversation_header">Conversa</string>
-    <string name="hs__conversation_info_header">Informações</string>
-    <string name="hs__conversation_info_issue_id">ID do problema</string>
-    <string name="hs__conversation_info_menu_item_title">Informações do problema</string>
+    <string name="hs__conversation_issue_id_header">Conversation ID: #%1$s</string>
+    <string name="hs__conversation_publish_id_voice_over">Conversation ID: %1$s</string>
+    <string name="hs__conversation_redacted_status">Conversa eliminada</string>
+    <string name="hs__conversation_redacted_status_multiple">%1$d conversas eliminadas</string>
+    <string name="hs__conversation_rejected_status">Conversa fechada</string>
     <string name="hs__conversation_started_message">A tua mensagem foi recebida. Obrigado por nos contactares!</string>
+    <string name="hs__conversations_divider_voice_over">Conversa terminada</string>
     <string name="hs__copied_to_clipboard">Copiado para área de transferência</string>
     <string name="hs__copy">Copiar</string>
     <string name="hs__copy_to_clipboard_tooltip">Copiar para área de transferência</string>
@@ -101,6 +104,8 @@
     <string name="hs__issue_archival_message">Lamentamos! Esta conversa foi encerrada por inatividade. Inicia uma nova
         conversa com os nossos agentes.
     </string>
+    <string name="hs__jump_button_voice_over">Saltar para última mensagem</string>
+    <string name="hs__jump_button_with_new_message_voice_over">Ir para Nova Mensagem</string>
     <string name="hs__landscape_date_input_validation_error">Introduz uma data válida.</string>
     <string name="hs__landscape_email_input_validation_error">Introduz um endereço de email válido</string>
     <string name="hs__landscape_input_validation_dialog_title">Erro</string>
@@ -109,11 +114,13 @@
     <string name="hs__mark_yes">Sim</string>
     <string name="hs__mark_yes_no_question">Foi útil?</string>
     <string name="hs__message_not_sent">Mensagem não enviada.</string>
+    <string name="hs__messages_loading_error_text">Não foi possível carregar mensagens</string>
+    <string name="hs__messages_loading_text">A carregar mensagens...</string>
     <string name="hs__network_error_msg">Ups! Alguma coisa correu mal</string>
     <string name="hs__network_error_pre_issue_creation">Erro de rede</string>
     <string name="hs__network_reconnecting_error">Algo deu errado. Reconectando ...</string>
     <string name="hs__network_unavailable_msg">Rede indisponível.</string>
-    <string name="hs__new_conversation_btn">INICIAR NOVA CONVERSA</string>
+    <string name="hs__new_conversation_btn">Nova conversa</string>
     <string name="hs__new_conversation_footer_generic_reason">Desculpe, algo deu errado. Esta conversa não pode
         continuar.
     </string>
