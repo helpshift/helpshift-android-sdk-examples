@@ -1,4 +1,4 @@
-Helpshift SDK 7.2.0 Release Notes (for Android)
+Helpshift SDK 7.3.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,7 +11,23 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.3.0 Release Date: October 3, 2018
+      * Introduced support for Android P.
+      * Introduced functionality for end users to be able to tap on an attachment that they sent in order to view the image.
+      * Added Campaigns delegate callbacks for tracking when a Helpshift campaigns session begins and when a session ends. Refer here: https://developers.helpshift.com/android/campaigns/.
+      * Fixed a bug where the typing indicator would show infinitely and the user was unable to send new messages on the chat screen.
+      * Fixed an ANR error which would occur sometimes when the Campaigns' addProperty API was called after the login API.
+      * Fixed a NullPointerException crash that would occur when the user tried to access the Android System Services.
+      * Fixed an edge case where a NullPointerException crash would occur when an end user tried to exit the chat screen while a view animation was running.
+      * Fixed a bug where the date header view would show up multiple times in the chat screen when the device was in daylight savings mode.
+      * Fixed an edge case bug where the typing indicator would not show when a Bot was running.
+      * Fixed a bug where the search icon would be missing on the FAQ screen if the "Don't keep activities" developer option was on.
 7.2.0 Release Date: August 21, 2018
+      * Introduced functionality for end users to view their past conversations. This can be managed via an Admin toggle available in the Dashboard on the App settings > the In-app SDK configuration page. Review this FAQ (https://support.helpshift.com/kb/article/how-do-i-allow-my-end-users-to-see-past-conversations) to get started.
+      * Introduced functionality for Admins to prevent users from being able to attach files in conversations. This can be managed via an Admin toggle available in the Dashboard on the app settings > the In-app SDK configuration page.
+      * Fixed an edge case bug where, if the end user sent an image attachment at the same time that the Agent rejected the Issue, the Issue would remain open on the end user side.
+      * Fixed a bug where MetadataCallable was being called twice whenever an Issue was created.
+7.2.0-support Release Date: August 21, 2018
       * Introduced functionality for end users to view their past conversations. This can be managed via an Admin toggle available in the Dashboard on the App settings > the In-app SDK configuration page. Review this FAQ (https://support.helpshift.com/kb/article/how-do-i-allow-my-end-users-to-see-past-conversations) to get started.
       * Introduced functionality for Admins to prevent users from being able to attach files in conversations. This can be managed via an Admin toggle available in the Dashboard on the app settings > the In-app SDK configuration page.
       * Fixed an edge case bug where, if the end user sent an image attachment at the same time that the Agent rejected the Issue, the Issue would remain open on the end user side.
