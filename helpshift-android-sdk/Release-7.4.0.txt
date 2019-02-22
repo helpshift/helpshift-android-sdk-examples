@@ -1,4 +1,4 @@
-Helpshift SDK 7.3.0 Release Notes (for Android)
+Helpshift SDK 7.4.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,12 +11,36 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.4.0 Release Date: February 21, 2019
+      * In debug mode, public APIs in Support, Campaigns and Core would log an error if the API is called before Core#install API.
+      * Fixed a crash which occurs when Support#isConversationActive API was called when the conversation is resolved and the user rejected the conversation resolution question.
+      * Prevented a crash due to Android OS 8.0 [bug](https://issuetracker.google.com/issues/68454482) when using the screenOrientation configuration flag in the Install call.
+      * Fixed a bug where the notificationSound configuration flag in the Install call wouldn't work correctly on Android OS 7.0 & above.
+      * Fixed a bug, where in some rare scenarios, agent messages were not received by the SDK.
+      * Fixed a bug, where in some rare scenarios, a user could not reply to a conversation if custom bot was assigned to it.
+      * Fixed a bug, where in some scenarios, conversations weren't closed when the user rejected the resolution question and closed the conversation screen.
+      * Fixed a bug, where sometimes, the Support#getNotificationCount API would incorrectly return -1 when it should be 0.
+      * Fixed a bug where the Support#getNotificationCount API would incorrectly return 0 if Conversation History was enabled and conversation was resolved/rejected.
+      * Fixed a bug where the Support#isConversationActive API would incorrectly return true until the chat screen is opened if config for conversation resolution question is disabled.
+      * Fixed a rare bug in the Form based issue filing experience in which the user was able to create multiple open conversations.
+      * Fixed some memory leaks caused by launching of Conversation and FAQ UI.
+      * Fixed a bug where the hyperlinks in CJK language messages were not showing correctly if the message text contained full-width parentheses.
+      * Fixed a bug where an extra comma along side the date was displayed on the chat screen if agent name was empty.
 7.3.0 Release Date: October 3, 2018
       * Introduced support for Android P.
       * Introduced functionality for end users to be able to tap on an attachment that they sent in order to view the image.
       * Added Campaigns delegate callbacks for tracking when a Helpshift campaigns session begins and when a session ends. Refer here: https://developers.helpshift.com/android/campaigns/.
       * Fixed a bug where the typing indicator would show infinitely and the user was unable to send new messages on the chat screen.
       * Fixed an ANR error which would occur sometimes when the Campaigns' addProperty API was called after the login API.
+      * Fixed a NullPointerException crash that would occur when the user tried to access the Android System Services.
+      * Fixed an edge case where a NullPointerException crash would occur when an end user tried to exit the chat screen while a view animation was running.
+      * Fixed a bug where the date header view would show up multiple times in the chat screen when the device was in daylight savings mode.
+      * Fixed an edge case bug where the typing indicator would not show when a Bot was running.
+      * Fixed a bug where the search icon would be missing on the FAQ screen if the "Don't keep activities" developer option was on.
+7.3.0-support Release Date: October 3, 2018
+      * Introduced support for Android P.
+      * Introduced functionality for end users to be able to tap on an attachment that they sent in order to view the image.
+      * Fixed a bug where the typing indicator would show infinitely and the user was unable to send new messages on the chat screen.
       * Fixed a NullPointerException crash that would occur when the user tried to access the Android System Services.
       * Fixed an edge case where a NullPointerException crash would occur when an end user tried to exit the chat screen while a view animation was running.
       * Fixed a bug where the date header view would show up multiple times in the chat screen when the device was in daylight savings mode.

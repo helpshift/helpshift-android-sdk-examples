@@ -4,28 +4,28 @@ import android.app.Application;
 
 import com.helpshift.All;
 import com.helpshift.Core;
+import com.helpshift.InstallConfig;
 import com.helpshift.exceptions.InstallException;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class MainApplication extends Application {
 
   @Override
   public void onCreate() {
     super.onCreate();
-
-    // Create Helpshift config
-    Map config = new HashMap();
-
     // Initialize and install Helpshift
     Core.init(All.getInstance());
+
+    // Create Helpshift config
+    InstallConfig installConfig = new InstallConfig.Builder()
+                               .build();
     try {
       Core.install(this,
-                   "518c9d6472a68a2ab99a42c26567e24f",
-                   "test.helpshift.com",
-                   "test_platform_20121108053758969-8f405d202ca65d5",
-                   config);
+                   "<your api key>",
+                   "<your domain>",
+                   "<your app id>",
+                   installConfig);
+
+
     } catch (InstallException e) {
       e.printStackTrace();
     }
