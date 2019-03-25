@@ -32,6 +32,7 @@
         android:layout_below="@+id/like_status"
         android:layout_marginTop="@dimen/activity_vertical_margin_medium"
         android:gravity="top"
+        android:inputType="text|textCapSentences"
         android:hint="@string/hs__csat_additonal_feedback_message"
         android:maxLines="4"
         android:minLines="2" />

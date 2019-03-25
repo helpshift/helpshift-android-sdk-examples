@@ -18,35 +18,6 @@
     </string>
     <string name="hs__authentication_failed">പ്രാമാണീകരണം പരാജയപ്പെട്ടു</string>
     <string name="hs__ca_msg">നിങ്ങളെ സഹായിക്കാൻ ‌ഞങ്ങൾക്ക് സന്തോഷമേയുള്ളു!</string>
-    <string name="hs__cam_action_accept">സ്വീകരിക്കുക</string>
-    <string name="hs__cam_action_book_now">ഇപ്പോൾ ബുക്കുചെയ്യുക</string>
-    <string name="hs__cam_action_buy_now">ഇപ്പോൾ വാങ്ങുക</string>
-    <string name="hs__cam_action_chat_now">ഇപ്പോൾ ചാറ്റുചെയ്യുക</string>
-    <string name="hs__cam_action_decline">നിരസിക്കുക</string>
-    <string name="hs__cam_action_dislike">ഇഷ്ടപ്പെടുന്നില്ല</string>
-    <string name="hs__cam_action_download">ഡൗൺലോഡുചെയ്യുക</string>
-    <string name="hs__cam_action_later">അൽപ്പസമയം കഴിഞ്ഞ് ഓർമ്മിപ്പിക്കുക</string>
-    <string name="hs__cam_action_launch">ഇപ്പോൾ കാണുക</string>
-    <string name="hs__cam_action_like">ഇഷ്ടപ്പെടുന്നു</string>
-    <string name="hs__cam_action_no">ഇല്ല</string>
-    <string name="hs__cam_action_open_help">സഹായം തിറക്കുക</string>
-    <string name="hs__cam_action_rate">ആപ്പ് ‌റേറ്റുചെയ്യുക</string>
-    <string name="hs__cam_action_read_faq">പതിവ് ചോദ്യങ്ങൾ</string>
-    <string name="hs__cam_action_read_faqs">പതിവ് ചോദ്യങ്ങൾ വായിക്കുക</string>
-    <string name="hs__cam_action_reply">മറുപടി</string>
-    <string name="hs__cam_action_send_feedback">ഫീഡ്ബാ ക് അയ ക്കുക</string>
-    <string name="hs__cam_action_share">പങ്കിടുക</string>
-    <string name="hs__cam_action_shop_now">ഇപ്പോൾ ഷോപ്പുചെയ്യുക</string>
-    <string name="hs__cam_action_yes">ഉവ്വ്</string>
-    <string name="hs__cam_delete">ഇല്ലാതാക്കുക</string>
-    <string name="hs__cam_expired_campaign_message">ഈ സന്ദേശം ഇനി ലഭ്യമല്ല</string>
-    <string name="hs__cam_inbox">ഇൻബോക്‌സ്</string>
-    <string name="hs__cam_mark_as_read">വായിച്ചതായി അടയാളപ്പെടുത്തുക</string>
-    <string name="hs__cam_message">സന്ദേശം</string>
-    <string name="hs__cam_message_deleted">സന്ദേശം ഇല്ലാതാക്കി</string>
-    <string name="hs__cam_no_campaigns_found">സന്ദേശങ്ങളൊന്നും കാണ്മാനില്ല.</string>
-    <string name="hs__cam_select_a_message_message">ഇടത് നിന്ന് ഒരു സന്ദേശം തിരഞ്ഞെടുക്കുക</string>
-    <string name="hs__cam_undo">പഴയപടിയാക്കുക</string>
     <string name="hs__change_btn">മാറ്റുക</string>
     <string name="hs__chat_hint">നിങ്ങളുടെ സന്ദേശം എൻ്റർ ചെയ്യുക</string>
     <string name="hs__confirmation_footer_msg">ഞങ്ങൾക്ക് സന്ദേശമയച്ചതിന് നിങ്ങൾക്ക് നന്ദി!</string>
@@ -72,8 +43,11 @@
     <string name="hs__cr_msg">മറ്റെന്ത് സഹായമാണ് ഞങ്ങൾ നിങ്ങൾക്ക് നൽകേണ്ടത്?</string>
     <string name="hs__csat_additonal_feedback_message">മറ്റെന്തെങ്കിലും പ്രതികരണമുണ്ടോ (ഐച്ഛികം)</string>
     <string name="hs__csat_dislike_message">വെറുക്കുന്നു</string>
+    <string name="hs__csat_disliked_rating_message">അത് ഇഷ്ടപ്പെട്ടില്ല</string>
     <string name="hs__csat_like_message">ഇഷ്ടപ്പെടുന്നു</string>
+    <string name="hs__csat_liked_rating_message">അത് ഇഷ്ടപ്പെട്ടു</string>
     <string name="hs__csat_message">ഞങ്ങളുടെ ഉപഭോക്തൃ പിന്തുണയെ കിറിച്ച് നിങ്ങളുടെ പ്രതികരണമെന്താണ്?</string>
+    <string name="hs__csat_ok_rating_message">അത് ഓക്കേ ആയിരുന്നു</string>
     <string name="hs__csat_option_message">അല്ലെങ്കിൽ</string>
     <string name="hs__csat_ratingbar">ഞങ്ങളുടെ സേവനം ‌റേറ്റുചെയ്യുക</string>
     <string name="hs__csat_submit_toast">ഞങ്ങളെ റേറ്റ് ചെയ്തതിന് നന്ദി.</string>
@@ -141,6 +115,14 @@
         ലഭ്യമല്ല
     </string>
     <string name="hs__permission_rationale_snackbar_action_label">ശരി</string>
+    <string name="hs__picker_clear_query_voice_over">ചോദ്യം നീക്കം ചെയ്യുക</string>
+    <string name="hs__picker_no_results">ഫലങ്ങൾ ഒന്നും ലഭിച്ചില്ല</string>
+    <string name="hs__picker_option_list_item_voice_over">%1$sഅയക്കുക</string>
+    <string name="hs__picker_options_expand_header_voice_over">മുഴുവൻ ലിസ്റ്റ് വികസിപ്പിക്കുക, %1$s</string>
+    <string name="hs__picker_options_list_collapse_btn_voice_over">ലിസ്റ്റ് ചുരുക്കുക</string>
+    <string name="hs__picker_search_edit_back_btn_voice_over">പിന്നിലേക്ക്</string>
+    <string name="hs__picker_search_hint">തിരയുക</string>
+    <string name="hs__picker_search_icon_voice_over">തിരയൽ ലിസ്റ്റ്</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">നിങ്ങൾക്കിത് സഹായകരമായിരുന്നു</string>
     <string name="hs__question_unhelpful_message">നിങ്ങൾക്കിത് ‌സഹായകരമായിരുന്നില്ല</string>

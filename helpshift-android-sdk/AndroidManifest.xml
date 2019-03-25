@@ -29,22 +29,6 @@
             android:name="com.helpshift.support.HSReview"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Helpshift.Theme.Dialog" />
-        <activity
-            android:name="com.helpshift.campaigns.activities.ParentActivity"
-            android:theme="@style/Helpshift.Theme.Activity" >
-        </activity>
-        <activity
-            android:name="com.helpshift.campaigns.activities.NotificationActivity"
-            android:configChanges="orientation|screenSize|locale|layoutDirection"
-            android:excludeFromRecents="true"
-            android:launchMode="singleTask"
-            android:noHistory="true"
-            android:taskAffinity=""
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <service
-            android:name="com.helpshift.campaigns.services.NotificationService"
-            android:exported="false" />
     </application>
 
 </manifest>

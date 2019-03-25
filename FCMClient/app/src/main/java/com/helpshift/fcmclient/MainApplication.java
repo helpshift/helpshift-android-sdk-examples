@@ -2,7 +2,7 @@ package com.helpshift.fcmclient;
 
 import android.app.Application;
 
-import com.helpshift.All;
+import com.helpshift.support.Support;
 import com.helpshift.Core;
 import com.helpshift.InstallConfig;
 import com.helpshift.exceptions.InstallException;
@@ -13,7 +13,7 @@ public class MainApplication extends Application {
   public void onCreate() {
     super.onCreate();
     // Initialize and install Helpshift
-    Core.init(All.getInstance());
+    Core.init(Support.getInstance());
 
     // Create Helpshift config
     InstallConfig installConfig = new InstallConfig.Builder()

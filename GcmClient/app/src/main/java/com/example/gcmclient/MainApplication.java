@@ -3,7 +3,6 @@ package com.example.gcmclient;
 import android.app.Application;
 import android.content.Intent;
 
-import com.helpshift.All;
 import com.helpshift.Core;
 import com.helpshift.support.Support;
 import com.helpshift.exceptions.InstallException;
@@ -17,7 +16,7 @@ public class MainApplication extends Application {
     // You initialize the library by calling Core.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your application's onCreate(Bundle savedInstanceState)
 
-    Core.init(All.getInstance());
+    Core.init(Support.getInstance());
     try {
       Core.install(this,
                    "<your api key>",

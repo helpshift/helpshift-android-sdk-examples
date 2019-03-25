@@ -4,7 +4,6 @@ import android.app.Application;
 import android.widget.Toast;
 
 import com.helpshift.Core;
-import com.helpshift.All;
 import com.helpshift.HelpshiftUser;
 import com.helpshift.delegate.AuthenticationFailureReason;
 import com.helpshift.support.Log;
@@ -22,7 +21,7 @@ public class MainApplication extends Application implements Support.Delegate {
   public void onCreate() {
     super.onCreate();
 
-    Core.init(All.getInstance());
+    Core.init(Support.getInstance());
     InstallConfig installConfig = new InstallConfig.Builder()
                                .setEnableInAppNotification(true)
                                .build();

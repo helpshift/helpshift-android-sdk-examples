@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <bool name="is_dual_pane">false</bool>
     <bool name="is_screen_large">false</bool>
     <color name="hs__color_1565C0">#1565C0</color>
     <color name="hs__color_19000000">#19000000</color>
@@ -9,6 +8,7 @@
     <color name="hs__color_1F000000">#1F000000</color>
     <color name="hs__color_1FFFFFFF">#1FFFFFFF</color>
     <color name="hs__color_2E2E2E">#2E2E2E</color>
+    <color name="hs__color_40000000">#40000000</color>
     <color name="hs__color_4000B0FF">#4000B0FF</color>
     <color name="hs__color_4000E5FF">#4000E5FF</color>
     <color name="hs__color_402196F3">#402196F3</color>
@@ -18,6 +18,7 @@
     <color name="hs__color_80B1B1B1">#80B1B1B1</color>
     <color name="hs__color_80FFFFFF">#80FFFFFF</color>
     <color name="hs__color_8A000000">#8A000000</color>
+    <color name="hs__color_8C000000">#8C000000</color>
     <color name="hs__color_8F8F8F">#8F8F8F</color>
     <color name="hs__color_B3FFFFFF">#B3FFFFFF</color>
     <color name="hs__color_DAE8F0">#DAE8F0</color>
@@ -48,7 +49,7 @@
     <color name="hs__color_FFFFFFFF">#FFFFFFFF</color>
     <declare-styleable name="HSRoundedImageView"><attr format="dimension" name="hs__cornerRadius"/><attr format="boolean" name="hs__roundedTopLeft"/><attr format="boolean" name="hs__roundedTopRight"/><attr format="boolean" name="hs__roundedBottomLeft"/><attr format="boolean" name="hs__roundedBottomRight"/><attr format="reference" name="hs__placeholder"/><attr format="dimension" name="hs__borderWidth"/><attr format="color" name="hs__borderColor"/><attr format="color" name="hs__backgroundColor"/></declare-styleable>
     <declare-styleable name="HSTypingIndicatorView"><attr format="color" name="hs__dotColor"/><attr format="dimension" name="hs__interDotPadding"/><attr format="dimension" name="hs__dotDiameter"/></declare-styleable>
-    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__chatBubbleMediaBackgroundColor"/><attr format="color" name="hs__chatBubbleMediaBorderColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__typingIndicatorColor"/><attr format="color" name="hs__selectableOptionColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__errorTextColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__footerPromptBackground"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__tabTextColor"/><attr format="color" name="hs__tabSelectedTextColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
+    <declare-styleable name="HelpshiftTheme.Activity"><attr format="color" name="hs__chatBubbleUserText"/><attr format="color" name="hs__chatBubbleUserLink"/><attr format="color" name="hs__chatBubbleUserBackgroundColor"/><attr format="color" name="hs__chatBubbleAdminText"/><attr format="color" name="hs__chatBubbleAdminLink"/><attr format="color" name="hs__chatBubbleAdminBackgroundColor"/><attr format="color" name="hs__chatBubbleMediaBackgroundColor"/><attr format="color" name="hs__chatBubbleMediaBorderColor"/><attr format="color" name="hs__composeBackgroundColor"/><attr format="color" name="hs__tabletConversationContainerBackgroundColor"/><attr format="color" name="hs__typingIndicatorColor"/><attr format="color" name="hs__selectableOptionColor"/><attr format="color" name="hs__attachmentBackgroundColor"/><attr format="color" name="hs__separatorColor"/><attr format="color" name="hs__textFieldBorderColor"/><attr format="color" name="hs__errorTextColor"/><attr format="color" name="hs__searchHighlightColor"/><attr format="color" name="hs__footerPromptBackground"/><attr format="color" name="hs__faqsPagerTabStripIndicatorColor"/><attr format="color" name="hs__contentSeparatorColor"/><attr format="color" name="hs__actionButtonIconColor"/><attr format="color" name="hs__tabTextColor"/><attr format="color" name="hs__tabSelectedTextColor"/><attr format="color" name="hs__expandedPickerIconColor"/><attr format="color" name="hs__collapsedPickerIconColor"/><attr format="color" name="hs__inboxTitleTextColor"/><attr format="color" name="hs__inboxTitleUnreadTextColor"/><attr format="color" name="hs__inboxTimeStampTextColor"/><attr format="color" name="hs__inboxTimeStampUnreadTextColor"/><attr format="color" name="hs__inboxBodyTextColor"/><attr format="color" name="hs__inboxSwipeToDeleteBackgroundColor"/><attr format="color" name="hs__inboxSwipeToDeleteIconColor"/><attr format="color" name="hs__inboxIconBackgroundColor"/><attr format="color" name="hs__inboxSeparatorColor"/><attr format="reference" name="hs__attachScreenshotActionButtonIcon"/><attr format="reference" name="hs__searchActionButtonIcon"/><attr format="reference" name="hs__conversationActionButtonIcon"/><attr format="reference" name="hs__conversationNotificationActionButtonIcon"/><attr format="reference" name="hs__startConversationActionButtonIcon"/><attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/><attr format="reference" name="hs__faqsPagerTabStripStyle"/><attr format="reference" name="hs__faqsListItemStyle"/><attr format="reference" name="hs__contactUsButtonStyle"/><attr format="reference" name="hs__toolbarStyle"/></declare-styleable>
     <dimen name="activity_horizontal_margin_large">24dp</dimen>
     <dimen name="activity_horizontal_margin_medium">16dp</dimen>
     <dimen name="activity_horizontal_margin_small">8dp</dimen>
@@ -71,6 +72,12 @@
     <dimen name="hs__msgPreferredItemPaddingLeft">12dp</dimen>
     <dimen name="hs__msgPreferredItemPaddingRight">12dp</dimen>
     <dimen name="hs__msgPreferredItemPaddingTop">10dp</dimen>
+    <dimen name="hs__picker_empty_view_top_padding">12dp</dimen>
+    <dimen name="hs__picker_header_container_height">56dp</dimen>
+    <dimen name="hs__picker_header_icon_height">48dp</dimen>
+    <dimen name="hs__picker_header_icon_width">48dp</dimen>
+    <dimen name="hs__picker_icon_padding">24dp</dimen>
+    <dimen name="hs__picker_top_shadow_height">4dp</dimen>
     <item format="float" name="hs__screen_to_conversation_view_ratio" type="dimen">1.0</item>
     <dimen name="hs__textSizeExtraSmall">12sp</dimen>
     <dimen name="hs__textSizeLarge">18sp</dimen>
@@ -103,35 +110,6 @@
     <string name="hs__attachment_not_downloaded_voice_over">File, %1$s, %2$s, Double Tap to Download</string>
     <string name="hs__authentication_failed">Authentication Failed</string>
     <string name="hs__ca_msg">We\'re happy to help you!</string>
-    <string name="hs__cam_action_accept">Accept</string>
-    <string name="hs__cam_action_book_now">Book Now</string>
-    <string name="hs__cam_action_buy_now">Buy Now</string>
-    <string name="hs__cam_action_chat_now">Chat Now</string>
-    <string name="hs__cam_action_decline">Decline</string>
-    <string name="hs__cam_action_dislike">Dislike</string>
-    <string name="hs__cam_action_download">Download</string>
-    <string name="hs__cam_action_later">Remind Later</string>
-    <string name="hs__cam_action_launch">View Now</string>
-    <string name="hs__cam_action_like">Like</string>
-    <string name="hs__cam_action_no">No</string>
-    <string name="hs__cam_action_open_help">Open Help</string>
-    <string name="hs__cam_action_rate">Rate App</string>
-    <string name="hs__cam_action_read_faq">Read FAQ</string>
-    <string name="hs__cam_action_read_faqs">Read FAQs</string>
-    <string name="hs__cam_action_reply">Reply</string>
-    <string name="hs__cam_action_send_feedback">Send Feedback</string>
-    <string name="hs__cam_action_share">Share</string>
-    <string name="hs__cam_action_shop_now">Shop Now</string>
-    <string name="hs__cam_action_yes">Yes</string>
-    <string name="hs__cam_delete">Delete</string>
-    <string name="hs__cam_expired_campaign_message">This message is no longer available</string>
-    <string name="hs__cam_inbox">Inbox</string>
-    <string name="hs__cam_mark_as_read">Mark as read</string>
-    <string name="hs__cam_message">Message</string>
-    <string name="hs__cam_message_deleted">Message deleted</string>
-    <string name="hs__cam_no_campaigns_found">No messages found.</string>
-    <string name="hs__cam_select_a_message_message">Please select a message from left</string>
-    <string name="hs__cam_undo">Undo</string>
     <string name="hs__change_btn">Change</string>
     <string name="hs__chat_hint">Enter your message</string>
     <string name="hs__confirmation_footer_msg">Thanks for messaging us!</string>
@@ -157,9 +135,12 @@
     <string name="hs__could_not_reach_support_msg">Unable to reach support</string>
     <string name="hs__cr_msg">What else can we help you with?</string>
     <string name="hs__csat_additonal_feedback_message">Any other feedback (optional)</string>
-    <string name="hs__csat_dislike_message">Hated It!</string>
-    <string name="hs__csat_like_message">Loved It!</string>
+    <string name="hs__csat_dislike_message">Hated it</string>
+    <string name="hs__csat_disliked_rating_message">Disliked it</string>
+    <string name="hs__csat_like_message">Loved it</string>
+    <string name="hs__csat_liked_rating_message">Liked it</string>
     <string name="hs__csat_message">What\'s your feedback about our customer support?</string>
+    <string name="hs__csat_ok_rating_message">It was okay</string>
     <string name="hs__csat_option_message">or</string>
     <string name="hs__csat_ratingbar">Please rate our service.</string>
     <string name="hs__csat_submit_toast">Thanks for rating us.</string>
@@ -223,6 +204,14 @@
     <string name="hs__permission_denied_snackbar_action">Settings</string>
     <string name="hs__permission_not_granted">Application does not have permission to access your photos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__picker_clear_query_voice_over">Clear Query</string>
+    <string name="hs__picker_no_results">No results found</string>
+    <string name="hs__picker_option_list_item_voice_over">Send, %1$s</string>
+    <string name="hs__picker_options_expand_header_voice_over">%1$s, Expand full list</string>
+    <string name="hs__picker_options_list_collapse_btn_voice_over">Collapse list</string>
+    <string name="hs__picker_search_edit_back_btn_voice_over">Back</string>
+    <string name="hs__picker_search_hint">Search</string>
+    <string name="hs__picker_search_icon_voice_over">Search list</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">You found this helpful</string>
     <string name="hs__question_unhelpful_message">You didn\'t find this helpful</string>
@@ -325,6 +314,23 @@
         <item name="android:paddingTop">@dimen/hs__listPreferredItemPaddingTop</item>
         <item name="android:paddingBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
         <item name="android:minHeight">@dimen/hs__listPreferredItemHeightSmall</item>
+    </style>
+    <style name="Helpshift.Style.PickerOptionContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/hs__listPreferredItemHeightSmall</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="Helpshift.Style.PickerOptionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/hs__textSizeMedium</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
     <style name="Helpshift.Style.QuestionLoadProgress" parent="Base.Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:indeterminate">true</item>
@@ -440,6 +446,10 @@
         <item name="hs__contactUsButtonStyle">@style/Helpshift.Style.ContactUsButton</item>
         <!--END FAQ FOOTER STYLING-->
 
+        <!--OPTIONS PICKER STYLING-->
+        <item name="hs__expandedPickerIconColor">@color/hs__color_FFFFFFFF</item>
+        <item name="hs__collapsedPickerIconColor">@color/hs__color_FFFFFFFF</item>
+
         <!-- FOOTER STYLING-->
         <item name="hs__footerPromptBackground">@color/hs__color_FF455A64</item>
         <!--END FOOTER STYLING-->
@@ -541,6 +551,10 @@
         <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Dark</item>
         <!--END TOOLBAR STYLING-->
 
+        <!--OPTIONS PICKER STYLING-->
+        <item name="hs__expandedPickerIconColor">@color/hs__color_8C000000</item>
+        <item name="hs__collapsedPickerIconColor">@color/hs__color_FF000000</item>
+
         <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Dark</item>
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_B3FFFFFF</item>
@@ -623,6 +637,10 @@
         <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Light</item>
         <!--END TOOLBAR STYLING-->
 
+        <!--OPTIONS PICKER STYLING-->
+        <item name="hs__expandedPickerIconColor">@color/hs__color_8C000000</item>
+        <item name="hs__collapsedPickerIconColor">@color/hs__color_FF000000</item>
+
         <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Light</item>
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_FF616161</item>
@@ -704,6 +722,10 @@
         <item name="hs__actionButtonIconColor">@color/hs__color_FFFFFFFF</item>
         <item name="hs__toolbarStyle">@style/Helpshift.Style.Toolbar.Dark</item>
         <!--END TOOLBAR STYLING-->
+
+        <!--OPTIONS PICKER STYLING-->
+        <item name="hs__expandedPickerIconColor">@color/hs__color_8C000000</item>
+        <item name="hs__collapsedPickerIconColor">@color/hs__color_FF000000</item>
 
         <item name="hs__faqsPagerTabStripStyle">@style/Helpshift.Style.SectionTabs.Dark</item>
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>

@@ -14,6 +14,7 @@
     <!-- Setting layout_width to 0.1dp,
          In tablet scrollToPosition doesn't work with recycler view -->
     <android.support.v7.widget.CardView
+        android:id="@+id/hs__conversation_cardview_container"
         android:layout_width="0.1dp"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/activity_horizontal_margin_large"

@@ -3,7 +3,6 @@ package com.example.gcmapp;
 import android.app.Application;
 
 import com.helpshift.Core;
-import com.helpshift.All;
 import com.helpshift.support.Support;
 import com.helpshift.InstallConfig;
 import com.helpshift.exceptions.InstallException;
@@ -16,7 +15,7 @@ public class GCMApplication extends Application {
     // You initialize the library by calling Core.install(APPLICATION, API_KEY, DOMAIN,
     // APP_ID) in your application's onCreate()
 
-    Core.init(All.getInstance());
+    Core.init(Support.getInstance());
     InstallConfig installConfig = new InstallConfig.Builder()
                                .setEnableInAppNotification(true)
                                .build();

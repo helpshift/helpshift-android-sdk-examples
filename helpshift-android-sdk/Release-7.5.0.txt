@@ -1,0 +1,771 @@
+Helpshift SDK 7.5.0 Release Notes (for Android)
+-----------------------------------------------
+
+Helpshift is an embedded support desk for native apps. (http://helpshift.com)
+Helpshift SDK for Android is required for having Helpshift support running on native apps.
+
+Version Requirements:
+https://developers.helpshift.com/android/getting-started/#version-requirements
+
+Documentation for Installation and Usage Instructions:
+http://www.helpshift.com/docs/android/
+
+New features:
+7.5.0 Release Date: March 25, 2019
+      * Introduced a new rich element for automation bots to let users choose from a list of selectable option responses if the number of selectable options is more than 5.
+      * Introduced an ability for reducing the SDK size impact on your app further by only using SDK resources of select languages. For more details, refer https://developers.helpshift.com/android/i18n/#language-selection.
+      * Users can modify their CSAT rating during the Feedback phase before submitting them. For more details, refer https://developers.helpshift.com/android/reviews-and-feedback/#csat.
+      * Added a configuration option, `hs__issue_description_min_chars` for setting the minimum number of characters required, before you can send a message in conversational experience. For more details, refer https://developers.helpshift.com/android/sdk-configuration/#minimum-issue-desc-length.
+      * Added configuration option, `conversationPrefillText`, for pre-filling new conversation's description in the conversational issue filing experience. For more details, refer https://developers.helpshift.com/android/sdk-configuration/#conversationPrefillText.
+      * Fixed a bug where, in some network edge cases, SDK fails to download an image.
+      * Fixed a bug where the user could reply to a previously assigned bot in the conversation.
+      * Fixed a bug where in some network edge cases, the user can reply to a conversation while waiting for the next bot message.
+      * Fixed a bug where the "Message Deleted" message text was getting clipped off from the right when using a custom font.
+      * Fixed a bug where sometimes other messages were shown incorrectly in italics, if a message was redacted.
+7.5.0 Release Date: March 25, 2019
+      * Introduced a new rich element for automation bots to let users choose from a list of selectable option responses if the number of selectable options is more than 5.
+      * Introduced an ability for reducing the SDK size impact on your app further by only using SDK resources of select languages. For more details, refer https://developers.helpshift.com/android/i18n/#language-selection.
+      * Users can modify their CSAT rating during the Feedback phase before submitting them. For more details, refer https://developers.helpshift.com/android/reviews-and-feedback/#csat.
+      * Added a configuration option, `hs__issue_description_min_chars` for setting the minimum number of characters required, before you can send a message in conversational experience. For more details, refer https://developers.helpshift.com/android/sdk-configuration/#minimum-issue-desc-length.
+      * Added configuration option, `conversationPrefillText`, for pre-filling new conversation's description in the conversational issue filing experience. For more details, refer https://developers.helpshift.com/android/sdk-configuration/#conversationPrefillText.
+      * Fixed a bug where, in some network edge cases, SDK fails to download an image.
+      * Fixed a bug where the user could reply to a previously assigned bot in the conversation.
+      * Fixed a bug where in some network edge cases, the user can reply to a conversation while waiting for the next bot message.
+      * Fixed a bug where the "Message Deleted" message text was getting clipped off from the right when using a custom font.
+      * Fixed a bug where sometimes other messages were shown incorrectly in italics, if a message was redacted.
+7.4.0 Release Date: February 21, 2019
+      * In debug mode, public APIs in Support, Campaigns and Core would log an error if the API is called before Core#install API.
+      * Fixed a crash which occurs when Support#isConversationActive API was called when the conversation is resolved and the user rejected the conversation resolution question.
+      * Prevented a crash due to Android OS 8.0 [bug](https://issuetracker.google.com/issues/68454482) when using the screenOrientation configuration flag in the Install call.
+      * Fixed a bug where the notificationSound configuration flag in the Install call wouldn't work correctly on Android OS 7.0 & above.
+      * Fixed a bug, where in some rare scenarios, agent messages were not received by the SDK.
+      * Fixed a bug, where in some rare scenarios, a user could not reply to a conversation if custom bot was assigned to it.
+      * Fixed a bug, where in some scenarios, conversations weren't closed when the user rejected the resolution question and closed the conversation screen.
+      * Fixed a bug, where sometimes, the Support#getNotificationCount API would incorrectly return -1 when it should be 0.
+      * Fixed a bug where the Support#getNotificationCount API would incorrectly return 0 if Conversation History was enabled and conversation was resolved/rejected.
+      * Fixed a bug where the Support#isConversationActive API would incorrectly return true until the chat screen is opened if config for conversation resolution question is disabled.
+      * Fixed a rare bug in the Form based issue filing experience in which the user was able to create multiple open conversations.
+      * Fixed some memory leaks caused by launching of Conversation and FAQ UI.
+      * Fixed a bug where the hyperlinks in CJK language messages were not showing correctly if the message text contained full-width parentheses.
+      * Fixed a bug where an extra comma along side the date was displayed on the chat screen if agent name was empty.
+7.4.0-support Release Date: February 21, 2019
+      * In debug mode, public APIs in Support & Core would log an error if the API is called before Core#install API.
+      * Fixed a crash which occurs when Support#isConversationActive API was called when the conversation is resolved and the user rejected the conversation resolution question.
+      * Prevented a crash due to Android OS 8.0 [bug](https://issuetracker.google.com/issues/68454482) when using the screenOrientation configuration flag in the Install call.
+      * Fixed a bug where the notificationSound configuration flag in the Install call wouldn't work correctly on Android OS 7.0 & above.
+      * Fixed a bug, where in some rare scenarios, agent messages were not received by the SDK.
+      * Fixed a bug, where in some rare scenarios, a user could not reply to a conversation if custom bot was assigned to it.
+      * Fixed a bug, where in some scenarios, conversations weren't closed when the user rejected the resolution question and closed the conversation screen.
+      * Fixed a bug, where sometimes, the Support#getNotificationCount API would incorrectly return -1 when it should be 0.
+      * Fixed a bug where the Support#getNotificationCount API would incorrectly return 0 if Conversation History was enabled and conversation was resolved/rejected.
+      * Fixed a bug where the Support#isConversationActive API would incorrectly return true until the chat screen is opened if config for conversation resolution question is disabled.
+      * Fixed a rare bug in the Form based issue filing experience in which the user was able to create multiple open conversations.
+      * Fixed some memory leaks caused by launching of Conversation and FAQ UI.
+      * Fixed a bug where the hyperlinks in CJK language messages were not showing correctly if the message text contained full-width parentheses.
+      * Fixed a bug where an extra comma along side the date was displayed on the chat screen if agent name was empty.
+7.3.0 Release Date: October 3, 2018
+      * Introduced support for Android P.
+      * Introduced functionality for end users to be able to tap on an attachment that they sent in order to view the image.
+      * Added Campaigns delegate callbacks for tracking when a Helpshift campaigns session begins and when a session ends. Refer here: https://developers.helpshift.com/android/campaigns/.
+      * Fixed a bug where the typing indicator would show infinitely and the user was unable to send new messages on the chat screen.
+      * Fixed an ANR error which would occur sometimes when the Campaigns' addProperty API was called after the login API.
+      * Fixed a NullPointerException crash that would occur when the user tried to access the Android System Services.
+      * Fixed an edge case where a NullPointerException crash would occur when an end user tried to exit the chat screen while a view animation was running.
+      * Fixed a bug where the date header view would show up multiple times in the chat screen when the device was in daylight savings mode.
+      * Fixed an edge case bug where the typing indicator would not show when a Bot was running.
+      * Fixed a bug where the search icon would be missing on the FAQ screen if the "Don't keep activities" developer option was on.
+7.3.0-support Release Date: October 3, 2018
+      * Introduced support for Android P.
+      * Introduced functionality for end users to be able to tap on an attachment that they sent in order to view the image.
+      * Fixed a bug where the typing indicator would show infinitely and the user was unable to send new messages on the chat screen.
+      * Fixed a NullPointerException crash that would occur when the user tried to access the Android System Services.
+      * Fixed an edge case where a NullPointerException crash would occur when an end user tried to exit the chat screen while a view animation was running.
+      * Fixed a bug where the date header view would show up multiple times in the chat screen when the device was in daylight savings mode.
+      * Fixed an edge case bug where the typing indicator would not show when a Bot was running.
+      * Fixed a bug where the search icon would be missing on the FAQ screen if the "Don't keep activities" developer option was on.
+7.2.0 Release Date: August 21, 2018
+      * Introduced functionality for end users to view their past conversations. This can be managed via an Admin toggle available in the Dashboard on the App settings > the In-app SDK configuration page. Review this FAQ (https://support.helpshift.com/kb/article/how-do-i-allow-my-end-users-to-see-past-conversations) to get started.
+      * Introduced functionality for Admins to prevent users from being able to attach files in conversations. This can be managed via an Admin toggle available in the Dashboard on the app settings > the In-app SDK configuration page.
+      * Fixed an edge case bug where, if the end user sent an image attachment at the same time that the Agent rejected the Issue, the Issue would remain open on the end user side.
+      * Fixed a bug where MetadataCallable was being called twice whenever an Issue was created.
+7.2.0-support Release Date: August 21, 2018
+      * Introduced functionality for end users to view their past conversations. This can be managed via an Admin toggle available in the Dashboard on the App settings > the In-app SDK configuration page. Review this FAQ (https://support.helpshift.com/kb/article/how-do-i-allow-my-end-users-to-see-past-conversations) to get started.
+      * Introduced functionality for Admins to prevent users from being able to attach files in conversations. This can be managed via an Admin toggle available in the Dashboard on the app settings > the In-app SDK configuration page.
+      * Fixed an edge case bug where, if the end user sent an image attachment at the same time that the Agent rejected the Issue, the Issue would remain open on the end user side.
+      * Fixed a bug where MetadataCallable was being called twice whenever an Issue was created.
+7.1.0 Release Date: July 10, 2018
+      * Introduced support for Issue Selection Bots and Custom Bots.
+      * Fixed a bug where the Campaigns poller was not stopped when the app is in the background.
+      * Fixed a bug where a duplicate attachment was sent again if the user turned off the internet while sending was in progress.
+      * Fixed a bug where the name field was not updated if the same user logged in again with a different name.
+      * Fixed an edge case crash that would occur as a result of the concurrent modification exception.
+      * Fixed a bug where multiple taps on a button would open up multiple FAQ screens.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely during network connectivity problems.
+      * Fixed an edge case crash that would occur when starting a new Conversation.
+7.1.0-support Release Date: July 10, 2018
+      * Introduced support for Issue Selection Bots and Custom Bots.
+      * Fixed a bug where a duplicate attachment was sent again if the user turned off the internet while sending was in progress.
+      * Fixed a bug where the name field was not updated if the same user logged in again with a different name.
+      * Fixed a bug where multiple taps on a button would open up multiple FAQ screens.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely during network connectivity problems.
+      * Fixed an edge case crash that would occur when starting a new Conversation.
+7.0.1 Release Date: May 10, 2018
+      * Fixed a rare bug where the user is stuck on a conversation due to race condition in network calls.
+7.0.1-support Release Date: May 10, 2018
+      * Fixed a rare bug where the user is stuck on a conversation due to race condition in network calls.
+7.0.0 Release Date: April 23, 2018
+      * Introduced new updates to the in-app messaging experience. Here's our guide on how to onboard to the new experience. (https://support.helpshift.com/kb/article/what-is-conversational-issue-filing-and-how-do-i-set-it-up/).
+      * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
+      * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
+      * Introduced 'userauthtoken', which is an HMAC digest used to ensure that the requests are coming from an authentic source (and not a malicious 3rd party).
+      * Introduced Answer Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
+      * Enhanced UI and support for voiceover.
+      * Deprecated the `setNameAndEmail()`, `setUserIdentifier()` and the existing `login()` APIs. Please use the new Login API.
+      * Deprecated the configurations `conversationPrefillText`, `requireEmail`, `hideNameAndEmail`, `goToConversationAfterContactUs`, `showSearchOnNewConversation` along with the Form-based Issue filing experience. (https://support.helpshift.com/kb/article/april-2018-sdks/)
+      * Changed the default value of `showConversationResolutionQuestion` to false and made it customizable from the app settings Dashboard.
+      * Fixed cases where multiple Issues can be created or duplicate messages can be sent from the SDK in case of client network errors.
+      * Fixed multiple SQLite database access errors by optimizing our data reads and writes.
+      * Fixed a NullPointerException when clicked on “Done" from a FAQ from search suggestions and if conversationPrefillText was also set.
+      * Fixed an edge case where messages were not being sent in Issues from the SDK.
+      * Fixed a bug where the badge count for unread messages on the FAQ screen was incorrect if the Issue was resolved and the app was killed & re-opened.
+      * Fixed a bug where an image doesn't get attached in an edge case if the app doesn't have READ_EXTERNAL_STORAGE permission.
+      * `customContactUsFlows` is now an unsupported config for the showConversation() & getConversationFragment() APIs.
+7.0.0-support Release Date: April 23, 2018
+      * Introduced new updates to the in-app messaging experience. Here's our guide on how to onboard to the new experience. (https://support.helpshift.com/kb/article/what-is-conversational-issue-filing-and-how-do-i-set-it-up/).
+      * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
+      * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
+      * Introduced 'userauthtoken', which is an HMAC digest used to ensure that the requests are coming from an authentic source (and not a malicious 3rd party).
+      * Introduced Answer Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
+      * Enhanced UI and support for voiceover.
+      * Deprecated the `setNameAndEmail()`, `setUserIdentifier()` and the existing `login()` APIs. Please use the new Login API.
+      * Deprecated the configurations `conversationPrefillText`, `requireEmail`, `hideNameAndEmail`, `goToConversationAfterContactUs`, `showSearchOnNewConversation` along with the Form-based Issue filing experience. (https://support.helpshift.com/kb/article/april-2018-sdks/)
+      * Changed the default value of `showConversationResolutionQuestion` to false and made it customizable from the app settings Dashboard.
+      * Fixed cases where multiple Issues can be created or duplicate messages can be sent from the SDK in case of client network errors.
+      * Fixed multiple SQLite database access errors by optimizing our data reads and writes.
+      * Fixed a NullPointerException when clicked on “Done" from a FAQ from search suggestions and if conversationPrefillText was also set.
+      * Fixed an edge case where messages were not being sent in Issues from the SDK.
+      * Fixed a bug where the badge count for unread messages on the FAQ screen was incorrect if the Issue was resolved and the app was killed & re-opened.
+      * Fixed a bug where an image doesn't get attached in an edge case if the app doesn't have READ_EXTERNAL_STORAGE permission.
+      * `customContactUsFlows` is now an unsupported config for the showConversation() & getConversationFragment() APIs.
+6.4.2 Release Date: February 13, 2018
+      * Fixed an edge case where followup accepted/rejected messages were not being retried in case of network failure.
+6.4.2-support Release Date: February 13, 2018
+      * Fixed an edge case where followup accepted/rejected messages were not being retried in case of network failure.
+6.4.1 Release Date: January 30, 2018
+      * Fixed a rare edge case where users were not able to send or receive messages if an SQLiteException occurred at least once while the user's data was being read from the database.
+6.4.1-support Release Date: January 30, 2018
+      * Fixed a rare edge case where users were not able to send or receive messages if an SQLiteException occurred at least once while the user's data was being read from the database.
+6.4.0 Release Date: November 13, 2017
+      * Fixed some variants of a database SQLiteException occurring majorly on Android 4.x devices.
+      * Fixed a bug where the dynamic form flow wouldn’t launch from a deep link on the FAQ screen.
+      * Fixed a bug where an attachment sent from the Agent wasn’t visible if it was attached with a Request Screenshot message.
+      * Fixed a bug where the resource integer value for `hs__issue_description_min_chars` did not change upon changing the language.
+6.4.0-support Release Date: November 13, 2017
+      * Fixed some variants of a database SQLiteException occurring majorly on Android 4.x devices.
+      * Fixed a bug where the dynamic form flow wouldn’t launch from a deep link on the FAQ screen.
+      * Fixed a bug where an attachment sent from the Agent wasn’t visible if it was attached with a Request Screenshot message.
+      * Fixed a bug where the resource integer value for `hs__issue_description_min_chars` did not change upon changing the language.
+6.3.0 Release Date: October 13, 2017
+      * Added support for sending Custom Issue Fields when filing a new conversation.
+      * Added new Campaigns addProperty() API to support Long values.
+      * Added new dynamic form APIs, getDynamicFormFragment() & showDynamicForm() to support taking in the title of the dynamic form as input.
+      * Made improvements to the Campaign images downloading mechanism saving data for the user.
+      * Added two new customizable color attributes for tab text on FAQ sections pager screen.
+      * Fixed a crash that would occur in some specific devices with missing internet permission error.
+      * Fixed some ExceptionInInitializerError exceptions occurring when running in a multi-process environment.
+      * Fixed a crash that would occur with support library v26 when navigating to a deep link from an FAQ and pressing back.
+      * Fixed a rare crash that would occur when starting the attachment picking flow in some specific devices.
+      * Fixed a rare crash that would occur while trying to restore a backup in a re-install case.
+      * Fixed a crash that would occur when an attachment selected from a gallery was changed and the "Don’t Keep Activities" flag was enabled.
+      * Fixed a bug where the button to enter full screen mode in embedded videos wasn’t visible on the FAQ screen.
+      * Fixed a bug where the user could reopen an Issue in cases where the conversation screen was opened from a notification within gallery.
+      * Fixed a bug where Agent messages stopped appearing on the conversation screen in an edge case.
+      * Fixed a bug where on passing null or empty values in the setNameAndEmail API didn’t clear the name & email fields on the Issue filing screen if a user draft was present.
+      * Fixed a bug where the clicks on the attachment draft of the Issue filing screen were not getting disabled while Issue creation was in-progress.
+      * Fixed a bug where two conversation screens could open up when launching from a notification in a case with support library v26.
+      * Fixed a bug where the attachment icon was incorrectly visible on the information screen in an edge case.
+      * Fixed a bug where passing null as the failure callback in the getNotificationCount API was leading to some errors.
+      * Fixed a bug where passing the enableContactUs flag as Never, enabling showSearchOnNewConversation flag, and using showConversation() API resulted in the Send Anyway button being invisible.
+6.3.0-support Release Date: October 13, 2017
+      * Added support for sending Custom Issue Fields when filing a new conversation.
+      * Added new dynamic form APIs, getDynamicFormFragment() & showDynamicForm() to support taking in the title of the dynamic form as input.
+      * Added two new customizable color attributes for tab text on FAQ sections pager screen.
+      * Fixed a crash that would occur in some specific devices with missing internet permission error.
+      * Fixed some ExceptionInInitializerError exceptions occurring when running in a multi-process environment.
+      * Fixed a crash that would occur with support library v26 when navigating to a deep link from an FAQ and pressing back.
+      * Fixed a rare crash that would occur when starting the attachment picking flow in some specific devices.
+      * Fixed a rare crash that would occur while trying to restore a backup in a re-install case.
+      * Fixed a crash that would occur when an attachment selected from a gallery was changed and the "Don’t Keep Activities" flag was enabled.
+      * Fixed a bug where the button to enter full screen mode in embedded videos wasn’t visible on the FAQ screen.
+      * Fixed a bug where the user could reopen an Issue in cases where the conversation screen was opened from a notification within gallery.
+      * Fixed a bug where Agent messages stopped appearing on the conversation screen in an edge case.
+      * Fixed a bug where on passing null or empty values in the setNameAndEmail API didn’t clear the name & email fields on the Issue filing screen if a user draft was present.
+      * Fixed a bug where the clicks on the attachment draft of the Issue filing screen were not getting disabled while Issue creation was in-progress.
+      * Fixed a bug where two conversation screens could open up when launching from a notification in a case with support library v26.
+      * Fixed a bug where the attachment icon was incorrectly visible on the information screen in an edge case.
+      * Fixed a bug where passing null as the failure callback in the getNotificationCount API was leading to some errors.
+      * Fixed a bug where passing the enableContactUs flag as Never, enabling showSearchOnNewConversation flag, and using showConversation() API resulted in the Send Anyway button being invisible.
+6.2.0 Release Date: September 20, 2017
+      * Add support for notification channels introduced in Android Oreo.
+      * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
+      * Fixed a crash where downloading attachments would result in NullPointerException.
+      * Fixed a crash caused due to Package Manager runtime errors.
+      * Fixed a rare NullPointerException crash caused when sending a text message.
+      * Fixed a bug where embedded videos in FAQs would not fit on screen.
+      * Fixed a bug where a Campaign notification with an open conversation action would do nothing if the user is on the Helpshift Support screen.
+      * Fixed a bug where the conversation resolution question was not shown if the user was on the conversation info screen when the message was received.
+      * Fixed a bug where subsequent conversationPrefillText updates were ignored after setting it once.
+      * Fixed a bug where updating the app and then using the showConversation() API would show the user's previous conversations (open or closed) instead of showing new conversation screen.
+      * Fixed a bug where clicking NO in the conversation resolution question would not show the new conversation button sometimes.
+      * Fixed a bug where setSDKLanguage() was ineffective on Android Oreo.
+      * Fixed a bug where the attachment icon in ActionBar would not disappear if 'Do not keep activities' in Android's developer settings was enabled.
+      * Fixed an edge case bug where the user's attachment showed up as blank on the conversation screen if the user revoked storage permission while the attachment is uploading.
+6.2.0-support Release Date: September 20, 2017
+      * Add support for notification channels introduced in Android Oreo.
+      * Storage permission for user attachments is now optional. For more details on storage permission usage, see https://developers.helpshift.com/android/sdk-configuration/#app-permissions.
+      * Fixed a crash where downloading attachments would result in NullPointerException.
+      * Fixed a crash caused due to Package Manager runtime errors.
+      * Fixed a rare NullPointerException crash caused when sending a text message.
+      * Fixed a bug where embedded videos in FAQs would not fit on screen.
+      * Fixed a bug where the conversation resolution question was not shown if the user was on the conversation info screen when the message was received.
+      * Fixed a bug where subsequent conversationPrefillText updates were ignored after setting it once.
+      * Fixed a bug where updating the app and then using the showConversation() API would show the user's previous conversations (open or closed) instead of showing new conversation screen.
+      * Fixed a bug where clicking NO in the conversation resolution question would not show the new conversation button sometimes.
+      * Fixed a bug where setSDKLanguage() was ineffective on Android Oreo.
+      * Fixed a bug where the attachment icon in ActionBar would not disappear if 'Do not keep activities' in Android's developer settings was enabled.
+      * Fixed an edge case bug where the user's attachment showed up as blank on the conversation screen if the user revoked storage permission while the attachment is uploading.
+6.1.0 Release Date: August 21, 2017
+      * Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
+      * Fixed a crash that would occur when using Android support library v25.4.0.
+      * Fixed a crash that would occur when generating a signature for network requests.
+      * Fixed a crash that would occur when attaching a screenshot and disabling storage permission from the background.
+      * Fixed build errors due to conflicting attributes in styles when using build tools v23.0.3.
+      * Fixed a bug where the issue was sometimes incorrectly filed with anonymous name.
+      * Fixed a bug where calling login() API immediately after install() call would crash the app.
+      * Fixed a bug with Action bar menu items on Android support library v23.4.0.
+      * Fixed a bug where search results on new Conversations did not clear if the end user accepted the FAQ.
+      * Fixed a bug where the "Change" button in the image picker did not work after screen rotation.
+      * Fixed a bug where the FAQ search would not work after screen rotation on Android support library v25.4.0.
+      * Fixed a bug where image attachment did not work with Android support library v25.4.0.
+      * Fixed a bug where the Agent Typing Indicator would not work after rotating device in Conversation screen.
+      * Fixed a bug where the error snackbar view for unsupported attachments wasn’t shown if delegate is not implemented.
+      * Fixed a bug where the error snackbar view didn’t get hidden in some cases after pressing back from a screen.
+6.1.0 Release Date: August 21, 2017
+      * Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
+      * Fixed a crash that would occur when using Android support library v25.4.0.
+      * Fixed a crash that would occur when generating a signature for network requests.
+      * Fixed a crash that would occur when attaching a screenshot and disabling storage permission from the background.
+      * Fixed build errors due to conflicting attributes in styles when using build tools v23.0.3.
+      * Fixed a bug where the issue was sometimes incorrectly filed with anonymous name.
+      * Fixed a bug where calling login() API immediately after install() call would crash the app.
+      * Fixed a bug with Action bar menu items on Android support library v23.4.0.
+      * Fixed a bug where search results on new Conversations did not clear if the end user accepted the FAQ.
+      * Fixed a bug where the "Change" button in the image picker did not work after screen rotation.
+      * Fixed a bug where the FAQ search would not work after screen rotation on Android support library v25.4.0.
+      * Fixed a bug where image attachment did not work with Android support library v25.4.0.
+      * Fixed a bug where the Agent Typing Indicator would not work after rotating device in Conversation screen.
+      * Fixed a bug where the error snackbar view for unsupported attachments wasn’t shown if delegate is not implemented.
+      * Fixed a bug where the error snackbar view didn’t get hidden in some cases after pressing back from a screen.
+6.0.0 Release Date: July 18, 2017
+      * Added support to show an animated indication on chat screen when an agent is replying to the conversation.
+      * Updated design for conversation screen.
+      * Deprecated APIs that take Install configuration and API configurations as Map object.
+      * Removed Helpshift class and all its member methods which were deprecated in SDK version 4.0.0.
+      * Fixed an edge case where user might see multiple chat screens after clicking the notification.
+      * Fixed a bug where image was not getting cleared on tapping Remove button in preview screen.
+      * Fixed an edge case where previous image draft was not getting cleared on enabling full privacy
+      * Fixed an edge case where image draft was not getting cleared if user left the new conversation screen while the issue was getting filed.
+      * Fixed a bug where message timestamp in chat screen was not updated on changing the SDK language.
+      * Fixed a bug where image was always shown in Sending state if the app was killed during image upload.
+      * Fixed some crashes due to SQLiteDatabase errors
+      * Fixed I/O streams leak in network call in some cases.
+      * Fixed crash on using single quotes in login identifier.
+      * Fixed RejectedExecutionException occurring in some cases.
+6.0.0-support Release Date: July 18, 2017
+      * Added support to show an animated indication on chat screen when an agent is replying to the conversation.
+      * Updated design for conversation screen.
+      * Deprecated APIs that take Install configuration and API configurations as Map object.
+      * Removed Helpshift class and all its member methods which were deprecated in SDK version 4.0.0.
+      * Fixed an edge case where user might see multiple chat screens after clicking the notification.
+      * Fixed a bug where image was not getting cleared on tapping Remove button in preview screen.
+      * Fixed an edge case where previous image draft was not getting cleared on enabling full privacy
+      * Fixed an edge case where image draft was not getting cleared if user left the new conversation screen while the issue was getting filed.
+      * Fixed a bug where message timestamp in chat screen was not updated on changing the SDK language.
+      * Fixed a bug where image was always shown in Sending state if the app was killed during image upload.
+      * Fixed some crashes due to SQLiteDatabase errors
+      * Fixed I/O streams leak in network call in some cases.
+      * Fixed crash on using single quotes in login identifier.
+4.9.1 Release Date: April 18, 2017
+      * Added flag for showing Conversation info screen.
+      * Fixed some bugs that would cause the app to crash on startup.
+4.9.1-support Release Date: April 18, 2017
+      * Added flag for showing Conversation info screen.
+      * Fixed some bugs that would cause the app to crash on startup.
+4.9.0 Release Date: March 28, 2017
+      * Added support for programmatically setting screen orientation for the SDK.
+      * Users can now view the Issue ID for an ongoing Issue by navigating to the Issue Information screen by tapping the icon on the top right of the Conversation screen.
+      * SDK now supports logging to console.
+      * Added support for customizing FAQ list item height.
+      * Messages that fail to deliver can now be tapped to retry.
+      * Introduced an API to check if a Conversation is active.
+      * Added a new delegate to notify when the Conversation has ended.
+      * Made image attachment upload more network-efficient.
+      * Enabled TLS 1.2 as the default protocol for transferring data over internet for Android API levels 16(4.1.x) to 19(4.4.x).
+      * Screenshot messages in Conversations now have timestamps.
+      * Set max line limit to 3 for FAQ and sections list items.
+      * The default value for enableInboxPolling is now true.
+      * Fixed a bug where Issue resolve requests could be bypassed because of failed messages.
+      * Fixed a bug where 'Suggestions' title in Toolbar for FAQ search results for new Conversations was not shown.
+      * Fixed a crash in the image attachment flow when "Don't keep activities" is enabled.
+      * Fixed an edge-case bug where duplicate Issues could be filed by the user.
+      * Fixed a bug where strings in the FAQ view were not being translated on Android N devices.
+      * Fixed minor memory leaks.
+      * Fixed a bug where sometimes the breadcrumbs and Issue logs were not sent to the server.
+      * Fixed a bug where the cursor for a multi-line EditText was positioned incorrectly.
+      * Fixed a bug with filing new Issues when Proguard is enabled.
+      * Fixed a bug where Conversations with resolution questions delivered could be rejected multiple times.
+      * Fixed a bug where the toolbar is hidden at times on the Conversation screen when the keyboard is visible.
+      * Fixed a bug where the default value for enableDefaultLanguage was set to false instead of true.
+      * Fixed an edge case that caused Agent messages to sometimes not load for users.
+      * Fixed a bug where on some devices, "Was this question Helpful?" footer was shown after tapping on "Yes/No".
+      * Improved handling of random database crashes.
+      * Fixed an NPE in Campaigns for certain network failures.
+      * Fixed a bug where multiple instances of Campaigns Inbox UI were being created.
+      * Fixed a bug where push notifications for a Campaign were sometimes shown more than once.
+4.9.0-support Release Date: March 28, 2017
+      * Added support for programmatically setting screen orientation for the SDK.
+      * Users can now view the Issue ID for an ongoing Issue by navigating to the Issue Information screen by tapping the icon on the top right of the Conversation screen.
+      * SDK now supports logging to console.
+      * Added support for customizing FAQ list item height.
+      * Messages that fail to deliver can now be tapped to retry.
+      * Introduced an API to check if a Conversation is active.
+      * Added a new delegate to notify when the Conversation has ended.
+      * Made image attachment upload more network-efficient.
+      * Enabled TLS 1.2 as the default protocol for transferring data over internet for Android API levels 16(4.1.x) to 19(4.4.x).
+      * Screenshot messages in Conversations now have timestamps.
+      * Set max line limit to 3 for FAQ and sections list items.
+      * Fixed a bug where Issue resolve requests could be bypassed because of failed messages.
+      * Fixed a bug where 'Suggestions' title in Toolbar for FAQ search results for new Conversations was not shown.
+      * Fixed a crash in the image attachment flow when "Don't keep activities" is enabled.
+      * Fixed an edge-case bug where duplicate Issues could be filed by the user.
+      * Fixed a bug where strings in the FAQ view were not being translated on Android N devices.
+      * Fixed minor memory leaks.
+      * Fixed a bug where sometimes the breadcrumbs and Issue logs were not sent to the server.
+      * Fixed a bug where the cursor for a multi-line EditText was positioned incorrectly.
+      * Fixed a bug with filing new Issues when Proguard is enabled.
+      * Fixed a bug where Conversations with resolution questions delivered could be rejected multiple times.
+      * Fixed a bug where the toolbar is hidden at times on the Conversation screen when the keyboard is visible.
+      * Fixed a bug where the default value for enableDefaultLanguage was set to false instead of true.
+      * Fixed an edge case that caused Agent messages to sometimes not load for users.
+      * Fixed a bug where on some devices, "Was this question Helpful?" footer was shown after tapping on "Yes/No".
+4.8.1 Release Date: January 18, 2017
+      * Fixed an ANR issue on clicking search icon when using android support library v25.1.0 and above.
+      * Fixed a string localization issue in the FAQs screen which occurred on some 7" tablets.
+      * Fixed a rare crash which occurred due to exceptionally large number of un-synced app sessions.
+4.8.1-support Release Date: January 18, 2017
+      * Fixed an ANR issue on clicking search icon when using android support library v25.1.0 and above.
+      * Fixed a string localization issue in the FAQs screen which occurred on some 7" tablets.
+4.8.0 Release Date: January 10, 2017
+      * Added support for setting expiry time to campaign messages.
+      * Improved Syncing strategy for campaigns data.
+      * Improved in-app FAQ search by making it faster and memory efficient.
+      * Improved translations for SDK strings.
+      * Improved Helpshift Log API to make it thread safe.
+      * Improved SDK start-up time.
+      * Reply box in chat screen now can be expanded up to four lines.
+      * Fixed a bug where search keyword highlighting did not work on some devices.
+      * Fixed a crash on Android N devices when opening attachments sent from agent dashboard.
+      * Fixed a rare crash which occurred due to null arguments on launching the Helpshift screen.
+      * Fixed a rare crash which occurred due to unexpected service wake-up on some devices.
+      * Fixed a UI glitch in single question view on tablet devices where an unexpected vertical line was visible to user.
+4.8.0-support Release Date: January 10, 2017
+      * Improved in-app FAQ search by making it faster and memory efficient.
+      * Improved translations for SDK strings.
+      * Improved Helpshift Log API to make it thread safe.
+      * Improved SDK start-up time.
+      * Reply box in chat screen now can be expanded up to four lines.
+      * Fixed a bug where search keyword highlighting did not work on some devices.
+      * Fixed a crash on Android N devices when opening attachments sent from agent dashboard.
+      * Fixed a rare crash which occurred due to null arguments on launching the Helpshift screen.
+      * Fixed a rare crash which occurred due to unexpected service wake-up on some devices.
+      * Fixed a UI glitch in single question view on tablet devices where an unexpected vertical line was visible to user.
+4.7.0 Release Date: September 30, 2016
+      * Add compatibility for Android Nougat.
+      * Add ApiConfig and InstallConfig objects instead of Map for passing config.
+      * Add support for push notifications with FCM (Firebase cloud messaging).
+      * Add support for custom fonts in SDK.
+      * Add support for two new languages, Chinese Hong Kong (zh_HK) and Chinese Singapore (zh_SG).
+      * Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is “chat ready” which means end users will be able to use this feature when it goes live in first week of November,  only if enableChat flag is set with this SDK.
+      * Improve search algorithm where some results would not show up for important keywords.
+      * Improve translations for the message string shown to user when issue is archived.
+      * Fix a bug where carrier name was being collected in full privacy mode.
+      * Fix a bug where sometimes clicking on notification would show "new conversation form" instead of the ongoing conversation.
+      * Fix a crash in FAQ screen when an image is used as window background in Helpshift theme.
+      * Fix intermittent database crash due to KeyValueStorage db locking.
+      * Fix a crash in issue reporting with hideNameAndEmail and login api for the following cases :
+         1. Use login api with valid name and empty email. / Use login api with empty name and valid email.
+         2. Set hideNameAndEmail flag to true.
+         3. Click on send button to file an issue, SDK crashes.
+      * Fix a crash in SDK with support library 24 for the following case :
+         1. Integrate Helpshift SDK with support library 24.
+         2. Launch any Helpshift Support screen (Faqs screen, Conversation screen, etc.)
+         3. Rotate the device, SDK crashes.
+4.7.0-support Release Date: September 30, 2016
+      * Add compatibility for Android Nougat.
+      * Add ApiConfig and InstallConfig objects instead of Map for passing config.
+      * Add support for push notifications with FCM (Firebase cloud messaging).
+      * Add support for custom fonts in SDK.
+      * Add support for two new languages, Chinese Hong Kong (zh_HK) and Chinese Singapore (zh_SG).
+      * Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is “chat ready” which means end users will be able to use this feature when it goes live in first week of November,  only if enableChat flag is set with this SDK.
+      * Improve search algorithm where some results would not show up for important keywords.
+      * Improve translations for the message string shown to user when issue is archived.
+      * Fix a bug where carrier name was being collected in full privacy mode.
+      * Fix a bug where sometimes clicking on notification would show "new conversation form" instead of the ongoing conversation.
+      * Fix a crash in FAQ screen when an image is used as window background in Helpshift theme.
+      * Fix intermittent database crash due to KeyValueStorage db locking.
+      * Fix a crash in issue reporting with hideNameAndEmail and login api for the following cases :
+         1. Use login api with valid name and empty email. / Use login api with empty name and valid email.
+         2. Set hideNameAndEmail flag to true.
+         3. Click on send button to file an issue, SDK crashes.
+      * Fix a crash in SDK with support library 24 for the following case :
+         1. Integrate Helpshift SDK with support library 24.
+         2. Launch any Helpshift Support screen (Faqs screen, Conversation screen, etc.)
+         3. Rotate the device, SDK crashes.
+4.6.0 Release Date: August 18, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
+      * Handle corrupt or unsupported file formats in In-App Campaigns.
+      * Handle runtime revocation of storage permission for Campaigns.
+      * Improve few string translations for French and Korean languages.
+      * Support HTML entities in FAQs search.
+      * Fix a bug where FAQ filtering did not work with embeddable fragments.
+      * Fix a bug where image attachment orientation was getting changed on some devices.
+      * Fix a memory leak in case of device orientation change.
+      * Fix a stackoverflow crash caused by campaigns poller.
+      * Fix a bug where custom deeplinks in agent's replies were not working on chat screen.
+      * Fix a theme issue where "Send" button was not themed correctly.
+      * Fix a bug where FAQs UI was not getting updated immediately with new data.
+4.6.0-support Release Date: August 19, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for Helpshift Core's install(application, apiKey, domain, appId) API. This API will now throw Install Exception if there are validation issues in the key information.
+      * Improve few string translations for French and Korean languages.
+      * Support HTML entities in FAQs search.
+      * Fix a bug where FAQ filtering did not work with embeddable fragments.
+      * Fix a bug where image attachment orientation was getting changed on some devices.
+      * Fix a memory leak in case of device orientation change.
+      * Fix a bug where custom deeplinks in agent's replies were not working on chat screen.
+      * Fix a theme issue where "Send" button was not themed correctly.
+      * Fix a bug where FAQs UI was not getting updated immediately with new data.
+4.5.1 Release Date: June 29, 2016
+      * Fix a crash caused by migration from 3.x to 4.5.0 when the application is using the Helpshift's Login API.
+4.5.0 Release Date: May 18, 2016
+      * Send user-id and device-id with every new conversation to facilitate integration of the Support and Campaigns products.
+      * Add support for notification when a conversation is resolved.
+      * Remove SD card information from metadata due to data inaccuracy.
+      * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.
+      * Improve localization strings according to customer feedback.
+      * Fix a bug where Contact Us config is reset to default on activity restart due to high memory pressure.
+4.5.0-support Release Date: May 31, 2016
+      * Add support for notification when a conversation is resolved.
+      * Remove SD card information from metadata due to data inaccuracy.
+      * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.
+      * Improve localization strings according to customer feedback.
+      * Fix a bug where Contact Us config is reset to default on activity restart due to high memory pressure.
+4.4.0 Release Date: March 17, 2016
+      * Add support for Inbox functionality and rich in-app campaign messages.
+      * Add config option for supporting Guided Ticket Filing when user clicks on Contact Us from inside the SDK screens.
+      * Fix a bug where error snackbar was not properly visible attaching large images
+      * Fix a bug where video was being played even after the user exits the faq screen
+      * Fix a rare NPE while launching Helpshift screens
+      * Fix a db related crash
+      * Fix a UI bug on issue reporting screen
+4.4.0-support Release Date: March 31, 2016
+      * Add config option for supporting Guided Ticket Filing when user clicks on Contact Us from inside the SDK screens.
+      * Fix: Restore Application's locale when exiting out of Helpshift SDK.
+      * Fix a bug where error snackbar was not properly visible attaching large images
+      * Fix a bug where video was being played even after the user exits the faq screen
+      * Fix a rare NPE while launching Helpshift screens
+      * Fix a db related crash
+      * Fix a UI bug on issue reporting screen
+4.3.0-support Release Date: February 5, 2016
+      * Add support for sending messages read status from the SDK.
+      * Add support for providing large notification icon for Helpshift notifications.
+      * Reduce init times of the Helpshift SDK by adding Async queuing mechanism.
+      * Fix API config behaviour for flags not passed in the API.
+      * Fix edge case crash in follow-up behaviour.
+      * Fix FAQs API call behaviour which caused no faqs to be loaded on some Samsung devices.
+      * Improve animation related code.
+4.2.0 Release Date: December 16th, 2015
+      * Add support for large text in campaigns push notification.
+      * Fix bugs in analytics reporting for campaigns push notifications.
+4.2.0-support Release Date: December 1st, 2015
+      * Add support for copy/pasting messages in conversation screen.
+      * Improved User attachment UI in conversation view.
+      * FIX Image attachment bug with orientation change.
+      * Add conversation started toast message.
+      * FIX Crash IndexOutOfBoundsException and NPE while performing search.
+      * FIX Incorrect Toolbar title for CustomToolbar with Embeddable Fragments.
+      * Add CSAT hint text for "Hated It" and "Loved It".
+      * FIX IllegalStateException in Faq screen.
+      * FIX NullPointerException in Faq init.
+4.1.1 Release Date: November 6th, 2015
+      * Bug Fixes.
+4.1.1-support Release Date: October 30th, 2015
+      * FIX HSReview crash, due to missing AndroidManifest entry.
+4.1.0 Release Date: October 29th, 2015
+      * Added Android Material Theming and refined Helpshift UX and interactions as per the Google Material Design guidelines.
+      * Added support for embeddable helpshift fragments.
+      * Added support for reducing gibberish ticket by adding a configurable threshold for all supported language.
+      * New SDK option for improving ticket deflection. Added option for CONTACT_US_AFTER_MARKING_ANSWER_UNHELPFUL to show contact us only after end user marks a FAQ unhelpful.
+      * Added support for Android Marshmallow permissioning
+      * showConversationResolutionQuestion flag's default value now has been set to true.
+      * Migration from Helpshift 3.x sdk to 4.x SDK
+      * FAQ Search algorithm improvements
+        * Fixed/Improved following
+          * Improved the FAQ search relevance threshold for fuzzy match to make it strict.
+          * Sometimes search term was not highlighted if it was with a prepending or appending punctuation mark
+          * FAQs were listed twice in search results
+4.0.0 Release Date: October 9th, 2015
+      * Added data collection APIs for new Campaigns product.
+      * Added new com.helpshift.support, com.helpshift.campaigns and com.helpshift.core API for Support, Campaigns and Core services.
+      * Deprecated older Helpshift API.
+3.12.0 Release Date: September 25, 2015
+      * Add API configuration flag to enable or disable default fallback language for FAQ.
+3.11.0 Release Date: 10 September, 2015
+      * Add API configuration option for Conversation Resolution Question.
+      * Add API configuration option for filtering FAQ by categories.
+      * Add translations for Ukrainian, Slovak, Hebrew, Malay, Danish,
+        Greek, Romanian, Finnish, Swedish, Norwegian, Catalan and Croatian.
+      * Bug fixes.
+3.10.0 Release Date: August 19, 2015
+      * Improved ticket deflection.
+      * Reduce empty gibberish tickets.
+      * Added translations for Arabic and Polish.
+      * Bug fixes.
+3.9.1 Release Date: June 25, 2015
+      * FIX Edge case bug where screenshot could not be rendered after an automation reply
+      * FIX Attach Screenshot crash on OnePlus One device
+3.9.0 Release Date: May 21, 2015
+      * Add API to set the SDK locale.
+      * FIX custom notification sound doesn't work if custom icon is not set.
+      * Add capability to toggle agent name visibility from admin dashboard.
+      * Add capability to highlight matching term in FAQ search.
+      * Add support for tags based searching in FAQ search.
+      * Implement fuzzy string matching for FAQ search.
+      * Add delegate for informing the developer of the unread messages
+      count whenever Helpshift receives a new notification.
+3.8.0 Release Date: March 16, 2015
+      * Add ability to handle and open admin side attachments.
+      * Add ability to allow multiple users of the app to have isolated Helpshift conversations.
+      * Fix truncation of URLs in conversation view.
+      * Add delegates to track conversation related updates.
+      * Add ability to support follow-up for closed conversations.
+      * Add API config option for showing Helpshift screens in dialog mode for tablets.
+      * Bug fixes.
+      * UI fixes.
+3.7.2 Release Date: February 24, 2015
+      * Add support for sound, vibration and light in notification.
+      * FIX Do not allow movie files to be attached in conversations.
+      * FIX Add compatibility for Honeycomb ActionBar.
+      * Add string translations for Traditional Chinese, Slovenian, Hungarian, Czech, Indonesian, Vietnamese, Thai languages.
+      * FIX Use HttpUrlConnection to fix conflict with OkHTTP library.
+3.7.1 Release Date: December 04, 2014
+      * Bug fixes for the Session delegates code
+      * Bug fixes
+      * UI fixes
+3.7.0 Release Date: November 25, 2014
+      * Update the theming capabilities for the SDK.
+      * Add accessibility labels for all the SDK actions.
+      * Add Helpshift delegate for tracking begin and end sessions.
+      * Remove BuildConfig.class from Helpshift.jar to avoid conflict.
+      * Bug fixes
+      * UI fixes
+3.6.0 Release Date: October 07, 2014
+      * Added an API option "showSearchOnNewConversation", which will enhance ticket avoidance by providing him list of FAQs that may relate to the issue that he is having.
+      * Added an API option "enableFullPrivacy", which when set enables full privacy controls for the SDK including - not having an attach screenshot button, not sending personally identifiable information in meta-data etc.
+      * Bug fixes
+      * UI fixes
+3.5.0 Release Date: September 02, 2014
+      * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
+      * Agent names will now be visible in an ongoing conversation.
+      * Added a API option, "conversationPrefillText", for prefilling new conversation description.
+      * Added a API option, "hideNameAndEmail", for conditionally hiding name and email fields when starting a new conversation.
+      * UX improvements for attaching screenshot.
+      * Removed FAQ sync status.
+      * Added support for deep-links in FAQs.
+      * Bug fixes.
+      * UI fixes.
+3.4.2 Release Date: July 10, 2014
+      * Remove external dependency for apache commons codec.
+      * Persist and use the most recent version of custom meta-data.
+      * Persist the requireEmail flag value across all API calls.
+      * Android L Preview compatible.
+3.4.1 Release Date: June 19, 2014
+      * Add requireEmail flag for API config.
+3.4.0 Release Date: June 09, 2014
+      * Optimized FAQ updates. Changes to FAQs in the admin are now updated and shown as soon as the SDK is opened.
+      * Users can now directly attach screenshots while submitting new conversation or during an ongoing conversation.
+      * New options for "enableContactUs" flag for ticket avoidance: ALWAYS, AFTER_VIEWING_FAQS and NEVER
+      * "setNameAndEmail" API can now clear name and email if null is passed for both.
+      * Automatic app rating reminder is now available alongside the manual app rating API.
+      * Bug fixes
+      * UI fixes
+3.3.1 Release Date: May 22, 2014
+      * Refactor internationalized search code.
+3.3.0 Release Date: May 07, 2014
+      * Added new app rating API (showAlertToRateApp).
+      * Automatic review request is now removed in this release.
+      * New conversation text and conversation reply text buffer is now saved as draft.
+      * Improved conversation resolution (YES/NO) interaction.
+3.2.1 Release Date: April 03, 2014
+      * Fix crash when attaching screenshot images from cloud storage
+3.2.0 Release Date: March 24, 2014
+      * Replace the ibm Transliterator with indigenous solution for Internationalized search
+      * Remove dependency on appcompat library. Replace with indigenous action-bar support for older devices.
+      * Add translated strings for Dutch
+      * Change Question voting UI
+      * Additions to configurable strings used in the SDK
+      * Bug fixes
+3.1.1 Release Date: February 24, 2014
+      * Fix review reminder popup mechanism
+      * Fix do not show empty FAQ sections in FAQs pager
+      * Bug fixes
+3.1.0 Release Date: February 10, 2014
+      * Add support for custom metadata in API config
+      * Reduce jar size by removing unused classes via proguard
+      * Add translated strings for Russian, Turkish, Korean and Japanese
+      * Use SQLite for storing FAQ data
+3.0.1 Release Date: January 22, 2014
+      * Fix gotoConversationAfterContactUs flag typo
+      * Deprecate HSIssueTagsKey and replace with HSTagsKey
+3.0.0 Release Date: January 09, 2014
+      * Multiple issues and inbox is no longer supported
+      * The conversation interface has been unified into a single channel
+      * New API calls for support tools and install method
+      * Added Conversation Forwarding feature
+      * New Rate/Review & Feedback feature
+      * Strings for localizations updated
+      * Fix UI for HSQuestion view
+2.8.2 Release Date: December 06, 2013
+      * Add support for Kindle devices
+      * Remove proguard shrinking and obfuscation for Helpshift jar
+2.8.1 Release Date: November 20, 2013
+      * Fix critical validation for setUsername, setEmail API
+2.8.0 Release Date: November 05, 2013
+      * Implement Action Bar UI via v7 appcompat library
+      * Stability fixes to Question activity
+      * Automatically tag issues when they are reported from the SDK
+2.7.2 Release Date: November 20, 2013
+      * Fix critical validation for setUsername, setEmail API
+2.7.1 Release Date: October 25, 2013
+      * Fix potential memory issues
+2.7.0 Release Date: September 02, 2013
+      * UI fixes for list view dividers
+      * API retry for mark question helpful/unhelpful and setDeviceToken
+      * Cleanup of unused resources
+      * Screenshot sending size limited to 1.25 MB
+      * Add config for custom notification icon
+      * Notification text now customizable in hs_strings.xml
+      * Add RTL support for FAQ
+      * Add URL truncation for conversation messages
+      * Bug fixes
+2.6.2 Release Date: August 05, 2013
+      * Explicitly close HSRetryService after every retry. (used for resending failed messages)
+2.6.1 Release Date: July 29, 2013
+      * Better error handling for install call
+2.6.0 Release Date: June 19, 2013
+      * Bug fix for link rendering in question view
+      * Seperate strings resources for search box and report issue hint
+      * Add full screen support for Helpshift activities
+      * Move Helpshift SDK to Android Library Project format
+2.5.0 Release Date: May 29, 2013
+      * Retry mechanism for failed messages.
+      * New API to handle GCM and Urban Airship push.
+      * Add Portuguese(BR) and Simplified Chinese strings.
+      * Bug fix related to in-app notification disable flag
+2.4.0 Release Date: May 15, 2013
+      * In-app notifications
+      * Enhanced API for GCM Push
+      * Bug and UI fixes
+2.3.0 Release Date: May 02, 2013
+      * Fixed notification poller
+      * Tablet support
+2.2.0 Release Date: April 17, 2013
+      * Optional flags for reporting issue.
+      * UI fixes.
+2.1.2 Release Date: April 15, 2013
+      * Bug fixes
+2.1.1 Release Date: April 05, 2013
+      * Bug fixes
+2.1.0 Release Date: April 03, 2013
+      * Added translations for German, Spanish, Russian, Italian and French
+      * Decomposed view for all FAQ sections
+      * Improved FAQ display
+2.0.1 Release Date: March 26, 2013
+      * Minor bug fix
+2.0.0 Release Date: March 20, 2013
+      * Skinning for activities
+      * Decomposed views for section, question and inbox
+      * Added support for GCM push.
+      * Added support for Metadata.
+      * Linkable urls and phone numbers in messages.
+      * Chat messages are now copyable.
+      * Review request fix.
+      * UI fixes.
+      * Minor enhancements and bug fixes
+1.5.2 Release Date: February 08, 2013
+      * Support UTF-8 text in reporting issue.
+1.5.1 Release Date: February 06, 2013
+      * Performance improvments.
+      * Debug log limit can now be modified from admin dashboard.
+1.5.0 Release Date: January 30, 2013
+      * Search performance improvements
+      * FAQ performance improvements
+      * Minor enhancements and bug fixes
+1.4.2 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.1 Release Date: January 04, 2013
+      * Minor bug fix
+1.4.0 Release Date: December 31, 2012
+      * Add functions to SDK to poll for notification count
+      * Add function to SDK to show "Report Issue" Activity
+      * Minor enhancements and bug fixes
+1.3.1 Release Date: December 27, 2012
+      * Minor bug fix
+1.3.0 Release Date: December 27, 2012
+      * Urban Airship integration support
+      * Improved FAQ caching
+      * Improved support for specifying user id
+      * Minor Enhancements and Bug Fixes
+1.2.6 Release Date: December 22, 2012
+      * Bug fixes
+1.2.5 Release Date: December 14, 2012
+      * Minor Enhancements
+1.2.4 Release Date: December 13, 2012
+      * Bug fixes
+1.2.3 Release Date: December 12, 2012
+      * Performance improvements
+      * Bug fixes
+1.2.2 Release Date: December 10, 2012
+      * Bug fixes
+1.2.1 Release Date: December 06, 2012
+      * Bug fixes
+1.2.0 Release Date: December 05, 2012
+      * Updated doc
+      * Configurable Review Popup
+      * Configurable Skip of Profile Form
+1.1.0 Release Date: December 03, 2012
+      * Reduction in SDK jar size.
+      * Stability/Bug Fixes
+1.0.1 Release Date: November 19, 2012
+      * Stability/Bug Fixes
+      * Updated doc
+1.0.0 Release Date: November 7, 2012
+      * Basic library implementation
+      * Notification count api
+      * Screenshots in issues
+      * Review requests from issues
+      * Skinning support
+      * Breadcrumbs api
+      * Extra device info
+      * Funnel implementation

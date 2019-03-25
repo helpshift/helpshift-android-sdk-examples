@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/hs__picker_collapsed_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hs__picker_top_shadow_height" />
+
+    <FrameLayout
+        android:id="@+id/hs__picker_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hs__picker_header_container_height"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:background="?attr/hs__composeBackgroundColor">
+
+        <include layout="@layout/hs__collapsed_picker_header" />
+        <include layout="@layout/hs__expanded_picker_header" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/hs__empty_picker_view"
+        android:background="?attr/hs__composeBackgroundColor"
+        android:paddingTop="@dimen/hs__picker_empty_view_top_padding">
+
+        <com.helpshift.views.HSTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hs__picker_no_results"
+            android:textSize="@dimen/hs__textSizeSmall"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hs__optionsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:isScrollContainer="true"
+        android:background="?attr/hs__composeBackgroundColor"
+        android:scrollingCache="false" />
+
+</LinearLayout>

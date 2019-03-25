@@ -26,12 +26,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:paddingBottom="4dp"
+            android:paddingBottom="6dp"
             android:paddingEnd="@dimen/hs__msgPreferredItemPaddingRight"
             android:paddingStart="@dimen/hs__msgPreferredItemPaddingLeft"
             android:textColor="?android:attr/textColorSecondary"
-            android:textSize="@dimen/hs__textSizeExtraSmall"
-            android:visibility="gone" />
+            android:textSize="@dimen/hs__textSizeSmall"
+            android:visibility="gone"/>
 
         <LinearLayout
             android:id="@+id/selectable_options_container"
