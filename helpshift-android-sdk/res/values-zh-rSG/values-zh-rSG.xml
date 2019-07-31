@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">文件，%1$s，下载中，%2$s/%3$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">文件，%1$s，%2$s，双击即可下载</string>
     <string name="hs__authentication_failed">验证失败</string>
-    <string name="hs__ca_msg">我们很乐意为您提供帮助！</string>
     <string name="hs__change_btn">更改</string>
     <string name="hs__chat_hint">输入您的消息</string>
     <string name="hs__confirmation_footer_msg">感谢您的消息！</string>
     <string name="hs__confirmation_msg">我们有没有回答您的所有问题？</string>
-    <string name="hs__connecting">连接...</string>
     <string name="hs__contact_us_btn">联系我们</string>
     <string name="hs__conversation_detail_error">请说明您遇到的问题</string>
     <string name="hs__conversation_end_msg">该对话已结束。</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">对话已结束</string>
     <string name="hs__copied_to_clipboard">已复制到剪切板</string>
     <string name="hs__copy">复制</string>
-    <string name="hs__copy_to_clipboard_tooltip">复制到剪切板</string>
     <string name="hs__could_not_open_attachment_msg">没有执行此操作的应用</string>
     <string name="hs__could_not_reach_support_msg">无法与客服取得联系</string>
     <string name="hs__cr_msg">我们还能为您做些什么？</string>
@@ -52,7 +49,6 @@
     <string name="hs__data_not_found_msg">未找到数据</string>
     <string name="hs__date_input_validation_error">输入一个有效日期</string>
     <string name="hs__default_notification_channel_name">应用内支持</string>
-    <string name="hs__default_notification_content_title">客服</string>
     <string name="hs__description_invalid_length_error">请提供更多详细信息，以便我们提供更好的协助</string>
     <string name="hs__done_btn">完成</string>
     <string name="hs__email_hint">电子邮件（可选）</string>
@@ -81,11 +77,9 @@
     <string name="hs__mark_no">否</string>
     <string name="hs__mark_yes">是</string>
     <string name="hs__mark_yes_no_question">该话题有帮助吗？</string>
-    <string name="hs__message_not_sent">消息未发送。</string>
     <string name="hs__messages_loading_error_text">无法加载消息</string>
     <string name="hs__messages_loading_text">正在加载消息...</string>
     <string name="hs__network_error_msg">糟糕，出错了</string>
-    <string name="hs__network_error_pre_issue_creation">网络错误</string>
     <string name="hs__network_reconnecting_error">出了些问题。重新连接...</string>
     <string name="hs__network_unavailable_msg">网络不可用。</string>
     <string name="hs__new_conversation_btn">新对话</string>

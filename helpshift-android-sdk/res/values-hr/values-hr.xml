@@ -14,15 +14,12 @@
     <string name="hs__attach_screenshot_btn">Priloži snimku zaslona</string>
     <string name="hs__attachment_downloaded__voice_over">Datoteka, %s, Dvostruki dodir za otvaranje</string>
     <string name="hs__attachment_downloading_voice_over">Datoteka, %1$s, Preuzimanje %2$s od %3$s</string>
-    <string name="hs__attachment_not_downloaded_voice_over">Datoteka, %1$s, %2$s, Dvostruki dodir za preuzimanje
-    </string>
+    <string name="hs__attachment_not_downloaded_voice_over">Datoteka, %1$s, %2$s, Dvostruki dodir za preuzimanje</string>
     <string name="hs__authentication_failed">Provjera autentičnosti nije uspjela</string>
-    <string name="hs__ca_msg">Sretni smo što vam možemo pomoći</string>
     <string name="hs__change_btn">Promijeni</string>
     <string name="hs__chat_hint">Upišite svoju poruku</string>
     <string name="hs__confirmation_footer_msg">Hvala vam na slanju poruke!</string>
     <string name="hs__confirmation_msg">Jesmo li odgovorili na sva vaša pitanja?</string>
-    <string name="hs__connecting">Povezivanje ...</string>
     <string name="hs__contact_us_btn">OBRATITE NAM SE</string>
     <string name="hs__conversation_detail_error">Opišite problem</string>
     <string name="hs__conversation_end_msg">Ovaj je razgovor završen.</string>
@@ -36,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">Završen razgovor</string>
     <string name="hs__copied_to_clipboard">Kopirano u međuspremnik</string>
     <string name="hs__copy">Kopiraj</string>
-    <string name="hs__copy_to_clipboard_tooltip">Kopiraj u međuspremnik</string>
     <string name="hs__could_not_open_attachment_msg">Ni jedna aplikacija ne može provesti tu radnju.</string>
     <string name="hs__could_not_reach_support_msg">Nije moguće dosegnuti podršku</string>
     <string name="hs__cr_msg">Trebate li dodatnu pomoć?</string>
@@ -53,17 +49,12 @@
     <string name="hs__data_not_found_msg">Podatak nije pronađen</string>
     <string name="hs__date_input_validation_error">Upiši valjani datum</string>
     <string name="hs__default_notification_channel_name">Podrška putem aplikacije</string>
-    <string name="hs__default_notification_content_title">Podrška</string>
-    <string name="hs__description_invalid_length_error">Kako bismo vam pružili bolju podršku, navedite više
-        pojedinosti
-    </string>
+    <string name="hs__description_invalid_length_error">Kako bismo vam pružili bolju podršku, navedite više pojedinosti</string>
     <string name="hs__done_btn">Završeno</string>
     <string name="hs__email_hint">Adresa elektroničke pošte (neobvezno)</string>
     <string name="hs__email_input_validation_error">Unesite važeću e-mail adresu</string>
     <string name="hs__email_required_hint">Adresa elektroničke pošte</string>
-    <string name="hs__faq_fetching_fail_message">U ovom trenutku nije moguće učitati Često postavljana pitanja.
-        Pokušajte kasnije...
-    </string>
+    <string name="hs__faq_fetching_fail_message">U ovom trenutku nije moguće učitati Često postavljana pitanja. Pokušajte kasnije...</string>
     <string name="hs__faqs_search_footer">Nijedno često postavljano pitanje nije pronađeno</string>
     <string name="hs__feedback_button">Pošalji povratne informacije</string>
     <string name="hs__fetching_faqs_message">Dohvaćanje vaših odgovora...</string>
@@ -74,15 +65,9 @@
     <string name="hs__image_not_downloaded_voice_over">Slika %s, Dvostruki dodir za preuzimanje</string>
     <string name="hs__invalid_description_error">Neispravan opis</string>
     <string name="hs__invalid_email_error">Upišite ispravnu adresu elektroničke pošte</string>
-    <string name="hs__invalid_faq_publish_id_error">Nismo pronašli Često postavljano pitanje s pripadajućom
-        identifikacijskom oznakom
-    </string>
-    <string name="hs__invalid_section_publish_id_error">Nismo pronašli odjeljak Često postavljano pitanje s pripadajućom
-        identifikacijskom oznakom
-    </string>
-    <string name="hs__issue_archival_message">Ispričavamo se! Ovaj je razgovor završen zbog neaktivnosti. Započnite novi
-        razgovor s našim agentima.
-    </string>
+    <string name="hs__invalid_faq_publish_id_error">Nismo pronašli Često postavljano pitanje s pripadajućom identifikacijskom oznakom</string>
+    <string name="hs__invalid_section_publish_id_error">Nismo pronašli odjeljak Često postavljano pitanje s pripadajućom identifikacijskom oznakom</string>
+    <string name="hs__issue_archival_message">Ispričavamo se! Ovaj je razgovor završen zbog neaktivnosti. Započnite novi razgovor s našim agentima.</string>
     <string name="hs__jump_button_voice_over">Prijeđi na najnoviju poruku</string>
     <string name="hs__jump_button_with_new_message_voice_over">Skoči na nova poruka</string>
     <string name="hs__landscape_date_input_validation_error">Upišite valjani datum.</string>
@@ -92,26 +77,20 @@
     <string name="hs__mark_no">Ne</string>
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Je li vam ovo objašnjenje bilo korisno?</string>
-    <string name="hs__message_not_sent">Poruka nije poslana.</string>
     <string name="hs__messages_loading_error_text">Nije moguće učitati poruke</string>
     <string name="hs__messages_loading_text">Učitavanje poruka...</string>
     <string name="hs__network_error_msg">Nažalost je došlo do pogreške</string>
-    <string name="hs__network_error_pre_issue_creation">Pogreška mreže</string>
     <string name="hs__network_reconnecting_error">Nešto je pošlo po zlu. Ponovno povezivanje ...</string>
     <string name="hs__network_unavailable_msg">Mreža nije dostupna.</string>
     <string name="hs__new_conversation_btn">Novi razgovor</string>
-    <string name="hs__new_conversation_footer_generic_reason">Oprostite, nešto je pošlo naopako. Ovaj se razgovor ne
-        može nastaviti.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">Oprostite, nešto je pošlo naopako. Ovaj se razgovor ne može nastaviti.</string>
     <string name="hs__new_conversation_header">Novi razgovor</string>
     <string name="hs__new_conversation_hint">Kako vam možemo pomoći?</string>
     <string name="hs__no_internet_error">Nema internetske veze</string>
     <string name="hs__no_internet_error_mgs">Provjerite mrežnu vezu.</string>
     <string name="hs__no_search_results_message">Nažalost nismo pronašli nijedan rezultat</string>
     <string name="hs__number_input_validation_error">Unesite važeći broj</string>
-    <string name="hs__permission_denied_message">Dopuštenje za pohranjivanje potrebno je za pristupanje snimkama zaslona
-        i preuzimanje priloga
-    </string>
+    <string name="hs__permission_denied_message">Dopuštenje za pohranjivanje potrebno je za pristupanje snimkama zaslona i preuzimanje priloga</string>
     <string name="hs__permission_denied_snackbar_action">Postavke</string>
     <string name="hs__permission_not_granted">Aplikacija nema dopuštenje za pristupanje vašim fotografijama</string>
     <string name="hs__permission_rationale_snackbar_action_label">U REDU</string>
@@ -131,15 +110,11 @@
     <string name="hs__retry_button_voice_over">Ponovi slanje</string>
     <string name="hs__retry_faq_fetching_button">PONOVNO POKUŠAJ</string>
     <string name="hs__review_close_button">Zatvori</string>
-    <string name="hs__review_message">Ako vam se naša aplikacija sviđa, izdvojite nekoliko trenutaka kako biste je
-        ocijenili
-    </string>
+    <string name="hs__review_message">Ako vam se naša aplikacija sviđa, izdvojite nekoliko trenutaka kako biste je ocijenili</string>
     <string name="hs__review_request_message">Želite li napisati osvrt na aplikaciju u trgovini Google Play?</string>
     <string name="hs__review_title">Ocijenite našu aplikaciju</string>
     <string name="hs__screenshot_add">Dodaj</string>
-    <string name="hs__screenshot_cloud_attach_error">Došlo je do pogreške prilikom prilaganja snimke zaslona. Odaberite
-        sliku na svojem uređaju.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">Došlo je do pogreške prilikom prilaganja snimke zaslona. Odaberite sliku na svojem uređaju.</string>
     <string name="hs__screenshot_limit_error">Veličina snimke zaslona ne smije biti veća od %.2f MB</string>
     <string name="hs__screenshot_remove">Ukloni</string>
     <string name="hs__screenshot_upload_error_msg">Došlo je do pogreške prilikom prenošenja snimke zaslona</string>
@@ -153,12 +128,8 @@
     <string name="hs__send_msg_btn">POŠALJI</string>
     <string name="hs__sending_fail_msg">Neuspješno slanje</string>
     <string name="hs__sending_msg">Slanje</string>
-    <string name="hs__ssl_handshake_error">Vaša veza nije sigurna. Došlo je do pogreške u uspostavljanju pouzdane
-        veze.
-    </string>
-    <string name="hs__ssl_peer_unverified_error">Vaša veza nije sigurna. Došlo je do pogreške prilikom povjeravanja
-        njezine autentičnosti
-    </string>
+    <string name="hs__ssl_handshake_error">Vaša veza nije sigurna. Došlo je do pogreške u uspostavljanju pouzdane veze.</string>
+    <string name="hs__ssl_peer_unverified_error">Vaša veza nije sigurna. Došlo je do pogreške prilikom povjeravanja njezine autentičnosti</string>
     <string name="hs__starting_download">Početak preuzimanja...</string>
     <string name="hs__submit_conversation_btn">Pošalji</string>
     <string name="hs__tap_to_retry">Dodirnite za ponovni pokušaj</string>

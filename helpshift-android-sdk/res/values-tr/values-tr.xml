@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">Dosya, %1$s, %2$s/%3$s indiriliyor</string>
     <string name="hs__attachment_not_downloaded_voice_over">Dosya, %1$s, %2$s, İndirmek için İki Kez Dokun</string>
     <string name="hs__authentication_failed">Kimlik doğrulama başarısız oldu</string>
-    <string name="hs__ca_msg">Yardımcı olmaktan memnuniyet duyarız!</string>
     <string name="hs__change_btn">Değiştir</string>
     <string name="hs__chat_hint">Mesajınızı girin</string>
     <string name="hs__confirmation_footer_msg">Mesaj gönderdiğin için teşekkürler!</string>
     <string name="hs__confirmation_msg">Tüm sorularına yanıt verdik mi?</string>
-    <string name="hs__connecting">Bağlanıyor ...</string>
     <string name="hs__contact_us_btn">BİZE ULAŞIN</string>
     <string name="hs__conversation_detail_error">Lütfen sorununu tanımla</string>
     <string name="hs__conversation_end_msg">Bu konuşma son erdi.</string>
@@ -31,12 +29,10 @@
     <string name="hs__conversation_redacted_status">Konuşma silindi</string>
     <string name="hs__conversation_redacted_status_multiple">%1$d Konuşma silindi</string>
     <string name="hs__conversation_rejected_status">Konuşma Kapatıldı</string>
-    <string name="hs__conversation_started_message">Mesajın alındı. Bizimle irtibata geçtiğin için teşekkür ederiz!
-    </string>
+    <string name="hs__conversation_started_message">Mesajın alındı. Bizimle irtibata geçtiğin için teşekkür ederiz!</string>
     <string name="hs__conversations_divider_voice_over">Konuşma Sona Erdi</string>
     <string name="hs__copied_to_clipboard">Panoya kopyalandı</string>
     <string name="hs__copy">Kopyala</string>
-    <string name="hs__copy_to_clipboard_tooltip">Panoya kopyala</string>
     <string name="hs__could_not_open_attachment_msg">Bu eylemi hiçbir uygulama gerçekleştiremez</string>
     <string name="hs__could_not_reach_support_msg">Desteğe erişilemiyor</string>
     <string name="hs__cr_msg">Başka nasıl yardımcı olabiliriz?</string>
@@ -53,7 +49,6 @@
     <string name="hs__data_not_found_msg">Veri bulunamadı</string>
     <string name="hs__date_input_validation_error">Geçerli bir tarih gir</string>
     <string name="hs__default_notification_channel_name">Uygulama desteği</string>
-    <string name="hs__default_notification_content_title">Destek</string>
     <string name="hs__description_invalid_length_error">Daha iyi yardım almak için daha fazla bilgi verin</string>
     <string name="hs__done_btn">Bitti</string>
     <string name="hs__email_hint">E-posta (isteğe bağlı)</string>
@@ -72,9 +67,7 @@
     <string name="hs__invalid_email_error">Lütfen geçerli bir e-posta adresi gir</string>
     <string name="hs__invalid_faq_publish_id_error">Eşleşen kimliğe sahip bir SSS sayfası bulamadık</string>
     <string name="hs__invalid_section_publish_id_error">Eşleşen kimliğe sahip bir SSS bölümü bulamadık</string>
-    <string name="hs__issue_archival_message">Üzgünüz! Konuşma herhangi bir etkinlik olmadığından dolayı kapatıldı.
-        Lütfen temsilcimiz ile yeni bir konuşma başlat.
-    </string>
+    <string name="hs__issue_archival_message">Üzgünüz! Konuşma herhangi bir etkinlik olmadığından dolayı kapatıldı. Lütfen temsilcimiz ile yeni bir konuşma başlat.</string>
     <string name="hs__jump_button_voice_over">En son mesaja atla</string>
     <string name="hs__jump_button_with_new_message_voice_over">Yeni Mesaj Git</string>
     <string name="hs__landscape_date_input_validation_error">Lütfen geçerli bir tarih girin.</string>
@@ -84,26 +77,20 @@
     <string name="hs__mark_no">Hayır</string>
     <string name="hs__mark_yes">Evet</string>
     <string name="hs__mark_yes_no_question">Bu yardımcı oldu mu?</string>
-    <string name="hs__message_not_sent">Mesaj gönderilemedi.</string>
     <string name="hs__messages_loading_error_text">Mesajlar Yük edilemedi</string>
     <string name="hs__messages_loading_text">Mesajlar Yükleniyor...</string>
     <string name="hs__network_error_msg">Bir hata oluştu</string>
-    <string name="hs__network_error_pre_issue_creation">Ağ hatası</string>
     <string name="hs__network_reconnecting_error">Bir şeyler yanlış gitti. Yeniden bağlanıyor ...</string>
     <string name="hs__network_unavailable_msg">Ağ kullanılamıyor.</string>
     <string name="hs__new_conversation_btn">Yeni Konuşma</string>
-    <string name="hs__new_conversation_footer_generic_reason">Üzgünüm, bir şeyler ters gitti. Bu konuşma devam
-        ettirilemez.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">Üzgünüm, bir şeyler ters gitti. Bu konuşma devam ettirilemez.</string>
     <string name="hs__new_conversation_header">Yeni Konuşma</string>
     <string name="hs__new_conversation_hint">Nasıl yardımcı olabiliriz?</string>
     <string name="hs__no_internet_error">İnternet bağlantısı yok</string>
     <string name="hs__no_internet_error_mgs">Lütfen ağ bağlantınızı kontrol edin.</string>
     <string name="hs__no_search_results_message">Eyvah! herhangi bir sonuç bulamıyoruz</string>
     <string name="hs__number_input_validation_error">Geçerli bir numara girin</string>
-    <string name="hs__permission_denied_message">Ekran görüntülerine ve indirilen eklere erişmek için depolama izni
-        gerekli
-    </string>
+    <string name="hs__permission_denied_message">Ekran görüntülerine ve indirilen eklere erişmek için depolama izni gerekli</string>
     <string name="hs__permission_denied_snackbar_action">Ayarlar</string>
     <string name="hs__permission_not_granted">Uygulamanın fotoğraflarına erişme izni yok</string>
     <string name="hs__permission_rationale_snackbar_action_label">Tamam</string>
@@ -127,9 +114,7 @@
     <string name="hs__review_request_message">Google Play üzerindeki uygulamayı gözden geçirmek ister misin?</string>
     <string name="hs__review_title">Uygulamamızı Değerlendir</string>
     <string name="hs__screenshot_add">Ekle</string>
-    <string name="hs__screenshot_cloud_attach_error">Ekran görüntüsü eklerken hata oluştu. Lütfen cihazından bir görüntü
-        seç.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">Ekran görüntüsü eklerken hata oluştu. Lütfen cihazından bir görüntü seç.</string>
     <string name="hs__screenshot_limit_error">Ekran görüntüsü boyutu %.2f MB\'ı aşmamalı</string>
     <string name="hs__screenshot_remove">Kaldır</string>
     <string name="hs__screenshot_upload_error_msg">Ekran görüntüsü yüklemede hata oluştu</string>
@@ -143,11 +128,8 @@
     <string name="hs__send_msg_btn">GÖNDER</string>
     <string name="hs__sending_fail_msg">Gönderilemedi</string>
     <string name="hs__sending_msg">Gönderiyor</string>
-    <string name="hs__ssl_handshake_error">Bağlantınız güvenli değil. Güvenli bir bağlantı kurarken bir sorun oluştu
-    </string>
-    <string name="hs__ssl_peer_unverified_error">Bağlantınız güvenli değil. Güvenilirliğini doğrularken bir sorun
-        oluştu
-    </string>
+    <string name="hs__ssl_handshake_error">Bağlantınız güvenli değil. Güvenli bir bağlantı kurarken bir sorun oluştu</string>
+    <string name="hs__ssl_peer_unverified_error">Bağlantınız güvenli değil. Güvenilirliğini doğrularken bir sorun oluştu</string>
     <string name="hs__starting_download">İndirmeye başlıyor…</string>
     <string name="hs__submit_conversation_btn">Gönder</string>
     <string name="hs__tap_to_retry">Tekrar denemek için tıkla</string>

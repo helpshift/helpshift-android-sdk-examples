@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">파일, %1$s, %2$s/%3$s 다운로드 중</string>
     <string name="hs__attachment_not_downloaded_voice_over">파일, %1$s, %2$s, 두 번 탭하고 다운로드하기</string>
     <string name="hs__authentication_failed">인증 실패</string>
-    <string name="hs__ca_msg">기꺼이 도와 드리겠습니다!</string>
     <string name="hs__change_btn">변경</string>
     <string name="hs__chat_hint">메시지 입력하기</string>
     <string name="hs__confirmation_footer_msg">보내 주셔서 감사합니다!</string>
     <string name="hs__confirmation_msg">모든 질문이 해결되셨나요?</string>
-    <string name="hs__connecting">연결 중 ...</string>
     <string name="hs__contact_us_btn">문의하기</string>
     <string name="hs__conversation_detail_error">문제에 대해 설명해 주세요.</string>
     <string name="hs__conversation_end_msg">이 대화는 종료되었습니다.</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">대화 종료됨</string>
     <string name="hs__copied_to_clipboard">클립보드에 복사 완료</string>
     <string name="hs__copy">복사하기</string>
-    <string name="hs__copy_to_clipboard_tooltip">클립보드에 복사하기</string>
     <string name="hs__could_not_open_attachment_msg">이 액션을 수행할 수 있는 앱이 없습니다</string>
     <string name="hs__could_not_reach_support_msg">고객 지원에 연결할 수 없음</string>
     <string name="hs__cr_msg">다른 도움이 필요하십니까?</string>
@@ -52,7 +49,6 @@
     <string name="hs__data_not_found_msg">데이터가 없음</string>
     <string name="hs__date_input_validation_error">유효한 날짜 입력</string>
     <string name="hs__default_notification_channel_name">인앱 지원</string>
-    <string name="hs__default_notification_content_title">고객 지원</string>
     <string name="hs__description_invalid_length_error">알맞은 지원을 받으려면, 자세한 정보를 더 알려 주세요.</string>
     <string name="hs__done_btn">완료</string>
     <string name="hs__email_hint">이메일 (보조)</string>
@@ -81,11 +77,9 @@
     <string name="hs__mark_no">아니요</string>
     <string name="hs__mark_yes">네</string>
     <string name="hs__mark_yes_no_question">내용이 도움이 되었나요?</string>
-    <string name="hs__message_not_sent">메시지가 전송되지 않았습니다.</string>
     <string name="hs__messages_loading_error_text">메시지를로드 할 수 없습니다</string>
     <string name="hs__messages_loading_text">메시지 불러오는 중...</string>
     <string name="hs__network_error_msg">이런! 오류가 발생했습니다.</string>
-    <string name="hs__network_error_pre_issue_creation">네트워크 오류</string>
     <string name="hs__network_reconnecting_error">뭔가 잘못 됐어. 다시 연결 중 ...</string>
     <string name="hs__network_unavailable_msg">네트워크를 이용할 수 없습니다.</string>
     <string name="hs__new_conversation_btn">새 대화</string>

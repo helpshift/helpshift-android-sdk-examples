@@ -14,15 +14,12 @@
     <string name="hs__attach_screenshot_btn">స్క్రీన్‌షాట్‌ను జోడించండి</string>
     <string name="hs__attachment_downloaded__voice_over">ఫైలు, %s, తెరవడం కొరకు రెండుసార్లు తట్టండి</string>
     <string name="hs__attachment_downloading_voice_over">ఫైలు, %1$s, %2$s యొక్క %3$s డౌన్‌లోడ్ చేస్తోంది</string>
-    <string name="hs__attachment_not_downloaded_voice_over">ఫైలు, %1$s, %2$s, డౌన్‌లోడ్ చేయడానికి రెండుసార్లు తట్టండి
-    </string>
+    <string name="hs__attachment_not_downloaded_voice_over">ఫైలు, %1$s, %2$s, డౌన్‌లోడ్ చేయడానికి రెండుసార్లు తట్టండి</string>
     <string name="hs__authentication_failed">ప్రామాణీకరణ విఫలమైంది</string>
-    <string name="hs__ca_msg">మీకు సహాయపడేందుకు మేము సంతోషిస్తున్నాము!</string>
     <string name="hs__change_btn">మార్చండి</string>
     <string name="hs__chat_hint">మీ సందేశాన్ని ప్రవేశపెట్టండి</string>
     <string name="hs__confirmation_footer_msg">మాకు సందేశాన్ని పంపినందుకు ధన్యవాదాలు!</string>
     <string name="hs__confirmation_msg">మేము మీ ప్రశ్నలకన్నింటికీ సమాధానమిచ్చామా?</string>
-    <string name="hs__connecting">కనెక్ట్ చేస్తోంది ...</string>
     <string name="hs__contact_us_btn">మమ్మల్ని సంప్రదించండి</string>
     <string name="hs__conversation_detail_error">దయచేసి మీ సమస్యను విశదపరచండి</string>
     <string name="hs__conversation_end_msg">ఈ సంభాషణ ముగిసినది.</string>
@@ -32,12 +29,10 @@
     <string name="hs__conversation_redacted_status">సంభాషణ తొలగించబడింది</string>
     <string name="hs__conversation_redacted_status_multiple">%1$d సంభాషణలు తొలగించబడ్డాయి</string>
     <string name="hs__conversation_rejected_status">సంభాషణ ముగించబడింది</string>
-    <string name="hs__conversation_started_message">మీ సందేశం అందుకోబడినది. మమ్మల్ని సంప్రదించినందుకు ధన్యవాదములు.
-    </string>
+    <string name="hs__conversation_started_message">మీ సందేశం అందుకోబడినది. మమ్మల్ని సంప్రదించినందుకు ధన్యవాదములు.</string>
     <string name="hs__conversations_divider_voice_over">సంభాషణ ముగిసింది</string>
     <string name="hs__copied_to_clipboard">క్లిప్‌బోర్డుకు కాపీ చేయబడింది</string>
     <string name="hs__copy">కాపీ చేయండి</string>
-    <string name="hs__copy_to_clipboard_tooltip">క్లిప్‌బోోర్డుకు కాపీ చేయండి</string>
     <string name="hs__could_not_open_attachment_msg">ఏ యాప్‌‌లు ఈ చర్యను చేయలేవు.</string>
     <string name="hs__could_not_reach_support_msg">సపోర్టును చేరుకోలేకపోతున్నాము</string>
     <string name="hs__cr_msg">మీకు మేము మరింకే విధంగా సహాయపడగలము?</string>
@@ -54,16 +49,12 @@
     <string name="hs__data_not_found_msg">డేటా దొరకలేదు</string>
     <string name="hs__date_input_validation_error">ఒక సరైన తేదీని ప్రవేశపెట్టండి</string>
     <string name="hs__default_notification_channel_name">అనువర్తన మద్దతు</string>
-    <string name="hs__default_notification_content_title">సహకారం</string>
-    <string name="hs__description_invalid_length_error">అత్యుత్తమమైన సహకారం కొరకు, దయచేసి మరింత వివరణను అందించండి
-    </string>
+    <string name="hs__description_invalid_length_error">అత్యుత్తమమైన సహకారం కొరకు, దయచేసి మరింత వివరణను అందించండి</string>
     <string name="hs__done_btn">అయ్యింది</string>
     <string name="hs__email_hint">ఇమెయిల్‌ (ఐచ్ఛికం)</string>
     <string name="hs__email_input_validation_error">చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి</string>
     <string name="hs__email_required_hint">ఇమెయిల్‌</string>
-    <string name="hs__faq_fetching_fail_message">ఈ క్షణంలో FAQను లోడ్ చేయలేకపోతున్నాము. దయచేసి కాసేపటి తరువాత మళ్ళీ
-        ప్రయత్నించండి…
-    </string>
+    <string name="hs__faq_fetching_fail_message">ఈ క్షణంలో FAQను లోడ్ చేయలేకపోతున్నాము. దయచేసి కాసేపటి తరువాత మళ్ళీ ప్రయత్నించండి…</string>
     <string name="hs__faqs_search_footer">ఎఫ్‌ఎక్యూలు ఏవీ దొరకలేదు</string>
     <string name="hs__feedback_button">అభిప్రాయాన్ని పంపండి</string>
     <string name="hs__fetching_faqs_message">మీ సమాధానాలను తెస్తున్నది…</string>
@@ -76,9 +67,7 @@
     <string name="hs__invalid_email_error">దయచేసి ఒక సరైన ఇమెయిల్‌ను ప్రవేశపెట్టండి</string>
     <string name="hs__invalid_faq_publish_id_error">IDకి సరిపోయే FAQ ను మేము కనుగొనలేకపోయాము</string>
     <string name="hs__invalid_section_publish_id_error">సరేిపోలే ఐడితో FAQ విభాగాన్ని మేము కనుగొనలేకపోయాము</string>
-    <string name="hs__issue_archival_message">క్షమించాలి! స్తబ్దత కారణంగా ఈ సంభాషణ ముగించబడింది. మా ఏజెంట్లతో దయచేసి ఒక
-        కొత్త సంభాషణను ఆరంభించండి.
-    </string>
+    <string name="hs__issue_archival_message">క్షమించాలి! స్తబ్దత కారణంగా ఈ సంభాషణ ముగించబడింది. మా ఏజెంట్లతో దయచేసి ఒక కొత్త సంభాషణను ఆరంభించండి.</string>
     <string name="hs__jump_button_voice_over">తాజా సందేశానికి వెళ్ళండి</string>
     <string name="hs__jump_button_with_new_message_voice_over">న్యూ సందేశ ఇక్కడికి గెంతు</string>
     <string name="hs__landscape_date_input_validation_error">ఒక సరైన తేదీని దయచేసి ప్రవేశపెట్టండి.</string>
@@ -88,28 +77,22 @@
     <string name="hs__mark_no">కాదు</string>
     <string name="hs__mark_yes">అవును</string>
     <string name="hs__mark_yes_no_question">ఇది సహాయకరంగా ఉందా?</string>
-    <string name="hs__message_not_sent">సందేశం పంపించబడలేదు.</string>
     <string name="hs__messages_loading_error_text">సందేశాలు లోడ్ చేయలేకపోయింది</string>
     <string name="hs__messages_loading_text">సందేశాలను లోడ్ చేస్తున్నది…</string>
     <string name="hs__network_error_msg">అయ్యో! ఏదో తప్పిదం జరిగింది</string>
-    <string name="hs__network_error_pre_issue_creation">నెట్వర్క్ లోపం</string>
     <string name="hs__network_reconnecting_error">ఎక్కడో తేడ జరిగింది. కనెక్ట్ చేస్తోంది ...</string>
     <string name="hs__network_unavailable_msg">నెట్‌వర్క్‌ అందుబాటులో లేదు.</string>
     <string name="hs__new_conversation_btn">కొత్త సంభాషణ</string>
-    <string name="hs__new_conversation_footer_generic_reason">క్షమించండి, ఏదో తప్పు జరిగింది. ఈ సంభాషణ కొనసాగించబడదు.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">క్షమించండి, ఏదో తప్పు జరిగింది. ఈ సంభాషణ కొనసాగించబడదు.</string>
     <string name="hs__new_conversation_header">కొత్త సంభాషణ</string>
     <string name="hs__new_conversation_hint">మేమెలా సహాయపడగలము?</string>
     <string name="hs__no_internet_error">ఇంటర్నెట్ కనెక్షన్ లేదు</string>
     <string name="hs__no_internet_error_mgs">దయచేసి మీ నెట్వర్క్ కనెక్షన్ను తనిఖీ చేయండి.</string>
     <string name="hs__no_search_results_message">అయ్యో! మేము ఏ ఫలితాలనూ కనుక్కోలేకపోయాము</string>
     <string name="hs__number_input_validation_error">చెల్లుబాటు అయ్యే సంఖ్యను నమోదు చేయండి</string>
-    <string name="hs__permission_denied_message">స్క్రీన్‌షాట్‌లకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు మరియు అటాచ్‌మెంట్లను
-        డౌన్‌లోడ్‌ చేసుకునేందుకు నిల్వ అనుమతులు కావాలి
-    </string>
+    <string name="hs__permission_denied_message">స్క్రీన్‌షాట్‌లకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు మరియు అటాచ్‌మెంట్లను డౌన్‌లోడ్‌ చేసుకునేందుకు నిల్వ అనుమతులు కావాలి</string>
     <string name="hs__permission_denied_snackbar_action">సెట్టింగులు</string>
-    <string name="hs__permission_not_granted">మీ ఫోటోలకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు అప్లికేషన్‌కు అనుమతి లేదు
-    </string>
+    <string name="hs__permission_not_granted">మీ ఫోటోలకు ప్రవేశ సౌలభ్యాన్ని పొందేందుకు అప్లికేషన్‌కు అనుమతి లేదు</string>
     <string name="hs__permission_rationale_snackbar_action_label">సరే</string>
     <string name="hs__picker_clear_query_voice_over">సమస్యను క్లియర్ చేయండి</string>
     <string name="hs__picker_no_results">ఎలాంటి ఫలితం లేదు</string>
@@ -127,15 +110,11 @@
     <string name="hs__retry_button_voice_over">పంపడానికి తిరిగి ప్రయత్నించు</string>
     <string name="hs__retry_faq_fetching_button">మళ్ళీ ప్రయత్నించండి</string>
     <string name="hs__review_close_button">మూసివేయండి</string>
-    <string name="hs__review_message">మీరు మా ప్రోగ్రాంను ఇష్టపడినట్లైతే, దానిని రేట్ చేసేందుకు దయచేసి ఒక్క క్షణం
-        కేటాయించండి
-    </string>
+    <string name="hs__review_message">మీరు మా ప్రోగ్రాంను ఇష్టపడినట్లైతే, దానిని రేట్ చేసేందుకు దయచేసి ఒక్క క్షణం కేటాయించండి</string>
     <string name="hs__review_request_message">గూగుల్‌ ప్లే మీద యాప్‌ను మీరు సమీక్షించాలనుకుంటున్నారా?</string>
     <string name="hs__review_title">మా ప్రోగ్రాంను రేట్‌ చేయండి</string>
     <string name="hs__screenshot_add">జోడించండి</string>
-    <string name="hs__screenshot_cloud_attach_error">స్క్రీన్‌షాట్‌ను జోడించడంలో దోషం. దయచేసి మీ పరికరం మీద ఒక
-        చిత్రాన్ని ఎంచుకోండి.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">స్క్రీన్‌షాట్‌ను జోడించడంలో దోషం. దయచేసి మీ పరికరం మీద ఒక చిత్రాన్ని ఎంచుకోండి.</string>
     <string name="hs__screenshot_limit_error">స్క్రీన్‌షాట్‌ పరిమాణం %.2f MB కి మించరాదు</string>
     <string name="hs__screenshot_remove">తొలగించండి</string>
     <string name="hs__screenshot_upload_error_msg">స్క్రీన్‌షాట్‌ను అప్‌లోడ్‌ చేయడంలో దోషం</string>
@@ -149,12 +128,8 @@
     <string name="hs__send_msg_btn">పంపండి</string>
     <string name="hs__sending_fail_msg">పంపడం విఫలమైంది</string>
     <string name="hs__sending_msg">పంపుతోంది</string>
-    <string name="hs__ssl_handshake_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. ఒక విశ్వసనీయమైన కనెక్షన్‌ను ఏర్పాటుచేయడంలో ఒక
-        సమస్య తలెత్తింది
-    </string>
-    <string name="hs__ssl_peer_unverified_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. దాని ప్రామాణికతను ధృవీకరించడంలో సమస్య
-        తలెత్తింది.
-    </string>
+    <string name="hs__ssl_handshake_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. ఒక విశ్వసనీయమైన కనెక్షన్‌ను ఏర్పాటుచేయడంలో ఒక సమస్య తలెత్తింది</string>
+    <string name="hs__ssl_peer_unverified_error">మీ కనెక్షన్‌ సురక్షతమైనది కాదు. దాని ప్రామాణికతను ధృవీకరించడంలో సమస్య తలెత్తింది.</string>
     <string name="hs__starting_download">డౌన్‌లోడ్‌ ఆరంభమవుతున్నది…</string>
     <string name="hs__submit_conversation_btn">సమర్పించండి</string>
     <string name="hs__tap_to_retry">మరోసారి ప్రయత్నిచేందుకు తట్టండి</string>
@@ -162,9 +137,7 @@
     <string name="hs__user_failed_message_voice_over">మీ బదులు, పంపుడం విఫలమైంది</string>
     <string name="hs__user_sending_message_voice_over">మీ బదులు, పంపుతోంది</string>
     <string name="hs__user_sent_message_voice_over">%s నాడు మీ బదులు</string>
-    <string name="hs__user_setup_retry_description">మేము ఇప్పటికీ మద్దతును చేరుకోవడానికి ప్రయత్నిస్తున్నాము. దయచేసి వేచి
-        ఉండండి.
-    </string>
+    <string name="hs__user_setup_retry_description">మేము ఇప్పటికీ మద్దతును చేరుకోవడానికి ప్రయత్నిస్తున్నాము. దయచేసి వేచి ఉండండి.</string>
     <string name="hs__username_blank_error">దయచేసి ఒక సరైన పేరును ప్రవేశపెట్టండి</string>
     <string name="hs__username_hint">మీ పేరు</string>
 </resources>

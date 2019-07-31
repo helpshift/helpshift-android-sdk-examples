@@ -14,15 +14,12 @@
     <string name="hs__attach_screenshot_btn">Adjuntar captura</string>
     <string name="hs__attachment_downloaded__voice_over">Archivo. %s. Toca dos veces para abrirla.</string>
     <string name="hs__attachment_downloading_voice_over">Archivo. %1$s. Descargando %2$s de %3$s...</string>
-    <string name="hs__attachment_not_downloaded_voice_over">Imagen. %1$s. %2$s. Toca dos veces para descargarla.
-    </string>
+    <string name="hs__attachment_not_downloaded_voice_over">Imagen. %1$s. %2$s. Toca dos veces para descargarla.</string>
     <string name="hs__authentication_failed">Autenticación fallida</string>
-    <string name="hs__ca_msg">¡Estamos encantados de ayudarle!</string>
     <string name="hs__change_btn">Cambiar</string>
     <string name="hs__chat_hint">Escriba su mensaje.</string>
     <string name="hs__confirmation_footer_msg">Gracias por su mensaje</string>
     <string name="hs__confirmation_msg">¿Hemos resuelto todas sus dudas?</string>
-    <string name="hs__connecting">Conectando ...</string>
     <string name="hs__contact_us_btn">CONTACTE CON NOSOTROS</string>
     <string name="hs__conversation_detail_error">Describa el problema</string>
     <string name="hs__conversation_end_msg">La conversación ha finalizado.</string>
@@ -32,12 +29,10 @@
     <string name="hs__conversation_redacted_status">Conversación eliminada</string>
     <string name="hs__conversation_redacted_status_multiple">%1$d conversaciones eliminadas</string>
     <string name="hs__conversation_rejected_status">Conversación cerrada</string>
-    <string name="hs__conversation_started_message">Hemos recibido su mensaje. ¡Gracias por ponerse en contacto!
-    </string>
+    <string name="hs__conversation_started_message">Hemos recibido su mensaje. ¡Gracias por ponerse en contacto!</string>
     <string name="hs__conversations_divider_voice_over">Conversación finalizada</string>
     <string name="hs__copied_to_clipboard">Se copió al portapapeles</string>
     <string name="hs__copy">Copiar</string>
-    <string name="hs__copy_to_clipboard_tooltip">Copiar al portapapeles</string>
     <string name="hs__could_not_open_attachment_msg">Ninguna aplicación puede realizar esta acción</string>
     <string name="hs__could_not_reach_support_msg">No se puede contactar con soporte</string>
     <string name="hs__cr_msg">¿Necesita más ayuda?</string>
@@ -54,15 +49,12 @@
     <string name="hs__data_not_found_msg">No se encuentran datos</string>
     <string name="hs__date_input_validation_error">Escriba una fecha válida.</string>
     <string name="hs__default_notification_channel_name">Soporte en la aplicación</string>
-    <string name="hs__default_notification_content_title">Soporte</string>
     <string name="hs__description_invalid_length_error">Sea más preciso para poder asistirle mejor</string>
     <string name="hs__done_btn">Listo</string>
     <string name="hs__email_hint">Correo (opcional)</string>
     <string name="hs__email_input_validation_error">Introduzca una dirección de correo electrónico válida</string>
     <string name="hs__email_required_hint">Correo</string>
-    <string name="hs__faq_fetching_fail_message">En estos momentos, no se pueden cargar P+F. Inténtelo de nuevo más
-        tarde…
-    </string>
+    <string name="hs__faq_fetching_fail_message">En estos momentos, no se pueden cargar P+F. Inténtelo de nuevo más tarde…</string>
     <string name="hs__faqs_search_footer">No se han encontrado P+F</string>
     <string name="hs__feedback_button">Enviar comentarios</string>
     <string name="hs__fetching_faqs_message">Obteniendo sus respuestas…</string>
@@ -74,12 +66,8 @@
     <string name="hs__invalid_description_error">Descripción no válida</string>
     <string name="hs__invalid_email_error">Escriba un correo válido</string>
     <string name="hs__invalid_faq_publish_id_error">No se ha encontrado una P+F con el ID correspondiente.</string>
-    <string name="hs__invalid_section_publish_id_error">No se ha encontrado una sección de P+F con el id.
-        correspondiente.
-    </string>
-    <string name="hs__issue_archival_message">Lo sentimos. La conversación se ha cerrado porque estaba inactiva. Inicie
-        otra con sus agentes.
-    </string>
+    <string name="hs__invalid_section_publish_id_error">No se ha encontrado una sección de P+F con el id. correspondiente.</string>
+    <string name="hs__issue_archival_message">Lo sentimos. La conversación se ha cerrado porque estaba inactiva. Inicie otra con sus agentes.</string>
     <string name="hs__jump_button_voice_over">Ir al mensaje más reciente</string>
     <string name="hs__jump_button_with_new_message_voice_over">Saltar a un nuevo mensaje</string>
     <string name="hs__landscape_date_input_validation_error">Escriba una fecha válida.</string>
@@ -89,26 +77,20 @@
     <string name="hs__mark_no">No</string>
     <string name="hs__mark_yes">Sí</string>
     <string name="hs__mark_yes_no_question">¿Le resultó útil?</string>
-    <string name="hs__message_not_sent">Mensaje no enviado.</string>
     <string name="hs__messages_loading_error_text">No se pudo cargar los mensajes</string>
     <string name="hs__messages_loading_text">Cargando mensajes...</string>
     <string name="hs__network_error_msg">¡Vaya! Algo ha salido mal</string>
-    <string name="hs__network_error_pre_issue_creation">Error de red</string>
     <string name="hs__network_reconnecting_error">Algo salió mal. Reconectando ...</string>
     <string name="hs__network_unavailable_msg">Red no disponible.</string>
     <string name="hs__new_conversation_btn">Nueva conversación</string>
-    <string name="hs__new_conversation_footer_generic_reason">Perdón, algo salió mal. Esta conversación no puede
-        continuar.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">Perdón, algo salió mal. Esta conversación no puede continuar.</string>
     <string name="hs__new_conversation_header">Nueva conversación</string>
     <string name="hs__new_conversation_hint">¿En qué podemos ayudarle?</string>
     <string name="hs__no_internet_error">Sin conexión a Internet</string>
     <string name="hs__no_internet_error_mgs">Por favor revisa tu conexión de red.</string>
     <string name="hs__no_search_results_message">¡Vaya! No encontramos resultados</string>
     <string name="hs__number_input_validation_error">Ingrese un número válido</string>
-    <string name="hs__permission_denied_message">Para acceder a las capturas y descargar archivos adjuntos, se quiere
-        permiso de almacenamiento
-    </string>
+    <string name="hs__permission_denied_message">Para acceder a las capturas y descargar archivos adjuntos, se quiere permiso de almacenamiento</string>
     <string name="hs__permission_denied_snackbar_action">Configuración</string>
     <string name="hs__permission_not_granted">La aplicación no tiene permiso para acceder a sus fotos</string>
     <string name="hs__permission_rationale_snackbar_action_label">Aceptar</string>
@@ -132,8 +114,7 @@
     <string name="hs__review_request_message">¿Le gustaría escribir una reseña de la aplicación en Google Play?</string>
     <string name="hs__review_title">Valorar la aplicación</string>
     <string name="hs__screenshot_add">Añadir</string>
-    <string name="hs__screenshot_cloud_attach_error">Error al adjuntar captura. Elija una imagen en su dispositivo.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">Error al adjuntar captura. Elija una imagen en su dispositivo.</string>
     <string name="hs__screenshot_limit_error">La captura de pantalla no debe superar %.2f MB</string>
     <string name="hs__screenshot_remove">Quitar</string>
     <string name="hs__screenshot_upload_error_msg">Error al cargar captura</string>
@@ -147,12 +128,8 @@
     <string name="hs__send_msg_btn">ENVIAR</string>
     <string name="hs__sending_fail_msg">Error al enviar</string>
     <string name="hs__sending_msg">Enviando</string>
-    <string name="hs__ssl_handshake_error">Su conexión no es segura. Se ha producido un problema al establecer una
-        conexión de confianza.
-    </string>
-    <string name="hs__ssl_peer_unverified_error">Su conexión no es segura. Se ha producido un problema al verificar su
-        autenticidad.
-    </string>
+    <string name="hs__ssl_handshake_error">Su conexión no es segura. Se ha producido un problema al establecer una conexión de confianza.</string>
+    <string name="hs__ssl_peer_unverified_error">Su conexión no es segura. Se ha producido un problema al verificar su autenticidad.</string>
     <string name="hs__starting_download">Iniciando descarga…</string>
     <string name="hs__submit_conversation_btn">Enviar</string>
     <string name="hs__tap_to_retry">Toca para volver a intentar</string>
@@ -160,8 +137,7 @@
     <string name="hs__user_failed_message_voice_over">Error al enviar su respuesta.</string>
     <string name="hs__user_sending_message_voice_over">Enviando su respuesta...</string>
     <string name="hs__user_sent_message_voice_over">Su respuesta. %s.</string>
-    <string name="hs__user_setup_retry_description">Todavía estamos tratando de alcanzar el apoyo. Por favor espera.
-    </string>
+    <string name="hs__user_setup_retry_description">Todavía estamos tratando de alcanzar el apoyo. Por favor espera.</string>
     <string name="hs__username_blank_error">Escriba un nombre válido</string>
     <string name="hs__username_hint">Su nombre</string>
 </resources>

@@ -14,15 +14,12 @@
     <string name="hs__attach_screenshot_btn">Atașare captură de ecran</string>
     <string name="hs__attachment_downloaded__voice_over">Fișier, %s, atinge de două ori pentru a deschide</string>
     <string name="hs__attachment_downloading_voice_over">Fișier, %1$s descărcare %2$s din %3$s</string>
-    <string name="hs__attachment_not_downloaded_voice_over">Fișier, %1$s, %2$s, atinge de două ori pentru a descărca
-    </string>
+    <string name="hs__attachment_not_downloaded_voice_over">Fișier, %1$s, %2$s, atinge de două ori pentru a descărca</string>
     <string name="hs__authentication_failed">Autentificare esuata</string>
-    <string name="hs__ca_msg">Suntem încântați să vă ajutăm!</string>
     <string name="hs__change_btn">Schimbare</string>
     <string name="hs__chat_hint">Introduceţi mesajul dvs.</string>
     <string name="hs__confirmation_footer_msg">Mulțumim pentru mesajul dvs!</string>
     <string name="hs__confirmation_msg">Ți-am răspuns la toate întrebările?</string>
-    <string name="hs__connecting">Conectarea ...</string>
     <string name="hs__contact_us_btn">CONTACTEAZĂ-NE</string>
     <string name="hs__conversation_detail_error">Descrieți problema</string>
     <string name="hs__conversation_end_msg">Această conversație s-a încheiat.</string>
@@ -36,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">Conversaţie încheiată</string>
     <string name="hs__copied_to_clipboard">Copiate în clipboard</string>
     <string name="hs__copy">Copiere</string>
-    <string name="hs__copy_to_clipboard_tooltip">Copiere în clipboard</string>
     <string name="hs__could_not_open_attachment_msg">Nu aveți aplicaţii care să poată efectua această acţiune.</string>
     <string name="hs__could_not_reach_support_msg">Asistența nu poate fi contactată</string>
     <string name="hs__cr_msg">Cu ce te mai putem ajuta?</string>
@@ -53,16 +49,12 @@
     <string name="hs__data_not_found_msg">Date negăsite</string>
     <string name="hs__date_input_validation_error">Introduceţi o dată validă</string>
     <string name="hs__default_notification_channel_name">Suport aplicatie</string>
-    <string name="hs__default_notification_content_title">Asistență</string>
-    <string name="hs__description_invalid_length_error">Pentru o mai bună asistență, furnizați mai multe detalii
-    </string>
+    <string name="hs__description_invalid_length_error">Pentru o mai bună asistență, furnizați mai multe detalii</string>
     <string name="hs__done_btn">Rezolvat</string>
     <string name="hs__email_hint">E-mail (opțional)</string>
     <string name="hs__email_input_validation_error">Introduceți o adresă de email validă</string>
     <string name="hs__email_required_hint">E-mail</string>
-    <string name="hs__faq_fetching_fail_message">Momentan nu este posibilă încărcarea Întrebărilor frecvente.
-        Reîncercați în scurt timp…
-    </string>
+    <string name="hs__faq_fetching_fail_message">Momentan nu este posibilă încărcarea Întrebărilor frecvente. Reîncercați în scurt timp…</string>
     <string name="hs__faqs_search_footer">Nu s-au găsit întrebări frecvente</string>
     <string name="hs__feedback_button">Trimite feedback</string>
     <string name="hs__fetching_faqs_message">Se obțin răspunsurile…</string>
@@ -74,11 +66,8 @@
     <string name="hs__invalid_description_error">Descriere nevalidă</string>
     <string name="hs__invalid_email_error">Introduceți o adresă de e-mail validă</string>
     <string name="hs__invalid_faq_publish_id_error">Nu am putut găsi o Întrebare frecventă cu același ID</string>
-    <string name="hs__invalid_section_publish_id_error">Nu am putut găsi o secțiune Întrebări frecvente cu același ID
-    </string>
-    <string name="hs__issue_archival_message">Ne cerem scuze! Această conversație a fost încheiată din cauza
-        inactivității. Începeți o nouă conversație cu agenții noștri.
-    </string>
+    <string name="hs__invalid_section_publish_id_error">Nu am putut găsi o secțiune Întrebări frecvente cu același ID</string>
+    <string name="hs__issue_archival_message">Ne cerem scuze! Această conversație a fost încheiată din cauza inactivității. Începeți o nouă conversație cu agenții noștri.</string>
     <string name="hs__jump_button_voice_over">Mergeţi direct la ultimul mesaj</string>
     <string name="hs__jump_button_with_new_message_voice_over">Salt la mesaj nou</string>
     <string name="hs__landscape_date_input_validation_error">Vă rugăm să introduceţi o dată validă.</string>
@@ -88,26 +77,20 @@
     <string name="hs__mark_no">Nu</string>
     <string name="hs__mark_yes">Da</string>
     <string name="hs__mark_yes_no_question">Ți-a fost util?</string>
-    <string name="hs__message_not_sent">Mesaj netrimis.</string>
     <string name="hs__messages_loading_error_text">Nu a putut fi încărcat Mesaje</string>
     <string name="hs__messages_loading_text">Se încarcă mesajele...</string>
     <string name="hs__network_error_msg">Uups! S-a produs o eroare</string>
-    <string name="hs__network_error_pre_issue_creation">Eroare de rețea</string>
     <string name="hs__network_reconnecting_error">Ceva n-a mers bine. Reconectează ...</string>
     <string name="hs__network_unavailable_msg">Rețea indisponibilă.</string>
     <string name="hs__new_conversation_btn">Conversație nouă</string>
-    <string name="hs__new_conversation_footer_generic_reason">Scuze, ceva a mers greșit. Această conversație nu poate fi
-        continuată.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">Scuze, ceva a mers greșit. Această conversație nu poate fi continuată.</string>
     <string name="hs__new_conversation_header">Conversație nouă</string>
     <string name="hs__new_conversation_hint">Cum te putem ajuta?</string>
     <string name="hs__no_internet_error">Fără conexiune internet</string>
     <string name="hs__no_internet_error_mgs">Verificați conexiunea la rețea.</string>
     <string name="hs__no_search_results_message">Uups! Nu am putut găsi niciun rezultat</string>
     <string name="hs__number_input_validation_error">Introduceți un număr valid</string>
-    <string name="hs__permission_denied_message">Permisiunea de stocare este solicitată pentru a accesa capturile de
-        ecran și a descărca atașamente
-    </string>
+    <string name="hs__permission_denied_message">Permisiunea de stocare este solicitată pentru a accesa capturile de ecran și a descărca atașamente</string>
     <string name="hs__permission_denied_snackbar_action">Setări</string>
     <string name="hs__permission_not_granted">Aplicația nu are permisiunea de a vă accesa fotografiile</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
@@ -131,9 +114,7 @@
     <string name="hs__review_request_message">Vreți să evaluați aplicația pe Google Play?</string>
     <string name="hs__review_title">Notează aplicația</string>
     <string name="hs__screenshot_add">Adăugare</string>
-    <string name="hs__screenshot_cloud_attach_error">Eroare la atașarea capturii de ecran. Alegeți o imagine de pe
-        dispozitivul dvs.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">Eroare la atașarea capturii de ecran. Alegeți o imagine de pe dispozitivul dvs.</string>
     <string name="hs__screenshot_limit_error">Dimensiunea capturii de ecran nu trebuie să depășească %.2f MB</string>
     <string name="hs__screenshot_remove">Eliminare</string>
     <string name="hs__screenshot_upload_error_msg">Eroare la încărcarea capturii de ecran</string>
@@ -147,12 +128,8 @@
     <string name="hs__send_msg_btn">TRIMITE</string>
     <string name="hs__sending_fail_msg">Trimitere eșuată</string>
     <string name="hs__sending_msg">Trimitere</string>
-    <string name="hs__ssl_handshake_error">Conexiunea dvs. nu este sigură. A apărut o problemă la stabilirea unei
-        conexiuni de încredere
-    </string>
-    <string name="hs__ssl_peer_unverified_error">Conexiunea dvs. nu este sigură. A apărut o problemă la verificarea
-        autenticității acesteia
-    </string>
+    <string name="hs__ssl_handshake_error">Conexiunea dvs. nu este sigură. A apărut o problemă la stabilirea unei conexiuni de încredere</string>
+    <string name="hs__ssl_peer_unverified_error">Conexiunea dvs. nu este sigură. A apărut o problemă la verificarea autenticității acesteia</string>
     <string name="hs__starting_download">Se începe descărcarea…</string>
     <string name="hs__submit_conversation_btn">Trimitere</string>
     <string name="hs__tap_to_retry">Apasă pentru a reîncerca</string>

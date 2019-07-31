@@ -60,9 +60,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
-                android:layout_marginEnd="56dp"
+                android:layout_marginEnd="16dp"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="56dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginStart="16dp"
                 android:textColor="?attr/hs__errorTextColor"
                 android:textSize="@dimen/hs__textSizeSmall"
@@ -76,8 +76,7 @@
             android:layout_height="48dp"
             android:layout_gravity="bottom|end"
             android:background="?attr/selectableItemBackground"
-            android:contentDescription="@string/hs__send_msg_btn"
-            android:src="@drawable/hs__send" />
+            android:contentDescription="@string/hs__send_msg_btn" />
     </LinearLayout>
 
 </LinearLayout>

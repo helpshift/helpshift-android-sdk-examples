@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">ファイル%1$sをダウンロードしています。%2$s中%3$s完了</string>
     <string name="hs__attachment_not_downloaded_voice_over">ファイル%1$s（サイズ%2$s）をダブルタップしてダウンロード</string>
     <string name="hs__authentication_failed">認証に失敗しました</string>
-    <string name="hs__ca_msg">真摯に受け止め対応させていただきます。</string>
     <string name="hs__change_btn">変更</string>
     <string name="hs__chat_hint">メッセージをご入力ください</string>
     <string name="hs__confirmation_footer_msg">メッセージをお送りいただき、ありがとうございました。</string>
     <string name="hs__confirmation_msg">カスタマーサポートは全ての質問に回答しましたか？</string>
-    <string name="hs__connecting">接続中...</string>
     <string name="hs__contact_us_btn">お問い合わせ</string>
     <string name="hs__conversation_detail_error">問題の詳細をご説明ください</string>
     <string name="hs__conversation_end_msg">このメッセージは終了しました。</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">メッセージを終了しました</string>
     <string name="hs__copied_to_clipboard">クリップボードにコピー済み</string>
     <string name="hs__copy">コピー</string>
-    <string name="hs__copy_to_clipboard_tooltip">クリップボードにコピー</string>
     <string name="hs__could_not_open_attachment_msg">このアクションを実行できるアプリはありません</string>
     <string name="hs__could_not_reach_support_msg">サポートに接続できません</string>
     <string name="hs__cr_msg">他にご要望がございますか？</string>
@@ -52,7 +49,6 @@
     <string name="hs__data_not_found_msg">データが見つかりません</string>
     <string name="hs__date_input_validation_error">有効な日付を入力してください</string>
     <string name="hs__default_notification_channel_name">アプリ内サポート</string>
-    <string name="hs__default_notification_content_title">サポート</string>
     <string name="hs__description_invalid_length_error">適切なサポートをご提供させていただけるよう、より詳細な状況をお聞かせください。</string>
     <string name="hs__done_btn">終了</string>
     <string name="hs__email_hint">Eメールアドレス（任意）</string>
@@ -81,11 +77,9 @@
     <string name="hs__mark_no">いいえ</string>
     <string name="hs__mark_yes">はい</string>
     <string name="hs__mark_yes_no_question">お役に立ちましたか？</string>
-    <string name="hs__message_not_sent">メッセージは送信されませんでした。</string>
     <string name="hs__messages_loading_error_text">メッセージを読み込むことができませんでした</string>
     <string name="hs__messages_loading_text">メッセージをロード中…</string>
     <string name="hs__network_error_msg">エラーが発生しました</string>
-    <string name="hs__network_error_pre_issue_creation">ネットワークエラー</string>
     <string name="hs__network_reconnecting_error">何かが間違っていた。 再接続中...</string>
     <string name="hs__network_unavailable_msg">ネットワークを利用できません。</string>
     <string name="hs__new_conversation_btn">新規メッセージ</string>

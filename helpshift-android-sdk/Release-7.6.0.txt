@@ -1,4 +1,4 @@
-Helpshift SDK 7.5.0 Release Notes (for Android)
+Helpshift SDK 7.6.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,40 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.6.0 Release Date: July 30, 2019
+      * Added support for targeting Android Q Beta 5 which includes support for the new scoped storage changes (https://developer.android.com/preview/privacy/scoped-storage).
+      * Added support for messages and attachment redaction for SDKs. Messages and attachments which are redacted from the Agent dashboard will be removed from user's devices too.
+      * Fixed an edge case crash that would occur when the chat screen is opened and an already downloaded attachment is not accessible by the SDK.
+      * Fixed an edge case crash on opening any SDK screen when conflicting versions of support libraries are used.
+      * Fixed an edge case crash which occurred on sending a message when both reply box and options pills would be visible at the same time.
+      * Fixed an ANR which occurs in an edge case when searching through an FAQ which has a large number of media elements.
+      * Fixed an edge case crash that would occur when user swipes through the FAQ sections view pager very quickly and "Don't keep activities" from Developer Options is turned ON.
+      * Fixed a bug where the user incorrectly sees the authentication failure screen instead of the conversation if login API is used without email or userID and User Identity verification is enabled.
+      * Fixed a bug where, in some network edge cases, the user wasn't able to send or receive messages if a bot was interrupted by another bot.
+      * Fixed a bug where, in some network edge cases, user was not able to see the messages sent by the agent in the messaging experience.
+      * Fixed a bug where the embedded media content was not visible in an FAQ on Android P and above.
+      * Fixed a bug where the deep link to an FAQ was not working from another FAQ screen.
+      * Fixed a bug where the image attachment wasn't visible on the chat screen when an issue is filed with an attachment via form based issue filing flow.
+      * Fixed a bug where the user couldn't send the CSAT rating for a resolved conversation if conversation history was ON and if there was a login change between users.
+      * Fixed a bug where the dot character at the end of a message (if present) would also be part of the link.
+      * Fixed a bug where, in some network edge cases, the user was able to retry an older message which is not part of the running bot.
+7.6.0-withCampaigns Release Date: July 30, 2019
+      * Added support for targeting Android Q Beta 5 which includes support for the new scoped storage changes (https://developer.android.com/preview/privacy/scoped-storage).
+      * Added support for messages and attachment redaction for SDKs. Messages and attachments which are redacted from the Agent dashboard will be removed from user's devices too.
+      * Fixed an edge case crash that would occur when the chat screen is opened and an already downloaded attachment is not accessible by the SDK.
+      * Fixed an edge case crash on opening any SDK screen when conflicting versions of support libraries are used.
+      * Fixed an edge case crash which occurred on sending a message when both reply box and options pills would be visible at the same time.
+      * Fixed an ANR which occurs in an edge case when searching through an FAQ which has a large number of media elements.
+      * Fixed an edge case crash that would occur when user swipes through the FAQ sections view pager very quickly and "Don't keep activities" from Developer Options is turned ON.
+      * Fixed a bug where the user incorrectly sees the authentication failure screen instead of the conversation if login API is used without email or userID and User Identity verification is enabled.
+      * Fixed a bug where, in some network edge cases, the user wasn't able to send or receive messages if a bot was interrupted by another bot.
+      * Fixed a bug where, in some network edge cases, user was not able to see the messages sent by the agent in the messaging experience.
+      * Fixed a bug where the embedded media content was not visible in an FAQ on Android P and above.
+      * Fixed a bug where the deep link to an FAQ was not working from another FAQ screen.
+      * Fixed a bug where the image attachment wasn't visible on the chat screen when an issue is filed with an attachment via form based issue filing flow.
+      * Fixed a bug where the user couldn't send the CSAT rating for a resolved conversation if conversation history was ON and if there was a login change between users.
+      * Fixed a bug where the dot character at the end of a message (if present) would also be part of the link.
+      * Fixed a bug where, in some network edge cases, the user was able to retry an older message which is not part of the running bot.
 7.5.0 Release Date: March 25, 2019
       * Introduced a new rich element for automation bots to let users choose from a list of selectable option responses if the number of selectable options is more than 5.
       * Introduced an ability for reducing the SDK size impact on your app further by only using SDK resources of select languages. For more details, refer https://developers.helpshift.com/android/i18n/#language-selection.

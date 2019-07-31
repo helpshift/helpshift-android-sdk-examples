@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">檔案，%1$s，正下載%2$s / %3$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">檔案，%1$s，%2$s，雙點擊以下載</string>
     <string name="hs__authentication_failed">驗證失敗</string>
-    <string name="hs__ca_msg">我們很樂意協助您！</string>
     <string name="hs__change_btn">更改</string>
     <string name="hs__chat_hint">輸入您的訊息</string>
     <string name="hs__confirmation_footer_msg">感謝您給我們訊息！</string>
     <string name="hs__confirmation_msg">我們是否已回答您全部問題？</string>
-    <string name="hs__connecting">連接...</string>
     <string name="hs__contact_us_btn">聯絡我們</string>
     <string name="hs__conversation_detail_error">請描述您的問題</string>
     <string name="hs__conversation_end_msg">此對話已結束。</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">對話已結束</string>
     <string name="hs__copied_to_clipboard">已複製到剪貼簿</string>
     <string name="hs__copy">拷貝</string>
-    <string name="hs__copy_to_clipboard_tooltip">複製到剪貼簿</string>
     <string name="hs__could_not_open_attachment_msg">沒有應用程式可以執行此操作</string>
     <string name="hs__could_not_reach_support_msg">無法與客戶支援連線</string>
     <string name="hs__cr_msg">還有其他需要我們幫助之處嗎？</string>
@@ -52,7 +49,6 @@
     <string name="hs__data_not_found_msg">找不到資料</string>
     <string name="hs__date_input_validation_error">輸入有效的日期</string>
     <string name="hs__default_notification_channel_name">應用內支持</string>
-    <string name="hs__default_notification_content_title">客戶支援</string>
     <string name="hs__description_invalid_length_error">為能向您提供更有用的協助，請提供更詳細的資訊</string>
     <string name="hs__done_btn">完成</string>
     <string name="hs__email_hint">電子郵件（選填）</string>
@@ -81,11 +77,9 @@
     <string name="hs__mark_no">沒有</string>
     <string name="hs__mark_yes">是</string>
     <string name="hs__mark_yes_no_question">這是否有幫助？</string>
-    <string name="hs__message_not_sent">訊息未送出。</string>
     <string name="hs__messages_loading_error_text">無法加載消息</string>
     <string name="hs__messages_loading_text">訊息載入中...</string>
     <string name="hs__network_error_msg">糟糕！發生問題了</string>
-    <string name="hs__network_error_pre_issue_creation">網絡錯誤</string>
     <string name="hs__network_reconnecting_error">出了些問題。重新連接...</string>
     <string name="hs__network_unavailable_msg">沒有可用的網路。</string>
     <string name="hs__new_conversation_btn">新對話</string>

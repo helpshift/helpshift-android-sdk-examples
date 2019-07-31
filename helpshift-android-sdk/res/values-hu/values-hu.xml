@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">Fájl, %1$s, letöltés %2$s/%3$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Fájl, %1$s, %2$s, dupla kattintás a letöltéshez</string>
     <string name="hs__authentication_failed">Sikertelen volt a hitelesítés</string>
-    <string name="hs__ca_msg">Nagyon szívesen segítünk!</string>
     <string name="hs__change_btn">Módosítás</string>
     <string name="hs__chat_hint">Adja meg üzenetét</string>
     <string name="hs__confirmation_footer_msg">Köszönjük az üzenetét!</string>
     <string name="hs__confirmation_msg">Minden kérdését megválaszoltuk?</string>
-    <string name="hs__connecting">Csatlakozás ...</string>
     <string name="hs__contact_us_btn">KAPCSOLAT</string>
     <string name="hs__conversation_detail_error">Kérjük, írja le a problémát</string>
     <string name="hs__conversation_end_msg">A beszélgetés befejeződött.</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">Beszélgetés befejezve</string>
     <string name="hs__copied_to_clipboard">Vágólapra másolva</string>
     <string name="hs__copy">Példány</string>
-    <string name="hs__copy_to_clipboard_tooltip">Másolás a vágólapra</string>
     <string name="hs__could_not_open_attachment_msg">Nincs alkalmazás, amely ezt a művelet végre tudja hajtani</string>
     <string name="hs__could_not_reach_support_msg">Az ügyfélszolgálat elérése sikertelen.</string>
     <string name="hs__cr_msg">Segíthetünk valami másban is?</string>
@@ -52,10 +49,7 @@
     <string name="hs__data_not_found_msg">Nem található adat</string>
     <string name="hs__date_input_validation_error">Adjon meg egy érvényes időpontot</string>
     <string name="hs__default_notification_channel_name">Alkalmazáson belüli támogatás</string>
-    <string name="hs__default_notification_content_title">Ügyfélszolgálat</string>
-    <string name="hs__description_invalid_length_error">Adjon meg további részleteket, hogy hatékonyabban segíthessünk
-        Önnek
-    </string>
+    <string name="hs__description_invalid_length_error">Adjon meg további részleteket, hogy hatékonyabban segíthessünk Önnek</string>
     <string name="hs__done_btn">Kész</string>
     <string name="hs__email_hint">E-mail cím (opcionális)</string>
     <string name="hs__email_input_validation_error">Adjon meg egy érvényes email címet</string>
@@ -73,9 +67,7 @@
     <string name="hs__invalid_email_error">Kérjük, érvényes e-mail címet adjon meg</string>
     <string name="hs__invalid_faq_publish_id_error">Nem találtunk egyező azonosítójú GYIK-et.</string>
     <string name="hs__invalid_section_publish_id_error">Nem találtunk egyező azonosítójú GYIK-részt.</string>
-    <string name="hs__issue_archival_message">Sajnáljuk, de ezt a beszélgetést tevékenység hiánya miatt lezártuk.
-        Kérjük, kezdjen új beszélgetést ügynökeinkkel.
-    </string>
+    <string name="hs__issue_archival_message">Sajnáljuk, de ezt a beszélgetést tevékenység hiánya miatt lezártuk. Kérjük, kezdjen új beszélgetést ügynökeinkkel.</string>
     <string name="hs__jump_button_voice_over">Ugrás a legújabb üzenethez</string>
     <string name="hs__jump_button_with_new_message_voice_over">Ugrás Új üzenet</string>
     <string name="hs__landscape_date_input_validation_error">Kérjük, érvényes időpontot adjon meg.</string>
@@ -85,29 +77,22 @@
     <string name="hs__mark_no">Nem</string>
     <string name="hs__mark_yes">Igen</string>
     <string name="hs__mark_yes_no_question">Hasznos volt a válasz?</string>
-    <string name="hs__message_not_sent">Az üzenet nincs elküldve.</string>
     <string name="hs__messages_loading_error_text">Nem sikerült betölteni az üzeneteket</string>
     <string name="hs__messages_loading_text">Üzenetek betöltése...</string>
     <string name="hs__network_error_msg">Hoppá! Valami probléma van</string>
-    <string name="hs__network_error_pre_issue_creation">Hálózati hiba</string>
     <string name="hs__network_reconnecting_error">Valami elromlott. Újracsatlakozás...</string>
     <string name="hs__network_unavailable_msg">A hálózat nem érhető el.</string>
     <string name="hs__new_conversation_btn">Új beszélgetés</string>
-    <string name="hs__new_conversation_footer_generic_reason">Elnézést, valami nem ment jól. Ezt a beszélgetést nem
-        lehet folytatni.
-    </string>
+    <string name="hs__new_conversation_footer_generic_reason">Elnézést, valami nem ment jól. Ezt a beszélgetést nem lehet folytatni.</string>
     <string name="hs__new_conversation_header">Új beszélgetés</string>
     <string name="hs__new_conversation_hint">Miben segíthetünk?</string>
     <string name="hs__no_internet_error">Nincs internetkapcsolat</string>
     <string name="hs__no_internet_error_mgs">Ellenőrizze a hálózati kapcsolatot.</string>
     <string name="hs__no_search_results_message">Hoppá! Nem található eredmény</string>
     <string name="hs__number_input_validation_error">Adjon meg érvényes számot</string>
-    <string name="hs__permission_denied_message">A képernyőfotók eléréséhez és a mellékletek letöltéséhez tárolási
-        engedély szükséges
-    </string>
+    <string name="hs__permission_denied_message">A képernyőfotók eléréséhez és a mellékletek letöltéséhez tárolási engedély szükséges</string>
     <string name="hs__permission_denied_snackbar_action">Beállítások</string>
-    <string name="hs__permission_not_granted">Az alkalmazás nem rendelkezik engedéllyel az Ön fotóinak eléréséhez
-    </string>
+    <string name="hs__permission_not_granted">Az alkalmazás nem rendelkezik engedéllyel az Ön fotóinak eléréséhez</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
     <string name="hs__picker_clear_query_voice_over">Törölje a lekérdezést</string>
     <string name="hs__picker_no_results">Nem található keresési eredmény</string>
@@ -129,9 +114,7 @@
     <string name="hs__review_request_message">Szeretne véleményt írni az alkalmazásról a Google Play oldalán?</string>
     <string name="hs__review_title">Értékelje az alkalmazásunkat</string>
     <string name="hs__screenshot_add">Hozzáadás</string>
-    <string name="hs__screenshot_cloud_attach_error">Hiba a képernyőfotó csatolása során. Kérjük, válasszon egy képet az
-        eszközén.
-    </string>
+    <string name="hs__screenshot_cloud_attach_error">Hiba a képernyőfotó csatolása során. Kérjük, válasszon egy képet az eszközén.</string>
     <string name="hs__screenshot_limit_error">A képernyőfotó maximális mérete %.2f MB</string>
     <string name="hs__screenshot_remove">Eltávolítás</string>
     <string name="hs__screenshot_upload_error_msg">Hiba a képernyőfotó feltöltése során</string>
@@ -145,12 +128,8 @@
     <string name="hs__send_msg_btn">KÜLDÉS</string>
     <string name="hs__sending_fail_msg">A küldés sikereteken</string>
     <string name="hs__sending_msg">Küldés</string>
-    <string name="hs__ssl_handshake_error">A kapcsolata nem biztonságos. Probléma történt a megbízható kapcsolat
-        létrehozása közben.
-    </string>
-    <string name="hs__ssl_peer_unverified_error">A kapcsolata nem biztonságos. Probléma történt a hitelessége
-        ellenőrzése közben.
-    </string>
+    <string name="hs__ssl_handshake_error">A kapcsolata nem biztonságos. Probléma történt a megbízható kapcsolat létrehozása közben.</string>
+    <string name="hs__ssl_peer_unverified_error">A kapcsolata nem biztonságos. Probléma történt a hitelessége ellenőrzése közben.</string>
     <string name="hs__starting_download">Letöltés indítása...</string>
     <string name="hs__submit_conversation_btn">Küldés</string>
     <string name="hs__tap_to_retry">Újrapróbáláshoz érintsd meg</string>

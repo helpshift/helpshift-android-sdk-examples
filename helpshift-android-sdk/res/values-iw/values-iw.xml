@@ -16,12 +16,10 @@
     <string name="hs__attachment_downloading_voice_over">קובץ, %1$s, מוריד %2$s מתוך %3$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">קובץ %1$s, %2$s, להורדה הקש פעמיים</string>
     <string name="hs__authentication_failed">אימות נכשל</string>
-    <string name="hs__ca_msg">נשמח לעזור לך!</string>
     <string name="hs__change_btn">שנה/שני</string>
     <string name="hs__chat_hint">הזן את הודעתך</string>
     <string name="hs__confirmation_footer_msg">תודה על הודעתך!</string>
     <string name="hs__confirmation_msg">האם ענינו על כל השאלות שלך?</string>
-    <string name="hs__connecting">מְקַשֵׁר...</string>
     <string name="hs__contact_us_btn">צרו קשר</string>
     <string name="hs__conversation_detail_error">תאר/י את הבעיה</string>
     <string name="hs__conversation_end_msg">שיחה זו הסתיימה.</string>
@@ -35,7 +33,6 @@
     <string name="hs__conversations_divider_voice_over">השיחה הסתיימה</string>
     <string name="hs__copied_to_clipboard">הועתק ללוח</string>
     <string name="hs__copy">העתק</string>
-    <string name="hs__copy_to_clipboard_tooltip">העתק ללוח</string>
     <string name="hs__could_not_open_attachment_msg">אין אפליקציות שיכולות לבצע פעולה זו</string>
     <string name="hs__could_not_reach_support_msg">לא ניתן ליצור קשר עם התמיכה</string>
     <string name="hs__cr_msg">מה עוד נוכל לעשות למענך?</string>
@@ -52,7 +49,6 @@
     <string name="hs__data_not_found_msg">לא נמצאו נתונים</string>
     <string name="hs__date_input_validation_error">הזן תאריך תקף</string>
     <string name="hs__default_notification_channel_name">תמיכה בתוך היישום</string>
-    <string name="hs__default_notification_content_title">תמיכה</string>
     <string name="hs__description_invalid_length_error">לקבלת סיוע טוב יותר, הזן פרטים נוספים</string>
     <string name="hs__done_btn">סיום</string>
     <string name="hs__email_hint">דוא"ל (אופציונלי)</string>
@@ -81,11 +77,9 @@
     <string name="hs__mark_no">לא</string>
     <string name="hs__mark_yes">כן</string>
     <string name="hs__mark_yes_no_question">האם זה עזר?</string>
-    <string name="hs__message_not_sent">ההודעה לא נשלחה.</string>
     <string name="hs__messages_loading_error_text">לא ניתן לטעון הודעות</string>
     <string name="hs__messages_loading_text">טוען הודעות...</string>
     <string name="hs__network_error_msg">אופס! משהו השתבש</string>
-    <string name="hs__network_error_pre_issue_creation">בעיה ברשת</string>
     <string name="hs__network_reconnecting_error">משהו השתבש. מתחבר מחדש ...</string>
     <string name="hs__network_unavailable_msg">הרשת לא זמינה.</string>
     <string name="hs__new_conversation_btn">שיחה חדשה</string>
