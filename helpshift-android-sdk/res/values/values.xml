@@ -54,8 +54,13 @@
     <dimen name="activity_vertical_margin_large">24dp</dimen>
     <dimen name="activity_vertical_margin_medium">16dp</dimen>
     <dimen name="activity_vertical_margin_small">8dp</dimen>
+    <dimen name="hs__chatBubbleMargin">16dp</dimen>
     <dimen name="hs__conversation_info_container_height">72dp</dimen>
     <dimen name="hs__download_icon_preview_size">36dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingBottom">0dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingLeft">0dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingRight">0dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingTop">0dp</dimen>
     <dimen name="hs__image_attachment_bubble_border_width">4dp</dimen>
     <dimen name="hs__image_attachment_bubble_corner_radius">13dp</dimen>
     <dimen name="hs__image_msg_preview_size">200dp</dimen>

@@ -1,4 +1,4 @@
-Helpshift SDK 7.6.0 Release Notes (for Android)
+Helpshift SDK 7.6.2 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,22 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.6.2 Release Date: September 6, 2019
+      * Updated the rate limiting (https://developers.helpshift.com/android/notifications/#asynchronous-fetch-count) algorithm for getNotificationCount API. The API will allow one call when the user closes the conversation screen. This is to accommodate any custom requirements for showing the notification count in the app.
+      * By default, hardware acceleration is now explicitly enabled in the manifest file for the SDK's ParentActivity. This prevents rendering issues of WebView on Android OS 5.1. If you're using embeddable fragments, refer https://developers.helpshift.com/android/support-tools/#embeddable-fragments-hardware-acceleration.
+      * Fixed an edge case crash which occurred when the user files an issue for the first time and user authentication failed.
+      * Fixed a bug where the prefill text shown in the reply box via conversationPrefillText API config wasn't being updated if changed in conversational issue filing mode.
+      * Fixed an edge case bug where duplicate issues were being created in bad network scenarios.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely when the user replies to a bot.
+      * Fixed a bug where the Answer bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
+7.6.2-withCampaigns Release Date: September 6, 2019
+      * Updated the rate limiting (https://developers.helpshift.com/android/notifications/#asynchronous-fetch-count) algorithm for getNotificationCount API. The API will allow one call when the user closes the conversation screen. This is to accommodate any custom requirements for showing the notification count in the app.
+      * By default, hardware acceleration is now explicitly enabled in the manifest file for the SDK's ParentActivity. This prevents rendering issues of WebView on Android OS 5.1. If you're using embeddable fragments, refer https://developers.helpshift.com/android/support-tools/#embeddable-fragments-hardware-acceleration.
+      * Fixed an edge case crash which occurred when the user files an issue for the first time and user authentication failed.
+      * Fixed a bug where the prefill text shown in the reply box via conversationPrefillText API config wasn't being updated if changed in conversational issue filing mode.
+      * Fixed an edge case bug where duplicate issues were being created in bad network scenarios.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely when the user replies to a bot.
+      * Fixed a bug where the Answer bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
 7.6.0 Release Date: July 30, 2019
       * Added support for targeting Android Q Beta 5 which includes support for the new scoped storage changes (https://developer.android.com/preview/privacy/scoped-storage).
       * Added support for messages and attachment redaction for SDKs. Messages and attachments which are redacted from the Agent dashboard will be removed from user's devices too.

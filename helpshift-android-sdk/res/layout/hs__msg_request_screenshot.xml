@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -10,8 +9,8 @@
         android:id="@+id/agent_screenshot_request_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/hs__chatBubbleMargin"
+        android:layout_marginLeft="@dimen/hs__chatBubbleMargin"
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"
@@ -30,8 +29,8 @@
                 style="@style/Helpshift.Style.BorderlessButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
                 android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="-8dp"
                 android:text="@string/hs__attach_screenshot_btn" />
         </LinearLayout>

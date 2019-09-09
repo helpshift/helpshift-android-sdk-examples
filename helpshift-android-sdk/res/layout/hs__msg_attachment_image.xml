@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
 
     <LinearLayout
         android:id="@+id/admin_image_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginStart="@dimen/hs__chatBubbleMargin"
+        android:layout_marginLeft="@dimen/hs__chatBubbleMargin"
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"

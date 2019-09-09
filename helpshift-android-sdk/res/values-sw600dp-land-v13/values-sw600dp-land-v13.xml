@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hs__fragmentContainerPaddingBottom">16dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingLeft">48dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingRight">48dp</dimen>
+    <dimen name="hs__fragmentContainerPaddingTop">16dp</dimen>
+</resources>

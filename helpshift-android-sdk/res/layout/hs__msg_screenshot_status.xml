@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/user_image_message_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginRight="16dp"
-    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
+    android:layout_marginEnd="@dimen/hs__chatBubbleMargin"
+    android:layout_marginRight="@dimen/hs__chatBubbleMargin">
 
     <FrameLayout
         android:id="@+id/imageview_container"
@@ -41,8 +41,8 @@
     <com.helpshift.views.HSTextView
         android:id="@+id/date"
         style="@style/Helpshift.Style.UserMessageDate"
-        android:layout_alignRight="@id/imageview_container"
         android:layout_below="@id/imageview_container"
+        android:layout_alignRight="@id/imageview_container"
         android:visibility="gone" />
 
     <ImageView

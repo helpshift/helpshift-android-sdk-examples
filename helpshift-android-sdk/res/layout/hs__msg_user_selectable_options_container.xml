@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/options_message_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -14,8 +13,8 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
-        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+        android:layout_marginEnd="@dimen/hs__chatBubbleMargin"
+        android:layout_marginRight="@dimen/hs__chatBubbleMargin"
         android:layout_weight="4"
         android:animateLayoutChanges="true"
         android:gravity="end"
@@ -26,12 +25,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:paddingBottom="6dp"
-            android:paddingEnd="@dimen/hs__msgPreferredItemPaddingRight"
             android:paddingStart="@dimen/hs__msgPreferredItemPaddingLeft"
+            android:paddingEnd="@dimen/hs__msgPreferredItemPaddingRight"
+            android:paddingBottom="6dp"
             android:textColor="?android:attr/textColorSecondary"
             android:textSize="@dimen/hs__textSizeSmall"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/selectable_options_container"
@@ -45,16 +44,16 @@
             android:id="@+id/selectable_option_skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="14dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="2"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:paddingRight="16dp"
-            android:paddingLeft="16dp"
-            android:paddingStart="16dp"
             android:textColor="?attr/hs__selectableOptionColor"
             android:textSize="@dimen/hs__textSizeSmall"
             android:visibility="gone" />
