@@ -12,7 +12,7 @@
         android:layout_width="44dp"
         android:layout_height="44dp"
         android:alpha="0.30"
-        android:background="@drawable/hs__error_icon" />
+        android:src="@drawable/hs__error_icon" />
 
     <com.helpshift.views.HSTextView
         android:id="@+id/authentication_failed_title"

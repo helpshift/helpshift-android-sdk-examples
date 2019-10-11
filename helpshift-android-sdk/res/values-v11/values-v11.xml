@@ -3,7 +3,7 @@
     <style name="HSDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
-        <item name="android:background">?attr/hs__contentSeparatorColor</item>
+        <item name="android:background">?attr/hs__separatorColor</item>
     </style>
     <style name="Helpshift"/>
     <style name="Helpshift.Style"/>

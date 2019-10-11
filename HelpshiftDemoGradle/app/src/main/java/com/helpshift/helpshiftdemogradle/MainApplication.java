@@ -5,6 +5,7 @@ import android.widget.Toast;
 
 import com.helpshift.Core;
 import com.helpshift.HelpshiftUser;
+import android.net.Uri;
 import com.helpshift.delegate.AuthenticationFailureReason;
 import com.helpshift.support.Log;
 import com.helpshift.support.Support;
@@ -77,6 +78,11 @@ public class MainApplication extends Application implements Support.Delegate {
     Log.d(TAG, "no apps can open this file " + attachmentFile.getAbsolutePath());
   }
 
+  @Override
+  public void displayAttachmentFile(Uri attachmentUri) {
+    Log.d(TAG, "no apps can open this file " + attachmentUri.toString());
+  }
+        
   @Override
   public void didReceiveNotification(int newMessagesCount) {
     Log.d(TAG, "new messages count : " + newMessagesCount);

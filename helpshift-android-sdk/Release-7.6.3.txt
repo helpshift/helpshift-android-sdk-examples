@@ -1,4 +1,4 @@
-Helpshift SDK 7.6.2 Release Notes (for Android)
+Helpshift SDK 7.6.3 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,28 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.6.3 Release Date: October 10, 2019
+      * Added new themes to support Dark Mode (https://developers.helpshift.com/android/design/#dark-mode-support).
+      * Added new API (https://developers.helpshift.com/android/design/#change-theme-runtime) for changing the Helpshift SDK theme at runtime..
+      * Added support for embedding SDK fragments inside a host fragment.
+      * Added support for customizing some existing icons in the SDK. To view the updated list of customizable icons, refer here. (https://developers.helpshift.com/android/design/#styleable-attributes).
+      * Added a new delegate callback displayAttachmentFile(Uri) (https://developers.helpshift.com/android/delegates/#helpshift-delegates-implementation) which will be triggered with a Uri object instead of a File on Android 10 & above.
+      * Added a character limit of 100,000 on user messages.
+      * Fixed a crash which occurred when a user opens the chat screen containing an attachment message and hardware acceleration was explicitly disabled in the app.
+      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through Answer Bot for some languages.
+      * Fixed a bug where the keyboard input type remains the same when a number/date input bot-message was interrupted by an agent.
+      * Fixed a bug where the SDK UI was being displayed in the cutout area on some android phones with a notch.
+7.6.3-withCampaigns Release Date: October 10, 2019
+      * Added new themes to support Dark Mode (https://developers.helpshift.com/android/design/#dark-mode-support).
+      * Added new API (https://developers.helpshift.com/android/design/#change-theme-runtime) for changing the Helpshift SDK theme at runtime..
+      * Added support for embedding SDK fragments inside a host fragment.
+      * Added support for customizing some existing icons in the SDK. To view the updated list of customizable icons, refer here. (https://developers.helpshift.com/android/design/#styleable-attributes).
+      * Added a new delegate callback displayAttachmentFile(Uri) (https://developers.helpshift.com/android/delegates/#helpshift-delegates-implementation) which will be triggered with a Uri object instead of a File on Android 10 & above.
+      * Added a character limit of 100,000 on user messages.
+      * Fixed a crash which occurred when a user opens the chat screen containing an attachment message and hardware acceleration was explicitly disabled in the app.
+      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through Answer Bot for some languages.
+      * Fixed a bug where the keyboard input type remains the same when a number/date input bot-message was interrupted by an agent.
+      * Fixed a bug where the SDK UI was being displayed in the cutout area on some android phones with a notch.
 7.6.2 Release Date: September 6, 2019
       * Updated the rate limiting (https://developers.helpshift.com/android/notifications/#asynchronous-fetch-count) algorithm for getNotificationCount API. The API will allow one call when the user closes the conversation screen. This is to accommodate any custom requirements for showing the notification count in the app.
       * By default, hardware acceleration is now explicitly enabled in the manifest file for the SDK's ParentActivity. This prevents rendering issues of WebView on Android OS 5.1. If you're using embeddable fragments, refer https://developers.helpshift.com/android/support-tools/#embeddable-fragments-hardware-acceleration.

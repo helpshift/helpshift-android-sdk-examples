@@ -4,4 +4,5 @@
     android:id="@android:id/text1"
     style="?attr/hs__faqsListItemStyle"
     android:background="?android:attr/selectableItemBackground"
+    android:textColor="?android:textColorPrimary"
 />
