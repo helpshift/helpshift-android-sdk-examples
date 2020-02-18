@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/hs__smart_intent_container_layout"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <View
+        android:id="@+id/hs__si_background_dim_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/hs__si_scrollable_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:paddingBottom="@dimen/hs__smart_intent_reply_box_min_height"
+        android:background="?attr/hs__composeBackgroundColor"
+        app:layout_behavior="com.helpshift.support.conversations.smartintent.SmartIntentBottomSheetBehavior"
+        tools:background="@android:color/white">
+
+        <FrameLayout
+            android:id="@+id/hs__si_header_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hs__smart_intent_header_height">
+
+            <RelativeLayout
+                android:id="@+id/hs__si_header_expanded_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:visibility="visible">
+
+                <FrameLayout
+                    android:id="@+id/hs__si_header_action_button_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/hs__si_header_collapse_button"
+                        android:layout_width="@dimen/hs__smart_intent_icon_size"
+                        android:layout_height="@dimen/hs__smart_intent_icon_size"
+                        android:padding="@dimen/hs__smart_intent_icon_padding"
+                        android:scaleType="center"
+                        android:src="@drawable/hs__collapse"
+                        android:background="?attr/selectableItemBackground" />
+
+                    <ImageView
+                        android:id="@+id/hs__si_header_cross_button"
+                        android:layout_width="@dimen/hs__smart_intent_icon_size"
+                        android:layout_height="@dimen/hs__smart_intent_icon_size"
+                        android:padding="@dimen/hs__smart_intent_icon_padding"
+                        android:scaleType="center"
+                        android:src="@drawable/hs__close"
+                        android:contentDescription="@string/hs__picker_search_edit_back_btn_voice_over"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <com.helpshift.views.HSTextView
+                    android:id="@+id/hs__si_header_expanded_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+                    android:layout_toRightOf="@+id/hs__si_header_action_button_container"
+                    android:layout_toEndOf="@+id/hs__si_header_action_button_container"
+                    android:layout_alignParentTop="true"
+                    android:layout_above="@+id/hs__si_header_expanded_shadow"
+                    style="@style/Helpshift.Style.SmartIntentText"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    tools:text="@tools:sample/lorem"
+                    tools:textColor="@android:color/black" />
+
+                <View
+                    android:id="@+id/hs__si_header_expanded_shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hs__smart_intent_container_shadow_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/hs__si_header_action_button_container" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/hs__si_header_collapsed_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/hs__si_collapsed_shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hs__smart_intent_container_shadow_height" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/hs__si_header_expand_button"
+                        android:layout_width="@dimen/hs__smart_intent_icon_size"
+                        android:layout_height="@dimen/hs__smart_intent_icon_size"
+                        android:padding="@dimen/hs__smart_intent_icon_padding"
+                        android:scaleType="center"
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@drawable/hs__expand" />
+
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/hs__si_header_collapsed_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+                        style="@style/Helpshift.Style.SmartIntentText"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        tools:text="@tools:sample/lorem"
+                        tools:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hs__si_intents_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/hs__list_item_smart_intent" />
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/hs__si_empty_search_result_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorSecondary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/hs__textSizeSmall"
+                android:layout_margin="@dimen/activity_horizontal_margin_medium"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="Send your message to start\nthe conversation" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reply_footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hs__smart_intent_reply_box_min_height"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="?attr/hs__composeBackgroundColor"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/reply_footer_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/hs__separatorColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.helpshift.views.HSEditText
+                    android:id="@+id/hs__si_edit_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:imeOptions="actionSend"
+                    android:inputType="textMultiLine"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:maxLength="@integer/hs__max_userreply_length"
+                    android:maxLines="@integer/hs__chat_max_lines"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+                    android:textSize="@dimen/hs__textSizeMedium"
+                    tools:hint="Or Type your message"
+                    tools:ignore="RtlSymmetry" />
+
+                <com.helpshift.views.HSTextView
+                    android:id="@+id/hs__si_error_reply_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="?attr/hs__errorTextColor"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+                    android:visibility="gone"
+                    android:textSize="@dimen/hs__textSizeSmall" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/hs__si_send_button_view"
+                android:layout_width="@dimen/hs__smart_intent_icon_size"
+                android:layout_height="@dimen/hs__smart_intent_icon_size"
+                android:layout_gravity="bottom|end"
+                android:contentDescription="@string/hs__send_msg_btn"
+                android:src="?attr/hs__messageSendIcon"
+                android:background="?attr/selectableItemBackground"
+                tools:src="@drawable/hs__send" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

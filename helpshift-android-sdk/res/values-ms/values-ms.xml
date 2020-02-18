@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Mesej daripada sokongan pada %s</string>
     <string name="hs__agent_message_with_name_voice_over">Mesej daripada sokongan oleh %1$s pada %2$s</string>
     <string name="hs__app_review_button">SEMAK SEMULA</string>
+    <string name="hs__attach_file">Melampirkan fail</string>
     <string name="hs__attach_screenshot_btn">Lampirkan Syot Layar</string>
+    <string name="hs__attachment_button_voice_over">Melampirkan fail</string>
     <string name="hs__attachment_downloaded__voice_over">Fail, %s, Dwiketik untuk Buka</string>
     <string name="hs__attachment_downloading_voice_over">Fail, %1$s, Memuat Turun %2$s drp %3$s</string>
+    <string name="hs__attachment_name_voice_over">Fail, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Fail, %1$s, %2$s, Dwiketik untuk Muat Turun</string>
     <string name="hs__authentication_failed">Pengesahan gagal</string>
     <string name="hs__change_btn">Tukar</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Masukkan tarikh yang sah</string>
     <string name="hs__default_notification_channel_name">Sokongan dalam apl</string>
     <string name="hs__description_invalid_length_error">Untuk bantuan yang lebih baik, sila berikan butiran lanjut</string>
+    <string name="hs__documents">Dokumen</string>
     <string name="hs__done_btn">Selesai</string>
     <string name="hs__email_hint">E-mel (pilihan)</string>
     <string name="hs__email_input_validation_error">Masukkan alamat e-mel yang sah</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Hantar Maklum Balas</string>
     <string name="hs__fetching_faqs_message">Mendapatkan jawapan anda…</string>
     <string name="hs__file_not_found_msg">Fail tidak ditemui</string>
+    <string name="hs__file_type">%1$s Fail</string>
+    <string name="hs__file_type_unsupported">Jenis fail tidak disokong</string>
     <string name="hs__help_header">Bantuan</string>
     <string name="hs__image_downloaded_voice_over">Imej, Dwiketik untuk Lihat</string>
     <string name="hs__image_downloading_voice_over">Imej, Memuat Turun, %1$s drp %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Tetapan</string>
     <string name="hs__permission_not_granted">Aplikasi tidak mempunyai keizinan untuk mengakses foto anda</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Foto</string>
     <string name="hs__picker_clear_query_voice_over">Kosongkan Pertanyaan</string>
     <string name="hs__picker_no_results">Tiada hasil ditemui</string>
     <string name="hs__picker_option_list_item_voice_over">Hantar, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Kembali</string>
     <string name="hs__picker_search_hint">Cari</string>
     <string name="hs__picker_search_icon_voice_over">Cari senarai</string>
+    <string name="hs__preview_header">Pratonton</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Anda mendapati ia membantu</string>
     <string name="hs__question_unhelpful_message">Anda tidak mendapatinya membantu</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Sudikah anda mengulas tentang Apl pada Google Play?</string>
     <string name="hs__review_title">Nilaikan Apl kami</string>
     <string name="hs__screenshot_add">Tambah</string>
-    <string name="hs__screenshot_cloud_attach_error">Ralat semasa melampirkan syot layar. Sila pilih imej pada peranti anda.</string>
-    <string name="hs__screenshot_limit_error">Saiz syot layar tidak sepatutnya melebihi %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Ralat melampirkan fail. Sila pilih fail yang tersedia secara tempatan pada peranti.</string>
+    <string name="hs__screenshot_limit_error">Saiz fail tidak boleh melebihi %.2f MB</string>
     <string name="hs__screenshot_remove">Buang</string>
-    <string name="hs__screenshot_upload_error_msg">Ralat semasa memuat naik syot layar</string>
+    <string name="hs__screenshot_upload_error_msg">Ralat memuat naik fail</string>
     <string name="hs__search_footer">Tidak temui apa yang anda cari?</string>
     <string name="hs__search_hint">Huraikan masalah anda</string>
     <string name="hs__search_result_message">Soalan yang mungkin sudah ada jawapan anda</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">HANTAR</string>
     <string name="hs__sending_fail_msg">Gagal menghantar</string>
     <string name="hs__sending_msg">Menghantar</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Semak imbas, %1$s</string>
     <string name="hs__ssl_handshake_error">Sambungan anda tidak selamat. Terdapat masalah dalam mewujudkan sambungan yang boleh dipercayai</string>
     <string name="hs__ssl_peer_unverified_error">Sambungan anda tidak selamat. Terdapat masalah dalam mengesahkan kesahihannya</string>
     <string name="hs__starting_download">Memulakan muat turun…</string>
     <string name="hs__submit_conversation_btn">Serah</string>
     <string name="hs__tap_to_retry">Ketik untuk cuba semula</string>
     <string name="hs__try_again_msg">Sila cuba sebentar lagi</string>
+    <string name="hs__user_attachment_rejected_voice_over">Jawapan anda, jenis fail tidak disokong</string>
     <string name="hs__user_failed_message_voice_over">Jawapan Anda, Gagal menghantar</string>
     <string name="hs__user_sending_message_voice_over">Jawapan Anda, Menghantar</string>
     <string name="hs__user_sent_message_voice_over">Jawapan Anda pada %s</string>
     <string name="hs__user_setup_retry_description">Kami masih berusaha mencapai sokongan. Sila tunggu.</string>
     <string name="hs__username_blank_error">Sila masukkan nama yang sah</string>
     <string name="hs__username_hint">Nama Anda</string>
+    <string name="hs__video">Video</string>
 </resources>

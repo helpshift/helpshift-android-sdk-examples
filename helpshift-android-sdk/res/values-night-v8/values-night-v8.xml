@@ -51,6 +51,9 @@
     <color name="hs__expandedPickerIconColor_DarkActionBar">#B3FFFFFF</color>
     <color name="hs__expandedPickerIconColor_HighContrast">#B3FFFFFF</color>
     <color name="hs__expandedPickerIconColor_Light">#B3FFFFFF</color>
+    <color name="hs__hs__attachmentPickerIconColor_DarkActionBar">#B3B3B3</color>
+    <color name="hs__hs__attachmentPickerIconColor_HighContrast">#B3B3B3</color>
+    <color name="hs__hs__attachmentPickerIconColor_Light">#B3B3B3</color>
     <color name="hs__inboxIconBackgroundColor_DarkActionBar">#FF929495</color>
     <color name="hs__inboxIconBackgroundColor_HighContrast">#FF929495</color>
     <color name="hs__inboxIconBackgroundColor_Light">#FF929495</color>

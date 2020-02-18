@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="?attr/hs__tabletConversationContainerBackgroundColor"
-    android:orientation="horizontal">
+    android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/hs__fragmentContainerPaddingLeft"
-        android:layout_marginLeft="@dimen/hs__fragmentContainerPaddingLeft"
-        android:layout_marginTop="@dimen/hs__fragmentContainerPaddingTop"
-        android:layout_marginEnd="@dimen/hs__fragmentContainerPaddingRight"
-        android:layout_marginRight="@dimen/hs__fragmentContainerPaddingRight"
-        android:layout_marginBottom="@dimen/hs__fragmentContainerPaddingBottom"
-        android:background="?android:windowBackground">
-
-        <include layout="@layout/hs__new_conversation_layout" />
-
-    </android.support.v7.widget.CardView>
-
-</LinearLayout>
+    <!-- TODO-Manoj: Remove this container layout if not special UX handling required on tablet-->
+    <include layout="@layout/hs__new_conversation_layout" />
+</FrameLayout>

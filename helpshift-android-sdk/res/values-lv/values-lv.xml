@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Atbalsta dienesta ziņa, datēta ar %s</string>
     <string name="hs__agent_message_with_name_voice_over">Atbalsta dienesta ziņa no %1$s, datēta ar %2$s</string>
     <string name="hs__app_review_button">NOVĒRTĒT</string>
+    <string name="hs__attach_file">Pievienot failu</string>
     <string name="hs__attach_screenshot_btn">Pievienot ekrānuzņēmumu</string>
+    <string name="hs__attachment_button_voice_over">Pievienot failu</string>
     <string name="hs__attachment_downloaded__voice_over">Datne, %s, Divreiz uzklikšķiniet, lai atvērtu</string>
     <string name="hs__attachment_downloading_voice_over">Datne, %1$s, Lejupielādē %2$s no %3$s</string>
+    <string name="hs__attachment_name_voice_over">Fails, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Datne, %1$s, %2$s, Divreiz uzklikšķiniet, lai lejupielādētu</string>
     <string name="hs__authentication_failed">Autentifikācija neizdevās</string>
     <string name="hs__change_btn">Mainīt</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Ievadiet pareizu datumu</string>
     <string name="hs__default_notification_channel_name">Atbalsts lietotnē</string>
     <string name="hs__description_invalid_length_error">Pilnvērtīgākas palīdzības saņemšanai, lūdzu, sniedziet vairāk ziņu</string>
+    <string name="hs__documents">Dokumenti</string>
     <string name="hs__done_btn">Darīts</string>
     <string name="hs__email_hint">E-pasts (izvēles papildiespēja)</string>
     <string name="hs__email_input_validation_error">ievadiet derīgu epasta adresi</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Nosūtiet atsauksmi</string>
     <string name="hs__fetching_faqs_message">Saņem Jūsu atbildes…</string>
     <string name="hs__file_not_found_msg">Datne nav atrasta</string>
+    <string name="hs__file_type">%1$s fails</string>
+    <string name="hs__file_type_unsupported">Kļūda, faila tips nav atbalstīts</string>
     <string name="hs__help_header">Palīdzība</string>
     <string name="hs__image_downloaded_voice_over">Attēls, Divreiz uzklikšķiniet, lai apskatītu</string>
     <string name="hs__image_downloading_voice_over">Attēls, Notiek lejupielāde, %1$s no %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Iestatījumi</string>
     <string name="hs__permission_not_granted">Lietotnei nav atļaujas piekļūt Jūsu attēliem</string>
     <string name="hs__permission_rationale_snackbar_action_label">LABI</string>
+    <string name="hs__photo">Fotogrāfijas</string>
     <string name="hs__picker_clear_query_voice_over">Notīrīt vaicājumu</string>
     <string name="hs__picker_no_results">Rezultāti nav atrasti</string>
     <string name="hs__picker_option_list_item_voice_over">Sūtīt, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Atpakaļ</string>
     <string name="hs__picker_search_hint">Meklēt</string>
     <string name="hs__picker_search_icon_voice_over">Meklēšanas saraksts</string>
+    <string name="hs__preview_header">Priekšskatījums</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Palīdzēja</string>
     <string name="hs__question_unhelpful_message">Šī sadaļa Jums nebija noderīga</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Vai vēlaties lietotni novērtēt Google Play?</string>
     <string name="hs__review_title">Novērtējiet mūsu lietojumprogrammu</string>
     <string name="hs__screenshot_add">Pievienot</string>
-    <string name="hs__screenshot_cloud_attach_error">Pievienojot ekrānuzņēmumu, radusies kļūda. Lūdzu, izvēlieties attēlu savā ierīcē.</string>
-    <string name="hs__screenshot_limit_error">Ekrānuzņēmuma izmērs nedrīkst pārsniegt %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Kļūda, pievienojot failu. Lūdzu, izvēlieties failu, kas ir pieejams ierīcē.</string>
+    <string name="hs__screenshot_limit_error">Faila lielums nedrīkst pārsniegt %.2f MB</string>
     <string name="hs__screenshot_remove">Noņemt</string>
-    <string name="hs__screenshot_upload_error_msg">Augšupielādējot ekrānuzņēmumu, radusies kļūda.</string>
+    <string name="hs__screenshot_upload_error_msg">Augšupielādējot failu, radās kļūda</string>
     <string name="hs__search_footer">Nevarat atrast, ko meklējat?</string>
     <string name="hs__search_hint">Aprakstiet problēmu</string>
     <string name="hs__search_result_message">Atbildes, kas varētu sniegt risinājumu Jūsu jautājumiem</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">NOSŪTĪT</string>
     <string name="hs__sending_fail_msg">Neizdevās nosūtīt</string>
     <string name="hs__sending_msg">Sūta</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Pārlūkot, %1$s</string>
     <string name="hs__ssl_handshake_error">Jūsu savienojums nav drošs. Radās kļūme, mēģinot izveidot drošu savienojumu.</string>
     <string name="hs__ssl_peer_unverified_error">Jūsu savienojums nav drošs. Radās kļūme, pārbaudot tā autentiskumu.</string>
     <string name="hs__starting_download">Sāk lejupielādi…</string>
     <string name="hs__submit_conversation_btn">Nosūtīt</string>
     <string name="hs__tap_to_retry">Pieskarieties, lai mēģinātu vēlreiz</string>
     <string name="hs__try_again_msg">Lūdzu, pamēģiniet vēlreiz vēlāk</string>
+    <string name="hs__user_attachment_rejected_voice_over">Jūsu atbilde, faila tips netiek atbalstīts</string>
     <string name="hs__user_failed_message_voice_over">Jūsu atbilde, Neizdevās nosūtīt</string>
     <string name="hs__user_sending_message_voice_over">Jūsu atbilde, Sūta</string>
     <string name="hs__user_sent_message_voice_over">Jūsu atbilde, datēta ar %s</string>
     <string name="hs__user_setup_retry_description">Mēs joprojām cenšamies sasniegt atbalstu. Lūdzu uzgaidiet.</string>
     <string name="hs__username_blank_error">Lūdzu, ievadiet derīgu vārdu</string>
     <string name="hs__username_hint">Jūsu vārds</string>
+    <string name="hs__video">Video</string>
 </resources>

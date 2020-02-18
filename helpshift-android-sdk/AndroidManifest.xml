@@ -13,7 +13,7 @@
     <application>
         <provider
             android:name="com.helpshift.support.providers.HelpshiftFileProvider"
-            android:authorities="com.example.helpshiftdemo.helpshift.fileprovider"
+            android:authorities="${applicationId}.helpshift.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

@@ -50,6 +50,7 @@
     <color name="hs__color_402196F3">#402196F3</color>
     <color name="hs__color_42000000">#42000000</color>
     <color name="hs__color_696969">#696969</color>
+    <color name="hs__color_757575">#757575</color>
     <color name="hs__color_7A7A7A">#7A7A7A</color>
     <color name="hs__color_80B1B1B1">#80B1B1B1</color>
     <color name="hs__color_80FFFFFF">#80FFFFFF</color>
@@ -98,6 +99,9 @@
     <color name="hs__expandedPickerIconColor_DarkActionBar">#8C000000</color>
     <color name="hs__expandedPickerIconColor_HighContrast">#8C000000</color>
     <color name="hs__expandedPickerIconColor_Light">#8C000000</color>
+    <color name="hs__hs__attachmentPickerIconColor_DarkActionBar">#757575</color>
+    <color name="hs__hs__attachmentPickerIconColor_HighContrast">#757575</color>
+    <color name="hs__hs__attachmentPickerIconColor_Light">#757575</color>
     <color name="hs__inboxIconBackgroundColor_DarkActionBar">#FF929495</color>
     <color name="hs__inboxIconBackgroundColor_HighContrast">#FF929495</color>
     <color name="hs__inboxIconBackgroundColor_Light">#FF929495</color>
@@ -158,7 +162,10 @@
     <dimen name="activity_vertical_margin_small">8dp</dimen>
     <dimen name="hs__chatBubbleMargin">16dp</dimen>
     <dimen name="hs__conversation_info_container_height">72dp</dimen>
+    <dimen name="hs__dimen_24">24dp</dimen>
+    <dimen name="hs__dimen_40">40dp</dimen>
     <dimen name="hs__download_icon_preview_size">36dp</dimen>
+    <dimen name="hs__file_option_picker_pop_up_width">280dp</dimen>
     <dimen name="hs__fragmentContainerPaddingBottom">0dp</dimen>
     <dimen name="hs__fragmentContainerPaddingLeft">0dp</dimen>
     <dimen name="hs__fragmentContainerPaddingRight">0dp</dimen>
@@ -166,6 +173,7 @@
     <dimen name="hs__image_attachment_bubble_border_width">4dp</dimen>
     <dimen name="hs__image_attachment_bubble_corner_radius">13dp</dimen>
     <dimen name="hs__image_msg_preview_size">200dp</dimen>
+    <dimen name="hs__layout_elevation">8dp</dimen>
     <dimen name="hs__listPreferredItemHeightSmall">48dp</dimen>
     <dimen name="hs__listPreferredItemPaddingBottom">8dp</dimen>
     <dimen name="hs__listPreferredItemPaddingLeft">6dip</dimen>
@@ -183,6 +191,11 @@
     <dimen name="hs__picker_icon_padding">24dp</dimen>
     <dimen name="hs__picker_top_shadow_height">4dp</dimen>
     <item format="float" name="hs__screen_to_conversation_view_ratio" type="dimen">1.0</item>
+    <dimen name="hs__smart_intent_container_shadow_height">4dp</dimen>
+    <dimen name="hs__smart_intent_header_height">56dp</dimen>
+    <dimen name="hs__smart_intent_icon_padding">24dp</dimen>
+    <dimen name="hs__smart_intent_icon_size">48dp</dimen>
+    <dimen name="hs__smart_intent_reply_box_min_height">56dp</dimen>
     <dimen name="hs__textSizeExtraSmall">12sp</dimen>
     <dimen name="hs__textSizeLarge">18sp</dimen>
     <dimen name="hs__textSizeMedium">16sp</dimen>
@@ -209,9 +222,12 @@
     <string name="hs__agent_message_voice_over">Message from support on %1$s</string>
     <string name="hs__agent_message_with_name_voice_over">Message from support by %1$s on %2$s</string>
     <string name="hs__app_review_button">REVIEW</string>
+    <string name="hs__attach_file">Attach File</string>
     <string name="hs__attach_screenshot_btn">Attach Screenshot</string>
+    <string name="hs__attachment_button_voice_over">Attach file</string>
     <string name="hs__attachment_downloaded__voice_over">File, %1$s, Double Tap to Open</string>
     <string name="hs__attachment_downloading_voice_over">File, %1$s, Downloading %2$s of %3$s</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">File, %1$s, %2$s, Double Tap to Download</string>
     <string name="hs__authentication_failed">Authentication Failed</string>
     <string name="hs__change_btn">Change</string>
@@ -249,6 +265,7 @@
     <string name="hs__default_notification_channel_desc" translatable="false"/>
     <string name="hs__default_notification_channel_name">In-app Support</string>
     <string name="hs__description_invalid_length_error">Please describe further so that we can help better</string>
+    <string name="hs__documents">Documents</string>
     <string name="hs__done_btn">Done</string>
     <string name="hs__email_hint">Email (optional)</string>
     <string name="hs__email_input_validation_error">Enter a valid email address</string>
@@ -258,6 +275,8 @@
     <string name="hs__feedback_button">Send Feedback</string>
     <string name="hs__fetching_faqs_message">Getting your answers…</string>
     <string name="hs__file_not_found_msg">File not found</string>
+    <string name="hs__file_type">%1$s File</string>
+    <string name="hs__file_type_unsupported">File type is not supported</string>
     <string name="hs__help_header">Help</string>
     <string name="hs__image_downloaded_voice_over">Image, Double Tap to View</string>
     <string name="hs__image_downloading_voice_over">Image, Downloading, %1$s of %2$s</string>
@@ -293,6 +312,7 @@
     <string name="hs__permission_denied_snackbar_action">Settings</string>
     <string name="hs__permission_not_granted">Application does not have permission to access your photos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Photos</string>
     <string name="hs__picker_clear_query_voice_over">Clear Query</string>
     <string name="hs__picker_no_results">No results found</string>
     <string name="hs__picker_option_list_item_voice_over">Send, %1$s</string>
@@ -301,6 +321,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Back</string>
     <string name="hs__picker_search_hint">Search</string>
     <string name="hs__picker_search_icon_voice_over">Search list</string>
+    <string name="hs__preview_header">Preview</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">You found this helpful</string>
     <string name="hs__question_unhelpful_message">You didn\'t find this helpful</string>
@@ -313,10 +334,10 @@
     <string name="hs__review_request_message">Would you like to review the App on Play Store?</string>
     <string name="hs__review_title">Rate Our App</string>
     <string name="hs__screenshot_add">Add</string>
-    <string name="hs__screenshot_cloud_attach_error">Error attaching screenshot. Please choose an image available locally on the device.</string>
-    <string name="hs__screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Error attaching file. Please choose a file available locally on the device.</string>
+    <string name="hs__screenshot_limit_error">File size should not exceed %.2f MB</string>
     <string name="hs__screenshot_remove">Remove</string>
-    <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
+    <string name="hs__screenshot_upload_error_msg">Error uploading file</string>
     <string name="hs__search_footer">Can\'t find what you were looking for?</string>
     <string name="hs__search_hint">Describe your problem</string>
     <string name="hs__search_result_message">Questions that may already have your answer</string>
@@ -327,18 +348,21 @@
     <string name="hs__send_msg_btn">Send</string>
     <string name="hs__sending_fail_msg">Failed to send</string>
     <string name="hs__sending_msg">Sending</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Browse, %1$s</string>
     <string name="hs__ssl_handshake_error">Your connection is not secure. There was a problem in establishing a trusted connection</string>
     <string name="hs__ssl_peer_unverified_error">Your connection is not secure. There was a problem in verifying its authenticity</string>
     <string name="hs__starting_download">Starting download…</string>
     <string name="hs__submit_conversation_btn">Submit</string>
     <string name="hs__tap_to_retry">Tap to retry.</string>
     <string name="hs__try_again_msg">Please try again later</string>
+    <string name="hs__user_attachment_rejected_voice_over">Your reply, file type is not supported</string>
     <string name="hs__user_failed_message_voice_over">Your Reply, Failed to send</string>
     <string name="hs__user_sending_message_voice_over">Your Reply, Sending</string>
     <string name="hs__user_sent_message_voice_over">Your Reply on %1$s</string>
     <string name="hs__user_setup_retry_description">We are still trying to reach support.\nPlease wait.</string>
     <string name="hs__username_blank_error">Please enter a valid name</string>
     <string name="hs__username_hint">Your Name</string>
+    <string name="hs__video">Videos</string>
     <style name="HSDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
@@ -346,9 +370,6 @@
     </style>
     <style name="Helpshift"/>
     <style name="Helpshift.Style"/>
-    <style name="Helpshift.Style.AdminAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
-        <item name="hs__roundedTopLeft">false</item>
-    </style>
     <style name="Helpshift.Style.AdminMessageDate">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -438,6 +459,13 @@
         <item name="tabTextColor">?attr/hs__tabTextColor</item>
         <item name="tabSelectedTextColor">?attr/hs__tabSelectedTextColor</item>
     </style>
+    <style name="Helpshift.Style.SmartIntentText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/hs__textSizeMedium</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
     <style name="Helpshift.Style.TextInputLayout.Error" parent="@android:style/TextAppearance">
         <item name="android:textColor">?attr/hs__errorTextColor</item>
         <item name="android:textSize">12sp</item>
@@ -451,9 +479,6 @@
         <item name="android:background">?colorPrimary</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
         <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
-    </style>
-    <style name="Helpshift.Style.UserAttachmentBubble" parent="Helpshift.Style.AttachmentBubble">
-        <item name="hs__roundedBottomRight">false</item>
     </style>
     <style name="Helpshift.Style.UserMessageDate">
         <item name="android:layout_width">wrap_content</item>
@@ -551,7 +576,7 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
-
+        <item name="hs__attachmentPickerIconColor">@color/hs__color_757575</item>
         <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -562,6 +587,7 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__color_B3FFFFFF</item>
@@ -624,7 +650,9 @@
         <item name="hs__typingIndicatorColor">@color/hs__typingIndicatorColor_DarkActionBar</item>
         <item name="hs__selectableOptionColor">@color/hs__selectableOptionColor_DarkActionBar</item>
         <item name="hs__reply_button_disabled_alpha">64</item>
-        <item name="hs__adminFaqSuggestionArrowColor">@color/hs__adminFaqSuggestionArrowColor_DarkActionBar</item>
+        <item name="hs__adminFaqSuggestionArrowColor">
+            @color/hs__adminFaqSuggestionArrowColor_DarkActionBar
+        </item>
 
         <!--New Conversation Screen-->
         <item name="hs__attachmentBackgroundColor">
@@ -666,6 +694,9 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">
+            @color/hs__hs__attachmentPickerIconColor_DarkActionBar
+        </item>
         <item name="hs__contentSeparatorColor">@color/hs__contentSeparatorColor_DarkActionBar</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -676,6 +707,7 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__textColorSecondary_DarkActionBar</item>
@@ -745,7 +777,9 @@
         <item name="hs__typingIndicatorColor">@color/hs__typingIndicatorColor_HighContrast</item>
         <item name="hs__selectableOptionColor">@color/hs__selectableOptionColor_HighContrast</item>
         <item name="hs__reply_button_disabled_alpha">64</item>
-        <item name="hs__adminFaqSuggestionArrowColor">@color/hs__adminFaqSuggestionArrowColor_HighContrast</item>
+        <item name="hs__adminFaqSuggestionArrowColor">
+            @color/hs__adminFaqSuggestionArrowColor_HighContrast
+        </item>
 
         <!--New Conversation Screen-->
         <item name="hs__attachmentBackgroundColor">
@@ -786,6 +820,9 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">
+            @color/hs__hs__attachmentPickerIconColor_HighContrast
+        </item>
         <item name="hs__contentSeparatorColor">@color/hs__contentSeparatorColor_HighContrast</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -796,12 +833,14 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__textColorSecondary_HighContrast</item>
         <item name="hs__inboxTitleUnreadTextColor">@color/hs__textColorPrimary_HighContrast</item>
         <item name="hs__inboxTimeStampTextColor">@color/hs__textColorSecondary_HighContrast</item>
-        <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__inboxTimeStampUnreadTextColor_HighContrast
+        <item name="hs__inboxTimeStampUnreadTextColor">
+            @color/hs__inboxTimeStampUnreadTextColor_HighContrast
         </item>
         <item name="hs__inboxBodyTextColor">@color/hs__textColorSecondary_HighContrast</item>
         <item name="hs__inboxSwipeToDeleteBackgroundColor">
@@ -857,7 +896,9 @@
         <item name="hs__typingIndicatorColor">@color/hs__typingIndicatorColor_Light</item>
         <item name="hs__selectableOptionColor">@color/hs__selectableOptionColor_Light</item>
         <item name="hs__reply_button_disabled_alpha">64</item>
-        <item name="hs__adminFaqSuggestionArrowColor">@color/hs__adminFaqSuggestionArrowColor_Light</item>
+        <item name="hs__adminFaqSuggestionArrowColor">
+            @color/hs__adminFaqSuggestionArrowColor_Light
+        </item>
 
         <!--New Conversation Screen-->
         <item name="hs__attachmentBackgroundColor">@color/hs__attachmentBackgroundColor_Light</item>
@@ -893,6 +934,9 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">
+            @color/hs__hs__attachmentPickerIconColor_Light
+        </item>
         <item name="hs__contentSeparatorColor">@color/hs__contentSeparatorColor_Light</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -903,12 +947,15 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__textColorSecondary_Light</item>
         <item name="hs__inboxTitleUnreadTextColor">@color/hs__textColorPrimary_Light</item>
         <item name="hs__inboxTimeStampTextColor">@color/hs__textColorSecondary_Light</item>
-        <item name="hs__inboxTimeStampUnreadTextColor">@color/hs__inboxTimeStampUnreadTextColor_Light</item>
+        <item name="hs__inboxTimeStampUnreadTextColor">
+            @color/hs__inboxTimeStampUnreadTextColor_Light
+        </item>
         <item name="hs__inboxBodyTextColor">@color/hs__textColorSecondary_Light</item>
         <item name="hs__inboxSwipeToDeleteBackgroundColor">
             @color/hs__inboxSwipeToDeleteBackgroundColor_Light
@@ -993,6 +1040,7 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">@color/hs__color_757575</item>
         <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -1003,6 +1051,7 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
@@ -1083,6 +1132,7 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">@color/hs__color_757575</item>
         <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -1093,6 +1143,7 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
@@ -1173,6 +1224,7 @@
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
         </item>
+        <item name="hs__attachmentPickerIconColor">@color/hs__color_757575</item>
         <item name="hs__contentSeparatorColor">@color/hs__color_80B1B1B1</item>
         <item name="hs__searchActionButtonIcon">@drawable/hs__action_search</item>
         <item name="hs__conversationActionButtonIcon">@drawable/hs__report_issue</item>
@@ -1183,6 +1235,7 @@
         </item>
         <item name="hs__faqsListItemStyle">@style/Helpshift.Style.FaqsListItem</item>
         <item name="hs__messageSendIcon">@drawable/hs__send</item>
+        <item name="hs__addAttachmentIcon">@drawable/hs__plus_icon</item>
 
         <!-- Inbox -->
         <item name="hs__inboxTitleTextColor">@color/hs__color_8A000000</item>
@@ -1197,15 +1250,9 @@
     </style>
     <declare-styleable name="HSRoundedImageView">
         <attr format="dimension" name="hs__cornerRadius"/>
-        <attr format="boolean" name="hs__roundedTopLeft"/>
-        <attr format="boolean" name="hs__roundedTopRight"/>
-        <attr format="boolean" name="hs__roundedBottomLeft"/>
-        <attr format="boolean" name="hs__roundedBottomRight"/>
-        <attr format="reference" name="hs__placeholder"/>
         <attr format="dimension" name="hs__borderWidth"/>
         <attr format="color" name="hs__borderColor"/>
         <attr format="color" name="hs__backgroundColor"/>
-
     </declare-styleable>
     <declare-styleable name="HSTypingIndicatorView">
         <attr format="color" name="hs__dotColor"/>
@@ -1251,6 +1298,7 @@
         <attr format="color" name="hs__tabSelectedTextColor"/>
         <attr format="color" name="hs__expandedPickerIconColor"/>
         <attr format="color" name="hs__collapsedPickerIconColor"/>
+        <attr format="color" name="hs__attachmentPickerIconColor"/>
 
         <!--Inbox-->
         <attr format="color" name="hs__inboxTitleTextColor"/>
@@ -1271,6 +1319,7 @@
         <attr format="reference" name="hs__startConversationActionButtonIcon"/>
         <attr format="reference" name="hs__searchOnNewConversationDoneActionButtonIcon"/>
         <attr format="reference" name="hs__messageSendIcon"/>
+        <attr format="reference" name="hs__addAttachmentIcon"/>
 
         <!--Styles-->
         <attr format="reference" name="hs__faqsPagerTabStripStyle"/>

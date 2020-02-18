@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Μήνυμα από την υποστήριξη στις %s</string>
     <string name="hs__agent_message_with_name_voice_over">Μήνυμα από την υποστήριξη από %1$s στις %2$s</string>
     <string name="hs__app_review_button">ΚΡΙΤΙΚΗ</string>
+    <string name="hs__attach_file">Επισυνάψετε το αρχείο</string>
     <string name="hs__attach_screenshot_btn">Επισύναψη στιγμιότυπου οθόνης</string>
+    <string name="hs__attachment_button_voice_over">Επισυνάψετε το αρχείο</string>
     <string name="hs__attachment_downloaded__voice_over">Αρχείο, %s, Διπλό πάτημα για άνοιγμα</string>
     <string name="hs__attachment_downloading_voice_over">Αρχείο, %1$s, Λήψη %2$s από %3$s</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Αρχείο %1$s, %2$s, Διπλό πάτημα για λήψη</string>
     <string name="hs__authentication_failed">Η ταυτοποίηση απέτυχε</string>
     <string name="hs__change_btn">Αλλαγή</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Εισαγάγετε μια έγκυρη ημερομηνία</string>
     <string name="hs__default_notification_channel_name">Υποστήριξη εντός εφαρμογής</string>
     <string name="hs__description_invalid_length_error">Για καλύτερη εξυπηρέτηση, δώστε μας περισσότερες λεπτομέρειες</string>
+    <string name="hs__documents">Εγγραφα</string>
     <string name="hs__done_btn">Τέλος</string>
     <string name="hs__email_hint">Email (προαιρετικά)</string>
     <string name="hs__email_input_validation_error">Εισάγετε μια έγκυρη διεύθυνση email</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Αποστολή σχολίων</string>
     <string name="hs__fetching_faqs_message">Λήψη των απαντήσεών σας...</string>
     <string name="hs__file_not_found_msg">Δεν βρέθηκαν δεδομένα</string>
+    <string name="hs__file_type">%1$s Αρχείο</string>
+    <string name="hs__file_type_unsupported">Ο τύπος αρχείου δεν υποστηρίζεται</string>
     <string name="hs__help_header">Βοήθεια</string>
     <string name="hs__image_downloaded_voice_over">Εικόνα, Διπλό πάτημα για προβολή</string>
     <string name="hs__image_downloading_voice_over">Εικόνα, Λήψη, %1$s από %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Ρυθμίσεις</string>
     <string name="hs__permission_not_granted">Η εφαρμογή δεν έχει δικαίωμα πρόσβασης στις φωτογραφίες σας</string>
     <string name="hs__permission_rationale_snackbar_action_label">ΟΚ</string>
+    <string name="hs__photo">Φωτογραφίες</string>
     <string name="hs__picker_clear_query_voice_over">Διαγραφή ερωτήματος</string>
     <string name="hs__picker_no_results">Δεν βρέθηκαν αποτελέσματα</string>
     <string name="hs__picker_option_list_item_voice_over">Αποστολή, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Επιστροφή</string>
     <string name="hs__picker_search_hint">Αναζήτηση</string>
     <string name="hs__picker_search_icon_voice_over">Λίστα αναζήτησης</string>
+    <string name="hs__preview_header">Προεπισκόπηση</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Το βρήκατε χρήσιμο</string>
     <string name="hs__question_unhelpful_message">Δεν το βρήκατε χρήσιμο</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Θέλετε να αφήσετε κριτική για την εφαρμογή στο Google Play;</string>
     <string name="hs__review_title">Αξιολογήστε την εφαρμογή μας</string>
     <string name="hs__screenshot_add">Προσθήκη</string>
-    <string name="hs__screenshot_cloud_attach_error">Σφάλμα κατά την προσάρτηση του στιγμιότυπου οθόνης. Επιλέξτε εικόνα στη συσκευή σας.</string>
-    <string name="hs__screenshot_limit_error">Το μέγεθος στιγμιότυπου οθόνης δεν πρέπει να υπερβαίνει τα %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Σφάλμα σύνδεσης αρχείου. Επιλέξτε ένα αρχείο που είναι διαθέσιμο τοπικά στη συσκευή.</string>
+    <string name="hs__screenshot_limit_error">Το μέγεθος του αρχείου δεν πρέπει να υπερβαίνει το %.2f MB</string>
     <string name="hs__screenshot_remove">Αφαίρεση</string>
-    <string name="hs__screenshot_upload_error_msg">Σφάλμα κατά τη φόρτωση στιγμιότυπου οθόνης</string>
+    <string name="hs__screenshot_upload_error_msg">Σφάλμα κατά την μεταφόρτωση αρχείου</string>
     <string name="hs__search_footer">Δεν μπορείτε να βρείτε αυτό που ψάχνετε;</string>
     <string name="hs__search_hint">Περιγράψτε το πρόβλημά σας</string>
     <string name="hs__search_result_message">Ερωτήσεις που ενδέχεται να έχετε ήδη απαντήσει</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ΑΠΟΣΤΟΛΗ</string>
     <string name="hs__sending_fail_msg">Η αποστολή απέτυχε</string>
     <string name="hs__sending_msg">Αποστολή</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Περιήγηση, %1$s</string>
     <string name="hs__ssl_handshake_error">Η σύνδεσή σας δεν είναι ασφαλής. Υπήρξε πρόβλημα στην πραγματοποίηση αξιόπιστης σύνδεσης</string>
     <string name="hs__ssl_peer_unverified_error">Η σύνδεσή σας δεν είναι ασφαλής. Υπήρξε πρόβλημα στην επαλήθευση της αυθεντικότητάς της=</string>
     <string name="hs__starting_download">Έναρξη λήψης...</string>
     <string name="hs__submit_conversation_btn">Υποβολή</string>
     <string name="hs__tap_to_retry">Πατήστε για επανάληψη</string>
     <string name="hs__try_again_msg">Παρακαλώ δοκιμάστε ξανά αργότερα</string>
+    <string name="hs__user_attachment_rejected_voice_over">Η απάντησή σας, ο τύπος αρχείου δεν υποστηρίζεται</string>
     <string name="hs__user_failed_message_voice_over">Η απάντησή σας, Η αποστολή απέτυχε</string>
     <string name="hs__user_sending_message_voice_over">Η απάντησή σας, Αποστολή</string>
     <string name="hs__user_sent_message_voice_over">Η απάντησή σας στις %s</string>
     <string name="hs__user_setup_retry_description">Εξακολουθούμε να προσπαθούμε να επιτύχουμε υποστήριξη. Παρακαλώ περιμένετε.</string>
     <string name="hs__username_blank_error">Εισαγάγετε ένα έγκυρο όνομα</string>
     <string name="hs__username_hint">Το Όνομά σας</string>
+    <string name="hs__video">Βίντεο</string>
 </resources>

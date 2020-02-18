@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    tools:background="@android:color/white">
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/hs__smart_intent_title_text_View"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:paddingEnd="@dimen/activity_horizontal_margin_medium"
+        android:paddingStart="@dimen/activity_horizontal_margin_medium"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_medium"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="@dimen/hs__textSizeExtraSmall"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="@tools:sample/cities"
+        tools:textColor="@android:color/black" />
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/hs__smart_intent_text_View"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="@dimen/activity_horizontal_margin_medium"
+        android:paddingStart="@dimen/activity_horizontal_margin_medium"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_medium"
+        style="@style/Helpshift.Style.SmartIntentText"
+        tools:text="@tools:sample/cities"
+        tools:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/conversations_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/hs__separatorColor" />
+</LinearLayout>

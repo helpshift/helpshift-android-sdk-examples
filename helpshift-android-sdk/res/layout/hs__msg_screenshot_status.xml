@@ -26,7 +26,6 @@
             app:hs__borderColor="?attr/hs__chatBubbleMediaBorderColor"
             app:hs__borderWidth="1dp"
             app:hs__cornerRadius="@dimen/hs__image_attachment_bubble_corner_radius"
-            app:hs__placeholder="@drawable/hs__placeholder_image"
             tools:ignore="ContentDescription" />
 
         <ProgressBar

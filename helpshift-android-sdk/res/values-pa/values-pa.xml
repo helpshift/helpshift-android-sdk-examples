@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">%s ਨੂੰ ਸਹਾਇਤਾ ਤੋਂ ਸੁਨੇਹਾ</string>
     <string name="hs__agent_message_with_name_voice_over">%1$s ਨੂੰ %2$s ਵਜੇ ਸਹਾਇਤਾ ਤੋਂ ਸੁਨੇਹਾ</string>
     <string name="hs__app_review_button">ਸਮੀਖਿਆ</string>
+    <string name="hs__attach_file">ਫਾਈਲ ਅਟੈਚ ਕਰੋ</string>
     <string name="hs__attach_screenshot_btn">ਸਕ੍ਰੀਨਸ਼ੌਟ ਨੂੰ ਨੱਥੀ ਕਰੋ</string>
+    <string name="hs__attachment_button_voice_over">ਫਾਈਲ ਅਟੈਚ ਕਰੋ</string>
     <string name="hs__attachment_downloaded__voice_over">ਫਾਈਲ, %s, ਖੋਲ੍ਹਣ ਲਈ ਡਬਲ ਟੈਪ ਕਰੋ</string>
     <string name="hs__attachment_downloading_voice_over">ਫਾਈਲ, %1$s, %2$s ਵਿੱਚੋਂ %3$s ਨੂੰ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾਹੈ</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">ਫਾਈਲ, %1$s, %2$s, ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਡਬਲ ਟੈਪ ਕਰੋ</string>
     <string name="hs__authentication_failed">ਪ੍ਰਮਾਣੀਕਰਨ ਅਸਫਲ</string>
     <string name="hs__change_btn">ਬਦਲੋ</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">ਕੋਈ ਵੈਧ ਮਿਤੀ ਦਰਜ ਕਰੋ</string>
     <string name="hs__default_notification_channel_name">ਇਨ-ਐਪ ਸਹਾਇਤਾ</string>
     <string name="hs__description_invalid_length_error">ਬੇਹਤਰ ਸਹਿਯੋਗ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਹੋਰ ਵੇਰਵੇ ਪ੍ਰਦਾਨ ਕਰੋ</string>
+    <string name="hs__documents">ਦਸਤਾਵੇਜ਼</string>
     <string name="hs__done_btn">ਹੋ ਗਿਆ</string>
     <string name="hs__email_hint">ਈਮੇਲ (ਚੋਣਵਾਂ)</string>
     <string name="hs__email_input_validation_error">ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਦਾਖਲ ਕਰੋ</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">ਫੀਡਬੈਕ ਭੇਜੋ</string>
     <string name="hs__fetching_faqs_message">ਤੁਹਾਡੇ ਉੱਤਰ ਪ੍ਰਾਪਤ ਹੋ ਰਹੇ…</string>
     <string name="hs__file_not_found_msg">ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ</string>
+    <string name="hs__file_type">%1$s File</string>
+    <string name="hs__file_type_unsupported">ਫਾਈਲ ਕਿਸਮ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੈ</string>
     <string name="hs__help_header">ਮਦਦ</string>
     <string name="hs__image_downloaded_voice_over">ਚਿੱਤਰ, ਦੇਖਣ ਲਈ ਡਬਲ ਟੈਪ ਕਰੋ</string>
     <string name="hs__image_downloading_voice_over">ਚਿੱਤਰ, %1$s ਵਿੱਚੋਂ %2$s ਨੂੰ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">ਸੈਟਿੰਗਾਂ</string>
     <string name="hs__permission_not_granted">ਅਨੁਪ੍ਰਯੋਗ ਕੋਲ ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ ਨੂੰ ਐਕਸੈਸ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ</string>
     <string name="hs__permission_rationale_snackbar_action_label">ਠੀਕ ਹੈ</string>
+    <string name="hs__photo">ਫੋਟੋਆਂ</string>
     <string name="hs__picker_clear_query_voice_over">ਸਵਾਲ ਸਾਫ ਕਰੋ</string>
     <string name="hs__picker_no_results">ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ</string>
     <string name="hs__picker_option_list_item_voice_over">ਭੇਜੋ, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">ਪਿੱਛੇ ਵੱਲ</string>
     <string name="hs__picker_search_hint">ਖੋਜ ਕਰੋ</string>
     <string name="hs__picker_search_icon_voice_over">ਖੋਜ ਸੂਚੀ</string>
+    <string name="hs__preview_header">ਪੂਰਵਦਰਸ਼ਨ</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਲੱਗਿਆ</string>
     <string name="hs__question_unhelpful_message">ਤੁਹਾਨੂੰ ਇਹ ਸਹਾਇਕ ਨਹੀਂ ਲੱਗਿਆ</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">ਕੀ ਤੁਸੀਂ Google Play ਉੱਤੇ ਐਪ ਦੀ ਸਮੀਖਿਆ ਕਰਨਾ ਚਾਹੋਗੇ?</string>
     <string name="hs__review_title">ਸਾਡੇ ਐਪ ਨੂੰ ਰੇਟ ਕਰੋ</string>
     <string name="hs__screenshot_add">ਜੋੜੋ</string>
-    <string name="hs__screenshot_cloud_attach_error">ਸਕ੍ਰੀਨਸ਼ੌਟ ਨੂੰ ਨੱਥੀ ਕਰਨ ਦੀ ਤਰੁਟੀ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਡਿਵਾਈਸ ਉੱਤੇ ਇੱਕ ਪ੍ਰਤੀਬਿੰਬ ਚੁਣੋ।</string>
-    <string name="hs__screenshot_limit_error">ਸਕ੍ਰੀਨਸ਼ੌਟ ਦਾ ਆਕਾਰ %.2f MB ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਵੇਗਾ</string>
+    <string name="hs__screenshot_cloud_attach_error">ਫਾਈਲ ਜੋੜਨ ਦੌਰਾਨ ਗਲਤੀ. ਕਿਰਪਾ ਕਰਕੇ ਡਿਵਾਈਸ ਤੇ ਸਥਾਨਕ ਤੌਰ \'ਤੇ ਉਪਲਬਧ ਫਾਈਲ ਦੀ ਚੋਣ ਕਰੋ.</string>
+    <string name="hs__screenshot_limit_error">File size should not exceed %.2f MB</string>
     <string name="hs__screenshot_remove">ਹਟਾਓ</string>
-    <string name="hs__screenshot_upload_error_msg">ਸਕ੍ਰੀਨਸ਼ੌਟ ਨੂੰ ਅਪਲੋਡ ਕਰਨ ਦੀ ਤਰੁਟੀ</string>
+    <string name="hs__screenshot_upload_error_msg">Error uploading file</string>
     <string name="hs__search_footer">ਇਹ ਪਤਾ ਨਹੀਂ ਲਗਾ ਸਕੇ ਕਿ ਤੁਸੀਂ ਕਿਸ ਚੀਜ਼ ਦੀ ਖੋਜ ਕਰ ਰਹੇ ਹੋ?</string>
     <string name="hs__search_hint">ਆਪਣੀ ਸਮੱਸਿਆ ਦਾ ਵਰਣਨ ਕਰੋ</string>
     <string name="hs__search_result_message">ਸਵਾਲ ਜਿਹਨਾਂ ਕੋਲ ਪਹਿਲਾਂ ਤੋਂ ਤੁਹਾਡਾ ਜਵਾਬ ਹੋ ਸਕਦਾ ਹੈ</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ਭੇਜੋ</string>
     <string name="hs__sending_fail_msg">ਭੇੇਜਣਾ ਅਸਫਲ ਰਿਹਾ</string>
     <string name="hs__sending_msg">ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Browse, %1$s</string>
     <string name="hs__ssl_handshake_error">ਤੁਹਾਡਾ ਕੁਨੈਕਸ਼ਨ ਸੁਰੱਖਿਅਤ ਨਹੀ ਹੈ! ਭਰੋਸੇਯੋਗ ਕੁਨੈਕਸ਼ਨ ਸਥਾਪਤ ਕਰਨ ਲਈ ਇੱਕ ਸਮੱਸਿਆ ਆਈ ਹੈ</string>
     <string name="hs__ssl_peer_unverified_error">ਤੁਹਾਡਾ ਕਨੈਕਸ਼ਨ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਹੈ। ਇਸ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਿੱਚ ਇੱਕ ਸਮੱਸਿਆ ਆਈ ਸੀ।</string>
     <string name="hs__starting_download">ਡਾਉਨਲੋਡ ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ…</string>
     <string name="hs__submit_conversation_btn">ਸਬਮਿਟ ਕਰੋ</string>
     <string name="hs__tap_to_retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="hs__try_again_msg">ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ</string>
+    <string name="hs__user_attachment_rejected_voice_over">ਤੁਹਾਡਾ ਜਵਾਬ, ਫਾਈਲ ਕਿਸਮ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੈ</string>
     <string name="hs__user_failed_message_voice_over">ਤੁੁਹਾਡਾ ਜਵਾਬ, ਭੇਜਣਾ ਅਸਫਲ ਰਿਹਾ</string>
     <string name="hs__user_sending_message_voice_over">ਤੁਹਾਡਾ ਜਵਾਬ, ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ</string>
     <string name="hs__user_sent_message_voice_over">%s ਨੂੰ ਤੁਹਾਡਾ ਜਵਾਬ</string>
     <string name="hs__user_setup_retry_description">ਅਸੀਂ ਹਾਲੇ ਵੀ ਸਮਰਥਨ ਤੱਕ ਪਹੁੰਚਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਾਂ. ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ.</string>
     <string name="hs__username_blank_error">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਨਾਮ ਦਾਖ਼ਲ ਕਰੋ</string>
     <string name="hs__username_hint">ਤੁਹਾਡਾ ਨਾਮ</string>
+    <string name="hs__video">ਵੀਡੀਓ</string>
 </resources>

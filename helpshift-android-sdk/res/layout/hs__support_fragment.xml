@@ -3,95 +3,121 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:windowBackground"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="?android:windowBackground">
 
-    <FrameLayout
+    <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.helpshift.views.HSTextView
-            android:id="@+id/view_no_faqs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-            android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-            android:gravity="center"
-            android:text="@string/hs__faqs_search_footer"
-            android:textColor="?android:textColorSecondary"
-            android:textSize="@dimen/hs__textSizeMedium"
-            android:visibility="gone" />
-
-        <RelativeLayout
-            android:id="@+id/view_faqs_loading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone">
-
-            <com.helpshift.views.HSTextView
-                android:id="@+id/textViewLoadingText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-                android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-                android:gravity="center"
-                android:text="@string/hs__fetching_faqs_message"
-                android:textColor="?android:textColorSecondary"
-                android:textSize="@dimen/hs__textSizeMedium" />
-
-            <ProgressBar
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@id/textViewLoadingText"
-                android:layout_alignLeft="@+id/textViewLoadingText"
-                android:layout_alignRight="@+id/textViewLoadingText"
-                android:layout_alignStart="@id/textViewLoadingText"
-                android:layout_below="@+id/textViewLoadingText"
-                android:layout_marginTop="@dimen/activity_vertical_margin_small"
-                android:indeterminate="true" />
-        </RelativeLayout>
-
         <LinearLayout
-            android:id="@+id/view_faqs_load_error"
+            android:id="@+id/hs__support_ui_parent_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical"
-            android:visibility="gone">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <com.helpshift.views.HSTextView
-                android:id="@+id/textViewFailureMessage"
+            <com.helpshift.views.HSToolbar
+                android:id="@+id/hs__toolbar"
+                style="?attr/hs__toolbarStyle"
+                android:visibility="gone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
-                android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
-                android:gravity="center"
-                android:text="@string/hs__faq_fetching_fail_message"
-                android:textColor="?android:textColorSecondary"
-                android:textSize="@dimen/hs__textSizeMedium" />
+                android:layout_height="wrap_content" />
 
-            <com.helpshift.views.HSButton
-                android:id="@+id/button_retry"
-                style="?attr/borderlessButtonStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/hs__retry_faq_fetching_button"
-                android:textColor="?colorAccent" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.helpshift.views.HSTextView
+                    android:id="@+id/view_no_faqs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+                    android:gravity="center"
+                    android:text="@string/hs__faqs_search_footer"
+                    android:textColor="?android:textColorSecondary"
+                    android:textSize="@dimen/hs__textSizeMedium"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/view_faqs_loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone">
+
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/textViewLoadingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+                        android:gravity="center"
+                        android:text="@string/hs__fetching_faqs_message"
+                        android:textColor="?android:textColorSecondary"
+                        android:textSize="@dimen/hs__textSizeMedium" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/textViewLoadingText"
+                        android:layout_alignLeft="@+id/textViewLoadingText"
+                        android:layout_alignRight="@+id/textViewLoadingText"
+                        android:layout_alignStart="@id/textViewLoadingText"
+                        android:layout_below="@+id/textViewLoadingText"
+                        android:layout_marginTop="@dimen/activity_vertical_margin_small"
+                        android:indeterminate="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/view_faqs_load_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/textViewFailureMessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin_medium"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin_medium"
+                        android:gravity="center"
+                        android:text="@string/hs__faq_fetching_fail_message"
+                        android:textColor="?android:textColorSecondary"
+                        android:textSize="@dimen/hs__textSizeMedium" />
+
+                    <com.helpshift.views.HSButton
+                        android:id="@+id/button_retry"
+                        style="?attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/hs__retry_faq_fetching_button"
+                        android:textColor="?colorAccent" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flow_fragment_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" />
+            </FrameLayout>
         </LinearLayout>
 
         <FrameLayout
-            android:id="@+id/flow_fragment_container"
+            android:id="@+id/hs__bottom_sheet_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center" />
-    </FrameLayout>
+            android:visibility="gone"
+            android:layout_height="match_parent" />
+    </android.support.design.widget.CoordinatorLayout>
 
     <ImageView
         android:id="@+id/hs_logo"
@@ -99,5 +125,6 @@
         android:layout_height="wrap_content"
         android:background="@android:color/black"
         android:src="@drawable/hs__logo"
+        android:layout_gravity="bottom"
         tools:ignore="ContentDescription" />
 </LinearLayout>

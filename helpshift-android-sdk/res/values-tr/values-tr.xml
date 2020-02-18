@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Destek bölümünden mesaj (%s)</string>
     <string name="hs__agent_message_with_name_voice_over">Destek bölümünden mesaj (%1$s %2$s)</string>
     <string name="hs__app_review_button">GÖZDEN GEÇİR</string>
+    <string name="hs__attach_file">Dosya Ekle</string>
     <string name="hs__attach_screenshot_btn">Ekran görüntüsü ekle</string>
+    <string name="hs__attachment_button_voice_over">Dosya ekle</string>
     <string name="hs__attachment_downloaded__voice_over">Dosya, %s, Açmak için İki Kez Dokun</string>
     <string name="hs__attachment_downloading_voice_over">Dosya, %1$s, %2$s/%3$s indiriliyor</string>
+    <string name="hs__attachment_name_voice_over">Dosya, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Dosya, %1$s, %2$s, İndirmek için İki Kez Dokun</string>
     <string name="hs__authentication_failed">Kimlik doğrulama başarısız oldu</string>
     <string name="hs__change_btn">Değiştir</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Geçerli bir tarih gir</string>
     <string name="hs__default_notification_channel_name">Uygulama desteği</string>
     <string name="hs__description_invalid_length_error">Daha iyi yardım almak için daha fazla bilgi verin</string>
+    <string name="hs__documents">Belgeler</string>
     <string name="hs__done_btn">Bitti</string>
     <string name="hs__email_hint">E-posta (isteğe bağlı)</string>
     <string name="hs__email_input_validation_error">Geçerli bir e-posta adresi girin</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Geri Bildirim Gönder</string>
     <string name="hs__fetching_faqs_message">Yanıtların hazırlanıyor…</string>
     <string name="hs__file_not_found_msg">Dosya bulunamadı</string>
+    <string name="hs__file_type">%1$s Dosyası</string>
+    <string name="hs__file_type_unsupported">Dosya türü desteklenmiyor</string>
     <string name="hs__help_header">Yardım</string>
     <string name="hs__image_downloaded_voice_over">Resim, Görüntülemek için İki Kez Dokun</string>
     <string name="hs__image_downloading_voice_over">Resim İndiriliyor, %1$s/%2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Ayarlar</string>
     <string name="hs__permission_not_granted">Uygulamanın fotoğraflarına erişme izni yok</string>
     <string name="hs__permission_rationale_snackbar_action_label">Tamam</string>
+    <string name="hs__photo">Fotoğraflar</string>
     <string name="hs__picker_clear_query_voice_over">Sorguyu Temizle</string>
     <string name="hs__picker_no_results">Sonuç bulunamadı</string>
     <string name="hs__picker_option_list_item_voice_over">%1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Geri</string>
     <string name="hs__picker_search_hint">Ara</string>
     <string name="hs__picker_search_icon_voice_over">Arama listesi</string>
+    <string name="hs__preview_header">Ön izleme</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Bunu yararlı buldun</string>
     <string name="hs__question_unhelpful_message">Bunu yararlı bulmadın</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Google Play üzerindeki uygulamayı gözden geçirmek ister misin?</string>
     <string name="hs__review_title">Uygulamamızı Değerlendir</string>
     <string name="hs__screenshot_add">Ekle</string>
-    <string name="hs__screenshot_cloud_attach_error">Ekran görüntüsü eklerken hata oluştu. Lütfen cihazından bir görüntü seç.</string>
-    <string name="hs__screenshot_limit_error">Ekran görüntüsü boyutu %.2f MB\'ı aşmamalı</string>
+    <string name="hs__screenshot_cloud_attach_error">Dosya eklenirken hata oluştu. Lütfen cihazda yerel olarak kullanılabilen bir dosya seçin.</string>
+    <string name="hs__screenshot_limit_error">Dosya boyutu en fazla %.2f MB  olabilir</string>
     <string name="hs__screenshot_remove">Kaldır</string>
-    <string name="hs__screenshot_upload_error_msg">Ekran görüntüsü yüklemede hata oluştu</string>
+    <string name="hs__screenshot_upload_error_msg">Dosya yüklenirken hata oluştu</string>
     <string name="hs__search_footer">Aradığını bulamıyor musun?</string>
     <string name="hs__search_hint">Problemini tanımla</string>
     <string name="hs__search_result_message">Aradığın cevabı halihazırda içeren sorular</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">GÖNDER</string>
     <string name="hs__sending_fail_msg">Gönderilemedi</string>
     <string name="hs__sending_msg">Gönderiyor</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Gözat, %1$s</string>
     <string name="hs__ssl_handshake_error">Bağlantınız güvenli değil. Güvenli bir bağlantı kurarken bir sorun oluştu</string>
     <string name="hs__ssl_peer_unverified_error">Bağlantınız güvenli değil. Güvenilirliğini doğrularken bir sorun oluştu</string>
     <string name="hs__starting_download">İndirmeye başlıyor…</string>
     <string name="hs__submit_conversation_btn">Gönder</string>
     <string name="hs__tap_to_retry">Tekrar denemek için tıkla</string>
     <string name="hs__try_again_msg">Lütfen daha sonra tekrar deneyiniz</string>
+    <string name="hs__user_attachment_rejected_voice_over">Cevabınız, dosya türü desteklenmiyor</string>
     <string name="hs__user_failed_message_voice_over">Yanıtınız gönderilemedi</string>
     <string name="hs__user_sending_message_voice_over">Yanıtınız gönderiliyor</string>
     <string name="hs__user_sent_message_voice_over">Yanıtınız (%s)</string>
     <string name="hs__user_setup_retry_description">Hala desteğe ulaşmaya çalışıyoruz. Lütfen bekle.</string>
     <string name="hs__username_blank_error">Lütfen geçerli bir ad gir</string>
     <string name="hs__username_hint">İsim</string>
+    <string name="hs__video">Videolar</string>
 </resources>

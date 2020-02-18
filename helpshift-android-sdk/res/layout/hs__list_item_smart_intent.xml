@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/white">
+
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/hs__smart_intent_text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/hs__smart_intent_icon_size"
+        android:layout_marginEnd="@dimen/hs__smart_intent_icon_size"
+        android:paddingLeft="@dimen/activity_horizontal_margin_medium"
+        android:paddingStart="@dimen/activity_horizontal_margin_medium"
+        android:paddingRight="@dimen/activity_horizontal_margin_medium"
+        android:paddingEnd="@dimen/activity_horizontal_margin_medium"
+        style="@style/Helpshift.Style.SmartIntentText"
+        tools:text="@tools:sample/lorem/random"
+        tools:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/hs__smart_intent_next_icon_view"
+        android:layout_width="@dimen/hs__smart_intent_icon_size"
+        android:layout_height="@dimen/hs__smart_intent_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/hs__smart_intent_icon_padding"
+        android:alpha="0.30"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/hs__disclosure" />
+</RelativeLayout>

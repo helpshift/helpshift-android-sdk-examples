@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Nova mensagem de apoio (%s)</string>
     <string name="hs__agent_message_with_name_voice_over">%1$s enviou uma nova mensagem de apoio (%2$s)</string>
     <string name="hs__app_review_button">REVER</string>
+    <string name="hs__attach_file">Anexar ficheiro</string>
     <string name="hs__attach_screenshot_btn">Anexar captura de ecrã</string>
+    <string name="hs__attachment_button_voice_over">Anexar ficheiro</string>
     <string name="hs__attachment_downloaded__voice_over">Ficheiro: %s - toca duas vezes para abrir</string>
     <string name="hs__attachment_downloading_voice_over">Ficheiro: %1$s - a transferir %2$s de %3$s</string>
+    <string name="hs__attachment_name_voice_over">Arquivo, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Ficheiro: %1$s, %2$s - toca duas vezes para transferir</string>
     <string name="hs__authentication_failed">Falha na autenticação</string>
     <string name="hs__change_btn">Alterar</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Introduz uma data válida.</string>
     <string name="hs__default_notification_channel_name">Suporte na aplicação</string>
     <string name="hs__description_invalid_length_error">Para melhor assistência, indica mais detalhes</string>
+    <string name="hs__documents">Documentos</string>
     <string name="hs__done_btn">Feito</string>
     <string name="hs__email_hint">Email (opcional)</string>
     <string name="hs__email_input_validation_error">Digite um endereço de e-mail válido</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Enviar feedback</string>
     <string name="hs__fetching_faqs_message">A obter as tuas respostas…</string>
     <string name="hs__file_not_found_msg">Ficheiro não encontrado</string>
+    <string name="hs__file_type">%1$s Arquivo</string>
+    <string name="hs__file_type_unsupported">O tipo de ficheiro não é suportado</string>
     <string name="hs__help_header">Ajuda</string>
     <string name="hs__image_downloaded_voice_over">Imagem: toca duas vezes para visualizar</string>
     <string name="hs__image_downloading_voice_over">Imagem: a transferir %1$s de %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Definições</string>
     <string name="hs__permission_not_granted">A aplicação não tem permissão para aceder às tuas fotos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Fotos</string>
     <string name="hs__picker_clear_query_voice_over">Limpar consulta</string>
     <string name="hs__picker_no_results">Sem resultados para a procura</string>
     <string name="hs__picker_option_list_item_voice_over">Enviar, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Voltar</string>
     <string name="hs__picker_search_hint">Procurar</string>
     <string name="hs__picker_search_icon_voice_over">Lista de pesquisa</string>
+    <string name="hs__preview_header">Pré-visualizar</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Achaste isto útil</string>
     <string name="hs__question_unhelpful_message">Não achaste isto útil</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Gostarias de avaliar a app em Google Play?</string>
     <string name="hs__review_title">Avalia a nossa App</string>
     <string name="hs__screenshot_add">Adicionar</string>
-    <string name="hs__screenshot_cloud_attach_error">Erro a anexar a captura de ecrã. Escolhe uma imagem no teu dispositivo.</string>
-    <string name="hs__screenshot_limit_error">O tamanho da captura do ecrã não deve exceder %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Erro ao anexar o ficheiro. Por favor, escolha um ficheiro disponível localmente no dispositivo.</string>
+    <string name="hs__screenshot_limit_error">O tamanho do ficheiro não  deve exceder %.2f MB</string>
     <string name="hs__screenshot_remove">Remover</string>
-    <string name="hs__screenshot_upload_error_msg">Erro a carregar a captura de ecrã</string>
+    <string name="hs__screenshot_upload_error_msg">Erro ao descarregar o ficheiro</string>
     <string name="hs__search_footer">Não encontras o que procuras?</string>
     <string name="hs__search_hint">Descreve o teu problema</string>
     <string name="hs__search_result_message">Questões que possam ainda ter resposta</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ENVIAR</string>
     <string name="hs__sending_fail_msg">Falha ao enviar</string>
     <string name="hs__sending_msg">A enviar</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Pesquisar, %1$s</string>
     <string name="hs__ssl_handshake_error">A ligação não é segura. Ocorreu um problema a estabelecer uma ligação segura</string>
     <string name="hs__ssl_peer_unverified_error">A ligação não é segura. Ocorreu um problema ao verificar a autenticidade</string>
     <string name="hs__starting_download">A iniciar transferência…</string>
     <string name="hs__submit_conversation_btn">Enviar</string>
     <string name="hs__tap_to_retry">Toque para tentar novamente</string>
     <string name="hs__try_again_msg">Por favor, tente novamente mais tarde</string>
+    <string name="hs__user_attachment_rejected_voice_over">A sua resposta, o tipo de ficheiro não é suportado</string>
     <string name="hs__user_failed_message_voice_over">A tua resposta: falha ao enviar</string>
     <string name="hs__user_sending_message_voice_over">A tua resposta: a enviar</string>
     <string name="hs__user_sent_message_voice_over">A tua resposta (%s)</string>
     <string name="hs__user_setup_retry_description">Ainda estamos tentando alcançar o suporte. Por favor, espere.</string>
     <string name="hs__username_blank_error">Introduz um nome válido</string>
     <string name="hs__username_hint">Nome</string>
+    <string name="hs__video">Vídeos</string>
 </resources>

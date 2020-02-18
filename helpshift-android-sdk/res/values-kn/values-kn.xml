@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">%s ರಂದು ಬೆಂಬಲ ವಿಭಾಗದ ಸಂದೇಶ</string>
     <string name="hs__agent_message_with_name_voice_over">%1$s ರಂದು %2$s ಮೂಲಕ ಬೆಂಬಲ ವಿಭಾಗದ ಸಂದೇಶ</string>
     <string name="hs__app_review_button">ಪರಿಶೀಲಿಸು</string>
+    <string name="hs__attach_file">ಕಡತವನ್ನು ಲಗತ್ತಿಸಿ</string>
     <string name="hs__attach_screenshot_btn">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಲಗತ್ತಿಸು</string>
+    <string name="hs__attachment_button_voice_over">ಕಡತವನ್ನು ಲಗತ್ತಿಸಿ</string>
     <string name="hs__attachment_downloaded__voice_over">ಫೈಲ್, %s, ತೆರೆಯಲು ಎರಡುಬಾರಿ ತಟ್ಟಿರಿ</string>
     <string name="hs__attachment_downloading_voice_over">ಫೈಲ್, %1$s, %2$s ರಲ್ಲಿ %3$s ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">ಫೈಲ್, %1$s, %2$s, ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಎರಡುಬಾರಿ ತಟ್ಟಿರಿ</string>
     <string name="hs__authentication_failed">ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ</string>
     <string name="hs__change_btn">ಬದಲಿಸು</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">ಮಾನ್ಯ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
     <string name="hs__default_notification_channel_name">ಅಪ್ಲಿಕೇಶನ್ನಲ್ಲಿನ ಬೆಂಬಲ</string>
     <string name="hs__description_invalid_length_error">ಉತ್ತಮ ಸಹಾಯ ಪಡೆಯಲು, ಮತ್ತಷ್ಟು ವಿವರವನ್ನು ಒದಗಿಸಿ</string>
+    <string name="hs__documents">ದಾಖಲೆಗಳು</string>
     <string name="hs__done_btn">ಮುಗಿದಿದೆ</string>
     <string name="hs__email_hint">ಇಮೇಲ್ (ಐಚ್ಛಿಕ)</string>
     <string name="hs__email_input_validation_error">ಮಾನ್ಯವಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
     <string name="hs__fetching_faqs_message">ನಿಮ್ಮ ಉತ್ತರಗಳನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</string>
     <string name="hs__file_not_found_msg">ಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="hs__file_type">%1$s File</string>
+    <string name="hs__file_type_unsupported">ದೋಷ, ಕಡತ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ ಟೈಪ್</string>
     <string name="hs__help_header">ಸಹಾಯ</string>
     <string name="hs__image_downloaded_voice_over">ಚಿತ್ರ, ವೀಕ್ಷಿಸಲು ಎರಡುಬಾರಿ ತಟ್ಟಿರಿ</string>
     <string name="hs__image_downloading_voice_over">ಚಿತ್ರ, %1$s ರಲ್ಲಿ %2$s ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="hs__permission_not_granted">ನಿಮ್ಮ ಫೋಟೋಗಳಿಗೆ ಪ್ರವೇಶಿಸುವ ಅನುಮತಿಯನ್ನು ಅಪ್ಲಿಕೇಶನ್ ಹೊಂದಿಲ್ಲ</string>
     <string name="hs__permission_rationale_snackbar_action_label">ಸರಿ</string>
+    <string name="hs__photo">ಫೋಟೋಗಳು</string>
     <string name="hs__picker_clear_query_voice_over">ಕ್ವೆರಿಯನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
     <string name="hs__picker_no_results">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="hs__picker_option_list_item_voice_over">ಕಳುಹಿಸಿ, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">ಹಿಂತಿರುಗು</string>
     <string name="hs__picker_search_hint">ಹುಡುಕು</string>
     <string name="hs__picker_search_icon_voice_over">ಪಟ್ಟಿಯನ್ನು ಹುಡುಕಿ</string>
+    <string name="hs__preview_header">ಪೂರ್ವವೀಕ್ಷಿಸಿ</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">ಇದು ನಿಮಗೆ ಉಪಯುಕ್ತವಾಗಿರುವಂತಿದೆ</string>
     <string name="hs__question_unhelpful_message">ಇದು ನಿಮಗೆ ಉಪಯುಕ್ತವಾಗಿಲ್ಲದಿರುವಂತಿದೆ</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">ನೀವು Google Play ನಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್ ಕುರಿತು ಅಭಿಪ್ರಾಯ ತಿಳಿಸಲು ಬಯಸುವಿರಾ?</string>
     <string name="hs__review_title">ನಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಕುರಿತು ರೇಟ್ ಮಾಡಿ</string>
     <string name="hs__screenshot_add">ಸೇರಿಸು</string>
-    <string name="hs__screenshot_cloud_attach_error">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಲಗತ್ತಿಸುವಲ್ಲಿ ದೋಷ ಎದುರಾಗಿದೆ. ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಚಿತ್ರವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
-    <string name="hs__screenshot_limit_error">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಗಾತ್ರ %.2f MB ಮೀರುವಂತಿಲ್ಲ</string>
+    <string name="hs__screenshot_cloud_attach_error">ಫೈಲ್ ಲಗತ್ತಿಸುವಲ್ಲಿ ದೋಷ. ಸಾಧನದಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ಲಭ್ಯವಿರುವ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.</string>
+    <string name="hs__screenshot_limit_error">ಫೈಲ್ ಗಾತ್ರವು %.2f MB ಅನ್ನು ಮೀರಬಾರದು</string>
     <string name="hs__screenshot_remove">ತೆಗೆ</string>
-    <string name="hs__screenshot_upload_error_msg">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಅಪ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ ಎದುರಾಗಿದೆ</string>
+    <string name="hs__screenshot_upload_error_msg">ಫೈಲ್ ಪ್ರಕಾರವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ</string>
     <string name="hs__search_footer">ನೀವು ಹುಡುಕುತ್ತಿರುವುದು ಸಿಗಲಿಲ್ಲವೇ?</string>
     <string name="hs__search_hint">ನಿಮ್ಮ ಸಮಸ್ಯೆಯ ಕುರಿತು ತಿಳಿಸಿ</string>
     <string name="hs__search_result_message">ಈಗಾಗಲೇ ನಿಮ್ಮ ಉತ್ತರವನ್ನೊಳಗೊಂಡ ಪ್ರಶ್ನೆಗಳು</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ಕಳುಹಿಸು</string>
     <string name="hs__sending_fail_msg">ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
     <string name="hs__sending_msg">ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Browse, %1$s</string>
     <string name="hs__ssl_handshake_error">ನಿಮ್ಮ ಸಂಪರ್ಕ ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ. ವಿಶ್ವಾಸಾರ್ಹ ಸಂಪರ್ಕವನ್ನು ಸ್ಥಾಪಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಎದುರಾಗಿದೆ.</string>
     <string name="hs__ssl_peer_unverified_error">ನಿಮ್ಮ ಸಂಪರ್ಕ ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ. ಅದರ ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸುತ್ತಿರುವಲ್ಲಿ ಸಮಸ್ಯೆ ಎದುರಾಗಿದೆ</string>
     <string name="hs__starting_download">ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ…</string>
     <string name="hs__submit_conversation_btn">ಸಲ್ಲಿಸು</string>
     <string name="hs__tap_to_retry">ಮರುಪ್ರಯತ್ನಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="hs__try_again_msg">ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="hs__user_attachment_rejected_voice_over">ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರ, ಫೈಲ್ ಪ್ರಕಾರವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ</string>
     <string name="hs__user_failed_message_voice_over">ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರ, ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
     <string name="hs__user_sending_message_voice_over">ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರ, ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="hs__user_sent_message_voice_over">%s ರಂದು ನಿಮ್ಮ ಪ್ರತ್ಯುತ್ತರ</string>
     <string name="hs__user_setup_retry_description">ನಾವು ಇನ್ನೂ ಬೆಂಬಲವನ್ನು ಪಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇವೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ.</string>
     <string name="hs__username_blank_error">ಮಾನ್ಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
     <string name="hs__username_hint">ನಿಮ್ಮ ಹೆಸರು</string>
+    <string name="hs__video">ವೀಡಿಯೊಗಳು</string>
 </resources>

@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">来自客服的信息（于%s发送）</string>
     <string name="hs__agent_message_with_name_voice_over">来自客服的信息（由%1$s于%2$s发送）</string>
     <string name="hs__app_review_button">评论</string>
+    <string name="hs__attach_file">随附文件</string>
     <string name="hs__attach_screenshot_btn">添加屏幕截图</string>
+    <string name="hs__attachment_button_voice_over">附加文件</string>
     <string name="hs__attachment_downloaded__voice_over">文件，%s，双击即可查看</string>
     <string name="hs__attachment_downloading_voice_over">文件，%1$s，下载中，%2$s/%3$s</string>
+    <string name="hs__attachment_name_voice_over">文件，%1$s，%2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">文件，%1$s，%2$s，双击即可下载</string>
     <string name="hs__authentication_failed">验证失败</string>
     <string name="hs__change_btn">更改</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">输入一个有效日期</string>
     <string name="hs__default_notification_channel_name">应用内支持</string>
     <string name="hs__description_invalid_length_error">请提供更多详细信息，以便我们提供更好的协助</string>
+    <string name="hs__documents">文件</string>
     <string name="hs__done_btn">完成</string>
     <string name="hs__email_hint">电子邮件（可选）</string>
     <string name="hs__email_input_validation_error">输入一个有效的电子邮件地址</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">发送反馈</string>
     <string name="hs__fetching_faqs_message">正在获取您的答案……</string>
     <string name="hs__file_not_found_msg">未找到文件</string>
+    <string name="hs__file_type">%1$s文件</string>
+    <string name="hs__file_type_unsupported">文件类型不支持</string>
     <string name="hs__help_header">帮助</string>
     <string name="hs__image_downloaded_voice_over">图像，双击即可查看</string>
     <string name="hs__image_downloading_voice_over">图像，下载中，%1$s/%2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">设置</string>
     <string name="hs__permission_not_granted">应用程序缺少访问您的照片的权限</string>
     <string name="hs__permission_rationale_snackbar_action_label">确定</string>
+    <string name="hs__photo">照片</string>
     <string name="hs__picker_clear_query_voice_over">清除查询</string>
     <string name="hs__picker_no_results">未找到搜索结果</string>
     <string name="hs__picker_option_list_item_voice_over">发送，%1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">返回</string>
     <string name="hs__picker_search_hint">搜索</string>
     <string name="hs__picker_search_icon_voice_over">搜索列表</string>
+    <string name="hs__preview_header">预览</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">有帮助</string>
     <string name="hs__question_unhelpful_message">你认为这没有帮助</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">您要在Google Play上评论应用吗？</string>
     <string name="hs__review_title">评价应用</string>
     <string name="hs__screenshot_add">添加</string>
-    <string name="hs__screenshot_cloud_attach_error">添加屏幕截图时出错。请在您的设备中选择一张图片。</string>
-    <string name="hs__screenshot_limit_error">屏幕截图不应超过%.2fMB</string>
+    <string name="hs__screenshot_cloud_attach_error">附加文件时出错。请选择设备上本地可用的文件。</string>
+    <string name="hs__screenshot_limit_error">文件大小不得超过 %.2f MB</string>
     <string name="hs__screenshot_remove">移除</string>
-    <string name="hs__screenshot_upload_error_msg">上传屏幕截图时出错</string>
+    <string name="hs__screenshot_upload_error_msg">上传文件时出错</string>
     <string name="hs__search_footer">找不到所需的答案吗？</string>
     <string name="hs__search_hint">说明您遇到的问题</string>
     <string name="hs__search_result_message">已经有了答案的问题</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">发送</string>
     <string name="hs__sending_fail_msg">发送失败</string>
     <string name="hs__sending_msg">发送中</string>
+    <string name="hs__si_root_intent_list_item_voice_over">浏览，%1$s</string>
     <string name="hs__ssl_handshake_error">您的连接不安全。建立可信连接时出现问题</string>
     <string name="hs__ssl_peer_unverified_error">您的连接不安全。验证真实性时出现问题</string>
     <string name="hs__starting_download">正在开始下载……</string>
     <string name="hs__submit_conversation_btn">提交</string>
     <string name="hs__tap_to_retry">点按即可重试</string>
     <string name="hs__try_again_msg">请稍后再试</string>
+    <string name="hs__user_attachment_rejected_voice_over">您的回复，文件类型不支持</string>
     <string name="hs__user_failed_message_voice_over">您的回复，发送失败</string>
     <string name="hs__user_sending_message_voice_over">您的回复，发送中</string>
     <string name="hs__user_sent_message_voice_over">您%s的回复</string>
     <string name="hs__user_setup_retry_description">我们仍在努力达成支持。 请稍候。</string>
     <string name="hs__username_blank_error">请输入有效的名称</string>
     <string name="hs__username_hint">您的姓名</string>
+    <string name="hs__video">视频</string>
 </resources>

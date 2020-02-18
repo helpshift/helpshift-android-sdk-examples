@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">%sに届いたサポートからのメッセージ</string>
     <string name="hs__agent_message_with_name_voice_over">%1$sに届いたサポート担当%2$sからのメッセージ</string>
     <string name="hs__app_review_button">レビュー</string>
+    <string name="hs__attach_file">ファイルを添付</string>
     <string name="hs__attach_screenshot_btn">スクリーンショットを添付</string>
+    <string name="hs__attachment_button_voice_over">ファイルの添付</string>
     <string name="hs__attachment_downloaded__voice_over">ファイル%sをダブルタップして開く</string>
     <string name="hs__attachment_downloading_voice_over">ファイル%1$sをダウンロードしています。%2$s中%3$s完了</string>
+    <string name="hs__attachment_name_voice_over">ファイル、%1$s、%2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">ファイル%1$s（サイズ%2$s）をダブルタップしてダウンロード</string>
     <string name="hs__authentication_failed">認証に失敗しました</string>
     <string name="hs__change_btn">変更</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">有効な日付を入力してください</string>
     <string name="hs__default_notification_channel_name">アプリ内サポート</string>
     <string name="hs__description_invalid_length_error">適切なサポートをご提供させていただけるよう、より詳細な状況をお聞かせください。</string>
+    <string name="hs__documents">文書</string>
     <string name="hs__done_btn">終了</string>
     <string name="hs__email_hint">Eメールアドレス（任意）</string>
     <string name="hs__email_input_validation_error">有効なメールアドレスを入力してください</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">フィードバックを送信</string>
     <string name="hs__fetching_faqs_message">回答を取得中…</string>
     <string name="hs__file_not_found_msg">ファイルが見つかりません</string>
+    <string name="hs__file_type">%1$sファイル</string>
+    <string name="hs__file_type_unsupported">ファイル形式はサポートされていません</string>
     <string name="hs__help_header">ヘルプ</string>
     <string name="hs__image_downloaded_voice_over">画像をダブルタップして表示</string>
     <string name="hs__image_downloading_voice_over">画像をダウンロードしています。%1$s中%2$s完了</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">設定</string>
     <string name="hs__permission_not_granted">アプリから写真にアクセスする権限がありません</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">写真</string>
     <string name="hs__picker_clear_query_voice_over">クリアクエリ</string>
     <string name="hs__picker_no_results">検索結果が見つかりませんでした</string>
     <string name="hs__picker_option_list_item_voice_over">送る, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">戻る</string>
     <string name="hs__picker_search_hint">検索</string>
     <string name="hs__picker_search_icon_voice_over">検索リスト</string>
+    <string name="hs__preview_header">プレビュー</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">役に立った</string>
     <string name="hs__question_unhelpful_message">役に立たなかった</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Google Play で本アプリをレビューしていただけますか？</string>
     <string name="hs__review_title">アプリを評価してください</string>
     <string name="hs__screenshot_add">追加</string>
-    <string name="hs__screenshot_cloud_attach_error">スクリーンショットを添付できませんでした。ご利用のデバイスにある画像を選択してください。</string>
-    <string name="hs__screenshot_limit_error">スクリーンショットのファイルサイズは%.2fMB以下にしてください</string>
+    <string name="hs__screenshot_cloud_attach_error">ファイルの添付中にエラーが発生しました。デバイスでローカル利用が可能なファイルを選択してください。</string>
+    <string name="hs__screenshot_limit_error">ファイルサイズが%.2fMBを超えないようにしてください</string>
     <string name="hs__screenshot_remove">削除</string>
-    <string name="hs__screenshot_upload_error_msg">スクリーンショットのアップロード中にエラーが発生しました</string>
+    <string name="hs__screenshot_upload_error_msg">ファイルのアップロード中にエラーが発生しました</string>
     <string name="hs__search_footer">問題の解決方法が見つかりませんか？</string>
     <string name="hs__search_hint">問題の詳細をご説明ください</string>
     <string name="hs__search_result_message">既に回答済みの可能性がございます</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">送信</string>
     <string name="hs__sending_fail_msg">送信失敗</string>
     <string name="hs__sending_msg">送信中</string>
+    <string name="hs__si_root_intent_list_item_voice_over">閲覧して、%1$s</string>
     <string name="hs__ssl_handshake_error">安全な接続ではありません。信頼できる接続を確立することができません</string>
     <string name="hs__ssl_peer_unverified_error">この接続方法は安全ではありません。信頼性の確認において問題があります。</string>
     <string name="hs__starting_download">ダウンロードを開始しています…</string>
     <string name="hs__submit_conversation_btn">送信</string>
     <string name="hs__tap_to_retry">タップして再試行</string>
     <string name="hs__try_again_msg">後でもう一度お試しください</string>
+    <string name="hs__user_attachment_rejected_voice_over">返信、ファイル形式はサポートされていません</string>
     <string name="hs__user_failed_message_voice_over">返信の送信に失敗</string>
     <string name="hs__user_sending_message_voice_over">返信を送信中</string>
     <string name="hs__user_sent_message_voice_over">%sに送った返信</string>
     <string name="hs__user_setup_retry_description">私たちはまだ支援に取り掛かっています。 お待ちください。</string>
     <string name="hs__username_blank_error">有効なお名前をご入力ください</string>
     <string name="hs__username_hint">お名前</string>
+    <string name="hs__video">動画</string>
 </resources>

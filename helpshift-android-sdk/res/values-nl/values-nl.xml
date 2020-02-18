@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Bericht van de ondersteuning op %s</string>
     <string name="hs__agent_message_with_name_voice_over">Bericht van de ondersteuning door %1$s op %2$s</string>
     <string name="hs__app_review_button">RECENSIE</string>
+    <string name="hs__attach_file">Bijlage toevoegen</string>
     <string name="hs__attach_screenshot_btn">Screenshot toevoegen</string>
+    <string name="hs__attachment_button_voice_over">Bestand toevoegen</string>
     <string name="hs__attachment_downloaded__voice_over">Bestand, %s, dubbelklik om te openen</string>
     <string name="hs__attachment_downloading_voice_over">Bestand, %1$s, downloadt %2$s van %3$s</string>
+    <string name="hs__attachment_name_voice_over">Bestand, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Bestand, %1$s, %2$s, dubbelklik om te downloaden</string>
     <string name="hs__authentication_failed">Verificatie mislukt</string>
     <string name="hs__change_btn">Wijzigen</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Voer een geldige datum in</string>
     <string name="hs__default_notification_channel_name">Ondersteuning in de app</string>
     <string name="hs__description_invalid_length_error">Verstrek meer informatie voor betere ondersteuning</string>
+    <string name="hs__documents">Documenten</string>
     <string name="hs__done_btn">Klaar</string>
     <string name="hs__email_hint">E-mail (optioneel)</string>
     <string name="hs__email_input_validation_error">Voer een geldig e-mailadres in</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Feedback vesturen</string>
     <string name="hs__fetching_faqs_message">Antwoorden ophalen...</string>
     <string name="hs__file_not_found_msg">Bestand niet gevonden</string>
+    <string name="hs__file_type">%1$s Bestand</string>
+    <string name="hs__file_type_unsupported">Bestandstype wordt niet ondersteund</string>
     <string name="hs__help_header">Help</string>
     <string name="hs__image_downloaded_voice_over">Afbeelding, dubbelklik om weer te geven</string>
     <string name="hs__image_downloading_voice_over">Afbeelding, downloadt, %1$s van %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Instellingen</string>
     <string name="hs__permission_not_granted">Applicatie heeft geen toegang tot uw foto\'s</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Foto\'s</string>
     <string name="hs__picker_clear_query_voice_over">Query verwijderen</string>
     <string name="hs__picker_no_results">Geen resultaten gevonden</string>
     <string name="hs__picker_option_list_item_voice_over">Verzenden, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Terug</string>
     <string name="hs__picker_search_hint">Zoeken</string>
     <string name="hs__picker_search_icon_voice_over">Zoeken in lijst</string>
+    <string name="hs__preview_header">Preview</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">U vond dit nuttig</string>
     <string name="hs__question_unhelpful_message">U vond dit niet nuttig</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Wilt u de app boordelen op Google Play?</string>
     <string name="hs__review_title">Beoordeel onze app</string>
     <string name="hs__screenshot_add">Toevoegen</string>
-    <string name="hs__screenshot_cloud_attach_error">Fout bij toevoegen screenshot. Kies aan afbeelding op uw apparaat.</string>
-    <string name="hs__screenshot_limit_error">Screenshot mag niet groter zijn dan %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Fout bij het bijvoegen van bestand. Kies een bestand dat lokaal beschikbaar is op het apparaat.</string>
+    <string name="hs__screenshot_limit_error">De bestandsgrootte mag %.2f MB niet  overschrijden</string>
     <string name="hs__screenshot_remove">Verwijderen</string>
-    <string name="hs__screenshot_upload_error_msg">Fout bij uploaden screenshot</string>
+    <string name="hs__screenshot_upload_error_msg">Fout bij uploaden bestand</string>
     <string name="hs__search_footer">Kunt u niet vinden wat u zoekt?</string>
     <string name="hs__search_hint">Omschrijf het probleem</string>
     <string name="hs__search_result_message">Vragen die jouw antwoord misschien al bevatten</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">VERSTUREN</string>
     <string name="hs__sending_fail_msg">Verzenden mislukt</string>
     <string name="hs__sending_msg">Verzendt</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Blader, %1$s</string>
     <string name="hs__ssl_handshake_error">Verbinding is niet veilig. Er is een probleem opgetreden waardoor er geen veilige verbinding kon worden gemaakt.</string>
     <string name="hs__ssl_peer_unverified_error">Onveilige verbinding. De authenticiteit kon niet worden geverifieerd.</string>
     <string name="hs__starting_download">Downloaden starten...</string>
     <string name="hs__submit_conversation_btn">Toepassen</string>
     <string name="hs__tap_to_retry">Tik om opnieuw te proberen</string>
     <string name="hs__try_again_msg">Probeer het later opnieuw</string>
+    <string name="hs__user_attachment_rejected_voice_over">Uw antwoord, bestandstype wordt niet ondersteund</string>
     <string name="hs__user_failed_message_voice_over">Het verzenden van uw reactie is mislukt</string>
     <string name="hs__user_sending_message_voice_over">Uw reactie wordt verzonden</string>
     <string name="hs__user_sent_message_voice_over">Uw reactie op %s</string>
     <string name="hs__user_setup_retry_description">We proberen nog steeds ondersteuning te krijgen. Even geduld aub.</string>
     <string name="hs__username_blank_error">Geef een geldige naam op</string>
     <string name="hs__username_hint">Uw naam</string>
+    <string name="hs__video">Video\'s</string>
 </resources>

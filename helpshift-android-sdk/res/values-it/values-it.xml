@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Messaggio dall\'assistenza delle ore %s</string>
     <string name="hs__agent_message_with_name_voice_over">Messaggio dall\'assistenza di %1$s delle ore %2$s</string>
     <string name="hs__app_review_button">RECENSISCI</string>
+    <string name="hs__attach_file">Allega file</string>
     <string name="hs__attach_screenshot_btn">Allega screenshot</string>
+    <string name="hs__attachment_button_voice_over">Allega file</string>
     <string name="hs__attachment_downloaded__voice_over">File %s: tocca due volte per aprire.</string>
     <string name="hs__attachment_downloading_voice_over">Download file %1$s in corso: %2$s di %3$s.</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">File %1$s da %2$s: tocca due volte per scaricare.</string>
     <string name="hs__authentication_failed">Autenticazione fallita</string>
     <string name="hs__change_btn">Cambia</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Inserisci una data valida</string>
     <string name="hs__default_notification_channel_name">Supporto per l\'app</string>
     <string name="hs__description_invalid_length_error">Per un migliore servizio di assistenza, fornisci più dettagli</string>
+    <string name="hs__documents">Documenti</string>
     <string name="hs__done_btn">Fatto</string>
     <string name="hs__email_hint">E-mail (optional)</string>
     <string name="hs__email_input_validation_error">Inserire un indirizzo email valido</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Invia opinione</string>
     <string name="hs__fetching_faqs_message">Stiamo preparando le tue risposte...</string>
     <string name="hs__file_not_found_msg">File non trovato</string>
+    <string name="hs__file_type">%1$s File</string>
+    <string name="hs__file_type_unsupported">Errore, questo tipo di file non è supportato</string>
     <string name="hs__help_header">Aiuto</string>
     <string name="hs__image_downloaded_voice_over">Immagine: tocca due volte per visualizzare</string>
     <string name="hs__image_downloading_voice_over">Download immagine in corso: %1$s di %2$s.</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Impostazioni</string>
     <string name="hs__permission_not_granted">L\'applicazione non è autorizzata ad accedere alle tue foto</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Foto</string>
     <string name="hs__picker_clear_query_voice_over">Cancella query</string>
     <string name="hs__picker_no_results">Nessun risultato di ricerca trovato</string>
     <string name="hs__picker_option_list_item_voice_over">Invia, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Indietro</string>
     <string name="hs__picker_search_hint">Cerca</string>
     <string name="hs__picker_search_icon_voice_over">Cerca elenco</string>
+    <string name="hs__preview_header">Anteprima</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Ti è stato utile</string>
     <string name="hs__question_unhelpful_message">Non ti è stato utile</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Vuoi valutare la nostra app su Google Play?</string>
     <string name="hs__review_title">Valuta la nostra app</string>
     <string name="hs__screenshot_add">Aggiungi</string>
-    <string name="hs__screenshot_cloud_attach_error">Si è verificato un errore allegando lo screenshot. Seleziona un\'immagine dal tuo dispositivo.</string>
-    <string name="hs__screenshot_limit_error">La dimensione degli screenshot non può superare i %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Errore durante il collegamento del file. Scegli un file disponibile sul dispositivo.</string>
+    <string name="hs__screenshot_limit_error">Le dimensioni del file non  devono superare i %.2f MB</string>
     <string name="hs__screenshot_remove">Rimuovi</string>
-    <string name="hs__screenshot_upload_error_msg">Errore di caricamento screenshot</string>
+    <string name="hs__screenshot_upload_error_msg">Errore durante il caricamento del file</string>
     <string name="hs__search_footer">Non hai trovato quello che cercavi?</string>
     <string name="hs__search_hint">Descrivi il tuo problema.</string>
     <string name="hs__search_result_message">Domande che potrebbero contenere la risposta che ti serve.</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">INVIA</string>
     <string name="hs__sending_fail_msg">Invio non riuscito.</string>
     <string name="hs__sending_msg">Invio in corso</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Sfoglia, %1$s</string>
     <string name="hs__ssl_handshake_error">Si è verificato un errore nello stabilire una connessione fidata. La tua connessione non è sicura.</string>
     <string name="hs__ssl_peer_unverified_error">La tua connessione non è sicura. Si è verificato un errore nella verifica dell\'autenticità della connessione.</string>
     <string name="hs__starting_download">Avvio scaricamento...</string>
     <string name="hs__submit_conversation_btn">Invia</string>
     <string name="hs__tap_to_retry">Premi per riprovare</string>
     <string name="hs__try_again_msg">Per favore riprova più tardi</string>
+    <string name="hs__user_attachment_rejected_voice_over">La tua risposta, il tipo di file non è supportato</string>
     <string name="hs__user_failed_message_voice_over">La tua risposta: invio non riuscito.</string>
     <string name="hs__user_sending_message_voice_over">La tua risposta: invio in corso...</string>
     <string name="hs__user_sent_message_voice_over">La tua risposta delle ore %s</string>
     <string name="hs__user_setup_retry_description">Stiamo ancora cercando di raggiungere il supporto. Attendere prego.</string>
     <string name="hs__username_blank_error">Inserisci un nome valido</string>
     <string name="hs__username_hint">Il tuo nome</string>
+    <string name="hs__video">Video</string>
 </resources>

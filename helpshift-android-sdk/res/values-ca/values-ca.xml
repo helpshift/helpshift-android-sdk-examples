@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Missatge del Servei d\'Atenció enviat el dia %s</string>
     <string name="hs__agent_message_with_name_voice_over">Missatge del Servei d\'Atenció enviat per %1$s el dia %2$s</string>
     <string name="hs__app_review_button">REVISAR</string>
+    <string name="hs__attach_file">Adjuntar arxiu</string>
     <string name="hs__attach_screenshot_btn">Adjunta la captura de pantalla</string>
+    <string name="hs__attachment_button_voice_over">Adjuntar arxiu</string>
     <string name="hs__attachment_downloaded__voice_over">Fitxer %s, Toca dues vegades per obrir-lo</string>
     <string name="hs__attachment_downloading_voice_over">Fitxer, %1$s, Baixant %2$s de %3$s</string>
+    <string name="hs__attachment_name_voice_over">Expedient, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Fitxer %1$s, %2$s, Toca dues vegades per baixar-lo</string>
     <string name="hs__authentication_failed">L\'autenticació ha fallat</string>
     <string name="hs__change_btn">Canvia</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Introdueix una data vàlida.</string>
     <string name="hs__default_notification_channel_name">Suport a l\'aplicació</string>
     <string name="hs__description_invalid_length_error">Proporciona\'ns més informació perquè et puguem oferir una ajuda millor</string>
+    <string name="hs__documents">Documents</string>
     <string name="hs__done_btn">Fet</string>
     <string name="hs__email_hint">Adreça electrònica (opcional)</string>
     <string name="hs__email_input_validation_error">Introdueix un correu electrònic vàlid</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Enviar Comentari</string>
     <string name="hs__fetching_faqs_message">S\'estan obtenint respostes…</string>
     <string name="hs__file_not_found_msg">No s\'ha trobat el fitxer</string>
+    <string name="hs__file_type">%1$s Expedient</string>
+    <string name="hs__file_type_unsupported">Fitxer no està suportat Tipus</string>
     <string name="hs__help_header">Ajuda</string>
     <string name="hs__image_downloaded_voice_over">Fitxer d\'imatge, Toca dues vegades per veure\'l</string>
     <string name="hs__image_downloading_voice_over">Fitxer d\'imatge, Baixant, %1$s de %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Configuració</string>
     <string name="hs__permission_not_granted">L\'aplicació no té permís per accedir a les teves fotos</string>
     <string name="hs__permission_rationale_snackbar_action_label">D\'acord</string>
+    <string name="hs__photo">Fotografies</string>
     <string name="hs__picker_clear_query_voice_over">Esborra la consulta</string>
     <string name="hs__picker_no_results">No s\'han trobat resultats de la cerca</string>
     <string name="hs__picker_option_list_item_voice_over">Envia, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Enrere</string>
     <string name="hs__picker_search_hint">Cerca</string>
     <string name="hs__picker_search_icon_voice_over">Llista de cerca</string>
+    <string name="hs__preview_header">Vista prèvia</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">T\'ha ajudat</string>
     <string name="hs__question_unhelpful_message">No t\'ha servit d\'ajuda</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Vols escriure una ressenya sobre l\'aplicació a Google Play?</string>
     <string name="hs__review_title">Avalua la nostra App</string>
     <string name="hs__screenshot_add">Afegeix</string>
-    <string name="hs__screenshot_cloud_attach_error">Error en adjuntar la captura de pantalla. Selecciona una imatge del teu dispositiu.</string>
-    <string name="hs__screenshot_limit_error">La mida de la captura de la pantalla no pot tenir més de %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">S\'ha produït un error en adjuntar el fitxer. Tria un fitxer disponible localment al dispositiu.</string>
+    <string name="hs__screenshot_limit_error">La mida del fitxer no ha de ser superior a %.2f MB</string>
     <string name="hs__screenshot_remove">Suprimeix</string>
-    <string name="hs__screenshot_upload_error_msg">Error en penjar la captura de pantalla</string>
+    <string name="hs__screenshot_upload_error_msg">S\'ha produït un error en penjar el fitxer</string>
     <string name="hs__search_footer">No trobes el que cerques?</string>
     <string name="hs__search_hint">Descriu el teu problema</string>
     <string name="hs__search_result_message">Preguntes que ja et poden donar la teva resposta</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ENVIAR</string>
     <string name="hs__sending_fail_msg">No s\'ha pogut enviar</string>
     <string name="hs__sending_msg">S\'està enviant</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Explorar, %1$s</string>
     <string name="hs__ssl_handshake_error">La teva connexió no és segura. S\'ha produït un problema en establir una connexió de confiança.</string>
     <string name="hs__ssl_peer_unverified_error">La teva connexió no és segura. S\'ha produït un problema en verificar-ne l\'autenticitat.</string>
     <string name="hs__starting_download">S\'està iniciant la baixada…</string>
     <string name="hs__submit_conversation_btn">Envia</string>
     <string name="hs__tap_to_retry">Toca per tornar-ho a provar</string>
     <string name="hs__try_again_msg">Siusplau, intenta-ho més tard</string>
+    <string name="hs__user_attachment_rejected_voice_over">La vostra resposta, tipus de fitxer no és compatible</string>
     <string name="hs__user_failed_message_voice_over">La teva resposta, No s\'ha pogut enviar</string>
     <string name="hs__user_sending_message_voice_over">La teva resposta, S\'està enviant</string>
     <string name="hs__user_sent_message_voice_over">La teva resposta del dia %s</string>
     <string name="hs__user_setup_retry_description">Encara estem intentant donar suport. Espereu.</string>
     <string name="hs__username_blank_error">Introdueix un nom vàlid</string>
     <string name="hs__username_hint">Nom</string>
+    <string name="hs__video">Vídeos</string>
 </resources>

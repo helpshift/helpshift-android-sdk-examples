@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">%s அன்று ஆதரவிடமிருந்து செய்தி</string>
     <string name="hs__agent_message_with_name_voice_over">%1$s அன்று %2$s-க்கு ஆதரவிடமிருந்து செய்தி</string>
     <string name="hs__app_review_button">மதிப்புரை</string>
+    <string name="hs__attach_file">கோப்பினை இணைக்கவும்</string>
     <string name="hs__attach_screenshot_btn">ஸ்கிரீன்ஷாட்டை இணை</string>
+    <string name="hs__attachment_button_voice_over">கோப்பினை இணைக்கவும்</string>
     <string name="hs__attachment_downloaded__voice_over">கோப்பு, %s, திறப்பதற்கு இருமுறைத் தட்டவும்</string>
     <string name="hs__attachment_downloading_voice_over">கோப்பு, %1$s, பதிவிறக்கப்படுகிறது %2$s / %3$s</string>
+    <string name="hs__attachment_name_voice_over">கோப்பு, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">கோப்பு, %1$s, %2$s, பதிவிறக்க இருமுறைத் தட்டவும்</string>
     <string name="hs__authentication_failed">அங்கீகரிப்பு தோல்வியுற்றது</string>
     <string name="hs__change_btn">மாற்று</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">சரியான தேதியை உள்ளிடவும்</string>
     <string name="hs__default_notification_channel_name">பயன்பாட்டு ஆதரவு</string>
     <string name="hs__description_invalid_length_error">சிறப்பாக உதவ, கூடுதல் விவரங்களை வழங்கவும்</string>
+    <string name="hs__documents">ஆவணங்கள்</string>
     <string name="hs__done_btn">முடிந்தது</string>
     <string name="hs__email_hint">மின்னஞ்சல் (விரும்பினால்)</string>
     <string name="hs__email_input_validation_error">சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">கருத்து அனுப்பு</string>
     <string name="hs__fetching_faqs_message">உங்கள் பதில்களைப் பெறுகிறது…</string>
     <string name="hs__file_not_found_msg">கோப்பு இல்லை</string>
+    <string name="hs__file_type">%1$s கோப்பு</string>
+    <string name="hs__file_type_unsupported">கோப்பு வகை ஆதரிக்கப்படவில்லை</string>
     <string name="hs__help_header">உதவி</string>
     <string name="hs__image_downloaded_voice_over">படம், பார்ப்பதற்கு இருமுறைத் தட்டவும்</string>
     <string name="hs__image_downloading_voice_over">படம், பதிவிறக்கப்படுகிறது, %1$s / %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">அமைப்புகள்</string>
     <string name="hs__permission_not_granted">உங்கள் புகைப்படங்களை அணுக, பயன்பாட்டுக்கு அனுமதி இல்லை</string>
     <string name="hs__permission_rationale_snackbar_action_label">சரி</string>
+    <string name="hs__photo">புகைப்படங்கள்</string>
     <string name="hs__picker_clear_query_voice_over">கேள்வியை அழி</string>
     <string name="hs__picker_no_results">தேடல் முடிவுகள் இல்லை</string>
     <string name="hs__picker_option_list_item_voice_over">அனுப்பு, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">பின்</string>
     <string name="hs__picker_search_hint">தேடு</string>
     <string name="hs__picker_search_icon_voice_over">தேடல் பட்டியல்</string>
+    <string name="hs__preview_header">மாதிரிக்காட்சி</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">இது உதவியாக இருந்தது</string>
     <string name="hs__question_unhelpful_message">இது உதவியாக இல்லை</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">பயன்பாட்டை Google Play இல் மதிப்பாய்வு செய்ய விரும்புகிறீர்களா?</string>
     <string name="hs__review_title">எங்கள் பயன்பாட்டை மதிப்பிடுக</string>
     <string name="hs__screenshot_add">சேர்</string>
-    <string name="hs__screenshot_cloud_attach_error">ஸ்கிரீன்ஷாட்டை இணைப்பதில் பிழை. உங்கள் சாதனத்தில் உள்ள படத்தைத் தேர்வு செய்யவும்.</string>
-    <string name="hs__screenshot_limit_error">ஸ்கிரீன்ஷாட்டின் அளவு %.2f MB க்கு மிகாமல் இருக்க வேண்டும்</string>
+    <string name="hs__screenshot_cloud_attach_error">கோப்பை இணைப்பதில் பிழை. சாதனத்தில் உள்நாட்டில் கிடைக்கும் கோப்பைத் தேர்வுசெய்க.</string>
+    <string name="hs__screenshot_limit_error">கோப்பு அளவு %.2f MB ஐ விட அதிகமாக இருக்கக்கூடாது</string>
     <string name="hs__screenshot_remove">அகற்று=</string>
-    <string name="hs__screenshot_upload_error_msg">ஸ்கிரீன்ஷாட்டை ஏற்றுவதில் பிழை</string>
+    <string name="hs__screenshot_upload_error_msg">கோப்பை பதிவேற்றுவதில் பிழை</string>
     <string name="hs__search_footer">நீங்கள் தேடுவது கிடைக்கவில்லையா?</string>
     <string name="hs__search_hint">உங்கள் பிரச்சனையை விவரிக்கவும்</string>
     <string name="hs__search_result_message">ஏற்கனவே பதிலளிக்கப்பட்டுள்ள கேள்விகள்</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">அனுப்பு</string>
     <string name="hs__sending_fail_msg">அனுப்ப முடியவில்லை</string>
     <string name="hs__sending_msg">அனுப்புகிறது</string>
+    <string name="hs__si_root_intent_list_item_voice_over">உலாவு, %1$s</string>
     <string name="hs__ssl_handshake_error">உங்கள் இணைப்பு பாதுகாப்பானது இல்லை. நம்பகமான இணைப்பை உருவாக்குவதில் பிரச்சனை உள்ளது.</string>
     <string name="hs__ssl_peer_unverified_error">உங்கள் இணைப்பு பாதுகாப்பானது இல்லை. இதன் நம்பகத் தன்மையைச் சரிபார்ப்பதில் பிரச்சனை உள்ளது</string>
     <string name="hs__starting_download">பதிவிறக்கத்தைத் தொடங்குகிறது…</string>
     <string name="hs__submit_conversation_btn">சமர்ப்பி</string>
     <string name="hs__tap_to_retry">மீண்டும் முயற்சிக்க தட்டவும்</string>
     <string name="hs__try_again_msg">தயவு செய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="hs__user_attachment_rejected_voice_over">உங்கள் பதில், கோப்பு வகை ஆதரிக்கப்படவில்லை</string>
     <string name="hs__user_failed_message_voice_over">உங்கள் பதிலை, அனுப்ப முடியவில்லை</string>
     <string name="hs__user_sending_message_voice_over">உங்கள் பதில், அனுப்பப்படுகிறது</string>
     <string name="hs__user_sent_message_voice_over">%s அன்று பதிலளித்துள்ளீர்கள்</string>
     <string name="hs__user_setup_retry_description">நாங்கள் இன்னும் ஆதரவை அடைய முயற்சிக்கிறோம். காத்திருக்கவும்.</string>
     <string name="hs__username_blank_error">சரியான பெயரை உள்ளிடவும்</string>
     <string name="hs__username_hint">உங்கள் பெயர்</string>
+    <string name="hs__video">வீடியோக்கள்</string>
 </resources>

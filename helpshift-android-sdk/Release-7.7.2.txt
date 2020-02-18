@@ -1,4 +1,4 @@
-Helpshift SDK 7.6.3 Release Notes (for Android)
+Helpshift SDK 7.7.2 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,55 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.7.2 Release Date: February 17, 2020
+      * Fixed a bug where the user data drops when migrating from SDK v6.x or below to v7.7.0.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely when the user tries to file a new issue with smart intents if conversation history is disabled until the user reopens the chat screen.
+      * Fixed a bug where the pre-fill text in the reply box, configured via conversationPrefillText API config, wasn't being updated if the developer updates the prefill text in later sessions.
+      * Fixed an edge case bug where the followup request was rejected if the user rejects the issue resolution question and closes the chat screen.
+      * Fixed a bug where the image attachment message is shown as a generic attachment message bubble on the chat screen when an issue is filed with an attachment via form-based issue filing flow.
+7.7.2-withCampaigns Release Date: February 17, 2020
+      * Fixed a bug where the user data drops when migrating from SDK v6.x or below to v7.7.0.
+      * Fixed an edge case bug where the typing indicator was shown indefinitely when the user tries to file a new issue with smart intents if conversation history is disabled until the user reopens the chat screen.
+      * Fixed a bug where the pre-fill text in the reply box, configured via conversationPrefillText API config, wasn't being updated if the developer updates the prefill text in later sessions.
+      * Fixed an edge case bug where the followup request was rejected if the user rejects the issue resolution question and closes the chat screen.
+      * Fixed a bug where the image attachment message is shown as a generic attachment message bubble on the chat screen when an issue is filed with an attachment via form-based issue filing flow.
+7.7.1 Release Date: February 7, 2020
+      * Fixed a bug where the attachment picker was not fully visible in landscape mode on the chat screen when an app uses android support library version less than v28.0.0.
+7.7.1-withCampaigns Release Date: February 7, 2020
+      * Fixed a crash in internal error reporting when developer initializes the Campaigns-enabled SDK with "Support" instance.
+      * Fixed a bug where the attachment picker was not fully visible in landscape mode on the chat screen when an app uses android support library version less than v28.0.0.
+7.7.0 Release Date: February 5, 2020
+      * Added support for suggesting AI-powered issue categories to your users at the start of a conversation. [Learn more](https://support.helpshift.com/kb/article/helpshift-smart-intents/)
+      * Added ability for end-users to send files such as pdf, video, etc. during a conversation. [Learn more](https://support.helpshift.com/kb/article/how-do-i-restrict-file-types-and-attachments/)
+      * Added support for sending files via Helpshift bots. [Learn more](https://support.helpshift.com/kb/article/how-do-i-send-attachments-in-bots/)
+      * Added support for bots to display AI powered FAQ(s) depending on the user message. [Learn more]( https://support.helpshift.com/kb/article/what-are-custom-bots-and-how-do-i-use-them/#add-ai-powered-faqs-to-bot-conversations)
+      * Added support for Helpshift error reporting. [Learn more](/android/sdk-configuration/#disableErrorReporting)
+      * The resolution question for a conversation would be assumed to be off until configuration set on Helpshift Admin console is fetched.
+      * Conversation screen now occupies full width on tablet devices. Please note that the existing keys for changing padding are deprecated and will not be functional moving forward.
+      * Fixed jitters in loading the chat screen UI when multiple attachments are present in the conversation.
+      * Removed support for linkifying selective map addresses in agent messages thus reducing the file descriptor count.
+      * Fixed a crash when the user clicks on a link in agent message and there was no suitable app to handle it.
+      * Fixed a bug where the skip label for list picker bot was not shown on some tablet devices.
+      * Fixed a rare bug when an InstallException was thrown if the developer calls the `Core.install()` and other Helpshift API from different threads.
+      * Fixed a rare crash which occurred when the user changes the time/timezone on the chat screen.
+      * Fixed a bug where, if the app excludes the storage permission from the manifest and the user downloads an attachment, the file is incorrectly downloaded as a ".bin" file."
+      * Fixed a bug where the user could reopen an Issue by retrying the last unsent reply to a bot.
+7.7.0-withCampaigns Release Date: February 5, 2020
+      * Added support for suggesting AI-powered issue categories to your users at the start of a conversation. [Learn more](https://support.helpshift.com/kb/article/helpshift-smart-intents/)
+      * Added ability for end-users to send files such as pdf, video, etc. during a conversation. [Learn more](https://support.helpshift.com/kb/article/how-do-i-restrict-file-types-and-attachments/)
+      * Added support for sending files via Helpshift bots. [Learn more](https://support.helpshift.com/kb/article/how-do-i-send-attachments-in-bots/)
+      * Added support for bots to display AI powered FAQ(s) depending on the user message. [Learn more]( https://support.helpshift.com/kb/article/what-are-custom-bots-and-how-do-i-use-them/#add-ai-powered-faqs-to-bot-conversations)
+      * Added support for Helpshift error reporting. [Learn more](/android/sdk-configuration/#disableErrorReporting)
+      * The resolution question for a conversation would be assumed to be off until configuration set on Helpshift Admin console is fetched.
+      * Conversation screen now occupies full width on tablet devices. Please note that the existing keys for changing padding are deprecated and will not be functional moving forward.
+      * Fixed jitters in loading the chat screen UI when multiple attachments are present in the conversation.
+      * Removed support for linkifying selective map addresses in agent messages thus reducing the file descriptor count.
+      * Fixed a crash when the user clicks on a link in agent message and there was no suitable app to handle it.
+      * Fixed a bug where the skip label for list picker bot was not shown on some tablet devices.
+      * Fixed a rare bug when an InstallException was thrown if the developer calls the `Core.install()` and other Helpshift API from different threads.
+      * Fixed a rare crash which occurred when the user changes the time/timezone on the chat screen.
+      * Fixed a bug where, if the app excludes the storage permission from the manifest and the user downloads an attachment, the file is incorrectly downloaded as a ".bin" file."
+      * Fixed a bug where the user could reopen an Issue by retrying the last unsent reply to a bot.
 7.6.3 Release Date: October 10, 2019
       * Added new themes to support Dark Mode (https://developers.helpshift.com/android/design/#dark-mode-support).
       * Added new API (https://developers.helpshift.com/android/design/#change-theme-runtime) for changing the Helpshift SDK theme at runtime..

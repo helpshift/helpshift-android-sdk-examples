@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Správa od tímu podpory o %s</string>
     <string name="hs__agent_message_with_name_voice_over">Správa od tímu podpory %1$s o %2$s</string>
     <string name="hs__app_review_button">OHODNOTIŤ</string>
+    <string name="hs__attach_file">Priložiť súbor</string>
     <string name="hs__attach_screenshot_btn">Priložiť snímku obrazovky</string>
+    <string name="hs__attachment_button_voice_over">Priložiť súbor</string>
     <string name="hs__attachment_downloaded__voice_over">Súbor, %s, otvoríte dvojitým ťuknutím</string>
     <string name="hs__attachment_downloading_voice_over">Súbor, %1$s, preberanie %2$s z %3$s</string>
+    <string name="hs__attachment_name_voice_over">File, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Súbor, %1$s, %2$s, prevezmete dvojitým ťuknutím</string>
     <string name="hs__authentication_failed">Overenie zlyhalo</string>
     <string name="hs__change_btn">Zmeniť</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Zadajte platný dátum</string>
     <string name="hs__default_notification_channel_name">Podpora v aplikácii</string>
     <string name="hs__description_invalid_length_error">Ak chcete získať lepšiu pomoc, uveďte viac informácií</string>
+    <string name="hs__documents">Dokumenty</string>
     <string name="hs__done_btn">Hotovo</string>
     <string name="hs__email_hint">E-mail (voliteľné)</string>
     <string name="hs__email_input_validation_error">Zadajte platnú e-mailovú adresu</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Poslať spätnú väzbu</string>
     <string name="hs__fetching_faqs_message">Získavajú sa vaše odpovede…</string>
     <string name="hs__file_not_found_msg">Súbor sa nenašiel</string>
+    <string name="hs__file_type">%1$s</string>
+    <string name="hs__file_type_unsupported">Chyba, typ súboru nie je podporovaný</string>
     <string name="hs__help_header">Pomoc</string>
     <string name="hs__image_downloaded_voice_over">Obrázok zobrazíte dvojitým ťuknutím</string>
     <string name="hs__image_downloading_voice_over">Preberanie obrázka, %1$s z %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Nastavenia</string>
     <string name="hs__permission_not_granted">Aplikácia nemá povolený prístup k vašim fotografiám</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">fotografie</string>
     <string name="hs__picker_clear_query_voice_over">Vymazať dopyt</string>
     <string name="hs__picker_no_results">Nenašli sa žiadne výsledky</string>
     <string name="hs__picker_option_list_item_voice_over">Odoslať, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Späť</string>
     <string name="hs__picker_search_hint">Vyhľadať</string>
     <string name="hs__picker_search_icon_voice_over">Vyhľadávať v zozname</string>
+    <string name="hs__preview_header">Náhľad</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Táto rada vám pomohla</string>
     <string name="hs__question_unhelpful_message">Táto rada vám nepomohla</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Chceli by ste ohodnotiť aplikáciu v Google Play?</string>
     <string name="hs__review_title">Ohodnoťte našu aplikáciu</string>
     <string name="hs__screenshot_add">Pridať</string>
-    <string name="hs__screenshot_cloud_attach_error">Pri prikladaní snímky obrazovky došlo k chybe. Vyberte obrázok na vašom zariadení.</string>
-    <string name="hs__screenshot_limit_error">Veľkosť snímky obrazovky by nemala presiahnuť %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Chyba pri pripájaní súboru. Vyberte súbor lokálne dostupný na zariadení.</string>
+    <string name="hs__screenshot_limit_error">Veľkosť súboru by nemala prekročiť %.2f MB</string>
     <string name="hs__screenshot_remove">Odobrať</string>
-    <string name="hs__screenshot_upload_error_msg">Pri načítavaní snímky obrazovky došlo k chybe</string>
+    <string name="hs__screenshot_upload_error_msg">Chyba pri nahrávaní súboru</string>
     <string name="hs__search_footer">Nenašli ste to, čo ste hľadali?</string>
     <string name="hs__search_hint">Popíšte svoj problém</string>
     <string name="hs__search_result_message">Otázky, ktoré by mohli obsahovať odpovede, ktoré hľadáte</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">POSLAŤ</string>
     <string name="hs__sending_fail_msg">Odosielanie zlyhalo</string>
     <string name="hs__sending_msg">Odosiela sa</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Prehliadať, %1$s</string>
     <string name="hs__ssl_handshake_error">Vaše pripojenie nie je bezpečné. Došlo k problému pri nadväzovaní dôveryhodného pripojenia</string>
     <string name="hs__ssl_peer_unverified_error">Vaše pripojenie nie je bezpečné. Došlo k problému pri overovaní jeho dôveryhodnosti</string>
     <string name="hs__starting_download">Začína sa sťahovanie…</string>
     <string name="hs__submit_conversation_btn">Odoslať</string>
     <string name="hs__tap_to_retry">Stlač pre opakovanie</string>
     <string name="hs__try_again_msg">Skúste neskôr prosím</string>
+    <string name="hs__user_attachment_rejected_voice_over">Vaša odpoveď, typ súboru nie je podporovaný</string>
     <string name="hs__user_failed_message_voice_over">Odosielanie vašej odpovede zlyhalo</string>
     <string name="hs__user_sending_message_voice_over">Posiela sa vaša odpoveď</string>
     <string name="hs__user_sent_message_voice_over">Vaša odpoveď o %s</string>
     <string name="hs__user_setup_retry_description">Stále sa snažíme dosiahnuť podporu. Prosím čakajte.</string>
     <string name="hs__username_blank_error">Zadajte platné meno</string>
     <string name="hs__username_hint">Vaše meno</string>
+    <string name="hs__video">videá</string>
 </resources>

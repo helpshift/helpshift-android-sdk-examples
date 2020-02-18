@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Съобщение от отдела за поддръжка на %s</string>
     <string name="hs__agent_message_with_name_voice_over">Съобщение от отдела за поддръжка от %1$s на %2$s</string>
     <string name="hs__app_review_button">РЕЦЕНЗИЯ</string>
+    <string name="hs__attach_file">Прикачите файл</string>
     <string name="hs__attach_screenshot_btn">Прикачване на екранна снимка</string>
+    <string name="hs__attachment_button_voice_over">Прикачите файл</string>
     <string name="hs__attachment_downloaded__voice_over">Файл, %s, натиснете два пъти за отваряне</string>
     <string name="hs__attachment_downloading_voice_over">Файл, %1$s, изтегляне на %2$s от %3$s</string>
+    <string name="hs__attachment_name_voice_over">Файл, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Файл, %1$s, %2$s, натиснете два пъти за изтегляне</string>
     <string name="hs__authentication_failed">Неуспешна идентификация</string>
     <string name="hs__change_btn">Промяна</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Въведете валидна дата</string>
     <string name="hs__default_notification_channel_name">Поддръжка в приложението</string>
     <string name="hs__description_invalid_length_error">За да Ви окажем по-добро съдействие, дайте повече подробности</string>
+    <string name="hs__documents">Документи</string>
     <string name="hs__done_btn">Готово</string>
     <string name="hs__email_hint">Имейл (по желание)</string>
     <string name="hs__email_input_validation_error">въведете валиден имейл адрес</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Изпратете обратна връзка</string>
     <string name="hs__fetching_faqs_message">Получаване на отговорите Ви…</string>
     <string name="hs__file_not_found_msg">Файлът не е открит</string>
+    <string name="hs__file_type">%1$s Файл</string>
+    <string name="hs__file_type_unsupported">Грешка, файл не поддържа типа</string>
     <string name="hs__help_header">Помощ</string>
     <string name="hs__image_downloaded_voice_over">Изображение, натиснете два пъти за преглеждане</string>
     <string name="hs__image_downloading_voice_over">Изображение, изтегляне, %1$s от %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Настройки</string>
     <string name="hs__permission_not_granted">Приложението няма разрешение за достъп до Вашите снимки</string>
     <string name="hs__permission_rationale_snackbar_action_label">ОК</string>
+    <string name="hs__photo">Снимки</string>
     <string name="hs__picker_clear_query_voice_over">Изчистване на заявката</string>
     <string name="hs__picker_no_results">Няма открити резултати</string>
     <string name="hs__picker_option_list_item_voice_over">Изпращане, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Назад</string>
     <string name="hs__picker_search_hint">Търсене</string>
     <string name="hs__picker_search_icon_voice_over">Списък за търсене</string>
+    <string name="hs__preview_header">Преглед</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Това ви помогна</string>
     <string name="hs__question_unhelpful_message">Това не Ви е било от полза</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Искате ли да дадете мнението си за приложението в Google Play?</string>
     <string name="hs__review_title">Оценете нашето приложение</string>
     <string name="hs__screenshot_add">Добавяне</string>
-    <string name="hs__screenshot_cloud_attach_error">Грешка при прикачване на екранната снимка. Изберете изображение от устройството си.</string>
-    <string name="hs__screenshot_limit_error">Размерът на екранната снимка не може да превишава %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Грешка при свързването на файл. Моля, изберете файл, наличен локално на устройството.</string>
+    <string name="hs__screenshot_limit_error">Размерът на файла не трябва да надвишава %.2f MB</string>
     <string name="hs__screenshot_remove">Премахване</string>
-    <string name="hs__screenshot_upload_error_msg">Грешка при качване на екранната снимка</string>
+    <string name="hs__screenshot_upload_error_msg">Грешка при качването на файл</string>
     <string name="hs__search_footer">Не можете ли да откриете това, което търсите?</string>
     <string name="hs__search_hint">Опишете проблема си</string>
     <string name="hs__search_result_message">Въпроси, които може да са получили вашия отговор</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">ИЗПРАЩАНЕ</string>
     <string name="hs__sending_fail_msg">Неуспешно изпращане</string>
     <string name="hs__sending_msg">Изпращане</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Преглед, %1$s</string>
     <string name="hs__ssl_handshake_error">Вашата връзка не е сигурна. Възникна проблем при установяването на надеждна връзка</string>
     <string name="hs__ssl_peer_unverified_error">Вашата връзка не е сигурна. Възникна проблем при проверката на нейната автентичност</string>
     <string name="hs__starting_download">Стартиране на изтеглянето…</string>
     <string name="hs__submit_conversation_btn">Изпращане</string>
     <string name="hs__tap_to_retry">Докоснете, за да опитате отново</string>
     <string name="hs__try_again_msg">Моля, опитайте отново по-късно</string>
+    <string name="hs__user_attachment_rejected_voice_over">Вашият отговор, типът файл не се поддържа</string>
     <string name="hs__user_failed_message_voice_over">Вашият отговор, неуспешно изпращане</string>
     <string name="hs__user_sending_message_voice_over">Вашият отговор, изпращане</string>
     <string name="hs__user_sent_message_voice_over">Вашият отговор на %s</string>
     <string name="hs__user_setup_retry_description">Все още се опитваме да получим подкрепа. Моля Изчакай.</string>
     <string name="hs__username_blank_error">Въведете валидно име</string>
     <string name="hs__username_hint">Вашето име</string>
+    <string name="hs__video">Видео</string>
 </resources>

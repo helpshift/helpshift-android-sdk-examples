@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">הודעה מהתמיכה בשעה/תאריך %s</string>
     <string name="hs__agent_message_with_name_voice_over">הודעה מהתמיכה מאת %1$s בשעה/תאריך %2$s</string>
     <string name="hs__app_review_button">סקירה</string>
+    <string name="hs__attach_file">לצרף קובץ</string>
     <string name="hs__attach_screenshot_btn">צרף/צרפי קובץ</string>
+    <string name="hs__attachment_button_voice_over">צרף/י קובץ</string>
     <string name="hs__attachment_downloaded__voice_over">קובץ, %s, לפתיחה הקש פעמיים</string>
     <string name="hs__attachment_downloading_voice_over">קובץ, %1$s, מוריד %2$s מתוך %3$s</string>
+    <string name="hs__attachment_name_voice_over">קובץ, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">קובץ %1$s, %2$s, להורדה הקש פעמיים</string>
     <string name="hs__authentication_failed">אימות נכשל</string>
     <string name="hs__change_btn">שנה/שני</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">הזן תאריך תקף</string>
     <string name="hs__default_notification_channel_name">תמיכה בתוך היישום</string>
     <string name="hs__description_invalid_length_error">לקבלת סיוע טוב יותר, הזן פרטים נוספים</string>
+    <string name="hs__documents">מסמכים</string>
     <string name="hs__done_btn">סיום</string>
     <string name="hs__email_hint">דוא"ל (אופציונלי)</string>
     <string name="hs__email_input_validation_error">הכנס כתובת אימייל תקינה</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">שלח/י משוב</string>
     <string name="hs__fetching_faqs_message">מקבל את התשובות שלך…</string>
     <string name="hs__file_not_found_msg">הקובץ לא נמצא</string>
+    <string name="hs__file_type">קובץ %1$s</string>
+    <string name="hs__file_type_unsupported">סוג הקובץ אינו נתמך</string>
     <string name="hs__help_header">עזרה</string>
     <string name="hs__image_downloaded_voice_over">תמונה, לצפייה הקש פעמיים</string>
     <string name="hs__image_downloading_voice_over">תמונה, מוריד, %1$s מתוך %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">הגדרות</string>
     <string name="hs__permission_not_granted">לאפליקציה אין הרשאה לגשת לתמונות שלך</string>
     <string name="hs__permission_rationale_snackbar_action_label">אישור</string>
+    <string name="hs__photo">תמונות</string>
     <string name="hs__picker_clear_query_voice_over">נקה שאילתה</string>
     <string name="hs__picker_no_results">לא נמצאו תוצאות</string>
     <string name="hs__picker_option_list_item_voice_over">שלח, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">הקודם</string>
     <string name="hs__picker_search_hint">חיפוש</string>
     <string name="hs__picker_search_icon_voice_over">רשימת החיפושים</string>
+    <string name="hs__preview_header">צפייה מקדימה</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">זה עזר לך</string>
     <string name="hs__question_unhelpful_message">זה לא היה מועיל</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">האם ברצונך לסקור את האפליקציה ב-Google Play?</string>
     <string name="hs__review_title">דרג/י את האפליקציה</string>
     <string name="hs__screenshot_add">הוסף/הוסיפי</string>
-    <string name="hs__screenshot_cloud_attach_error">שגיאה בצירוף צילום מסך. בחר/י תמונה במכשיר.</string>
-    <string name="hs__screenshot_limit_error">גודל צילום המסך לא יכול לחרוג מ-%.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">שגיאה בצירוף הקובץ. אנא בחר קובץ הזמין באופן מקומי על המכשיר.</string>
+    <string name="hs__screenshot_limit_error">גודל הקובץ אינו יכול לעלות על %.2f MB</string>
     <string name="hs__screenshot_remove">הסר/הסירי</string>
-    <string name="hs__screenshot_upload_error_msg">שגיאה בהעלאת צילום מסך</string>
+    <string name="hs__screenshot_upload_error_msg">שגיאה בהעלאת קובץ</string>
     <string name="hs__search_footer">לא הצלחת למצוא את מה שאת/ה מחפש/ת?</string>
     <string name="hs__search_hint">תאר/י את הבעיה</string>
     <string name="hs__search_result_message">שאלות שיתכן שכוללות כבר תשובה בשבילך</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">שלח</string>
     <string name="hs__sending_fail_msg">השליחה נכשלה</string>
     <string name="hs__sending_msg">שולח</string>
+    <string name="hs__si_root_intent_list_item_voice_over">חפש, %1$s</string>
     <string name="hs__ssl_handshake_error">החיבור שלך אינו מאובטח. הייתה בעיה ביצירת חיבור מהימן.</string>
     <string name="hs__ssl_peer_unverified_error">החיבור שלך אינו מאובטח. הייתה בעיה באימות מקוריות החיבור</string>
     <string name="hs__starting_download">התחל בהורדה…</string>
     <string name="hs__submit_conversation_btn">שלח/י</string>
     <string name="hs__tap_to_retry">הקש כדי לנסות שוב</string>
     <string name="hs__try_again_msg">בבקשה נסה שוב מאוחר יותר</string>
+    <string name="hs__user_attachment_rejected_voice_over">התשובה שלך, סוג הקובץ אינו נתמך</string>
     <string name="hs__user_failed_message_voice_over">תשובתך, השליחה נכשלה</string>
     <string name="hs__user_sending_message_voice_over">תשובתך, נשלחת</string>
     <string name="hs__user_sent_message_voice_over">תשובתך בשעה/תאריך %s</string>
     <string name="hs__user_setup_retry_description">אנחנו עדיין מנסים להגיע לתמיכה. המתן בבקשה.</string>
     <string name="hs__username_blank_error">הזן/הזיני שם תקף</string>
     <string name="hs__username_hint">שמך</string>
+    <string name="hs__video">סרטונים</string>
 </resources>

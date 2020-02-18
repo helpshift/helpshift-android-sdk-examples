@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Thông báo từ bộ phận hỗ trợ vào %s</string>
     <string name="hs__agent_message_with_name_voice_over">Thông báo từ bộ phận hỗ trợ bởi %1$s vào %2$s</string>
     <string name="hs__app_review_button">ĐÁNH GIÁ</string>
+    <string name="hs__attach_file">Đính kèm Tệp tin</string>
     <string name="hs__attach_screenshot_btn">Đính kèm Ảnh chụp màn hình</string>
+    <string name="hs__attachment_button_voice_over">Đính kèm tậ̣p tin</string>
     <string name="hs__attachment_downloaded__voice_over">Tệp, %s, Nhấn đúp để mở</string>
     <string name="hs__attachment_downloading_voice_over">Tệp, %1$s, Đang tải %2$s / %3$s</string>
+    <string name="hs__attachment_name_voice_over">Tập tin, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Tệp, %1$s, %2$s, Nhấn đúp để xem</string>
     <string name="hs__authentication_failed">Quá trình xác thực đã thất bại</string>
     <string name="hs__change_btn">Thay đổi</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Nhập ngày hợp lệ</string>
     <string name="hs__default_notification_channel_name">Hỗ trợ ứng dụng</string>
     <string name="hs__description_invalid_length_error">Để được hỗ trợ tốt hơn, vui lòng cung cấp thêm thông tin</string>
+    <string name="hs__documents">Tài liệu</string>
     <string name="hs__done_btn">Hoàn thành</string>
     <string name="hs__email_hint">Email (tùy chọn)</string>
     <string name="hs__email_input_validation_error">Nhập địa chỉ email hợp lệ</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Gửi Phản hồi</string>
     <string name="hs__fetching_faqs_message">Đang nhậ̣n câu trả lời của bạn…</string>
     <string name="hs__file_not_found_msg">Không tìm thấy tậ̣p tin</string>
+    <string name="hs__file_type">Tập tin %1$s</string>
+    <string name="hs__file_type_unsupported">Loại tệp tin không được hỗ trợ</string>
     <string name="hs__help_header">Trợ giúp</string>
     <string name="hs__image_downloaded_voice_over">Hình, Nhấn đúp để xem</string>
     <string name="hs__image_downloading_voice_over">Hình ành, Đang tải xuống, %1$s / %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Thiết lậ̣p</string>
     <string name="hs__permission_not_granted">Ứng dụng không có quyền truy cậ̣p vào hình ảnh của bạn</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
+    <string name="hs__photo">Ảnh</string>
     <string name="hs__picker_clear_query_voice_over">Xóa truy vấn</string>
     <string name="hs__picker_no_results">Không tìm thấy kết quả</string>
     <string name="hs__picker_option_list_item_voice_over">Gửi, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Quay lại</string>
     <string name="hs__picker_search_hint">Tìm kiếm</string>
     <string name="hs__picker_search_icon_voice_over">Danh sách tìm kiếm</string>
+    <string name="hs__preview_header">Xem trước</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">Bạn thấy điều này hữu ích</string>
     <string name="hs__question_unhelpful_message">Bạn thấy điều này không hữu ích</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Bạn có muốn nhận xét Ứng dụng này trên Google Play không?</string>
     <string name="hs__review_title">Xếp hạng Ứng dụng</string>
     <string name="hs__screenshot_add">Thêm</string>
-    <string name="hs__screenshot_cloud_attach_error">Lỗi đính kèm ảnh chụp màn hình. Vui lòng chọn một hình trên thiết bị của bạn.</string>
-    <string name="hs__screenshot_limit_error">Kích thước ảnh chụp màn hình không được lớn hơn %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Lỗi đính kèm tập tin. Vui lòng chọn tập tin có sẵn cục bộ trên thiết bị.</string>
+    <string name="hs__screenshot_limit_error">Kích cỡ tập tin không được vượt quá %.2f MB</string>
     <string name="hs__screenshot_remove">Xóa</string>
-    <string name="hs__screenshot_upload_error_msg">Lỗi tải ảnh chụp màn hình lên</string>
+    <string name="hs__screenshot_upload_error_msg">Lỗi tải lên tập tin</string>
     <string name="hs__search_footer">Bạn không tìm thấy điều bạn muốn tìm?</string>
     <string name="hs__search_hint">Mô tả vấn đề của bạn</string>
     <string name="hs__search_result_message">Câu hỏi có thể đã có câu trả lời của bạn</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">GỬI</string>
     <string name="hs__sending_fail_msg">Gửi thất bại</string>
     <string name="hs__sending_msg">Đang gửi</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Duyệt, %1$s</string>
     <string name="hs__ssl_handshake_error">Kết nối của bạn không an toàn. Đã có sự cố khi thiết lập kết nối tin cậy</string>
     <string name="hs__ssl_peer_unverified_error">Kết nối của bạn không an toàn. Đã có sự cố trong khi xác minh tính xác thực của kết nối</string>
     <string name="hs__starting_download">Đang bắt đầu tải về…</string>
     <string name="hs__submit_conversation_btn">Gửi</string>
     <string name="hs__tap_to_retry">Chạm để thử lại</string>
     <string name="hs__try_again_msg">Vui lòng thử lại sau</string>
+    <string name="hs__user_attachment_rejected_voice_over">Tin nhắn trả lời của bạn, loại tệp tin không được hỗ trợ</string>
     <string name="hs__user_failed_message_voice_over">Phản hồi của bạn, Gửi thất bại</string>
     <string name="hs__user_sending_message_voice_over">Phản hồi của bạn, Đang gửi</string>
     <string name="hs__user_sent_message_voice_over">Phản hồi của bạn vào %s</string>
     <string name="hs__user_setup_retry_description">Chúng tôi vẫn đang cố gắng để đạt được hỗ trợ. Xin chờ.</string>
     <string name="hs__username_blank_error">Vui lòng nhậ̣p tên hợp lệ</string>
     <string name="hs__username_hint">Tên của Bạn</string>
+    <string name="hs__video">Video</string>
 </resources>

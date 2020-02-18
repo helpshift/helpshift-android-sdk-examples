@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">Novo sporočilo podpore strankam osebe o temi %s</string>
     <string name="hs__agent_message_with_name_voice_over">Novo sporočilo podpore strankam osebe %1$s o temi %2$s</string>
     <string name="hs__app_review_button">OCENI</string>
+    <string name="hs__attach_file">Priložite datoteko</string>
     <string name="hs__attach_screenshot_btn">Priloži posnetek zaslona</string>
+    <string name="hs__attachment_button_voice_over">Priložite datoteko</string>
     <string name="hs__attachment_downloaded__voice_over">Datoteka, %s, dvakrat tapnite, da jo odprete</string>
     <string name="hs__attachment_downloading_voice_over">Datoteka, %1$s, prenašanje %2$s od %3$s</string>
+    <string name="hs__attachment_name_voice_over">Datoteka, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">Datoteka, %1$s, %2$s, dvakrat tapnite za prenos</string>
     <string name="hs__authentication_failed">Autentifikacija ni uspela</string>
     <string name="hs__change_btn">Spremeni</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">Vnesite veljaven datum</string>
     <string name="hs__default_notification_channel_name">Podpora v aplikaciji</string>
     <string name="hs__description_invalid_length_error">Navedite več podrobnosti, da vam bomo lahko lažje pomagali</string>
+    <string name="hs__documents">Dokumenti</string>
     <string name="hs__done_btn">Končano</string>
     <string name="hs__email_hint">E-pošta (dodatna možnost)</string>
     <string name="hs__email_input_validation_error">Vnesite veljaven e-poštni naslov</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">Pošlji povratne informacije</string>
     <string name="hs__fetching_faqs_message">Pridobivanje odgovorov …</string>
     <string name="hs__file_not_found_msg">Datoteke ni bilo mogoče najti</string>
+    <string name="hs__file_type">Datoteka %1$s</string>
+    <string name="hs__file_type_unsupported">Vrsta datoteke ni podprta</string>
     <string name="hs__help_header">Pomoč</string>
     <string name="hs__image_downloaded_voice_over">Slika, dvakrat tapnite za ogled</string>
     <string name="hs__image_downloading_voice_over">Prenašanje slike %1$s od %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">Nastavitve</string>
     <string name="hs__permission_not_granted">Aplikacija nima dovoljenja za dostop do vaših fotografij</string>
     <string name="hs__permission_rationale_snackbar_action_label">V REDU</string>
+    <string name="hs__photo">Fotografije</string>
     <string name="hs__picker_clear_query_voice_over">Počisti poizvedbo</string>
     <string name="hs__picker_no_results">Ni rezultatov</string>
     <string name="hs__picker_option_list_item_voice_over">Pošlji, %1$s</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">Nazaj</string>
     <string name="hs__picker_search_hint">Poiščite</string>
     <string name="hs__picker_search_icon_voice_over">Preišči seznam</string>
+    <string name="hs__preview_header">Predogled</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">To se vam zdi koristno</string>
     <string name="hs__question_unhelpful_message">To se vam ne zdi koristno</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Ali želite oceniti aplikacijo v trgovini Google Play?</string>
     <string name="hs__review_title">Ocenite našo aplikacijo</string>
     <string name="hs__screenshot_add">Dodaj</string>
-    <string name="hs__screenshot_cloud_attach_error">Napaka pri prilaganju posnetka zaslona. Izberite sliko v svoji napravi.</string>
-    <string name="hs__screenshot_limit_error">Posnetek zaslona ne sme presegati %.2f MB</string>
+    <string name="hs__screenshot_cloud_attach_error">Napaka pri pripenjanju datoteke. Izberite datoteko, ki je na voljo v napravi.</string>
+    <string name="hs__screenshot_limit_error">Velikost datoteke ne sme presegati %.2f MB</string>
     <string name="hs__screenshot_remove">Odstrani</string>
-    <string name="hs__screenshot_upload_error_msg">Napaka pri prenašanju posnetka zaslona</string>
+    <string name="hs__screenshot_upload_error_msg">Napaka pri prenosu datoteke</string>
     <string name="hs__search_footer">Ne najdete vsebine, ki ste jo iskali?</string>
     <string name="hs__search_hint">Opišite svojo težavo</string>
     <string name="hs__search_result_message">Vprašanja, ki morda že imajo vaš odgovor</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">POŠLJI</string>
     <string name="hs__sending_fail_msg">Slike ni bilo mogoče naložiti</string>
     <string name="hs__sending_msg">Pošiljanje</string>
+    <string name="hs__si_root_intent_list_item_voice_over">Brskaj, %1$s</string>
     <string name="hs__ssl_handshake_error">Vaša povezava ni varna. Pri vzpostavljanju zaupanja vredne povezave je prišlo do težave.</string>
     <string name="hs__ssl_peer_unverified_error">Vaša povezava ni varna. Pri preverjanju pristnosti je prišlo do težave.</string>
     <string name="hs__starting_download">Začetek prenosa …</string>
     <string name="hs__submit_conversation_btn">Pošlji</string>
     <string name="hs__tap_to_retry">Tapnite, da znova poskusite</string>
     <string name="hs__try_again_msg">Prosim poskusite kasneje</string>
+    <string name="hs__user_attachment_rejected_voice_over">Vaš odgovor, vrsta datoteke ni podprta</string>
     <string name="hs__user_failed_message_voice_over">Vašega odgovora ni bilo mogoče poslati</string>
     <string name="hs__user_sending_message_voice_over">Vaš odgovor, pošiljanje</string>
     <string name="hs__user_sent_message_voice_over">Vaš odgovor na temo %s</string>
     <string name="hs__user_setup_retry_description">Še vedno poskušamo doseči podporo. Prosim počakaj.</string>
     <string name="hs__username_blank_error">Vnesite veljavno ime</string>
     <string name="hs__username_hint">Vaše ime</string>
+    <string name="hs__video">Videoposnetki</string>
 </resources>

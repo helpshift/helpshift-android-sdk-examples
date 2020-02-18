@@ -11,9 +11,12 @@
     <string name="hs__agent_message_voice_over">%s -ന് പിന്തുണയിൽ നിന്ന് ലഭിച്ച സന്ദേശം</string>
     <string name="hs__agent_message_with_name_voice_over">%1$s -ന് %2$s-ഓടെ പിന്തുണയിൽ നിന്ന് ലഭിച്ച സന്ദേശം</string>
     <string name="hs__app_review_button">അവലോകനം ചെയ്യുക</string>
+    <string name="hs__attach_file">ഫയൽ അറ്റാച്ചുചെയ്യുക</string>
     <string name="hs__attach_screenshot_btn">സ്‌ക്രീൻഷോട്ട് അറ്റാച്ചുചെയ്യുക</string>
+    <string name="hs__attachment_button_voice_over">ഫയൽ അറ്റാച്ചുചെയ്യുക</string>
     <string name="hs__attachment_downloaded__voice_over">ഫയൽ, %s, തുറക്കുന്നതിന് ഇരട്ട ടാപ്പ് ചെയ്യുക</string>
     <string name="hs__attachment_downloading_voice_over">ഫയൽ, %1$s, ഡൗൺലോഡ് ചെയ്യുന്നു %2$s / %3$s</string>
+    <string name="hs__attachment_name_voice_over">ഫയൽ, %1$s, %2$s</string>
     <string name="hs__attachment_not_downloaded_voice_over">ഫയൽ, %1$s, %2$s, ഡൗൺലോഡ് ചെയ്യാൻ ഇരട്ട ടാപ്പ് ചെയ്യുക</string>
     <string name="hs__authentication_failed">പ്രാമാണീകരണം പരാജയപ്പെട്ടു</string>
     <string name="hs__change_btn">മാറ്റുക</string>
@@ -50,6 +53,7 @@
     <string name="hs__date_input_validation_error">സാധുവായ ഒരു തീയതി എന്റർ ചെയ്യുക</string>
     <string name="hs__default_notification_channel_name">അപ്ലിക്കേഷനുള്ളിലെ പിന്തുണ</string>
     <string name="hs__description_invalid_length_error">മെച്ചപ്പെട്ട സഹായത്തിന്, ദയവായി കൂടുതൽ വിശദാംശങ്ങൾ നൽകുക</string>
+    <string name="hs__documents">പ്രമാണങ്ങൾ</string>
     <string name="hs__done_btn">കഴിഞ്ഞു</string>
     <string name="hs__email_hint">ഇമെയിൽ (ഐച്ഛികം)</string>
     <string name="hs__email_input_validation_error">സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക</string>
@@ -59,6 +63,8 @@
     <string name="hs__feedback_button">പ്രതികരണം അയയ്ക്കുക</string>
     <string name="hs__fetching_faqs_message">നിങ്ങളുടെ ഉത്തരങ്ങൾ കരസ്ഥമാക്കുന്നു…</string>
     <string name="hs__file_not_found_msg">ഫയൽ കാണ്മാനില്ല</string>
+    <string name="hs__file_type">%1$s ഫയൽ</string>
+    <string name="hs__file_type_unsupported">പിശക്, ഫയൽ പിന്തുണയ്ക്കുന്നില്ല</string>
     <string name="hs__help_header">സഹായം</string>
     <string name="hs__image_downloaded_voice_over">ചിത്രം, കാണുന്നതിന് ഇരട്ട ടാപ്പ് ചെയ്യുക</string>
     <string name="hs__image_downloading_voice_over">ചിത്രം, ഡൗൺലോഡ് ചെയ്യുന്നു, %1$s / %2$s</string>
@@ -94,6 +100,7 @@
     <string name="hs__permission_denied_snackbar_action">ക്രമീകരണങ്ങൾ</string>
     <string name="hs__permission_not_granted">നിങ്ങളുടെ ഫോട്ടോകൾ ആക്‌സസ്സ് ചെയ്യുന്നതിനുള്ള അനുമതി ആപ്ലിക്കേഷന് ലഭ്യമല്ല</string>
     <string name="hs__permission_rationale_snackbar_action_label">ശരി</string>
+    <string name="hs__photo">ഫോട്ടോകൾ</string>
     <string name="hs__picker_clear_query_voice_over">ചോദ്യം നീക്കം ചെയ്യുക</string>
     <string name="hs__picker_no_results">ഫലങ്ങൾ ഒന്നും ലഭിച്ചില്ല</string>
     <string name="hs__picker_option_list_item_voice_over">%1$sഅയക്കുക</string>
@@ -102,6 +109,7 @@
     <string name="hs__picker_search_edit_back_btn_voice_over">പിന്നിലേക്ക്</string>
     <string name="hs__picker_search_hint">തിരയുക</string>
     <string name="hs__picker_search_icon_voice_over">തിരയൽ ലിസ്റ്റ്</string>
+    <string name="hs__preview_header">പ്രിവ്യൂ</string>
     <string name="hs__question_header"/>
     <string name="hs__question_helpful_message">നിങ്ങൾക്കിത് സഹായകരമായിരുന്നു</string>
     <string name="hs__question_unhelpful_message">നിങ്ങൾക്കിത് ‌സഹായകരമായിരുന്നില്ല</string>
@@ -114,10 +122,10 @@
     <string name="hs__review_request_message">Google പ്ലേയിലെ ആപ്പ് അവലോകനം ചെയ്യാൻ നിങ്ങൾക്ക് ‌താൽപ്പര്യമുണ്ടോ?</string>
     <string name="hs__review_title">നിങ്ങളുടെ ആപ്പ് ‌റേറ്റുചെയ്യൂ</string>
     <string name="hs__screenshot_add">ചേർക്കുക</string>
-    <string name="hs__screenshot_cloud_attach_error">സ്‌ക്രീൻഷോട്ട് അറ്റാച്ചുചെയ്യുന്നതിൽ പിശക്. നിങ്ങളുടെ ഉപകരണത്തിലെ ഒരു ചിത്രം തിരഞ്ഞെടുക്കുക</string>
-    <string name="hs__screenshot_limit_error">സ്‌ക്രീൻഷോട്ട് ‌വലിപ്പം %.2f MB-യിൽ കൂടാൻ പാടില്ല</string>
+    <string name="hs__screenshot_cloud_attach_error">ഫയൽ അറ്റാച്ചുചെയ്യുന്നതിൽ പിശക്. ഉപകരണത്തിൽ പ്രാദേശികമായി ലഭ്യമായ ഒരു ഫയൽ തിരഞ്ഞെടുക്കുക.</string>
+    <string name="hs__screenshot_limit_error">ഫയൽ വലുപ്പം %.2f MB കവിയാൻ പാടില്ല</string>
     <string name="hs__screenshot_remove">നീക്കം ചെയ്യുക</string>
-    <string name="hs__screenshot_upload_error_msg">സ്‌ക്രീൻഷോട്ട് അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പിശക്</string>
+    <string name="hs__screenshot_upload_error_msg">ഫയൽ അപ്‌ലോഡുചെയ്യുന്നതിൽ പിശക്</string>
     <string name="hs__search_footer">നിങ്ങൾ അന്വേഷിച്ചത് ‌കണ്ടെത്താനായില്ലേ?</string>
     <string name="hs__search_hint">നിങ്ങൾ നേരിടുന്ന പ്രശ്‌നം വിവരിക്കുക</string>
     <string name="hs__search_result_message">നിങ്ങൾക്കുള്ള ഉത്തരം ഇതിനകം തന്നെ അടങ്ങിയിട്ടുള്ള ചോദ്യങ്ങൾ</string>
@@ -128,16 +136,19 @@
     <string name="hs__send_msg_btn">അയയ്ക്കുക</string>
     <string name="hs__sending_fail_msg">അയയ്ക്കുന്നത് പരാജയപ്പെട്ടു</string>
     <string name="hs__sending_msg">അയയ്ക്കുന്നു</string>
+    <string name="hs__si_root_intent_list_item_voice_over">ബ്ര rowse സ്, %1$s</string>
     <string name="hs__ssl_handshake_error">നിങ്ങളുടെ കണക്ഷൻ സുരക്ഷിതമല്ല. വിശ്വസനീയമായ ഒരു കണക്ഷൻ സ്ഥാപിക്കുന്നതിൽ ഒരു പ്രശ്‌നം നേരിട്ടു</string>
     <string name="hs__ssl_peer_unverified_error">നിങ്ങളുടെ കണക്ഷൻ സുരക്ഷിതമല്ല. അതിന്റെ ആധികാരികത പരിശോധിച്ചുറപ്പിക്കുന്നതിൽ ഒരു പ്രശ്‌നം നേരിട്ടു</string>
     <string name="hs__starting_download">ഡൗൺലോഡ് ആരംഭിക്കുന്നു…</string>
     <string name="hs__submit_conversation_btn">സമർപ്പിക്കുക</string>
     <string name="hs__tap_to_retry">വീണ്ടും ശ്രമിക്കാനായി ക്ലിക്ക് ചെയ്യുക</string>
     <string name="hs__try_again_msg">പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="hs__user_attachment_rejected_voice_over">നിങ്ങളുടെ മറുപടി, ഫയൽ തരം പിന്തുണയ്ക്കുന്നില്ല</string>
     <string name="hs__user_failed_message_voice_over">നിങ്ങളുടെ മറുപടി, അയയ്ക്കുന്നത് പരാജയപ്പെട്ടു</string>
     <string name="hs__user_sending_message_voice_over">നിങ്ങളുടെ മറുപടി, അയയ്ക്കുന്നു</string>
     <string name="hs__user_sent_message_voice_over">%s -ന് നിങ്ങളുടെ മറുപടി</string>
     <string name="hs__user_setup_retry_description">ഞങ്ങൾ ഇപ്പോഴും പിന്തുണയിൽ എത്താൻ ശ്രമിക്കുന്നു. കാത്തിരിക്കൂ.</string>
     <string name="hs__username_blank_error">സാധുവായ പേര് നൽകുക</string>
     <string name="hs__username_hint">നിങ്ങളുടെ പേര്</string>
+    <string name="hs__video">വീഡിയോകൾ</string>
 </resources>

@@ -4,5 +4,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/hs__screenshot_preview_layout" />
+    <include layout="@layout/hs__attachment_preview_layout" />
 </FrameLayout>

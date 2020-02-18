@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/hs__composeBackgroundColor"
+    android:orientation="vertical">
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/txtAttachmentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hs__dimen_24"
+        android:layout_margin="@dimen/activity_horizontal_margin_medium"
+        android:gravity="center"
+        android:text="@string/hs__attach_file"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="@dimen/hs__textSizeSmall" />
+
+    <ListView
+        android:id="@+id/picker_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+</LinearLayout>
