@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/admin_text_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -13,25 +14,38 @@
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"
-        android:orientation="vertical">
+        tools:background="@android:color/white">
+
+        <com.helpshift.views.CircleImageView
+            android:id="@+id/avatar_image_view"
+            style="@style/Helpshift.Style.AvatarImageView"
+            android:layout_below="@id/admin_date_text"
+            tools:src="@drawable/hs__attachment_icon" />
 
         <LinearLayout
             android:id="@+id/admin_message_container"
-            style="@style/Helpshift.Style.AdminTextMessageContainer">
+            style="@style/Helpshift.Style.AdminTextMessageContainer"
+            android:layout_below="@id/admin_date_text"
+            android:layout_toEndOf="@id/avatar_image_view"
+            android:layout_toRightOf="@id/avatar_image_view">
 
             <com.helpshift.views.HSTextView
                 android:id="@+id/admin_message_text"
                 style="@style/Helpshift.Style.AdminTextMessage"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                tools:text="this is admin text message and it is long" />
         </LinearLayout>
 
         <com.helpshift.views.HSTextView
             android:id="@+id/admin_date_text"
-            style="@style/Helpshift.Style.AdminMessageDate" />
-    </LinearLayout>
+            style="@style/Helpshift.Style.AdminMessageDate"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/avatar_image_view"
+            tools:text="author name, 22:01" />
+    </RelativeLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 </LinearLayout>

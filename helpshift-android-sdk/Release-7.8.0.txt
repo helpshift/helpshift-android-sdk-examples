@@ -1,4 +1,4 @@
-Helpshift SDK 7.7.2 Release Notes (for Android)
+Helpshift SDK 7.8.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,42 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.8.0 Release Date: July 08, 2020
+    * Don’t allow user to respond to conversation resolution question or CSAT after a certain interval. The interval is configurable on admin dashboard. Learn more about re-open window [here](https://support.helpshift.com/kb/article/what-is-re-open-time-window-and-how-do-i-use-it/) and CSAT [here](https://support.helpshift.com/kb/article/what-are-csat-customer-satisfaction-surveys/).
+    * Added support for showing agent and bot personalized avatar with their messages. [Learn more.](https://support.helpshift.com/kb/article/how-do-i-show-agent-or-bot-avatars-in-the-helpshift-messaging-experience)
+    * Added support to change title (Brand header text) for messaging experience from App Settings on Admin console instead of SDK string customization. The default value will be <Company name> Support, but you can change it to align the same with your current experience. [Learn more](https://support.helpshift.com/kb/article/how-do-i-show-agent-or-bot-avatars-in-the-helpshift-messaging-experience/)
+    * Added support for bot messages with a customizable link and title. [Learn more.](https://support.helpshift.com/kb/article/how-do-i-send-deep-links-actions-using-custom-bots/)
+    * Added a new delegate method that is invoked when user clicks on the action for a Rich Actions Bot. [Refer here](/android/delegates/#user-click-action). Please update your code to implement this method.
+    * Added a new design attribute for color of links in FAQ content. [Refer here.](/android/design/#styleable-attributes)
+    * Improved UI for conversation started using Smart Intents.
+    * Added search icon and clear button to smart intent search field.
+    * Added check to ensure that Helpshift SDK fetches config at least once, before the user can see the conversation screen. This is done to avoid config mismatches which can lead to conversation behaviour different from the one the admins have configured.
+    * Fix a crash that would occur when user launches the app from recents menu after the Android System has already killed it.
+    * Handle conversation archival when user tries to upload an attachment on an archived conversation.
+    * Fix a bug where the username was not updated on login for existing users.
+    * Fixed a bug where toolbar title was overridden when using embeddable fragments.
+    * Fixed a bug where styling for Answer Bot suggestions was not working as expected.
+    * Fixed an edge case bug where reply box was displayed along with resolution question.
+    * Fixed a bug where FAQ screen used to flicker when Dark mode theme is selected.
+    * Fixed a edge case crash which would occur when attachment upload and message sync would run at the same time.
+7.8.0-withCampaigns Release Date: July 08, 2020
+    * Don’t allow user to respond to conversation resolution question or CSAT after a certain interval. The interval is configurable on admin dashboard. Learn more about re-open window [here](https://support.helpshift.com/kb/article/what-is-re-open-time-window-and-how-do-i-use-it/) and CSAT [here](https://support.helpshift.com/kb/article/what-are-csat-customer-satisfaction-surveys/).
+    * Added support for showing agent and bot personalized avatar with their messages. [Learn more.](https://support.helpshift.com/kb/article/how-do-i-show-agent-or-bot-avatars-in-the-helpshift-messaging-experience)
+    * Added support to change title (Brand header text) for messaging experience from App Settings on Admin console instead of SDK string customization. The default value will be <Company name> Support, but you can change it to align the same with your current experience. [Learn more](https://support.helpshift.com/kb/article/how-do-i-show-agent-or-bot-avatars-in-the-helpshift-messaging-experience/)
+    * Added support for bot messages with a customizable link and title. [Learn more.](https://support.helpshift.com/kb/article/how-do-i-send-deep-links-actions-using-custom-bots/)
+    * Added a new delegate method that is invoked when user clicks on the action for a Rich Actions Bot. [Refer here](/android/delegates/#user-click-action). Please update your code to implement this method.
+    * Added a new design attribute for color of links in FAQ content. [Refer here.](/android/design/#styleable-attributes)
+    * Improved UI for conversation started using Smart Intents.
+    * Added search icon and clear button to smart intent search field.
+    * Added check to ensure that Helpshift SDK fetches config at least once, before the user can see the conversation screen. This is done to avoid config mismatches which can lead to conversation behaviour different from the one the admins have configured.
+    * Fix a crash that would occur when user launches the app from recents menu after the Android System has already killed it.
+    * Handle conversation archival when user tries to upload an attachment on an archived conversation.
+    * Fix a bug where the username was not updated on login for existing users.
+    * Fixed a bug where toolbar title was overridden when using embeddable fragments.
+    * Fixed a bug where styling for Answer Bot suggestions was not working as expected.
+    * Fixed an edge case bug where reply box was displayed along with resolution question.
+    * Fixed a bug where FAQ screen used to flicker when Dark mode theme is selected.
+    * Fixed a edge case crash which would occur when attachment upload and message sync would run at the same time.
 7.7.2 Release Date: February 17, 2020
       * Fixed a bug where the user data drops when migrating from SDK v6.x or below to v7.7.0.
       * Fixed an edge case bug where the typing indicator was shown indefinitely when the user tries to file a new issue with smart intents if conversation history is disabled until the user reopens the chat screen.

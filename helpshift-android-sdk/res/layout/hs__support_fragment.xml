@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="?android:windowBackground">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:windowBackground"
+    android:orientation="vertical">
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -20,9 +21,41 @@
             <com.helpshift.views.HSToolbar
                 android:id="@+id/hs__toolbar"
                 style="?attr/hs__toolbarStyle"
-                android:visibility="gone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:contentInsetStartWithNavigation="0dp"
+                tools:background="@android:color/white"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/custom_header_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.helpshift.views.CircleImageView
+                        android:id="@+id/hs__header_avatar_image"
+                        android:layout_width="@dimen/hs__author_avatar_size"
+                        android:layout_height="@dimen/hs__author_avatar_size"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:scaleType="centerCrop"
+                        tools:src="@drawable/hs__attachment_icon" />
+
+                    <com.helpshift.views.HSTextView
+                        android:id="@+id/hs__header_title"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:layout_gravity="center_vertical"
+                        tools:text="Customer Support" />
+
+                </LinearLayout>
+            </com.helpshift.views.HSToolbar>
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -66,11 +99,11 @@
                         style="?android:attr/progressBarStyleHorizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignEnd="@id/textViewLoadingText"
-                        android:layout_alignLeft="@+id/textViewLoadingText"
-                        android:layout_alignRight="@+id/textViewLoadingText"
+                        android:layout_below="@id/textViewLoadingText"
                         android:layout_alignStart="@id/textViewLoadingText"
-                        android:layout_below="@+id/textViewLoadingText"
+                        android:layout_alignLeft="@id/textViewLoadingText"
+                        android:layout_alignEnd="@id/textViewLoadingText"
+                        android:layout_alignRight="@id/textViewLoadingText"
                         android:layout_marginTop="@dimen/activity_vertical_margin_small"
                         android:indeterminate="true" />
                 </RelativeLayout>
@@ -115,16 +148,16 @@
         <FrameLayout
             android:id="@+id/hs__bottom_sheet_container"
             android:layout_width="match_parent"
-            android:visibility="gone"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:visibility="gone" />
     </android.support.design.widget.CoordinatorLayout>
 
     <ImageView
         android:id="@+id/hs_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:background="@android:color/black"
         android:src="@drawable/hs__logo"
-        android:layout_gravity="bottom"
         tools:ignore="ContentDescription" />
 </LinearLayout>

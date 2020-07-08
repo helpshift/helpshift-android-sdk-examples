@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="@dimen/hs__chatBubbleMargin"
     android:layout_marginLeft="@dimen/hs__chatBubbleMargin"
-    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
+    tools:background="@android:color/white">
 
     <LinearLayout
         android:id="@+id/admin_attachment_message_layout"
@@ -15,7 +16,8 @@
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:background="@android:color/holo_green_dark">
 
         <android.support.v7.widget.CardView
             android:id="@+id/admin_message"
@@ -88,18 +90,10 @@
                 </FrameLayout>
             </LinearLayout>
         </android.support.v7.widget.CardView>
-
-        <com.helpshift.views.HSTextView
-            android:id="@+id/attachment_date"
-            style="@style/Helpshift.Style.AdminMessageDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="2dp"
-            android:layout_marginLeft="2dp" />
     </LinearLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 </LinearLayout>

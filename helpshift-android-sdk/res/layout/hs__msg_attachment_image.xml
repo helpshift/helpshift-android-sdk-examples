@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"
+    tools:background="@android:color/white">
 
     <LinearLayout
         android:id="@+id/admin_image_message_layout"
@@ -15,12 +16,14 @@
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:background="@android:color/holo_green_dark">
 
         <FrameLayout
             android:id="@+id/admin_image_attachment_message_container"
             android:layout_width="@dimen/hs__image_msg_preview_size"
-            android:layout_height="@dimen/hs__image_msg_preview_size">
+            android:layout_height="@dimen/hs__image_msg_preview_size"
+            tools:background="@android:color/holo_blue_light">
 
             <com.helpshift.support.views.HSRoundedImageView
                 android:id="@+id/admin_attachment_imageview"
@@ -33,7 +36,8 @@
                 app:hs__borderColor="?attr/hs__chatBubbleMediaBorderColor"
                 app:hs__borderWidth="1dp"
                 app:hs__cornerRadius="@dimen/hs__image_attachment_bubble_corner_radius"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/hs__attachment_icon" />
 
             <LinearLayout
                 android:id="@+id/download_progressbar_container"
@@ -62,13 +66,10 @@
             </LinearLayout>
         </FrameLayout>
 
-        <com.helpshift.views.HSTextView
-            android:id="@+id/date"
-            style="@style/Helpshift.Style.AdminMessageDate" />
     </LinearLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 </LinearLayout>

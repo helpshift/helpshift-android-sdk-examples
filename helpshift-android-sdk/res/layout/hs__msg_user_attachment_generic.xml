@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_below="@id/date"
         android:layout_marginLeft="@dimen/hs__user_msg_left_margin"
         android:background="?attr/hs__chatBubbleMediaBackgroundColor"
         app:cardCornerRadius="16dp"
@@ -89,8 +90,8 @@
     <com.helpshift.views.HSTextView
         android:id="@+id/date"
         style="@style/Helpshift.Style.UserMessageDate"
-        android:layout_below="@id/user_attachment_container"
-        android:layout_alignRight="@id/user_attachment_container"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:visibility="gone" />
 
     <ImageView

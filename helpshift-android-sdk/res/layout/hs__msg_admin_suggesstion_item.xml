@@ -8,6 +8,7 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
+    android:background="?attr/hs__chatBubbleMediaBackgroundColor"
     android:gravity="start"
     android:minWidth="120dp"
     android:orientation="horizontal"

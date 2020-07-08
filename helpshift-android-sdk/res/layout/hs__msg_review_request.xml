@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop">
+    android:paddingTop="@dimen/hs__listPreferredItemPaddingTop"
+    tools:background="@android:color/white">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/admin_review_message_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -13,11 +15,20 @@
         android:layout_weight="4"
         android:focusable="true"
         android:gravity="start"
-        android:orientation="vertical">
+        tools:background="@android:color/holo_green_dark">
+
+        <com.helpshift.views.CircleImageView
+            android:id="@+id/avatar_image_view"
+            style="@style/Helpshift.Style.AvatarImageView"
+            android:layout_below="@+id/review_request_date"
+            tools:src="@drawable/hs__attachment_icon"
+            tools:visibility="visible" />
 
         <LinearLayout
             android:id="@+id/review_request_message_container"
-            style="@style/Helpshift.Style.AdminTextMessageContainer">
+            style="@style/Helpshift.Style.AdminTextMessageContainer"
+            android:layout_below="@+id/review_request_date"
+            android:layout_toRightOf="@id/avatar_image_view">
 
             <com.helpshift.views.HSTextView
                 android:id="@+id/review_request_message"
@@ -35,11 +46,14 @@
 
         <com.helpshift.views.HSTextView
             android:id="@+id/review_request_date"
-            style="@style/Helpshift.Style.AdminMessageDate" />
-    </LinearLayout>
+            style="@style/Helpshift.Style.AdminMessageDate"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/avatar_image_view"
+            tools:text="author name, 22:01" />
+    </RelativeLayout>
 
     <View
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 </LinearLayout>

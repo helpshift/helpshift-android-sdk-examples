@@ -176,6 +176,24 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <!--
+                Negative margin is needed to move search icon closer to the text.
+                Text has 16dp as left padding but in search view 8dp is needed, so -8dp will offset it properly
+            -->
+            <ImageView
+                android:id="@+id/hs__smart_intent_replyfooter_search_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:visibility="gone"
+                android:layout_marginRight="-8dp"
+                android:layout_marginEnd="-8dp"
+                android:alpha="0.3"
+                android:src="@drawable/hs__action_search"
+                tools:src="@drawable/hs__action_search" />
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -209,15 +227,33 @@
                     android:textSize="@dimen/hs__textSizeSmall" />
             </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/hs__si_send_button_view"
+            <FrameLayout
                 android:layout_width="@dimen/hs__smart_intent_icon_size"
                 android:layout_height="@dimen/hs__smart_intent_icon_size"
-                android:layout_gravity="bottom|end"
-                android:contentDescription="@string/hs__send_msg_btn"
-                android:src="?attr/hs__messageSendIcon"
-                android:background="?attr/selectableItemBackground"
-                tools:src="@drawable/hs__send" />
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/hs__si_send_button_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|end"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/hs__send_msg_btn"
+                    android:src="?attr/hs__messageSendIcon"
+                    tools:src="@drawable/hs__send" />
+
+                <ImageButton
+                    android:id="@+id/hs__si_clear_search_btn"
+                    android:layout_width="@dimen/hs__dimen_24"
+                    android:layout_height="@dimen/hs__dimen_24"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:visibility="gone"
+                    android:contentDescription="@string/hs__picker_clear_query_voice_over"
+                    android:src="@drawable/hs__si_close_search"
+                    tools:src="@drawable/hs__si_close_search"
+                    tools:visibility="visible"/>
+            </FrameLayout >
         </LinearLayout>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

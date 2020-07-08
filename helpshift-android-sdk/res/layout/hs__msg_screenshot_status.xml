@@ -5,7 +5,7 @@
     android:id="@+id/user_image_message_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
+    android:layout_marginBottom="4dp"
     android:layout_marginEnd="@dimen/hs__chatBubbleMargin"
     android:layout_marginRight="@dimen/hs__chatBubbleMargin">
 
@@ -13,6 +13,8 @@
         android:id="@+id/imageview_container"
         android:layout_width="@dimen/hs__image_msg_preview_size"
         android:layout_height="@dimen/hs__image_msg_preview_size"
+        android:layout_below="@+id/date"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="@dimen/hs__user_msg_left_margin">
 
@@ -40,8 +42,8 @@
     <com.helpshift.views.HSTextView
         android:id="@+id/date"
         style="@style/Helpshift.Style.UserMessageDate"
-        android:layout_below="@id/imageview_container"
-        android:layout_alignRight="@id/imageview_container"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:visibility="gone" />
 
     <ImageView

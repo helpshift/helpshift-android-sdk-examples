@@ -120,6 +120,7 @@
         android:layout_height="wrap_content"
         android:background="?attr/hs__footerPromptBackground"
         android:orientation="vertical"
+        android:layout_marginTop="16dp"
         android:visibility="gone">
 
         <View

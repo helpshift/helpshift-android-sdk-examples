@@ -160,7 +160,10 @@
     <dimen name="activity_vertical_margin_large">24dp</dimen>
     <dimen name="activity_vertical_margin_medium">16dp</dimen>
     <dimen name="activity_vertical_margin_small">8dp</dimen>
-    <dimen name="hs__chatBubbleMargin">16dp</dimen>
+    <dimen name="hs__actionCardCornerRadius">16dp</dimen>
+    <dimen name="hs__author_avatar_size">32dp</dimen>
+    <dimen name="hs__chatBubbleMargin">12dp</dimen>
+    <dimen name="hs__chatBubbleMargin_for_user_msg">16dp</dimen>
     <dimen name="hs__conversation_info_container_height">72dp</dimen>
     <dimen name="hs__dimen_24">24dp</dimen>
     <dimen name="hs__dimen_40">40dp</dimen>
@@ -370,11 +373,38 @@
     </style>
     <style name="Helpshift"/>
     <style name="Helpshift.Style"/>
+    <style name="Helpshift.Style.ActionCardActionTitle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/hs__textSizeMedium</item>
+        <item name="android:textColor">?attr/hs__selectableOptionColor</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Helpshift.Style.ActionCardTitle">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/hs__textSizeExtraSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="Helpshift.Style.AdminMessageDate">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">12dp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:textSize">@dimen/hs__textSizeExtraSmall</item>
     </style>
@@ -392,7 +422,7 @@
     <style name="Helpshift.Style.AdminTextMessageContainer">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/hs__chat_bubble_admin</item>
+        <item name="android:background">@drawable/hs__chat_bubble_rounded</item>
         <item name="android:minHeight">36dp</item>
         <item name="android:minWidth">36dp</item>
         <item name="android:orientation">vertical</item>
@@ -401,11 +431,17 @@
         <item name="hs__borderWidth">@dimen/hs__image_attachment_bubble_border_width</item>
         <item name="hs__cornerRadius">@dimen/hs__image_attachment_bubble_corner_radius</item>
     </style>
+    <style name="Helpshift.Style.AvatarImageView">
+        <item name="android:layout_width">@dimen/hs__author_avatar_size</item>
+        <item name="android:layout_height">@dimen/hs__author_avatar_size</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
     <style name="Helpshift.Style.BorderlessButton" parent="Base.Widget.AppCompat.Button.Borderless">
         <item name="android:textColor">?colorAccent</item>
     </style>
-    <style name="Helpshift.Style.ContactUsButton" parent="Helpshift.Style.BorderlessButton">
-    </style>
+    <style name="Helpshift.Style.ContactUsButton" parent="Helpshift.Style.BorderlessButton"/>
     <style name="Helpshift.Style.FaqsListItem">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -484,8 +520,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginBottom">@dimen/hs__listPreferredItemPaddingBottom</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:textSize">@dimen/hs__textSizeExtraSmall</item>
     </style>
     <style name="Helpshift.Style.UserTextMessage">
@@ -503,6 +539,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/hs__chat_bubble_user</item>
+        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:minHeight">36dp</item>
         <item name="android:minWidth">36dp</item>
         <item name="android:orientation">vertical</item>
@@ -572,6 +609,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_B3FFFFFF</item>
         <item name="hs__tabSelectedTextColor">@color/hs__color_FFFFFFFF</item>
+        <item name="hs__faqTextColorLink">@color/hs__color_FF00E5FF</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -690,6 +728,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__tabTextColor_DarkActionBar</item>
         <item name="hs__tabSelectedTextColor">@color/hs__tabSelectedTextColor_DarkActionBar</item>
+        <item name="hs__faqTextColorLink">@color/hs__colorAccent_DarkActionBar</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -816,6 +855,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__tabTextColor_HighContrast</item>
         <item name="hs__tabSelectedTextColor">@color/hs__tabSelectedTextColor_HighContrast</item>
+        <item name="hs__faqTextColorLink">@color/hs__colorAccent_HighContrast</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -930,6 +970,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__tabTextColor_Light</item>
         <item name="hs__tabSelectedTextColor">@color/hs__tabSelectedTextColor_Light</item>
+        <item name="hs__faqTextColorLink">@color/hs__colorAccent_Light</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -1036,6 +1077,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_B3FFFFFF</item>
         <item name="hs__tabSelectedTextColor">@color/hs__color_FFFFFFFF</item>
+        <item name="hs__faqTextColorLink">@color/hs__color_1565C0</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -1128,6 +1170,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_FF616161</item>
         <item name="hs__tabSelectedTextColor">@color/hs__color_FF000000</item>
+        <item name="hs__faqTextColorLink">@color/hs__color_FF00B0FF</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -1220,6 +1263,7 @@
         <item name="hs__faqsPagerTabStripIndicatorColor">?attr/colorAccent</item>
         <item name="hs__tabTextColor">@color/hs__color_B3FFFFFF</item>
         <item name="hs__tabSelectedTextColor">@color/hs__color_FFFFFFFF</item>
+        <item name="hs__faqTextColorLink">@color/hs__color_FFF80054</item>
 
         <item name="hs__attachScreenshotActionButtonIcon">
             @drawable/hs__attach_screenshot_action_button
@@ -1326,6 +1370,7 @@
         <attr format="reference" name="hs__faqsListItemStyle"/>
         <attr format="reference" name="hs__contactUsButtonStyle"/>
         <attr format="reference" name="hs__toolbarStyle"/>
+        <attr format="reference" name="hs__faqTextColorLink"/>
 
     </declare-styleable>
 </resources>

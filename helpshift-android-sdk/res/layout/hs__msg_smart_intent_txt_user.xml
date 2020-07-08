@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/smart_intent_user_message_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/hs__listPreferredItemPaddingTop"
+    android:focusable="true"
+    android:paddingEnd="@dimen/hs__chatBubbleMargin"
+    android:paddingRight="@dimen/hs__chatBubbleMargin">
+
+    <FrameLayout
+        android:id="@+id/user_message_container"
+        style="@style/Helpshift.Style.UserTextMessageContainer"
+        android:layout_below="@+id/user_date_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/hs__user_msg_left_margin"
+        android:focusable="true"
+        android:gravity="end">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/smart_intent_root_label"
+                style="@style/Helpshift.Style.UserTextMessage"
+                android:alpha="0.7"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:maxLines="2"
+                android:paddingBottom="2dp"
+                android:textAllCaps="true"
+                android:textSize="@dimen/hs__textSizeExtraSmall"
+                tools:text="Orders" />
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/smart_intent_leaf_label"
+                style="@style/Helpshift.Style.UserTextMessage"
+                android:focusable="true"
+                android:paddingTop="2dp"
+                tools:text="Payment issues" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.helpshift.views.HSTextView
+        android:id="@+id/user_date_text"
+        style="@style/Helpshift.Style.UserMessageDate"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="12:03, agent name" />
+
+    <ImageView
+        android:id="@+id/user_message_retry_button"
+        android:layout_width="@dimen/hs__download_icon_preview_size"
+        android:layout_height="@dimen/hs__download_icon_preview_size"
+        android:layout_alignLeft="@id/user_message_container"
+        android:layout_marginLeft="-36dp"
+        android:contentDescription="@string/hs__retry_button_voice_over"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hs_action_retry"
+        android:tint="?colorAccent"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
