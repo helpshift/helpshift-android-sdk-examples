@@ -1,16 +1,16 @@
 package com.helpshift.helpshiftdemogradle;
 
 import android.app.Application;
+import android.net.Uri;
 import android.widget.Toast;
-
 import com.helpshift.Core;
 import com.helpshift.HelpshiftUser;
-import android.net.Uri;
+import com.helpshift.InstallConfig;
+import com.helpshift.conversation.activeconversation.model.ActionType;
 import com.helpshift.delegate.AuthenticationFailureReason;
+import com.helpshift.exceptions.InstallException;
 import com.helpshift.support.Log;
 import com.helpshift.support.Support;
-import com.helpshift.InstallConfig;
-import com.helpshift.exceptions.InstallException;
 
 import java.io.File;
 
@@ -24,15 +24,16 @@ public class MainApplication extends Application implements Support.Delegate {
 
     Core.init(Support.getInstance());
     InstallConfig installConfig = new InstallConfig.Builder()
-                               .setEnableInAppNotification(true)
-                               .build();
+        .setEnableInAppNotification(true)
+        .build();
     try {
       Core.install(this,
                    "<your api key>",
                    "<your domain>",
                    "<your app id>",
                    installConfig);
-    } catch (InstallException e) {
+    }
+    catch (InstallException e) {
       android.util.Log.e("Helpshift", "install call : ", e);
     }
 
@@ -82,14 +83,21 @@ public class MainApplication extends Application implements Support.Delegate {
   public void displayAttachmentFile(Uri attachmentUri) {
     Log.d(TAG, "no apps can open this file " + attachmentUri.toString());
   }
-        
+
   @Override
   public void didReceiveNotification(int newMessagesCount) {
     Log.d(TAG, "new messages count : " + newMessagesCount);
   }
 
   @Override
-  public void authenticationFailed(HelpshiftUser helpshiftUser, AuthenticationFailureReason authenticationFailureReason) {
-    Log.d(TAG, "Authentication failed for the user, identifier : " + helpshiftUser.getIdentifier() + ", email : " + helpshiftUser.getEmail() + " and reason : " + authenticationFailureReason);
+  public void authenticationFailed(HelpshiftUser helpshiftUser,
+                                   AuthenticationFailureReason authenticationFailureReason) {
+    Log.d(TAG, "Authentication failed for the user, identifier : " + helpshiftUser.getIdentifier() + ", email : " +
+               helpshiftUser.getEmail() + " and reason : " + authenticationFailureReason);
+  }
+
+  @Override
+  public void userClickOnAction(ActionType actionType, String actionData) {
+    Log.d(TAG, "user clicked on action card : " + actionData);
   }
 }
