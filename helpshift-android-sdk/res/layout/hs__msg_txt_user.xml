@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/user_text_message_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:focusable="true"
+    android:gravity="end"
+    android:orientation="vertical"
     android:paddingEnd="@dimen/hs__chatBubbleMargin"
     android:paddingRight="@dimen/hs__chatBubbleMargin"
     tools:background="@android:color/white">
 
-    <FrameLayout
-        android:id="@+id/user_message_container"
-        style="@style/Helpshift.Style.UserTextMessageContainer"
-        android:layout_below="@id/user_date_text"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="@dimen/hs__user_msg_left_margin"
-        android:gravity="end">
-
-        <com.helpshift.views.HSTextView
-            android:id="@+id/user_message_text"
-            style="@style/Helpshift.Style.UserTextMessage" />
-    </FrameLayout>
-
     <com.helpshift.views.HSTextView
         android:id="@+id/user_date_text"
         style="@style/Helpshift.Style.UserMessageDate"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         tools:text="author name, 22:01" />
 
-    <ImageView
-        android:id="@+id/user_message_retry_button"
-        android:layout_width="@dimen/hs__download_icon_preview_size"
-        android:layout_height="@dimen/hs__download_icon_preview_size"
-        android:layout_toStartOf="@id/user_message_container"
-        android:layout_below="@id/user_date_text"
-        android:layout_marginRight="-80dp"
-        android:contentDescription="@string/hs__retry_button_voice_over"
-        android:padding="4dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/hs_action_retry"
-        android:tint="?colorAccent"
-        android:visibility="gone"
-        tools:visibility="visible" />
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/hs__user_msg_left_margin"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/user_message_retry_button"
+            android:layout_width="@dimen/hs__download_icon_preview_size"
+            android:layout_height="@dimen/hs__download_icon_preview_size"
+            android:layout_alignLeft="@+id/user_message_container"
+            android:layout_marginLeft="-36dp"
+            android:contentDescription="@string/hs__retry_button_voice_over"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hs_action_retry"
+            android:tint="?colorAccent"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/user_message_container"
+            style="@style/Helpshift.Style.UserTextMessageContainer"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="end">
+
+            <com.helpshift.views.HSTextView
+                android:id="@+id/user_message_text"
+                style="@style/Helpshift.Style.UserTextMessage"
+                tools:text="Testing" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

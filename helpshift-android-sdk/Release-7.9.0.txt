@@ -1,4 +1,4 @@
-Helpshift SDK 7.8.0 Release Notes (for Android)
+Helpshift SDK 7.9.0 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,32 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.9.0 Release Date: October 07, 2020
+* Helpshift Android SDK is now fully compatible with Android 11. We recommend you to use the latest SDK since apps using Older SDKs (<=7.8.1 version ) will see the following degraded behavior for Helpshift messaging experience when they target Android 11:
+	* App will crash when user starts a new conversation from a form-based experience.
+	* Image orientation changes on some Android 11 devices when the user uploads an image.
+	* Menu items are not clickable on Issue Filing Form and FAQ screens when the app is in full screen mode. [View Impact](https://developers.helpshift.com/android/troubleshooting/#known-issues)
+	* Hyperlinks are broken in Action card, agent message and user message.
+* Fixed a bug in which custom config named [showConversationInfoScreen](https://developers.helpshift.com/android/sdk-configuration/#showConversationInfoScreen) was set to true and conversation publish ID was not shown in chat feed unless user closed and reopened the chat screen.
+* Fixed a bug in which image attachment was getting pixelated on the preview screen while attaching an image.
+* Fixed a crash with [embeddable fragments](https://developers.helpshift.com/android/support-tools/#embeddable-fragments) that would occur when user launches the app from recents menu after the Android System has already killed it.
+7.9.0-withCampaigns Release Date: October 07, 2020
+* Helpshift Android SDK is now fully compatible with Android 11. We recommend you to use the latest SDK since apps using Older SDKs (<=7.8.1 version ) will see the following degraded behavior for Helpshift messaging experience when they target Android 11:
+	* App will crash when user starts a new conversation from a form-based experience.
+	* Image orientation changes on some Android 11 devices when the user uploads an image.
+	* Menu items are not clickable on Issue Filing Form and FAQ screens when the app is in full screen mode. [View Impact](https://developers.helpshift.com/android/troubleshooting/#known-issues)
+	* Hyperlinks are broken in Action card, agent message and user message.
+* Fixed a bug in which custom config named [showConversationInfoScreen](https://developers.helpshift.com/android/sdk-configuration/#showConversationInfoScreen) was set to true and conversation publish ID was not shown in chat feed unless user closed and reopened the chat screen.
+* Fixed a bug in which image attachment was getting pixelated on the preview screen while attaching an image.
+* Fixed a crash with [embeddable fragments](https://developers.helpshift.com/android/support-tools/#embeddable-fragments) that would occur when user launches the app from recents menu after the Android System has already killed it.
+7.8.1 Release Date: August 10, 2020
+    * Fix a bug where Bots with Action card were not rendered on migrating from older versions of the SDK.
+    
+7.8.1-withCampaigns Release Date: August 10, 2020
+    * Fix a bug where Bots with Action card were not rendered on migrating from older versions of the SDK.
+    
+7.8.1-china Release Date: August 31, 2020
+    * Added support to integrate with an App in Helpshift China domain.
 7.8.0 Release Date: July 08, 2020
     * Don’t allow user to respond to conversation resolution question or CSAT after a certain interval. The interval is configurable on admin dashboard. Learn more about re-open window [here](https://support.helpshift.com/kb/article/what-is-re-open-time-window-and-how-do-i-use-it/) and CSAT [here](https://support.helpshift.com/kb/article/what-are-csat-customer-satisfaction-surveys/).
     * Added support for showing agent and bot personalized avatar with their messages. [Learn more.](https://support.helpshift.com/kb/article/how-do-i-show-agent-or-bot-avatars-in-the-helpshift-messaging-experience)

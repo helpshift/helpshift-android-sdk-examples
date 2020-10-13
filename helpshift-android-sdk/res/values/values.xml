@@ -169,6 +169,7 @@
     <dimen name="hs__dimen_40">40dp</dimen>
     <dimen name="hs__download_icon_preview_size">36dp</dimen>
     <dimen name="hs__file_option_picker_pop_up_width">280dp</dimen>
+    <dimen name="hs__formBasedFieldsMarginTop">8dp</dimen>
     <dimen name="hs__fragmentContainerPaddingBottom">0dp</dimen>
     <dimen name="hs__fragmentContainerPaddingLeft">0dp</dimen>
     <dimen name="hs__fragmentContainerPaddingRight">0dp</dimen>
@@ -539,7 +540,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/hs__chat_bubble_user</item>
-        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:minHeight">36dp</item>
         <item name="android:minWidth">36dp</item>
         <item name="android:orientation">vertical</item>
