@@ -1,4 +1,4 @@
-Helpshift SDK 7.9.0 Release Notes (for Android)
+Helpshift SDK 7.9.1 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,18 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.9.1 Release Date: November 3, 2020
+
+* Fixed an issue where option pills were not visible when a bot with options was triggered through New Issue Automation(NIA).
+* Fixed an issue where the chat screen was not shown on clicking a notification, it was just opening the app.
+* The issue where publish ID is not visible until user closes and opens the chat screen had to be re-introduced. This bug was reproducible only when [showConversationInfoScreen](/android/sdk-configuration/#showConversationInfoScreen) custom config was set to true. It will be fixed in upcoming releases.
+
+7.9.1-withCampaigns Release Date: November 3, 2020
+
+* Fixed an issue where option pills were not visible when a bot with options was triggered through New Issue Automation(NIA).
+* Fixed an issue where the chat screen was not shown on clicking a notification, it was just opening the app.
+* The issue where publish ID is not visible until user closes and opens the chat screen had to be re-introduced. This bug was reproducible only when [showConversationInfoScreen](/android/sdk-configuration/#showConversationInfoScreen) custom config was set to true. It will be fixed in upcoming releases.
+
 7.9.0 Release Date: October 07, 2020
 * Helpshift Android SDK is now fully compatible with Android 11. We recommend you to use the latest SDK since apps using Older SDKs (<=7.8.1 version ) will see the following degraded behavior for Helpshift messaging experience when they target Android 11:
 	* App will crash when user starts a new conversation from a form-based experience.
