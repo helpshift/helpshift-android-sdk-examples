@@ -1,4 +1,4 @@
-Helpshift SDK 7.9.1 Release Notes (for Android)
+Helpshift SDK 7.9.2 Release Notes (for Android)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps. (http://helpshift.com)
@@ -11,6 +11,14 @@ Documentation for Installation and Usage Instructions:
 http://www.helpshift.com/docs/android/
 
 New features:
+7.9.2 Release Date: February 2, 2020
+
+* Fixed a bug where accessing user data from the database led to App crash in rare scenarios.
+
+7.9.2-withCampaigns Release Date: February 2, 2020
+
+* Fixed a bug where accessing user data from the database led to App crash in rare scenarios.
+
 7.9.1 Release Date: November 3, 2020
 
 * Fixed an issue where option pills were not visible when a bot with options was triggered through New Issue Automation(NIA).
@@ -63,7 +71,7 @@ New features:
     * Handle conversation archival when user tries to upload an attachment on an archived conversation.
     * Fix a bug where the username was not updated on login for existing users.
     * Fixed a bug where toolbar title was overridden when using embeddable fragments.
-    * Fixed a bug where styling for Answer Bot suggestions was not working as expected.
+    * Fixed a bug where styling for QuickSearch Bot suggestions was not working as expected.
     * Fixed an edge case bug where reply box was displayed along with resolution question.
     * Fixed a bug where FAQ screen used to flicker when Dark mode theme is selected.
     * Fixed a edge case crash which would occur when attachment upload and message sync would run at the same time.
@@ -81,7 +89,7 @@ New features:
     * Handle conversation archival when user tries to upload an attachment on an archived conversation.
     * Fix a bug where the username was not updated on login for existing users.
     * Fixed a bug where toolbar title was overridden when using embeddable fragments.
-    * Fixed a bug where styling for Answer Bot suggestions was not working as expected.
+    * Fixed a bug where styling for QuickSearch Bot suggestions was not working as expected.
     * Fixed an edge case bug where reply box was displayed along with resolution question.
     * Fixed a bug where FAQ screen used to flicker when Dark mode theme is selected.
     * Fixed a edge case crash which would occur when attachment upload and message sync would run at the same time.
@@ -142,7 +150,7 @@ New features:
       * Added a new delegate callback displayAttachmentFile(Uri) (https://developers.helpshift.com/android/delegates/#helpshift-delegates-implementation) which will be triggered with a Uri object instead of a File on Android 10 & above.
       * Added a character limit of 100,000 on user messages.
       * Fixed a crash which occurred when a user opens the chat screen containing an attachment message and hardware acceleration was explicitly disabled in the app.
-      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through Answer Bot for some languages.
+      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through QuickSearch Bot for some languages.
       * Fixed a bug where the keyboard input type remains the same when a number/date input bot-message was interrupted by an agent.
       * Fixed a bug where the SDK UI was being displayed in the cutout area on some android phones with a notch.
 7.6.3-withCampaigns Release Date: October 10, 2019
@@ -153,7 +161,7 @@ New features:
       * Added a new delegate callback displayAttachmentFile(Uri) (https://developers.helpshift.com/android/delegates/#helpshift-delegates-implementation) which will be triggered with a Uri object instead of a File on Android 10 & above.
       * Added a character limit of 100,000 on user messages.
       * Fixed a crash which occurred when a user opens the chat screen containing an attachment message and hardware acceleration was explicitly disabled in the app.
-      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through Answer Bot for some languages.
+      * Fixed a bug where a blank screen was shown instead of the FAQ content when opened through QuickSearch Bot for some languages.
       * Fixed a bug where the keyboard input type remains the same when a number/date input bot-message was interrupted by an agent.
       * Fixed a bug where the SDK UI was being displayed in the cutout area on some android phones with a notch.
 7.6.2 Release Date: September 6, 2019
@@ -163,7 +171,7 @@ New features:
       * Fixed a bug where the prefill text shown in the reply box via conversationPrefillText API config wasn't being updated if changed in conversational issue filing mode.
       * Fixed an edge case bug where duplicate issues were being created in bad network scenarios.
       * Fixed an edge case bug where the typing indicator was shown indefinitely when the user replies to a bot.
-      * Fixed a bug where the Answer bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
+      * Fixed a bug where the QuickSearch Bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
 7.6.2-withCampaigns Release Date: September 6, 2019
       * Updated the rate limiting (https://developers.helpshift.com/android/notifications/#asynchronous-fetch-count) algorithm for getNotificationCount API. The API will allow one call when the user closes the conversation screen. This is to accommodate any custom requirements for showing the notification count in the app.
       * By default, hardware acceleration is now explicitly enabled in the manifest file for the SDK's ParentActivity. This prevents rendering issues of WebView on Android OS 5.1. If you're using embeddable fragments, refer https://developers.helpshift.com/android/support-tools/#embeddable-fragments-hardware-acceleration.
@@ -171,7 +179,7 @@ New features:
       * Fixed a bug where the prefill text shown in the reply box via conversationPrefillText API config wasn't being updated if changed in conversational issue filing mode.
       * Fixed an edge case bug where duplicate issues were being created in bad network scenarios.
       * Fixed an edge case bug where the typing indicator was shown indefinitely when the user replies to a bot.
-      * Fixed a bug where the Answer bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
+      * Fixed a bug where the QuickSearch Bot FAQ suggestions message wasn't shown as redacted while the user was on the chat screen.
 7.6.0 Release Date: July 30, 2019
       * Added support for targeting Android Q Beta 5 which includes support for the new scoped storage changes (https://developer.android.com/preview/privacy/scoped-storage).
       * Added support for messages and attachment redaction for SDKs. Messages and attachments which are redacted from the Agent dashboard will be removed from user's devices too.
@@ -313,7 +321,7 @@ New features:
       * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
       * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
       * Introduced 'userauthtoken', which is an HMAC digest used to ensure that the requests are coming from an authentic source (and not a malicious 3rd party).
-      * Introduced Answer Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
+      * Introduced QuickSearch Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
       * Enhanced UI and support for voiceover.
       * Deprecated the `setNameAndEmail()`, `setUserIdentifier()` and the existing `login()` APIs. Please use the new Login API.
       * Deprecated the configurations `conversationPrefillText`, `requireEmail`, `hideNameAndEmail`, `goToConversationAfterContactUs`, `showSearchOnNewConversation` along with the Form-based Issue filing experience. (https://support.helpshift.com/kb/article/april-2018-sdks/)
@@ -330,7 +338,7 @@ New features:
       * Introduced a new and enhanced Login API for name, email, user identifier for your end users.
       * Introduced the ability to use the 'Email' field as a means of identifying users, so that email addresses don't have to be passed to the 'UserID' field.
       * Introduced 'userauthtoken', which is an HMAC digest used to ensure that the requests are coming from an authentic source (and not a malicious 3rd party).
-      * Introduced Answer Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
+      * Introduced QuickSearch Bot (https://support.helpshift.com/kb/article/what-is-the-answer-bot-and-how-does-it-work/) and Identity Bot (https://support.helpshift.com/kb/article/what-is-the-identity-bot-and-how-does-it-work/) for in-app messaging SDKs.
       * Enhanced UI and support for voiceover.
       * Deprecated the `setNameAndEmail()`, `setUserIdentifier()` and the existing `login()` APIs. Please use the new Login API.
       * Deprecated the configurations `conversationPrefillText`, `requireEmail`, `hideNameAndEmail`, `goToConversationAfterContactUs`, `showSearchOnNewConversation` along with the Form-based Issue filing experience. (https://support.helpshift.com/kb/article/april-2018-sdks/)
